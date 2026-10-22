@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 全景知识图谱 · 全图交互</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: #0e1117;
+    font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; color: #dbe1ea; }
+  #graph-container { position: absolute; inset: 0; }
+  #loading { position: absolute; inset: 0; background: #0e1117; z-index: 100;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; }
+  #loading h1 { font-size: 22px; font-weight: 600; }
+  #loading .bar { width: 320px; height: 6px; background: #232a36; border-radius: 3px; overflow: hidden; }
+  #loading .bar i { display: block; height: 100%; width: 0%; background: #3b82f6; transition: width .2s; }
+  #loading .msg { font-size: 13px; color: #8b95a7; }
+  #loading .err { color: #f87171; max-width: 640px; white-space: pre-wrap; font-size: 12px; }
+
+  #topbar { position: absolute; top: 0; left: 0; right: 0; height: 52px; z-index: 20;
+    display: flex; align-items: center; gap: 10px; padding: 0 14px;
+    background: rgba(14,17,23,.88); border-bottom: 1px solid #232a36; backdrop-filter: blur(6px); }
+  #topbar .title { font-size: 15px; font-weight: 600; white-space: nowrap; }
+  #topbar .stats { font-size: 12px; color: #8b95a7; white-space: nowrap; }
+  #searchwrap { position: relative; flex: 0 1 360px; }
+  #search { width: 100%; height: 32px; padding: 0 12px; border-radius: 6px; border: 1px solid #2c3545;
+    background: #171c26; color: #dbe1ea; font-size: 13px; outline: none; }
+  #search:focus { border-color: #3b82f6; }
+  #searchdrop { position: absolute; top: 36px; left: 0; right: 0; max-height: 320px; overflow-y: auto;
+    background: #171c26; border: 1px solid #2c3545; border-radius: 6px; display: none; z-index: 30; }
+  #searchdrop .si { padding: 7px 12px; font-size: 13px; cursor: pointer; display: flex; gap: 8px; align-items: center; }
+  #searchdrop .si:hover { background: #232c3d; }
+  #searchdrop .si .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  #searchdrop .si .ty { color: #8b95a7; font-size: 11px; }
+  .btn { height: 32px; padding: 0 12px; border-radius: 6px; border: 1px solid #2c3545; background: #171c26;
+    color: #dbe1ea; font-size: 13px; cursor: pointer; white-space: nowrap; }
+  .btn:hover { background: #232c3d; }
+  .btn.acc { border-color: #3b82f6; color: #93c5fd; }
+  #topbar .spacer { flex: 1; }
+  #topbar a.plain { color: #8b95a7; font-size: 13px; text-decoration: none; }
+  #topbar a.plain:hover { color: #dbe1ea; }
+
+  #sidebar { position: absolute; top: 60px; left: 12px; width: 232px; bottom: 12px; z-index: 15;
+    background: rgba(17,22,31,.92); border: 1px solid #232a36; border-radius: 10px;
+    display: flex; flex-direction: column; overflow: hidden; backdrop-filter: blur(6px); }
+  #sidebar .sec { border-bottom: 1px solid #1d2431; padding: 10px 12px; }
+  #sidebar .sec h3 { font-size: 12px; color: #8b95a7; font-weight: 600; margin-bottom: 8px;
+    display: flex; justify-content: space-between; align-items: center; }
+  #sidebar .sec h3 .mini { font-size: 11px; color: #5b6577; cursor: pointer; font-weight: 400; }
+  #sidebar .sec h3 .mini:hover { color: #93c5fd; }
+  #scrollarea { flex: 1; overflow-y: auto; }
+  #scrollarea::-webkit-scrollbar { width: 8px; }
+  #scrollarea::-webkit-scrollbar-thumb { background: #2c3545; border-radius: 4px; }
+  .fitem { display: flex; align-items: center; gap: 7px; font-size: 12.5px; padding: 3px 0; cursor: pointer;
+    user-select: none; }
+  .fitem .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+  .fitem .cnt { margin-left: auto; color: #5b6577; font-size: 11px; }
+  .fitem input { accent-color: #3b82f6; }
+  .fitem.off { opacity: .35; }
+  #yearbox { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+  #yearbox input[type=number] { width: 58px; height: 26px; background: #171c26; border: 1px solid #2c3545;
+    border-radius: 5px; color: #dbe1ea; padding: 0 6px; font-size: 12px; }
+  #yernote { font-size: 11px; color: #5b6577; margin-top: 4px; }
+
+  #pathsec .row { display: flex; gap: 6px; margin-bottom: 6px; }
+  #pathsec input { flex: 1; min-width: 0; height: 28px; background: #171c26; border: 1px solid #2c3545;
+    border-radius: 5px; color: #dbe1ea; padding: 0 8px; font-size: 12px; outline: none; }
+  #pathsec input:focus { border-color: #3b82f6; }
+  .pdrop { position: absolute; background: #171c26; border: 1px solid #2c3545; border-radius: 6px;
+    max-height: 220px; overflow-y: auto; z-index: 40; display: none; min-width: 180px; }
+  .pdrop .si { padding: 6px 10px; font-size: 12px; cursor: pointer; }
+  .pdrop .si:hover { background: #232c3d; }
+  #pathresult { font-size: 12px; margin-top: 6px; color: #fbbf24; line-height: 1.6; display: none; }
+
+  #detail { position: absolute; top: 60px; right: 12px; width: 340px; max-height: calc(100% - 72px); z-index: 15;
+    background: rgba(17,22,31,.94); border: 1px solid #232a36; border-radius: 10px;
+    display: none; flex-direction: column; backdrop-filter: blur(6px); }
+  #detail.show { display: flex; }
+  #detail .head { padding: 12px 14px 8px; border-bottom: 1px solid #1d2431; display: flex; align-items: flex-start; gap: 8px; }
+  #detail .head .nm { font-size: 16px; font-weight: 600; line-height: 1.35; flex: 1; }
+  #detail .head .x { cursor: pointer; color: #5b6577; font-size: 16px; line-height: 1; padding: 2px; }
+  #detail .head .x:hover { color: #dbe1ea; }
+  #detail .tags { display: flex; gap: 6px; flex-wrap: wrap; padding: 8px 14px 0; }
+  #detail .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #1d2431; color: #9aa5b8; }
+  #detail .body { padding: 10px 14px 14px; overflow-y: auto; font-size: 13px; line-height: 1.7; }
+  #detail .desc { color: #c3cbd9; margin-top: 6px; word-break: break-word; }
+  #detail .nolink { color: #5b6577; font-size: 12px; }
+  #detail .lk { display: inline-block; margin-top: 8px; padding: 5px 12px; border-radius: 6px;
+    background: #1d3a6e; color: #93c5fd; text-decoration: none; font-size: 12.5px; }
+  #detail .lk:hover { background: #24498c; }
+  #detail h4 { font-size: 12px; color: #8b95a7; margin: 14px 0 6px; }
+  #detail .nb { display: flex; flex-wrap: wrap; gap: 5px; }
+  #detail .nb span { font-size: 11.5px; padding: 3px 8px; border-radius: 5px; background: #1d2431;
+    color: #aeb8ca; cursor: pointer; }
+  #detail .nb span:hover { background: #2a3550; color: #dbe1ea; }
+  #detail .nb span em { font-style: normal; color: #5b6577; margin-left: 4px; font-size: 10.5px; }
+
+  #hint { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 10;
+    font-size: 11.5px; color: #5b6577; background: rgba(14,17,23,.6); padding: 4px 12px; border-radius: 999px;
+    pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="graph-container"></div>
+
+<div id="loading">
+  <h1>AI 全景知识图谱</h1>
+  <div class="bar"><i id="barfill"></i></div>
+  <div class="msg" id="loadmsg">正在加载…</div>
+  <div class="err" id="loaderr"></div>
+</div>
+
+<header id="topbar">
+  <span class="title">AI 全景知识图谱</span>
+  <span class="stats" id="stats"></span>
+  <div id="searchwrap">
+    <input id="search" placeholder="搜索实体名，回车或点选定位…" autocomplete="off">
+    <div id="searchdrop"></div>
+  </div>
+  <button class="btn" id="btn-reset-view" title="回到全图并清除高亮">重置视图</button>
+  <button class="btn" id="btn-fullscreen">全屏</button>
+  <span class="spacer"></span>
+  <a class="plain" href="graph3d.html">3D 视图</a>
+  <a class="plain" href="../图谱HTML/全景_AI知识图谱.html" target="_blank">旧版 10 图</a>
+</header>
+
+<aside id="sidebar">
+  <div class="sec" id="pathsec">
+    <h3>关系路径查找 <span class="mini" id="path-clear" title="清除路径">清除</span></h3>
+    <div class="row"><input id="pathA" placeholder="起点实体" autocomplete="off"><input id="pathB" placeholder="终点实体" autocomplete="off"></div>
+    <div class="row"><button class="btn acc" id="path-go" style="flex:1">找最短路径</button></div>
+    <div class="pdrop" id="dropA"></div>
+    <div class="pdrop" id="dropB"></div>
+    <div id="pathresult"></div>
+  </div>
+  <div id="scrollarea">
+    <div class="sec">
+      <h3>年份 <span id="yearrange" style="color:#93c5fd;font-weight:400"></span></h3>
+      <div id="yearbox">
+        <input type="number" id="yearMin"><span>—</span><input type="number" id="yearMax">
+      </div>
+      <div id="yernote">收窄区间后，无 year 字段的节点将被隐藏</div>
+    </div>
+    <div class="sec">
+      <h3>实体类型 <span class="mini" id="type-all">全选</span></h3>
+      <div id="typelist"></div>
+    </div>
+    <div class="sec">
+      <h3>关系类型 <span class="mini" id="rel-all">全选</span></h3>
+      <div id="rellist" style="max-height:180px;overflow-y:auto"></div>
+    </div>
+    <div class="sec">
+      <h3>维度 <span class="mini" id="dim-all">全选</span></h3>
+      <div id="dimlist"></div>
+    </div>
+  </div>
+</aside>
+
+<div id="detail">
+  <div class="head"><div class="nm" id="d-name"></div><span class="x" id="d-close">✕</span></div>
+  <div class="tags" id="d-tags"></div>
+  <div class="body">
+    <div class="desc" id="d-desc"></div>
+    <div id="d-link"></div>
+    <h4>相邻实体（按度数）</h4>
+    <div class="nb" id="d-nb"></div>
+  </div>
+</div>
+
+<div id="hint">滚轮缩放 · 拖拽平移 · 拖节点调整 · 点节点看详情 · 悬停高亮邻域</div>
+
+<script src="vendor/graphology.min.js"></script>
+<script src="vendor/sigma.min.js"></script>
+<script>
+'use strict';
+/* ================= 常量 ================= */
+const TYPE_CN = {concept:'概念',company:'公司',event:'事件',person:'人物',product:'产品',model:'模型',
+  institution:'机构',project:'项目',region:'地域',hardware:'硬件',dataset:'数据集',benchmark:'基准',
+  policy:'政策',year:'年份',investor:'投资方',paper:'论文',standard:'标准',award:'奖项',conference:'会议',site:'站点'};
+const TYPE_COLOR = {concept:'#3B82F6',company:'#F97316',event:'#EF4444',person:'#A855F7',product:'#06B6D4',
+  model:'#22C55E',institution:'#EAB308',project:'#14B8A6',region:'#EC4899',hardware:'#92400E',dataset:'#84CC16',
+  benchmark:'#D97706',policy:'#B91C1C',year:'#64748B',investor:'#6366F1',paper:'#0D9488',standard:'#A16207',
+  award:'#FACC15',conference:'#475569',site:'#64748B'};
+const REL_CN = {related:'关联',timeline:'时间线',player:'参与',derived_from:'衍生',competition:'竞争',
+  coop:'合作',mna:'并购',invested:'投资',flow:'资金流',supply:'供应',headquarters:'总部',participant:'参会',
+  alumni:'出身',contains:'包含',founder_from:'创始',track:'赛道',theme:'主题',pricing:'定价',base_model:'基座',
+  benchmark:'评测',distribution:'发行',product:'产品线',technology:'技术',partner:'伙伴'};
+const REL_COLOR = {related:'#3a4354',timeline:'#2d4a6b',player:'#39424f',derived_from:'#5b4a7a',
+  competition:'#6b3a2d',coop:'#2d6b4a',mna:'#7a2d2d',invested:'#2d6b3a'};
+const FOCUS_EDGE = '#93c5fd', PATH_COLOR = '#F59E0B', DIM_NODE = '#252c3a';
+
+/* ================= 全局状态 ================= */
+const state = {
+  types: new Set(), rels: new Set(), dims: new Set(),
+  yearMin: -1e9, yearMax: 1e9, yearActive: false,
+  visibleNodes: new Set(), visibleEdges: new Set(),
+  selected: null, hovered: null, focusNeighbors: new Set(),
+  pathIds: null, pathEdges: null,
+};
+let DATA, nodesById, adj, edgeMeta, indexById, SIGMA, CAMERA;
+const idx = new Map();      // id -> 节点在数组里的下标
+const deg = new Map();      // id -> 度数
+
+/* ================= 工具 ================= */
+const $ = (s) => document.querySelector(s);
+const fmt = (n) => n.toLocaleString('en-US');
+const typeCN = (t) => TYPE_CN[t] || t;
+const relCN = (t) => REL_CN[t] || t;
+function typeColor(t) { return TYPE_COLOR[t] || '#7b8494'; }
+function relColor(t) { return REL_COLOR[t] || '#333c4d'; }
+function rgba(hex, a) {
+  const v = parseInt(hex.slice(1), 16);
+  return `rgba(${(v>>16)&255},${(v>>8)&255},${v&255},${a})`;
+}
+
+/* ================= 自写力导布局（网格加速） ================= */
+async function computeLayout(ids, edges, onProgress) {
+  const n = ids.length;
+  const R = 34 * Math.sqrt(n);                 // 初始散布半径
+  for (let i = 0; i < n; i++) {
+    const a = Math.random() * Math.PI * 2, r = Math.sqrt(Math.random()) * R;
+    posOf[ids[i]] = { x: Math.cos(a) * r, y: Math.sin(a) * r * 0.85 };
+  }
+  const pos = posOf;
+  const K = 26, CELL = 30, GRAV = 0.055, ITER = 300, T0 = 42;
+  const fx = new Float64Array(n), fy = new Float64Array(n);
+  const gx = new Float64Array(n), gy = new Float64Array(n);
+  ids.forEach((id, i) => { gx[i] = pos[id].x; gy[i] = pos[id].y; });
+
+  for (let it = 0; it < ITER; it++) {
+    fx.fill(0); fy.fill(0);
+    // 空间网格
+    const grid = new Map();
+    for (let i = 0; i < n; i++) {
+      const key = Math.floor(gx[i] / CELL) + ',' + Math.floor(gy[i] / CELL);
+      let arr = grid.get(key); if (!arr) grid.set(key, arr = []);
+      arr.push(i);
+    }
+    // 斥力（3x3 邻域）
+    for (let i = 0; i < n; i++) {
+      const cx = Math.floor(gx[i] / CELL), cy = Math.floor(gy[i] / CELL);
+      for (let dx = -1; dx <= 1; dx++) for (let dy = -1; dy <= 1; dy++) {
+        const arr = grid.get((cx+dx)+','+(cy+dy)); if (!arr) continue;
+        for (const j of arr) {
+          if (j <= i) continue;
+          let ddx = gx[i]-gx[j], ddy = gy[i]-gy[j];
+          let d2 = ddx*ddx + ddy*ddy; if (d2 < 0.01) { d2 = 0.01; ddx = 0.1; ddy = 0.1; }
+          const d = Math.sqrt(d2), f = (K*K)/d;
+          const ux = ddx/d, uy = ddy/d;
+          fx[i] += ux*f; fy[i] += uy*f; fx[j] -= ux*f; fy[j] -= uy*f;
+        }
+      }
+    }
+    // 引力（沿边）
+    for (const [s, t] of edges) {
+      const a = idx.get(s), b = idx.get(t);
+      const ddx = gx[b]-gx[a], ddy = gy[b]-gy[a];
+      const d = Math.max(1, Math.hypot(ddx, ddy)), f = d/K;
+      const ux = ddx/d, uy = ddy/d;
+      fx[a] += ux*f; fy[a] += uy*f; fx[b] -= ux*f; fy[b] -= uy*f;
+    }
+    // 重力 + 限温位移
+    const T = 2 + (T0-2) * (1 - it/ITER);
+    for (let i = 0; i < n; i++) {
+      fx[i] -= gx[i]*GRAV; fy[i] -= gy[i]*GRAV;
+      let vx = fx[i], vy = fy[i];
+      const m = Math.hypot(vx, vy);
+      if (m > T) { vx = vx/m*T; vy = vy/m*T; }
+      gx[i] += vx; gy[i] += vy;
+    }
+    if (it % 40 === 0) { onProgress(it/ITER); await new Promise(r => requestAnimationFrame(r)); }
+  }
+  ids.forEach((id, i) => { pos[id].x = gx[i]; pos[id].y = gy[i]; });
+}
+const posOf = {};   // 须在 computeLayout 前声明（提升的 const 不行，放这里供函数内引用）
+
+/* ================= BFS 最短路径 ================= */
+function shortestPath(a, b) {
+  if (a === b) return { nodes: [a], edges: [], chain: [] };
+  const prev = new Map([[a, null]]);
+  const q = [a]; let head = 0;
+  while (head < q.length) {
+    const cur = q[head++];
+    for (const e of (adj.get(cur) || [])) {
+      if (prev.has(e.t)) continue;
+      prev.set(e.t, { node: cur, edge: e.e, rel: e.rel });
+      if (e.t === b) {
+        const nodes = [b], edges = [], chain = [];
+        let c = b;
+        while (prev.get(c)) {
+          const p = prev.get(c);
+          edges.unshift(p.edge); nodes.unshift(p.node);
+          chain.unshift({ from: p.node, to: c, rel: p.rel });
+          c = p.node;
+        }
+        return { nodes, edges, chain };
+      }
+      q.push(e.t);
+    }
+  }
+  return null;
+}
+
+/* ================= 筛选与统计 ================= */
+function nodePasses(id) {
+  const n = nodesById.get(id);
+  if (!state.types.has(n.type)) return false;
+  if (!state.dims.has(n.dim)) return false;
+  if (state.yearActive) {
+    const y = n.year;
+    if (typeof y !== 'number' || y < state.yearMin || y > state.yearMax) return false;
+  }
+  return true;
+}
+function applyFilters() {
+  state.visibleNodes = new Set(); state.visibleEdges = new Set();
+  for (const id of nodesById.keys()) if (nodePasses(id)) state.visibleNodes.add(id);
+  for (const [eid, m] of edgeMeta) {
+    if (state.rels.has(m.rel) && state.visibleNodes.has(m.s) && state.visibleNodes.has(m.t))
+      state.visibleEdges.add(eid);
+  }
+  updateStats();
+}
+let totalE = 0;
+function updateStats() {
+  $('#stats').textContent = `轮${DATA.meta && DATA.meta.notes && DATA.meta.notes.round || 614} · 节点 ${fmt(state.visibleNodes.size)}/${fmt(nodesById.size)} · 边 ${fmt(state.visibleEdges.size)}/${fmt(totalE)}`;
+}
+
+/* ================= 聚焦（选中/悬停）邻域 ================= */
+function setFocus(id) {
+  state.focusNeighbors = new Set();
+  if (id) for (const e of (adj.get(id) || [])) if (state.visibleNodes.has(e.t)) state.focusNeighbors.add(e.t);
+}
+
+/* ================= sigma reducers ================= */
+function nodeReducer(id, data) {
+  const res = Object.assign({}, data);
+  if (state.pathIds) {
+    if (state.pathIds.has(id)) { res.highlighted = true; res.color = PATH_COLOR; res.size = Math.max(data.size, 9); res.forceLabel = true; }
+    else res.hidden = true;
+    return res;
+  }
+  if (!state.visibleNodes.has(id)) { res.hidden = true; return res; }
+  const focus = state.hovered || state.selected;
+  if (focus && focus !== id && !state.focusNeighbors.has(id)) {
+    res.color = DIM_NODE; res.label = null; res.size = Math.max(1.2, data.size * 0.5);
+  } else if (id === state.selected || id === state.hovered) {
+    res.highlighted = true; res.forceLabel = true;
+  }
+  return res;
+}
+function edgeReducer(eid, data) {
+  if (state.pathEdges) {
+    if (state.pathEdges.has(eid)) return Object.assign({}, data, { color: PATH_COLOR, size: 3, hidden: false });
+    return { hidden: true };
+  }
+  if (!state.visibleEdges.has(eid)) return { hidden: true };
+  const focus = state.hovered || state.selected;
+  if (focus) {
+    const m = edgeMeta.get(eid);
+    if (m.s !== focus && m.t !== focus) return { hidden: true };
+    // 枢纽节点邻域过大时不再高亮边（星芒噪声），靠邻居节点+标签表达
+    if (state.focusNeighbors.size > 80) return { hidden: true };
+    return Object.assign({}, data, { color: 'rgba(147,197,253,0.35)', size: 1, hidden: false });
+  }
+  return data;
+}
+
+/* ================= UI：搜索下拉（复用） ================= */
+function attachSearch(inputEl, dropEl, onPick) {
+  let items = [];
+  const render = () => {
+    if (!items.length) { dropEl.style.display = 'none'; return; }
+    dropEl.innerHTML = items.map(([id, name, ty]) =>
+      `<div class="si" data-id="${id}"><span class="dot" style="background:${typeColor(ty)}"></span>${esc(name)} <span class="ty">${typeCN(ty)}</span></div>`).join('');
+    dropEl.style.display = 'block';
+    dropEl.querySelectorAll('.si').forEach(el => el.onclick = () => { dropEl.style.display = 'none'; inputEl.value = ''; onPick(el.dataset.id); });
+  };
+  inputEl.addEventListener('input', () => {
+    inputEl.dataset.pick = '';
+    const q = inputEl.value.trim().toLowerCase();
+    if (!q) { items = []; render(); return; }
+    items = [];
+    for (const [id, name, ty] of indexById) {
+      const nl = name.toLowerCase();
+      if (nl.startsWith(q)) { items.push([id, name, ty]); if (items.length >= 30) break; }
+    }
+    if (items.length < 30) for (const [id, name, ty] of indexById) {
+      const nl = name.toLowerCase();
+      if (!nl.startsWith(q) && nl.includes(q)) { items.push([id, name, ty]); if (items.length >= 30) break; }
+    }
+    render();
+  });
+  inputEl.addEventListener('blur', () => setTimeout(() => { dropEl.style.display = 'none'; }, 180));
+}
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+
+/* ================= 选中/详情 ================= */
+function selectNode(id, fly) {
+  state.selected = id; state.pathIds = null; state.pathEdges = null;
+  $('#pathresult').style.display = 'none';
+  setFocus(id);
+  showDetail(id);
+  if (SIGMA) SIGMA.refresh({ skipIndexation: true });
+  if (fly) flyTo(id);
+}
+function flyTo(id) {
+  const d = SIGMA.getNodeDisplayData(id);
+  if (d) CAMERA.animate({ x: d.x, y: d.y, ratio: Math.min(CAMERA.ratio, 0.06) }, { duration: 500 });
+}
+function showDetail(id) {
+  const n = nodesById.get(id);
+  $('#d-name').textContent = n.name;
+  const yr = typeof n.year === 'number' ? ` · ${n.year}` : '';
+  $('#d-tags').innerHTML =
+    `<span class="tag" style="color:${typeColor(n.type)}">${typeCN(n.type)}</span>` +
+    `<span class="tag">维度 ${n.dim}</span>` +
+    (yr ? `<span class="tag">${yr.slice(3)}</span>` : '') +
+    `<span class="tag">度 ${deg.get(id) || 0}</span>`;
+  $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
+  const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段（管线未并入 link，只读消费）
+  $('#d-link').innerHTML = src
+    ? `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`
+    : `<div class="nolink">无一手来源链接</div>`;
+  const nbs = (adj.get(id) || []).slice().sort((a, b) => (deg.get(b.t) || 0) - (deg.get(a.t) || 0)).slice(0, 24);
+  $('#d-nb').innerHTML = nbs.map(e =>
+    `<span data-id="${e.t}">${esc(nodesById.get(e.t).name)}<em>${relCN(e.rel)}</em></span>`).join('') || '<span style="color:#5b6577">无</span>';
+  $('#d-nb').querySelectorAll('span[data-id]').forEach(el => el.onclick = () => selectNode(el.dataset.id, true));
+  $('#detail').classList.add('show');
+}
+function clearSelection() {
+  state.selected = null; state.hovered = null; setFocus(null);
+  state.pathIds = null; state.pathEdges = null;
+  $('#detail').classList.remove('show');
+  $('#pathresult').style.display = 'none';
+  if (SIGMA) SIGMA.refresh({ skipIndexation: true });
+}
+
+/* ================= 相机适配全图 ================= */
+function fitCamera() {
+  try {
+    const bb = SIGMA.getGraphBBox();
+    const cx = (bb.x.min + bb.x.max) / 2, cy = (bb.y.min + bb.y.max) / 2;
+    const ratio = Math.max(bb.x.max - bb.x.min, bb.y.max - bb.y.min) * 1.12;
+    CAMERA.setState({ x: cx, y: cy, ratio });
+  } catch (e) { CAMERA.setState({ x: 0.5, y: 0.5, ratio: 1 }); }
+}
+
+/* ================= 主流程 ================= */
+(async function main() {
+  const t0 = performance.now();
+  const msg = $('#loadmsg'), bar = $('#barfill');
+  try {
+    msg.textContent = '加载 graph_data.json …';
+    const res = await fetch('../graph_data.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    DATA = await res.json();
+    const t1 = performance.now();
+
+    nodesById = new Map();
+    for (const n of DATA.nodes) nodesById.set(n.id, n);
+    for (let i = 0; i < DATA.nodes.length; i++) idx.set(DATA.nodes[i].id, i);
+    const idset = DATA.nodes.map(n => n.id);
+    totalE = DATA.links.length;
+
+    adj = new Map(); edgeMeta = new Map();
+    const seen = DATA.links.map((l, i) => ({ eid: 'e' + i, s: l.source, t: l.target, rel: l.type || 'related' }));
+    for (const e of seen) {
+      if (!nodesById.has(e.s) || !nodesById.has(e.t)) continue;   // 悬空防线（常态应为 0）
+      edgeMeta.set(e.eid, e);
+      if (!adj.has(e.s)) adj.set(e.s, []);
+      if (!adj.has(e.t)) adj.set(e.t, []);
+      adj.get(e.s).push({ t: e.t, rel: e.rel, e: e.eid });
+      adj.get(e.t).push({ t: e.s, rel: e.rel, e: e.eid });
+    }
+    for (const id of idset) deg.set(id, (adj.get(id) || []).length);
+
+    indexById = idset.map(id => [id, nodesById.get(id).name, nodesById.get(id).type]);
+
+    // ---- 统计各筛选维度 ----
+    const typeCnt = new Map(), relCnt = new Map(), dimCnt = new Map();
+    let yMin = Infinity, yMax = -Infinity;
+    for (const n of DATA.nodes) {
+      typeCnt.set(n.type, (typeCnt.get(n.type) || 0) + 1);
+      dimCnt.set(n.dim, (dimCnt.get(n.dim) || 0) + 1);
+      if (typeof n.year === 'number') { yMin = Math.min(yMin, n.year); yMax = Math.max(yMax, n.year); }
+    }
+    for (const [, m] of edgeMeta) relCnt.set(m.rel, (relCnt.get(m.rel) || 0) + 1);
+    state.types = new Set(typeCnt.keys());
+    state.rels = new Set(relCnt.keys());
+    state.dims = new Set(dimCnt.keys());
+    state.yearMin = yMin; state.yearMax = yMax;
+
+    // ---- 布局 ----
+    msg.textContent = '计算力导布局（1 万节点，约几秒）…';
+    const ePairs = [...edgeMeta.values()].map(m => [m.s, m.t]);
+    await computeLayout(idset, ePairs, (p) => { bar.style.width = (10 + p * 55) + '%'; msg.textContent = `计算力导布局 … ${Math.round(p*100)}%`; });
+    const t2 = performance.now();
+
+    // ---- 建 graphology 图并渲染 ----
+    msg.textContent = '构建 WebGL 渲染 …';
+    const GraphCtor = window.graphology.Graph || window.graphology.default.Graph;
+    const SigmaCtor = window.Sigma.default || window.Sigma;
+    const graph = new GraphCtor({ multi: true, type: 'undirected' });
+    for (const n of DATA.nodes) {
+      const d = deg.get(n.id) || 0;
+      graph.addNode(n.id, {
+        label: n.name, x: posOf[n.id].x, y: posOf[n.id].y,
+        size: Math.min(24, Math.max(3, 2 + 2.6 * Math.log2(1 + d))),
+        color: typeColor(n.type),
+      });
+    }
+    for (const [eid, m] of edgeMeta) {
+      graph.addEdgeWithKey(eid, m.s, m.t, { size: 0.8, color: rgba(relColor(m.rel), 0.22) });
+    }
+
+    applyFilters();
+
+    SIGMA = new SigmaCtor(graph, $('#graph-container'), {
+      allowInvalidContainer: true,
+      labelColor: { color: '#c8d2e0' },
+      labelSize: 13,
+      labelWeight: '500',
+      labelRenderedSizeThreshold: 15,
+      defaultEdgeType: 'line',
+      renderEdgeLabels: false,
+      enableEdgeHoverEvents: false,
+      minCameraRatio: 0.001,
+      maxCameraRatio: 10,
+      nodeReducer, edgeReducer,
+    });
+    CAMERA = SIGMA.getCamera();
+    fitCamera();
+    const t3 = performance.now();
+
+    // ---- 事件 ----
+    SIGMA.on('clickNode', ({ node }) => selectNode(node, false));
+    SIGMA.on('clickStage', () => clearSelection());
+    SIGMA.on('enterNode', ({ node }) => { state.hovered = node; setFocus(node); SIGMA.refresh({ skipIndexation: true }); });
+    SIGMA.on('leaveNode', () => { state.hovered = null; setFocus(state.selected); SIGMA.refresh({ skipIndexation: true }); });
+
+    // ---- 筛选 UI ----
+    const yminEl = $('#yearMin'), ymaxEl = $('#yearMax');
+    yminEl.value = yMin; ymaxEl.value = yMax;
+    $('#yearrange').textContent = `${yMin} — ${yMax}`;
+    const onYear = () => {
+      const a = +yminEl.value, b = +ymaxEl.value;
+      state.yearActive = (a > yMin || b < yMax);
+      state.yearMin = a; state.yearMax = b;
+      applyFilters(); SIGMA.refresh({ skipIndexation: true });
+    };
+    yminEl.addEventListener('change', onYear); ymaxEl.addEventListener('change', onYear);
+
+    const mkList = (el, entries, colorFn, cnFn, setRef, allBtn, numeric) => {
+      const keyOf = (cb) => numeric ? +cb.dataset.k : cb.dataset.k;
+      el.innerHTML = entries.map(([k, c]) =>
+        `<label class="fitem"><input type="checkbox" checked data-k="${k}"><span class="dot" style="background:${colorFn(k)}"></span>${cnFn(k)}<span class="cnt">${fmt(c)}</span></label>`).join('');
+      el.querySelectorAll('input').forEach(cb => cb.addEventListener('change', () => {
+        const k = keyOf(cb);
+        if (cb.checked) setRef.add(k); else setRef.delete(k);
+        cb.closest('.fitem').classList.toggle('off', !cb.checked);
+        applyFilters(); SIGMA.refresh({ skipIndexation: true });
+      }));
+      allBtn.onclick = () => {
+        entries.forEach(([k]) => setRef.add(k));
+        el.querySelectorAll('input').forEach(cb => { cb.checked = true; cb.closest('.fitem').classList.remove('off'); });
+        applyFilters(); SIGMA.refresh({ skipIndexation: true });
+      };
+    };
+    mkList($('#typelist'), [...typeCnt].sort((a, b) => b[1] - a[1]), typeColor, typeCN, state.types, $('#type-all'));
+    mkList($('#rellist'), [...relCnt].sort((a, b) => b[1] - a[1]), relColor, relCN, state.rels, $('#rel-all'));
+    mkList($('#dimlist'), [...dimCnt].sort((a, b) => String(a[0]).localeCompare(String(b[0]), 'zh', { numeric: true })),
+      () => '#5b8def', (d) => '维度 ' + d, state.dims, $('#dim-all'), true);
+
+    // ---- 路径 ----
+    attachSearch($('#pathA'), $('#dropA'), (id) => { $('#pathA').dataset.pick = id; $('#pathA').value = nodesById.get(id).name; });
+    attachSearch($('#pathB'), $('#dropB'), (id) => { $('#pathB').dataset.pick = id; $('#pathB').value = nodesById.get(id).name; });
+    $('#pathA').addEventListener('blur', () => setTimeout(() => { if (!$('#pathA').dataset.pick) $('#pathA').value = ''; }, 200));
+    $('#pathB').addEventListener('blur', () => setTimeout(() => { if (!$('#pathB').dataset.pick) $('#pathB').value = ''; }, 200));
+    $('#path-go').onclick = () => {
+      const a = $('#pathA').dataset.pick, b = $('#pathB').dataset.pick;
+      const out = $('#pathresult');
+      if (!a || !b) { out.style.display = 'block'; out.textContent = '请先从下拉中选定起点与终点'; return; }
+      const r = shortestPath(a, b);
+      if (!r) { out.style.display = 'block'; out.textContent = '两实体之间无连通路径'; return; }
+      state.pathIds = new Set(r.nodes); state.pathEdges = new Set(r.edges);
+      state.selected = null; state.hovered = null; setFocus(null);
+      $('#detail').classList.remove('show');
+      out.style.display = 'block';
+      out.innerHTML = `路径 ${r.nodes.length} 节点 / ${r.edges.length} 跳：<br>` + r.chain.map(s =>
+        `${esc(nodesById.get(s.from).name)} <b>—${relCN(s.rel)}→</b> `).join('') + esc(nodesById.get(b).name);
+      // 相机对准路径
+      const ds = r.nodes.map(id => SIGMA.getNodeDisplayData(id)).filter(Boolean);
+      if (ds.length) {
+        let x0 = 1, x1 = 0, y0 = 1, y1 = 0;
+        for (const d of ds) { x0 = Math.min(x0, d.x); x1 = Math.max(x1, d.x); y0 = Math.min(y0, d.y); y1 = Math.max(y1, d.y); }
+        CAMERA.animate({ x: (x0+x1)/2, y: (y0+y1)/2, ratio: Math.max(0.02, Math.max(x1-x0, y1-y0) * 1.5) }, { duration: 600 });
+      }
+      SIGMA.refresh({ skipIndexation: true });
+    };
+    $('#path-clear').onclick = () => {
+      state.pathIds = null; state.pathEdges = null;
+      $('#pathresult').style.display = 'none';
+      SIGMA.refresh({ skipIndexation: true });
+    };
+
+    // ---- 顶栏 ----
+    $('#btn-reset-view').onclick = () => { clearSelection(); fitCamera(); };
+    $('#btn-fullscreen').onclick = () => {
+      if (document.fullscreenElement) document.exitFullscreen();
+      else document.documentElement.requestFullscreen();
+    };
+    attachSearch($('#search'), $('#searchdrop'), (id) => selectNode(id, true));
+    $('#search').addEventListener('keydown', (ev) => {
+      if (ev.key !== 'Enter') return;
+      const q = $('#search').value.trim().toLowerCase();
+      if (!q) return;
+      let first = null;
+      for (const [id, name] of indexById) if (name.toLowerCase().includes(q)) { first = id; break; }
+      if (first) { $('#searchdrop').style.display = 'none'; $('#search').value = ''; selectNode(first, true); }
+    });
+    $('#d-close').onclick = clearSelection;
+
+    updateStats();
+    window.__KG = { SIGMA, state };   // 调试/验收探针
+    bar.style.width = '100%';
+    const secs = ((t3 - t0) / 1000).toFixed(2);
+    console.log(`[前端] 解析 ${((t1-t0)/1000).toFixed(2)}s · 布局 ${((t2-t1)/1000).toFixed(2)}s · 渲染 ${((t3-t2)/1000).toFixed(2)}s · 首屏合计 ${secs}s`);
+    setTimeout(() => { $('#loading').style.display = 'none'; }, 250);
+  } catch (err) {
+    $('#loaderr').textContent = '加载失败：' + (err && err.message || err) + '\n' + (err && err.stack || '');
+    msg.textContent = '出错';
+  }
+})();
+</script>
+</body>
+</html>

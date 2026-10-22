@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 全景知识图谱 · 3D 视图</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 100%; height: 100%; overflow: hidden; background: #0b0e14;
+    font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; color: #dbe1ea; }
+  #c { position: absolute; inset: 0; }
+  #topbar { position: absolute; top: 0; left: 0; right: 0; height: 50px; z-index: 20;
+    display: flex; align-items: center; gap: 10px; padding: 0 14px;
+    background: rgba(11,14,20,.75); border-bottom: 1px solid #232a36; }
+  #topbar .title { font-size: 15px; font-weight: 600; }
+  #topbar .sub { font-size: 12px; color: #8b95a7; }
+  .btn { height: 30px; padding: 0 12px; border-radius: 6px; border: 1px solid #2c3545; background: #171c26;
+    color: #dbe1ea; font-size: 13px; cursor: pointer; }
+  .btn:hover { background: #232c3d; }
+  #searchwrap { position: relative; flex: 0 1 320px; margin-left: 12px; }
+  #search { width: 100%; height: 30px; padding: 0 12px; border-radius: 6px; border: 1px solid #2c3545;
+    background: #171c26; color: #dbe1ea; font-size: 13px; outline: none; }
+  #search:focus { border-color: #3b82f6; }
+  #searchdrop { position: absolute; top: 34px; left: 0; right: 0; max-height: 300px; overflow-y: auto;
+    background: #171c26; border: 1px solid #2c3545; border-radius: 6px; display: none; z-index: 30; }
+  #searchdrop .si { padding: 6px 12px; font-size: 13px; cursor: pointer; display: flex; gap: 8px; align-items: center; }
+  #searchdrop .si:hover { background: #232c3d; }
+  #searchdrop .si .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  #searchdrop .si .ty { color: #8b95a7; font-size: 11px; }
+  #topbar .spacer { flex: 1; }
+  #topbar a.plain { color: #8b95a7; font-size: 13px; text-decoration: none; }
+  #topbar a.plain:hover { color: #dbe1ea; }
+
+  #detail { position: absolute; top: 60px; right: 12px; width: 320px; z-index: 15;
+    background: rgba(17,22,31,.92); border: 1px solid #232a36; border-radius: 10px;
+    display: none; padding: 14px 16px; }
+  #detail.show { display: block; }
+  #detail .nm { font-size: 16px; font-weight: 600; margin-bottom: 6px; display: flex; justify-content: space-between; }
+  #detail .nm .x { cursor: pointer; color: #5b6577; font-weight: 400; }
+  #detail .nm .x:hover { color: #dbe1ea; }
+  #detail .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: #1d2431; color: #9aa5b8;
+    display: inline-block; margin: 0 6px 6px 0; }
+  #detail .desc { font-size: 13px; line-height: 1.7; color: #c3cbd9; margin-top: 6px; word-break: break-word; }
+  #detail .lk { display: inline-block; margin-top: 10px; padding: 5px 12px; border-radius: 6px;
+    background: #1d3a6e; color: #93c5fd; text-decoration: none; font-size: 12.5px; }
+  #detail .lk:hover { background: #24498c; }
+  #hint { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 10;
+    font-size: 11.5px; color: #5b6577; pointer-events: none; }
+  #loading { position: absolute; inset: 0; z-index: 50; background: #0b0e14;
+    display: flex; align-items: center; justify-content: center; font-size: 15px; color: #8b95a7; }
+</style>
+</head>
+<body>
+<div id="c"></div>
+<div id="loading">AI 全景知识图谱 · 3D 数据加载中…</div>
+<header id="topbar">
+  <span class="title">AI 全景知识图谱 <span class="sub">· 3D 星系视图（展示用）</span></span>
+  <div id="searchwrap">
+    <input id="search" placeholder="搜索实体定位…" autocomplete="off">
+    <div id="searchdrop"></div>
+  </div>
+  <button class="btn" id="btn-rotate">自动旋转：开</button>
+  <span class="spacer"></span>
+  <a class="plain" href="index.html">← 2D 全功能视图</a>
+</header>
+<div id="detail">
+  <div class="nm"><span id="d-name"></span><span class="x" id="d-close">✕</span></div>
+  <div id="d-tags"></div>
+  <div class="desc" id="d-desc"></div>
+  <div id="d-link"></div>
+</div>
+<div id="hint">左键旋转 · 右键平移 · 滚轮缩放 · 点节点看详情</div>
+
+<script src="vendor/3d-force-graph.min.js"></script>
+<script>
+'use strict';
+const TYPE_CN = {concept:'概念',company:'公司',event:'事件',person:'人物',product:'产品',model:'模型',
+  institution:'机构',project:'项目',region:'地域',hardware:'硬件',dataset:'数据集',benchmark:'基准',
+  policy:'政策',year:'年份',investor:'投资方',paper:'论文',standard:'标准',award:'奖项',conference:'会议',site:'站点'};
+const TYPE_COLOR = {concept:'#3B82F6',company:'#F97316',event:'#EF4444',person:'#A855F7',product:'#06B6D4',
+  model:'#22C55E',institution:'#EAB308',project:'#14B8A6',region:'#EC4899',hardware:'#92400E',dataset:'#84CC16',
+  benchmark:'#D97706',policy:'#B91C1C',year:'#64748B',investor:'#6366F1',paper:'#0D9488',standard:'#A16207',
+  award:'#FACC15',conference:'#475569',site:'#64748B'};
+const REL_CN = {related:'关联',timeline:'时间线',player:'参与',derived_from:'衍生',competition:'竞争',
+  coop:'合作',mna:'并购',invested:'投资',flow:'资金流',supply:'供应',headquarters:'总部',participant:'参会',
+  alumni:'出身',contains:'包含',founder_from:'创始',track:'赛道',theme:'主题',pricing:'定价',base_model:'基座',
+  benchmark:'评测',distribution:'发行',product:'产品线',technology:'技术',partner:'伙伴'};
+const typeCN = (t) => TYPE_CN[t] || t;
+const relCN = (t) => REL_CN[t] || t;
+const typeColor = (t) => TYPE_COLOR[t] || '#7b8494';
+const esc = (s) => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const $ = (s) => document.querySelector(s);
+
+let FG, SELECTED;
+const index = [];   // [nodeObj, name, type]
+
+(async function main() {
+  try {
+    const res = await fetch('../graph_data.json');
+    const DATA = await res.json();
+
+    const deg = new Map();
+    for (const l of DATA.links) {
+      deg.set(l.source, (deg.get(l.source) || 0) + 1);
+      deg.set(l.target, (deg.get(l.target) || 0) + 1);
+    }
+    const nodes = DATA.nodes.map(n => ({
+      id: n.id, name: n.name, type: n.type, dim: n.dim, year: n.year, desc: n.desc, link: n.link, url: n.url,
+      color: typeColor(n.type),
+      val: 0.6 + Math.log2(1 + (deg.get(n.id) || 0)) * 0.8,
+    }));
+    const byId = new Map(nodes.map(n => [n.id, n]));
+    const links = DATA.links
+      .filter(l => byId.has(l.source) && byId.has(l.target))
+      .map(l => ({ source: l.source, target: l.target, rel: l.type || 'related' }));
+    for (const n of nodes) index.push([n, n.name, n.type]);
+
+    const FGctor = window.ForceGraph3D.default || window.ForceGraph3D;
+    FG = FGctor()($('#c'))
+      .backgroundColor('#0b0e14')
+      .graphData({ nodes, links })
+      .nodeColor((n) => n === SELECTED ? '#F59E0B' : n.color)
+      .nodeVal((n) => n.val)
+      .nodeLabel((n) => `<div style="font-size:12px">${esc(n.name)} <span style="color:#8b95a7">${typeCN(n.type)}${typeof n.year==='number'?' · '+n.year:''}</span></div>`)
+      .linkColor((l) => l.rel === 'timeline' ? 'rgba(80,110,150,0.16)' : 'rgba(140,150,170,0.10)')
+      .linkOpacity(0.55)
+      .linkWidth(0)
+      .onNodeClick((n) => { SELECTED = n; showDetail(n); FG.nodeColor(FG.nodeColor()); })
+      .onBackgroundClick(() => { SELECTED = null; $('#detail').classList.remove('show'); FG.nodeColor(FG.nodeColor()); });
+
+    FG.d3Force('charge').strength(-55);
+    FG.controls().autoRotate = true;
+    FG.controls().autoRotateSpeed = 0.5;
+    $('#loading').style.display = 'none';
+    bindSearch();
+  } catch (err) {
+    $('#loading').textContent = '加载失败：' + (err && err.message || err);
+  }
+})();
+
+function showDetail(n) {
+  $('#d-name').textContent = n.name;
+  $('#d-tags').innerHTML =
+    `<span class="tag" style="color:${typeColor(n.type)}">${typeCN(n.type)}</span>` +
+    `<span class="tag">维度 ${n.dim}</span>` +
+    (typeof n.year === 'number' ? `<span class="tag">${n.year}</span>` : '');
+  $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
+  const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段
+  $('#d-link').innerHTML = src
+    ? `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`
+    : '';
+  $('#detail').classList.add('show');
+}
+function bindSearch() {
+  const input = $('#search'), drop = $('#searchdrop');
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { drop.style.display = 'none'; return; }
+    const items = [];
+    for (const [n, name, ty] of index) {
+      if (name.toLowerCase().includes(q)) { items.push([n, name, ty]); if (items.length >= 30) break; }
+    }
+    if (!items.length) { drop.style.display = 'none'; return; }
+    drop.innerHTML = items.map(([n, name, ty]) =>
+      `<div class="si" data-id="${n.id}"><span class="dot" style="background:${typeColor(ty)}"></span>${esc(name)} <span class="ty">${typeCN(ty)}</span></div>`).join('');
+    drop.style.display = 'block';
+    drop.querySelectorAll('.si').forEach(el => el.onclick = () => {
+      drop.style.display = 'none'; input.value = '';
+      const n = el.dataset.id;
+      const node = index.find(([x]) => x.id === n)[0];
+      focusNode(node);
+    });
+  });
+  input.addEventListener('blur', () => setTimeout(() => drop.style.display = 'none', 180));
+}
+function focusNode(node) {
+  SELECTED = node; showDetail(node); FG.nodeColor(FG.nodeColor());
+  FG.cameraPosition(
+    { x: node.x + 60, y: node.y + 60, z: node.z + 160 },
+    node, 900);
+}
+$('#btn-rotate').onclick = () => {
+  const c = FG.controls();
+  c.autoRotate = !c.autoRotate;
+  $('#btn-rotate').textContent = '自动旋转：' + (c.autoRotate ? '开' : '关');
+};
+$('#d-close').onclick = () => { SELECTED = null; $('#detail').classList.remove('show'); FG.nodeColor(FG.nodeColor()); };
+</script>
+</body>
+</html>
