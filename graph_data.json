@@ -490,7 +490,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "华为自研达芬奇架构云端AI训练/推理芯片，出口管制下国产算力主力。",
+   "desc": "华为自研达芬奇架构云端AI训练/推理芯片，出口管制下国产算力主力。；后继 910C 2025 年量产接棒；华为 2025-09-18 全联接公布 950/960/970 昇腾路线图",
    "stage": "2019 起源 · 2025-2026 规模放量",
    "player": "华为；字节/阿里/美团等互联网客户",
    "url": "http://m.nbd.com.cn/articles/2026-09-17/4584260.html",
@@ -98208,7 +98208,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "2023 年底发布的 CDNA3 加速器，192GB HBM3（当时单卡最大显存之一），以大显存切入推理，是 NVIDIA 之外最具规模的第二供应。",
+   "desc": "2023 年底发布的 CDNA3 加速器，192GB HBM3（当时单卡最大显存之一），以大显存切入推理，是 NVIDIA 之外最具规模的第二供应。；已被 MI325X（2024-10-10 发布）与 MI355X（2025-06-12 发布）接棒（AMD 新闻稿）",
    "stage": "",
    "player": "",
    "url": "https://www.amd.com/en/blogs/2025/amd-instinct-mi350-series-and-beyond-accelerating-the-future-of-ai-and-hpc.html",
@@ -98432,7 +98432,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "出口管制切断 NVIDIA 先进对华供给后，华为 2022—2023 年推出的替代训练主力卡，成为中国大模型训练的国产主力，配套 CANN。",
+   "desc": "出口管制切断 NVIDIA 先进对华供给后，华为 2022—2023 年推出的替代训练主力卡，成为中国大模型训练的国产主力，配套 CANN。；后继 910C 2025 年量产接棒；华为 2025-09-18 全联接公布 950/960/970 昇腾路线图",
    "stage": "",
    "player": "",
    "url": "http://m.nbd.com.cn/articles/2026-09-17/4584260.html",
@@ -99200,7 +99200,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L42",
-   "desc": "中国个人信息保护基础性法律，2021-11-01施行，对标GDPR，第24条自动化决策条款约束算法推荐与AI画像。",
+   "desc": "中国个人信息保护基础性法律，2021-11-01施行，对标GDPR，第24条自动化决策条款约束算法推荐与AI画像。；2025-05-01 起配套《个人信息保护合规审计管理办法》施行，细化第 54/64 条审计义务（网信办）",
    "stage": "",
    "player": "",
    "url": "http://www.npc.gov.cn/",
@@ -160469,6 +160469,70 @@
    "year": 2026,
    "density": null,
    "extension": 2,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
+   "name": "英伟达 GTC 柏林主题演讲：Vera Rubin 全面投产、DSX POD AI 工厂与欧洲近 100 亿美元生态投入（2026-10-21）",
+   "type": "event",
+   "desc": "2026-10-21 黄仁勋GTC柏林演讲：Vera Rubin全面投产，发布DSX POD AI工厂套件，一年对欧洲生态投入近100亿美元、伙伴超1.2万家。",
+   "stage": "",
+   "player": "NVIDIA",
+   "url": "https://www.investing.com/news/transcripts/nvidia-at-gtc-berlin-2026-keynote-europes-ai-buildout-93CH-4962500",
+   "link": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
+   "name": "OpenAI 接近完成至多 300 亿美元融资，投前估值 1.25 万亿美元（2026-10-22）",
+   "type": "event",
+   "desc": "2026-10-22 CNBC报道OpenAI接近完成至多300亿美元融资，投前估值1.25万亿美元，Coatue与阿联酋投资方领投，为IPO前过桥轮。",
+   "stage": "",
+   "player": "OpenAI",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+   "link": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
+   "name": "月之暗面发布开源权重 Kimi K3.1 Pro，编码基准直逼最强闭源旗舰（2026-10-23）",
+   "type": "event",
+   "desc": "2026-10-23 月之暗面发布开源权重Kimi K3.1 Pro：编码基准65.7分直逼最强闭源旗舰，完整权重11-04前释出。",
+   "stage": "",
+   "player": "Moonshot（月之暗面）",
+   "url": "",
+   "link": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "year": 2026,
+   "density": null,
+   "extension": 3,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:BOJ-warns-AI-market-shock",
+   "name": "日本央行警告 AI 市场冲击与网络攻击风险上升（2026-10-23）",
+   "type": "event",
+   "desc": "2026-10-23 日本央行警告AI相关风险上升：潜在市场冲击与网络攻击威胁；此前IMF已点名AI降速与收益率飙升为全球市场风险。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.reuters.com/world/asia-pacific/bank-japan-warns-risks-ai-market-shock-cyberattacks-2026-10-23",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30"
@@ -332757,6 +332821,62 @@
    "target": "company_14-3",
    "type": "player",
    "label": "Anthropic 2026-10-18 官宣拟设公共利益基金，初始注入 5% 股份，为其 11 月 IPO 前的公益与治理布局",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "英伟达为 GTC 柏林大会主办方，黄仁勋 2026-10-21 主题演讲宣布 Vera Rubin 全面投产与 DSX POD AI 工厂套件",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
+   "target": "concept_1-4",
+   "type": "related",
+   "label": "主题演讲关键节点：Vera Rubin 平台自 3 月 GTC 发布后进入全面投产，平台能力扩展至处理完整 AI 智能体",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "OpenAI 接近完成至多 300 亿美元融资，投前估值 1.25 万亿美元，由 Coatue 与阿联酋投资方领投，为公司 IPO 前过桥轮（6 月已秘密交表）",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
+   "target": "concept_L22-12",
+   "type": "related",
+   "label": "1.25 万亿美元投前估值将创私营公司估值纪录，为 2026-2027 AI 公司 IPO 潮再添热度",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
+   "target": "concept_2-30",
+   "type": "player",
+   "label": "月之暗面 2026-10-23 发布 Kimi K3.1 Pro，Kimi 系列开源权重线再升级，完整权重 11-04 前释出",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
+   "target": "concept_L17-93",
+   "type": "related",
+   "label": "K3.1 Pro 为 Kimi K3 旗舰的开源权重升级版，编码基准 65.7 分直逼最强闭源模型",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:BOJ-warns-AI-market-shock",
+   "target": "concept_R236-2",
+   "type": "related",
+   "label": "日本央行警告 AI 市场冲击与网络攻击风险，AI 基建超级周期的金融脆弱性进入主要央行视野",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:BOJ-warns-AI-market-shock",
+   "target": "concept_R181-6",
+   "type": "related",
+   "label": "对 AI 交易拥挤与高估值的担忧升温，市销率泡沫口径估值成为系统性风险讨论焦点",
    "year": null
   }
  ]
