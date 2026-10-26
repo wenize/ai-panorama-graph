@@ -160536,6 +160536,118 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30"
+  },
+  {
+   "id": "product:Cursor",
+   "name": "Cursor",
+   "type": "product",
+   "desc": "Anysphere 出品的 AI-first 代码编辑器（VS Code 分叉），2023-03 发布；Tab 补全/Composer/Agent 模式，接 GPT/Claude/Gemini 及自研模型",
+   "stage": "",
+   "player": "",
+   "url": "https://cursor.com",
+   "link": null,
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:GitHub-Copilot",
+   "name": "GitHub Copilot",
+   "type": "product",
+   "desc": "GitHub 与 OpenAI 推出的 IDE 内 AI 结对编程助手，2021-06-29 技术预览、2022-06-21 正式商用（10 美元/月），生成式编程第一款大众产品",
+   "stage": "",
+   "player": "",
+   "url": "https://github.com/features/copilot",
+   "link": null,
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:v0",
+   "name": "v0",
+   "type": "product",
+   "desc": "Vercel 出品的生成式 UI 工具，2023-10-11 以 v0.dev 开启公测；自然语言生成 React/Next.js + Tailwind 界面并可一键部署，2025-08 升级 v0.app",
+   "stage": "",
+   "player": "",
+   "url": "https://v0.app",
+   "link": null,
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:Manus",
+   "name": "Manus",
+   "type": "product",
+   "desc": "蝴蝶效应（Monica.im 团队）出品的通用自主 Agent，2025-03-06 邀请制上线；云端虚拟机异步执行多步任务，发布即引爆全球 Agent 热潮",
+   "stage": "",
+   "player": "",
+   "url": "https://manus.im",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:Notion-AI",
+   "name": "Notion AI",
+   "type": "product",
+   "desc": "Notion 出品的工作空间内嵌 AI 助手，2022-11 开放预览、2023-02-22 全量可用；问答/摘要/写作与跨页搜索，2026 年整合为 Notion Agent 套件",
+   "stage": "",
+   "player": "",
+   "url": "https://www.notion.com/product/ai",
+   "link": null,
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:Perplexity-Comet",
+   "name": "Perplexity Comet",
+   "type": "product",
+   "desc": "Perplexity 出品的 AI 原生浏览器（Chromium 内核），2025-07-09 发布、2025-10-02 全球免费；内置 Comet Assistant 可自动浏览/填表/执行任务",
+   "stage": "",
+   "player": "",
+   "url": "https://www.perplexity.ai/comet",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
+  },
+  {
+   "id": "product:Midjourney",
+   "name": "Midjourney",
+   "type": "product",
+   "desc": "Midjourney 出品的文生图产品，2022-03 建 Discord 服务、2022-07-12 开放公测，2024 年起提供网页版；闭源订阅制，以美学质量著称",
+   "stage": "",
+   "player": "",
+   "url": "https://www.midjourney.com",
+   "link": null,
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L42"
   }
  ],
  "links": [
@@ -332878,6 +332990,290 @@
    "type": "related",
    "label": "对 AI 交易拥挤与高估值的担忧升温，市销率泡沫口径估值成为系统性风险讨论焦点",
    "year": null
+  },
+  {
+   "source": "product:Cursor",
+   "target": "company_L20-9",
+   "type": "player",
+   "label": "Cursor 由 Anysphere 开发运营，2023-03 发布的 AI-first 代码编辑器（VS Code 分叉），公司 2022 年由 MIT 毕业生创立",
+   "year": null
+  },
+  {
+   "source": "product:Cursor",
+   "target": "concept_11-73",
+   "type": "related",
+   "label": "产品本体锚定同名概念：把多文件编辑与 Agent 操作做成 IDE 核心的 AI-first 编辑器",
+   "year": null
+  },
+  {
+   "source": "product:GitHub-Copilot",
+   "target": "company_14-52",
+   "type": "player",
+   "label": "GitHub Copilot 为 GitHub（微软旗下）核心 AI 业务：2021-06-29 技术预览、2022-06-21 GA（10 美元/月），2026-09 付费订阅达 470 万",
+   "year": null
+  },
+  {
+   "source": "product:GitHub-Copilot",
+   "target": "concept_11-71",
+   "type": "related",
+   "label": "产品本体锚定同名概念：生成式编程第一款大众产品，IDE 内代码补全与对话助手",
+   "year": null
+  },
+  {
+   "source": "product:v0",
+   "target": "company_L19-5",
+   "type": "player",
+   "label": "v0 为 Vercel 出品（2023-10-11 公测），与其前端云/Next.js 生态及「Towards the AI Cloud」战略一体",
+   "year": null
+  },
+  {
+   "source": "product:v0",
+   "target": "concept_L19-117",
+   "type": "related",
+   "label": "产品本体锚定同名概念：对话式 UI 生成工具，专攻 React/Next.js + Tailwind/shadcn 组件",
+   "year": null
+  },
+  {
+   "source": "product:Manus",
+   "target": "concept_L17-116",
+   "type": "related",
+   "label": "产品本体锚定同名概念：2025-03-06 蝴蝶效应推出的通用自主 Agent，异步云端执行多步任务",
+   "year": null
+  },
+  {
+   "source": "product:Manus",
+   "target": "concept_11-98",
+   "type": "related",
+   "label": "Manus 为「通用 Agent」品类代表产品（蝴蝶效应/Monica 团队出品，端到端完成上网任务）",
+   "year": null
+  },
+  {
+   "source": "product:Notion-AI",
+   "target": "company_14-47",
+   "type": "player",
+   "label": "Notion AI 为 Notion 官方 AI 功能线（2022-11 预览、2023-02-22 全量可用），2026 年整合为 Notion Agent/AI Meeting Notes 等套件",
+   "year": null
+  },
+  {
+   "source": "product:Notion-AI",
+   "target": "concept_L25-112",
+   "type": "related",
+   "label": "Notion AI 是「长文档 AI 助手」品类代表产品之一：笔记/文档/知识库内问答、摘要与长文写作",
+   "year": null
+  },
+  {
+   "source": "product:Perplexity-Comet",
+   "target": "company_14-37",
+   "type": "player",
+   "label": "Comet 为 Perplexity 出品的 AI 原生浏览器：2025-07-09 发布（Max 订阅专属）、2025-10-02 全球免费",
+   "year": null
+  },
+  {
+   "source": "product:Perplexity-Comet",
+   "target": "concept_L25-97",
+   "type": "related",
+   "label": "Comet 是 Perplexity 答案引擎产品矩阵（Comet/Spark/Pro）的浏览器入口，从答案引擎延展到浏览/执行",
+   "year": null
+  },
+  {
+   "source": "product:Midjourney",
+   "target": "company_L28-139",
+   "type": "player",
+   "label": "Midjourney 产品本体与其同名公司实体互链：Discord+Web 端文生图订阅产品，约占全球 AI 图像生成 26.8% 份额",
+   "year": null
+  },
+  {
+   "source": "product:Midjourney",
+   "target": "concept_L21-118",
+   "type": "related",
+   "label": "Midjourney 是「图像生成深化（构图/文本渲染）」路线代表产品：v6 起支持准确文字渲染，V8.1 达 2K 渲染",
+   "year": null
+  },
+  {
+   "source": "event:2021:GitHub-Copilot技术预览",
+   "target": "company_14-52",
+   "type": "player",
+   "desc": "GitHub发布自家Copilot技术预览"
+  },
+  {
+   "source": "event:2021:C2PA联盟成立",
+   "target": "company_14-64",
+   "type": "player",
+   "desc": "Adobe与Microsoft共同发起C2PA联盟"
+  },
+  {
+   "source": "event:2022-09:PyTorchFoundation成立",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "Meta捐赠PyTorch给Linux基金会"
+  },
+  {
+   "source": "event:2022-09:PyTorchFoundation成立",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "Microsoft Azure为基金会创始成员"
+  },
+  {
+   "source": "event:2022-09:PyTorchFoundation成立",
+   "target": "company_14-9",
+   "type": "related",
+   "desc": "NVIDIA为PyTorch基金会创始成员"
+  },
+  {
+   "source": "event:2022-09:PyTorchFoundation成立",
+   "target": "company_14-10",
+   "type": "related",
+   "desc": "AMD为PyTorch基金会创始成员"
+  },
+  {
+   "source": "event:2019:GPT-2发布",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "OpenAI发布GPT-2模型"
+  },
+  {
+   "source": "event:2024-03:FineWeb发布",
+   "target": "company_14-13",
+   "type": "player",
+   "desc": "HuggingFace发布FineWeb数据集"
+  },
+  {
+   "source": "event:2014:闲鱼上线",
+   "target": "company_14-20",
+   "type": "player",
+   "desc": "阿里将淘宝二手改版为闲鱼上线"
+  },
+  {
+   "source": "event:2024-02:HarmBench发布",
+   "target": "company_14-17",
+   "type": "player",
+   "desc": "Scale AI与CAIS联合发布HarmBench"
+  },
+  {
+   "source": "event:2026-04:Microsoft-Agent-Framework-1.0-GA",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "微软合并AutoGen与SK发布MAF 1.0"
+  },
+  {
+   "source": "event:2024-06:Meta-Conversations-2024发布WhatsApp商业AI工具",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "Meta大会发布WhatsApp商业AI工具"
+  },
+  {
+   "source": "event:2023-05:商汤SenseEarth3.0地界遥感大模型发布",
+   "target": "company_14-29",
+   "type": "player",
+   "desc": "商汤发布SenseEarth3.0与地界"
+  },
+  {
+   "source": "event:2025-05:GR00T-N1.5发布",
+   "target": "company_R48-2",
+   "type": "related",
+   "desc": "Agility参与GR00T-Dreams生态发布"
+  },
+  {
+   "source": "event:2025-05:GR00T-N1.5发布",
+   "target": "company_L28-175",
+   "type": "related",
+   "desc": "Figure AI参与GR00T生态发布"
+  },
+  {
+   "source": "event:2019-07:玄铁910发布",
+   "target": "company_14-20",
+   "type": "player",
+   "desc": "阿里旗下平头哥发布玄铁910"
+  },
+  {
+   "source": "event:2024-12:Microsoft-TRELLIS开源",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "MS Research开源TRELLIS权重"
+  },
+  {
+   "source": "event:2022-12:萤石网络科创板上市",
+   "target": "company_L20-19",
+   "type": "player",
+   "desc": "海康威视分拆萤石网络上市"
+  },
+  {
+   "source": "event:2022-08:小红书飞盘搜索量同比增长约24倍带动中国飞盘社交爆火",
+   "target": "company_L19-28",
+   "type": "related",
+   "desc": "发布趋势报告披露飞盘数据"
+  },
+  {
+   "source": "event:2023-10:高通骁龙8Gen3端侧生成式AI(Llama2-7B)",
+   "target": "company_14-4",
+   "type": "related",
+   "desc": "骁龙8Gen3端侧演示运行Llama2"
+  },
+  {
+   "source": "event:2022-07:ESMFold-bioRxiv",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "Meta FAIR团队发布ESMFold"
+  },
+  {
+   "source": "event:2024-01:OpenAI上线GPT-Store",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "OpenAI官方上线GPT Store"
+  },
+  {
+   "source": "event:2020-10:Fourier-Neural-Operator论文(arXiv2010.08895 Li et al ICLR2021)",
+   "target": "company_14-9",
+   "type": "related",
+   "desc": "共同作者具NVIDIA归属"
+  },
+  {
+   "source": "event:2023-12:WeakToStrongGeneralization(arXiv2312.09390 Burns OpenAI WeakToStrong ElicitingStrongCapabilitiesWithWeakSupervisors)",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "Superalignment团队论文成果"
+  },
+  {
+   "source": "event:2023-11:Stable-Video-Diffusion论文",
+   "target": "company_14-15",
+   "type": "player",
+   "desc": "StabilityAI团队发布SVD权重"
+  },
+  {
+   "source": "event:2023-11:Microsoft-Maia100发布",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "微软发布自研AI芯片Maia100"
+  },
+  {
+   "source": "event:2024-03:Cerebras-WSE3发布",
+   "target": "company_14-70",
+   "type": "player",
+   "desc": "Cerebras发布WSE-3与CS-3"
+  },
+  {
+   "source": "event:2024-03:Cerebras-WSE3发布",
+   "target": "company_R197-1",
+   "type": "related",
+   "desc": "与G42合建CondorGalaxy3"
+  },
+  {
+   "source": "event:2025-11:Anthropic发布Claude-Opus4.5",
+   "target": "company_14-3",
+   "type": "player",
+   "desc": "官方发布Claude Opus 4.5"
+  },
+  {
+   "source": "event:2025-07:Grok-4发布",
+   "target": "company_14-6",
+   "type": "player",
+   "desc": "xAI直播发布Grok 4系列"
+  },
+  {
+   "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
+   "target": "company_14-24",
+   "type": "player",
+   "desc": "月之暗面发布Kimi K3.1 Pro"
   }
  ]
 }
