@@ -138,7 +138,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "残差网络，跳跃连接解决超深网络训练退化",
+   "desc": "残差网络，跳跃连接解决超深网络训练退化；何恺明等 2015-12 提出（arXiv 1512.03385）：残差连接使百层网络可训，152 层网络以 3.57% top-5 夺 ILSVRC 2015 冠军，为 CV 领域引用量最高论文之一，思想衍生至 Transformer 残差结构",
    "stage": "2015 起源 · 已成熟",
    "player": "何恺明/MSRA",
    "url": "https://arxiv.org/abs/1512.03385",
@@ -714,7 +714,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "堆叠式高带宽DRAM，AI芯片的显存命脉，直接决定大模型推理能放多大KV Cache。",
+   "desc": "堆叠式高带宽DRAM，AI芯片的显存命脉，直接决定大模型推理能放多大KV Cache。；HBM4 时间线：SK 海力士 2025 初全球首发 12 层 36GB 样品（11.7Gbps，超 JEDEC 8Gbps 与英伟达 11Gbps 要求），随 Rubin 平台 2025H2 量产；三星以 1c DRAM 制程于 2026-02 宣布率先量产反超；单栈带宽约 2TB/s（HBM3E 约 1.2），HBM4E 最高 3.6TB/s（TrendForce/Counterpoint 口径核验）",
    "stage": "2013 HBM1 · 2026 HBM4",
    "player": "SK海力士；三星；美光",
    "url": "https://news.samsungsemiconductor.com/global/video-the-hbm4-infographic-key-specs-and-performance-leap/",
@@ -1386,7 +1386,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L2",
-   "desc": "把 U-Net 换成 Transformer 主干做扩散生成，是当前文生图/视频生成的主流骨干。",
+   "desc": "把 U-Net 换成 Transformer 主干做扩散生成，是当前文生图/视频生成的主流骨干。；Peebles & Xie 2022-12（arXiv 2212.09748）：以 Transformer 替代 U-Net 做扩散去噪骨干，可扩展性优于 U-Net，成为 Sora 等视频生成与类图像扩散模型的主流架构",
    "stage": "2022 起源 · 2024 爆发",
    "player": "NYU Peebles/Xie; OpenAI Sora; Black Forest Labs FLUX; 字节 Seedream",
    "url": "https://arxiv.org/abs/2212.09774",
@@ -2042,7 +2042,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "预训练/SFT 数据中由模型生成的比例持续攀升，从辅助手段变成主要来源之一的趋势。",
+   "desc": "预训练/SFT 数据中由模型生成的比例持续攀升，从辅助手段变成主要来源之一的趋势。；Gartner 预测到 2030 年机器学习训练将完全由合成数据承担、真实数据不再必要；并预计 AI Agent 生成数据量到 2029 年为当前 10 倍以上（Gartner 2024/2025 预测报告口径核验）",
    "stage": "2024 起源 · 2026 成长期",
    "player": "Microsoft Phi; DeepSeek; Qwen; 学界",
    "url": "https://arxiv.org/abs/2305.17493",
@@ -2586,7 +2586,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L4",
-   "desc": "把每步累积的 KV 缓存从 FP16 压到 FP8/INT8，在长上下文与高并发下显著省显存、提吞吐。",
+   "desc": "把每步累积的 KV 缓存从 FP16 压到 FP8/INT8，在长上下文与高并发下显著省显存、提吞吐。；DeepSeek MLA 以低秩潜在压缩把 KV Cache 相对标准 MHA 压缩至约 1/57（V2 口径）；超 128K 上下文后 KV 显存开始反超参数显存，1M token 时占 GPU 显存 70~90%——量化/稀疏化成为长上下文推理主战场（HF 技术博客 2025-02 等核验）",
    "stage": "2024 起源 · 2026 成长期",
    "player": "vLLM、SGLang、TensorRT-LLM、FlashInfer",
    "url": "https://blog.vllm.ai/",
@@ -2634,7 +2634,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L4",
-   "desc": "请求级动态拼接批次，新请求随时插入、完成请求立刻退出，消除 GPU 气泡。",
+   "desc": "请求级动态拼接批次，新请求随时插入、完成请求立刻退出，消除 GPU 气泡。；Orca（OSDI 2022，首尔国立大学）提出迭代级连续批处理，打破静态批次约束显著提升吞吐，为 vLLM/TGI 等现代推理引擎标配（OSDI 2022 论文口径核验）",
    "stage": "2022 起源 · 2026 成熟期",
    "player": "Orca（UW）、TGI、vLLM、Triton Dynamic Batching",
    "url": "https://arxiv.org/abs/2209.11048",
@@ -2938,7 +2938,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L5",
-   "desc": "面向大模型应用的 MLOps 延伸：模型版本、提示词、评测、灰度、可观测、成本治理的端到端实践。",
+   "desc": "面向大模型应用的 MLOps 延伸：模型版本、提示词、评测、灰度、可观测、成本治理的端到端实践。；2025 现状：从提示工程（2023）转向上下文工程，RAG+Agent 成主流架构并走向多智能体工作流；工具生态 Braintrust/LangSmith/ZenML 等竞争，可观测性/评估/成本控制为企业重点（ZenML 1200 生产部署分析口径核验）",
    "stage": "2023 起源 · 2026 成长期",
    "player": "LangChain/LangSmith、Langfuse、Arize Phoenix、W&B Weave、Braintrust、OpenTelemetry GenAI",
    "url": "https://langfuse.com/",
@@ -18476,7 +18476,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用需求预测+强化学习动态调整酒店客房价格与渠道分配的收益管理系统（RMS）。",
+   "desc": "用需求预测+强化学习动态调整酒店客房价格与渠道分配的收益管理系统（RMS）。；标杆格局：IDeaS G3 RMS（2024-12 迪拜 Al Habtoor Palace 部署，自动动态定价闭环）、Duetto 开放定价、ZUZU RevMate（生产力 +40%/RevPAR 约 +10%）、万豪 AI 团体定价优化器，及国产收益精灵等动态定价系统（Hotel Tech Report/厂商页核验）",
    "stage": "2018 起源 · 2024 大模型化",
    "player": "Duetto;IDeaS(SAS);FLYR;RateGain;BEONx",
    "url": "https://insightbridge.global/assets/insightbridge-ai-hospitality-2027-whitepaper.pdf",
@@ -19116,7 +19116,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "从数据自身构造监督信号（无需人工标签）训练表征的范式，是大模型预训练的底层哲学。",
+   "desc": "从数据自身构造监督信号（无需人工标签）训练表征的范式，是大模型预训练的底层哲学。；2025 年范式持续活跃：Meta DINOv3（2025-08，Gram-anchoring 防稠密特征退化，通用视觉骨干 SOTA）；I-JEPA（2023，非生成式联合嵌入预测，引用 2100+）衍生出 Core-JEPA（2025-11，对地观测基础模型）（Meta 官方博客/arXiv 核验）",
    "stage": "2018 起源 · 成熟期",
    "player": "Facebook MAE; Google BERT; Meta DINO",
    "url": "https://arxiv.org/abs/2111.06377",
@@ -19900,7 +19900,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "把原始文本/图像/音频/PDF 组织成可训练数据集的人在环标注 UI，开源三件套覆盖多模态到 LLM 偏好排序。",
+   "desc": "把原始文本/图像/音频/PDF 组织成可训练数据集的人在环标注 UI，开源三件套覆盖多模态到 LLM 偏好排序。；2025 年定位演进：Label Studio（Heartex，开源多模态，ML 后端预标注）与 Prodigy（Explosion，主动学习+脚本化）从「生产数据」转向「人机协同质检/校准合成与模型生成数据」（厂商文档与 2025 实践综述核验）",
    "stage": "2019 起源 · 2024 LLM 偏好标注爆发",
    "player": "Label Studio;Argilla;Prodigy;Scale AI;Surge AI;Labelbox",
    "url": "https://labelstud.io/",
@@ -22476,7 +22476,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L22",
-   "desc": "由独立第三方对AI系统的数据、偏差、安全、合规做系统性检验并出具报告的产业服务，是高风险AI的强制环节。",
+   "desc": "由独立第三方对AI系统的数据、偏差、安全、合规做系统性检验并出具报告的产业服务，是高风险AI的强制环节。；2025 起成法定行业：EU AI Act 第二阶段（2025-08）管到推荐/排序系统、2026-08 高风险系统执法要求运行级审计证据，第 43 条分层合规评定（自评→公告机构第三方），AI 审计就绪度与 ISO/IEC 42001 认证生态成形（ComplianceRT/Aiacto 核验）",
    "stage": "2020 概念 · 2026 法定化",
    "player": "NYU AI Now;EU AI Act;Ada Algorithm Audit;BigError;算法审计公司",
    "url": "https://ainowinstitute.org/publication/algorithmic-impact-assessments/",
@@ -23308,7 +23308,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "用量子叠加/纠缠加速 ML 的研究方向，2026 仍处 NISQ 实验期，无实用量子优势。",
+   "desc": "用量子叠加/纠缠加速 ML 的研究方向，2026 仍处 NISQ 实验期，无实用量子优势。；现状口径（2025）：NISQ 时代处于理论到演示的过渡期、尚未实现广义量子优势；近期窄域候选含量子振幅估计（摩根大通口径）与量子化学模拟，广义部署仍待容错硬件（arXiv 2310.10315 综述核验）",
    "stage": "2010s 起源 · 2026 NISQ 无实用优势",
    "player": "中科大,IonQ,IBM,Google Quantum",
    "url": "https://aiwiki.ai/wiki/quantum_machine_learning",
@@ -24796,7 +24796,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用AGV+远控+大模型做集装箱码头全流程无人化装卸与船舶排泊智能调度。",
+   "desc": "用AGV+远控+大模型做集装箱码头全流程无人化装卸与船舶排泊智能调度。；2025-08 中国日报口径：中国自动化码头规模居世界第一——洋山四期为全球最大单体自动化码头（AGV/IGV 无人化、昼夜超 2.8 万标箱、夜间全 AI 调度）；天津港与华为共建昇腾 AI 算力底座与厘米级智能水平运输，方案已出海（中国日报/新华等核验）",
    "stage": "2017 洋山四期开港 · 2025 大模型全场景",
    "player": "上海港洋山四期,山东港口青岛港,浙江海港,山东港口,A-TOS",
    "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202605/t20260525_4206184.html",
@@ -48252,7 +48252,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L46",
-   "desc": "单目/3D 摄像头视觉在家庭健身场景实时追踪关节角度与动作幅度，作为姿态分析与纠正的输入层",
+   "desc": "单目/3D 摄像头视觉在家庭健身场景实时追踪关节角度与动作幅度，作为姿态分析与纠正的输入层；Keep 手机摄像头实时动作纠正与标准库 17 关键点比对纠错，运动健康大模型 Keepace.ai 提供 AI 教练与「吃练睡」深度解析（CSDN 解析/App Store 核验）",
    "stage": "",
    "player": "",
    "url": "",
@@ -48316,7 +48316,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L46",
-   "desc": "用传感器+机器学习监控发酵温度/湿度/酸度，AI 辅助量质摘酒、分级与勾调，替代老师傅经验判断。",
+   "desc": "用传感器+机器学习监控发酵温度/湿度/酸度，AI 辅助量质摘酒、分级与勾调，替代老师傅经验判断。；白酒灯塔标杆：泸州老窖包装中心按灯塔工厂标准建设（2023 底五线试运行）、2024-12 成白酒首家国家级智能制造标杆企业，「黄金生产批次」模型使工艺偏差响应缩短 80%；三部门发文支持酿酒行业大模型与产业大脑；海天味业灯塔工厂 AI 可识别 170 余种气味（搜狐/网易/文轩财经核验）",
    "stage": "",
    "player": "",
    "url": "",
@@ -162488,6 +162488,166 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L46"
+  },
+  {
+   "id": "concept_R678-1",
+   "name": "上海临港新片区智算集聚区（算力高地政策）",
+   "type": "concept",
+   "desc": "2025-05 临港管委会发布《进一步集聚发展新型算力赋能新质生产力若干政策》（沪自贸临管委〔2025〕40号）：筑强智算中心/高效调度/绿色智算/自主可控智算要素/「智算+」应用五向支持，目标 2025 年智算占比达 80%；辅以「算力券」降低本地 AI 企业用算成本，服务国际数据港建设；临港为 WAIC 世界人工智能大会长期举办地（临港官网政策原文/第一财经核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.lingang.gov.cn/upload/1/dm/bcb28a4c-ffa1-4470-bf38-0fe43e6f59ad.pdf",
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R678-2",
+   "name": "北京亦庄高级别自动驾驶示范区（60→600→3000 平方公里）",
+   "type": "concept",
+   "desc": "2020 年自亦庄 60 平方公里起步的国家级车路云一体化示范区：2025-01 宣布完成 600 平方公里 3.0 阶段智能化部署（扩至通州/顺义，写入 2025 北京市政府工作报告），4.0 阶段向四环至六环间约 3000 平方公里规划；累计测试里程超 3200 万公里，八大类场景（网联乘用车/无人小巴/配送/巡逻/干线物流/环卫等）试点；配套推动《北京市自动驾驶汽车条例》立法（新京报/财联社/北京日报核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://m.bjnews.com.cn/detail/1736780644129328.html",
+   "year": 2020,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R679-1",
+   "name": "WenetSpeech（万小时级中文多领域语音语料，2021）",
+   "type": "concept",
+   "desc": "中文语音识别开放语料：1 万+ 小时高质量标注 + 2400+ 小时弱标注，采自 YouTube/播客并以 OCR+ASR 辅助转写（ICASSP 2022 论文）；衍生 WenetSpeech4TTS（TTS 向）、粤语 Yue、川话 Chuan 等子集，上架 ModelScope/Hugging Face（官方站核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://wenet-e2e.github.io/wenetspeech/",
+   "year": 2021,
+   "density": null,
+   "extension": 2,
+   "dim": 8,
+   "dim_name": "评估基准",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R679-2",
+   "name": "GigaSpeech（万小时级英文多领域语音语料，2021）",
+   "type": "concept",
+   "desc": "SpeechColab 开源的英文 ASR 语料（Interspeech 2021）：1 万小时高质量标注多领域音频（有声书/播客/YouTube 等），可用于监督训练/评测/领域自适应；后续 GigaSpeech 2 扩展至泰语/印尼语/越南语等低资源语言（HF 数据集页核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://huggingface.co/datasets/speechcolab/gigaspeech",
+   "year": 2021,
+   "density": null,
+   "extension": 2,
+   "dim": 8,
+   "dim_name": "评估基准",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R682-1",
+   "name": "VoxCeleb（牛津 VGG 百万条说话人识别语料，2017）",
+   "type": "concept",
+   "desc": "牛津 VGG 组从 YouTube 名人采访视频自动构建的「in the wild」文本无关说话人识别语料（arXiv 1706.08612，引用 3700+）：VoxCeleb1+2 合计 7000+ 说话人、约百万条语音（VoxCeleb2-dev 109.2 万条/5994 人），为说话人识别/分离研究的标准基准（官方页核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2017,
+   "density": null,
+   "extension": 4,
+   "dim": 8,
+   "dim_name": "评估基准",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R682-2",
+   "name": "LibriTTS（LibriSpeech 衍生 TTS 语料，585 小时）",
+   "type": "concept",
+   "desc": "由 LibriSpeech 有声书衍生的多说话人 TTS 语料（Zen et al. 2019，引用约 1800）：约 585 小时 24kHz 英语朗读语音、2456 名说话人、文本对齐，宽松许可（OpenSLR 60）；2023 年修复版 LibriTTS-R（Interspeech）为 TTS/零样本声音克隆主流底座之一（官方口径核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2019,
+   "density": null,
+   "extension": 4,
+   "dim": 8,
+   "dim_name": "评估基准",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R684-1",
+   "name": "盾构/TBM AI（姿态纠偏/刀具磨损检测/智能掘进）",
+   "type": "concept",
+   "desc": "隧道掘进智能装备线：中铁装备智能盾构搭载刮刀磨损检测/盾尾间隙测量/渣土体积测量/轴线纠偏自动控制/自动保压（人民网 2024-05）；TBM-SMART 智能掘进系统把「黑箱」变「透明」掘进，I-TBM 向有人值守无人化操作演进；2026-01 发布盾构掘进运维与风险防控智能体（地表沉降预测/TBM 卡机预警/参数智能决策）；学界机器学习多参数姿态预测支撑工程化（中铁装备累计出厂超 1700 台、产销连续 8 年全球第一）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "http://finance.people.com.cn/BIG5/n1/2024/0529/c1004-40245879.html",
+   "year": 2021,
+   "density": null,
+   "extension": 2,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R685-2",
+   "name": "GigaChat（俄罗斯 Sber 主权大模型，2023-04）",
+   "type": "concept",
+   "desc": "俄罗斯储蓄银行（Sber）2023-04 发布的俄英双语多模态大模型，为俄版 ChatGPT 主要代表；2024 年底被用于处理普京年度「直播连线」公民提问（国家级应用背书）；Sber 以其向全球南方国家提供 AI 模型、与西方供给竞争（techhq/US News 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://techhq.com/news/russias-biggest-bank-joins-chatgpt-race-with-gigachat",
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "region:俄罗斯",
+   "name": "俄罗斯",
+   "type": "region",
+   "desc": "2019-10 总统令批准《2030 年前人工智能发展国家战略》（2024 年更新，AI 定位为实现国家发展目标的关键资源）；制裁环境下以主权 AI 为纲，Sber 与 Yandex 为两大支柱（GigaChat/YandexGPT），并向全球南方输出 AI 模型展开数字外交；代表主体 Sber/Yandex，5 个既有事件覆盖军事/卫星等面。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "policy_R685-1",
+   "name": "俄罗斯《2030 年前人工智能发展国家战略》（2019-10 总统令，2024 更新）",
+   "type": "policy",
+   "desc": "2019-02 普京令启动、同年 10 月总统令签署的国家 AI 战略，2024 年更新版将 AI 定位为「实现俄罗斯国家发展目标的关键资源」；配套主权算力与国产大模型路线（GigaChat 2023-04 上线、后服务总统「连线」问答；YandexGPT 为主要国内竞争者），并以全球南方 AI 输出展开数字外交（russiabusinesstoday/US News 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2019,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
   }
  ],
  "links": [
@@ -337498,6 +337658,469 @@
   {
    "source": "concept_R677-1",
    "target": "concept_L15-64",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R678-1",
+   "target": "region:上海",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R678-1",
+   "target": "conference:WAIC",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R678-2",
+   "target": "region:北京",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R678-2",
+   "target": "concept_R92-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R679-1",
+   "target": "concept_L18-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R679-2",
+   "target": "concept_L18-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-03:Consistency-Models论文发布",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Consistency Models 作者机构 OpenAI"
+  },
+  {
+   "source": "event:2019-12:Deep-Double-Descent论文(arXiv1912.02292 Nakkiran-Kaplun-Bansal-Yang-Barak-Sutskever ICLR2020)",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Deep Double Descent 作者机构 OpenAI"
+  },
+  {
+   "source": "event:2018-10:RND随机网络蒸馏探索论文发布(arXiv1810.12894 Burda-Edwards-Storkey-Klimov Exploration-by-Random-Network-Distillation ICLR2019)",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：RND 作者机构 OpenAI"
+  },
+  {
+   "source": "event:2022-09:InductionHeads归纳头论文发布",
+   "target": "company_14-3",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Induction Heads 作者机构 Anthropic"
+  },
+  {
+   "source": "event:2020-02:MNN论文发布(arXiv2002.12418 Jiang-Et-Al MLSys2020 Alibaba-Universal-Mobile-Inference)",
+   "target": "company_14-20",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：MNN 为阿里巴巴开源移动推理引擎"
+  },
+  {
+   "source": "event:2025-09:acp-instant-checkout",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ACP 协议发布方 OpenAI"
+  },
+  {
+   "source": "event:2025-09:acp-instant-checkout",
+   "target": "company_14-66",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ACP 首批商家平台 Shopify"
+  },
+  {
+   "source": "event:2025-09:acp-instant-checkout",
+   "target": "company_L23-8",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ACP 联合发布方 Stripe"
+  },
+  {
+   "source": "event:2026-10:DeepSeek-V4.1-Flash-1017-OpenRouter-weekly-No1",
+   "target": "company_30-9",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：登顶 OpenRouter 全球周榜——事件发生平台"
+  },
+  {
+   "source": "event:2026-10:Cathedral-exDOGE-AI-agent-breach-Anthropic",
+   "target": "company_R118-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：受影响平台：Slack 业务数据"
+  },
+  {
+   "source": "event:2023:标注工人权益运动与罢工",
+   "target": "company_14-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：内容审核供应链事件主体之一（Sama/Majorel 转单）"
+  },
+  {
+   "source": "event:2026-01:亚马逊关闭Go与Fresh门店转WholeFoods",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：决策主体 Amazon"
+  },
+  {
+   "source": "event:2015:智能笔手写数字化普及",
+   "target": "company_14-8",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Apple Pencil 为手写数字化普及推动产品之一"
+  },
+  {
+   "source": "event:2026-08:白宫召集AI企业会议-Agent沙箱突破",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：OpenAI 承认其 Agent 评测中突破沙箱"
+  },
+  {
+   "source": "event:2021:Anthropic成立",
+   "target": "company_14-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：创始团队出自 OpenAI（Dario/Daniela Amodei 率队出走）"
+  },
+  {
+   "source": "event:2022-12:艺术家AI训练数据抗议",
+   "target": "company_L28-139",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Anderson v. Stability/Midjourney/DeviantArt 诉讼被告之一"
+  },
+  {
+   "source": "event:2023-07:OpenAI-AI-Classifier因准确率过低下线",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：AI Classifier 上线与下线主体 OpenAI"
+  },
+  {
+   "source": "event:2026-10:Meta-95B-equity-raise-for-AI",
+   "target": "company_14-10",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta 95B 股权融资战略认购方之一（至多 50 亿美元）"
+  },
+  {
+   "source": "event:2026-04:Amazon追加Anthropic250亿与千亿反向承诺",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：决策与投资主体 Amazon"
+  },
+  {
+   "source": "event:2021-10:智利首发国家AI政策",
+   "target": "company_R221-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：政策落地成果：CENIA 于 2021-12-07 启动"
+  },
+  {
+   "source": "event:2023-04:RedPajama发布",
+   "target": "company_14-67",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：发布方 Together AI"
+  },
+  {
+   "source": "event:2018-02:华米科技纽交所上市",
+   "target": "investor:顺为资本",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：IPO 时持股 20.4% 的主要机构股东"
+  },
+  {
+   "source": "event:2017-04:Project-Maven启动",
+   "target": "company_L19-2",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Google 退出后 Project Maven 承接方 Palantir"
+  },
+  {
+   "source": "event:2023:农机大模型与AI机群调度兴起",
+   "target": "company_R107-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：农机 AI 调度与农业大模型推出主体之一"
+  },
+  {
+   "source": "event:2022:智慧场馆落地",
+   "target": "company_R135-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：智慧场馆落地场馆之一：国家会展中心（上海）"
+  },
+  {
+   "source": "event:2023-08:ChatGPT-Enterprise发布",
+   "target": "company_14-65",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ChatGPT Enterprise 首批客户 Canva"
+  },
+  {
+   "source": "event:2023-08:ChatGPT-Enterprise发布",
+   "target": "company_L23-12",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ChatGPT Enterprise 首批客户 Zendesk"
+  },
+  {
+   "source": "event:2023-08:ChatGPT-Enterprise发布",
+   "target": "company_32-26",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：ChatGPT Enterprise 首批客户 Klarna"
+  },
+  {
+   "source": "event:2023-03:Future-of-Life公开信呼吁暂停巨型AI实验",
+   "target": "company_14-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：被点名未签署方，OpenAI 2023-03-27 回应"
+  },
+  {
+   "source": "event:2023-03:Future-of-Life公开信呼吁暂停巨型AI实验",
+   "target": "company_14-3",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：被点名未签署方之一"
+  },
+  {
+   "source": "event:2016-05:淘宝电影更名淘票票",
+   "target": "company_14-20",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：阿里影业旗下品牌更名主体"
+  },
+  {
+   "source": "event:2023-04:Mistral-AI成立",
+   "target": "company_14-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：创始团队出自 DeepMind/Meta"
+  },
+  {
+   "source": "event:2020-09:阿里犀牛智造发布投产",
+   "target": "company_14-20",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：阿里巴巴新制造平台自体"
+  },
+  {
+   "source": "event:2022:众安平安AI直赔规模化",
+   "target": "company_R114-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：AI 直赔规模化推动主体之一"
+  },
+  {
+   "source": "event:2023-07:Jailbroken论文发布(arXiv2307.02483 Wei-Haghtalab-Steinhardt 安全训练失效两模式 NeurIPS2023 Oral)",
+   "target": "company_14-3",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：红队评测对象之一（Claude v1.3）"
+  },
+  {
+   "source": "event:2018-01:Amazon-Go首店对公众开放",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Amazon Go 首店开设主体"
+  },
+  {
+   "source": "event:2026-08:生成式AI备案累计1112款",
+   "target": "company_14-8",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：首批纳入端侧备案的 Apple 智能等 7 款"
+  },
+  {
+   "source": "event:2026-07:CuspAI-4.5亿美元B轮",
+   "target": "company_14-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：AI Materials Foundry 全球网络伙伴（45+）"
+  },
+  {
+   "source": "event:2026-07:CuspAI-4.5亿美元B轮",
+   "target": "company_14-9",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：AI Materials Foundry 全球网络伙伴（45+）"
+  },
+  {
+   "source": "event:2013:国睿科技借壳高淳陶瓷上市",
+   "target": "company_R127-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：14 所所属集团（借壳重组主导体系）"
+  },
+  {
+   "source": "event:2024:政治深度伪造干预选举",
+   "target": "company_14-43",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：新罕州拜登语音伪造所用合成工具 ElevenLabs"
+  },
+  {
+   "source": "event:2021-04:NVIDIA发布BlueField-3",
+   "target": "company_14-57",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：2023-03 全量产并入选 Oracle Cloud Infrastructure"
+  },
+  {
+   "source": "event:2025-05:x402-protocol-launch",
+   "target": "company_R83-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：x402 Foundation 共同设立方（与 Coinbase）"
+  },
+  {
+   "source": "event:2019-03:CHIPS-Alliance成立",
+   "target": "company_14-11",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：2020-01 加入并推广 AIB 开放标准"
+  },
+  {
+   "source": "event:2024:无人环卫常态化运营",
+   "target": "company_14-99",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：无人环卫常态化运营主体之一"
+  },
+  {
+   "source": "event:2020-04:Onfido获TPG-Growth领投1亿美元",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：历史投资方 Microsoft Ventures"
+  },
+  {
+   "source": "event:2020-04:Onfido获TPG-Growth领投1亿美元",
+   "target": "company_14-53",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：历史投资方 Salesforce Ventures"
+  },
+  {
+   "source": "event:2020-12:蓝月亮港交所上市",
+   "target": "investor:高瓴资本",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：IPO 前持股 10% 主要机构股东（HCM）"
+  },
+  {
+   "source": "event:2025-03:CoreWeave纳斯达克IPO",
+   "target": "company_14-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：IPO 核心背景：绑定 OpenAI 算力长约"
+  },
+  {
+   "source": "event:2022:AI技能培训市场兴起",
+   "target": "company_R79-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：LinkedIn Learning 为 AI 课程主要供给之一"
+  },
+  {
+   "source": "event:2022:AI技能培训市场兴起",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：Microsoft LinkedIn AI Skills Initiative 推出方"
+  },
+  {
+   "source": "event:2024-08:KTransformers支持DeepSeek-V2",
+   "target": "company_14-23",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：被优化支持对象：DeepSeek-V2 显存 21GB→11GB"
+  },
+  {
+   "source": "event:2026-02:OpenAI-AWS扩展1000亿算力协议",
+   "target": "company_14-9",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：同期 1100 亿美元融资轮参与方 NVIDIA"
+  },
+  {
+   "source": "event:2023-08:Waymo-Cruise无人运营",
+   "target": "company_R92-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：CPUC 批准 24 小时全无人付费运营主体之一"
+  },
+  {
+   "source": "event:2024-11:杭州马拉松首次引入机器人配速员",
+   "target": "company_14-93",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：机器人配速员产品与技术支持方宇树科技"
+  },
+  {
+   "source": "event:2022-06:GitHub-Copilot正式商用",
+   "target": "company_14-52",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：GitHub Copilot 正式 GA 主体"
+  },
+  {
+   "source": "event:2022-07:Midjourney公测V3",
+   "target": "company_L24-14",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：以 Discord 机器人为入口的公测平台"
+  },
+  {
+   "source": "event:2013:Google收购DNNresearch",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：DNNresearch 四方竞标方之一 Microsoft"
+  },
+  {
+   "source": "event:2023-09:TikTokShop美国全闭环上线",
+   "target": "company_14-19",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：字节跳动旗下 TikTok Shop 全闭环上线"
+  },
+  {
+   "source": "event:2025-07:巴基斯坦联邦内阁通过国家AI政策2025",
+   "target": "company_R211-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：落地承担方：NUST NCAI 公务员 AI 培训"
+  },
+  {
+   "source": "event:2016:特斯拉影子模式",
+   "target": "company_R48-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：影子模式开启主体特斯拉"
+  },
+  {
+   "source": "event:2026:Azure年营收破千亿",
+   "target": "company_14-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：Azure 破千亿背景：OpenAI 2500 亿美元合同锁单"
+  },
+  {
+   "source": "concept_R682-1",
+   "target": "concept_R682-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R682-1",
+   "target": "concept_L18-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R682-2",
+   "target": "concept_L18-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R684-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:俄罗斯",
+   "target": "policy_R685-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R685-2",
+   "target": "policy_R685-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R685-2",
+   "target": "region:俄罗斯",
    "type": "related",
    "label": "",
    "year": null
