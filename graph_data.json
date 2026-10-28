@@ -170,7 +170,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "「Attention Is All You Need」纯注意力架构，一切现代大模型地基",
+   "desc": "「Attention Is All You Need」纯注意力架构，一切现代大模型地基；2023 年 8 位原作者全部离开 Google，创办 Cohere、Sakana AI 等公司；至今仍是 GPT、Claude、Gemini 等主流大模型的共同地基。",
    "stage": "2017 起源 · 绝对主流",
    "player": "Google Brain/Vaswani/Noam Shazeer",
    "url": "https://arxiv.org/abs/1706.03762",
@@ -266,7 +266,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "基于 GPT-3.5 的对话助手，生成式 AI 大众化引爆点",
+   "desc": "基于 GPT-3.5 的对话助手，生成式 AI 大众化引爆点；2025-08-07 内置 GPT-5；2025-10-06 DevDay 宣布周活跃用户达 8 亿，较 2025-02 的 4 亿翻倍。",
    "stage": "2022 起源 · 已成熟",
    "player": "OpenAI",
    "url": "https://openai.com/index/chatgpt/",
@@ -282,7 +282,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "多模态能力跃迁的闭源旗舰，长文本与指令遵循质变",
+   "desc": "多模态能力跃迁的闭源旗舰，长文本与指令遵循质变；2024-05 GPT-4o 接棒；2025-04-30 初代 GPT-4 从 ChatGPT 退役，2025-08 由 GPT-5 家族全面取代。",
    "stage": "2023 起源 · 已被迭代超越",
    "player": "OpenAI",
    "url": "https://openai.com/index/gpt-4-research/",
@@ -3754,7 +3754,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L7",
-   "desc": "让 LLM 输出结构化调用请求以触发外部工具的接口范式。",
+   "desc": "让 LLM 输出结构化调用请求以触发外部工具的接口范式。；2023-06-13 OpenAI 随 GPT-4-0613/3.5-turbo-0613 引入 function calling，确立工具调用范式（后扩展 tool_choice 强制调用，2024-04），是 Agent 与 CUA 的前置机制（OpenAI 官方博客核验）",
    "stage": "2023 起源 · 成熟期",
    "player": "OpenAI;Anthropic;Google",
    "url": "https://platform.openai.com/docs/guides/function-calling",
@@ -3850,7 +3850,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L7",
-   "desc": "让模型像人一样看屏幕像素、移动鼠标键盘操作任意 GUI 的 Agent。",
+   "desc": "让模型像人一样看屏幕像素、移动鼠标键盘操作任意 GUI 的 Agent。；2025-01-23 OpenAI 发布 Operator（CUA 模型驱动）：以原始截图为输入规划并操控虚拟浏览器点击/输入/导航，ChatGPT Pro 美国区预览，后经 Responses API 提供 computer-use 工具（The Decoder 等多源核验）",
    "stage": "2024 起源 · 2026 成长期",
    "player": "OpenAI;Anthropic;Google",
    "url": "https://aiwiki.ai/wiki/computer_use",
@@ -6124,7 +6124,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "深度求索开源的代码大模型系列，以 MoE 与长上下文见长。",
+   "desc": "深度求索开源的代码大模型系列，以 MoE 与长上下文见长。；V2（2024-06-17，arXiv 2406.11931）：236B MoE 开源权重，增训 6T token 扩展至数学与通用语言，338 种编程语言/128K 上下文，代码任务对标 GPT-4 Turbo；0724 版（2024-07-11）曾居 Aider 榜第二（HF 论文页核验）",
    "stage": "2023 起源 · 2024 成熟",
    "player": "深度求索 DeepSeek",
    "url": "https://api-docs.deepseek.com/updates/",
@@ -7036,7 +7036,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "视觉-语言-动作端到端模型，机器人领域的基础模型范式。",
+   "desc": "视觉-语言-动作端到端模型，机器人领域的基础模型范式。；2025-09-25 Google DeepMind 发布 Gemini Robotics 1.5（VLA+ER 双模型），支持跨机器人本体技能迁移，先推理后行动。",
    "stage": "2023 起源 · 2025 行业标配",
    "player": "DeepMind / PI / Figure / NVIDIA / 小鹏",
    "url": "https://arxiv.org/abs/2406.09246",
@@ -10924,7 +10924,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "在高速/园区封闭场景用 L4 重卡做港到港/枢纽到枢纽干线货运。",
+   "desc": "在高速/园区封闭场景用 L4 重卡做港到港/枢纽到枢纽干线货运。；行业格局「一退一进」：图森未来 2021-04 上市（市值 84.8 亿美元）→2024-01 退市→2025-02 解散；Kodiak 聚焦矿区/能源封闭场景，2025 年底 SPAC 上市（KDK，约 25 亿美元估值，20 辆全无人/累计 1.07 万次创收无人运营），多源核验",
    "stage": "2016 起源 · 2026 商业化初期",
    "player": "Aurora;TuSimple;智加;嬴彻;Volvo Autonomous;Plus",
    "url": "https://ir.aurora.tech/news-events/press-releases/detail/152/aurora-outlines-2030-vision-to-scale-to-30000-driverless-trucks-at-analyst-and-investor-day",
@@ -23084,7 +23084,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "可在手机/PC 本地运行的 0.5B-8B 小参数语言模型品类，端侧 AI 的算法核心。",
+   "desc": "可在手机/PC 本地运行的 0.5B-8B 小参数语言模型品类，端侧 AI 的算法核心。；2025 年端侧矩阵成熟：Gemma 3n 面向手机的多模态小型模型、Qwen3-0.6B 等开源小模型经 llama.cpp/MLC/PocketPal 实现手机离线运行（社区部署教程与官方口径核验）",
    "stage": "2023 Nano · 2025-2026 1-8B 推理普及",
    "player": "Google,Microsoft,阿里 Qwen,Meta",
    "url": "https://ai.google.dev/gemma",
@@ -29948,7 +29948,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L25",
-   "desc": "用模型/算法自动生成越狱与有害 prompt、批量探测模型边界，替代人工专家红队的规模化流程。",
+   "desc": "用模型/算法自动生成越狱与有害 prompt、批量探测模型边界，替代人工专家红队的规模化流程。；Anthropic 2025 年体系化：Agentic Misalignment 报告（2025-06）、恶意使用威胁情报（2025-08）与 GTG-1002 首起 AI 编排网络间谍行动披露（2025-09）；其 Claude 驱动 SOC 把告警调查时间从 40 分钟压至约 3 分钟（Anthropic 透明度中心核验）",
    "stage": "2023 起源 · 2025 工程标配",
    "player": "Berkeley GCG/PAIR; Microsoft PyRIT; NVIDIA garak; Scale HarmBench",
    "url": "https://arxiv.org/abs/2307.15043",
@@ -38700,7 +38700,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "深度学习三巨头之一 AI教父 反向传播与玻尔兹曼机关键推动者",
+   "desc": "深度学习三巨头之一 AI教父 反向传播与玻尔兹曼机关键推动者；2024-10-08 与 Hopfield 共获诺贝尔物理学奖（表彰人工神经网络奠基性发明）；2023-05 离开 Google 以自由警示 AI 风险。",
    "stage": "1986 起源 · 2024 诺贝尔物理奖",
    "player": "University of Toronto; Google Brain; Vector Institute",
    "url": "https://www.nobelprize.org/prizes/physics/2024/hinton/facts/",
@@ -39948,7 +39948,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L32",
-   "desc": "Veličković 等 2018 提出的 masked 图注意力机制，让节点对不同邻居分配可学习的注意力权重。",
+   "desc": "Veličković 等 2018 提出的 masked 图注意力机制，让节点对不同邻居分配可学习的注意力权重。；Brody 等 2022 年（ICLR）指出 GAT 注意力为静态、排序不依赖查询节点，提出严格更具表达力的 GATv2，在 11 个 OGB 等基准胜出。",
    "stage": "2017 起源 · 2018 发表 · GNN 注意力基线",
    "player": "Petar Veličković; DeepMind; Univ. Cambridge",
    "url": "https://arxiv.org/abs/1710.10903",
@@ -62542,7 +62542,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "打车/网约车/顺风车/货运平台；智能派单与定价算法；自动驾驶平台（与文远知行、小马智行、广汽等合作 Robotaxi）",
+   "desc": "打车/网约车/顺风车/货运平台；智能派单与定价算法；自动驾驶平台（与文远知行、小马智行、广汽等合作 Robotaxi）；自动驾驶分拆：2025-10-11 完成 D 轮 20 亿元人民币（累计超百亿，广汽/北京国资等）；2025Q4 起「广呼全无人」——广州黄埔 7×24 全无人载客（地铁/商超/小区高频场景 App 呼叫）；与广汽合资安滴科技推进 Robotaxi 量产（多源核验）",
    "stage": "2012 年成立（程维）→2021 年纽交所上市、2022 年因网络安全审查被罚 80.26 亿元并启动退市→2023 年 6 月从纽交所退市→2025 年 6 月在港交所双重主要上市；2025 年与多家 Robotaxi 伙伴接入 App（含与 Uber 合作在迪拜的文远知行 Robotaxi）",
    "player": "",
    "url": "https://www.xiaojukj.com/",
@@ -69344,7 +69344,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "",
+   "desc": "；OpenAI 联合创始人、前首席科学家。2024-06 创办 SSI，2024-09 融 10 亿美元（估值 50 亿），2025-04 估值达 320 亿美元。",
    "stage": "",
    "player": "",
    "url": "",
@@ -69864,22 +69864,6 @@
    "year": 1959,
    "density": null,
    "extension": 4
-  },
-  {
-   "id": "person_new_24",
-   "name": "Greg Brockman",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "OpenAI 联合创始人/总裁、前 CTO；来源：公司档案 OpenAI.md",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1987,
-   "density": null,
-   "extension": 8
   },
   {
    "id": "person_new_26",
@@ -70512,7 +70496,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "OpenAI 联合创始人兼前总裁/CTO，GPT 系列早期技术掌舵；来源：公司档案 OpenAI.md（公开履历）",
+   "desc": "OpenAI 联合创始人兼前总裁/CTO，GPT 系列早期技术掌舵；来源：公司档案 OpenAI.md（公开履历）；OpenAI 联合创始人/总裁、前 CTO；来源：公司档案 OpenAI.md",
    "stage": "",
    "player": "",
    "url": "",
@@ -71258,22 +71242,6 @@
    "extension": 4
   },
   {
-   "id": "person_growth_35",
-   "name": "Oriol Vinyals",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "Google DeepMind研究员，Gemini联合技术负责人之一",
-   "stage": "",
-   "player": "",
-   "url": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
-   "link": null,
-   "year": 1983,
-   "density": null,
-   "extension": 0
-  },
-  {
    "id": "person_growth_36",
    "name": "Wojciech Zaremba",
    "type": "person",
@@ -71312,7 +71280,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "Google DeepMind研究VP，Transformer/深度学习核心研究者",
+   "desc": "Google DeepMind研究VP，Transformer/深度学习核心研究者；DeepMind 2010 创始团队成员、Google DeepMind CTO，主管 Gemini 项目线；2025 年中出任谷歌首位首席 AI 架构师，2026-08 重组后以 SVP 主持 DeepMind 日常运营（多源报道核验）",
    "stage": "",
    "player": "",
    "url": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
@@ -71728,7 +71696,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "斯坦福CRFM主任，HELM评测框架主导者",
+   "desc": "斯坦福CRFM主任，HELM评测框架主导者；斯坦福 CS/统计教授，基础模型研究中心（CRFM）主任：2021 合著《On the Opportunities and Risks of Foundation Models》、HELM 评测、SGLang 出自其组（Lianmin Zheng 等）、开源 MoE 训练项目 Marin（斯坦福官方页核验）",
    "stage": "",
    "player": "",
    "url": "https://hai.stanford.edu/news/percy-liang-center-research-foundation-models-first-and-next-30-years",
@@ -72096,7 +72064,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "GAN 之父（2014），《Deep Learning》教材一作；蒙特利尔 Bengio 博士生",
+   "desc": "GAN 之父（2014），《Deep Learning》教材一作；蒙特利尔 Bengio 博士生；GAN 之父：2014 提出生成对抗网络、合著《Deep Learning》教材；Apple 特别项目组 ML 总监（2019-03~2022-05，据报因返岗政策离开）后回 Google DeepMind 任首席科学家，近期再创业（Wikipedia/LinkedIn 核验）",
    "stage": "",
    "player": "",
    "url": "https://www.aiwiki.ai/wiki/ian_goodfellow",
@@ -72384,7 +72352,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "ResNet/Faster R-CNN 共同作者，MSRA 首席研究员，商汤首席科学家（2016-2022）",
+   "desc": "ResNet/Faster R-CNN 共同作者，MSRA 首席研究员，商汤首席科学家（2016-2022）；ResNet（残差网络）第一作者、两获 CVPR 最佳论文；MSRA 首席研究员，2016 年加入旷视创建研究院；2022-06-14 凌晨突发疾病去世，年仅 45 岁（新浪财经讣告核验）",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1512.03385",
@@ -72432,7 +72400,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "CTC（2006）与 NTM（2014）一作，IDSIA 出身，后加入 DeepMind",
+   "desc": "CTC（2006）与 NTM（2014）一作，IDSIA 出身，后加入 DeepMind；CTC（联结主义时序分类）发明者（ICML 2006，引用 9400+）；IDSIA 博士（师从 Schmidhuber），DeepMind/Google 期间做出 2014 端到端语音识别与 2013 手写生成 RNN 论文（cs.toronto.edu 原文核验）",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1410.5401",
@@ -73616,7 +73584,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L75",
-   "desc": "Google DeepMind 研究科学家，Seq2Seq（NeurIPS 2014）、Pointer Networks、AlphaStar 核心作者；Seq2Seq 2024 年获 NeurIPS 时间检验奖。",
+   "desc": "Google DeepMind 研究科学家，Seq2Seq（NeurIPS 2014）、Pointer Networks、AlphaStar 核心作者；Seq2Seq 2024 年获 NeurIPS 时间检验奖。；Google DeepMind研究员，Gemini联合技术负责人之一",
    "stage": "",
    "player": "",
    "url": "",
@@ -87552,7 +87520,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "全球 AI 原创发动机：斯坦福-伯克利学术母机 + Google/Meta/OpenAI 三大实验室派生谱系",
+   "desc": "全球 AI 原创发动机：斯坦福-伯克利学术母机 + Google/Meta/OpenAI 三大实验室派生谱系；2024 年湾区独揽全球 AI 风投近 700 亿美元（全球共 1346 亿），融资规模居全球 AI 板块之首。",
    "stage": "",
    "player": "",
    "url": "https://ai.stanford.edu/",
@@ -87616,7 +87584,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "中国 AI 策源地：清华-北大学术母机 + 智源 + 百度/字节/六小虎",
+   "desc": "中国 AI 策源地：清华-北大学术母机 + 智源 + 百度/字节/六小虎；2026-07 官方公布：AI 核心产业规模超 4500 亿元，集聚全国 37% 的 AI 顶尖人才与 40 家 AI 独角兽企业。",
    "stage": "",
    "player": "",
    "url": "https://www.baai.ac.cn/about-us",
@@ -87632,7 +87600,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "中国 AI 造模中心：上海 AI Lab + 商汤/MiniMax/阶跃 + 张江模速空间",
+   "desc": "中国 AI 造模中心：上海 AI Lab + 商汤/MiniMax/阶跃 + 张江模速空间；2025 年一季度规上 AI 产业规模超 1180 亿元，同比增长 29%、利润增 65%，成为全市经济新引擎。",
    "stage": "",
    "player": "",
    "url": "https://www.shlab.org.cn/",
@@ -88128,7 +88096,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "美国联邦，AI行政令（EO14110/EO14179）与产业政策管辖地",
+   "desc": "美国联邦，AI行政令（EO14110/EO14179）与产业政策管辖地；2025-07-23 白宫发布《美国 AI 行动计划》，以创新、基建、AI 出口三支柱取代拜登时代监管框架，与 EO14179 构成现行政策主轴。",
    "stage": "",
    "player": "",
    "url": "AI安全与治理纵深.md",
@@ -88144,7 +88112,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "中华人民共和国，生成式AI暂行办法/PIPL/数据安全法等国家域法规适用范围",
+   "desc": "中华人民共和国，生成式AI暂行办法/PIPL/数据安全法等国家域法规适用范围；2025-08-26 国务院印发《关于深入实施「人工智能+」行动的意见》，提出 2027 年新一代智能终端与智能体应用普及率超 70%。",
    "stage": "",
    "player": "",
    "url": "政策治理纵深.md；深化_中国政策基建.md",
@@ -88688,7 +88656,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L42",
-   "desc": "Hinton长期任教，深度学习正脉发源地",
+   "desc": "Hinton长期任教，深度学习正脉发源地；1827 年建校（前身 King's College）；Hinton 在此普及反向传播（1986）并任荣休教授，深度学习复兴的学术原点；2017 年共同创办 Vector Institute 并任首席科学顾问（Wikipedia/Vector 官方核验）",
    "stage": "",
    "player": "",
    "url": "https://www.utoronto.ca/",
@@ -90688,7 +90656,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Anthropic 2024-06 发布，中端 Sonnet 越级超 Opus 3，引爆编程 Agent 军备竞赛。",
+   "desc": "Anthropic 2024-06 发布，中端 Sonnet 越级超 Opus 3，引爆编程 Agent 军备竞赛。；2024-06-20 首发claude-3-5-sonnet-20240620（速度约 3 Opus 两倍）；2024-10-22 升级 v2（多步编码增强）并同步首发计算机使用 beta 与 3.5 Haiku（kingy.ai/Tom's Guide 核验）",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
@@ -91168,7 +91136,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "阿里 2025-04-29 发布的混合推理开源模型，单次部署自适应切换思考/非思考模式。",
+   "desc": "阿里 2025-04-29 发布的混合推理开源模型，单次部署自适应切换思考/非思考模式。；2025-04-28 阿里 Qwen 团队发布：首个混合思考（thinking/non-thinking 同体可切换）的开源权重 LLM 家族，8 档全 Apache 2.0（dense 0.6B~32B + MoE 30B-A3B/235B-A22B）；后续 Qwen3-Next-80B（2025-09）超稀疏混合注意力（官方博客/Simon Willison 核验）",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2505.09388",
@@ -92784,7 +92752,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "OpenAI 联合 Princeton 2024-08 由 93 名资深开发者人工校验出的 500 题可信子集",
+   "desc": "OpenAI 联合 Princeton 2024-08 由 93 名资深开发者人工校验出的 500 题可信子集；2024-08-15 OpenAI 从 Princeton SWE-bench 人工校验出 500 题子集；后因数据污染/记忆化被 OpenAI 弃用转推 SWE-bench Pro——前沿模型已刷至 95%+（GLM 5.3 477/500、GPT-5.6 481/500，Vals.ai 口径），Pro 上仅约 22%（Silicon Report 核验）",
    "stage": "",
    "player": "",
    "url": "https://openai.com/index/introducing-swe-bench-verified/",
@@ -110045,7 +110013,7 @@
    "id": "event:2022-08:深圳智能网联汽车条例施行",
    "name": "《深圳经济特区智能网联汽车管理条例》2022-08-01 施行（中国首部 ICV 地方性法规）",
    "type": "event",
-   "desc": "2022-06-23 深圳市七届人大常委会第十次会议表决通过《深圳经济特区智能网联汽车管理条例》，2022-06-30 深圳市人大常委会发布公告（第五十五号），自 2022-08-01 起施行。这是中国首部规范智能网联汽车（ICV）管理的地方性法规，首次在地方立法层面明确：① 列入产业目录的智能网联汽车经公安交管登记后可上道路行驶；② 无人驾驶车辆可在公安交管划定区域/路段行驶；③ 划分 L3/L4 阶段交通事故责任（驾驶人/所有人/管理人/研发主体）；④ 明确网络安全、数据跨境、保险等要求。该条例为深圳 Robotaxi（AutoX 坪山区/南山区全无人运营、小马智行、文远知行、元戎启行）提供了属地法治基础，也为 2024 年国家四部门 L3 准入试点与北京/上海/武汉等地方法规提供了立法样本。",
+   "desc": "2022-06-23 深圳市七届人大常委会第十次会议表决通过《深圳经济特区智能网联汽车管理条例》，2022-06-30 深圳市人大常委会发布公告（第五十五号），自 2022-08-01 起施行。这是中国首部规范智能网联汽车（ICV）管理的地方性法规，首次在地方立法层面明确：① 列入产业目录的智能网联汽车经公安交管登记后可上道路行驶；② 无人驾驶车辆可在公安交管划定区域/路段行驶；③ 划分 L3/L4 阶段交通事故责任（驾驶人/所有人/管理人/研发主体）；④ 明确网络安全、数据跨境、保险等要求。该条例为深圳 Robotaxi（AutoX 坪山区/南山区全无人运营、小马智行前海/南山、元戎启行）与文远知行自动驾驶小巴（Robobus）载人示范运营提供了属地法治基础，也为 2024 年国家四部门 L3 准入试点与北京/上海/武汉等地方法规提供了立法样本。",
    "stage": "",
    "player": "",
    "url": "",
@@ -160507,9 +160475,9 @@
   },
   {
    "id": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
-   "name": "月之暗面发布开源权重 Kimi K3.1 Pro，编码基准直逼最强闭源旗舰（2026-10-23）",
+   "name": "月之暗面发布 Kimi K3.1 Pro（API 先行），承诺 11-04 前开源完整权重（2026-10-23/24）",
    "type": "event",
-   "desc": "2026-10-23 月之暗面发布开源权重Kimi K3.1 Pro：编码基准65.7分直逼最强闭源旗舰，完整权重11-04前释出。",
+   "desc": "2026-10-23（北京时间 10-24 凌晨）月之暗面发布 Kimi K3.1 Pro：约 3 万亿级参数（总 2.8 万亿/激活 1040 亿）、100 万 token 上下文、多模态；Artificial Analysis 智能指数 55 分列第四；发布时未附技术报告与系统卡，仅经 Kimi API/Kimi.ai/Kimi Work/Kimi Code 使用，完整权重承诺 2026-11-04 前释出（截至 10-29 HF/GitHub 仍无 K3.1-Pro 权重仓库，Economic Times/Overchat/中文多源核验）。定价：每百万 token 输入 2 美元/输出 10 美元/缓存 0.2 美元，另有 Highspeed 版快 2~3 倍（Artificial Analysis/Kimi 官方渠道口径核验）。",
    "stage": "",
    "player": "Moonshot（月之暗面）",
    "url": "",
@@ -160648,6 +160616,1878 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42"
+  },
+  {
+   "id": "concept_R618-1",
+   "name": "LMSYS-Chat-1M（真实人机对话语料）",
+   "type": "concept",
+   "desc": "LMSYS Org 2023 年经 Vicuna 演示与 Chatbot Arena 采集的百万级真实用户-LLM 对话语料（arXiv:2309.11998，ICLR 2024），覆盖 25 个模型，用于真实行为分析与对话微调。",
+   "stage": "",
+   "player": "LMSYS Org;UC Berkeley",
+   "url": "",
+   "link": "https://arxiv.org/abs/2309.11998",
+   "year": 2023,
+   "density": null,
+   "extension": 5,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-2",
+   "name": "WildChat（真实野外对话语料）",
+   "type": "concept",
+   "desc": "AI2 2024 年发布的百万级真实用户-ChatGPT 对话语料（arXiv:2405.01470，ICLR 2024）：知情同意采集、250 万+轮次、含毒性标注，后并入 Tülu 3 SFT 混料。",
+   "stage": "",
+   "player": "AI2;Cornell",
+   "url": "",
+   "link": "https://arxiv.org/abs/2405.01470",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-3",
+   "name": "FLAN Collection（指令微调任务集）",
+   "type": "concept",
+   "desc": "Google 2023 年发布的指令微调任务集（arXiv:2301.13688）：合并 Flan2021/T0/NIv2/CoT 共 1,836 个任务，FLAN-PaLM 与 FLAN-T5 的训练源，确立任务混合扩展范式。",
+   "stage": "",
+   "player": "Google",
+   "url": "",
+   "link": "https://arxiv.org/abs/2301.13688",
+   "year": 2023,
+   "density": null,
+   "extension": 6,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-4",
+   "name": "Super-NaturalInstructions（NIv2 专家指令集）",
+   "type": "concept",
+   "desc": "AI2/UW 2022 年发布的 1,616 任务专家指令基准（arXiv:2204.07705，EMNLP 2022）：每任务含专家撰写指令与实例，支撑 Tk-Instruct 与 T0/Flan 指令泛化数据线。",
+   "stage": "",
+   "player": "AI2;UW",
+   "url": "",
+   "link": "https://arxiv.org/abs/2204.07705",
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-5",
+   "name": "OpenOrca（Orca 开源复现数据）",
+   "type": "concept",
+   "desc": "Open-Orca 社区 2023 年经 Hugging Face 发布：对 FLAN 子集按 Orca 论文（arXiv:2306.02706）配方补全约 100 万条 GPT-4 与 320 万条 GPT-3.5 回答，开源复现 Orca 数据。",
+   "stage": "",
+   "player": "Open-Orca Community",
+   "url": "",
+   "link": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+   "year": 2023,
+   "density": null,
+   "extension": 2,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-6",
+   "name": "Objaverse（大规模 3D 资产）",
+   "type": "concept",
+   "desc": "AI2 2022 年发布的 80 万+ 3D 资产数据集（arXiv:2212.08051，CVPR 2023）：来自 Sketchfab 10 万+创作者，附描述标注与渲染图，Zero-1-to-3 等单图生 3D 的训练底座。",
+   "stage": "",
+   "player": "AI2;UW",
+   "url": "",
+   "link": "https://arxiv.org/abs/2212.08051",
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R618-7",
+   "name": "Infinity-Instruct（BAAI 规模指令集）",
+   "type": "concept",
+   "desc": "BAAI 2024 年发布的规模化指令数据集：约 700 万基础指令+3000 万多轮对话（精选+合成双阶段），1.4M 核心子集达全量 95.7% 效果。",
+   "stage": "",
+   "player": "BAAI",
+   "url": "",
+   "link": "https://huggingface.co/datasets/BAAI/Infinity-Instruct",
+   "year": 2024,
+   "density": null,
+   "extension": 2,
+   "dim": 2,
+   "dim_name": "技术架构",
+   "level": "L42"
+  },
+  {
+   "id": "event:2023-09:LMSYS-Chat-1M论文发布",
+   "name": "LMSYS-Chat-1M 百万真实人机对话数据集论文发布（2023-09-21，ICLR 2024）",
+   "type": "event",
+   "desc": "2023-09-21，Lianmin Zheng、Wei-Lin Chiang、Ying Sheng、Tianle Li 等（LMSYS Org，UC Berkeley 等合作）在 arXiv 提交《LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset》（arXiv:2309.11998，后发表于 ICLR 2024）：以知情框架经 Vicuna 演示站（约 90%）与 Chatbot Arena（约 10%）采集 21 万独立 IP 的 100 万条真实用户对话，覆盖 25 个当时主流 LLM 与 150+ 任务类型，为首个大规模真实人机对话语料；论文示范以其微调 UltraLM-13B 优于仅用 UltraChat 的版本，并用于提升 Chatbot Arena 提示质量与毒性/安全分析。",
+   "stage": "",
+   "player": "LMSYS Org;UC Berkeley;Lianmin Zheng",
+   "url": "",
+   "link": "https://arxiv.org/abs/2309.11998",
+   "year": 2023,
+   "density": null,
+   "extension": 0,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2022-12:Objaverse论文发布",
+   "name": "Objaverse 大规模 3D 资产数据集论文发布（2022-12-15，CVPR 2023）",
+   "type": "event",
+   "desc": "2022-12-15，Matt Deitke、Dustin Schwenk、Jordi Salvador 等（Allen Institute for AI 与华盛顿大学合作）在 arXiv 提交《Objaverse: A Universe of Annotated 3D Objects》（arXiv:2212.08051，后发表于 CVPR 2023）：从 Sketchfab 汇集 80 万+ 3D 资产（论文正文：由 10 万+创作者制作），附描述性标注、标签与动画，规模与类别/视觉多样性显著超越 ShapeNet 等既有 3D 数据集；Zero-1-to-3 次年在其多视角渲染上微调开启单图生 3D 路线，Objaverse 成为 3D 生成（Zero123/LRM/TripoSR 等）事实底座，后继 Objaverse-XL（NeurIPS 2023）扩至 10.2M。",
+   "stage": "",
+   "player": "AI2;UW;Matt Deitke",
+   "url": "",
+   "link": "https://arxiv.org/abs/2212.08051",
+   "year": 2022,
+   "density": null,
+   "extension": 0,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Meta-95B-equity-raise-for-AI",
+   "name": "Meta 宣布至多 950 亿美元股权融资投向 AI，史上最大规模（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 Meta 宣布至多 950 亿美元股权融资，首批 350 亿美元，英伟达/AMD/博通拟各购至多 50 亿美元，投向 AI 基建。",
+   "stage": "",
+   "player": "Meta",
+   "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26",
+   "link": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:OpenAI-air-gapped-training-covert-channel",
+   "name": "OpenAI 披露前沿模型断网训练环境：红队智能体借 CPU 缓存时序构建隐蔽信道（2026-10-24）",
+   "type": "event",
+   "desc": "2026-10-24 OpenAI 披露前沿模型训练已转入断网隔离环境，红队智能体仍借 CPU 缓存时序构建隐蔽信道并实现 VM 逃逸，防御重心转向硬件层。",
+   "stage": "",
+   "player": "OpenAI",
+   "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Anthropic-sandbox-runtime-open-source",
+   "name": "Anthropic 开源 Sandbox Runtime：无容器 OS 级 Agent 沙箱隔离（2026-10-24）",
+   "type": "event",
+   "desc": "2026-10-24 Anthropic 开源 sandbox-runtime：无容器沙箱，支撑 Claude Code 权限提示减少 84%，安全基建外溢。",
+   "stage": "",
+   "player": "Anthropic",
+   "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox",
+   "link": "https://github.com/anthropics/sandbox-runtime",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:DeepSeek-MiniMax-global-deployment-approval",
+   "name": "DeepSeek、MiniMax 获准模型海外部署并完成出口登记（2026-10-23）",
+   "type": "event",
+   "desc": "2026-10-23 玉渊谭天披露：DeepSeek、MiniMax 获准海外部署模型并完成登记，系商务部出口管制新规后首批放行，国产开源模型出海合规打通。",
+   "stage": "",
+   "player": "DeepSeek/MiniMax",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/deepseek-minimax-win-approval-for-global-use-state-media-says",
+   "link": "https://www.reuters.com/business/media-telecom/chinas-deepseek-minimax-win-approval-ai-global-use-state-media-affiliated-entity-2026-10-23",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2023-04:三星员工ChatGPT泄密",
+   "name": "三星员工经 ChatGPT 泄密，后全面禁用生成式 AI（2023-04）",
+   "type": "event",
+   "desc": "2023-03 韩媒披露三星半导体员工 20 天内 3 次将源代码与会议纪要贴入 ChatGPT，4 月再现泄密；2023-05-02 三星在自有设备与内网全面禁用生成式 AI 并开发内部替代。",
+   "stage": "",
+   "player": "Samsung",
+   "url": "https://www.cnbc.com/2023/05/02/samsung-bans-use-of-ai-like-chatgpt-for-staff-after-misuse-of-chatbot.html",
+   "link": "https://www.bloomberg.com/news/articles/2023-05-02/samsung-bans-chatgpt-and-other-generative-ai-use-by-staff-after-leak",
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2023-07:韩国PIPC罚OpenAI",
+   "name": "韩国 PIPC 就 ChatGPT 漏洞未限期通报罚款 OpenAI（2023-07-27）",
+   "type": "event",
+   "desc": "韩国个人信息保护委员会认定 OpenAI 未按 PIPA 限期通报 3 月 Redis 漏洞（687 名韩国用户受影响），2023-07-27 公布 360 万韩元罚款，系全球监管对 OpenAI 数据泄露的首张罚单。",
+   "stage": "",
+   "player": "OpenAI",
+   "url": "https://www.dataguidance.com/news/south-korea-pipc-fines-openai-krw-36-million-following",
+   "link": "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=2271",
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2023-11:OpenAI-DDoS攻击致ChatGPT瘫痪",
+   "name": "DDoS 攻击致 ChatGPT 与 API 间歇性瘫痪（2023-11-08）",
+   "type": "event",
+   "desc": "2023-11-08 起 ChatGPT 与 API 间歇性瘫痪，OpenAI 状态页 11-09 确认系『异常流量模式』DDoS 攻击，Anonymous Sudan 宣称负责；暴露头部 AI 服务的可用性与抗攻击短板。",
+   "stage": "",
+   "player": "OpenAI",
+   "url": "https://techcrunch.com/2023/11/09/openai-blames-ddos-attack-for-ongoing-chatgpt-outage/",
+   "link": "https://status.openai.com/incidents/21vl32gvx3hb",
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2024-02:Gemini人物图生成暂停",
+   "name": "谷歌暂停 Gemini 人物图像生成（2024-02-22）",
+   "type": "event",
+   "desc": "Gemini 生成『多元纳粹士兵』等历史失实人物图引发抨击，Google 2024-02-22 暂停人物图像生成并致歉，承认调优『过度补偿』；8 月以 Imagen 3 恢复，成为对齐调优翻车的标志事故。",
+   "stage": "",
+   "player": "Google",
+   "url": "https://www.reuters.com/technology/google-pause-gemini-ai-models-image-generation-people-2024-02-22/",
+   "link": "https://blog.google/products-and-platforms/products/gemini/gemini-image-generation-issue/",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2025-01:DeepSeek数据库暴露",
+   "name": "Wiz 披露 DeepSeek 数据库无鉴权暴露（2025-01-29）",
+   "type": "event",
+   "desc": "Wiz Research 2025-01-29 披露 DeepSeek 一 ClickHouse 数据库无鉴权公网可访问，含超 100 万条聊天记录、API 密钥与内部元数据；通报后即下线，R1 爆红同期安全实践遭全球审视。",
+   "stage": "",
+   "player": "DeepSeek",
+   "url": "https://www.wired.com/story/exposed-deepseek-database-revealed-chat-prompts-and-internal-data/",
+   "link": "https://www.wiz.io/blog/wiz-research-uncovers-exposed-deepseek-database-leak",
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "concept_R622-1",
+   "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks（RAG）",
+   "type": "concept",
+   "desc": "Lewis 等 FAIR+UCL（NeurIPS 2020）：DPR 检索+BART 生成联合训练，知识参数化与非参数化分离，RAG 奠基，引用万级以上",
+   "stage": "",
+   "player": "Facebook AI Research;UCL",
+   "url": "",
+   "link": "https://arxiv.org/abs/2005.11401",
+   "year": 2020,
+   "density": null,
+   "extension": 9,
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R622-2",
+   "name": "Very Deep Convolutional Networks for Large-Scale Image Recognition（VGG）",
+   "type": "concept",
+   "desc": "Simonyan & Zisserman 牛津 VGG 组（ICLR 2015）：3×3 小卷积堆叠 16-19 层，ILSVRC2014 定位第一，引用十万级",
+   "stage": "",
+   "player": "University of Oxford",
+   "url": "",
+   "link": "https://arxiv.org/abs/1409.1556",
+   "year": 2014,
+   "density": null,
+   "extension": 6,
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R622-3",
+   "name": "Image-to-Image Translation with Conditional Adversarial Networks（pix2pix）",
+   "type": "concept",
+   "desc": "Isola/Zhu 等 UC Berkeley（CVPR 2017）：条件 GAN 图像翻译，PatchGAN 判别器，可控生成先声，引用万级",
+   "stage": "",
+   "player": "UC Berkeley",
+   "url": "",
+   "link": "https://arxiv.org/abs/1611.07004",
+   "year": 2016,
+   "density": null,
+   "extension": 6,
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R622-4",
+   "name": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks（CycleGAN）",
+   "type": "concept",
+   "desc": "Zhu/Park 等 UC Berkeley（ICCV 2017）：无配对图像翻译，循环一致性损失双映射互约束，风格迁移标杆，引用万级",
+   "stage": "",
+   "player": "UC Berkeley",
+   "url": "",
+   "link": "https://arxiv.org/abs/1703.10593",
+   "year": 2017,
+   "density": null,
+   "extension": 4,
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R622-5",
+   "name": "Large Scale GAN Training for High Fidelity Natural Image Synthesis（BigGAN）",
+   "type": "concept",
+   "desc": "Brock 等 DeepMind（ICLR 2019）：类条件大规模 GAN，截断技巧+层级噪声，IS 166.5 当时最优，引用近万",
+   "stage": "",
+   "player": "DeepMind",
+   "url": "",
+   "link": "https://arxiv.org/abs/1809.11096",
+   "year": 2018,
+   "density": null,
+   "extension": 6,
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L42"
+  },
+  {
+   "id": "person_R623-1",
+   "name": "马克斯·泰格马克（Max Tegmark）",
+   "type": "person",
+   "desc": "MIT 物理教授、生命未来研究所（FLI）创始所长，AI 存在风险旗手，2023 领衔组织暂停巨型 AI 公开信",
+   "stage": "",
+   "player": "MIT; Future of Life Institute",
+   "url": "https://en.wikipedia.org/wiki/Max_Tegmark",
+   "link": null,
+   "year": 1967,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R623-2",
+   "name": "颜水成（Shuicheng Yan）",
+   "type": "person",
+   "desc": "计算机视觉学者、新加坡工程院院士；历任 NUS 教授、360 AI 研究院院长、昆仑万维天工联席 CEO",
+   "stage": "",
+   "player": "新加坡国立大学; 360集团; 昆仑万维",
+   "url": "https://www.geekpark.net/news/324125",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R623-3",
+   "name": "凯文·威尔（Kevin Weil）",
+   "type": "person",
+   "desc": "OpenAI 首席产品官（2024-2026），主导 ChatGPT 产品化；曾任 Planet Labs 总裁",
+   "stage": "",
+   "player": "OpenAI; Planet Labs; Warp Sciences(2026 创立)",
+   "url": "https://openai.com/index/openai-welcomes-cfo-cpo",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R623-4",
+   "name": "斯特凡诺·埃尔蒙（Stefano Ermon）",
+   "type": "person",
+   "desc": "斯坦福计算机副教授，score-based 扩散模型源头（Yang Song 博导），Inception Labs 联创",
+   "stage": "",
+   "player": "Stanford University; Inception Labs",
+   "url": "https://kingcenter.stanford.edu/people/stefano-ermon",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R623-5",
+   "name": "张宏江（Harry Zhang Hongjiang）",
+   "type": "person",
+   "desc": "多媒体计算与视频检索开拓者、美国工程院外籍院士；MSRA 创始成员，曾任金山集团 CEO，智源创始理事长",
+   "stage": "",
+   "player": "北京智源人工智能研究院; 微软亚洲研究院; 金山集团",
+   "url": "https://air.tsinghua.edu.cn/info/1047/1208.htm",
+   "link": null,
+   "year": 1960,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "concept_R624-1",
+   "name": "Fairwater（微软威斯康星 AI 数据中心园区）",
+   "type": "concept",
+   "desc": "微软威斯康星 Mount Pleasant 园区：首期 33 亿美元，2025-09 追加 40 亿建第二座、威州总计超 70 亿美元；载数十万张 NVIDIA GPU、>90% 闭环液冷，微软称全球最强 AI 数据中心，首座 2026 年初上线。",
+   "stage": "",
+   "player": "Microsoft",
+   "url": "",
+   "link": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+   "year": 2024,
+   "density": null,
+   "extension": 6,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R624-2",
+   "name": "EuroHPC AI Factories（欧盟 AI 工厂网络）",
+   "type": "concept",
+   "desc": "欧盟 EuroHPC JU 主导的主权算力网络：2024-12 选定首批 7 座（LUMI/IT4LIA/BSC 等，约 15 亿欧元），2025-10 扩至 19 座+13 座天线节点；配套欧洲首台 E 级超算 JUPITER（于利希）2025-09 上线。",
+   "stage": "",
+   "player": "EuroHPC JU;European Commission",
+   "url": "",
+   "link": "https://www.eurohpc-ju.europa.eu/selection-first-seven-ai-factories-drive-europes-leadership-ai-2024-12-10_en",
+   "year": 2024,
+   "density": null,
+   "extension": 6,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R624-3",
+   "name": "Meitner Energy Center（Google 得州源网共置园区）",
+   "type": "concept",
+   "desc": "Google 与 Intersect Power 在得州潘汉德尔 Gray/Roberts 县共建的源网共置园区：数据中心配套 1GW+ 风光储，投资约 16.8 亿美元，2026-06 动工、约 2028 建成，属 Google 得州 400 亿美元布局。",
+   "stage": "",
+   "player": "Google;Intersect Power",
+   "url": "",
+   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/meitner-energy-center",
+   "year": 2026,
+   "density": null,
+   "extension": 5,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R624-4",
+   "name": "NAIRR（美国国家 AI 研究资源试点）",
+   "type": "concept",
+   "desc": "美国 NSF 牵头的国家级公共 AI 算力平台：2024-01 启动试点，聚合政府与产业界捐助的算力/数据/培训资源，已服务 48 州 600+ 科研项目；2025-09 NSF 招标组建运营中心（NAIRR-OC），转向常态化运营。",
+   "stage": "",
+   "player": "NSF（美国国家科学基金会）",
+   "url": "",
+   "link": "https://www.nsf.gov/focus-areas/si/nairr",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "event:2026-10:Anthropic-S1-IPO-filing-Nasdaq-ANT",
+   "name": "Anthropic 公开 S-1 招股文件：拟登纳斯达克代码 ANT，前沿实验室上市第一单（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 Anthropic 公开 S-1 招股文件，拟登纳斯达克（代码 ANT）：上半年营收 163 亿美元、净亏 807 亿，Q3 收入环比增 45%。",
+   "stage": "",
+   "player": "Anthropic",
+   "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html",
+   "link": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:DeepSeek-V4.1-Flash-1017-OpenRouter-weekly-No1",
+   "name": "DeepSeek V4.1-Flash-1017 单周调用量登顶 OpenRouter 全球周榜，中国模型占前十中七席（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 据 OpenRouter 周榜：DeepSeek V4.1-Flash-1017 单周调用量 33.6 万亿 token、环比 +801% 登顶全球第一，全球总量 188 万亿，前十中国占七席。",
+   "stage": "",
+   "player": "DeepSeek（深度求索）",
+   "url": "https://openrouter.ai/rankings",
+   "link": "https://finance.sina.com.cn/stock/estate/integration/2026-10-26/doc-iniwprzv5502217.shtml",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:OpenAI-GPT-6.1-Terra-release",
+   "name": "OpenAI 发布 GPT-6.1 Terra：中档模型主打规模化 computer use（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 OpenAI 发布 GPT-6.1 Terra：系列中档，主打高吞吐专业工作与规模化 computer use，图像分析强化，$1/$5 每百万 token，ChatGPT Work、Codex 与 API 同步开放。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://x.com/OpenAI/status/2114780711664398349",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Oracle-Private-Agent-Factory-2610-Deep-NL2SQL",
+   "name": "Oracle 发布 Private Agent Factory 26.10，Deep NL2SQL 锚定业务知识图谱（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 Oracle 发布 Private Agent Factory 26.10：Deep NL2SQL 基于业务知识图谱生成合规企业级 SQL，附知识工作台、Python SDK/REST 与 A2A 多代理编排，Agent Engine 同步亮相。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://blogs.oracle.com/database/announcing-private-agent-factory-26-10-featuring-deep-nl2sql",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Microsoft-60k-voluntary-buyouts-AI-restructuring",
+   "name": "微软向约 6 万员工发出自愿买断要约，AI 转型下最大规模人员重构（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26 微软启动自愿买断，覆盖约 6 万员工（约全员 1/4），12 月初抉择，称无并行裁员；AI 基建高投入下以 AI 提效重构人力，为年内最大科技巨头人员重组信号。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Cathedral-exDOGE-AI-agent-breach-Anthropic",
+   "name": "前 DOGE 员工初创 Cathedral 以 AI 代理 12 小时内渗透 Anthropic 内部系统（2026-10-26）",
+   "type": "event",
+   "desc": "2026-10-26（美东）华盛顿邮报独家：前 DOGE 员工创办的网络安全初创 Cathedral 以 AI 代理自第三方销售/行政业务软件切入，不足 12 小时进入 Anthropic 内部业务系统，获取 Slack 消息与 HR 数据后向 Anthropic 通报；Anthropic 确认有限范围内部业务系统被触达，AI 代理驱动渗透与 AI 公司自身安全暴露成为行业焦点。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "name": "SpaceX 完成 400 亿美元债务融资，专项采购英伟达 AI 芯片（2026-10-26 马斯克宣布）",
+   "type": "event",
+   "desc": "2026-10-26 马斯克在 X 宣布：SpaceX 已完成 400 亿美元（约 2900 亿元人民币）债务融资，凭投资级信用评级发行，资金专项用于采购英伟达 GPU 发展 AI 业务（xAI 并入后算力扩张）。新浪财经/凤凰网/TechStartups 多源核验；属 10-26 窗口边界事件（轮 627 建议补收）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwpfmx9303725.shtml",
+   "year": 2026,
+   "density": null,
+   "extension": 9,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:软银-马来西亚500亿AI数据中心",
+   "name": "软银拟投约 500 亿美元于马来西亚 AI 与数据中心建设（2026-10-26 安瓦尔公布）",
+   "type": "event",
+   "desc": "2026-10-26 马来西亚总理安瓦尔公布：软银（孙正义）拟投约 500 亿美元（约 3900 亿港元）聚焦 AI、前沿新技术与数据中心，选址砂拉越州/古晋及马来半岛；本月初软银已与 Grab、砂拉越石油 PETROS 签框架协议共同开发砂拉越 AI 与数字基建。马来西亚以 2030「AI 国家」为目标（2021-2026H1 数据中心投资累计约 3857 亿林吉特/940 亿美元，MIDA）。新浪财经两篇+数角网多源核验（轮 627 建议补收）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwpwiq2493542.shtml",
+   "year": 2026,
+   "density": null,
+   "extension": 7,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "concept_R638-3",
+   "name": "ALLaM 阿拉伯语大模型系列（SDAIA/NCAI）",
+   "type": "concept",
+   "desc": "沙特国家 AI 中心（NCAI，隶属 SDAIA）研发的阿拉伯语-英语双语大模型系列：2024-05 在 IBM Think 2024 宣布与 IBM watsonx 合作托管，2024-07 发布 arXiv 技术论文；2025-03 ALLaM-7B-Instruct-preview 以开放权重登 Hugging Face（humain-ai 组织），并有面向公众的 Allam 阿语聊天应用。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://huggingface.co/humain-ai/ALLaM-7B-Instruct-preview",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R638-2",
+   "name": "沙特《国家数据与人工智能战略》（NSDAI，2020-10）",
+   "type": "policy",
+   "desc": "2020-10 由 SDAIA 发布的国家战略，目标 2030 年使沙特跻身全球数据与 AI 领导者行列，数据与 AI 预计为经济贡献超 100 亿美元；近年沿 HUMAIN 主权算力、ALLaM 阿语模型等落地推进（Intelligent CIO 2020-10-27 与 SDAIA 官方口径核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://sdaia.gov.sa",
+   "year": 2020,
+   "density": null,
+   "extension": 5,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R638-1",
+   "name": "沙特数据与人工智能总局（SDAIA）",
+   "type": "institution",
+   "desc": "2019 年沙特 royal decree 设立的国家数据与 AI 统筹机构，直属首相府；下设国家 AI 中心（NCAI）与国家信息中心，掌《国家数据与 AI 战略》（NSDAI）、AI 伦理原则（2023-09-14 采纳）与 Estishraf 等国家级平台，是 Vision 2030 数字化支柱的执行中枢。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://sdaia.gov.sa",
+   "year": 2019,
+   "density": null,
+   "extension": 5,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "name": "OpenAI/G42/Oracle/NVIDIA/软银/思科宣布 Stargate UAE：阿联酋-美国 AI 园区（2025-05，起步 1GW 规划 5GW）",
+   "type": "event",
+   "desc": "2025-05 特朗普访阿联酋期间，OpenAI、G42、Oracle、NVIDIA、软银、思科宣布 Stargate UAE——首个海外 Stargate 部署：阿布扎比 10 平方英里 UAE-US AI Campus，终期规划 5GW AI 算力，起步 1GW（首期约 200MW、约 10 万块英伟达芯片），定于 2026 年投运；G42 2025-10 确认建设推进（Khazna 施工），美方对先进芯片出口设安全审查、阿联酋加强安保（technewshub/G42 官方/techcapital 多源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://finance.yahoo.com/news/g42-provides-construction-stargate-uae-140000884.html",
+   "year": 2025,
+   "density": null,
+   "extension": 13,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "policy_R639-1",
+   "name": "阿联酋《国家人工智能战略 2031》（2017）",
+   "type": "policy",
+   "desc": "2017 年发布，全球最早的国家 AI 战略之一；目标 2031 年成为全球 AI 领导者、建成 AI 驱动经济，把 AI 集成进医疗/教育/能源/交通等关键部门。2017-10 任命 Omar Al Olama 为全球首位 AI 国务部长；后续由 G42/MBZUAI/Stargate UAE 等生态承接。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://u.ae/en/information-and-services/science-and-technology/artificial-intelligence",
+   "year": 2017,
+   "density": null,
+   "extension": 2,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R639-2",
+   "name": "穆罕默德·本·扎耶德人工智能大学（MBZUAI）",
+   "type": "institution",
+   "desc": "2019 年在阿布扎比设立的全球首所 AI 专门研究型大学（研究生层级），阿联酋 AI 人才体系核心节点；师生广泛参与 Falcon 生态与区域 AI 研究，是阿联酋《国家 AI 战略 2031》的人才支柱。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://mbzuai.ac.ae",
+   "year": 2019,
+   "density": null,
+   "extension": 2,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "company_R640-1",
+   "name": "Maritaca AI（2023，巴西坎皮纳斯）",
+   "type": "company",
+   "desc": "2023 年自 UNICAMP 分拆的巴西葡语大模型公司：Sabiá-65B 为首个葡语 LLM（略超 GPT-3.5-turbo）；Sabiá-3/Sabiazinho-3（arXiv 2410.12049，2025-02 报告）在 64 项巴西职业考试准确率对标 GPT-4o、单 token 成本约 1/3~1/4，被称为巴西首个主权基础模型；长期主张巴西自主训练大模型并推动国家 AI 计划。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://arxiv.org/html/2410.12049v3",
+   "year": 2023,
+   "density": null,
+   "extension": 7,
+   "dim": 4,
+   "dim_name": "产业公司",
+   "level": "L48"
+  },
+  {
+   "id": "concept_R640-3",
+   "name": "巴西国家 AI 算力基建（Santos Dumont 超算/LNCC 与 2026 十亿雷亚尔新超算）",
+   "type": "concept",
+   "desc": "巴西学术算力主干：LNCC（国家科学计算实验室）Santos Dumont 超算专供科研，Santos Dumont+FAPESP 平台用于训练巴西葡语大模型（Sabiá 等）；2026-08 宣布由 FNDCT 资助、逾 10 亿雷亚尔的专用 AI 超算，落地 Augusto Severo 科技园，剑指拉美最强算力。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://revistapesquisa.fapesp.br/en/brazil-improves-its-supercomputer-infrastructure",
+   "year": 2026,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R640-2",
+   "name": "巴西《人工智能计划》PBIA 2024-2028「AI 造福全民」（2024-07-31）",
+   "type": "policy",
+   "desc": "2024-07-31 卢拉政府发布（IA para o Bem de Todos）：2024-2028 投入 230.3 亿雷亚尔（约 40 亿美元）公共资金，其中约 140 亿雷亚尔投向 AI 基础设施与葡语超算；强调社会导向、数字主权，设国家算法透明与可信 AI 中心；与 PL 2338 法案（2024）同属巴西 AI 治理框架。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://digitalpolicyalert.org/event/22006-launched-artificial-intelligence-plan-pbia-2024-2028-including-publishing-guides-on-ai-and-creating-the-national-center-for-algorithmic-transparency-and-trustworthy-ai",
+   "year": 2024,
+   "density": null,
+   "extension": 7,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "company_R641-2",
+   "name": "FPT 集团（越南，AI Factory）",
+   "type": "company",
+   "desc": "越南最大 IT 服务集团：2024-04 与 NVIDIA 签约 2 亿美元建设越南首个专用 AI 基础设施 FPT AI Factory（Metal Cloud，逾 1000 块 NVIDIA GPU），定位主权云/AI 枢纽；2025 年起作为 AI 工作流竞赛伙伴并扩 LandingAI 视觉 AI 合作；生成式 AI 预计为越南经济贡献约 14 万亿越盾（developingtelecoms/官方工厂页核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://factory.fpt.ai/news/landingai-leverages-fpt-ai-factory-to-accelerate-visual-ai-platform",
+   "year": 2024,
+   "density": null,
+   "extension": 5,
+   "dim": 4,
+   "dim_name": "产业公司",
+   "level": "L48"
+  },
+  {
+   "id": "company_R641-3",
+   "name": "Viettel（军队电信集团，Viettel AI）",
+   "type": "company",
+   "desc": "越南最大电信运营商（军队背景）：2022 年成为首家与 NVIDIA 签署战略 AI 合作的越南企业（东南亚仅五家）；2024-11 采用 NVIDIA NeMo Curator 建越语高质量语料管线训练越语大模型；语音/对话/越语 NLP 平台获评 2025/2026 十大科技产品（theinvestor.vn/NVIDIA 开发者博客核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://theinvestor.vn/viettel-nvidia-sign-strategic-partnership-for-ai-development-d954.html",
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 4,
+   "dim_name": "产业公司",
+   "level": "L48"
+  },
+  {
+   "id": "concept_R641-4",
+   "name": "PhoGPT（VinAI 越语开源大模型系列）",
+   "type": "concept",
+   "desc": "VinAI 研究院开源的越南语大模型系列：PhoGPT-4B（实际 3.7B 参数，102B token 越语语料从零预训，8192 上下文，2023-11-06 发布）及 Instruct/Chat 变体、7.5B 的 PhoGPT-7B5；均发布于 Hugging Face vinai 组织（技术论文 arXiv 2024-03）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://huggingface.co/vinai/PhoGPT-7B5",
+   "year": 2023,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R641-1",
+   "name": "越南《至 2030 年人工智能研发与应用国家战略》（127/QD-TTg，2021-01-26）",
+   "type": "policy",
+   "desc": "2021-01-26 越南总理签发的首个国家 AI 总体政策框架：目标 2030 年进入 ASEAN 前四、全球前 50，建设国家 AI 研发中心/共享平台/高性能算力，优先八领域（智能制造/医疗/农业/智慧城市/环境/教育/安防等）。2025-08-28 第 1671 号决定更新（2030 愿景 2045、ASEAN 前三）；2025-2026 年出台越南首部《AI 法》与第 33/2026 号强制适用规则（CSIRO Aus4Innovation/Legal500 等核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2021,
+   "density": null,
+   "extension": 2,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "event:2026-10:AI数据中心反弹中期选举议题",
+   "name": "AI 数据中心社区反弹成为美国中期选举两党议题（2026 秋）",
+   "type": "event",
+   "desc": "2026 年秋，AI 数据中心扩建的社区反弹上升为美国中期选举议题：Economist/YouGov 民调约 2/3 美国人反对新建数据中心（NPR 9-21）；63% 登记选民反对住址 10 英里内建 AI 数据中心（CNBC 10-24），另有民调反对率一年内由 42% 升至 75%；两党选民共同反对（Stateline 10-12/BBC 10-14），选民更偏好反对数据中心建点的候选人（Politico 10-25）；投资者视中期选举结果为 AI 交易的风险因素（Reuters 10-22）；导火索为噪音/电费上涨/用水。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.reuters.com/legal/transactional/investors-see-risk-us-midterms-ai-trade-data-center-backlash-builds-2026-10-22",
+   "year": 2026,
+   "density": null,
+   "extension": 6,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "concept_R643-1",
+   "name": "Sahabat-AI（印尼开源大模型，Indosat×GoTo）",
+   "type": "concept",
+   "desc": "2024-11-14 由 Indosat Ooredoo Hutchison 与 GoTo 集团联合发布的印尼开源大模型：主打印尼语与爪哇/巽他/巴厘/巴塔克等地方语言，首发 8B/9B 参数、NVIDIA 全栈平台训练，隶属 SEA-LION 区域生态、权重开放于 Hugging Face GoToCompany 组织；2025-2026 扩至 27B 覆盖五种印尼语言（GoTo 官方新闻稿+Reuters 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.gotocompany.com/en/news/press/indosat-ooredoo-hutchison-and-goto-launch-sahabat-ai-indonesias-open-source-llm-for-empowering-digital-sovereignty",
+   "year": 2024,
+   "density": null,
+   "extension": 5,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R643-3",
+   "name": "印尼 Komdigi《国家人工智能路线图》（2025-09）",
+   "type": "policy",
+   "desc": "2025-09 印尼通信与数字部（Komdigi）正式发布国家 AI 路线图，强调伦理与负责任 AI、全球竞争力；副部长 Nezar Patria 提出四支柱——协作强化/风险缓释/创新/研究加强；2025-04 起政府同步收紧 AI 监管（接续 Stranas KA 2020-2045 与 Making Indonesia 4.0）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R643-2",
+   "name": "印尼国家研究与创新署（BRIN）",
+   "type": "institution",
+   "desc": "2021 年由国家研究机构重组设立的印尼国家研究与创新署：AI 列入国家研究路线图「加速器技术」；2026 年战略议程聚焦半导体与 AI 自主能力（含本土芯片产能），定位未来 20-30 年国家竞争力关键技术（Prabowo 政府框架）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://brin.go.id",
+   "year": 2021,
+   "density": null,
+   "extension": 2,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R644-2",
+   "name": "OpenThaiGPT（泰国开源泰语大模型系列）",
+   "type": "concept",
+   "desc": "NECTEC/NSTDA 系研究者与 PMUC（国家竞争力计划）支持的官民协作开源泰语大模型：1.5 版（2024-11，arXiv 2411.07238，基于 Qwen 2.5、逾 200 万泰语指令对微调）；OTG-1.6/OTG-R1（2025-04，任务算术模型合并+推理增强，arXiv 2504.01789）；权重开放于 HF openthaigpt 组织；OpenThai 2.0 在 OpenThaiEval 得 0.842 居泰语模型之首（超 Typhoon 2.5/Pathumma）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://arxiv.org/html/2411.07238v1",
+   "year": 2024,
+   "density": null,
+   "extension": 6,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "institution_R644-1",
+   "name": "泰国国家科技发展署（NSTDA，含 NECTEC）",
+   "type": "institution",
+   "desc": "1991 年设立的泰国国家科技发展署（隶属高等科研创新部），其国家电子与计算机技术中心（NECTEC）为泰国 AI 研究中枢：主导泰语文化语境大模型 Pathumma，目标把泰国从技术消费国转为 AI 创新国，并推动 ASEAN 层面 AI 合作；系《国家 AI 战略 2022-2027》核心执行力量。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.nstda.or.th/en/news/news-years-2025/pathumma-llm-ai-technology-tailored-to-thai-context-and-culture.html",
+   "year": 1991,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "region:澳大利亚",
+   "name": "澳大利亚",
+   "type": "region",
+   "desc": "2025-12-02 发布《国家 AI 计划》（产业科学资源部），以生产力与竞争力为主线、增长与保障并重；配套 AI 安全研究所（2990 万澳元，2025-11 启动、2026 年初运行）；CSIRO Data61/国家 AI 中心（NAIC）统筹指南与研究；代表主体含 Appen（数据标注龙头）、Canva、Synchron（血管内脑机接口）等。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 8,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "policy_R645-1",
+   "name": "澳大利亚《国家人工智能计划》（National AI Plan，2025-12-02）",
+   "type": "policy",
+   "desc": "2025-12-02 由产业、科学与资源部发布：构建更具竞争力和生产力的 AI 经济，增长与保障（safeguards）并重；配套 2990 万澳元 AI 安全研究所（2025-11 启动、2026 年初运行，负责模型测试与安全评估）；工商界评价其为清晰的生产力方向（industry.gov.au 一级源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.industry.gov.au/publications/national-ai-plan",
+   "year": 2025,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution:Australia-AISI",
+   "name": "澳大利亚 AI 安全研究所（Australia AISI）",
+   "type": "institution",
+   "desc": "澳大利亚政府 AI 安全评估机构：以 2990 万澳元设立，2025-11 启动、2026 年初全面运行；职能为 AI 模型测试评估与安全评测支撑，与《国家 AI 计划》同框发布（2025-12）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R645-2",
+   "name": "CSIRO 国家 AI 中心（NAIC/Data61）",
+   "type": "institution",
+   "desc": "澳大利亚联邦科研机构 CSIRO 旗下数据科学部门 Data61 支撑的国家 AI 中心（NAIC），经 ai.gov.au 统筹全国 AI 指南/工具/资源；2025-10 联合发布《AI 采用指南》，帮助企业安全/伦理/透明地集成 AI；持续开展负责任 AI 研究。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.ai.gov.au",
+   "year": null,
+   "density": null,
+   "extension": 2,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "region:荷兰",
+   "name": "荷兰",
+   "type": "region",
+   "desc": "半导体光刻设备龙头 ASML 所在国（对华出口管制已单列入图）；2019 年发布《AI 战略行动计划》（SAPAI）并设立公私合作的荷兰 AI 联盟（NL AIC）；ELSA 实验室与 NGF AiNed 计划资助 AI 伦理/法律/社会维度研究；2026-07 增发《国际 AI 战略》；代表主体含 ASML、CNH 农机、Nutreco 饲料等 AI 应用。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 7,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "policy_R646-1",
+   "name": "荷兰《人工智能战略行动计划》（SAPAI，2019）",
+   "type": "policy",
+   "desc": "2019 年荷兰政府发布的第一份国家 AI 战略：提升荷兰 AI 全球竞争力、联结公私研究与人才培养；后续建立 ICAI 实验室与 ELSA 实验室体系（NGF/AiNed 计划，2025-03 新批四个 ELSA 项目）；2026-07-03 政府再发布《国际 AI 战略》，定位荷兰与欧洲以 AI 促繁荣与竞争优势（OECD PDF 与 EU AI Watch 报告核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://wp.oecd.ai/app/uploads/2021/12/Netherlands_Strategic_Action_Plan_for_Artificial_Intelligence.pdf",
+   "year": 2019,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R646-2",
+   "name": "荷兰 AI 联盟（NL AIC / AIC4NL）",
+   "type": "institution",
+   "desc": "2019-10 启动的荷兰公私合作 AI 联盟，自称「荷兰负责任 AI 的组织」：联结政府/企业/教育推动负责任 AI 转型，以「growing public values（人本/可信 AI）」为核心主题，并推动荷兰 AI 初创国际化（官方站与 regulations.ai 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://aic4nl.nl/en",
+   "year": 2019,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "event:2024-12:瑞典AI委员会终版报告",
+   "name": "瑞典政府 AI 委员会提交终版报告：75 项行动建议（2024-12）",
+   "type": "event",
+   "desc": "2024-12 瑞典政府 AI 委员会（AI-kommissionen）提交终版报告：含 75 个行动点的 AI 路线图——提升中小企业 AI 采用、设立国家 AI 枢纽、加强人才再培训等，为瑞典国家 AI 战略奠基；AI Sweden 联合主管称其为「瑞典的重要跳板」（AI Sweden 官方渠道核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.linkedin.com/posts/aisweden_the-ai-commission-has-submitted-its-final-activity-7267166484370477056-dQPr",
+   "year": 2024,
+   "density": null,
+   "extension": 3,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "region:瑞典",
+   "name": "瑞典",
+   "type": "region",
+   "desc": "AI Sweden（国家应用 AI 中心）为生态中枢；2024-12 政府 AI 委员会提交 75 项行动建议（中小企业采用/国家 AI 枢纽/人才再培训）；SOU 2025:101 建议以国家 AI 立法补充欧盟 AI 法案；RISE 研究所持续跟进；代表主体含爱立信（AI 网络运维）、H&M（AI 选品/循环时装）等。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 7,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "institution_R647-1",
+   "name": "AI Sweden（瑞典国家应用人工智能中心）",
+   "type": "institution",
+   "desc": "瑞典国家级应用 AI 中心（Not-for-profit，公私共建）：运营国家应用 AI 中心，2024-03 发布面向瑞典的 AI 战略（愿景+六基本立场+六关键原则），并确认政府 AI 委员会终版报告为国家 AI 战略的重要基石（ai.se 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.ai.se/en/news/ai-sweden-launches-ai-strategy-sweden",
+   "year": 2019,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "event:2026-10:微软FY2027Q1财报Azure美元口径",
+   "name": "微软 FY2027 Q1 财报：营收 906.9 亿美元、Azure 首次美元口径披露、季度资本开支约 410 亿（2026-10-28 盘后）",
+   "type": "event",
+   "desc": "2026-10-28 盘后微软发布 FY2027 Q1（自然年 2026 Q3）业绩：调整后 EPS 4.73 美元、营收 906.9 亿美元（略超约 906 亿一致预期、同比约 +17%）；首次以美元金额披露 Azure 季度收入（此前仅增速口径，Azure 年收入已破千亿）；季度资本开支约 410 亿美元（部分统计口径 500 亿+），自由现金流同比下降约 23%——AI 投资回报与 capex 强度成为市场焦点（CNBC/Yahoo Finance/Investopedia 多源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "year": 2026,
+   "density": null,
+   "extension": 7,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-05:西班牙AI有机法草案",
+   "name": "西班牙部长理事会批准《AI 妥当使用与治理有机法》草案（2026-05-26）",
+   "type": "event",
+   "desc": "2026-05-26 西班牙部长理事会批准《人工智能妥当使用与治理有机法》草案：将欧盟 AI 法案适配为西班牙国内法，并指定 AESIA（拉科鲁尼亚）为中央主管机关（dig.watch 等核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://dig.watch/updates/spain-ai-governance-law",
+   "year": 2026,
+   "density": null,
+   "extension": 3,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "region:西班牙",
+   "name": "西班牙",
+   "type": "region",
+   "desc": "国家 AI 治理先行国：ENIA 国家战略（2020 首版）+ AESIA（拉科鲁尼亚，欧盟首个 AI 监管局，2024 年运行、2025-08 起具处罚权）+ 2026-05《AI 妥当使用与治理有机法》草案（将欧盟 AI 法案本地化并指定 AESIA 为中央主管机关）；代表主体 Inditex（AI 供应链/快反）、Amadeus（航司 IT/GDS）、西门子歌美飒（AI 风电）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 9,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "policy_R649-1",
+   "name": "西班牙《国家人工智能战略》（ENIA，2020）",
+   "type": "policy",
+   "desc": "西班牙国家 AI 战略（ENIA，2020 年批准首版并持续更新）：以公私协作、科学研究、数字基础设施与人才培养为支柱；为 AESIA 设立与 2026 年有机法草案提供政策基础（aesia.digital.gob.es 官方与 EU AI Act 西班牙综述核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://aesia.digital.gob.es/en/present",
+   "year": 2020,
+   "density": null,
+   "extension": 2,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R649-2",
+   "name": "西班牙人工智能监督局（AESIA，拉科鲁尼亚）",
+   "type": "institution",
+   "desc": "欧盟首个 AI 监管局（Agencia Española de Supervisión de la IA），设于拉科鲁尼亚：2024 年起运行，2025-08 起具备处罚（sanctioning）权力；定位欧盟 AI 法案在西班牙的市场监督与中央协调枢纽，依托西班牙 AI 监管沙盒经验并发布被广泛引用的 AI 法案实操指南。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://aesia.digital.gob.es/en/present",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R650-2",
+   "name": "CINECA 与 Leonardo 超算/IT4LIA AI Factory（意大利）",
+   "type": "concept",
+   "desc": "意大利博洛尼亚 CINECA 运营的 Leonardo 超算：泛欧预百亿亿次系统（HPL 约 250 PFLOPS、FP16 AI 峰值至 10 EFLOPS，NVIDIA/Atos-Eviden 构建），支撑欧洲 HPC+AI 融合科研；CINECA 另运营欧盟支持的 IT4LIA AI Factory（面向初创/中小企业/研究者的 AI 优化算力）；2024-12 Leonardo S.p.A. 与 CINECA 达成 HPC+AI 合作。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://leonardo-supercomputer.cineca.eu",
+   "year": 2022,
+   "density": null,
+   "extension": 2,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "event:2025:意大利132号人工智能法",
+   "name": "意大利通过 132/2025《人工智能法》：欧盟首个综合性国家 AI 框架法（2025）",
+   "type": "event",
+   "desc": "意大利通过第 132/2025 号法律，成为欧盟首个采纳综合性国家 AI 框架法的成员国：将国家治理与欧盟 AI 法案对齐，并要求制定新的国家 AI 战略以协调公私倡议（JD Supra 法规追踪核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.jdsupra.com/legalnews/ai-watch-global-regulatory-tracker-5507665",
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "region:意大利",
+   "name": "意大利",
+   "type": "region",
+   "desc": "国家 AI 治理先行国：《国家 AI 战略 2024-2026》（科研/公共行政/企业/教育四支柱）+ 132/2025《人工智能法》（欧盟首个综合性国家 AI 框架法）+ CINECA 的 Leonardo 预百亿亿次超算与 IT4LIA AI Factory；监管活跃（Garante 曾封禁 ChatGPT、罚 Clearview AI）；FAIR 国家研究网络联结高校与 CNR/CINECA。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 8,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "policy_R650-1",
+   "name": "意大利《国家人工智能战略 2024-2026》（2024-04）",
+   "type": "policy",
+   "desc": "2024-04 意大利发布的国家 AI 战略：四支柱——科学研究、公共行政（PA 数字化）、企业、教育；接续 2022-2024 国家 AI 战略计划，并为 2025 年综合立法与协调公私倡议的国家 AI 战略 mandates 提供框架（Dentons/JD Supra 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.dentons.com/en/insights/articles/2024/april/23/the-road-to-the-ai-act-pt-1",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R651-2",
+   "name": "Apertus（瑞士完全开源多语大模型，8B/70B）",
+   "type": "concept",
+   "desc": "2025-09-02 由 ETH Zurich、EPFL 与 CSCS 在 Swiss AI Initiative 下发布：8B/70B 两档，权重/代码/训练数据全开放；约 15 万亿 token、1000+ 语言（约 40% 非英语，含低资源语言），于卢加诺 Alps 超算训练；强调透明/数据合规/多样性，对标主流黑盒实验室的完全开源路线（hpc-ch 与瑞士科学院页核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.hpc-ch.org/apertus-a-fully-open-transparent-multilingual-language-model",
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "region:瑞士",
+   "name": "瑞士",
+   "type": "region",
+   "desc": "ETH Zurich 与 EPFL 双子星研究体系（含 ETH AI Center/IDSIA），CSCS 国家超算中心「Alps」（卢加诺）提供主权算力；Swiss AI Initiative 联邦支持推进主权可信 AI，成果为完全开源多语大模型 Apertus（2025-09）；产业端含 Lakera（AI 安全）、奇华顿/芬美意（AI 调香）、Crisalix 等垂直应用。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L41"
+  },
+  {
+   "id": "institution_R651-1",
+   "name": "Swiss AI Initiative（ETH×EPFL 瑞士 AI 计划）",
+   "type": "institution",
+   "desc": "ETH Zurich 与 EPFL 在联邦支持下联合发起的瑞士 AI 计划：目标为瑞士构建主权、可信的 AI 能力；依托 CSCS「Alps」超算训练完全开源的 Apertus 多语大模型，定位公共利益导向、透明合规的国家级 AI 旗舰（swissai.ch 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://en.swissai.ch/swiss-ai-initiative",
+   "year": null,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R652-1",
+   "name": "IndiaAI 国家 AI 算力平台（38,000+ GPU 共享设施）",
+   "type": "concept",
+   "desc": "IndiaAI Mission 算力支柱：2025-02 首批 14,000 GPU（Yotta/E2E 等供应商），至 2025 年底扩至 38,000+ GPU，以约 65 卢比/小时向初创与研究者开放；12 个「印度制造」开源基础模型在该设施上训练（VarINDIA/communicationstoday 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.communicationstoday.co.in/transforming-india-with-ai-rs-10300-cr-investment-38000-gpusais-and-indias-digital-transformation",
+   "year": 2025,
+   "density": null,
+   "extension": 5,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R652-2",
+   "name": "BharatGen（印度主权多模态基础模型，IIT 孟买联合体）",
+   "type": "concept",
+   "desc": "由 IIT 孟买牵头的学术联合体承建的印度主权多模态基础模型计划：2025-06-02 发布；在 IndiaAI Mission 2025 框架下获 98.86 亿卢比（Rs 988.6 crore）资助，运行于国家超算集群；并向初创开放 38,000+ GPU 生态（techachievemedia/kashmirlife 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://techachievemedia.com/startup-news/bharatgen-secures-rs-988-6-crore-under-indiaai-mission",
+   "year": 2025,
+   "density": null,
+   "extension": 6,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R653-1",
+   "name": "德国联邦政府《人工智能行动计划》（2023-08 更新，50 亿欧元）",
+   "type": "policy",
+   "desc": "德国联邦政府 AI 战略（2018-11-15 首版、2020 年更新）的 2023 夏季升级版：投入 50 亿欧元冲击全球 AI 领导地位，重点为研究、算力基础设施、人才引进与实验室到产业的转化；科研部本任期投入 16 亿欧元强化 50 项既有措施并启动新措施；2024-09 起规划以联邦网络局为中央 AI 监管机关落实欧盟 AI 法案（dig.watch/heise 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://dig.watch/updates/germanys-path-to-global-ai-leadership-a-e5-billion-action-plan",
+   "year": 2023,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R655-2",
+   "name": "Confiance.ai（法国可信 AI 工业化计划，2021-2024）",
+   "type": "concept",
+   "desc": "France 2030 资助的旗舰计划（2021 启动、2024-09 结题）：CEA List 牵头、Airbus/Thales 等产业伙伴共建，开发可信 AI 工具/评估/测试方法学并应用于关键系统，定位「数字公共品」与欧洲可信 AI 工业化路线图；审计法院 2025-11 国家战略评估将其列为代表性落地成果（连同 4000 万欧元 AI Faculty 教席计划）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.ccomptes.fr/sites/default/files/2025-11/20251119-The-National-Strategy-for-Artificial-Intelligence.pdf",
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "policy_R655-1",
+   "name": "法国《国家人工智能战略》（Villani 报告 2018 起，两阶段超 30 亿欧元）",
+   "type": "policy",
+   "desc": "2018 年 Cédric Villani《AI for Humanity》报告奠基、全球最早国家 AI 战略之一：一期（2018-2022）约 15 亿欧元（约 7 亿投科研，设 3IA 研究所与开放数据计划）；二期并入 France 2030（10 亿+欧），2018-2024 公共投入超 30 亿欧元；「可信 AI（AI de confiance）」为核心支柱；2025-02 爱丽舍宫《让法国成为 AI 强国》文件挂钩巴黎峰会 1090 亿欧元投资承诺；2025-11 审计法院发布战略评估报告（EU AI Watch/OECD.AI 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://ai-watch.ec.europa.eu/countries/france/france-ai-strategy-report_en",
+   "year": 2018,
+   "density": null,
+   "extension": 7,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "event:2025:加拿大预算2025主权AI基础设施",
+   "name": "加拿大 2025 预算：五年 9.256 亿加元建设主权公共 AI 基础设施（2025）",
+   "type": "event",
+   "desc": "加拿大 2025 年联邦预算：自 2025-26 起五年投入 9.256 亿加元建设主权公共 AI 基础设施（含「主权 AI 云」与国家算力），并推出强化数字主权、AI 经济增长与公众信任的新版国家 AI 战略「AI for All」（Budget 2025 报道多源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.signal49.ca/insights/the-future-is-now-innovation-in-budget-2025",
+   "year": 2025,
+   "density": null,
+   "extension": 6,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "institution_R656-1",
+   "name": "CIFAR（加拿大高级研究院）",
+   "type": "institution",
+   "desc": "1982 年成立的联邦资助国家研究院：2017-03 受联邦政府委托牵头《泛加拿大人工智能战略》（1.25 亿加元/五年），设立 Amii（埃德蒙顿）/Vector（多伦多）/Mila（蒙特利尔）三大国家 AI 研究所与 Canada CIFAR AI Chairs 人才计划；2021 年获 4,800 万加元续期用于研究/培训/知识转化（cifar.ca 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://cifar.ca",
+   "year": 1982,
+   "density": null,
+   "extension": 5,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R657-1",
+   "name": "日本《人工智能相关技术研究开发及活用推进法》（AI 推進法，2025-05-28 通过）",
+   "type": "policy",
+   "desc": "2025-05-28 日本国会通过、2025 年 5 月末公布（2025 年法律第 53 号）、2025-09-01 经政令全面施行的日本首部 AI 基础法：以创新优先的「软法」取向——无处罚条款与具体管制，靠自愿遵守与政府指导；设「AI 战略本部」（首次会议约 2025-09-12）并制定《AI 基本计划》（首版 2025-12-23 通过，2026-07-14 更新版聚焦 Agentic AI）（aipolicytracker/digitalpolicyalert 等核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R658-1",
+   "name": "以色列《国家人工智能计划》（政府 173 号决议，2023）",
+   "type": "policy",
+   "desc": "2023 年以色列政府第 173 号决议批准的国家 AI 计划：2023-2026 年投入至多 5 亿新谢克尔；设总理办公室直属的国家 AI 管理局（National AI Directorate，约 20 席位、初期预算 1.2 亿新谢克尔）并发布《以色列国家 AI 战略计划》；更大口径的 2021-2026 国家 AI 计划总投入约 52.6 亿新谢克尔（创新署与创新部主导）；2026-06 政府批准扩容阶段并纳入国家量子计算机倡议（govextra 一级源与 regulations.ai/gov.il 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://govextra.gov.il/media/cgwme4z1/israel-national-ai-strategic-plan_en.pdf",
+   "year": 2023,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R659-1",
+   "name": "SEA-LION（AI Singapore 东南亚开源多语大模型家族）",
+   "type": "concept",
+   "desc": "AI Singapore 主导的东南亚语言开源大模型家族（Southeast Asian Languages in One Network）：覆盖 11 种区域语言（印尼/泰/越/马来/菲/缅甸/老挝/泰米尔/高棉等），技术论文 arXiv 2504.05747；最新 v4 为基于 Gemma 3 27B 的多模态开源模型；配套 Project SEALD 多语数据集工程，为区域多语 LLM 生态与 Sahabat-AI 等国别模型的公共底座（sea-lion.ai/GitHub 一级源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://arxiv.org/abs/2504.05747",
+   "year": 2024,
+   "density": null,
+   "extension": 6,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R660-1",
+   "name": "公证 AI（智能审核/在线申办/风险识别）",
+   "type": "concept",
+   "desc": "公证行业 AI 应用主线：AI 自动审核公证材料与风险识别（房产交易等场景）+「互联网+公证」在线申办（2019-01 全国首家互联网公证处落地杭州；2020-05 安存科技联合微信推微信公证服务）；与智能合同审查、电子数据取证形成一体化公证服务链条。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2019,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R660-2",
+   "name": "区块链公证存证与赋强公证（司法联盟链互认）",
+   "type": "concept",
+   "desc": "区块链+公证落地形态：大连等地推行可永久保存的区块链电子公证书（司法部 2026-02 报道）；广州上线大湾区首个区块链赋强公证系统（远程办理网络赋强公证）；上海东方公证处「沪E存」基于 legalXchain 司法联盟链；浙江知识产权区块链公共存证平台由温州中信公证处存证；新规要求存证平台接入法院司法链或经网信办备案、哈希支持国密 SM3/SHA-256。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.moj.gov.cn/pub/sfbgw/fzgz/fzgzggflfwx/fzgzggflfw/202602/t20260212_531727.html",
+   "year": 2019,
+   "density": null,
+   "extension": 2,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R660-3",
+   "name": "AI 生成内容证据保全公证（提示词/参数/结果入链）",
+   "type": "concept",
+   "desc": "AIGC 时代的新公证场景：将 AI 生成内容的提示词记录、参数设置、生成过程与结果预览纳入公证保全范围，构建完整权利证据链，服务 AI 生成内容的版权确权与侵权取证（公证实务界 2025 年起的操作指引方向）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2025,
+   "density": null,
+   "extension": 3,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R661-1",
+   "name": "烟草 AI（烟叶分级视觉/智慧烘烤/全产业链）",
+   "type": "concept",
+   "desc": "烟叶生产 AI 主线：基于 PCA-GA-SVM 的烟叶图像自动分级（《烟草科技》，图像采集+主成分特征+分类器）；烟叶生长氮磷钾缺乏图像检测（专利）；收购环节重复过磅舞弊的机器视觉识别（专利）；烘烤环节「物联网+可视化」智能控温（《农学科学》应用研究）；延伸至大田管理-收购-烘烤全链条。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.tobst.cn/supplement/41ce8aea-86c5-4218-a360-423c02893fb5",
+   "year": 2020,
+   "density": null,
+   "extension": 5,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R661-2",
+   "name": "卷烟工业与零售终端 AI（工艺质控/设备监控/库存盘点）",
+   "type": "concept",
+   "desc": "卷烟产业链 AI：百度智能云面向省烟草公司/中烟工业/卷烟厂的行业 AI 基础设施（算力-数据-模型-应用一体化，覆盖生产制造/质量管控/市场营销）；达观数据 AI Agent 集成卷烟生产设备实现温度/压力/振动参数智能监控；爱莫科技图像识别烟草零售终端库存数字化盘点。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://cloud.baidu.com/solution/yancao.html",
+   "year": 2021,
+   "density": null,
+   "extension": 3,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R662-1",
+   "name": "制糖 AI（压榨/煮糖结晶过程控制/结晶分级）",
+   "type": "concept",
+   "desc": "糖厂工业 AI：智能传感器+SCADA+AI 实时监控压榨/煮糖/精炼环节；AI Agent 驱动的生产自动化平滑流程并提升小时产糖量（Sugar Asia）；甘蔗糖结晶过程实时监测与 AI 过程智能（ResearchGate）；循环神经网络对糖结晶等级分类（泰国糖厂能耗背景）；糖/乙醇联产厂的预测性维护与工艺稳定化（AgroSpectrum 印度访谈）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://sugar-asia.com/ai-agent-revolutionizes-the-sugar-industry-towards-ultra-smart-production",
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R662-2",
+   "name": "甘蔗种植与收获 AI（机收导航/蔗田遥感）",
+   "type": "concept",
+   "desc": "糖料端 AI：甘蔗种植园遥感长势与估产、收获机自动驾驶与割台对行、糖料蔗收购环节的品级视觉分级——为糖厂压榨计划提供数字化输入（行业通用实践，与图内茶园/橡胶等经济作物 AI 模式同构）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R663-1",
+   "name": "制盐 AI（盐田监测/真空制盐智能控制/结晶工艺寻优）",
+   "type": "concept",
+   "desc": "盐业智能化三条线：① 盐田端——无人机巡查与物联网实时监测（借鉴光伏无人机智能质检模式，「人跑」变「数据跑」）；② 生产端——真空制盐多效蒸发/结晶过程的智能控制与节能优化（五效真空制盐工艺建模、卤水温度参数对蒸发效率与结晶质量的寻优）；③ 企业端——中盐系企业数字化改造与 AI 应用培训（2026 中国盐业展将智能结晶控制与 AI 列为盐业设备核心技术创新）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://blog.csdn.net/weixin_32349093/article/details/164921208",
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R664-1",
+   "name": "油井生产与钻井作业 AI（钻井参数寻优/产量预测/井况诊断）",
+   "type": "concept",
+   "desc": "油气上游的生产作业侧 AI（补勘探解释之外的空档）：钻井参数优化与油藏管理机器学习、基于测井/岩心/地震/测试数据的产能预测与地层评价；井场设备工况诊断与维护决策（与图内防爆四足巡检机器人、炼油装置操作 AI 形成上游-作业-下游链条）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://neobram.ai/blog/ai-drilling-optimization-reservoir-management",
+   "year": 2021,
+   "density": null,
+   "extension": 6,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R665-1",
+   "name": "紧固件 AI（螺纹缺陷视觉检测/AOI 选钉/智能拧紧）",
+   "type": "concept",
+   "desc": "紧固件（螺栓/螺母/螺丝）行业 AI：深度学习机器视觉螺丝/螺母缺陷检测（工业相机+特征提取+异常判断闭环反馈产线，2023）；AOI 选钉机在线自动分拣缺陷螺丝（多类螺纹、远超人工目检）；全自动在线螺纹检测（通止规接触式测量+影像传感，微米级）；装配端智能拧紧（分段式扭矩策略+温度补偿）与视觉引导机器人锁付品质检测（专利 CN116673715A）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R666-1",
+   "name": "磨具与磨削工艺 AI（砂轮磨损监测/磨削参数寻优）",
+   "type": "concept",
+   "desc": "磨具（砂轮/磨削）行业 AI：Fraunhofer 2026 用 PCA+自编码器从传感器数据监测外圆切入磨削砂轮磨损；图像机器学习预测砂轮寿命/磨损阶段/表面粗糙度；蓝宝石磨削的 ML 智能监控系统（IEEE 2021）；IoT 传感实时监测与预测性维护；AI 用于进给速率优化、防热损伤与自动进给循环（Technavio 2025 市场报告口径）；承自 CIRP 经典磨削过程监测研究（Tönshoff 2002/Wegener 2011）向深度学习演进。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://publica.fraunhofer.de/entities/publication/6cd1dccd-7b83-48e5-915b-49451bf0242b",
+   "year": 2021,
+   "density": null,
+   "extension": 3,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R667-1",
+   "name": "农膜 AI（残膜识别回收/覆膜遥感监测/降解膜替代）",
+   "type": "concept",
+   "desc": "农膜（地膜）污染防治 AI 双轨：① 智能回收轨——无人机光谱扫描精准识别残膜（衡阳设施农业 2025 实践）、卫星影像覆膜农田提取（光谱特征+决策树，专利 CN110796001A）、陈学庚院士团队高回收率残膜智能农机治理「白色污染」（中国科学报）、YOLOv5s 改进模型的农田目标检测；② 源头替代轨——PLA/PHA 等全生物降解地膜产业化；全国农膜回收率稳定 80%+（发改委 2021）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://patents.google.com/patent/CN110796001A/zh",
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R668-1",
+   "name": "电线电缆 AI（绝缘缺陷视觉检测/无人机巡线/交联工艺质检）",
+   "type": "concept",
+   "desc": "线缆行业 AI 三线：① 产线质检——机器视觉在线检测线缆表面缺陷（鼓包/破损/直径/杂质斑点，MVI 等设备；工业质检 2.0 覆盖高/中/低压与特种电缆全工序，检出率 ≥99%、毫秒级响应，观察者网 2025-08）；② 巡线检测——无人机+改进 YOLOv9 检测高空高压电缆表层缺陷（《工程科学学报》2025）；③ 工艺质量——化学/硅烷/辐照交联工艺与交联度热延伸检测（Taymer 等表面/印字/直径在线方案）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://cje.ustb.edu.cn/cn/article/id/fec54ed9-f06f-445e-ad50-97053ed303cb",
+   "year": 2021,
+   "density": null,
+   "extension": 4,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "company_R669-1",
+   "name": "BeeHero（2018，以色列/美国，精准蜂群授粉平台）",
+   "type": "company",
+   "desc": "精准养蜂（Precision Apiculture）头部公司：蜂箱内传感器（温度/湿度/声音）24/7 监测并经手机 App 呈现蜂群状态，蓝牙心跳信号支持蜂箱定位追踪；以数据驱动授粉服务联结蜂农与种植者（beehero.io 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.beehero.io/the-buzz/how-we-turned-finding-a-beehive-into-a-game-of-hot-and-cold",
+   "year": 2018,
+   "density": null,
+   "extension": 4,
+   "dim": 4,
+   "dim_name": "产业公司",
+   "level": "L48"
+  },
+  {
+   "id": "concept_R669-2",
+   "name": "蜂业 AI（声学监测/蜂群健康 CNN/智慧蜂箱）",
+   "type": "concept",
+   "desc": "蜂业（养蜂）AI 主线：卷积神经网络从蜂群声音录音评估蜂箱健康（学术框架）；World Bee Project 用 AI+智能蜂箱传感器研究蜂群健康与作物授粉并联动气象数据；BeeAnd.me（Microtronics）IoT 蜂箱健康监测；APIVOX 声学应用识别蜂声（如育幼声并估算幼虫量）；智慧蜂箱普遍集成温度/湿度/重量传感。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.semanticscholar.org/paper/a776d507c1cae248d298cd6d553e75cece48422e",
+   "year": 2020,
+   "density": null,
+   "extension": 6,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R670-1",
+   "name": "油墨与印刷色彩 AI（专色配色/墨量预测/印刷机参数寻优）",
+   "type": "concept",
+   "desc": "印刷/油墨行业 AI（printing.org 2024 行业报告口径）：AI 加速专色（Pantone）配色一致性——综合墨层密度与油墨/承印物交互建模修正配方（Lab 值反馈）；丝网印刷 AI 自动调整油墨配方保证批次一致、减少人工误差；印刷机参数寻优与墨耗预测降本；AIGC 作品的印刷色彩一致性还原成为新场景（2025 AI 采用报告跟进）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.printing.org/docs/default-source/research-docs---public/a2408044_rsch24_ai-in-the-printing-industry-the-journey-begins_report_2024.pdf?sfvrsn=a6a942aa_1",
+   "year": 2024,
+   "density": null,
+   "extension": 3,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "person_R673-1",
+   "name": "Jimmy Ba（吉米·巴）",
+   "type": "person",
+   "desc": "Adam 优化器协同一作（Kingma & Ba 2014 ICLR，另提出 AdaMax）；Geoffrey Hinton 多伦多博士生；后任普林斯顿 CS 教授（Automatic Prompt Engineer 等工作）；2023 年为 xAI 约 12 名联合创始人之一，2026-02 辞任——第六位离开的创始成员（多源报道核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 4,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R673-2",
+   "name": "Quoc Le（黎维国）",
+   "type": "person",
+   "desc": "越南裔美籍研究者：斯坦福博士（吴恩达门下，Google Brain「猫脸实验」核心成员）；2011 年与吴恩达/Jeff Dean 共同创建 Google Brain；Seq2Seq（2014）与《Attention Is All You Need》（2017）共同作者，另有 Transformer-XL/EfficientNet；曾任 Google Fellow；2024 年离开谷歌联合创办 Discovery Loop（多源报道核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 5,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "person_R673-3",
+   "name": "Michael I. Jordan（迈克尔·乔丹）",
+   "type": "person",
+   "desc": "UC Berkeley EECS 杰出教授兼统计教授：变分推断与图模型方法奠基者（Wainwright & Jordan），VAE 谱系的方法论源头；h 指数约 155、引用超 37.8 万；吴恩达为其博士生，David Blei/Zoubin Ghahramani 系其学术后裔；ACM/AAAI Allen Newell 奖得主（Berkeley 口径核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 3,
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29"
+  },
+  {
+   "id": "policy_R674-1",
+   "name": "加州 SB 1047《前沿人工智能模型安全与创新法案》（2024-09-29 被否决）",
+   "type": "policy",
+   "desc": "Wiener 参议员提出、原可成为美国首个全面监管前沿 AI 模型的州法（要求大模型开发者与算力提供者履行安全与问责标准）；2024-09-29 州长 Newsom 以「过度宽泛、缺乏实证依据」否决（否决书官方 PDF），推翻窗口 11-30 届满未推翻；同期签署更聚焦的 AB-2013（生成式 AI 训练数据披露）；业界（多数）与 FLI 等安全阵营反应两极（Wikipedia/CSET/Gibson Dunn 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.gov.ca.gov/wp-content/uploads/2024/09/SB-1047-Veto-Message.pdf",
+   "year": 2024,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R674-2",
+   "name": "科罗拉多《人工智能法》（SB 24-205，2024-05，美国首个全面州级 AI 法）",
+   "type": "policy",
+   "desc": "2024-05 签署的美国第一部全面州级 AI 法：对高风险 AI 系统的开发者/部署者施加「合理注意」义务以防算法歧视；生效日一波三折——原定 2026-02-01，2025-08-26 特别会议（SB25B-004）推迟至 2026-06-30，随后被 SB 26-189 废止重写为透明度导向版本，新生效日 2027-01-01（州检察长 ADAI 规则制定进行中，coag.gov/ai 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://coag.gov/ai",
+   "year": 2024,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R674-3",
+   "name": "纽约市 Local Law 144（AEDT 偏差审计法，2023-07-05 全面执行）",
+   "type": "policy",
+   "desc": "2023-01-01 生效、经两次推迟后 2023-07-05 全面执行：美国首部直接监管 AI 招聘工具的法律——雇主使用自动雇佣决策工具（AEDT）须每年做独立偏差审计（种族/性别）并公示结果、向候选人告知并提供替代流程（DCWP 最终规则 2023-06 发布）；2024 年《Null Compliance》研究指出审计独立性与披露质量问题（KTS/GT Law/arXiv 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2023,
+   "density": null,
+   "extension": 2,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "concept_R675-1",
+   "name": "考古 AI（碑铭文本复原/地理与年代归因）",
+   "type": "concept",
+   "desc": "AI 人文（数字考古）代表路线：DeepMind Ithaca——《Restoring and attributing ancient texts using deep neural networks》（Nature 2022-03-10，Assael/Sommerschield 等）对古希腊碑铭做残缺复原、地理归因与年代归因：复原 62%、产地判别 71%、断代 ±30 年；作为人机协作工具把历史学家复原准确率从 25% 提到 72%，并支持萨拉米斯政令重断代至公元前 401 年（Nature/PubMed 一级源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/35264762",
+   "year": 2022,
+   "density": null,
+   "extension": 5,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "event:2024-02:维苏威挑战赛头奖",
+   "name": "维苏威挑战赛颁发 70 万美元头奖：AI 虚拟展开赫库兰尼姆炭化纸草卷（2024-02-05）",
+   "type": "event",
+   "desc": "Vesuvius Challenge 2023 年度头奖 70 万美元于 2024-02-05 颁给 Luke Farritor/Youssef Nader/Julian Schilliger 三人——从碳化赫库兰尼姆纸草卷内层读出 4 段共约 2000 字符（约单卷 5%）；Farritor 2023-10 以首词「πορφύρας（紫色）」先获 4 万美元；2024 年目标提至读出四卷各 90%（新头奖 10 万美元），累计奖金近 196 万美元；其后团队宣布 PHerc.1667 整卷完成虚拟展开与读取（scrollprize.org 一级源核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://scrollprize.org/grandprize",
+   "year": 2024,
+   "density": null,
+   "extension": 2,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "concept_R676-1",
+   "name": "反诈 AI（涉诈识别/团伙欺诈图分析/警银网通协同）",
+   "type": "concept",
+   "desc": "反电信诈骗 AI 三线：① 金融侧——GNN/XGBoost 融合的实时欺诈检测（NVIDIA 2024 技术线）、知识图谱团伙欺诈识别（亿联银行开户/授信/支用场景自动拦截）、有监督学习识别黑灰账户（工行智能化反诈体系）；② 政务侧——国家数据局「警-银-网-通」四流多模态数据融合，千万级涉诈样本库识别准确率 99%（2025-10 发布）；③ 大模型侧——「国家反诈AI」APP（2026-09 上线，LLM+多模态+Agent 做风险研判与话术识别）与中信银行「AI 天盾」大小模型分层架构（安全内参/国家数据局/新华网核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/1013/20251013152157775079198_pc.html",
+   "year": 2022,
+   "density": null,
+   "extension": 2,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
+  },
+  {
+   "id": "concept_R677-1",
+   "name": "招投标 AI（智能评标/围串标识别/标书辅助生成）",
+   "type": "concept",
+   "desc": "公共资源交易与采购 AI 三线：① 评标辅助——资格/商务/技术条款自动比对与清标（响应偏离自动核查）；② 围串标识别——投标文件相似度检测（错别字/机器码/MAC 地址/IP 同源）、报价离散度与关联关系图谱分析，已在多地公共资源交易平台落地；③ 标书辅助生成与合规校验（RAG 复用企业历史标库）；与电子保函、信用评分联动形成交易全流程数字化（行业通用实践，与合同智能审查/文档智能同族）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2022,
+   "density": null,
+   "extension": 3,
+   "dim": 5,
+   "dim_name": "产品应用",
+   "level": "L46"
   }
  ],
  "links": [
@@ -173477,7 +175317,7 @@
    "type": "person"
   },
   {
-   "source": "person_new_24",
+   "source": "person_new_66",
    "target": "company_14-1",
    "type": "person"
   },
@@ -173684,11 +175524,6 @@
   {
    "source": "person_new_65",
    "target": "company_L19-20",
-   "type": "person"
-  },
-  {
-   "source": "person_new_66",
-   "target": "company_14-1",
    "type": "person"
   },
   {
@@ -185147,11 +186982,6 @@
    "type": "person"
   },
   {
-   "source": "person_growth_143",
-   "target": "person_growth_137",
-   "type": "person"
-  },
-  {
    "source": "person_growth_144",
    "target": "person_growth_135",
    "type": "person"
@@ -187398,7 +189228,7 @@
   },
   {
    "source": "region:硅谷",
-   "target": "person_new_24",
+   "target": "person_new_66",
    "type": "person"
   },
   {
@@ -194033,7 +195863,7 @@
   },
   {
    "source": "product:ChatGPT",
-   "target": "person_new_24",
+   "target": "person_new_66",
    "type": "person"
   },
   {
@@ -194407,7 +196237,7 @@
    "type": "flow"
   },
   {
-   "source": "person_new_24",
+   "source": "person_new_66",
    "target": "company_L23-8",
    "type": "flow"
   },
@@ -195097,7 +196927,7 @@
    "type": "flow"
   },
   {
-   "source": "person_new_24",
+   "source": "person_new_66",
    "target": "company_14-1",
    "type": "flow"
   },
@@ -245597,11 +247427,6 @@
    "type": "invested"
   },
   {
-   "source": "company_14-18",
-   "target": "company_35-2",
-   "type": "mna"
-  },
-  {
    "source": "company_14-7",
    "target": "company_14-3",
    "type": "mna"
@@ -245640,11 +247465,6 @@
    "source": "company_14-2",
    "target": "company_L20-8",
    "type": "mna"
-  },
-  {
-   "source": "company_14-2",
-   "target": "company_14-3",
-   "type": "invested"
   },
   {
    "source": "company_14-9",
@@ -268773,7 +270593,7 @@
   },
   {
    "source": "event:2015:OpenAI成立",
-   "target": "person_new_24",
+   "target": "person_new_66",
    "type": "person"
   },
   {
@@ -316162,11 +317982,6 @@
    "type": "competition"
   },
   {
-   "source": "person_growth_35",
-   "target": "company_14-2",
-   "type": "person"
-  },
-  {
    "source": "institution:牛津大学",
    "target": "concept_0-20",
    "type": "related"
@@ -330833,191 +332648,137 @@
   {
    "source": "concept_R595-1",
    "target": "concept_12-45",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-1",
    "target": "concept_R204-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2019-04:frnn-disruption-prediction-nature",
    "target": "concept_R595-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-2",
    "target": "concept_R595-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-2",
    "target": "concept_12-45",
-   "type": "derived_from",
-   "label": "",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "event:2024-02:rl-tearing-avoidance-nature",
    "target": "concept_R595-2",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-3",
    "target": "concept_R204-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2023-05:helion-microsoft-fusion-ppa",
    "target": "concept_R595-5",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2023-05:helion-microsoft-fusion-ppa",
    "target": "company_14-5",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2023-05:helion-microsoft-fusion-ppa",
    "target": "person_13",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R595-5",
    "target": "concept_R595-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-4",
    "target": "concept_11-60",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-6",
    "target": "concept_R204-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R595-6",
    "target": "concept_R595-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_R596-3",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_R596-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_R596-5",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_R596-6",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_R596-7",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-3",
    "target": "concept_R596-2",
-   "type": "derived_from",
-   "label": "",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "concept_R596-4",
    "target": "concept_7-11",
-   "type": "derived_from",
-   "label": "",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "concept_R596-5",
    "target": "company_L23-8",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R596-5",
    "target": "concept_R182-2",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-3",
    "target": "concept_7-10",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-6",
    "target": "concept_R596-7",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-4",
    "target": "concept_7-13",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R596-1",
    "target": "concept_7-13",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-05:x402-protocol-launch",
@@ -331040,345 +332801,247 @@
   {
    "source": "concept_R598-1",
    "target": "award:NeurIPS最佳论文奖",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-2",
    "target": "award:ICLR杰出论文奖",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-3",
    "target": "award:CVPR最佳论文奖",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-3",
    "target": "award:CVPR-LonguetHiggins时间检验奖",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-1",
    "target": "conference:ICML",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-2",
    "target": "conference:ICML",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-3",
    "target": "conference:ICCV",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-3",
    "target": "conference:ECCV",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-4",
    "target": "conference:CoRL",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-5",
    "target": "concept_R598-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-6",
    "target": "conference:ACL",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R598-1",
    "target": "paper:Attention-Is-All-You-Need",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-1",
    "target": "dataset_R73-3",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-1",
    "target": "concept_L16-22",
-   "type": "derived_from",
-   "label": "",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "concept_R599-1",
    "target": "concept_11-78",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-1",
    "target": "company_14-13",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R599-2",
    "target": "dataset:nuScenes",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-2",
    "target": "concept_R275-3",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-3",
    "target": "dataset:nuScenes",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-3",
    "target": "concept_12-11",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-4",
    "target": "dataset:nuScenes",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-5",
    "target": "concept_L18-7",
-   "type": "derived_from",
-   "label": "",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "concept_R599-5",
    "target": "dataset:ROOTS",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-6",
    "target": "dataset:FineWebEdu",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-6",
    "target": "dataset_R73-2",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R599-7",
    "target": "dataset:ImageNet",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:Groq-LPU",
    "target": "company_14-69",
-   "type": "player",
-   "label": "Groq 自研 LPU/TSP 芯片，为其 GroqCloud 推理云的算力底座",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R196-3",
    "target": "hardware:Groq-LPU",
-   "type": "derived_from",
-   "label": "LPU 芯片是图内『LPU 确定性推理架构』概念的实体化",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "hardware:Groq-LPU",
    "target": "hardware:H100",
-   "type": "related",
-   "label": "LLM 推理算力对标/竞争：LPU 以 300+ token/s 低延迟出圈对标 GPU 推理",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:Cerebras-WSE3",
    "target": "company_14-70",
-   "type": "player",
-   "label": "Cerebras 自研 WSE 晶圆级芯片，搭载 CS-2/CS-3 系统",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R196-2",
    "target": "hardware:Cerebras-WSE3",
-   "type": "derived_from",
-   "label": "WSE 是图内『晶圆级集成（WSI）』概念迄今唯一量产实现",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "hardware:Cerebras-WSE3",
    "target": "site:CerebrasCondorGalaxy",
-   "type": "related",
-   "label": "Condor Galaxy 系列（CG-3 为 8 EFLOPS）由 WSE-3/CS-3 堆叠构成",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:Maia100",
    "target": "company_14-5",
-   "type": "player",
-   "label": "Microsoft 首款自研云端 AI 加速器，与 Cobalt 100 同发",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:Maia100",
    "target": "hardware:H100",
-   "type": "related",
-   "label": "与 NVIDIA GPU 混合部署互补：Maia 服务 Copilot/OpenAI 类负载但不替代 H100/B200 采购",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:MTIA-v2",
    "target": "company_14-4",
-   "type": "player",
-   "label": "Meta 第二代自研加速器，量产承载排名/推荐推理",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:SN40L",
    "target": "company_L28-179",
-   "type": "player",
-   "label": "SambaNova 第三代 RDU，DataScale 系统与 SambaNova Cloud 的心脏",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:SN40L",
    "target": "hardware:Groq-LPU",
-   "type": "related",
-   "label": "推理加速芯片同赛道竞争：SambaNova RDU 数据流路线 vs Groq LPU 确定性 SRAM 路线",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:Gaudi2",
    "target": "company_14-11",
-   "type": "player",
-   "label": "Habana Labs（Intel 收购）第二代训练处理器，Intel Vision 2022 发布",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:Gaudi2",
    "target": "hardware:Gaudi3",
-   "type": "derived_from",
-   "label": "Gaudi 3（2024）为 Gaudi 2 的直系后继，Falcon Shores 取消后 Gaudi 系列止于此",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "hardware:Telum",
    "target": "company_14-56",
-   "type": "player",
-   "label": "IBM 自研 z 系大型机处理器，片上 AI 推理（z16 心脏）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2025-05:builder-ai-insolvency",
    "target": "company_32-16",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2025-05:builder-ai-insolvency",
    "target": "company_14-5",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-06:helsing-600m-eur",
    "target": "company_32-24",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2025-08:numerai-jpmorgan-500m",
    "target": "company_31-71",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2025-11:numerai-30m-endowment",
    "target": "company_31-71",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-07:twelve-labs-series-b-100m",
    "target": "company_32-44",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2024-10:speechmatics-flow-launch",
    "target": "company_32-19",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2024-01:wondershare-tianmu-launch",
    "target": "company_33-34",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2025-04:yuanli-xiaoyuan-ai-launch",
    "target": "company_33-13",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:1987:nips-first-edition",
@@ -331437,100 +333100,72 @@
   {
    "source": "concept_R604-1",
    "target": "event:2020-02:MNN论文发布(arXiv2002.12418 Jiang-Et-Al MLSys2020 Alibaba-Universal-Mobile-Inference)",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-1",
    "target": "concept_4-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-1",
    "target": "concept_4-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-1",
    "target": "conference:ICML",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-2",
    "target": "hardware:Groq-LPU",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-2",
    "target": "hardware:TPUv3",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-3",
    "target": "hardware:A100",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-3",
    "target": "concept_R604-2",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-4",
    "target": "concept_2-10",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-5",
    "target": "concept_L25-26",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-6",
    "target": "event:2018-02:TVM论文发布(arXiv1802.04799 End-to-End Optimization Stack for Deep Learning OSDI2018)",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-6",
    "target": "event:2022-07:Orca迭代级连续批处理OSDI2022",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-6",
    "target": "event:2024-01:DistServe-PD分离Goodput论文",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R604-7",
    "target": "event:2023-06:vLLM-PagedAttention",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2019-03:MLSys首届大会-Stanford",
@@ -331547,163 +333182,117 @@
   {
    "source": "event:2026-07:Grok-4.5-SpaceXSI发布",
    "target": "company_14-6",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-07:Grok-4.5-SpaceXSI发布",
    "target": "concept_2-35",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-08:SpaceXAI-Starmind-天基AI算力",
    "target": "company_14-9",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-08:SpaceXAI-Starmind-天基AI算力",
    "target": "concept_1-4",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-09:AlphaGenome-Atlas发布",
    "target": "company_14-2",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-09:AlphaGenome-Atlas发布",
    "target": "concept_11-5",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-09:Anthropic披露Claude参与26%研发",
    "target": "company_14-3",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-09:Anthropic披露Claude参与26%研发",
    "target": "concept_2-23",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:Meta开放权重Muse-Spark-Open",
    "target": "company_14-4",
-   "type": "player",
-   "label": "",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:Meta开放权重Muse-Spark-Open",
    "target": "concept_L17-40",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:Q3-2026-AI风投1020亿美元",
    "target": "concept_L22-8",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "model:Claude-Sonnet-4.5",
    "target": "concept_R603-1",
-   "type": "derived_from",
-   "label": "4.5 代先 Sonnet（2025-09）后 Opus（2025-11），Opus 为同代新旗舰",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "model:Grok-3",
    "target": "concept_R603-2",
-   "type": "derived_from",
-   "label": "Grok 系列从 Grok 3 到 Grok 4 的代际延续",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "model:o3",
    "target": "concept_R603-3",
-   "type": "derived_from",
-   "label": "o 系推理模型从 o3 到 o4-mini 的代际延续（同日发布）",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "model:ERNIE-4.5",
    "target": "concept_R603-6",
-   "type": "derived_from",
-   "label": "文心系列从 4.5（开源系列）到 5.0（原生全模态）的代际演进",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "concept_R603-1",
    "target": "company_14-3",
-   "type": "player",
-   "label": "Anthropic 的编程/Agent 旗舰模型",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-2",
    "target": "company_14-6",
-   "type": "player",
-   "label": "xAI 旗舰模型",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-3",
    "target": "company_14-1",
-   "type": "player",
-   "label": "OpenAI 小型高效推理模型",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-4",
    "target": "company_14-14",
-   "type": "player",
-   "label": "Mistral AI 闭源旗舰",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-5",
    "target": "company_14-7",
-   "type": "player",
-   "label": "AWS Bedrock 自研基础模型家族",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-6",
    "target": "company_14-22",
-   "type": "player",
-   "label": "百度文心新一代旗舰",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_R603-7",
    "target": "company_14-38",
-   "type": "player",
-   "label": "Cohere 企业级旗舰",
-   "year": null
+   "type": "player"
   },
   {
    "source": "benchmark:SWE-bench-Verified",
    "target": "concept_R603-1",
-   "type": "related",
-   "label": "Opus 4.5 以 80.9% 首破 80 分并登顶 SWE-bench Verified 官方榜",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-11:Anthropic发布Claude-Opus4.5",
@@ -331726,191 +333315,137 @@
   {
    "source": "policy:美国AI行动计划",
    "target": "policy:美国EO14179",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "policy:美国AI行动计划",
    "target": "event:2025-07:美国AI行动计划",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-10:网络安全法2025修改",
    "target": "policy:网络安全法",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-10:网络安全法2025修改",
    "target": "policy:数据安全法",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-1",
    "target": "company_14-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-1",
    "target": "concept_L15-193",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-2",
    "target": "company_14-1",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-2",
    "target": "concept_11-70",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-3",
    "target": "concept_L18-60",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-3",
    "target": "concept_L21-96",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-4",
    "target": "benchmark:OSWorld",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R606-5",
    "target": "benchmark:SWE-bench-Verified",
-   "type": "related",
-   "label": "",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R607-1",
    "target": "company_R607-1",
-   "type": "player",
-   "label": "Jim Keller 2021-01 起 Tenstorrent 总裁兼 CTO，2023-01 起任 CEO",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-1",
    "target": "company_R48-1",
-   "type": "player",
-   "label": "Keller 2016-01 起 Tesla Autopilot 硬件工程副总裁（参与 HW 3.0 自动驾驶计算机）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-1",
    "target": "company_14-10",
-   "type": "player",
-   "label": "Keller 2012-2015 重返 AMD 主导 Zen 架构；更早 1998-1999 主持 K8（Athlon 64）与 x86-64",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-1",
    "target": "company_14-11",
-   "type": "player",
-   "label": "Keller 2018-04 加入 Intel 任 SVP，2020-06 离职后加入 Tenstorrent",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-1",
    "target": "company_14-8",
-   "type": "player",
-   "label": "Keller 随 PA Semi 并入 Apple，参与 A4/A5 移动 SoC 研发",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-2",
    "target": "company_R589-1",
-   "type": "player",
-   "label": "Lattner 2022 年与 Tim Davis 共同创立 Modular 并任 CEO",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R607-2",
    "target": "event:2020-02:MLIR论文发布(arXiv2002.11054 Scaling Compiler Infrastructure CGO2021)",
-   "type": "related",
-   "label": "MLIR 由 Lattner 在 Google 期间主导提出（论文一作）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R607-1",
    "target": "concept_R604-6",
-   "type": "related",
-   "label": "系统领域旗舰会议：EuroSys（欧洲）与 OSDI（USENIX）并列",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R607-1",
    "target": "concept_R604-7",
-   "type": "related",
-   "label": "EuroSys 会议全名冠以 ACM SIGOPS（SOSP 主办学会），与 SOSP 社区同源的欧洲顶会",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_R607-1",
    "target": "concept_R604-1",
-   "type": "related",
-   "label": "EuroSys 议程长期覆盖机器学习系统（MLSys 方向）论文与 workshop",
-   "year": null
+   "type": "related"
   },
   {
    "source": "hardware:Grayskull",
    "target": "company_R607-1",
-   "type": "player",
-   "label": "Grayskull 为 Tenstorrent 首代 AI 加速器（e75/e150 开发卡 2024 年初开售）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:Wormhole",
    "target": "company_R607-1",
-   "type": "player",
-   "label": "Wormhole 为 Tenstorrent 第二代 AI 加速器（n150/n300 开发套件 2024-07 开售）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "hardware:Grayskull",
    "target": "hardware:Wormhole",
-   "type": "derived_from",
-   "label": "Wormhole n150/n300 开发套件在 Grayskull DevKit 基础上迭代",
-   "year": null
+   "type": "derived_from"
   },
   {
    "source": "hardware:Wormhole",
    "target": "hardware:Groq-LPU",
-   "type": "related",
-   "label": "2024 年千元级 AI 开发卡双雄：确定性/数据流架构路线的对比对象",
-   "year": null
+   "type": "related"
   },
   {
    "source": "company_R607-1",
    "target": "company_14-69",
-   "type": "competition",
-   "label": "RISC-V AI 加速器 vs LPU 推理云：Tenstorrent 与 Groq 同走非 GPU 确定性推理路线",
-   "year": null
+   "type": "competition"
   },
   {
    "source": "event:2006-04:EuroSys首届会议-Leuven",
@@ -331939,296 +333474,212 @@
   {
    "source": "event:2026-10:Grok-Voice-3发布",
    "target": "company_14-6",
-   "type": "player",
-   "label": "Grok Voice 3.0 由 xAI 于 2026-10-14 发布，登顶 Artificial Analysis 语音指数",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:Grok-Voice-3发布",
    "target": "concept_13-23",
-   "type": "related",
-   "label": "端到端 speech-to-speech 单模型路线对实时语音对话模型栈（ASR→LLM→TTS 串链）的直接替代",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:商务部拟增列23项AI技术出口管制",
    "target": "concept_L22-129",
-   "type": "related",
-   "label": "中国将 AI 大模型/智能体/算力集群等 23 项技术拟增列出口管制目录，出口管制深化（2025-2026）的中国侧最新节点",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:商务部拟增列23项AI技术出口管制",
    "target": "concept_R87-3",
-   "type": "related",
-   "label": "对开源出口等情形适用自动许可（即报即出），属出口许可证制度框架下的便利化安排",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:苹果智能接入千问获中国批准",
    "target": "company_14-8",
-   "type": "player",
-   "label": "苹果智能（Apple Intelligence）国行测试版 10 月底上线，库克 2026-10-15 上海确认获批",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:苹果智能接入千问获中国批准",
    "target": "company_14-20",
-   "type": "player",
-   "label": "国行苹果智能以阿里通义千问大模型为本土化底座，库克确认双方方案已获监管批准",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:NVIDIA-RTX-Spark上市",
    "target": "company_14-9",
-   "type": "player",
-   "label": "NVIDIA 2026-10-16 官宣 RTX Spark PC 上市：Blackwell RTX、128GB 统一内存、约 1 PFLOP，起价 2399 美元",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:NVIDIA-RTX-Spark上市",
    "target": "concept_1-46",
-   "type": "related",
-   "label": "RTX Spark 将数据中心级内存与本地 AI 算力带入 Windows 桌面，为 AI PC / Copilot+ PC 生态 2026 年新硬件台阶",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:CoreWeave股债双杀",
    "target": "company_14-16",
-   "type": "player",
-   "label": "CoreWeave 2026-10-16 当日跌超 11%、单周近 25%，6 月发行债券收益率飙至约 15%",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:CoreWeave股债双杀",
    "target": "concept_R88-4",
-   "type": "related",
-   "label": "加息预期下高杠杆算力商股债双杀，算力金融化叙事首遭债市系统性重定价",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "company_14-4",
-   "type": "player",
-   "label": "LeCun 2013 起任 Facebook/Meta FAIR 创始主任，2018 起任 Meta 首席 AI 科学家",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-1",
    "target": "institution:纽约大学",
-   "type": "player",
-   "label": "LeCun 2003 起任纽约大学 Courant 研究所教授",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-1",
    "target": "concept_L30-18",
-   "type": "related",
-   "label": "LeCun 1989–1998 在贝尔实验室主导 LeNet/卷积网络系列工作",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "concept_L31-25",
-   "type": "related",
-   "label": "2018 与 Hinton、Bengio 同获 ACM 图灵奖（表彰深度学习贡献）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "event:2013:Facebook-FAIR成立",
-   "type": "related",
-   "label": "Facebook 成立 FAIR 即为延揽 LeCun 任创始主任",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "concept_L26-31",
-   "type": "related",
-   "label": "LeCun 为能量模型（EBM）学派的长期倡导者",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "concept_L29-8",
-   "type": "related",
-   "label": "concept_L29-8 为图内既有的 LeCun 主题概念卡，与人物节点同主体",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-1",
    "target": "person_growth_133",
-   "type": "related",
-   "label": "LeNet 合作同事：LeCun 与 Bottou 共著 1998 LeNet-5 论文",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-2",
    "target": "company_R106-5",
-   "type": "player",
-   "label": "美团联合创始人（与王兴清华同宿舍），2010–2020 历任副总裁/高级副总裁/联席总裁；2023-06 光年之外并入美团后任美团基础 AI 负责人",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-2",
    "target": "institution:清华大学",
-   "type": "related",
-   "label": "清华大学电子工程系校友（与王兴同宿舍同学）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-3",
    "target": "company_14-2",
-   "type": "player",
-   "label": "2015-08 起 Google CEO，2019-12 起兼任 Alphabet CEO",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-3",
    "target": "event:2023-04:GoogleBrain并入DeepMind",
-   "type": "related",
-   "label": "任内推动 Google Brain 与 DeepMind 合并为 Google DeepMind",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-3",
    "target": "concept_2-24",
-   "type": "related",
-   "label": "任内主导 Gemini 系列发布（2023-12 起）与全面 AI 转型",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-4",
    "target": "company_14-22",
-   "type": "player",
-   "label": "2000-01 创立百度，任董事长兼 CEO 至今；超链分析专利发明人",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-4",
    "target": "event:2023-03:百度文心一言发布",
-   "type": "related",
-   "label": "主导文心一言 2023-03-16 发布（中国首个对标 ChatGPT 产品）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-4",
    "target": "concept_L17-101",
-   "type": "related",
-   "label": "任内推进 ERNIE 文心系列迭代与开源（2025 ERNIE 4.5 开源）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-5",
    "target": "company_14-5",
-   "type": "player",
-   "label": "微软研究院 Redmond 副总裁，主导 Phi 系列小模型研究（2023–2024）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-5",
    "target": "company_14-1",
-   "type": "player",
-   "label": "2024-10 加入 OpenAI，从事 o1 类推理模型优化研究",
-   "year": null
+   "type": "player"
   },
   {
    "source": "person_R609-5",
    "target": "concept_L17-55",
-   "type": "related",
-   "label": "主导 Phi-3（3.8B 端侧小模型，2024-04）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_R609-5",
    "target": "concept_L17-56",
-   "type": "related",
-   "label": "主导 Phi-4（14B，2024-12）；离任后 Phi-5 由微软团队延续",
-   "year": null
+   "type": "related"
   },
   {
    "source": "person_19",
    "target": "institution_R610-5",
-   "type": "player",
-   "label": "李飞飞 2019-02 联合创立 Stanford HAI 并任 co-director（与 John Etchemendy 共同主导）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "concept_L22-15",
    "target": "institution_R610-5",
-   "type": "related",
-   "label": "AI Index 年度报告由 Stanford HAI 主办（AI Index 独立倡议设于 HAI 之下）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "institution_R79-3",
    "target": "institution_R610-5",
-   "type": "related",
-   "label": "2025 年 SAIL 与 HAI 合并重组成 Stanford AI（图内 SAIL 卡注记「1963 起源 · 2025 与 HAI 合并」）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2011:乘积量化PQ论文发布(Jegou-Douze-Schmid-IEEE-TPAMI2011-Product-Quantization-ANN)",
    "target": "institution_R610-2",
-   "type": "related",
-   "label": "PQ 论文作者 Hervé Jégou、Matthijs Douze、Cordelia Schmid 当时均为 INRIA 研究者（Schmid 至今任 INRIA 研究主任）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_6-1",
    "target": "institution_R610-2",
-   "type": "related",
-   "label": "FAISS 核心方法 IVF-PQ 的方法学源头为 INRIA 乘积量化/倒排文件研究（Jégou/Douze 后携此线入职 Meta FAISS 团队）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "region:日本",
    "target": "institution_R610-1",
-   "type": "related",
-   "label": "RIKEN 为日本国家级综合研究机构，其 AIP 中心是文部科学省旗舰 AI 项目",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_L32-6",
    "target": "institution_R610-1",
-   "type": "related",
-   "label": "RIKEN（AIP）为日本 AI 产业生态的核心基础研究机构（富岳超算支撑日本 AI 算力）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "region:法国",
    "target": "institution_R610-2",
-   "type": "related",
-   "label": "INRIA 为法国国家数字科学技术研究院（计算计划产物，法国 AI 战略研究支柱）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "region:德国",
    "target": "institution_R610-3",
-   "type": "related",
-   "label": "DFKI 为德国国家级 AI 研究中心（公私合营，德国 AI 战略执行主体）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "concept_L32-8",
    "target": "institution_R610-3",
-   "type": "related",
-   "label": "DFKI 为欧洲 AI 产业生态最大应用研究中心（产学转化与技术主权旗舰）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "policy:美国EO14110",
    "target": "institution_R610-4",
-   "type": "related",
-   "label": "CSET 研究活跃于美国 AI 行政令相关治理议程（算力/出口管制/AI 安全政策线核心智库）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "institution:US-AISI",
    "target": "institution_R610-4",
-   "type": "related",
-   "label": "美国 AI 治理生态：联邦评测机构（NIST/CAISI）与乔治城政策智库（CSET）互为研究支撑",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2025-06:helsing-600m-eur",
@@ -332875,219 +334326,157 @@
   {
    "source": "event:2026-10:NVIDIA-GTC-柏林大会开幕",
    "target": "company_14-9",
-   "type": "player",
-   "label": "英伟达为大会主办方，黄仁勋定于 2026-10-21 发表主题演讲（GTC 2026 柏林站）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:NVIDIA-GTC-柏林大会开幕",
    "target": "conference:GTC",
-   "type": "related",
-   "label": "GTC 系列大会 2026 柏林站，继 3 月圣何塞 GTC 后的下半年旗舰技术生态大会",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:OpenAI入局人形机器人",
    "target": "company_14-1",
-   "type": "player",
-   "label": "OpenAI 首席执行官奥特曼 2026-10-18 披露人形机器人项目进展，10-19 官网发布 19 个 Robotics 职位",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:OpenAI入局人形机器人",
    "target": "concept_0-20",
-   "type": "related",
-   "label": "OpenAI 以机器人智能系统（AI 大脑）切入具身智能，与本体量产路线形成差异化路径",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:曙光8000十万卡超集群亮相",
    "target": "site:曙光8000",
-   "type": "player",
-   "label": "曙光 8000 真机 2026-10-18 于 2026 全国高性能计算学术大会亮相并发布十大应用成果",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:曙光8000十万卡超集群亮相",
    "target": "company_14-36",
-   "type": "related",
-   "label": "曙光 8000 为中科曙光（海光·曙光系）打造的国产算力集群，10 万卡规模已接近满载运行",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:工信部人形机器人产量与首批国标",
    "target": "concept_12-31",
-   "type": "related",
-   "label": "工信部口径：上半年人形机器人产量超 4 万台、全年预计破 10 万台，为量产与成本曲线的官方数据点",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:工信部人形机器人产量与首批国标",
    "target": "concept_0-20",
-   "type": "related",
-   "label": "实景实训推动具身智能在 300 多个重点场景验证部署，产业进入规模化交付阶段",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:Anthropic公共利益基金5%股份",
    "target": "company_14-3",
-   "type": "player",
-   "label": "Anthropic 2026-10-18 官宣拟设公共利益基金，初始注入 5% 股份，为其 11 月 IPO 前的公益与治理布局",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
    "target": "company_14-9",
-   "type": "player",
-   "label": "英伟达为 GTC 柏林大会主办方，黄仁勋 2026-10-21 主题演讲宣布 Vera Rubin 全面投产与 DSX POD AI 工厂套件",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
    "target": "concept_1-4",
-   "type": "related",
-   "label": "主题演讲关键节点：Vera Rubin 平台自 3 月 GTC 发布后进入全面投产，平台能力扩展至处理完整 AI 智能体",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
    "target": "company_14-1",
-   "type": "player",
-   "label": "OpenAI 接近完成至多 300 亿美元融资，投前估值 1.25 万亿美元，由 Coatue 与阿联酋投资方领投，为公司 IPO 前过桥轮（6 月已秘密交表）",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
    "target": "concept_L22-12",
-   "type": "related",
-   "label": "1.25 万亿美元投前估值将创私营公司估值纪录，为 2026-2027 AI 公司 IPO 潮再添热度",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
    "target": "concept_2-30",
-   "type": "player",
-   "label": "月之暗面 2026-10-23 发布 Kimi K3.1 Pro，Kimi 系列开源权重线再升级，完整权重 11-04 前释出",
-   "year": null
+   "type": "player"
   },
   {
    "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
    "target": "concept_L17-93",
-   "type": "related",
-   "label": "K3.1 Pro 为 Kimi K3 旗舰的开源权重升级版，编码基准 65.7 分直逼最强闭源模型",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:BOJ-warns-AI-market-shock",
    "target": "concept_R236-2",
-   "type": "related",
-   "label": "日本央行警告 AI 市场冲击与网络攻击风险，AI 基建超级周期的金融脆弱性进入主要央行视野",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2026-10:BOJ-warns-AI-market-shock",
    "target": "concept_R181-6",
-   "type": "related",
-   "label": "对 AI 交易拥挤与高估值的担忧升温，市销率泡沫口径估值成为系统性风险讨论焦点",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Cursor",
    "target": "company_L20-9",
-   "type": "player",
-   "label": "Cursor 由 Anysphere 开发运营，2023-03 发布的 AI-first 代码编辑器（VS Code 分叉），公司 2022 年由 MIT 毕业生创立",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:Cursor",
    "target": "concept_11-73",
-   "type": "related",
-   "label": "产品本体锚定同名概念：把多文件编辑与 Agent 操作做成 IDE 核心的 AI-first 编辑器",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:GitHub-Copilot",
    "target": "company_14-52",
-   "type": "player",
-   "label": "GitHub Copilot 为 GitHub（微软旗下）核心 AI 业务：2021-06-29 技术预览、2022-06-21 GA（10 美元/月），2026-09 付费订阅达 470 万",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:GitHub-Copilot",
    "target": "concept_11-71",
-   "type": "related",
-   "label": "产品本体锚定同名概念：生成式编程第一款大众产品，IDE 内代码补全与对话助手",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:v0",
    "target": "company_L19-5",
-   "type": "player",
-   "label": "v0 为 Vercel 出品（2023-10-11 公测），与其前端云/Next.js 生态及「Towards the AI Cloud」战略一体",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:v0",
    "target": "concept_L19-117",
-   "type": "related",
-   "label": "产品本体锚定同名概念：对话式 UI 生成工具，专攻 React/Next.js + Tailwind/shadcn 组件",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Manus",
    "target": "concept_L17-116",
-   "type": "related",
-   "label": "产品本体锚定同名概念：2025-03-06 蝴蝶效应推出的通用自主 Agent，异步云端执行多步任务",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Manus",
    "target": "concept_11-98",
-   "type": "related",
-   "label": "Manus 为「通用 Agent」品类代表产品（蝴蝶效应/Monica 团队出品，端到端完成上网任务）",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Notion-AI",
    "target": "company_14-47",
-   "type": "player",
-   "label": "Notion AI 为 Notion 官方 AI 功能线（2022-11 预览、2023-02-22 全量可用），2026 年整合为 Notion Agent/AI Meeting Notes 等套件",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:Notion-AI",
    "target": "concept_L25-112",
-   "type": "related",
-   "label": "Notion AI 是「长文档 AI 助手」品类代表产品之一：笔记/文档/知识库内问答、摘要与长文写作",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Perplexity-Comet",
    "target": "company_14-37",
-   "type": "player",
-   "label": "Comet 为 Perplexity 出品的 AI 原生浏览器：2025-07-09 发布（Max 订阅专属）、2025-10-02 全球免费",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:Perplexity-Comet",
    "target": "concept_L25-97",
-   "type": "related",
-   "label": "Comet 是 Perplexity 答案引擎产品矩阵（Comet/Spark/Pro）的浏览器入口，从答案引擎延展到浏览/执行",
-   "year": null
+   "type": "related"
   },
   {
    "source": "product:Midjourney",
    "target": "company_L28-139",
-   "type": "player",
-   "label": "Midjourney 产品本体与其同名公司实体互链：Discord+Web 端文生图订阅产品，约占全球 AI 图像生成 26.8% 份额",
-   "year": null
+   "type": "player"
   },
   {
    "source": "product:Midjourney",
    "target": "concept_L21-118",
-   "type": "related",
-   "label": "Midjourney 是「图像生成深化（构图/文本渲染）」路线代表产品：v6 起支持准确文字渲染，V8.1 达 2K 渲染",
-   "year": null
+   "type": "related"
   },
   {
    "source": "event:2021:GitHub-Copilot技术预览",
@@ -333274,6 +334663,2844 @@
    "target": "company_14-24",
    "type": "player",
    "desc": "月之暗面发布Kimi K3.1 Pro"
+  },
+  {
+   "source": "concept_R618-1",
+   "target": "institution:LMSYS",
+   "type": "player"
+  },
+  {
+   "source": "concept_R618-1",
+   "target": "dataset:UltraChat",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-1",
+   "target": "dataset:ShareGPT",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-2",
+   "target": "company_30-10",
+   "type": "player"
+  },
+  {
+   "source": "concept_R618-2",
+   "target": "dataset:ShareGPT",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-3",
+   "target": "concept_L28-33",
+   "type": "derived_from"
+  },
+  {
+   "source": "concept_R618-3",
+   "target": "event:2021-10:T0多任务提示预训练论文",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-3",
+   "target": "concept_L19-78",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-4",
+   "target": "event:2021-10:T0多任务提示预训练论文",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-4",
+   "target": "concept_L18-14",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-5",
+   "target": "concept_L28-33",
+   "type": "derived_from"
+  },
+  {
+   "source": "concept_R618-6",
+   "target": "event:2023-04:Zero123论文(arXiv2304.02604 Princeton Zero-shot-One-Image-to-3D)",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-6",
+   "target": "concept_L19-106",
+   "type": "related"
+  },
+  {
+   "source": "concept_R618-7",
+   "target": "institution:北京智源",
+   "type": "player"
+  },
+  {
+   "source": "event:2023-09:LMSYS-Chat-1M论文发布",
+   "target": "concept_R618-1",
+   "type": "related",
+   "desc": "事件主体关联"
+  },
+  {
+   "source": "event:2022-12:Objaverse论文发布",
+   "target": "concept_R618-6",
+   "type": "related",
+   "desc": "事件主体关联"
+  },
+  {
+   "source": "event:2026-10:Meta-95B-equity-raise-for-AI",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "Meta 宣布至多 950 亿美元股权融资投向 AI 基建与超级智能，为史上最大规模科技股股权融资，2026 年早些时候曾停止回购转向卖股",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Meta-95B-equity-raise-for-AI",
+   "target": "concept_1-35",
+   "type": "related",
+   "label": "AI 基建超级投资从私募融资延伸至公开市场股权融资：自由现金流承压下超大规模厂商转向股本融资，与 CoreWeave 债市重定价同为民资链压力信号",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-air-gapped-training-covert-channel",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "OpenAI 官方发布《Securing our frontier model training environment》：一次 11 天训练后前沿训练全面转入断网隔离 microVM，并以红队智能体攻击自证隔离边界",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-air-gapped-training-covert-channel",
+   "target": "concept_9-1",
+   "type": "related",
+   "label": "红队测试从模型安全评测扩展到训练基础设施攻击面：智能体借 CPU 缓存时序侧信道（Spectre 类）跨隔离微 VM 通信，并利用 Kata 容器缺陷实现 VM 逃逸",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Anthropic-sandbox-runtime-open-source",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "Anthropic 将驱动 Claude Code 的沙箱技术以 sandbox-runtime 名义开源（研究预览），Agent 安全基础设施由自用走向外溢",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Anthropic-sandbox-runtime-open-source",
+   "target": "concept_L16-68",
+   "type": "related",
+   "label": "无容器 OS 级沙箱（Seccomp/Landlock 类机制）落地 Agent 运行时：文件系统+网络双规则协同，Claude Code 内权限提示减少 84%",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:DeepSeek-MiniMax-global-deployment-approval",
+   "target": "company_14-23",
+   "type": "player",
+   "label": "DeepSeek 获准海外部署模型并完成出口登记手续，国产开源模型全球化获监管放行，MiniMax 同批获准",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:DeepSeek-MiniMax-global-deployment-approval",
+   "target": "event:2026-10:商务部拟增列23项AI技术出口管制",
+   "type": "related",
+   "label": "商务部 10-16 拟增列 23 项 AI 技术出口管制后首批放行落地：开源模型海外部署在登记+许可框架下放行，管制与自动许可便利并行",
+   "year": null
+  },
+  {
+   "source": "event:2023-04:三星员工ChatGPT泄密",
+   "target": "company_14-58",
+   "type": "player",
+   "label": "三星半导体员工 20 天内三次将源代码/会议纪要贴入 ChatGPT，事件推动三星全面禁用生成式 AI，成为企业『影子 AI』管控的分水岭案例",
+   "year": null
+  },
+  {
+   "source": "event:2023-04:三星员工ChatGPT泄密",
+   "target": "concept_L15-204",
+   "type": "related",
+   "label": "员工把涉密源代码与会议纪要直接贴入公网大模型，成为办公 AI 数据安全与合规（DLP/权限/私有化部署）议题的标志性反例",
+   "year": null
+  },
+  {
+   "source": "event:2023-07:韩国PIPC罚OpenAI",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "韩国 PIPC 认定 OpenAI 未按 PIPA 限期通报 3 月漏洞（687 名韩国用户受影响），处 360 万韩元罚款并附整改建议，为监管对 OpenAI 数据泄露首罚",
+   "year": null
+  },
+  {
+   "source": "event:2023-07:韩国PIPC罚OpenAI",
+   "target": "event:2023-03:ChatGPT数据泄露与意大利封禁",
+   "type": "related",
+   "label": "同一 Redis 漏洞的跨国监管回应：意大利 Garante 选择封禁整改、韩国 PIPC 走通报违规罚款路线，共同奠定 ChatGPT 数据合规执法先例",
+   "year": null
+  },
+  {
+   "source": "event:2023-11:OpenAI-DDoS攻击致ChatGPT瘫痪",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "OpenAI 状态页确认 DDoS『异常流量』致 ChatGPT 与 API 间歇性瘫痪，Anonymous Sudan 宣称负责，DevDay 一周后头部 AI 服务可用性短板暴露",
+   "year": null
+  },
+  {
+   "source": "event:2023-11:OpenAI-DDoS攻击致ChatGPT瘫痪",
+   "target": "concept_R77-1",
+   "type": "related",
+   "label": "头部模型服务商首例官方确认的 DDoS 攻击事故，把 AI 事故记录与问责的覆盖面从模型滥用扩展到基础设施攻击面与可用性",
+   "year": null
+  },
+  {
+   "source": "event:2024-02:Gemini人物图生成暂停",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "Gemini 历史人物图失实（多元纳粹士兵等）触发 Google 暂停人物图像生成并公开致歉，约 6 个月后才以 Imagen 3 恢复",
+   "year": null
+  },
+  {
+   "source": "event:2024-02:Gemini人物图生成暂停",
+   "target": "concept_9-14",
+   "type": "related",
+   "label": "多样性调优『过度补偿』酿成历史失实图像：公平性与偏见治理从统计偏差扩展到生成内容的历史事实性约束，CEO 称『完全不可接受』",
+   "year": null
+  },
+  {
+   "source": "event:2025-01:DeepSeek数据库暴露",
+   "target": "company_14-23",
+   "type": "player",
+   "label": "DeepSeek 一 ClickHouse 数据库无鉴权暴露超 100 万条聊天记录与 API 密钥，Wiz 通报后即下线，R1 爆红同期安全实践遭全球审视",
+   "year": null
+  },
+  {
+   "source": "event:2025-01:DeepSeek数据库暴露",
+   "target": "concept_R77-1",
+   "type": "related",
+   "label": "R1 开源冲击波中的基础设施侧数据暴露事故，把 AI 事故记录从模型行为扩展到云配置错误与数据面安全",
+   "year": null
+  },
+  {
+   "source": "concept_R622-1",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-1",
+   "target": "institution:伦敦大学学院",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-1",
+   "target": "concept_6-11",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-1",
+   "target": "concept_L28-96",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2020:RAG检索增强生成提出",
+   "target": "concept_R622-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-2",
+   "target": "institution:牛津大学",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-2",
+   "target": "dataset:ImageNet",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-2",
+   "target": "year_2014",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-3",
+   "target": "institution:加州大学伯克利分校",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-3",
+   "target": "concept_R125-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-3",
+   "target": "year_2016",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-4",
+   "target": "institution:加州大学伯克利分校",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-4",
+   "target": "year_2017",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-5",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-5",
+   "target": "concept_L18-162",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R622-5",
+   "target": "year_2018",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R623-1",
+   "target": "institution:麻省理工学院",
+   "type": "player",
+   "label": "Tegmark 任 MIT 物理系教授（宇宙学家出身，后转向 AI 风险研究）",
+   "year": null
+  },
+  {
+   "source": "person_R623-1",
+   "target": "event:2023-03:Future-of-Life公开信呼吁暂停巨型AI实验",
+   "type": "player",
+   "label": "2023-03 FLI 暂停巨型 AI 实验公开信由其领衔组织发起",
+   "year": null
+  },
+  {
+   "source": "person_R623-1",
+   "target": "event:2017-01:阿西洛马AI原则发布",
+   "type": "player",
+   "label": "2017-01 未来生命研究所（其创立并任所长）组织发布《阿西洛马 AI 原则》",
+   "year": null
+  },
+  {
+   "source": "person_R623-2",
+   "target": "company_14-81",
+   "type": "player",
+   "label": "2023-09 加盟昆仑万维，任天工智能联席 CEO 兼 2050 全球研究院院长（2024-11 离任）",
+   "year": null
+  },
+  {
+   "source": "person_R623-2",
+   "target": "company_R231-1",
+   "type": "player",
+   "label": "加盟昆仑万维前曾任 360 集团副总裁、人工智能研究院院长",
+   "year": null
+  },
+  {
+   "source": "person_R623-2",
+   "target": "concept_L41-5",
+   "type": "player",
+   "label": "2007 起执教新加坡国立大学并创立机器学习与视觉实验室；2025-01 重返 NUS 任特聘教授",
+   "year": null
+  },
+  {
+   "source": "person_R623-3",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "2024-06 出任 OpenAI 首席产品官（CPO），2026-04 离职后创立 Warp Sciences",
+   "year": null
+  },
+  {
+   "source": "person_R623-3",
+   "target": "company_R112-1",
+   "type": "player",
+   "label": "加盟 OpenAI 前任 Planet Labs 产品与业务总裁（2021-2024）",
+   "year": null
+  },
+  {
+   "source": "person_R623-3",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "任 CPO 期间主导 ChatGPT 与 API/Codex 产品线的产品化与商业化",
+   "year": null
+  },
+  {
+   "source": "person_R623-4",
+   "target": "institution:斯坦福大学",
+   "type": "player",
+   "label": "斯坦福大学计算机系副教授，概率机器学习与生成模型方向",
+   "year": null
+  },
+  {
+   "source": "person_R623-4",
+   "target": "concept_L28-60",
+   "type": "player",
+   "label": "ICLR 2021 Score-based SDE 论文共同作者（Song/Sohl-Dickstein/Kingma/Ermon/Poole），SDE 框架统一扩散建模",
+   "year": null
+  },
+  {
+   "source": "person_R623-4",
+   "target": "concept_L23-129",
+   "type": "related",
+   "label": "score-based 扩散一脉学术源头：其博士生 Yang Song 为该路线核心创立者",
+   "year": null
+  },
+  {
+   "source": "person_R623-5",
+   "target": "institution:北京智源",
+   "type": "player",
+   "label": "2018-11 出任北京智源人工智能研究院创始理事长",
+   "year": null
+  },
+  {
+   "source": "person_R623-5",
+   "target": "event:2018:智源研究院成立",
+   "type": "player",
+   "label": "智源研究院 2018 年成立即出任首任（创始）理事长",
+   "year": null
+  },
+  {
+   "source": "person_R623-5",
+   "target": "institution:微软亚洲研究院",
+   "type": "player",
+   "label": "微软亚洲研究院创始成员之一，后创立微软亚洲工程院并任院长、微软亚太研发集团 CTO",
+   "year": null
+  },
+  {
+   "source": "concept_R624-1",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "Fairwater 为微软自建自持的 AI 算力旗舰园区，载数十万张 NVIDIA GPU，承载微软自有 AI 负载（Copilot/Azure AI）",
+   "year": null
+  },
+  {
+   "source": "concept_R624-1",
+   "target": "concept_1-35",
+   "type": "related",
+   "label": "威斯康星 33 亿+40 亿美元投资是 AI 基建超级投资周期中超大规模厂商自建侧的代表样本",
+   "year": null
+  },
+  {
+   "source": "concept_R624-1",
+   "target": "concept_1-40",
+   "type": "related",
+   "label": ">90% 闭环液冷+250MW 光伏配套，是绿色算力/液冷工程的新标杆",
+   "year": null
+  },
+  {
+   "source": "concept_R624-1",
+   "target": "site:Stargate",
+   "type": "related",
+   "label": "与 Stargate 同为超大规模 AI 园区对标：Stargate 是 OpenAI 联盟共建，Fairwater 是微软自建自持",
+   "year": null
+  },
+  {
+   "source": "concept_R624-3",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "Meitner Energy Center 由 Google 与 Intersect Power 共建，扩充 Google 算力版图并配套专属清洁电力",
+   "year": null
+  },
+  {
+   "source": "concept_R624-3",
+   "target": "concept_1-40",
+   "type": "related",
+   "label": "数据中心与 1GW+ 风光储共置、风冷限水，是绿电算力协同/源网共置的首发样本",
+   "year": null
+  },
+  {
+   "source": "concept_R624-3",
+   "target": "concept_1-35",
+   "type": "related",
+   "label": "属 Google 得州 400 亿美元投资（至 2027）的组成部分，延续 AI 基建超级周期",
+   "year": null
+  },
+  {
+   "source": "concept_R624-2",
+   "target": "site:LUMI",
+   "type": "related",
+   "label": "首批 AI 工厂之一 LUMI AI Factory 落地芬兰 Kajaani（CSC），与图内 LUMI 超算同址协同",
+   "year": null
+  },
+  {
+   "source": "concept_R624-2",
+   "target": "concept_L32-8",
+   "type": "related",
+   "label": "AI 工厂网络是欧洲从监管先行转向主权算力投资（AI Continent）的核心抓手",
+   "year": null
+  },
+  {
+   "source": "concept_R624-2",
+   "target": "concept_L22-128",
+   "type": "related",
+   "label": "19 座 AI 工厂+13 座天线节点构成欧洲 Sovereign AI 算力主权路线的落地方案",
+   "year": null
+  },
+  {
+   "source": "concept_R624-4",
+   "target": "concept_1-32",
+   "type": "related",
+   "label": "NAIRR 是美国对应中国东数西算/智算中心体系的国家级公共算力平台安排",
+   "year": null
+  },
+  {
+   "source": "concept_R624-4",
+   "target": "region:美国",
+   "type": "related",
+   "label": "美国联邦层级公共 AI 算力资源网络，试点已覆盖 48 州 600+ 项目",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Anthropic-S1-IPO-filing-Nasdaq-ANT",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "Anthropic 公开递交 S-1 招股文件，拟以代码 ANT 登陆纳斯达克：前沿 AI 实验室首单 IPO，文件披露上半年净亏 807 亿美元、Q3 收入环比 +45%，博通拟予至多 420 亿美元信贷支持",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Anthropic-S1-IPO-filing-Nasdaq-ANT",
+   "target": "concept_L22-12",
+   "type": "related",
+   "label": "AI 公司 IPO 潮从 2025 年算力供应链（CoreWeave 等）延伸至 2026 年前沿实验室本体：Anthropic（ANT）成实验室证券化第一单，与 OpenAI 私募 1.25 万亿估值形成公开/私募两条定价线",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:DeepSeek-V4.1-Flash-1017-OpenRouter-weekly-No1",
+   "target": "company_14-23",
+   "type": "player",
+   "label": "DeepSeek V4.1-Flash-1017 以 10-19~25 周单周 33.6 万亿 token（环比 +801%）登顶 OpenRouter 全球周榜，V4.1 Flash 同榜第二（18 万亿），包揽前二",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:DeepSeek-V4.1-Flash-1017-OpenRouter-weekly-No1",
+   "target": "concept_2-26",
+   "type": "related",
+   "label": "DeepSeek 系列延续 8 月 V4 Flash 首冠（7.22 万亿）轨迹：低价+开源权重把全球推理负载向国产开源模型集中，周榜前十中国模型占七席（DeepSeek×2、MiniMax、Z.ai×2、腾讯、小米）",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-GPT-6.1-Terra-release",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:OpenAI-GPT-6.1-Terra-release",
+   "target": "concept_L27-18",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Oracle-Private-Agent-Factory-2610-Deep-NL2SQL",
+   "target": "company_14-57",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Oracle-Private-Agent-Factory-2610-Deep-NL2SQL",
+   "target": "concept_L26-40",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Microsoft-60k-voluntary-buyouts-AI-restructuring",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Microsoft-60k-voluntary-buyouts-AI-restructuring",
+   "target": "concept_L22-11",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Cathedral-exDOGE-AI-agent-breach-Anthropic",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Cathedral-exDOGE-AI-agent-breach-Anthropic",
+   "target": "concept_9-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_14-47",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_14-51",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_14-59",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_L19-15",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_L23-19",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "concept_11-91",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "concept_13-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-1",
+   "target": "concept_L17-61",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-10",
+   "target": "concept_L31-28",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-102",
+   "target": "company_14-92",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-102",
+   "target": "concept_12-21",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-11",
+   "target": "concept_1-26",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-11",
+   "target": "concept_L31-28",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-12",
+   "target": "company_L20-16",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "company_L20-16",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "company_L24-12",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_11-91",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_13-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_L17-8",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_L18-54",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_L24-90",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-2",
+   "target": "concept_L31-28",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-21",
+   "target": "concept_L15-169",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-21",
+   "target": "concept_L17-98",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-22",
+   "target": "concept_L17-101",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-23",
+   "target": "concept_L17-75",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-27",
+   "target": "concept_L27-148",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-28",
+   "target": "concept_13-15",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-3",
+   "target": "company_L23-19",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-3",
+   "target": "concept_L17-8",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-3",
+   "target": "concept_L18-44",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-34",
+   "target": "concept_L17-88",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-34",
+   "target": "concept_L27-95",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-4",
+   "target": "concept_L17-49",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-4",
+   "target": "concept_L17-54",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-4",
+   "target": "concept_L17-56",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-4",
+   "target": "concept_L17-61",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-4",
+   "target": "concept_L27-107",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-40",
+   "target": "concept_13-12",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-40",
+   "target": "concept_13-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-45",
+   "target": "product:Devin",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-46",
+   "target": "product:Devin",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-47",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-5",
+   "target": "company_14-51",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-5",
+   "target": "company_L19-15",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-5",
+   "target": "company_L28-153",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-52",
+   "target": "concept_L15-34",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-52",
+   "target": "concept_L18-44",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-53",
+   "target": "company_L28-147",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-53",
+   "target": "concept_L15-169",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-54",
+   "target": "concept_L15-169",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-58",
+   "target": "company_L20-16",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-64",
+   "target": "concept_13-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-69",
+   "target": "company_14-71",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-70",
+   "target": "company_14-71",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-71",
+   "target": "company_14-73",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-71",
+   "target": "product:Replicate",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-8",
+   "target": "company_L20-16",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-81",
+   "target": "concept_13-15",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-9",
+   "target": "concept_L27-107",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_14-92",
+   "target": "company_14-96",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_30-26",
+   "target": "concept_L16-79",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_30-33",
+   "target": "concept_L16-51",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L19-15",
+   "target": "company_L19-4",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L19-6",
+   "target": "company_L19-7",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L20-1",
+   "target": "company_L20-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L20-16",
+   "target": "concept_12-42",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L20-2",
+   "target": "company_L20-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L20-8",
+   "target": "concept_L15-34",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L23-12",
+   "target": "company_L28-147",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "company_L28-144",
+   "target": "company_L28-145",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_0-1",
+   "target": "concept_L30-20",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_0-14",
+   "target": "concept_L18-44",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_10-1",
+   "target": "concept_10-20",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_10-1",
+   "target": "concept_L16-95",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_13-10",
+   "target": "concept_13-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_3-21",
+   "target": "concept_L16-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_3-27",
+   "target": "concept_L18-145",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_6-1",
+   "target": "concept_L24-101",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_6-2",
+   "target": "concept_L16-79",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_6-2",
+   "target": "concept_L24-101",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_6-3",
+   "target": "concept_L16-79",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_6-6",
+   "target": "concept_L16-79",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_7-2",
+   "target": "concept_L16-51",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L16-1",
+   "target": "concept_L16-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L16-11",
+   "target": "concept_L16-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L17-111",
+   "target": "concept_L28-121",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L17-25",
+   "target": "concept_L18-44",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L17-79",
+   "target": "concept_L27-100",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L17-79",
+   "target": "concept_L27-101",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L17-8",
+   "target": "concept_L17-9",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L18-115",
+   "target": "concept_L18-117",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L18-137",
+   "target": "concept_L18-145",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L18-144",
+   "target": "concept_L21-14",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L19-74",
+   "target": "concept_L19-76",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L21-37",
+   "target": "concept_L24-77",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L22-71",
+   "target": "concept_L22-84",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L22-71",
+   "target": "concept_L22-86",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L24-139",
+   "target": "concept_L28-112",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L24-139",
+   "target": "concept_L28-119",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L24-75",
+   "target": "concept_L24-80",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L24-90",
+   "target": "concept_L28-1",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L26-94",
+   "target": "concept_L26-95",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L27-100",
+   "target": "concept_L27-95",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L27-101",
+   "target": "concept_L27-95",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L32-1",
+   "target": "concept_L32-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "concept_L32-2",
+   "target": "concept_L32-3",
+   "type": "related",
+   "desc": "详情册相关条目共现（双钥核验）"
+  },
+  {
+   "source": "event:2025-10:PyTorchFoundation收Ray",
+   "target": "company_14-73",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2026-02:OpenAI-AWS扩展1000亿算力协议",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2021-10:Facebook改名Meta",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2023-09:Meta发布WhatsApp-Flows",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2024-04:亚马逊Fresh停用Just-Walk-Out转Dash-Cart",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2023-01:Microsoft发布ClimaX气候基础模型",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "event:2026-03:ACM图灵奖Bennett-Brassard",
+   "target": "company_14-56",
+   "type": "player",
+   "desc": "事件主体（低层确定性）"
+  },
+  {
+   "source": "company_14-102",
+   "target": "company_14-96",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "company_14-85",
+   "target": "company_14-89",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "company_L20-1",
+   "target": "company_L20-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "company_L20-4",
+   "target": "company_L20-6",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "company_L20-4",
+   "target": "company_L20-7",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "company_L20-6",
+   "target": "company_L20-7",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "concept_L17-46",
+   "target": "concept_L17-49",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "concept_L17-87",
+   "target": "concept_L27-119",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2019:AI宠物设备普及",
+   "target": "company_R169-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2012:Google-Brain猫脸实验",
+   "target": "company_R89-3",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2024:欧盟DSA正式适用",
+   "target": "company_14-4",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2024:欧盟DSA正式适用",
+   "target": "company_14-5",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2024:欧盟DSA正式适用",
+   "target": "company_14-7",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2024:欧盟DSA正式适用",
+   "target": "company_14-8",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2022-08:深圳智能网联汽车条例施行",
+   "target": "company_14-99",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2022-08:深圳智能网联汽车条例施行",
+   "target": "company_14-100",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "event:2024-10:美洽发布大模型售前获线机器人",
+   "target": "company_14-23",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）"
+  },
+  {
+   "source": "concept_L17-46",
+   "target": "concept_L17-54",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：同为代码/小模型高效路线，Phi-1 本身即代码模型（Mistral Codestral/Devstral ↔ 微软 Phi 系）"
+  },
+  {
+   "source": "concept_L24-133",
+   "target": "concept_L28-122",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：同为 Agent 持久化经验复用机制（Voyager 技能库 ↔ Generative Agents 记忆流/反思）"
+  },
+  {
+   "source": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "target": "concept_L29-17",
+   "type": "participant",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "target": "concept_R65-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "target": "event:2026-06:xAI被SpaceX收购",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:SpaceX-400亿债务融资AI芯片",
+   "target": "year_2026",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:软银-马来西亚500亿AI数据中心",
+   "target": "investor:SoftBankVision",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:软银-马来西亚500亿AI数据中心",
+   "target": "region:马来西亚",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:软银-马来西亚500亿AI数据中心",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:软银-马来西亚500亿AI数据中心",
+   "target": "year_2026",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R638-1",
+   "target": "region:沙特阿拉伯",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R638-2",
+   "target": "region:沙特阿拉伯",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R638-2",
+   "target": "institution_R638-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R638-3",
+   "target": "institution_R638-1",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R638-3",
+   "target": "company_R197-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R638-2",
+   "target": "event:2025-11:HUMAIN领投Luma9亿与沙特2GW超算",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R639-1",
+   "target": "region:阿联酋",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R639-2",
+   "target": "region:阿联酋",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_R197-1",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_14-57",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "investor:SoftBankVision",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_R113-4",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "region:阿联酋",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "concept_1-35",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "target": "company_R197-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R640-1",
+   "target": "region:巴西",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R640-1",
+   "target": "policy_R640-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R640-1",
+   "target": "concept_R640-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R640-2",
+   "target": "region:巴西",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R640-2",
+   "target": "event:2024:巴西众议院通过PL2338人工智能法案",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R640-2",
+   "target": "event:2021-04:巴西MCTI颁布EBIA国家AI战略",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R640-3",
+   "target": "region:巴西",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R640-1",
+   "target": "company_R221-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R641-1",
+   "target": "region:越南",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-2",
+   "target": "region:越南",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-2",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-3",
+   "target": "region:越南",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-3",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R641-4",
+   "target": "region:越南",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R641-4",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-2",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:AI数据中心反弹中期选举议题",
+   "target": "concept_R97-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:AI数据中心反弹中期选举议题",
+   "target": "concept_R65-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:AI数据中心反弹中期选举议题",
+   "target": "event:2026-04:IEA能源与AI报告数据中心用电485TWh",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R643-1",
+   "target": "region:印度尼西亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R643-1",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R643-2",
+   "target": "region:印度尼西亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R643-3",
+   "target": "region:印度尼西亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R643-3",
+   "target": "event:2020:印尼Stranas-KA发布",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R643-1",
+   "target": "event:2020:印尼Stranas-KA发布",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R644-1",
+   "target": "region:泰国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R644-2",
+   "target": "institution_R644-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R644-2",
+   "target": "region:泰国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R644-2",
+   "target": "event:2022:泰国国家AI战略2022-2027",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R644-2",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R645-1",
+   "target": "region:澳大利亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution:Australia-AISI",
+   "target": "region:澳大利亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution:Australia-AISI",
+   "target": "policy_R645-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R645-2",
+   "target": "region:澳大利亚",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:澳大利亚",
+   "target": "company_R50-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:澳大利亚",
+   "target": "company_R261-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R646-1",
+   "target": "region:荷兰",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R646-2",
+   "target": "region:荷兰",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R646-2",
+   "target": "policy_R646-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:荷兰",
+   "target": "company_38-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:荷兰",
+   "target": "policy:荷兰ASML光刻机出口管制",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R647-1",
+   "target": "region:瑞典",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-12:瑞典AI委员会终版报告",
+   "target": "region:瑞典",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-12:瑞典AI委员会终版报告",
+   "target": "institution_R647-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:瑞典",
+   "target": "company_R113-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:瑞典",
+   "target": "company_R162-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:微软FY2027Q1财报Azure美元口径",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:微软FY2027Q1财报Azure美元口径",
+   "target": "concept_R81-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:微软FY2027Q1财报Azure美元口径",
+   "target": "event:2026-07:美国hyperscaler集体上调2026资本开支指引",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:微软FY2027Q1财报Azure美元口径",
+   "target": "event:2026:Azure年营收破千亿",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R649-1",
+   "target": "region:西班牙",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R649-2",
+   "target": "region:西班牙",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-05:西班牙AI有机法草案",
+   "target": "region:西班牙",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-05:西班牙AI有机法草案",
+   "target": "institution_R649-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:西班牙",
+   "target": "company_R162-6",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:西班牙",
+   "target": "company_R220-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R650-1",
+   "target": "region:意大利",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:意大利132号人工智能法",
+   "target": "region:意大利",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:意大利132号人工智能法",
+   "target": "policy_R650-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R650-2",
+   "target": "region:意大利",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:意大利",
+   "target": "event:2023-03:ChatGPT数据泄露与意大利封禁",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:意大利",
+   "target": "event:2022-03:意大利Garante罚Clearview2000万欧元",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R651-1",
+   "target": "region:瑞士",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R651-2",
+   "target": "institution_R651-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R651-2",
+   "target": "institution:ETHZurich",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R651-2",
+   "target": "institution:EPFL",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:瑞士",
+   "target": "concept_L31-8",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R652-1",
+   "target": "policy:印度IndiaAI使命",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R652-1",
+   "target": "region:印度",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R652-2",
+   "target": "policy:印度IndiaAI使命",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R652-2",
+   "target": "concept_R652-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R652-2",
+   "target": "company_32-49",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R653-1",
+   "target": "region:德国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R653-1",
+   "target": "institution_R610-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R653-1",
+   "target": "concept_L32-8",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R655-1",
+   "target": "region:法国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R655-1",
+   "target": "concept_L32-10",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R655-1",
+   "target": "event:2018-03:法国AI-for-Humanity峰会",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R655-1",
+   "target": "event:2025-02:巴黎全球AI行动峰会",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R655-2",
+   "target": "policy_R655-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R655-2",
+   "target": "institution_R610-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R656-1",
+   "target": "event:2017-03:加拿大发布泛加拿大AI战略",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R656-1",
+   "target": "institution:Mila",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R656-1",
+   "target": "institution:VectorInstitute",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:加拿大预算2025主权AI基础设施",
+   "target": "region:加拿大",
+   "type": "timeline",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:加拿大预算2025主权AI基础设施",
+   "target": "event:2017-03:加拿大发布泛加拿大AI战略",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:加拿大预算2025主权AI基础设施",
+   "target": "company_14-38",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R657-1",
+   "target": "region:日本",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R657-1",
+   "target": "institution:Japan-AISI",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R657-1",
+   "target": "concept_L32-6",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R658-1",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R658-1",
+   "target": "concept_L32-12",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R659-1",
+   "target": "region:新加坡",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R659-1",
+   "target": "concept_R194-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R659-1",
+   "target": "concept_R643-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R659-1",
+   "target": "policy:新加坡国家AI战略NAIS",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R660-1",
+   "target": "concept_R249-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R660-1",
+   "target": "concept_11-33",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R660-2",
+   "target": "event:2022:最高法AI司法意见",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R660-3",
+   "target": "concept_R660-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R660-3",
+   "target": "concept_R253-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R661-1",
+   "target": "concept_L26-137",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R661-1",
+   "target": "concept_R105-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R661-2",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R661-2",
+   "target": "concept_R661-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R662-1",
+   "target": "concept_R662-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R662-1",
+   "target": "concept_R107-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R662-2",
+   "target": "concept_L26-137",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R663-1",
+   "target": "concept_R107-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R663-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R664-1",
+   "target": "concept_L19-48",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R664-1",
+   "target": "concept_R319-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R664-1",
+   "target": "company_R319-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R665-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R665-1",
+   "target": "concept_R160-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R666-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R666-1",
+   "target": "concept_R417-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R667-1",
+   "target": "concept_12-50",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R667-1",
+   "target": "concept_L26-137",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R668-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R668-1",
+   "target": "concept_R130-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R669-1",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R669-1",
+   "target": "concept_R669-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R669-2",
+   "target": "concept_L26-137",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R669-2",
+   "target": "concept_R353-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R670-1",
+   "target": "concept_R122-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R670-1",
+   "target": "concept_L19-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-08:Inworld-A轮扩展560M估值5亿",
+   "target": "investor:Lightspeed",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：投资方 Lightspeed"
+  },
+  {
+   "source": "event:2023-08:Inworld-A轮扩展560M估值5亿",
+   "target": "investor:FoundersFund",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：投资方 Founders Fund"
+  },
+  {
+   "source": "event:2023-08:Inworld-A轮扩展560M估值5亿",
+   "target": "investor:IntelCapital",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：投资方 Intel Capital"
+  },
+  {
+   "source": "event:2024-05:微软Build2024发布CopilotPlus",
+   "target": "company_14-10",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：首批芯片平台：AMD 锐龙 AI 300"
+  },
+  {
+   "source": "event:2024-05:微软Build2024发布CopilotPlus",
+   "target": "company_14-11",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：首批芯片平台：Intel（与 AMD/高通同批三平台）"
+  },
+  {
+   "source": "event:2015:RISC-V-Foundation成立",
+   "target": "company_R273-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：同年同批 Berkeley 发明人创立 SiFive"
+  },
+  {
+   "source": "event:2024-02:Apple-iMessage-PQ3后量子升级",
+   "target": "company_14-8",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：发布主体 Apple Security Research"
+  },
+  {
+   "source": "event:2022-08:FDA-OTC助听器法规生效",
+   "target": "company_R282-1",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：直接催生的 OTC 新势力（Eargo）"
+  },
+  {
+   "source": "event:2025-11:mind42.ins进博会发布",
+   "target": "company_14-80",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：镁信健康寿险大模型与百川智能签约共建"
+  },
+  {
+   "source": "event:2018-01:MiFID-II通讯记录义务生效",
+   "target": "company_R99-5",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：义务催生的通讯合规审查 AI 主体 NICE Actimize"
+  },
+  {
+   "source": "event:2018-01:MiFID-II通讯记录义务生效",
+   "target": "company_32-18",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：义务催生的通讯合规审查 AI 主体 Behavox"
+  },
+  {
+   "source": "event:2020-11:逸仙电商纽交所上市YSG",
+   "target": "company_L19-28",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：完美日记增长路径核心渠道小红书"
+  },
+  {
+   "source": "event:2018-01:ICEYE-X1首颗百公斤级SAR卫星入轨",
+   "target": "company_R315-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：研制方 ICEYE"
+  },
+  {
+   "source": "event:1999:TrainingPeaks上线首个在线耐力训练处方平台",
+   "target": "company_R318-3",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：创立主体 TrainingPeaks"
+  },
+  {
+   "source": "event:2023-01:IMO-EEXI-CII船舶能效新规生效",
+   "target": "company_R124-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：新规直接规制船公司：马士基"
+  },
+  {
+   "source": "event:2023-01:IMO-EEXI-CII船舶能效新规生效",
+   "target": "company_R124-5",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：新规直接规制船公司：中远海运"
+  },
+  {
+   "source": "event:2022-02:北京冬奥冰立方冰壶开赛中国三项参赛商汤猎壶者CurlingHunter全球首秀",
+   "target": "company_14-29",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：CurlingHunter 由商汤主导研发"
+  },
+  {
+   "source": "event:2021-07:Codex论文发布(arXiv2107.03374 OpenAI Introduces Codex+HumanEval Powers GitHub Copilot)",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：论文作者机构 OpenAI"
+  },
+  {
+   "source": "event:2021-07:Codex论文发布(arXiv2107.03374 OpenAI Introduces Codex+HumanEval Powers GitHub Copilot)",
+   "target": "company_14-52",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：GitHub Copilot 以 Codex 为底层模型"
+  },
+  {
+   "source": "event:2021-02:CodeXGLUE发布(arXiv2102.04664 Microsoft Code Understanding Generation Benchmark)",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Microsoft 发布 CodeXGLUE"
+  },
+  {
+   "source": "event:2018-12:StyleGAN论文发布(NVIDIA-A-Style-Based-Generator-Architecture-for-GANs-arXiv1812.04948)",
+   "target": "company_14-9",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：NVIDIA 论文"
+  },
+  {
+   "source": "event:2018-12:PATE-GAN论文发布(Edinburgh-Jordon-While-Issenhmcher-DP-Synthetic-Data-arXiv1812.06312)",
+   "target": "company_R50-2",
+   "type": "related",
+   "desc": "双钥核验（共现/主体覆盖）：Gretel 合成数据技术谱系基础之一"
+  },
+  {
+   "source": "event:2020-02:MiniLM论文发布(arXiv2002.10957 微软自注意力蒸馏)",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Microsoft 论文"
+  },
+  {
+   "source": "event:2019-03:Havlicek量子核与变分分类Nature",
+   "target": "company_14-56",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：IBM Research 论文"
+  },
+  {
+   "source": "event:2024-05:LaBraM大脑模型发布(arXiv2405.18765 ICLR2024-Spotlight 上海交大吕宝粮团队 2500小时EEG预训练)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta 论文"
+  },
+  {
+   "source": "event:2022-12:UniAD论文发布(arXiv2212.07756 Planning-oriented Autonomous Driving 上海AI实验室全栈统一)",
+   "target": "company_14-35",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：OpenDriveLab（上海AI实验室）"
+  },
+  {
+   "source": "event:2024-03:NVIDIA发布Spectrum-X以太网AI网络平台",
+   "target": "company_14-9",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：发布方 NVIDIA"
+  },
+  {
+   "source": "event:2024-10:Anthropic发布Claude-3.5-Computer-Use",
+   "target": "company_14-3",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：发布方 Anthropic"
+  },
+  {
+   "source": "event:2024-04:Chameleon论文(arXiv2404.00620 Meta Mixed-Modal Early-Fusion Foundation)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta AI 论文"
+  },
+  {
+   "source": "event:2023-10:LLMLingua论文(arXiv2310.05736 Jiang Et Al Microsoft Prompt Compression EMNLP2023)",
+   "target": "company_14-5",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Microsoft Research 论文"
+  },
+  {
+   "source": "event:2024:V-JEPA2发布(Meta Video Joint Embedding Predictive Architecture 2 自动驾驶世界模型)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta 官方博客发布"
+  },
+  {
+   "source": "event:2023-03:PyTorch2.0发布(torch.compile TorchDynamo TorchInductor JIT编译正式版)",
+   "target": "company_14-11",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Intel 为 PyTorch 2.0 贡献 TorchInductor 等"
+  },
+  {
+   "source": "event:2021-04:DINO论文发布(arXiv2104.14294 Meta FAIR Emerging Properties in Self-Supervised Vision Transformers)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta FAIR 论文"
+  },
+  {
+   "source": "event:2021-11:MAE论文发布(arXiv2111.06377 Meta FAIR Masked Autoencoders Are Scalable Vision Learners)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta FAIR 论文"
+  },
+  {
+   "source": "event:2023-04:DINOv2发布(arXiv2304.07193 Meta FAIR Learning Robust Visual Features without Supervision)",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta FAIR 论文"
+  },
+  {
+   "source": "event:2018-03:Reptile论文发布",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：OpenAI 论文（Nichol/Achiam/Schulman）"
+  },
+  {
+   "source": "event:2022-10:Reward-Model-Overoptimization-Scaling-Laws",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：OpenAI 论文（Gao/Schulman/Hilton）"
+  },
+  {
+   "source": "event:2017-11:GradNorm论文发布",
+   "target": "company_14-64",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Adobe Research 论文"
+  },
+  {
+   "source": "event:2021-07:ALBEF动量蒸馏先对齐后融合发布",
+   "target": "company_14-53",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Salesforce Research 论文"
+  },
+  {
+   "source": "event:2023-01:BLIP-2-Q-Former冻结编码器桥接发布",
+   "target": "company_14-53",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Salesforce Research 论文"
+  },
+  {
+   "source": "event:2020-08:LSS论文发布(arXiv2008.05711 LiftSplatShoot NVIDIA ECCV2020 BEV视锥投影)",
+   "target": "company_14-9",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：NVIDIA 论文（Philion/Fidler）"
+  },
+  {
+   "source": "event:2022-03:BEVFormer论文发布(arXiv2203.17270 OpenDriveLab 时空BEV Transformer ECCV2022)",
+   "target": "company_14-35",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：OpenDriveLab（上海AI实验室）"
+  },
+  {
+   "source": "event:2022-09:Make-A-Video论文",
+   "target": "company_14-4",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Meta FAIR 论文"
+  },
+  {
+   "source": "event:2022-10:AutoCoT论文发布",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "双钥核验（共现/主体覆盖）：Amazon Research 论文"
+  },
+  {
+   "source": "person_R673-1",
+   "target": "concept_L29-6",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-1",
+   "target": "concept_L28-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-2",
+   "target": "event:2012:Google-Brain猫脸实验",
+   "type": "participant",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-2",
+   "target": "concept_L29-19",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-2",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-3",
+   "target": "concept_L29-19",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R673-3",
+   "target": "concept_L29-6",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R674-1",
+   "target": "concept_L22-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R674-2",
+   "target": "policy_R674-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R674-3",
+   "target": "policy_R674-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R675-1",
+   "target": "concept_L22-175",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R675-1",
+   "target": "concept_12-45",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-02:维苏威挑战赛头奖",
+   "target": "concept_R675-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R676-1",
+   "target": "concept_11-20",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R677-1",
+   "target": "concept_11-33",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R677-1",
+   "target": "concept_L15-64",
+   "type": "related",
+   "label": "",
+   "year": null
   }
  ]
 }
