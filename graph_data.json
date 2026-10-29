@@ -163208,6 +163208,22 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41"
+  },
+  {
+   "id": "event:2026-10:Amazon-Q3-2026财报",
+   "name": "Amazon 2026Q3 财报：营收 2019 亿美元 miss、调整后 EPS 1.89 miss，AWS 增速 39% 加速（2026-10-29）",
+   "type": "event",
+   "desc": "2026-10-29 盘后 Amazon 发布 2026Q3 财报：营收 2019 亿美元（+12%，低于约 2040 亿预期）、调整后 EPS 1.89 美元、净利 207 亿美元（同比下滑）、运营利润 281 亿——营收利润双 miss，盘后下跌（重资本开支压利润）；AWS 收入约 459~460 亿美元、同比 +39%（较一年前约 20% 大幅加速），AWS 运营利润 178 亿（上年同期 114 亿）；Q4 指引 2400~2470 亿美元。至此本财报季四大 hyperscaler（微软/Alphabet/Meta/Amazon）事件链完整，共性为「云加速+capex 重压利润」。来源：Amazon IR/SEC 8-K/Yahoo Finance/StockTitan（2026-10-29）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2026,
+   "density": null,
+   "extension": 7,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
   }
  ],
  "links": [
@@ -340919,6 +340935,34 @@
    "source": "event:2026-09:OpenAI-300亿美元新轮",
    "target": "company_14-3",
    "type": "competition",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Amazon-Q3-2026财报",
+   "target": "company_14-7",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Amazon-Q3-2026财报",
+   "target": "concept_R81-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Amazon-Q3-2026财报",
+   "target": "event:2026-10:Alphabet-Q3-2026财报miss",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Amazon-Q3-2026财报",
+   "target": "event:2026-10:Meta-Q3-2026财报",
+   "type": "related",
    "label": "",
    "year": null
   }
