@@ -38865,7 +38865,7 @@
    "player": "Stanford; Google Brain; DeepLearning.AI; Landing AI",
    "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
    "link": "../详情/infra_细拆_编排框架.md",
-   "year": 2011,
+   "year": 1976,
    "density": 7.9,
    "extension": 33
   },
@@ -38884,22 +38884,6 @@
    "year": 2008,
    "density": 6.1,
    "extension": 13
-  },
-  {
-   "id": "concept_L29-23",
-   "name": "张钹（Zhang Bo）",
-   "type": "concept",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "中国AI学科主要开拓者 中科院院士 清华AI研究院首任院长",
-   "stage": "1958 起步 · 2018 牵头清华AI研究院",
-   "player": "清华大学; 清华人工智能研究院",
-   "url": "https://www.cs.tsinghua.edu.cn/info/1121/3552.htm",
-   "link": "../详情/深化_人物线.md",
-   "year": 1958,
-   "density": 7.9,
-   "extension": 3
   },
   {
    "id": "concept_L29-24",
@@ -69162,54 +69146,6 @@
    "extension": 4
   },
   {
-   "id": "person_02",
-   "name": "约翰·麦卡锡（John McCarthy）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1927,
-   "density": null,
-   "extension": 4
-  },
-  {
-   "id": "person_03",
-   "name": "马文·明斯基（Marvin Minsky）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1927,
-   "density": null,
-   "extension": 4
-  },
-  {
-   "id": "person_04",
-   "name": "弗兰克·罗森布拉特（Frank Rosenblatt）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1928,
-   "density": null,
-   "extension": 2
-  },
-  {
    "id": "person_05",
    "name": "艾伦·纽厄尔与 赫伯特·西蒙（Allen Newell）",
    "type": "person",
@@ -69258,38 +69194,6 @@
    "extension": 10
   },
   {
-   "id": "person_11",
-   "name": "朱迪亚·珀尔（Judea Pearl）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1936,
-   "density": null,
-   "extension": 2
-  },
-  {
-   "id": "person_12",
-   "name": "大卫·鲁梅尔哈特（David Rumelhart）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1942,
-   "density": null,
-   "extension": 4
-  },
-  {
    "id": "person_13",
    "name": "萨姆·奥尔特曼（Sam Altman）",
    "type": "person",
@@ -69304,22 +69208,6 @@
    "year": 1985,
    "density": null,
    "extension": 15
-  },
-  {
-   "id": "person_14",
-   "name": "达里奥·阿莫迪（Dario Amodei）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1983,
-   "density": null,
-   "extension": 13
   },
   {
    "id": "person_16",
@@ -69402,33 +69290,17 @@
    "extension": 16
   },
   {
-   "id": "person_23",
-   "name": "邓嘉（Jia Deng）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1980,
-   "density": null,
-   "extension": 3
-  },
-  {
    "id": "person_24",
    "name": "张钹（Zhang Bo）",
    "type": "person",
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "",
+   "desc": "中国AI学科主要开拓者 中科院院士 清华AI研究院首任院长",
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "../详情/深化_人物线.md",
    "year": 1935,
    "density": null,
    "extension": 4
@@ -69448,22 +69320,6 @@
    "year": 1946,
    "density": null,
    "extension": 9
-  },
-  {
-   "id": "person_26",
-   "name": "周志华（Zhou Zhihua）",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1971,
-   "density": null,
-   "extension": 5
   },
   {
    "id": "person_27",
@@ -70298,22 +70154,6 @@
    "extension": 6
   },
   {
-   "id": "person_new_54",
-   "name": "印奇",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "阶跃星辰董事长（2026），旷视科技联合创始人、清华姚班首届；来源：公司档案 阶跃星辰.md",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1988,
-   "density": null,
-   "extension": 2
-  },
-  {
    "id": "person_new_55",
    "name": "吴泳铭",
    "type": "person",
@@ -70376,22 +70216,6 @@
    "year": 1973,
    "density": null,
    "extension": 4
-  },
-  {
-   "id": "person_new_59",
-   "name": "闫俊杰",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "阶跃星辰创始人兼 CEO，前 MiniMax 联创/大模型负责人；来源：公司档案 阶跃星辰.md（公开履历）",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1989,
-   "density": null,
-   "extension": 2
   },
   {
    "id": "person_new_60",
@@ -70538,22 +70362,6 @@
    "extension": 7
   },
   {
-   "id": "person_new_69",
-   "name": "唐杰",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "智谱首席科学家、清华大学教授，GLM 技术路线提出者；来源：公司档案 智谱.md（公开履历）",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1977,
-   "density": null,
-   "extension": 8
-  },
-  {
    "id": "person_new_70",
    "name": "楼天城",
    "type": "person",
@@ -70565,25 +70373,9 @@
    "player": "",
    "url": "",
    "link": null,
-   "year": 2016,
+   "year": 1986,
    "density": null,
    "extension": 8
-  },
-  {
-   "id": "person_new_71",
-   "name": "彭军",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "小马智行联合创始人兼 CEO，前百度自动驾驶负责人；来源：公司档案 小马智行.md（公开履历）",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": 1974,
-   "density": null,
-   "extension": 2
   },
   {
    "id": "person_new_72",
@@ -70677,7 +70469,7 @@
    "player": "",
    "url": "",
    "link": null,
-   "year": 2016,
+   "year": 1990,
    "density": null,
    "extension": 5
   },
@@ -70789,7 +70581,7 @@
    "player": "",
    "url": "https://www.aiwiki.ai/wiki/groq",
    "link": null,
-   "year": 2016,
+   "year": null,
    "density": null,
    "extension": 4
   },
@@ -70997,7 +70789,7 @@
    "player": "",
    "url": "https://yespress.io/harrison-chase",
    "link": null,
-   "year": 2022,
+   "year": null,
    "density": null,
    "extension": 8
   },
@@ -71416,22 +71208,6 @@
    "year": null,
    "density": null,
    "extension": 7
-  },
-  {
-   "id": "person_growth_47",
-   "name": "Jonathan Frankle",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "MosaicML首席科学家，彩票假设提出者，MIT",
-   "stage": "",
-   "player": "",
-   "url": "https://aiwiki.ai/wiki/naveen_rao",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 4
   },
   {
    "id": "person_growth_48",
@@ -72245,7 +72021,7 @@
    "player": "",
    "url": "https://aiwiki.ai/wiki/tri_dao",
    "link": null,
-   "year": 2022,
+   "year": null,
    "density": null,
    "extension": 20
   },
@@ -72408,22 +72184,6 @@
    "year": null,
    "density": null,
    "extension": 19
-  },
-  {
-   "id": "person_growth_109",
-   "name": "Ross Girshick",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "R-CNN/Faster R-CNN/Mask R-CNN 主要作者，Berkeley→FAIR",
-   "stage": "",
-   "player": "",
-   "url": "https://arxiv.org/abs/1506.01497",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 4
   },
   {
    "id": "person_growth_110",
@@ -72616,22 +72376,6 @@
    "year": 1968,
    "density": null,
    "extension": 6
-  },
-  {
-   "id": "person_growth_122",
-   "name": "Quoc V. Le",
-   "type": "person",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "吴恩达在斯坦福/Google Brain带出的博士生，Seq2Seq（2014）一作，Google Brain研究科学家",
-   "stage": "",
-   "player": "",
-   "url": "https://en.wikipedia.org/wiki/Quoc_V._Le",
-   "link": null,
-   "year": 1982,
-   "density": null,
-   "extension": 4
   },
   {
    "id": "person_growth_123",
@@ -73285,7 +73029,7 @@
    "player": "",
    "url": "https://github.com/fchollet",
    "link": null,
-   "year": 2019,
+   "year": 1989,
    "density": null,
    "extension": 4
   },
@@ -73525,7 +73269,7 @@
    "player": "",
    "url": "",
    "link": null,
-   "year": 2018,
+   "year": null,
    "density": null,
    "extension": 2
   },
@@ -73621,7 +73365,7 @@
    "player": "",
    "url": "https://comma.ai/",
    "link": null,
-   "year": 2015,
+   "year": 1989,
    "density": null,
    "extension": 6
   },
@@ -73637,7 +73381,7 @@
    "player": "",
    "url": "https://aiwiki.ai/wiki/lepton_ai",
    "link": null,
-   "year": 2013,
+   "year": null,
    "density": null,
    "extension": 13
   },
@@ -73653,7 +73397,7 @@
    "player": "",
    "url": "https://tqchen.com/",
    "link": null,
-   "year": 2014,
+   "year": null,
    "density": null,
    "extension": 15
   },
@@ -73669,7 +73413,7 @@
    "player": "",
    "url": "http://nlp.seas.harvard.edu/2018/04/03/attention.html",
    "link": null,
-   "year": 2018,
+   "year": null,
    "density": null,
    "extension": 8
   },
@@ -93306,22 +93050,6 @@
    "extension": 3
   },
   {
-   "id": "benchmark_R85-8",
-   "name": "Video-MME",
-   "type": "benchmark",
-   "dim": 8,
-   "dim_name": "评估基准",
-   "level": "L42",
-   "desc": "2024-03 提出的长视频理解基准，约 2700 段跨时长视频（短时/中时/长时），测音视频时序与多模态推理",
-   "stage": "",
-   "player": "",
-   "url": null,
-   "link": null,
-   "year": 2024,
-   "density": null,
-   "extension": 3
-  },
-  {
    "id": "investor:红杉资本",
    "name": "红杉资本（Sequoia Capital，含红杉中国）",
    "type": "investor",
@@ -95962,38 +95690,6 @@
    "extension": 8
   },
   {
-   "id": "standard:China-Algorithm-Recommendation-Reg",
-   "name": "《互联网信息服务算法推荐管理规定》",
-   "type": "standard",
-   "dim": 7,
-   "dim_name": "政策治理",
-   "level": "L42",
-   "desc": "2022-01-04 公布、2022-03-01 施行，全球首部算法推荐专门规章",
-   "stage": "",
-   "player": "",
-   "url": "https://www.cac.gov.cn/",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 3
-  },
-  {
-   "id": "standard:China-Deep-Synthesis-Reg",
-   "name": "《互联网信息服务深度合成管理规定》",
-   "type": "standard",
-   "dim": 7,
-   "dim_name": "政策治理",
-   "level": "L42",
-   "desc": "2022-11-25 公布、2023-01-10 施行，首提生成合成内容显式标识雏形",
-   "stage": "",
-   "player": "",
-   "url": "https://www.cac.gov.cn/",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 5
-  },
-  {
    "id": "standard:GB-45438-2025",
    "name": "GB 45438-2025 强制性国标",
    "type": "standard",
@@ -96024,38 +95720,6 @@
    "year": null,
    "density": null,
    "extension": 6
-  },
-  {
-   "id": "standard:OECD-AI-Principles",
-   "name": "OECD AI 原则",
-   "type": "standard",
-   "dim": 7,
-   "dim_name": "政策治理",
-   "level": "L42",
-   "desc": "OECD 2019 通过（2024 修订）的政府间 AI 伦理原则，为各国 AI 政策提供首个国际共识基准",
-   "stage": "",
-   "player": "",
-   "url": "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449",
-   "link": null,
-   "year": 2019,
-   "density": null,
-   "extension": 7
-  },
-  {
-   "id": "standard:UNESCO-AI-Ethics-Recommendation",
-   "name": "UNESCO AI 伦理建议书",
-   "type": "standard",
-   "dim": 7,
-   "dim_name": "政策治理",
-   "level": "L42",
-   "desc": "UNESCO 2021 年通过的首份覆盖所有成员国的 AI 伦理与治理建议书",
-   "stage": "",
-   "player": "",
-   "url": "https://www.unesco.org/en/articles/adoption-recommendation-ethics-artificial-intelligence",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 3
   },
   {
    "id": "standard:MLPerf",
@@ -159738,22 +159402,6 @@
    "level": "L42"
   },
   {
-   "id": "concept_R603-3",
-   "name": "o4-mini",
-   "type": "concept",
-   "desc": "OpenAI 2025-04-16 与 o3 同日发布的小型高效推理模型，首次支持 ChatGPT 全套工具的智能体调用，AIME 数学评测当时最优。",
-   "stage": "",
-   "player": "",
-   "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
-   "link": null,
-   "year": 2025,
-   "density": null,
-   "extension": 4,
-   "dim": 5,
-   "dim_name": "产品应用",
-   "level": "L42"
-  },
-  {
    "id": "concept_R603-4",
    "name": "Mistral Large 2",
    "type": "concept",
@@ -160200,22 +159848,6 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30"
-  },
-  {
-   "id": "person_R609-1",
-   "name": "杨立昆（Yann LeCun）",
-   "type": "person",
-   "desc": "深度学习三巨头之一、卷积网络（LeNet）之父；Meta 首席 AI 科学家、FAIR 创始主任，2018 年图灵奖得主",
-   "stage": "",
-   "player": "NYU; Meta FAIR; 图灵奖 2018",
-   "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
-   "link": null,
-   "year": 1960,
-   "density": null,
-   "extension": 13,
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29"
   },
   {
    "id": "person_R609-2",
@@ -162341,38 +161973,6 @@
    "year": null,
    "density": null,
    "extension": 4,
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29"
-  },
-  {
-   "id": "person_R673-2",
-   "name": "Quoc Le（黎维国）",
-   "type": "person",
-   "desc": "越南裔美籍研究者：斯坦福博士（吴恩达门下，Google Brain「猫脸实验」核心成员）；2011 年与吴恩达/Jeff Dean 共同创建 Google Brain；Seq2Seq（2014）与《Attention Is All You Need》（2017）共同作者，另有 Transformer-XL/EfficientNet；曾任 Google Fellow；2024 年离开谷歌联合创办 Discovery Loop（多源报道核验）。",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 5,
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29"
-  },
-  {
-   "id": "person_R673-3",
-   "name": "Michael I. Jordan（迈克尔·乔丹）",
-   "type": "person",
-   "desc": "UC Berkeley EECS 杰出教授兼统计教授：变分推断与图模型方法奠基者（Wainwright & Jordan），VAE 谱系的方法论源头；h 指数约 155、引用超 37.8 万；吴恩达为其博士生，David Blei/Zoubin Ghahramani 系其学术后裔；ACM/AAAI Allen Newell 奖得主（Berkeley 口径核验）。",
-   "stage": "",
-   "player": "",
-   "url": "",
-   "link": null,
-   "year": null,
-   "density": null,
-   "extension": 3,
    "dim": 6,
    "dim_name": "人物",
    "level": "L29"
@@ -175237,7 +174837,7 @@
    "type": "player"
   },
   {
-   "source": "person_04",
+   "source": "concept_L29-4",
    "target": "company_14-56",
    "type": "person"
   },
@@ -175297,22 +174897,22 @@
    "type": "person"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-7",
    "type": "person"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-3",
    "type": "person"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-1",
    "type": "person"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-2",
    "type": "person"
   },
@@ -175787,7 +175387,7 @@
    "type": "person"
   },
   {
-   "source": "person_new_54",
+   "source": "person_new_63",
    "target": "company_14-28",
    "type": "person"
   },
@@ -175812,7 +175412,7 @@
    "type": "person"
   },
   {
-   "source": "person_new_59",
+   "source": "person_new_19",
    "target": "company_14-28",
    "type": "person"
   },
@@ -175849,16 +175449,6 @@
   {
    "source": "person_new_68",
    "target": "company_14-80",
-   "type": "person"
-  },
-  {
-   "source": "person_new_69",
-   "target": "company_14-26",
-   "type": "person"
-  },
-  {
-   "source": "person_new_71",
-   "target": "company_14-100",
    "type": "person"
   },
   {
@@ -186013,7 +185603,7 @@
   },
   {
    "source": "person_new_47",
-   "target": "person_new_69",
+   "target": "person_new_46",
    "type": "person"
   },
   {
@@ -186027,12 +185617,12 @@
    "type": "person"
   },
   {
-   "source": "person_new_69",
+   "source": "person_new_46",
    "target": "person_growth_16",
    "type": "person"
   },
   {
-   "source": "person_new_69",
+   "source": "person_new_46",
    "target": "person_growth_17",
    "type": "person"
   },
@@ -186507,7 +186097,7 @@
    "type": "person"
   },
   {
-   "source": "concept_L29-23",
+   "source": "person_24",
    "target": "concept_L31-9",
    "type": "person"
   },
@@ -186572,7 +186162,7 @@
    "type": "person"
   },
   {
-   "source": "person_new_69",
+   "source": "person_new_46",
    "target": "concept_L31-9",
    "type": "person"
   },
@@ -189538,7 +189128,7 @@
   },
   {
    "source": "region:硅谷",
-   "target": "person_14",
+   "target": "concept_L29-14",
    "type": "person"
   },
   {
@@ -190633,7 +190223,7 @@
   },
   {
    "source": "institution:斯坦福大学",
-   "target": "person_02",
+   "target": "concept_L29-2",
    "type": "person"
   },
   {
@@ -190653,7 +190243,7 @@
   },
   {
    "source": "institution:斯坦福大学",
-   "target": "person_14",
+   "target": "concept_L29-14",
    "type": "person"
   },
   {
@@ -190683,7 +190273,7 @@
   },
   {
    "source": "institution:斯坦福大学",
-   "target": "person_23",
+   "target": "concept_L29-22",
    "type": "person"
   },
   {
@@ -190713,7 +190303,7 @@
   },
   {
    "source": "institution:麻省理工学院",
-   "target": "person_03",
+   "target": "concept_L29-3",
    "type": "person"
   },
   {
@@ -190753,7 +190343,7 @@
   },
   {
    "source": "institution:普林斯顿大学",
-   "target": "person_14",
+   "target": "concept_L29-14",
    "type": "person"
   },
   {
@@ -190888,12 +190478,12 @@
   },
   {
    "source": "institution:上海交通大学",
-   "target": "person_23",
+   "target": "concept_L29-22",
    "type": "person"
   },
   {
    "source": "institution:南京大学",
-   "target": "person_26",
+   "target": "concept_L29-25",
    "type": "person"
   },
   {
@@ -190947,11 +190537,6 @@
    "type": "person"
   },
   {
-   "source": "institution:GoogleBrain",
-   "target": "person_growth_122",
-   "type": "person"
-  },
-  {
    "source": "institution:微软亚洲研究院",
    "target": "person_22",
    "type": "person"
@@ -190998,7 +190583,7 @@
   },
   {
    "source": "institution:南大LAMDA",
-   "target": "person_26",
+   "target": "concept_L29-25",
    "type": "person"
   },
   {
@@ -192703,7 +192288,7 @@
   },
   {
    "source": "institution:斯坦福大学",
-   "target": "person_12",
+   "target": "concept_L29-9",
    "type": "person"
   },
   {
@@ -192898,7 +192483,7 @@
   },
   {
    "source": "institution:微软亚洲研究院",
-   "target": "person_growth_109",
+   "target": "person_R75-1",
    "type": "person"
   },
   {
@@ -195817,19 +195402,9 @@
    "type": "timeline"
   },
   {
-   "source": "standard:China-Algorithm-Recommendation-Reg",
-   "target": "concept_L18-104",
-   "type": "related"
-  },
-  {
-   "source": "standard:China-Deep-Synthesis-Reg",
+   "source": "concept_L18-105",
    "target": "event:2022-12:中国深度合成管理规定",
    "type": "timeline"
-  },
-  {
-   "source": "standard:China-Deep-Synthesis-Reg",
-   "target": "concept_L18-105",
-   "type": "related"
   },
   {
    "source": "concept_L18-106",
@@ -195852,19 +195427,9 @@
    "type": "related"
   },
   {
-   "source": "standard:OECD-AI-Principles",
+   "source": "concept_L18-130",
    "target": "event:2019:OECD-AI原则通过",
    "type": "timeline"
-  },
-  {
-   "source": "standard:OECD-AI-Principles",
-   "target": "concept_L18-130",
-   "type": "related"
-  },
-  {
-   "source": "standard:UNESCO-AI-Ethics-Recommendation",
-   "target": "concept_L18-131",
-   "type": "related"
   },
   {
    "source": "standard:MLPerf",
@@ -196188,7 +195753,7 @@
   },
   {
    "source": "product:Claude.ai",
-   "target": "person_14",
+   "target": "concept_L29-14",
    "type": "person"
   },
   {
@@ -196357,7 +195922,7 @@
    "type": "flow"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-22",
    "type": "flow"
   },
@@ -196542,7 +196107,7 @@
    "type": "flow"
   },
   {
-   "source": "person_growth_47",
+   "source": "person_R75-5",
    "target": "company_35-2",
    "type": "flow"
   },
@@ -196582,7 +196147,7 @@
    "type": "flow"
   },
   {
-   "source": "person_growth_122",
+   "source": "person_R75-3",
    "target": "company_14-2",
    "type": "flow"
   },
@@ -197232,7 +196797,7 @@
    "type": "flow"
   },
   {
-   "source": "person_14",
+   "source": "concept_L29-14",
    "target": "company_14-3",
    "type": "flow"
   },
@@ -198858,12 +198423,12 @@
   },
   {
    "source": "policy:算法推荐规定",
-   "target": "standard:China-Algorithm-Recommendation-Reg",
+   "target": "concept_L18-104",
    "type": "related"
   },
   {
    "source": "policy:深度合成规定",
-   "target": "standard:China-Deep-Synthesis-Reg",
+   "target": "concept_L18-105",
    "type": "related"
   },
   {
@@ -198893,7 +198458,7 @@
   },
   {
    "source": "policy:UNESCO-AI伦理建议书",
-   "target": "standard:UNESCO-AI-Ethics-Recommendation",
+   "target": "concept_L18-131",
    "type": "related"
   },
   {
@@ -198914,11 +198479,6 @@
   {
    "source": "policy:GDPR",
    "target": "concept_9-35",
-   "type": "related"
-  },
-  {
-   "source": "policy:深度合成规定",
-   "target": "concept_L18-105",
    "type": "related"
   },
   {
@@ -198944,11 +198504,6 @@
   {
    "source": "policy:联合国AI治理决议",
    "target": "concept_L18-132",
-   "type": "related"
-  },
-  {
-   "source": "policy:UNESCO-AI伦理建议书",
-   "target": "concept_L18-131",
    "type": "related"
   },
   {
@@ -200918,7 +200473,7 @@
   },
   {
    "source": "event:2018:彩票假说",
-   "target": "person_growth_47",
+   "target": "person_R75-5",
    "type": "participant"
   },
   {
@@ -204783,7 +204338,7 @@
   },
   {
    "source": "paper:MAE",
-   "target": "person_growth_109",
+   "target": "person_R75-1",
    "type": "related"
   },
   {
@@ -205193,7 +204748,7 @@
   },
   {
    "source": "institution:OECD-AI-Observatory",
-   "target": "standard:OECD-AI-Principles",
+   "target": "concept_L18-130",
    "type": "related"
   },
   {
@@ -210112,7 +209667,7 @@
    "type": "related"
   },
   {
-   "source": "benchmark_R85-8",
+   "source": "concept_L18-54",
    "target": "benchmark:MMMU",
    "type": "related"
   },
@@ -210132,7 +209687,7 @@
    "type": "related"
   },
   {
-   "source": "benchmark_R85-8",
+   "source": "concept_L18-54",
    "target": "benchmark:SEED-Bench",
    "type": "related"
   },
@@ -246447,28 +246002,8 @@
    "type": "related"
   },
   {
-   "source": "person_02",
-   "target": "concept_L30-2",
-   "type": "related"
-  },
-  {
-   "source": "person_03",
-   "target": "concept_L30-3",
-   "type": "related"
-  },
-  {
    "source": "person_05",
    "target": "concept_L30-2",
-   "type": "related"
-  },
-  {
-   "source": "person_11",
-   "target": "concept_L30-12",
-   "type": "related"
-  },
-  {
-   "source": "person_12",
-   "target": "concept_L30-10",
    "type": "related"
   },
   {
@@ -246477,7 +246012,7 @@
    "type": "related"
   },
   {
-   "source": "person_26",
+   "source": "concept_L29-25",
    "target": "concept_L30-22",
    "type": "related"
   },
@@ -247219,11 +246754,6 @@
   {
    "source": "concept_L34-50",
    "target": "concept_L34-51",
-   "type": "related"
-  },
-  {
-   "source": "concept_L29-23",
-   "target": "concept_L31-9",
    "type": "related"
   },
   {
@@ -269164,11 +268694,6 @@
   {
    "source": "concept_5-20",
    "target": "year_2018",
-   "type": "timeline"
-  },
-  {
-   "source": "standard:OECD-AI-Principles",
-   "target": "year_2019",
    "type": "timeline"
   },
   {
@@ -322658,7 +322183,7 @@
   },
   {
    "source": "concept_R493-3",
-   "target": "benchmark_R85-8",
+   "target": "concept_L18-54",
    "type": "related"
   },
   {
@@ -322703,7 +322228,7 @@
   },
   {
    "source": "concept_R493-5",
-   "target": "benchmark_R85-8",
+   "target": "concept_L18-54",
    "type": "related"
   },
   {
@@ -332222,7 +331747,7 @@
    "type": "related"
   },
   {
-   "source": "person_11",
+   "source": "concept_L29-12",
    "target": "concept_L26-5",
    "type": "related"
   },
@@ -333566,7 +333091,7 @@
   },
   {
    "source": "model:o3",
-   "target": "concept_R603-3",
+   "target": "concept_L27-15",
    "type": "derived_from"
   },
   {
@@ -333582,11 +333107,6 @@
   {
    "source": "concept_R603-2",
    "target": "company_14-6",
-   "type": "player"
-  },
-  {
-   "source": "concept_R603-3",
-   "target": "company_14-1",
    "type": "player"
   },
   {
@@ -333842,42 +333362,27 @@
    "type": "related"
   },
   {
-   "source": "person_R609-1",
-   "target": "company_14-4",
-   "type": "player"
-  },
-  {
-   "source": "person_R609-1",
+   "source": "concept_L29-8",
    "target": "institution:纽约大学",
    "type": "player"
   },
   {
-   "source": "person_R609-1",
+   "source": "concept_L29-8",
    "target": "concept_L30-18",
    "type": "related"
   },
   {
-   "source": "person_R609-1",
-   "target": "concept_L31-25",
-   "type": "related"
-  },
-  {
-   "source": "person_R609-1",
+   "source": "concept_L29-8",
    "target": "event:2013:Facebook-FAIR成立",
    "type": "related"
   },
   {
-   "source": "person_R609-1",
+   "source": "concept_L29-8",
    "target": "concept_L26-31",
    "type": "related"
   },
   {
-   "source": "person_R609-1",
-   "target": "concept_L29-8",
-   "type": "related"
-  },
-  {
-   "source": "person_R609-1",
+   "source": "concept_L29-8",
    "target": "person_growth_133",
    "type": "related"
   },
@@ -337725,35 +337230,35 @@
    "year": null
   },
   {
-   "source": "person_R673-2",
+   "source": "person_R75-3",
    "target": "event:2012:Google-Brain猫脸实验",
    "type": "participant",
    "label": "",
    "year": null
   },
   {
-   "source": "person_R673-2",
+   "source": "person_R75-3",
    "target": "concept_L29-19",
    "type": "related",
    "label": "",
    "year": null
   },
   {
-   "source": "person_R673-2",
+   "source": "person_R75-3",
    "target": "concept_0-7",
    "type": "related",
    "label": "",
    "year": null
   },
   {
-   "source": "person_R673-3",
+   "source": "person_growth_120",
    "target": "concept_L29-19",
    "type": "related",
    "label": "",
    "year": null
   },
   {
-   "source": "person_R673-3",
+   "source": "person_growth_120",
    "target": "concept_L29-6",
    "type": "related",
    "label": "",
