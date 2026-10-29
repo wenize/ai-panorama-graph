@@ -162648,6 +162648,166 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L42"
+  },
+  {
+   "id": "policy_R688-7",
+   "name": "加拿大 AIDA《人工智能与数据法》（Bill C-27，2025-01 流产未成法）",
+   "type": "policy",
+   "desc": "2022 年随 Bill C-27《数字宪章实施法》提出的加拿大首部私营部门综合 AI 法案草案：拟对「高影响」AI 系统建立风险分级制度并设 AI 专员；因 2025-01-06 特鲁多令议会停摆而随议案终止（Order Paper 上死亡，未经下院终读），2025 联邦大选后未再提出——加拿大现行 AI 治理仍靠 PIPEDA 隐私法/竞争法等既有框架（Gowling WLG/Lexpert/Legal500 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R688-8",
+   "name": "瑞典《人工智能国家方针》（National Approach for AI，2018-05）",
+   "type": "policy",
+   "desc": "2018-05 瑞典政府通过的首份国家 AI 方针（OECD AI 观测站托管原文）：确立瑞典 AI 发展总方向、聚焦四大重点领域；政策谱系上承数字化委员会《Roadmap for Sweden》终版报告，下启 2019-02 AI Sweden 设立与数字化战略（2025-2030 版以 AI 为横向主题）；2025-10 议会 AI 调查报告提出落地欧盟 AI 法案（OECD 国别报告核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://wp.oecd.ai/app/uploads/2021/12/Sweden_National_Approach_to_Artificial_Intelligence_2018.pdf",
+   "year": 2018,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R688-9",
+   "name": "瑞士联邦 AI 监管路径与《数字瑞士战略 2025》（2025-02）",
+   "type": "policy",
+   "desc": "2025-02-12 瑞士联邦委员会公布 AI 监管路径：不搞综合性 AI 立法、走部门化监管（sector-specific），国家 AI 战略框架下拟 2025 年敲定监管草案；同步把欧洲委员会《AI 框架公约》转化为瑞士法（主要约束公共部门）；顶层框架为联邦委员会《数字瑞士战略 2025》（AI/网络安全/开源为优先主题），研究侧由 SERI 推动框架条件（Sidley/JD Supra/CMS 与联邦办公厅官网核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.bk.admin.ch/en/artificial-intelligence",
+   "year": 2025,
+   "density": null,
+   "extension": 3,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "policy_R688-10",
+   "name": "泰国 ETDA《AI 治理指引》体系（2022/2023，软法框架）",
+   "type": "policy",
+   "desc": "泰国以软法工具治理 AI 的框架体系：电子交易发展局（ETDA）2022 年发布 AI 治理指引、2023 年推出高管版（覆盖性能监测/政策符合性/伦理原则）；国家 ONDE 委员会发布《AI 伦理指引》（成熟度自评框架）；PDPC 另发基于 PDPA 的《AI 开发与使用个人数据保护指南》（覆盖规划到部署全生命周期）；风险型 AI 法案（类欧盟 AI 法案）仍在起草（Digital Policy Alert/Tilleke & Gibbins/TDRI 核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://digitalpolicyalert.org/event/21786-published-ai-governance-guidelines",
+   "year": 2022,
+   "density": null,
+   "extension": 4,
+   "dim": 7,
+   "dim_name": "政策治理",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-1",
+   "name": "印度理工学院孟买（IIT Bombay，BharatGen 牵头）",
+   "type": "institution",
+   "desc": "1958 年设立的印度顶尖理工学府：印度主权多模态基础模型计划 BharatGen 由其牵头的学术联合体承建（IndiaAI Mission 框架下获 98.86 亿卢比资助，2025-06-02 发布），是印度学术 AI 研究的旗舰载体。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 1958,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-2",
+   "name": "巴西国家科学计算实验室（LNCC）",
+   "type": "institution",
+   "desc": "巴西国家科学计算实验室（彼得罗波利斯）：Santos Dumont 超算的运营方，专供学术科研；Santos Dumont+FAPESP 平台用于训练巴西葡语大模型（Sabiá 等），为巴西国家 AI 算力主干的核心机构。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": null,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-3",
+   "name": "VinAI Research（越南河内，Vingroup 旗下）",
+   "type": "institution",
+   "desc": "Vingroup 旗下 AI 研究院（2013 年设立于河内）：开源越南语大模型 PhoGPT 系列（4B/7B5，HF vinai 组织），此前以机器学习论文产出与 BERT 压缩研究（PhoBERT）闻名的越南代表性 AI 研究机构。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://huggingface.co/vinai",
+   "year": 2013,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-4",
+   "name": "以色列理工学院（Technion，海法）",
+   "type": "institution",
+   "desc": "1912 年建校的以色列顶尖理工学府（海法）：以色列「创业之国」科技人才的核心源头之一，CS/AI 研究与特拉维夫创新创业生态深度联动，为图内以色列公司群（AI21/WSC Sports 等）输送人才与研究基础。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 1912,
+   "density": null,
+   "extension": 2,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-5",
+   "name": "意大利 FAIR 国家 AI 研究网络（CNR 协调）",
+   "type": "institution",
+   "desc": "Future Artificial Intelligence Research（FAIR）：意大利旗舰 AI 研究计划，联结全国高校与研究机构的国家网络，由国家研究委员会（CNR）协调并与 CINECA 算力设施协同，支撑意大利《国家 AI 战略 2024-2026》的科研支柱。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2021,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
+  },
+  {
+   "id": "institution_R688-6",
+   "name": "AIRI 人工智能研究所（俄罗斯莫斯科，2021）",
+   "type": "institution",
+   "desc": "俄罗斯首家非营利 AI 研究所（2021 年于莫斯科设立，Sber 支持创建，前身为 Sberbank AI 研究所）：深耕深度学习/NLP/CV 与机器阅读，2021-12 Sber+AIRI 团队获国际机器阅读理解竞赛第一；与 MIPT/托木斯克国立大学共建联合实验室，成果入 Nature Index 收录（airi.net 官方核验）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://airi.net",
+   "year": 2021,
+   "density": null,
+   "extension": 3,
+   "dim": 9,
+   "dim_name": "地域生态",
+   "level": "L42"
   }
  ],
  "links": [
@@ -338124,6 +338284,253 @@
    "type": "related",
    "label": "",
    "year": null
+  },
+  {
+   "source": "institution_R688-1",
+   "target": "concept_R652-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-1",
+   "target": "region:印度",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-2",
+   "target": "concept_R640-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-2",
+   "target": "region:巴西",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-3",
+   "target": "concept_R641-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-3",
+   "target": "region:越南",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-4",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-5",
+   "target": "concept_R650-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-5",
+   "target": "region:意大利",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-6",
+   "target": "concept_R685-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution_R688-6",
+   "target": "region:俄罗斯",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-7",
+   "target": "event:2017-03:加拿大发布泛加拿大AI战略",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-7",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-8",
+   "target": "institution_R647-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-8",
+   "target": "region:瑞典",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-9",
+   "target": "institution_R651-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-9",
+   "target": "region:瑞士",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-10",
+   "target": "event:2022:泰国国家AI战略2022-2027",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "policy_R688-10",
+   "target": "region:泰国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R676-1",
+   "target": "concept_R227-1",
+   "type": "related",
+   "desc": "医保反欺诈是反诈 AI 的政务支付侧分支"
+  },
+  {
+   "source": "concept_R676-1",
+   "target": "concept_R150-2",
+   "type": "related",
+   "desc": "保险理赔反欺诈图谱同族"
+  },
+  {
+   "source": "concept_R676-1",
+   "target": "product_R67-7",
+   "type": "related",
+   "desc": "与蚂蚁天盾实时风控同域"
+  },
+  {
+   "source": "concept_R660-2",
+   "target": "concept_L15-64",
+   "type": "related",
+   "desc": "司法联盟链存证依赖法律知识图谱技术底座"
+  },
+  {
+   "source": "concept_R679-1",
+   "target": "concept_L19-99",
+   "type": "related",
+   "desc": "中文 ASR 模型训练语料底座"
+  },
+  {
+   "source": "concept_R679-2",
+   "target": "concept_L19-99",
+   "type": "related",
+   "desc": "英文 ASR 模型训练语料底座"
+  },
+  {
+   "source": "concept_R682-1",
+   "target": "concept_L15-197",
+   "type": "related",
+   "desc": "说话人分离引擎的评测/训练语料"
+  },
+  {
+   "source": "concept_R682-2",
+   "target": "concept_8-8",
+   "type": "related",
+   "desc": "多说话人 TTS 训练语料底座"
+  },
+  {
+   "source": "concept_R684-1",
+   "target": "concept_R116-5",
+   "type": "related",
+   "desc": "地质感知是大模型化掘进决策的输入端"
+  },
+  {
+   "source": "concept_R650-2",
+   "target": "concept_L32-8",
+   "type": "related",
+   "desc": "意大利算力为欧洲 AI 生态的 HPC 支柱"
+  },
+  {
+   "source": "institution_R639-2",
+   "target": "policy_R639-1",
+   "type": "related",
+   "desc": "2031 战略的人才支柱"
+  },
+  {
+   "source": "policy_R639-1",
+   "target": "event:2025-05:StargateUAE阿布扎比AI园区",
+   "type": "related",
+   "desc": "战略承接：主权算力旗舰落地"
+  },
+  {
+   "source": "institution_R643-2",
+   "target": "policy_R643-3",
+   "type": "related",
+   "desc": "路线图研究侧执行机构"
+  },
+  {
+   "source": "institution_R645-2",
+   "target": "policy_R645-1",
+   "type": "related",
+   "desc": "计划的研究侧统筹执行"
+  },
+  {
+   "source": "policy_R641-1",
+   "target": "company_R641-2",
+   "type": "related",
+   "desc": "战略承载主体：FPT AI Factory"
+  },
+  {
+   "source": "policy_R641-1",
+   "target": "company_R641-3",
+   "type": "related",
+   "desc": "战略承载主体：Viettel AI"
+  },
+  {
+   "source": "policy_R649-1",
+   "target": "institution_R649-2",
+   "type": "related",
+   "desc": "战略确立的监管体系：AESIA 为执行中枢"
+  },
+  {
+   "source": "policy_R674-3",
+   "target": "concept_L22-4",
+   "type": "related",
+   "desc": "偏差审计义务是算法审计行业的立法驱动源"
+  },
+  {
+   "source": "institution_R688-4",
+   "target": "concept_L32-12",
+   "type": "related",
+   "desc": "Technion 为以色列 AI 产业生态的人才与研究源头"
   }
  ]
 }
