@@ -353849,6 +353849,342 @@
    "label": "",
    "year": null,
    "desc": "多伦多大学团队（desc 点名）"
+  },
+  {
+   "source": "person_09",
+   "target": "person_growth_90",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_09",
+   "target": "concept_L40-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R86-4",
+   "target": "company_14-10",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R86-4",
+   "target": "company_14-11",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2015:Batch-Normalization提出",
+   "target": "concept_L31-15",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2015:Batch-Normalization提出",
+   "target": "concept_0-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2015:Batch-Normalization提出",
+   "target": "award_R75-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-05:Google-SGE发布",
+   "target": "concept_L27-43",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-05:Google-SGE发布",
+   "target": "conference:GoogleIO",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-08:KTransformers支持DeepSeek-V2",
+   "target": "model:DeepSeek-R1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-08:KTransformers支持DeepSeek-V2",
+   "target": "concept_L17-72",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-08:KTransformers支持DeepSeek-V2",
+   "target": "concept_4-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "project:R275-1",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "project:R275-1",
+   "target": "concept_L23-139",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "project:R275-1",
+   "target": "concept_L31-17",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-08:字节跳动收购PICO",
+   "target": "product:Meta-Quest",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-08:字节跳动收购PICO",
+   "target": "concept_R230-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2019-04:Carlini秘密分享者记忆化论文发布(The-Secret-Sharer-Generative-Model-Memorization-arXiv1904.09298)",
+   "target": "institution:GoogleBrain",
+   "type": "player",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2019-04:Carlini秘密分享者记忆化论文发布(The-Secret-Sharer-Generative-Model-Memorization-arXiv1904.09298)",
+   "target": "concept_0-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-01:OpenAI上线GPT-Store",
+   "target": "conference:OpenAIDevDay",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-01:OpenAI上线GPT-Store",
+   "target": "product:GPTs",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-02:TimeSformer论文(arXiv2102.05095 FacebookAI Divided Space-Time Attention 纯Transformer视频理解)",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-02:TimeSformer论文(arXiv2102.05095 FacebookAI Divided Space-Time Attention 纯Transformer视频理解)",
+   "target": "concept_L28-91",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-02:TimeSformer论文(arXiv2102.05095 FacebookAI Divided Space-Time Attention 纯Transformer视频理解)",
+   "target": "concept_L31-15",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2011:乘积量化PQ论文发布(Jegou-Douze-Schmid-IEEE-TPAMI2011-Product-Quantization-ANN)",
+   "target": "concept_6-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R599-6",
+   "target": "concept_3-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R599-6",
+   "target": "model:Llama-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R208-3",
+   "target": "company_L23-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R220-2",
+   "target": "product:Microsoft-365-Copilot",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R237-3",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-03:Hopfield-Hinton图灵奖",
+   "target": "concept_L31-25",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-03:Hopfield-Hinton图灵奖",
+   "target": "concept_L30-10",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024:scGPT单细胞基础模型",
+   "target": "institution:多伦多大学",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024:scGPT单细胞基础模型",
+   "target": "institution:VectorInstitute",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024:scGPT单细胞基础模型",
+   "target": "institution:微软研究院",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R598-1",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R306-4",
+   "target": "company_L24-23",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R221-1",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R325-2",
+   "target": "investor:SoftBankVision",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R346-4",
+   "target": "company_R140-6",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-12:Microsoft-TRELLIS开源",
+   "target": "model:Hunyuan",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-12:Microsoft-TRELLIS开源",
+   "target": "concept_L31-17",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021:Carbon-Robotics发布Autonomous-LaserWeeder并完成2700万美元B轮",
+   "target": "concept_12-52",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021:Carbon-Robotics发布Autonomous-LaserWeeder并完成2700万美元B轮",
+   "target": "region:西雅图",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "project:R286-1",
+   "target": "concept_L33-43",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "project:R286-1",
+   "target": "concept_L33-42",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R287-3",
+   "target": "concept_L34-13",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R287-3",
+   "target": "concept_L30-17",
+   "type": "related",
+   "label": "",
+   "year": null
   }
  ]
 }
