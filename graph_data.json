@@ -355046,6 +355046,328 @@
    "type": "related",
    "label": "",
    "year": null
+  },
+  {
+   "source": "event:2019-12:BlueDot预警COVID-19",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R306-3",
+   "target": "company_R306-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R306-4",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R310-2",
+   "target": "concept_12-34",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R310-4",
+   "target": "concept_L15-144",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R311-1",
+   "target": "company_R311-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R335-1",
+   "target": "company_R154-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R343-5",
+   "target": "concept_12-34",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R349-4",
+   "target": "concept_L25-143",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R349-4",
+   "target": "concept_R134-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R356-1",
+   "target": "company_L23-34",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R366-1",
+   "target": "company_R307-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R392-2",
+   "target": "concept_L21-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R418-4",
+   "target": "company_14-55",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R425-5",
+   "target": "concept_11-112",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R438-4",
+   "target": "concept_L34-39",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2018-12:StyleGAN论文发布(NVIDIA-A-Style-Based-Generator-Architecture-for-GANs-arXiv1812.04948)",
+   "target": "concept_0-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R472-6",
+   "target": "concept_3-12",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-09:StreamingLLM论文(arXiv2309.17453 Xiao Et Al Attention Sinks Infinite Stream)",
+   "target": "concept_R526-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2015-05:DANN论文发布(arXiv1505.07818 Ganin-Ustinova-Lempitsky Domain-Adversarial Training Neural Networks JMLR2016)",
+   "target": "person_growth_118",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2019:DiskANN磁盘图索引论文发布(Subramanya-Devvrit-etal-NeurIPS2019-Vamana)",
+   "target": "concept_L31-14",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R573-4",
+   "target": "concept_L34-35",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R578-4",
+   "target": "concept_0-8",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R581-6",
+   "target": "concept_L31-20",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R589-1",
+   "target": "investor:GeneralCatalyst",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R596-4",
+   "target": "concept_7-10",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "hardware:Gaudi2",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R604-2",
+   "target": "company_14-69",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R604-6",
+   "target": "concept_R577-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R603-1",
+   "target": "concept_10-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "person_R609-5",
+   "target": "institution:微软研究院",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-10:Moonshot-Kimi-K3.1-Pro-open-weights",
+   "target": "company_14-52",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R618-1",
+   "target": "concept_L31-16",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R624-1",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R640-1",
+   "target": "concept_L17-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R641-2",
+   "target": "concept_R182-12",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R643-1",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R644-2",
+   "target": "model:Qwen-7B",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R651-2",
+   "target": "concept_L40-11",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R685-2",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023:CS50-Duck-AI助教上线",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R703-1",
+   "target": "company_14-52",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-11:Starcloud-1-H100入轨",
+   "target": "concept_L27-83",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-02:ElevenLabs-5亿美元D轮",
+   "target": "concept_L21-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025-03:NVIDIA-CPO交换机发布",
+   "target": "concept_1-21",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "region:慕尼黑",
+   "target": "company_32-24",
+   "type": "related",
+   "label": "",
+   "year": null
   }
  ]
 }
