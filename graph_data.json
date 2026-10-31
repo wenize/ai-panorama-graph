@@ -354661,6 +354661,391 @@
    "type": "related",
    "label": "",
    "year": null
+  },
+  {
+   "source": "concept_L28-53",
+   "target": "concept_L33-16",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R67-5",
+   "target": "concept_5-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R69-3",
+   "target": "person_19",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R76-4",
+   "target": "concept_L27-83",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R78-1",
+   "target": "concept_9-25",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R84-4",
+   "target": "concept_L28-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R85-1",
+   "target": "benchmark:MMLU",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R85-4",
+   "target": "concept_10-17",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R88-3",
+   "target": "company_R88-2",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R98-5",
+   "target": "concept_L33-11",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R99-5",
+   "target": "company_L19-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R101-6",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R132-4",
+   "target": "company_L19-28",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R141-5",
+   "target": "company_14-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R165-6",
+   "target": "company_R165-5",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R54a-2",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R72-4",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R86-3",
+   "target": "company_R105-4",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R87-2",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R92-1",
+   "target": "company_14-7",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R93-2",
+   "target": "concept_11-67",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R95-2",
+   "target": "product:Figure-02",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R95-4",
+   "target": "region:波士顿",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R100-1",
+   "target": "company_L19-26",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R103-2",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R105-3",
+   "target": "concept_R105-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R122-3",
+   "target": "region:阿姆斯特丹",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R122-6",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_14-84",
+   "target": "concept_L25-107",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_14-87",
+   "target": "concept_L19-101",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2014:闲鱼上线",
+   "target": "company_L23-21",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "institution:Singapore-AISI",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "award:NeurIPS最佳论文奖",
+   "target": "concept_0-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R219-1",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R306-4",
+   "target": "company_R89-3",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2026-06:仙工智能港交所上市",
+   "target": "institution:浙江大学",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2015-12:三夫户外深交所中小板上市",
+   "target": "institution:北京大学",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2025:DRT_SHOW完成第60场",
+   "target": "region:菲律宾",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2017-04:大丰实业上交所主板上市",
+   "target": "event:2019:沉浸式演艺规模化",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2020-08:锋尚文化创业板注册制首批上市",
+   "target": "event:2024:文旅演艺大模型",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "concept_R351-2",
+   "target": "concept_L23-130",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "company_R397-3",
+   "target": "region:孟加拉国",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2011-10:MaterialsProject材料数据库上线(Persson团队MIT与LBNL合作2011年10月开放访问)",
+   "target": "concept_11-60",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-10:PAIR论文发布(arXiv2310.08419 Chao等 UPenn 攻击者LLM二十查询自动越狱)",
+   "target": "company_32-27",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2022-07:ESMFold-bioRxiv",
+   "target": "concept_11-56",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2016-02:LIME论文发布(arXiv1602.04938 Ribeiro Singh Guestrin Why Should I Trust You KDD2016)",
+   "target": "concept_L25-20",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2024-03:NVIDIA发布Spectrum-X以太网AI网络平台",
+   "target": "concept_1-21",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2020-10:Fourier-Neural-Operator论文(arXiv2010.08895 Li et al ICLR2021)",
+   "target": "concept_L31-16",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-10:Ego4D发布(arXiv2110.07058 Meta联盟 3000+小时第一视角视频数据集与五大基准)",
+   "target": "concept_L31-17",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2021-10:PubTables-1M/Table-Transformer发布(arXiv2110.00061 Microsoft End-to-end Table Detection Structure Recognition)",
+   "target": "concept_L23-124",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2020-09:PICARD发布(arXiv2009.04826 Constrained Decoding for SQL)",
+   "target": "concept_L31-19",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2020-10:AutoPrompt论文发布",
+   "target": "concept_L17-1",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2014-03:DeepWalk论文发布(arXiv1403.6652 Perozzi-Al-Rfou-Skiena StonyBrook Random-Walk-Skipgram-Transductive-Embedding)",
+   "target": "concept_L23-76",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-05:SLiC-HF论文发布",
+   "target": "concept_3-32",
+   "type": "related",
+   "label": "",
+   "year": null
+  },
+  {
+   "source": "event:2023-05:SLiC-HF论文发布",
+   "target": "concept_L18-137",
+   "type": "related",
+   "label": "",
+   "year": null
   }
  ]
 }
