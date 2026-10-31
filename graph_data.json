@@ -52160,7 +52160,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.synopsys.com",
    "year": 1986,
    "density": null,
    "extension": 11
@@ -54544,7 +54544,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.aqara.com",
    "year": 2009,
    "density": null,
    "extension": 10
@@ -55296,7 +55296,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "http://www.naritech.cn",
    "year": 2001,
    "density": null,
    "extension": 10
@@ -56816,7 +56816,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.oppein.com",
    "year": 1994,
    "density": null,
    "extension": 15
@@ -58000,7 +58000,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.lining.com",
    "year": 1990,
    "density": null,
    "extension": 9
@@ -58768,7 +58768,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.marriott.com.cn/default.mi",
    "year": 1927,
    "density": null,
    "extension": 14
@@ -80212,7 +80212,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2022cv01461/575368/54",
    "year": 2023,
    "density": null,
    "extension": 12
@@ -80532,7 +80532,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-10b-series-j-investment-62b-valuation",
    "year": 2024,
    "density": null,
    "extension": 12
@@ -81012,7 +81012,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://ipwatchdog.com/wp-content/uploads/2023/02/Andersen_et_al_v._Stability_AI.pdf",
    "year": 2023,
    "density": null,
    "extension": 11
@@ -81380,7 +81380,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
    "year": 2026,
    "density": null,
    "extension": 10
@@ -85076,7 +85076,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.ndrc.gov.cn/fzggw/jgsj/zys/sjdt/202403/t20240320_1365089.html",
    "year": 2024,
    "density": null,
    "extension": 9
@@ -98724,7 +98724,7 @@
    "stage": "",
    "player": "",
    "url": "https://www.cac.gov.cn/",
-   "link": "https://www.cac.gov.cn/",
+   "link": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
    "year": 2023,
    "density": null,
    "extension": 28
@@ -98836,7 +98836,7 @@
    "stage": "",
    "player": "",
    "url": "http://www.npc.gov.cn/",
-   "link": "http://www.npc.gov.cn/",
+   "link": "http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml",
    "year": 2021,
    "density": null,
    "extension": 30
@@ -104769,7 +104769,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.g42.ai",
    "year": 2018,
    "density": null,
    "extension": 10,
@@ -163301,6 +163301,38 @@
    "year": 2026,
    "density": null,
    "extension": 9,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-08:Databricks-50亿美元融资1900亿估值",
+   "name": "Databricks 完成 50 亿美元融资 @ 1900 亿估值（2026-08-13/14，Coatue 领投）",
+   "type": "event",
+   "desc": "2026-08-13/14 Databricks 关闭 50 亿美元战略融资，投后估值 1900 亿美元（Coatue 领投，Blackstone/MGX/T. Rowe Price 关联方等跟投）——原计划募 10 亿，超额认购扩至 50 亿；为 2026 年内第二笔 50 亿级融资（首笔 2026-02 完成 @1340 亿，对应 2024-12 宣布的 Series L 线）；当时营收 run-rate 70 亿美元+（同比 +80%）；被媒体视为 IPO 前最后一次大额私募（SmartAsset 10 月 IPO 时间线讨论）。来源：Data Phoenix/SmartAsset/TechCrunch 等多源（2026-11-01 检索）。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://dataphoenix.info/news/databricks-5b-funding-round",
+   "year": 2026,
+   "density": null,
+   "extension": 5,
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30"
+  },
+  {
+   "id": "event:2026-10:A股AI算力链深度回调",
+   "name": "A 股 AI 算力链 10 月深度回调：中际旭创回撤约 51%、公募 Q3 减持 703 亿（2026-10）",
+   "type": "event",
+   "desc": "2026 年 10 月 A 股 AI 算力链高位深度回调：光模块双雄中际旭创（300308）自高点回撤约 51%、新易盛（300502）约 46.6%，AI 芯片侧寒武纪相关标的最大回撤逾 70%（部分科技股 10-15 报道口径）；资金面：中际旭创融资余额较 7 月初下降超 120 亿元（10-14 报道），公募 2026Q3 减持中际旭创市值 702.96 亿元、新易盛超 400 亿（10-28 报道，两者仍居公募前两大重仓、AI 算力链为核心底仓）；机构解读（富达 10-21）：下跌主因交易拥挤与资金流出而非基本面恶化，三季报基本面仍强；同期全球 AI 股亦现抛售，「AI 泡沫」讨论升温。口径：多家财经媒体 2026-10-14/15/21/28 报道汇总（2026-11-01 检索），未获单一可存证原文 URL，link 保持 null。",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": null,
+   "year": 2026,
+   "density": null,
+   "extension": 6,
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30"
@@ -286971,7 +287003,8 @@
   {
    "source": "event:2023-01:DetectGPT零样本文本检测论文",
    "target": "concept_R274-2",
-   "type": "related"
+   "type": "related",
+   "desc": "零样本机器生成文本检测范式的学术开端"
   },
   {
    "source": "event:2023-07:OpenAI-AI-Classifier因准确率过低下线",
@@ -318562,7 +318595,8 @@
   {
    "source": "concept_R459-2",
    "target": "concept_R459-5",
-   "type": "related"
+   "type": "related",
+   "desc": "跨语言代码嵌入对齐语义为方法基础"
   },
   {
    "source": "concept_R459-3",
@@ -318607,7 +318641,8 @@
   {
    "source": "concept_R459-5",
    "target": "concept_L15-28",
-   "type": "related"
+   "type": "related",
+   "desc": "区别于自然语言到单语言的多语言代码生成"
   },
   {
    "source": "concept_R459-5",
@@ -321092,12 +321127,14 @@
   {
    "source": "event:2024-10:Anthropic发布Claude-3.5-Computer-Use",
    "target": "concept_R476-3",
-   "type": "related"
+   "type": "related",
+   "desc": "通用 GUI 操作扩展 Agent 可货币化工作流"
   },
   {
    "source": "event:2024-10:Anthropic发布Claude-3.5-Computer-Use",
    "target": "concept_7-18",
-   "type": "related"
+   "type": "related",
+   "desc": "CUA（Computer-Using Agent）的产业里程碑"
   },
   {
    "source": "concept_R477-1",
@@ -342731,6 +342768,2102 @@
    "label": "",
    "year": null,
    "desc": "GPT-6 家族（Astra/Sol/Luna）主事件，Astra 于 DevDay 正式亮相"
+  },
+  {
+   "source": "concept_R74-2",
+   "target": "hardware:HBM4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "HBM 带宽墙演进终点：HBM4 约 8TB/s"
+  },
+  {
+   "source": "concept_R74-2",
+   "target": "hardware:HBM3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "HBM3 3.35TB/s 世代"
+  },
+  {
+   "source": "concept_R74-2",
+   "target": "hardware_R74-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "HBM2e 2TB/s 世代"
+  },
+  {
+   "source": "concept_R74-2",
+   "target": "hardware:HBM3E",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "HBM3e 4.8TB/s 世代"
+  },
+  {
+   "source": "company_L23-19",
+   "target": "concept_L27-31",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Poe 聚合接入 Claude Opus 系列官方模型"
+  },
+  {
+   "source": "company_L23-19",
+   "target": "model:Gemini-3.5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Poe 聚合接入 Gemini 3.5"
+  },
+  {
+   "source": "company_L23-19",
+   "target": "concept_L27-68",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Poe 聚合接入 Llama 4"
+  },
+  {
+   "source": "company_L23-19",
+   "target": "company_14-23",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Poe 聚合接入 DeepSeek R1"
+  },
+  {
+   "source": "company_L23-19",
+   "target": "concept_R603-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Poe 聚合接入 Grok 4.6"
+  },
+  {
+   "source": "company_30-12",
+   "target": "company_14-12",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Sohu 为 TSMC 4nm 代工 Transformer 专用 ASIC"
+  },
+  {
+   "source": "company_30-12",
+   "target": "hardware:HBM3E",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Sohu 配 144GB HBM3E"
+  },
+  {
+   "source": "company_30-12",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "全球首颗把 Transformer 架构烧入硅片的专用 ASIC"
+  },
+  {
+   "source": "product:小米HyperAI",
+   "target": "product:华为小艺",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "并列的国产 AI Phone 端侧 AI 代表"
+  },
+  {
+   "source": "product:小米HyperAI",
+   "target": "product:Apple-Intelligence",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Apple Intelligence 对位的端侧 AI"
+  },
+  {
+   "source": "product:小米HyperAI",
+   "target": "concept_1-47",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "端侧跑摘要/改写/翻译的小模型路线"
+  },
+  {
+   "source": "concept_R181-10",
+   "target": "company_14-17",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Scale AI 模式本体：按标注计费的供应链上游变现层"
+  },
+  {
+   "source": "concept_R181-10",
+   "target": "concept_L28-27",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "RLHF 偏好标注为主要计费任务类型"
+  },
+  {
+   "source": "concept_R181-10",
+   "target": "company_14-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Meta 143 亿美元收购 Scale AI 49% 锁定标注产能"
+  },
+  {
+   "source": "concept_R182-2",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ChatGPT 智能体为 Agentic Commerce 主要推动者"
+  },
+  {
+   "source": "concept_R182-2",
+   "target": "concept_L16-110",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Manus 为自主交易 Agent 代表"
+  },
+  {
+   "source": "concept_R182-2",
+   "target": "company_14-53",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Salesforce Agentforce 推动企业侧落地"
+  },
+  {
+   "source": "concept_R197-4",
+   "target": "company_14-6",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "海湾主权基金参投 xAI 200 亿美元 E 轮（2026-01）"
+  },
+  {
+   "source": "concept_R197-4",
+   "target": "region:阿联酋",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "阿联酋 Mubadala/G42 为核心配置主体"
+  },
+  {
+   "source": "concept_R197-4",
+   "target": "company_R197-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "G42 为主权算力闭环代表"
+  },
+  {
+   "source": "concept_R197-4",
+   "target": "region:新加坡",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "新加坡 GIC/淡马锡配置 AI 算力资产"
+  },
+  {
+   "source": "concept_R197-4",
+   "target": "event:2025-11:HUMAIN领投Luma9亿与沙特2GW超算",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "典型交易：HUMAIN 领投 Luma 9 亿（2025-11）"
+  },
+  {
+   "source": "concept_R228-2",
+   "target": "company_L28-178",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Waymo 配备远程监控中心（远程安全员模式）"
+  },
+  {
+   "source": "concept_R228-2",
+   "target": "company_R92-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Zoox 配备远程接管体系"
+  },
+  {
+   "source": "concept_R228-2",
+   "target": "company_14-100",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "小马智行远程监控中心"
+  },
+  {
+   "source": "concept_R228-2",
+   "target": "company_14-99",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "文远知行远程监控中心"
+  },
+  {
+   "source": "concept_R230-1",
+   "target": "company_L24-15",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Roblox 为元宇宙概念股行情代表"
+  },
+  {
+   "source": "concept_R230-1",
+   "target": "company_14-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Facebook 2021-10 改名 Meta Platforms 确立叙事"
+  },
+  {
+   "source": "concept_R230-1",
+   "target": "company_14-8",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Apple Vision Pro/visionOS 为空间计算对位路线"
+  },
+  {
+   "source": "concept_R243-1",
+   "target": "company_14-11",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "CVAT 为 Intel 开源的计算机视觉标注工具"
+  },
+  {
+   "source": "concept_R243-1",
+   "target": "company_R50-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Appen 等商用标注形成互补对照"
+  },
+  {
+   "source": "concept_R243-1",
+   "target": "company_R243-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 SuperAnnotate 商用 SaaS 互补"
+  },
+  {
+   "source": "concept_R243-1",
+   "target": "concept_L19-126",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "区别于 Label Studio 系 MLOps 视角的数据标注平台"
+  },
+  {
+   "source": "concept_R260-1",
+   "target": "company_14-64",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Adobe 2023-09 Firefly 商用化嵌入全线"
+  },
+  {
+   "source": "concept_R260-1",
+   "target": "company_L19-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Figma Config 2023 AI 套件化"
+  },
+  {
+   "source": "concept_R260-1",
+   "target": "company_14-40",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Canva Magic Studio 联合 Runway 引入生成式视频"
+  },
+  {
+   "source": "concept_R349-5",
+   "target": "concept_R105-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "食用菌黑灯工厂为黑灯工厂范式的最前沿垂直场景"
+  },
+  {
+   "source": "concept_R349-5",
+   "target": "concept_R166-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "区别于拖拉机/收割机侧的无人农机自动驾驶"
+  },
+  {
+   "source": "concept_R349-5",
+   "target": "concept_R283-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "区别于无人机侧的高通量表型组学"
+  },
+  {
+   "source": "concept_R349-5",
+   "target": "concept_12-52",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "区别于大田作物侧的农业机器人"
+  },
+  {
+   "source": "concept_R459-5",
+   "target": "concept_L15-38",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "区别于同语言结构变换的 AI 代码重构"
+  },
+  {
+   "source": "concept_R596-5",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 与 Stripe 共同制定并以 ChatGPT 首落地"
+  },
+  {
+   "source": "concept_R596-5",
+   "target": "company_14-66",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Shopify 商家随后接入"
+  },
+  {
+   "source": "concept_R596-5",
+   "target": "concept_7-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "REST 与 MCP 兼容"
+  },
+  {
+   "source": "concept_R596-5",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "随 ChatGPT Instant Checkout 发布（2025-09-29）"
+  },
+  {
+   "source": "event:2024-12:Sora面向PlusPro开放",
+   "target": "concept_13-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Sora 视频生成模型向付费用户开放"
+  },
+  {
+   "source": "event:2024-12:Sora面向PlusPro开放",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "面向 ChatGPT Plus/Pro 付费层"
+  },
+  {
+   "source": "event:2024-12:Sora面向PlusPro开放",
+   "target": "concept_L27-23",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Sora 2 为其后续版本"
+  },
+  {
+   "source": "event:2025-06:Waymo周订单破百万",
+   "target": "company_L28-178",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Waymo 周订单量突破 100 万次（2025-06）"
+  },
+  {
+   "source": "event:2025-06:Waymo周订单破百万",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "旧金山为主要运营城市"
+  },
+  {
+   "source": "event:2025-06:Waymo周订单破百万",
+   "target": "region:奥斯汀",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "奥斯汀为扩张运营城市"
+  },
+  {
+   "source": "event:2024-09:ChatGPT高级语音模式上线",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ChatGPT Advanced Voice Mode 上线"
+  },
+  {
+   "source": "event:2024-09:ChatGPT高级语音模式上线",
+   "target": "concept_L17-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "以 GPT-4o 端到端语音能力为底座"
+  },
+  {
+   "source": "event:2024-09:ChatGPT高级语音模式上线",
+   "target": "concept_L27-27",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GPT-4o 实时语音概念的消费者落地"
+  },
+  {
+   "source": "event:2020-10:LFAIandData合并成立",
+   "target": "concept_L16-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MLflow 为 LF AI & Data 托管项目"
+  },
+  {
+   "source": "event:2020-10:LFAIandData合并成立",
+   "target": "concept_5-20",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ONNX 为 LF 托管开放模型格式"
+  },
+  {
+   "source": "event:2020-10:LFAIandData合并成立",
+   "target": "concept_6-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Milvus 为 LF AI & Data 毕业项目"
+  },
+  {
+   "source": "event:2024:眼镜端侧大模型落地",
+   "target": "model:Phi-3.5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Phi-3.5 等小模型支撑眼镜端侧"
+  },
+  {
+   "source": "event:2024:眼镜端侧大模型落地",
+   "target": "model:Qwen-7B",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Qwen 端侧版本用于 AI 眼镜"
+  },
+  {
+   "source": "event:2024:眼镜端侧大模型落地",
+   "target": "concept_13-60",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AI 眼镜硬件形态承载"
+  },
+  {
+   "source": "event:2024:眼镜端侧大模型落地",
+   "target": "concept_1-47",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "端侧小模型为技术底座"
+  },
+  {
+   "source": "event:2021:向量库品类成型",
+   "target": "concept_6-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Milvus 为向量库品类成型代表"
+  },
+  {
+   "source": "event:2021:向量库品类成型",
+   "target": "concept_6-6",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Weaviate 为向量库品类代表"
+  },
+  {
+   "source": "event:2021:向量库品类成型",
+   "target": "concept_6-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "pgvector 为数据库内向量检索路线"
+  },
+  {
+   "source": "event:2022:CharacterAI成立",
+   "target": "person_growth_01",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Noam Shazeer 创立 Character.AI"
+  },
+  {
+   "source": "event:2022:CharacterAI成立",
+   "target": "product:Character.AI",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Character.AI 产品本体"
+  },
+  {
+   "source": "event:2022:CharacterAI成立",
+   "target": "concept_13-46",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AI 社交陪伴赛道代表公司"
+  },
+  {
+   "source": "event:2024-08:CharacterAI并入Google",
+   "target": "person_growth_01",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Noam Shazeer 随交易回归 Google"
+  },
+  {
+   "source": "event:2024-08:CharacterAI并入Google",
+   "target": "person_growth_28",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Daniel De Freitas 联合创始人"
+  },
+  {
+   "source": "event:2024-08:CharacterAI并入Google",
+   "target": "product:Character.AI",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Google 约 27 亿美元 license + 创始团队回归"
+  },
+  {
+   "source": "paper_R75-2",
+   "target": "person_R75-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Ross Girshick 为 Faster R-CNN 作者"
+  },
+  {
+   "source": "paper_R75-2",
+   "target": "person_22",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "何恺明为 Faster R-CNN 一作"
+  },
+  {
+   "source": "paper_R75-2",
+   "target": "concept_L31-14",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "发表于 NeurIPS 2015"
+  },
+  {
+   "source": "event:2018-02:ELMo上下文词向量发表",
+   "target": "concept_L30-17",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ELMo 用双层 biLSTM 上下文编码"
+  },
+  {
+   "source": "event:2018-02:ELMo上下文词向量发表",
+   "target": "concept_0-8",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "上下文词向量先声，BERT 深化其方向"
+  },
+  {
+   "source": "event:2018-02:ELMo上下文词向量发表",
+   "target": "conference:NAACL",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "发表于 NAACL 2018"
+  },
+  {
+   "source": "event:2023-01:DetectGPT零样本文本检测论文",
+   "target": "person_growth_138",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Christopher Manning 为作者（Stanford）"
+  },
+  {
+   "source": "event:2023-01:DetectGPT零样本文本检测论文",
+   "target": "person_growth_41",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Chelsea Finn 为作者（Stanford）"
+  },
+  {
+   "source": "event:2023-01:DetectGPT零样本文本检测论文",
+   "target": "concept_L18-90",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "承接 AIGC 检测器方法学"
+  },
+  {
+   "source": "event:2022-03:STaR论文发布(arXiv2203.14465 Zelikman-Wu-Mu-Goodman-Stanford-NeurIPS2022-Bootstrapping-Reasoning)",
+   "target": "concept_R482-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "STaR 为模型自生成数据迭代与难例回灌的学术起点"
+  },
+  {
+   "source": "event:2022-03:STaR论文发布(arXiv2203.14465 Zelikman-Wu-Mu-Goodman-Stanford-NeurIPS2022-Bootstrapping-Reasoning)",
+   "target": "person_growth_131",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Yuhuai Wu 为作者"
+  },
+  {
+   "source": "event:2023-07:Lost-in-the-Middle论文(arXiv2307.03172 Liu Et Al Long Context Position Sensitivity)",
+   "target": "concept_L33-68",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Lost in the Middle 本体概念"
+  },
+  {
+   "source": "event:2023-07:Lost-in-the-Middle论文(arXiv2307.03172 Liu Et Al Long Context Position Sensitivity)",
+   "target": "person_growth_64",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Percy Liang 为作者（Stanford）"
+  },
+  {
+   "source": "event:2023-07:Lost-in-the-Middle论文(arXiv2307.03172 Liu Et Al Long Context Position Sensitivity)",
+   "target": "concept_R68-12",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "长上下文利用率的标志性发现"
+  },
+  {
+   "source": "event:2023-10:LLMLingua论文(arXiv2310.05736 Jiang Et Al Microsoft Prompt Compression EMNLP2023)",
+   "target": "concept_L28-18",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "提示压缩降低 KV 缓存开销"
+  },
+  {
+   "source": "event:2023-10:LLMLingua论文(arXiv2310.05736 Jiang Et Al Microsoft Prompt Compression EMNLP2023)",
+   "target": "concept_L31-19",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "EMNLP 系发表"
+  },
+  {
+   "source": "event:2023-10:LLMLingua论文(arXiv2310.05736 Jiang Et Al Microsoft Prompt Compression EMNLP2023)",
+   "target": "concept_L34-43",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "用困惑度指导 token 剪枝"
+  },
+  {
+   "source": "event:2020-02:MLIR论文发布(arXiv2002.11054 Scaling Compiler Infrastructure CGO2021)",
+   "target": "concept_R589-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MLIR 生态与 IREE 编译栈"
+  },
+  {
+   "source": "event:2020-02:MLIR论文发布(arXiv2002.11054 Scaling Compiler Infrastructure CGO2021)",
+   "target": "project:TensorFlow",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MLIR 源自 LLVM/TensorFlow 编译实践"
+  },
+  {
+   "source": "event:2020-02:MLIR论文发布(arXiv2002.11054 Scaling Compiler Infrastructure CGO2021)",
+   "target": "concept_R589-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 XLA 编译路线衔接"
+  },
+  {
+   "source": "event:2022-03:Self-Consistency论文发布(arXiv2203.11171 Google Wang Et Al Improves ChainOfThought Reasoning)",
+   "target": "concept_L28-118",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Self-Consistency 本体概念"
+  },
+  {
+   "source": "event:2022-03:Self-Consistency论文发布(arXiv2203.11171 Google Wang Et Al Improves ChainOfThought Reasoning)",
+   "target": "concept_10-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GSM8K 上多数投票显著提升"
+  },
+  {
+   "source": "event:2022-03:Self-Consistency论文发布(arXiv2203.11171 Google Wang Et Al Improves ChainOfThought Reasoning)",
+   "target": "concept_L18-20",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MATH 基准验证"
+  },
+  {
+   "source": "event:2022-03:AlphaCode论文发布(arXiv2203.07814 DeepMind Competition-Level Code Generation Codeforces-Top54pct)",
+   "target": "concept_R518-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "神经程序合成在竞赛编程规模的里程碑"
+  },
+  {
+   "source": "event:2022-03:AlphaCode论文发布(arXiv2203.07814 DeepMind Competition-Level Code Generation Codeforces-Top54pct)",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "专门训练的 Transformer 生成百万级程序再聚类"
+  },
+  {
+   "source": "event:2022-03:AlphaCode论文发布(arXiv2203.07814 DeepMind Competition-Level Code Generation Codeforces-Top54pct)",
+   "target": "concept_10-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 HumanEval 等代码评测对照"
+  },
+  {
+   "source": "event:2022-04:Video-Diffusion-Models论文",
+   "target": "person_growth_100",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Jonathan Ho 为一作（OpenAI）"
+  },
+  {
+   "source": "event:2022-04:Video-Diffusion-Models论文",
+   "target": "person_growth_107",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Tim Salimans 为作者"
+  },
+  {
+   "source": "event:2022-04:Video-Diffusion-Models论文",
+   "target": "concept_13-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "VDM 为视频扩散路线，Sora 系其工程化后继"
+  },
+  {
+   "source": "event:2018-01:ULMFiT论文发布",
+   "target": "concept_0-8",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 BERT 同期的通用 LM 微调路线"
+  },
+  {
+   "source": "event:2018-01:ULMFiT论文发布",
+   "target": "person_growth_173",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Jeremy Howard 为作者"
+  },
+  {
+   "source": "event:2018-01:ULMFiT论文发布",
+   "target": "concept_L31-18",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "发表于 ACL 2018"
+  },
+  {
+   "source": "event:2022-11:HELM整体评测论文发布",
+   "target": "concept_10-9",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "HELM 本体评测框架"
+  },
+  {
+   "source": "event:2022-11:HELM整体评测论文发布",
+   "target": "person_growth_64",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Percy Liang 领衔（Stanford CRFM）"
+  },
+  {
+   "source": "event:2021-05:Google发布LaMDA",
+   "target": "conference:GoogleIO",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Google I/O 2021 发布"
+  },
+  {
+   "source": "event:2021-05:Google发布LaMDA",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "对话专用 Transformer 路线"
+  },
+  {
+   "source": "event:2021-05:Google发布LaMDA",
+   "target": "concept_R71-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "1370 亿参数级对话模型"
+  },
+  {
+   "source": "event:2019-12:PANNs预训练音频神经网络论文(arXiv1912.10211 Kong-CNN14-AudioSet基线)",
+   "target": "concept_L18-29",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AudioSet 200 万段预训练"
+  },
+  {
+   "source": "event:2019-12:PANNs预训练音频神经网络论文(arXiv1912.10211 Kong-CNN14-AudioSet基线)",
+   "target": "concept_R501-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AudioSet 最广用卷积基线（CNN14）"
+  },
+  {
+   "source": "event:2019-12:PANNs预训练音频神经网络论文(arXiv1912.10211 Kong-CNN14-AudioSet基线)",
+   "target": "concept_L28-102",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "CLAP 音频编码器与之对照"
+  },
+  {
+   "source": "event:2022-08:Ganguli红队论文发布(arXiv2209.07858 Anthropic Red Teaming Language Models to Reduce Harms)",
+   "target": "person_new_03",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Chris Olah 为作者（Anthropic）"
+  },
+  {
+   "source": "event:2022-08:Ganguli红队论文发布(arXiv2209.07858 Anthropic Red Teaming Language Models to Reduce Harms)",
+   "target": "person_new_04",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Jared Kaplan 为作者"
+  },
+  {
+   "source": "event:2022-08:Ganguli红队论文发布(arXiv2209.07858 Anthropic Red Teaming Language Models to Reduce Harms)",
+   "target": "person_growth_125",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Jack Clark 为作者"
+  },
+  {
+   "source": "event:2023-07:Jailbroken论文发布(arXiv2307.02483 Wei-Haghtalab-Steinhardt 安全训练失效两模式 NeurIPS2023 Oral)",
+   "target": "concept_L18-74",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "越狱方法谱系的安全训练失效分析"
+  },
+  {
+   "source": "event:2023-07:Jailbroken论文发布(arXiv2307.02483 Wei-Haghtalab-Steinhardt 安全训练失效两模式 NeurIPS2023 Oral)",
+   "target": "concept_L27-31",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "以 Claude 等对齐模型为评测对象"
+  },
+  {
+   "source": "event:2023-07:Jailbroken论文发布(arXiv2307.02483 Wei-Haghtalab-Steinhardt 安全训练失效两模式 NeurIPS2023 Oral)",
+   "target": "concept_0-14",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GPT-4 等亦存在系统性越狱失效"
+  },
+  {
+   "source": "event:2024-10:Anthropic发布Claude-3.5-Computer-Use",
+   "target": "concept_L27-34",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Claude 3.5 Sonnet 新增 computer use 能力"
+  },
+  {
+   "source": "event:2024-10:Anthropic发布Claude-3.5-Computer-Use",
+   "target": "concept_7-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "从专用 MCP tool server 扩展到通用图形界面"
+  },
+  {
+   "source": "event:2026-02:LatamGPT70B巴黎AI峰会公开亮相",
+   "target": "model:Llama-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "基于 Llama 3 架构"
+  },
+  {
+   "source": "event:2026-02:LatamGPT70B巴黎AI峰会公开亮相",
+   "target": "concept_L27-65",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Llama 3.1 系开放权重路线"
+  },
+  {
+   "source": "event:2026-02:LatamGPT70B巴黎AI峰会公开亮相",
+   "target": "concept_R47-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "拉美主权开放权重模型"
+  },
+  {
+   "source": "company_R92-2",
+   "target": "company_R48-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "创始团队含前特斯拉 Autopilot 负责人 Sterling Anderson"
+  },
+  {
+   "source": "company_R92-2",
+   "target": "company_L24-20",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "创始团队含前 Uber ATG 负责人 Drew Bagnell"
+  },
+  {
+   "source": "company_R92-2",
+   "target": "company_L28-178",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "创始团队含前 Waymo 首席科学家 Chris Urmson；L4 同业对照"
+  },
+  {
+   "source": "person_R72-1",
+   "target": "concept_13-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI Sora 首批研究员/联合负责人"
+  },
+  {
+   "source": "person_R72-1",
+   "target": "concept_13-6",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "InstructPix2Pix（指令式图像编辑）一作"
+  },
+  {
+   "source": "person_R72-1",
+   "target": "company_14-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "2024-10 加入 Google DeepMind（底稿 Anthropic 说已检索纠偏）"
+  },
+  {
+   "source": "company_R300-1",
+   "target": "institution:上海交通大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "传承上海交大机器人研究所技术积累"
+  },
+  {
+   "source": "company_R300-1",
+   "target": "company_R300-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "国内协作机器人双雄（与越疆并列）"
+  },
+  {
+   "source": "company_R300-1",
+   "target": "concept_R300-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "协作机器人 Cobot 赛道中国本土代表"
+  },
+  {
+   "source": "institution_R656-1",
+   "target": "region:多伦多",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "CIFAR 位于多伦多（加拿大高等研究院）"
+  },
+  {
+   "source": "institution_R656-1",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "加拿大国家研究体系 AI 人才计划"
+  },
+  {
+   "source": "concept_R291-4",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 恶意使用与安全研究相关披露"
+  },
+  {
+   "source": "concept_R291-4",
+   "target": "concept_R180-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Agent 运行时红队为对抗面之一"
+  },
+  {
+   "source": "concept_R291-4",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 滥用防范体系相关披露"
+  },
+  {
+   "source": "concept_R241-6",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 出品 Sleeper Agents 研究"
+  },
+  {
+   "source": "concept_R241-6",
+   "target": "concept_L28-27",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "标准 RLHF/SFT 无法清除潜伏后门"
+  },
+  {
+   "source": "concept_R241-6",
+   "target": "concept_9-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与数据投毒/后门注入技术同源"
+  },
+  {
+   "source": "concept_R501-3",
+   "target": "company_31-23",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Udio 为音乐生成代表（MIR 邻接）"
+  },
+  {
+   "source": "concept_R501-3",
+   "target": "company_14-42",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Suno 为音乐生成代表（MIR 邻接）"
+  },
+  {
+   "source": "concept_R501-3",
+   "target": "company_R89-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Spotify 为音乐理解/推荐产业侧"
+  },
+  {
+   "source": "concept_2-29",
+   "target": "company_14-26",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "智谱 AI 为 GLM 系列出品方"
+  },
+  {
+   "source": "concept_2-29",
+   "target": "model:GLM-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GLM-5 为系列当前旗舰"
+  },
+  {
+   "source": "concept_2-29",
+   "target": "project:ChatGLM",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ChatGLM 开源系列"
+  },
+  {
+   "source": "concept_R205-1",
+   "target": "concept_9-25",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "欧盟 AI Act 为执法元年核心法规"
+  },
+  {
+   "source": "concept_R205-1",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 为合规焦点主体之一"
+  },
+  {
+   "source": "concept_R205-1",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 为合规焦点主体之一"
+  },
+  {
+   "source": "event:2022-03:中国算法推荐管理规定施行",
+   "target": "policy:生成式AI暂行办法",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "算法推荐规定与生成式 AI 暂行办法形成治理衔接"
+  },
+  {
+   "source": "concept_R220-3",
+   "target": "company_R287-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "RMS 为酒店 BI 数据来源之一"
+  },
+  {
+   "source": "concept_R220-3",
+   "target": "company_14-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Microsoft 生态 BI 工具链"
+  },
+  {
+   "source": "concept_R220-3",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 模型驱动 GenAI 分析"
+  },
+  {
+   "source": "company_R243-1",
+   "target": "concept_L28-27",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "RLHF 数据标注为主要业务"
+  },
+  {
+   "source": "company_R243-1",
+   "target": "company_14-17",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Scale AI 同赛道（欧洲企业级标注）"
+  },
+  {
+   "source": "company_R243-1",
+   "target": "concept_L18-115",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "EU AI Act 合规要求带动标注需求"
+  },
+  {
+   "source": "concept_R243-2",
+   "target": "company_R50-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MOSTLY AI 为合成数据平台代表"
+  },
+  {
+   "source": "concept_R243-2",
+   "target": "concept_0-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GAN 为医学影像合成方法基础"
+  },
+  {
+   "source": "concept_R243-2",
+   "target": "company_R50-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Gretel 为合成数据平台代表"
+  },
+  {
+   "source": "company_R254-1",
+   "target": "concept_L26-83",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "气象 AI 赛道头部创业公司"
+  },
+  {
+   "source": "company_R254-1",
+   "target": "region:波士顿",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "总部波士顿（特拉维夫双中心）"
+  },
+  {
+   "source": "event:2021-10:Google-Pathways架构发布",
+   "target": "person_new_11",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Jeff Dean 主导发布"
+  },
+  {
+   "source": "event:2021-10:Google-Pathways架构发布",
+   "target": "concept_R604-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "MLSys 稀疏激活/异构调度方向"
+  },
+  {
+   "source": "company_R258-3",
+   "target": "project:PyTorch",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "PySyft 支持 PyTorch 后端"
+  },
+  {
+   "source": "company_R258-3",
+   "target": "project:TensorFlow",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "PySyft 支持 TensorFlow 后端"
+  },
+  {
+   "source": "company_R288-2",
+   "target": "concept_11-27",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ARIC 实时反欺诈/反洗钱 AI 平台"
+  },
+  {
+   "source": "company_R288-2",
+   "target": "institution:剑桥大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "源自剑桥大学机器学习研究"
+  },
+  {
+   "source": "company_R288-2",
+   "target": "company_R99-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 NICE Actimize 同赛道竞争"
+  },
+  {
+   "source": "event:2023-03:Quizlet-Q-Chat上线",
+   "target": "concept_L25-21",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "在线学习赛道 AI 化（首个 ChatGPT API tutor）"
+  },
+  {
+   "source": "event:2023-03:Quizlet-Q-Chat上线",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "基于 ChatGPT API 构建"
+  },
+  {
+   "source": "event:2026-08:Databricks-50亿美元融资1900亿估值",
+   "target": "company_14-18",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Databricks 融资本体"
+  },
+  {
+   "source": "event:2026-08:Databricks-50亿美元融资1900亿估值",
+   "target": "event:2024-12:Databricks-J轮100亿",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "融资节奏链：2024-12 J 轮 100 亿 @620 亿 → 2026-08 50 亿 @1900 亿"
+  },
+  {
+   "source": "event:2026-08:Databricks-50亿美元融资1900亿估值",
+   "target": "concept_R88-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AI 基础设施巨额私募与算力金融化叙事同频"
+  },
+  {
+   "source": "event:2026-10:A股AI算力链深度回调",
+   "target": "company_L24-25",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "中际旭创自高点回撤约 51%、公募 Q3 减持 703 亿"
+  },
+  {
+   "source": "event:2026-10:A股AI算力链深度回调",
+   "target": "company_L24-26",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "新易盛回撤约 46.6%、公募 Q3 减持超 400 亿"
+  },
+  {
+   "source": "event:2026-10:A股AI算力链深度回调",
+   "target": "company_L20-18",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "寒武纪相关标的最大回撤逾 70%（10-15 报道口径）"
+  },
+  {
+   "source": "event:2026-10:A股AI算力链深度回调",
+   "target": "company_L23-35",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "兆易创新融资余额与公募减持同列前列"
+  },
+  {
+   "source": "event:2026-10:A股AI算力链深度回调",
+   "target": "concept_R88-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "算力金融化叙事下的 A 股定价波动侧写"
+  },
+  {
+   "source": "event:2014:Adam优化器与注意力机制奠基",
+   "target": "concept_L28-16",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "注意力机制奠基事件（Bahdanau 等 2014）"
+  },
+  {
+   "source": "event:2014:Adam优化器与注意力机制奠基",
+   "target": "concept_L28-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Adam 优化器（Kingma & Ba 2014）"
+  },
+  {
+   "source": "event:2026-01:Anthropic-Labs成立",
+   "target": "person_growth_154",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Mike Krieger（前 Instagram 联合创始人）执掌产品"
+  },
+  {
+   "source": "event:2026-01:Anthropic-Labs成立",
+   "target": "person_growth_160",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Ben Mann 为联合创始团队成员"
+  },
+  {
+   "source": "event:2026-01:Anthropic-Labs成立",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 内设 Labs 部门"
+  },
+  {
+   "source": "event:2026-02:HF收编ggml",
+   "target": "concept_4-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "llama.cpp/ ggml 端侧推理生态收编"
+  },
+  {
+   "source": "event:2026-02:HF收编ggml",
+   "target": "person_growth_164",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Georgi Gerganov（llama.cpp 作者）加入 Hugging Face"
+  },
+  {
+   "source": "event:2023-11:GPT-4-TurboDevDay降价",
+   "target": "concept_0-14",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GPT-4 系价格战节点"
+  },
+  {
+   "source": "event:2023-11:GPT-4-TurboDevDay降价",
+   "target": "concept_L17-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GPT-4 Turbo 发布同步降价约 3 倍"
+  },
+  {
+   "source": "event:2023-11:GPT-4-TurboDevDay降价",
+   "target": "conference:OpenAIDevDay",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "首届 OpenAI DevDay（2023-11-06）发布并降价"
+  },
+  {
+   "source": "event:2025:AI生成合成内容标识办法施行",
+   "target": "policy:AI标识办法",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "标识办法施行事件对应政策本体"
+  },
+  {
+   "source": "event:2025:AI生成合成内容标识办法施行",
+   "target": "concept_L18-106",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "生成合成内容标识制度概念锚"
+  },
+  {
+   "source": "institution_R79-3",
+   "target": "institution:斯坦福大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "SAIL 隶属斯坦福大学"
+  },
+  {
+   "source": "institution_R79-3",
+   "target": "person_19",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "李飞飞为 SAIL 前任所长（ImageNet 发起）"
+  },
+  {
+   "source": "institution_R79-5",
+   "target": "person_growth_14",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Pieter Abbeel 为 BAIR 核心教授"
+  },
+  {
+   "source": "institution_R79-5",
+   "target": "person_growth_40",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Sergey Levine 为 BAIR 核心教授"
+  },
+  {
+   "source": "paper:DALL-E-1",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "dVAE+Transformer 先验的文生图开山"
+  },
+  {
+   "source": "paper:DALL-E-1",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 2021-01 发布"
+  },
+  {
+   "source": "paper_R75-3",
+   "target": "concept_L31-15",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "发表于 ICML 2015"
+  },
+  {
+   "source": "paper_R75-3",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "现代深度网络训练（含 Transformer 栈）依赖的归一化基座"
+  },
+  {
+   "source": "model:GPT-5.4",
+   "target": "concept_L17-9",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GPT-5 系列迭代版（Thinking/Pro 双形态）"
+  },
+  {
+   "source": "model:GPT-5.4",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 出品"
+  },
+  {
+   "source": "standard:OpenCL",
+   "target": "company_14-10",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AMD 为 Khronos 开放并行标准主要参与方"
+  },
+  {
+   "source": "standard:OpenCL",
+   "target": "company_14-11",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Intel 为 OpenCL 标准主要参与方"
+  },
+  {
+   "source": "conference:EMNLP",
+   "target": "conference:NAACL",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ACL 家族姊妹会议"
+  },
+  {
+   "source": "conference:EMNLP",
+   "target": "concept_L31-18",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "ACL 学会旗下 NLP 实证方法会议"
+  },
+  {
+   "source": "site:MicrosoftNatick",
+   "target": "concept_L26-58",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "海底数据中心工程实验载体"
+  },
+  {
+   "source": "site:MicrosoftNatick",
+   "target": "concept_L39-19",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "海底密封舱免除湿冷卻的 PUE 优势实验"
+  },
+  {
+   "source": "event:2023-05:Langfuse开源",
+   "target": "concept_L16-92",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 LiteLLM 同属 LLM 可观测/网关生态"
+  },
+  {
+   "source": "event:2023-05:Langfuse开源",
+   "target": "region:慕尼黑",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "慕尼黑开源发布"
+  },
+  {
+   "source": "concept_R181-3",
+   "target": "concept_L17-73",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "DeepSeek-V3 为稀疏 MoE+FP8 降本代表"
+  },
+  {
+   "source": "concept_R181-3",
+   "target": "concept_2-20",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "FP8 低精度训练为成本效率核心技术"
+  },
+  {
+   "source": "concept_R182-10",
+   "target": "concept_L26-55",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "IDC REITs 为 GPU 金融化载体"
+  },
+  {
+   "source": "concept_R182-10",
+   "target": "company_14-16",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "CoreWeave 为 GPU 抵押融资代表案例"
+  },
+  {
+   "source": "event:2026-09:MiniMax-H3-Hailuo3开放权重视频",
+   "target": "model:Seedance",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与字节 Seedance 同期的开放权重视频模型对照"
+  },
+  {
+   "source": "event:2026-09:MiniMax-H3-Hailuo3开放权重视频",
+   "target": "concept_R47-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "视频生成开放权重路线节点"
+  },
+  {
+   "source": "event:2025-07:Perplexity-180亿估值",
+   "target": "project_R91-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Comet 浏览器为同期产品线"
+  },
+  {
+   "source": "event:2025-07:Perplexity-180亿估值",
+   "target": "concept_13-31",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Perplexity AI 搜索本体"
+  },
+  {
+   "source": "event:2025-09:GeminiRobotics1.5发布",
+   "target": "concept_12-21",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "VLA（视觉-语言-动作）路线"
+  },
+  {
+   "source": "event:2025-09:GeminiRobotics1.5发布",
+   "target": "concept_12-23",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Gemini Robotics 本体"
+  },
+  {
+   "source": "event:2023-12:Coscientist登Nature",
+   "target": "institution:卡内基梅隆大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "CMU 团队 GPT-4 驱动自主化学实验"
+  },
+  {
+   "source": "event:2023-12:Coscientist登Nature",
+   "target": "concept_0-14",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "以 GPT-4 为推理底座"
+  },
+  {
+   "source": "event:2024-08:NIST发布首批PQC标准",
+   "target": "concept_L26-61",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "FIPS 203/204/205 后量子密码标准"
+  },
+  {
+   "source": "event:2024-08:NIST发布首批PQC标准",
+   "target": "institution:NIST",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "NIST 标准化进程（2016 征集→2024 定稿）"
+  },
+  {
+   "source": "event:2024:中国气象局风顺S2S业务化",
+   "target": "concept_0-7",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "基于 Transformer 的次季节-季节 AI 预测系统"
+  },
+  {
+   "source": "event:2024:中国气象局风顺S2S业务化",
+   "target": "conference:WAIC",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "WAIC 公开亮相节点"
+  },
+  {
+   "source": "company_R199-3",
+   "target": "company_R101-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "LSEG 收购 Refinitiv（路孚特）数据业务"
+  },
+  {
+   "source": "company_R199-3",
+   "target": "concept_11-17",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 BloombergGPT 同属金融 LLM 语境"
+  },
+  {
+   "source": "institution:深圳数据交易所",
+   "target": "institution:上海数据交易所",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "全国数据交易所双子节点"
+  },
+  {
+   "source": "institution:深圳数据交易所",
+   "target": "region:大湾区",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "粤港澳大湾区数据要素市场载体"
+  },
+  {
+   "source": "company_R54a-4",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Stack Overflow 与 OpenAI 数据授权合作"
+  },
+  {
+   "source": "company_R54a-4",
+   "target": "concept_0-13",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "开发者问答生态受 ChatGPT 冲击与转型语境"
+  },
+  {
+   "source": "company_R54a-3",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Axel Springer 与 OpenAI 内容授权合作"
+  },
+  {
+   "source": "company_R54a-3",
+   "target": "company_14-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Microsoft 的媒体 AI 合作语境"
+  },
+  {
+   "source": "company_R72-4",
+   "target": "project:LLM101n",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Karpathy 的 Eureka Labs 首门课程 LLM101n"
+  },
+  {
+   "source": "company_R82-2",
+   "target": "project_R82-2",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OctoML 由 Apache TVM 团队商业化"
+  },
+  {
+   "source": "company_R82-2",
+   "target": "institution:华盛顿大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "TVM 项目源自 UW 陈天奇组"
+  },
+  {
+   "source": "company_30-47",
+   "target": "concept_4-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "BentoCloud 与 vLLM 推理引擎生态衔接"
+  },
+  {
+   "source": "company_30-47",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 兼容 API 部署标准"
+  },
+  {
+   "source": "company_L28-164",
+   "target": "concept_L16-69",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "AI 防火墙/Agent 运行时安全赛道代表"
+  },
+  {
+   "source": "company_L28-164",
+   "target": "concept_9-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "对抗数据投毒与模型威胁"
+  },
+  {
+   "source": "person_growth_163",
+   "target": "benchmark:ARC-AGI",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "François Chollet 为 ARC-AGI 创立者"
+  },
+  {
+   "source": "person_growth_163",
+   "target": "institution:GoogleBrain",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "前 Google Brain（Keras 作者）"
+  },
+  {
+   "source": "company_R254-2",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "加拿大卫星温室气体监测公司"
+  },
+  {
+   "source": "company_R254-2",
+   "target": "region:蒙特利尔",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "总部蒙特利尔"
+  },
+  {
+   "source": "company_R293-1",
+   "target": "region:多伦多",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "总部多伦多"
+  },
+  {
+   "source": "company_R293-1",
+   "target": "institution:多伦多大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "源自多伦多大学研究团队（BlueDot/BlueDot 疫情预警）"
+  },
+  {
+   "source": "event:2019-10:Duetto完成8000万美元D轮",
+   "target": "company_R287-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "酒店收益管理赛道与 RMS 对照"
+  },
+  {
+   "source": "event:2019-10:Duetto完成8000万美元D轮",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "旧金山 SaaS 融资语境"
+  },
+  {
+   "source": "company_R317-2",
+   "target": "company_R317-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Speak 同为 GenAI 口语陪练路线（音素评测出身 vs 纯对话）"
+  },
+  {
+   "source": "company_R317-2",
+   "target": "region:旧金山",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "总部旧金山/胡志明市双中心"
+  },
+  {
+   "source": "company_R312-3",
+   "target": "company_R208-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "与 Lattice 同属 HR 科技赛道竞争"
+  },
+  {
+   "source": "company_R312-3",
+   "target": "region:澳大利亚",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "墨尔本总部"
+  },
+  {
+   "source": "event:2009-08:德施曼杭州成立",
+   "target": "concept_R316-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "智能门锁 AI 赛道代表公司"
+  },
+  {
+   "source": "event:2009-08:德施曼杭州成立",
+   "target": "company_14-20",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "阿里生态（天猫/涂鸦系渠道合作语境）"
+  },
+  {
+   "source": "event:2024:舆情大模型",
+   "target": "concept_R145-5",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "舆情大模型本体概念"
+  },
+  {
+   "source": "event:2024:舆情大模型",
+   "target": "concept_9-23",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "内容安全审核联动"
+  },
+  {
+   "source": "event:2025-03:索辰发布开物物理AI平台",
+   "target": "company_R86-4",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "对标 Ansys 传统 CAE 工具链"
+  },
+  {
+   "source": "event:2025-03:索辰发布开物物理AI平台",
+   "target": "conference:WAIC",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "WAIC 发布节点"
+  },
+  {
+   "source": "event:2021-05:沃尔玛收购虚拟试衣公司Zeekit",
+   "target": "region:以色列",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Zeekit 为以色列初创"
+  },
+  {
+   "source": "event:2024:InstagramTeenAccounts推出",
+   "target": "region:澳大利亚",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "首批落地市场之一"
+  },
+  {
+   "source": "event:2024:InstagramTeenAccounts推出",
+   "target": "region:加拿大",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "首批落地市场之一"
   }
  ]
 }
