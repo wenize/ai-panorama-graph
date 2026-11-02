@@ -106,7 +106,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "生成对抗网络，用生成器-判别器博弈合成数据",
+   "desc": "Ian Goodfellow 等 2014 年提出的生成对抗网络（NeurIPS 2014）：生成器与判别器极小极大博弈互促训练，成为图像合成与风格迁移（StyleGAN、CycleGAN、Pix2Pix）的奠基范式；高保真人脸生成与深度伪造热潮均源于此，2020 年后部分被扩散模型接力",
    "stage": "2014 起源 · 被扩散取代",
    "player": "Ian Goodfellow/NVIDIA StyleGAN",
    "url": "https://arxiv.org/abs/1406.2661",
@@ -234,7 +234,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "去噪扩散概率模型，图/音视频生成的新主力范式",
+   "desc": "Ho 等 2020 年提出的去噪扩散概率模型（NeurIPS 2020）：训练网络逐步去噪、采样时反向迭代生成，使扩散模型首次达到 GAN 级图像质量；与后续 Latent Diffusion（Stable Diffusion 基座）共同确立『扩散 = 图像/音视频生成新主力范式』",
    "stage": "2020 起源 · 主流范式",
    "player": "Jonathan Ho/OpenAI/Stability AI",
    "url": "https://arxiv.org/abs/2006.11239",
@@ -250,7 +250,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "开源潜在扩散文生图模型，AI 绘画大众化",
+   "desc": "Stability AI 与慕尼黑大学 CompVis（Robin Rombach 等）、Runway 合作开发的开源潜在扩散文生图模型，2022-08 公开权重，掀起 AI 绘画大众化浪潮；社区在其上发展出 ControlNet 条件控制、LoRA 微调生态，并催生 SDXL（2023）等后续版本",
    "stage": "2022 起源 · 成熟分化",
    "player": "Stability AI/Runway/CompVis",
    "url": "https://arxiv.org/abs/2112.10752",
@@ -346,7 +346,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "AI 进入物理世界：人形机器人、自动驾驶、世界模型成新主线",
+   "desc": "AI 从纯数字走向物理世界的主线：人形机器人（Figure、宇树等）与具身大模型（VLA 视觉-语言-动作）、自动驾驶端到端化、以及 Genie/UniSim 类世界模型（从视频学习可交互环境模拟）交汇；2025~2026 年成为融资与产业落地最热的方向之一",
    "stage": "2025 起源 · 成长期",
    "player": "Figure/特斯拉/宇树/Google DeepMind/Waymo",
    "url": "https://deepmind.google/discover/blog/",
@@ -18060,7 +18060,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "用程序自动验证（单测通过/答案正确/格式校验）作奖励信号训练推理模型的范式。",
+   "desc": "以程序可验证信号（单测通过/答案正确/格式校验/证明检查器）代替人工偏好打分作为奖励的强化学习范式，o1/DeepSeek-R1 等推理模型后训练的核心技术之一；2024 年随 o1 亮相获得命名并成为开源推理训练（R1 类复现）标配，局限是可验证域（数学/代码）之外仍需奖励模型兜底",
    "stage": "2024-2025 爆发 · 2026 向开放域扩展",
    "player": "DeepSeek, OpenAI o系列, Epoch Reasoning Gym",
    "url": "https://arxiv.org/abs/2501.12948",
@@ -28604,7 +28604,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "Agent 在劳动/资产/交易市场中自主竞争、定价、交易形成的仿真经济系统。",
+   "desc": "Agent 作为经济主体参与交易、定价与雇佣形成的经济形态：2025~2026 年随 agentic commerce 萌芽——平台开放 Agent 结账与互操作协议（如 MCP/A2A 类协议与机器可读支付通道）、Agent 商城与订阅市场出现、企业以 Agent 替代/增补 SaaS 工作流；争议焦点为身份与授权、广告与竞价规则、以及『Agent 时代入口』的平台竞逐",
    "stage": "2025 起源 · 新兴方向",
    "player": "学术界(LLM Trading);AI-Work;TwinMarket",
    "url": "https://arxiv.org/abs/2502.15800",
@@ -34780,7 +34780,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L27",
-   "desc": "Anthropic 2023-03-14 随公司成立发布的初代对话模型，宪法 AI（Constitutional AI）路线首秀。",
+   "desc": "Anthropic 于 2023-03-14 发布的初代对话模型，宪法 AI（Constitutional AI，2022-12 论文）路线首秀；同批推出轻量低价版 Claude Instant，首发走 Slack 集成、后上线 claude.ai。后续 Claude 2（2023-07）、Claude 3 系列（2024-03，Opus/Sonnet/Haiku）逐步扩展长上下文与多模态能力",
    "stage": "2021 起源 · 2023 发布 · 已退役",
    "player": "Anthropic",
    "url": "https://www.anthropic.com/news/anthropic",
@@ -38732,7 +38732,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "深度学习三巨头之一 卷积网络CNN之父 Meta首席AI科学家",
+   "desc": "深度学习三巨头之一、卷积网络（CNN）之父：1989 年提出 LeNet 卷积架构（支票识别商用）；1998 LeNet-5；2018 与 Hinton、Bengio 同获图灵奖；2013 年加入 Meta 创建 FAIR 任首席 AI 科学家；2020 年代力推 JEPA 世界模型与『基于能量的生成模型』路线，公开质疑自回归 LLM 路线",
    "stage": "1989 起源 · 2018 图灵奖",
    "player": "NYU; Meta FAIR",
    "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
@@ -38860,7 +38860,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "AI教育与产业化布道者 Google Brain创始人 DeepLearning.AI创办人",
+   "desc": "斯坦福大学兼任教授，2011 年与 Jeff Dean 共同创建 Google Brain 项目；2012 年与 Daphne Koller 联合创办 Coursera 掀起 MOOC 浪潮；2014~2017 年任百度首席科学家领导 AI 事业群；后创办 DeepLearning.AI、Landing AI 与 AI Fund，其斯坦福 CS229 机器学习公开课全球累计选课人数以百万计",
    "stage": "2011 Google Brain · AI教育布道",
    "player": "Stanford; Google Brain; DeepLearning.AI; Landing AI",
    "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
@@ -39676,7 +39676,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L31",
-   "desc": "国际机器学习大会，机器学习理论与算法顶会。",
+   "desc": "国际机器学习大会（International Conference on Machine Learning），1980 年创办，与 NeurIPS、ICLR 并列机器学习领域三大顶会；以统计学习理论与算法方法见长，设最佳论文奖与 Test of Time 时间检验奖",
    "stage": "1980 起源 · 成熟",
    "player": "ICML/IMLS; PMLR; 10,943 名审稿人(2025)",
    "url": "https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf",
@@ -41852,7 +41852,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L2",
-   "desc": "拉近正例推远负例学习表征",
+   "desc": "拉近正样本表示、推远负样本表示的自监督表征学习范式：SimCLR/MoCo（2020）证明无需标签可学出强视觉表征，CLIP 将其扩展到图文对齐，是现代多模态与检索系统的基础技术之一",
    "stage": "2020成熟",
    "player": "SimCLR/MoCo",
    "url": "https://arxiv.org/abs/2002.05709",
@@ -52768,7 +52768,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.uii-ai.com",
    "year": 2017,
    "density": null,
    "extension": 10
@@ -53024,7 +53024,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.watershed.com",
    "year": 2019,
    "density": null,
    "extension": 6
@@ -53040,7 +53040,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.persefoni.com",
    "year": 2020,
    "density": null,
    "extension": 6
@@ -54556,7 +54556,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L48",
-   "desc": "云从科技 Cloudwalk（2015 广州创立，2022-05 科创板上市）：计算机视觉「AI 四小龙」之一——人机协同操作系统 CWOS、视觉+语音+NLP 多模态；金融/交通/安防/政务场景；创始人周曦（中科院重庆研究院出身）。来源：云从官网（2026-11-01）。",
+   "desc": "杭州品茗安控信息技术股份有限公司（科创板 688109）：工程建设数字化产品与服务商，主营工程造价软件、施工类软件（安全计算/资料/施工策划）、BIM 软件（BIM 模板工程/施工策划/智绘进度）与智慧工地解决方案；AI 方向以灵镜数字孪生平台（BIM+GIS+IoT+视频 AI）支撑人员/设备/环境/安全/质量/进度多源数据统一接入，配套施工安全 AI 视觉监测",
    "stage": "",
    "player": "",
    "url": "",
@@ -55004,7 +55004,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L48",
-   "desc": "科沃斯 Ecovacs（1998 苏州创立，2018-05 上市）：全球扫地机器人龙头（与石头科技并列）——地宝系列/窗宝（擦窗机器人）/沁宝（净化机器人）；AI 侧：AIVI 视觉导航（TrueDetect 3D 结构光+AI 识别避障）、YIKO 语音助手；海外收入占比 >45%。来源：公司官网（2026-11-01）。",
+   "desc": "全球旅行科技与航空 IT/GDS 巨头，1960 年代推出全球首个计算机订座系统（CRS）；现以开放模块化 AI-native 平台 Sabre Mosaic（Experience/Retail/Payment/Service/Insight 五套件）覆盖航司与代理两端；AI 产品线包括 Sabre IQ（基于 50PB+ 出行需求信号、由 Google Gemini 驱动的行业 AI）、Airline/Agency Concierge AI 助手与 Agentic API 开发者体系",
    "stage": "",
    "player": "",
    "url": "https://www.sabre.com/",
@@ -57968,7 +57968,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.nike.com",
    "year": 1964,
    "density": null,
    "extension": 11
@@ -58736,7 +58736,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://www.thewaltdisneycompany.com",
    "year": 1923,
    "density": null,
    "extension": 14
@@ -62030,7 +62030,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "MongoDB（2007 创立，NASDAQ: MDB）：文档型 NoSQL 数据库龙头——Atlas 云平台（全球部署/AI 向量搜索/Atlas Vector Search）/MongoDB 8.0；AI 侧：RAG 应用后端（向量数据库+LLM 集成）；开发者社区 4700 万+。来源：mongodb.com（2026-11-01）。",
+   "desc": "合成生物学「生物铸造厂」（biofoundry）龙头：2008 年由 Jason Kelly、Reshma Shetty、Barry Canton、Austin Che 与 Tom Knight（合成生物学之父）在波士顿创办；以自动化生物铸造厂加速生物制药/农业/工业生物技术工程化，并推出 Build Your Own Lab 自动化产品与 Cloud Lab 服务；Datapoints 平台以自有生物数据集提供 AI Services 与数据包（抗体可开发性/扰动响应/小分子开发性等）；2021 年经 SPAC 登陆 NYSE（DNA）",
    "stage": "2008 年成立（Boston）→2021 年 SPAC 上市（NYSE DNA）→2024 年 6 月起重组、裁员超 50%→2025 年收入指引 1.67-1.87 亿美元，获 ARPA-H 2900 万美元合同（无细胞蛋白分布式制药）→2026 年 4 月完成生物安全业务分拆（换少数股权）→2026 年聚焦自主实验室，中标 MIT/Caltech/西北大学/马里兰大学政府合同",
    "player": "",
    "url": "https://investors.ginkgobioworks.com/",
@@ -69200,7 +69200,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "OpenAI CEO ChatGPT时代旗手 大模型商业化主导者",
+   "desc": "OpenAI 联合创始人兼 CEO（2019 年起，此前 2015 年为联合创始团队成员）：Y Combinator 总裁（2014~2019）出身；主导 ChatGPT（2022-11）发布与 GPT-4/o 系列迭代，推动 Stargate 超级基建与巨额融资；2023-11 曾被董事会免职、数日内员工与投资人施压下复职；另联合创办 Worldcoin（World，人格证明）并投资 Helion/Oklo 等能源项目",
    "stage": "",
    "player": "",
    "url": "",
@@ -69248,7 +69248,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "计算机视觉领军者 ImageNet缔造者 空间智能推动者",
+   "desc": "计算机视觉领军人物：2009 年发起 ImageNet 大规模标注数据集并连办 ILSVRC 竞赛，直接催化深度学习复兴；斯坦福教授、斯坦福 HAI（以人为本 AI 研究院）联合院长；2024 年创办空间智能公司 World Labs；倡导『视觉智能是 AI 下一步』",
    "stage": "",
    "player": "",
    "url": "",
@@ -69264,11 +69264,11 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "OpenAI联合创始人 前Tesla AI总监 Software 2.0与Vibe Coding提出者",
+   "desc": "OpenAI 联合创始成员（2015~2017，研究主管出身）、前 Tesla AI 总监（2017~2022，Autopilot/FSD 团队）；『Software 2.0』（2017）与『Vibe Coding』（2025-02）概念提出者；教育向 nanoGPT/micrograd 等开源库作者；2024 年创办 AI 教育公司 Eureka Labs；2023~2024 曾短暂回归 OpenAI",
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://karpathy.ai",
    "year": 1986,
    "density": null,
    "extension": 23
@@ -69280,11 +69280,11 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "；ResNet作者 残差连接发明者 现代深度网络最重要视觉研究者之一",
+   "desc": "ResNet（残差网络，CVPR 2016 最佳论文）第一作者、残差连接发明者；Mask R-CNN（ICCV 2017 最佳论文，Marr 奖）、MoCo 自监督系列、Faster R-CNN 合作者；曾在 Meta FAIR 任研究科学家十一年，2024 年加入 MIT 任 EECS 教授；Google Scholar 引用量居计算机视觉研究者前列",
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://people.csail.mit.edu/kaiming/",
    "year": 1984,
    "density": null,
    "extension": 16
@@ -73556,7 +73556,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://www.nature.com/articles/nature16961",
    "year": 2016,
    "density": null,
    "extension": 8
@@ -73668,7 +73668,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/1810.04805",
    "year": 2018,
    "density": null,
    "extension": 10
@@ -73764,7 +73764,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/2005.14165",
    "year": 2020,
    "density": null,
    "extension": 9
@@ -73844,7 +73844,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/2103.00020",
    "year": 2021,
    "density": null,
    "extension": 7
@@ -74100,7 +74100,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2022.md",
-   "link": null,
+   "link": "https://openai.com/index/chatgpt/",
    "year": 2022,
    "density": null,
    "extension": 14
@@ -74148,7 +74148,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2023.md",
-   "link": null,
+   "link": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/",
    "year": 2023,
    "density": null,
    "extension": 11
@@ -74212,7 +74212,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2023.md",
-   "link": null,
+   "link": "https://openai.com/index/gpt-4-research/",
    "year": 2023,
    "density": null,
    "extension": 11
@@ -74452,7 +74452,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2023.md",
-   "link": null,
+   "link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
    "year": 2023,
    "density": null,
    "extension": 11
@@ -74532,7 +74532,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2024.md",
-   "link": null,
+   "link": "https://openai.com/index/video-generation-models-as-world-simulators/",
    "year": 2024,
    "density": null,
    "extension": 10
@@ -74804,7 +74804,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2025.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/2501.12948",
    "year": 2025,
    "density": null,
    "extension": 16
@@ -74820,7 +74820,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2025.md",
-   "link": null,
+   "link": "https://openai.com/index/announcing-the-stargate-project/",
    "year": 2025,
    "density": null,
    "extension": 12
@@ -76932,7 +76932,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
-   "link": null,
+   "link": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
    "year": 2026,
    "density": null,
    "extension": 5
@@ -77172,7 +77172,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/1707.06347",
    "year": 2017,
    "density": null,
    "extension": 4
@@ -78260,7 +78260,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/2305.18290",
    "year": 2023,
    "density": null,
    "extension": 2
@@ -78532,7 +78532,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://arxiv.org/abs/2412.19437",
    "year": 2024,
    "density": null,
    "extension": 16
@@ -79876,7 +79876,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://www.nobelprize.org/prizes/physics/2024/press-release/",
    "year": 2024,
    "density": null,
    "extension": 14
@@ -80036,7 +80036,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://awards.acm.org/about/2018-turing",
    "year": 2018,
    "density": null,
    "extension": 10
@@ -154433,7 +154433,7 @@
    "stage": "",
    "player": "",
    "url": "",
-   "link": null,
+   "link": "https://arxiv.org/abs/2107.07651",
    "year": 2021,
    "density": null,
    "extension": 5,
@@ -160091,9 +160091,9 @@
   },
   {
    "id": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
-   "name": "OpenAI 接近完成至多 300 亿美元融资，投前估值 1.25 万亿美元（2026-10-22）",
+   "name": "OpenAI 新一轮融资目标由 300 亿降至约 200 亿美元：投前估值约 1.25 万亿美元（2026-10-22 CNBC / 10-31 FT 更新）",
    "type": "event",
-   "desc": "2026-10-22 CNBC报道OpenAI接近完成至多300亿美元融资，投前估值1.25万亿美元，Coatue与阿联酋投资方领投，为IPO前过桥轮。",
+   "desc": "2026-10-22 CNBC：OpenAI 接近完成至多 300 亿美元融资，投前估值 1.25 万亿美元，Coatue 与阿联酋投资方领投，为 IPO 前过桥轮。10-31 FT 更新：目标下调 100 亿至约 200 亿美元，估值约 1.25 万亿美元，归因于 AI 股票抛售与烧钱担忧；OpenAI 未官方确认条款。",
    "stage": "",
    "player": "OpenAI",
    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
@@ -163368,6 +163368,24 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30"
+  },
+  {
+   "id": "event:2026-10:Anthropic-IPO-BB评级预期",
+   "name": "Anthropic IPO 临近：信用机构或予 BB「垃圾级」评级（FT）",
+   "type": "event",
+   "desc": "Anthropic IPO 推进之际，FT 报道（2026-10-30，TechCrunch 转述）信用评级机构或在其上市后给予 BB 级「垃圾/高收益」评级（Blackstone 向投资人透露），投行争取投资级评级未果；Reuters（2026-10-22）称其 IPO 将独立成为 AI 市场试金石。反映 AI 巨头高烧钱模式下债务融资定价的现实约束",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+  },
+  {
+   "id": "event:2026-10:Intel股价暴跌政府持股缩水120亿",
+   "name": "Intel 股价暴跌约 29%，美国政府持股账面缩水约 120 亿美元（2026-10-30）",
+   "type": "event",
+   "desc": "Intel 股价单日暴跌约 29%（2026-10-30，1970 年代以来最大单日跌幅），美国政府约 10% 持股账面缩水约 120 亿美元；导火索为裁员计划宣布与以色列工厂关停，分析师指其关键业务未能盈利",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
   }
  ],
  "links": [
@@ -355368,6 +355386,1566 @@
    "type": "related",
    "label": "",
    "year": null
+  },
+  {
+   "source": "company_R161-3",
+   "target": "region:巴黎",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R176-3",
+   "target": "region:纽约",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R189-5",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R219-1",
+   "target": "region:伦敦",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R219-1",
+   "target": "region:巴黎",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R227-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R240-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R240-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R240-4",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R241-2",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R253-3",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R261-2",
+   "target": "region:纽约",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R263-3",
+   "target": "region:旧金山",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R264-1",
+   "target": "region:荷兰",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R264-1",
+   "target": "region:阿姆斯特丹",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R265-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R265-1",
+   "target": "region:伦敦",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R269-2",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R270-3",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R271-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R272-4",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R279-2",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R282-4",
+   "target": "region:南非",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R284-4",
+   "target": "region:加拿大",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R284-4",
+   "target": "region:多伦多",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R294-3",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R298-1",
+   "target": "region:韩国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R300-2",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R300-3",
+   "target": "region:西安",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R304-2",
+   "target": "region:济南",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R304-3",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R308-4",
+   "target": "region:济南",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R320-4",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R320-4",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R320-4",
+   "target": "region:济南",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R323-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R323-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R325-1",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R327-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R327-3",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R328-1",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R328-1",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R330-1",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R334-3",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R334-4",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R334-4",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R335-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R339-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-2",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R360-1",
+   "target": "year_2002",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R113-3",
+   "target": "year_1996",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R349-3",
+   "target": "year_2010",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R122-3",
+   "target": "year_2018",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R151-2",
+   "target": "year_2010",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R405-2",
+   "target": "year_2004",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R334-3",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R387-2",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R338-2",
+   "target": "year_1992",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R186-2",
+   "target": "year_2012",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R265-2",
+   "target": "year_2008",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R374-1",
+   "target": "year_2009",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R429-1",
+   "target": "year_1997",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R79-1",
+   "target": "year_2010",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R391-4",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R373-1",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R377-2",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R423-2",
+   "target": "year_1997",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R122-2",
+   "target": "year_2008",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R356-2",
+   "target": "year_1998",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R100-1",
+   "target": "year_1995",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R227-2",
+   "target": "year_2008",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R133-3",
+   "target": "year_2015",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R369-3",
+   "target": "year_2007",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R109-4",
+   "target": "year_2001",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R128-6",
+   "target": "year_1994",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R290-4",
+   "target": "year_2021",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R304-2",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R368-1",
+   "target": "year_1992",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R318-2",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "benchmark_R85-1",
+   "target": "model:o1",
+   "type": "related",
+   "desc": "o1 时代的标准化数学基准（desc 点名）"
+  },
+  {
+   "source": "benchmark_R85-1",
+   "target": "model:o3",
+   "type": "related",
+   "desc": "o3 时代的标准化数学基准（desc 点名）"
+  },
+  {
+   "source": "company_14-21",
+   "target": "company_L23-30",
+   "type": "invested",
+   "desc": "腾讯生态投资（desc 点名）"
+  },
+  {
+   "source": "company_30-16",
+   "target": "product:ChatGPT",
+   "type": "related",
+   "desc": "企业级 AI 工作空间对标团队版 ChatGPT 模式（desc 点名）"
+  },
+  {
+   "source": "company_L23-31",
+   "target": "company_14-9",
+   "type": "related",
+   "desc": "边端 AI 芯片实测对标 NVIDIA AGX Orin（desc 点名）"
+  },
+  {
+   "source": "event:2026-10:Anthropic-IPO-BB评级预期",
+   "target": "company_14-3",
+   "type": "player",
+   "desc": "事件主体"
+  },
+  {
+   "source": "event:2026-10:Anthropic-IPO-BB评级预期",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-10-30 报道"
+  },
+  {
+   "source": "event:2026-10:Intel股价暴跌政府持股缩水120亿",
+   "target": "company_14-11",
+   "type": "player",
+   "desc": "事件主体"
+  },
+  {
+   "source": "event:2026-10:Intel股价暴跌政府持股缩水120亿",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-10-30"
+  },
+  {
+   "source": "event:2026-10:Anthropic-IPO-BB评级预期",
+   "target": "event:2026-10:Intel股价暴跌政府持股缩水120亿",
+   "type": "related",
+   "desc": "AI 资本市场环境收紧的两则同期信号（2026-10-30）"
+  },
+  {
+   "source": "company_R340-4",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-4",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R343-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R347-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R347-1",
+   "target": "region:青岛",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R349-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R350-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R350-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R351-2",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R351-3",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R352-4",
+   "target": "region:厦门",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R354-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R354-1",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R355-2",
+   "target": "region:西安",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R361-1",
+   "target": "region:南京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R362-2",
+   "target": "region:厦门",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R362-3",
+   "target": "region:厦门",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R363-1",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R363-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R367-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R370-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R377-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R379-2",
+   "target": "region:南京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R381-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R381-4",
+   "target": "region:香港",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R385-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R387-4",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R390-4",
+   "target": "region:武汉",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R394-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R397-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R401-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R403-1",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R97-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_32-27",
+   "target": "region:柏林",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R183-3",
+   "target": "region:纽约",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R183-3",
+   "target": "region:巴黎",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R183-3",
+   "target": "region:法国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R190-1",
+   "target": "region:日本",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R196-1",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R217-4",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R235-3",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R240-3",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R249-2",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R270-1",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R270-1",
+   "target": "region:武汉",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R274-2",
+   "target": "region:旧金山",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R280-3",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R282-3",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R284-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R361-1",
+   "target": "year_2012",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R125-1",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R387-4",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R351-2",
+   "target": "year_1995",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R414-2",
+   "target": "year_2000",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R138-2",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R246-3",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R166-3",
+   "target": "year_1990",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R350-2",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R349-2",
+   "target": "year_2005",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R353-1",
+   "target": "year_1996",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R347-1",
+   "target": "year_2000",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R94-4",
+   "target": "year_2023",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R401-3",
+   "target": "year_1995",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R337-2",
+   "target": "year_2005",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R382-4",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R352-4",
+   "target": "year_1997",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R112-5",
+   "target": "year_2012",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R364-2",
+   "target": "year_1998",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R112-4",
+   "target": "year_2013",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R375-4",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R383-2",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R215-3",
+   "target": "year_2015",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R92-1",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R363-1",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R435-2",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R137-5",
+   "target": "year_2002",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R401-1",
+   "target": "year_1999",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R352-4",
+   "target": "year_2005",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R122-6",
+   "target": "year_2002",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "event:2026-10:OpenAI-30B-round-at-1.25T-valuation",
+   "target": "event:2026-10:Intel股价暴跌政府持股缩水120亿",
+   "type": "related",
+   "desc": "AI 股市回调与烧钱担忧背景（FT 10-31 归因）"
+  },
+  {
+   "source": "company_R284-1",
+   "target": "region:旧金山",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R125-3",
+   "target": "region:日本",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R150-2",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R199-1",
+   "target": "region:纽约",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R202-3",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R202-3",
+   "target": "region:旧金山",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R252-2",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R256-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R260-1",
+   "target": "region:旧金山",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R286-1",
+   "target": "region:伦敦",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R286-1",
+   "target": "region:英国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R291-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R291-3",
+   "target": "region:德国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R291-4",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R302-1",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R305-1",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R305-4",
+   "target": "region:瑞典",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R316-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R320-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R320-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R322-1",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R325-3",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R325-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R327-1",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R328-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R332-3",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R334-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-3",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-3",
+   "target": "region:南京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R340-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R345-3",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R347-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R354-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R372-2",
+   "target": "region:厦门",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R380-1",
+   "target": "region:广州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R383-1",
+   "target": "region:日本",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R398-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R398-3",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R398-3",
+   "target": "region:西安",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R398-3",
+   "target": "region:德国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R398-3",
+   "target": "region:苏州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R402-2",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R402-3",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R404-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R404-2",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R407-1",
+   "target": "region:上海",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R409-3",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R415-1",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R416-3",
+   "target": "region:香港",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R417-2",
+   "target": "region:中国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R418-1",
+   "target": "region:杭州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R431-2",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R84-5",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R118-5",
+   "target": "region:英国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R212-1",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R246-1",
+   "target": "region:福州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R256-3",
+   "target": "region:美国",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R265-3",
+   "target": "region:北京",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R265-3",
+   "target": "region:深圳",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R285-3",
+   "target": "region:苏州",
+   "type": "related",
+   "desc": "总部/属地（desc 点名）"
+  },
+  {
+   "source": "company_R108-2",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R372-1",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R410-2",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R401-2",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R249-1",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R412-1",
+   "target": "year_1993",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R249-2",
+   "target": "year_2001",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R309-2",
+   "target": "year_1992",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R50-4",
+   "target": "year_2018",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R402-3",
+   "target": "year_2003",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R206-2",
+   "target": "year_2005",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R411-2",
+   "target": "year_1997",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R99-2",
+   "target": "year_2007",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R252-2",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R101-2",
+   "target": "year_2013",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R345-3",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R177-2",
+   "target": "year_1991",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R149-5",
+   "target": "year_1998",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R150-2",
+   "target": "year_2006",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R104-4",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R152-3",
+   "target": "year_2013",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R354-2",
+   "target": "year_2001",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R285-1",
+   "target": "year_2002",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R380-1",
+   "target": "year_2015",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R404-2",
+   "target": "year_1990",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R409-2",
+   "target": "year_1998",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R108-5",
+   "target": "year_2016",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R146-4",
+   "target": "year_2014",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R412-2",
+   "target": "year_1998",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
+  },
+  {
+   "source": "company_R416-2",
+   "target": "year_1994",
+   "type": "timeline",
+   "desc": "成立年份（desc 点名）"
   }
  ]
 }
