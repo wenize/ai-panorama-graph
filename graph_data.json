@@ -4571,7 +4571,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L9",
-   "desc": "Llama/Mistrano/Qwen 等开源权重模型附带的自定义许可证及其合规风险。",
+   "desc": "Llama/Mistral/Qwen 等开源权重模型附带的自定义许可证。合规地图（2026 时点）：Llama 社区许可（月活 7 亿条款+品牌命名条款）、Qwen Tongyi Qianwen 许可（部分版本 Apache 2.0、72B 起旧版有限制，2024-2025 逐步 Apache 化）、DeepSeek MIT（最宽松）、GLM MIT、Kimi K2 Modified MIT（防套壳署名）、Mistral Apache 2.0、Gemma 使用条款（Google 专有——禁特定用途+再分发须随附条款）、Falcon TII 许可；合规要点矩阵：商用是否需报备/月活阈值/再分发条件/输出标注义务/区域限制（Gemma 欧盟特定条款曾引发争议）；企业流程：法务按「模型许可+数据许可+输出责任」三层审查，Apache/MIT 直接放行、自定义许可逐条核；2025-2026 动态：OSI OSAID 推动统一、欧盟 GPAI 行为准则加版权披露、国内备案制反向要求许可透明；「开源洗白」批评使许可审查从法务动作升级为采购战略。",
    "stage": "2023 起源 · 2026 数据合规主导",
    "player": "Meta（Llama 社区许可）、Mistral、阿里 Qwen、DeepSeek",
    "url": "https://www.llama.com/llama3/license/",
@@ -8700,7 +8700,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "对眼底彩照自动分级糖尿病视网膜病变(DR)及AMD、RVO等，作为基层慢病筛查入口。",
+   "desc": "对眼底彩照自动分级糖尿病视网膜病变(DR)及AMD、RVO等，作为基层慢病筛查主力。里程碑：IDx-DR（2018-04 FDA 首个免医生诊断自主 AI——获准独立出具筛查结论的里程碑）、Google DeepMind DR 算法（2016 JAMA 奠基研究）、国内 Airdoc（鹰瞳科技，2020-08 首张 NMPA 三类证——国内糖网 AI 第一证，2021 港股上市「医疗 AI 视觉第一股」）、致远/微医基层部署；临床路径：免散瞳眼底相机拍照→AI 分级（无/轻/中/重/增殖期五级+转诊建议）→阳性转眼科；基层价值：中国糖尿病人群 1.4 亿级（公开流行病学口径）vs 眼科医生缺口，筛查渗透率个位数→政策推基层全覆盖（慢病管理公卫项目）；技术前沿：超广角眼底影像（Optos）适配、OCT 多模态联合、全身健康信号挖掘（眼底血管=心脑血管窗口——视网膜年龄/血压/贫血预测研究 2023-2025 热线）；局限：图像质量敏感（白内障/小瞳孔失败率）、分级一致性（读片金标准差异）。",
    "stage": "2018 起源 · 2020 首证 · 2025 多病种",
    "player": "鹰瞳Airdoc;Google DeepMind;体素科技;百度灵医",
    "url": "https://www.airdoc.com/about",
@@ -24716,7 +24716,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用边缘AI+大模型做小区安全监控、工单自动派发、AI管家7×24应答与设备预测性维护。",
+   "desc": "用边缘AI+大模型做小区安全监控、工单自动派发、AI管家7×24应答与设备预测性维护。场景包：安防（周界入侵/电动车进电梯识别——梧桐链/海康社区 AI 中台落地常态）、工单（业主报修语音/图片自动分类+派单+回访闭环——万物云「物业 AI 助手」2024-2025 公开）、管家对话（物业费查询/报事报修 LLM 客服）、设备运维（电梯/水泵/暖通 IoT 预测性维护，三一筑工/碧桂园博智林体系）；商业结构：头部物业（万物云/碧桂园服务/保利物业）自建科技子公司 vs 采购 SaaS（极致科技/思源/中奥科技）；2024-2025 LLM 增量：业主群舆情监测、催缴话术合规化（民法典边界）、装修监管 AI（违建识别）；痛点：老旧小区设备数据缺失、物业费收缴率与 AI 投入 ROI 强绑定；与智慧园区（B 端）和智慧城市（G 端）构成三级市场。",
    "stage": "2014 睿服务 · 2025 物业AI大脑",
    "player": "万物云灵石,保利物业+海康,招商积余,戎光智管家,龙湖U享家,绿城幸福绿城",
    "url": "http://m.toutiao.com/group/7624342800008331826/",
@@ -28476,7 +28476,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "以可执行程序(代码)为动作空间、自动课程+迭代提示实现开放式终身学习的具身 Agent。",
+   "desc": "以可执行程序(代码)为动作空间、自动课程+迭代提示实现开放式终身学习的具身Agent。出处：2023-05 Voyager（Wang et al. NVIDIA/Caltech 等，Minecraft 中 GPT-4 写技能代码存入 skill library 向量库检索复用，自动课程（auto curriculum）由智能体状态自提出任务）；后续：DrEureka（2024，sim-to-real 参数代码化）、RoboGen/CASA 类自动任务生成；思想迁移：技能库=可执行代码这一「程序化记忆」被 Claude Code（CLAUDE.md+脚本）、Devin（playbooks）吸收为工程实践；与 VLA 对照：VLA 学连续动作 vs Voyager 学离散技能程序——具身大模型时代两者融合（高层 LLM 出技能选择、低层 VLA 执行）；限制：依赖环境可编程接口（Minecraft API 特殊性）、代码失败无梯度反馈（纯 trial-error）；2025-2026 「agent skill library」成为 AgentOS 标配模块的学术源头。",
    "stage": "2023 起源 · 标杆系统",
    "player": "NVIDIA/Voyager;学术界(MineDojo)",
    "url": "https://arxiv.org/abs/2305.16291",
@@ -31660,7 +31660,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L25",
-   "desc": "执法部门用AI做枪击监测、重点人/地风险评分、人脸识别巡逻，偏见与第四修正案争议集中。",
+   "desc": "执法部门用AI做枪击监测、重点人/地风险评分、人脸识别巡逻，偏见与第四修正案争议持续。工具面：ShotSpotter（枪声定位，2024 更名 SoundThinking，芝加哥等城市合同争议与种族偏差研究公开）、预测警务（PredPol 已解散遗留争议——目标地点预测的反馈循环批评、Geolitica（原 PredPol）2023 诉讼报道）、人脸识别（Clearview AI 多州禁令+和解、国内人脸新规 2021 后政务应用收敛）、监控视频语义检索（国内警务大模型试点 2024-2025 地方公开）；学术锚点：Lum & Deville 的「self-fulfilling prophecy」系列研究（过度巡逻少数社区→更多记录→更多巡逻的死循环）；法律：四修正案（美国——搜查边界与算法证据可采性诉讼）、欧盟 AI Act 执法为高风险类（实时远程生物识别原则上禁止）、中国个人信息保护法敏感个人信息条款；2025-2026 转向：AI 助理化（报告生成/笔录摘要——美警 Axon Draft One 草稿笔录产品 2024 公开）替代「预测」，风险从预测偏差转向生成幻觉的笔录可靠性。",
    "stage": "2010 PredPol · 2025 立法限制",
    "player": "NYPD;SoundThinking ShotSpotter;LAPD;Chicago PD;EU AI Act",
    "url": "https://home4.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/ShotSpotter-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
@@ -359545,6 +359545,36 @@
    "target": "company_R258-2",
    "type": "related",
    "desc": "隐语为国内 MPC/FHE 生态最全开源框架（desc 点名）"
+  },
+  {
+   "source": "concept_L15-2",
+   "target": "company_R201-2",
+   "type": "related",
+   "desc": "IDx-DR 为 FDA 首个自主诊断 AI 里程碑（desc 点名）"
+  },
+  {
+   "source": "concept_L15-2",
+   "target": "company_33-7",
+   "type": "related",
+   "desc": "鹰瞳 Airdoc 为国内糖网第一证（desc 点名）"
+  },
+  {
+   "source": "concept_L25-155",
+   "target": "company_R232-1",
+   "type": "related",
+   "desc": "Clearview AI 为人脸识别执法争议核心（desc 点名）"
+  },
+  {
+   "source": "concept_L25-155",
+   "target": "event:2024-09:荷兰AP罚Clearview3050万欧元",
+   "type": "related",
+   "desc": "荷兰 3050 万欧元罚单为人脸识别监管标志（desc 点名）"
+  },
+  {
+   "source": "concept_L22-148",
+   "target": "company_R143-4",
+   "type": "related",
+   "desc": "万物云为物业 AI 自建科技子公司代表（desc 点名）"
   }
  ]
 }
