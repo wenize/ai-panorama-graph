@@ -762,7 +762,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "中国厂商以超节点路线突围单芯片差距，通过堆卡+高速互联追求等效算力。",
+   "desc": "国产 AI 算力「超节点」（supernode）路线：以大规模互联把数百至上千张卡组成一台逻辑机器，对冲单卡性能代差。华为 CloudMatrix 384（2025-04 发布）用 384 张昇腾 910C 以全光互联+全对等架构对标英伟达 GB200 NVL72，算力规模占优、能效偏弱，代表「以集群换单卡」路线；2025-09 华为发布昇腾 950 系列与 Atlas 950 SuperPoD（8192 卡超节点，规划 2026 年底面世，配套自研光模块/光交叉），并在 2026-09 全联接大会披露 CloudMatrix 384 已规模商用；阿里云磐久 AI Infra 2.0 超节点（2025 云栖大会，单节点最多 512 卡，开放自研互联）与 2025-09 发布的 HPN 7.0（含 128 卡 PCIe 交换超节点）代表互联网大厂自建路线；中国移动/华为「智算超节点」、腾讯星辰数据库配套超算集群亦跟进。该路线的关键竞速点是光互联国产化（硅光/光引擎）、能耗与大集群调度软件栈。",
    "stage": "2025 CloudMatrix · 2026 规模商用",
    "player": "华为；阿里云；灵衢UnifiedBus/UBoE",
    "url": "https://jdc.huawei.com/jdc/refactor/viewthread?tid=1153924",
@@ -1146,7 +1146,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "手表/耳机等可穿戴设备内置NPU做始终在线的健康与语音感知。",
+   "desc": "在手表、耳机、眼镜、戒指等可穿戴设备上直接运行轻量 AI 推理的端侧范式：受限于毫瓦级功耗与百 MB 级内存，普遍采用 TinyML/量化模型（INT8/INT4）、剪枝与蒸馏，专用 NPU（如 Apple S 系列协处理器、高通 Snapdragon W5+、恒玄/紫光展锐可穿戴 SoC）承担本地推理。典型任务：心率/血氧/睡眠分期等生理信号实时分析、跌倒检测、语音唤醒词与降噪、离线语音指令、手势与心电异常识别；敏感健康数据留在本地以规避云端隐私风险。Apple Watch 房颤通知、Galaxy Watch 能量分数、AirPods 自适应音频、Oura/Muse 类脑电与生理戒指为主要消费级案例；与云端大模型协同形成「端侧常驻+云侧增强」混合架构。",
    "stage": "2024 起 · 2026 CiM低功耗",
    "player": "Qualcomm Sensing Hub；Apple Watch；华为手表",
    "url": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Infographics/D9500%20Infographic.pdf",
@@ -3578,7 +3578,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L6",
-   "desc": "把 LLM 当操作系统做内存分页：自管理主上下文与外部归档记忆。",
+   "desc": "MemGPT（2023-10 论文）把操作系统的虚拟内存思想引入 LLM：以主上下文（context window）为「主存」、外部存储为「磁盘」，让模型通过自调用工具（function calling）自主决定何时把内容换入换出上下文，从而突破有限窗口实现长期记忆与超长文档对话；核心贡献是「LLM OS」式 agent 状态管理框架（记忆分层+自我编辑）。作者团队 2024 年成立公司 Letta，将 MemGPT 产品化为开源 agent 框架与 Letta Cloud，主打有状态 agent（sleep-time compute 后台整理记忆、多 agent 共享 memory blocks、Agent Development Environment 可视化调试），与 LangChain/Zep/Mem0 等同处 LLM 长期记忆赛道。",
    "stage": "2023 起源 · 成长期",
    "player": "伯克利;Letta Inc.",
    "url": "https://arxiv.org/abs/2310.08560",
@@ -6380,7 +6380,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "覆盖简历筛选、笔试、视频面试分析与候选人匹配的 HR 科技 AI。",
+   "desc": "AI 在招聘全流程的应用：简历解析与关键词匹配（早期 ATS 已普及）、语义级人岗匹配（embedding 检索替代关键词筛选）、AI 初面（语音/视频面试 agent 自动提问与评分）、编程题自动评测（HackerRank/牛客类）与外呼机器人约面；供给侧则有大模型改简历、模拟面试与薪资谈判助手。争议集中在公平性与合规：算法可能放大学历/性别/年龄偏差（亚马逊 2018 年下线的内招模型为经典反例），纽约市 Local Law 144（2023 生效）要求自动化招聘工具做年度偏见审计并公示，欧盟 AI Act 将招聘 AI 列为高风险系统强制合规；国内主流玩家包括北森、Moka、猎聘 AI 面试官及 BOSS 直聘的匹配推荐体系。",
    "stage": "2018 起源 · 2024 成长期",
    "player": "HireVue; LinkedIn; 北森; Moka",
    "url": "https://www.hirevue.com/",
@@ -6780,7 +6780,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "华为提供的全栈高阶智能驾驶方案，配套激光雷达+纯视觉双路线。",
+   "desc": "华为的高阶智能驾驶系统品牌（乾崑智驾，ADS），依托昇腾芯片车载方案与华为自研感知规控算法，以激光雷达融合视觉的重感知路线著称；经历 ADS 1.0/2.0 到 ADS 3.0（GOD 大网+PDP 端到端规控网络，2024 发布）再到 ADS 4（2025 发布，WEWA 架构：世界引擎生成世界模型数据+云端世界行为模型训练），主打无图城区 NCA（不依赖高精地图）与车位到车位全场景智驾。主要搭载于鸿蒙智行五界（问界/智界/享界/尊界/尚界）及阿维塔、深蓝、岚图、猛士等HI模式合作车型，与 Momenta/小鹏/特斯拉 FSD 形成国内高阶智驾第一梯队竞争；乾崑品牌同时覆盖车载鸿蒙座舱（鸿蒙 4/5）之外的智驾、车灯、车载芯片（昇腾 910 系列/麒麟座舱芯片）等产品线。",
    "stage": "2021 起源 · 2024 ADS 3.0 端到端 · 2026 分化期",
    "player": "华为车 BU / 赛力斯 / 奇瑞 / 北汽",
    "url": "https://www.eeworld.com.cn/qcdz/eic720671.html",
@@ -8188,7 +8188,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "把生成式 AI 嵌入关键帧、动作绑定、材质与渲染的动画工业流程。",
+   "desc": "AI 渗透动画与 3D 资产生产管线：前期以文生图/视频（Midjourney/Runway/可灵）做概念板与动态分镜；中期骨骼绑定与中间帧生成（Cascadeur 物理动作辅助、Rokoko 动捕+AI 清洗）、AI 上色与线稿补全（动漫行业已实际投产）；3D 资产侧用文生 3D（Tripo/TRELLIS/Meshy）快速出白模，再经重拓扑与 PBR 贴图生成进入 DCC 工具（Blender/Unreal）；游戏管线则以 NeRF/3D Gaussian Splatting 做场景扫描重建。工业界现状是「AI 出草稿、人做终稿」：Blender/Unity/Unreal 官方均接入生成式插件，皮克斯与国内动画公司试点 AI 分镜与异步渲染，成本大头仍卡在角色一致性与资产可编辑性。",
    "stage": "2023 起源 · 2025-2026 管线渗透",
    "player": "Adobe,Runway,Unity Muse,Blender 插件,Reallusion",
    "url": "https://www.adobe.com/products/character-animator.html",
@@ -9292,7 +9292,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "为生产代码自动生成覆盖分支/边界的单元测试套件，并随代码变更维护。",
+   "desc": "自动生成单元测试的技术谱系：传统路线基于搜索式测试（EvoSuite 对 Java 演化生成高覆盖测试）与符号执行/模糊测试（KLEE、libFuzzer）；LLM 时代 GitHub Copilot/Cursor 可按函数体生成测试用例，专门工具如 Diffblue Cover（Java 企业级量产落地）、Meta 的 TestGen-LLM（在 Instagram/Android 代码库验证「可编译且提升覆盖率」通过率过半）、Google 内部用 LLM 迁移测试框架；开源生态有 Pynguin（Python）、CodaMosa（搜索+LLM 混合）。核心指标为行/分支覆盖率、变异分数（mutation score，防「看似通过实则无效」的伪测试）与 flaky 率；工程现状是 LLM 生成-执行-反馈循环自动化，人类审查仍不可省，测试预期（oracle problem）依旧是对自动化的根本限制。",
    "stage": "2019 起源(Diffblue) · 2025 Agent 化",
    "player": "Diffblue Cover; Qodo(Codium); GitHub Copilot; JetBrains",
    "url": "https://www.diffblue.com/home/",
@@ -18220,7 +18220,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "从残差流逐层读出预测，并通过激活补丁定位负责某行为的注意力头/层。",
+   "desc": "可解释性研究中的因果追踪方法族：LogitLens 把中间层隐状态直接投影到词表空间，观察「如果在这里解码会输出什么」从而看各层逐步形成答案的过程；激活修补（activation patching）在干净/损坏两组输入间交换某位置某层的激活，量化该激活对输出的因果贡献，用于定位具体事实（如「巴黎在哪个国家」）存储的层与位置；衍生方法包括 attention knockout、causal tracing 的降噪版本与 path patching，配合 sparse autoencoder（Anthropic/DeepMind 2023~2025 主线）把特征级归因做到概念粒度。局限：修补结果依赖损坏方式的选择（zero/mean/noise ablation），且不保证机制完备；该工具族是 ROME/MEMIT 等模型编辑（定位-编辑事实）工作的地基。",
    "stage": "2022 起源 · 2025 与 SAE 合流",
    "player": "Nanda, Meng, Transformer Circuits",
    "url": "https://arxiv.org/abs/2203.14680",
@@ -18716,7 +18716,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用深度学习自动做三维地震断层识别、层位拾取、储层预测与测井解释。",
+   "desc": "AI 在油气勘探地震资料处理与解释中的应用：对叠前/叠后地震数据用深度学习做自动层位追踪、断层识别与盐丘/河道等地质体分割（U-Net 类分割网络为主流），把传统数月的人工解释压缩到天级；生成式与自监督方法用于数据去噪、缺失道重建与提高分辨率；测井曲线用 ML 做岩性/孔隙度预测与井震标定；储层建模结合物理约束神经网络（PINN）做油藏模拟加速。代表实践：ExxonMobil/Chevron/Shell 内部 AI 团队、Schlumberger（SLB）DELFI 认知勘探环境、Halliburton DecisionSpace 365 与国内中石油/中石化智能地震解释平台（如 iPreSeis 类）；纯数据驱动模型外推到无井区仍是主要局限，行业主流是「地质约束+数据驱动」混合路线。",
    "stage": "2018 起源(CNN 断层) · 2025 地质基础模型",
    "player": "中石油东方物探;GeoEast;昆仑大模型;Schlumberger;Shell",
    "url": "http://www.news.cn/energy/20250731/7196532171b9460d945e54b53b51abd3/c.html",
@@ -26444,7 +26444,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "让模型读懂统计图表(柱状/折线/饼图)与数据表，做问答与数据提取。",
+   "desc": "多模态大模型对结构化视觉信息（表格图像、统计图表）的读取与推理能力：表格方向包括单元格定位、跨页大表解析、无框线表格还原（输出 Markdown/HTML/CSV），评测口径有 TabFact/WikiTableQuestions 等；图表方向要求读出数值、比较趋势、回答复合推理（「哪两个季度环比降幅最大」），代表评测 ChartQA/PlotQA/ChartX 与 ChartBench，近年加入幻觉检查（模型常「编造」图中不存在的数值）。主流做法是把解析与推理拆开：专用 OCR/表格模型（PaddleOCR/Marker）先结构化，再交 LLM 推理；端到端路线由 GPT-4V/GPT-6、Qwen-VL/Gemini 等原生多模态直接作答，金融研报与财报解析（如财报关键表格抽取）为最大落地场景。",
    "stage": "2022 起源 · 2025 成长期",
    "player": "ChartQA; ChartLlama; 学界",
    "url": "https://arxiv.org/abs/2203.07893",
@@ -28924,7 +28924,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用医学LLM解析EHR与入排标准，自动匹配患者并加速试验招募。",
+   "desc": "AI 在临床试验全流程的应用：试验设计阶段用真实世界数据与模拟（digital twin/贝叶斯自适应设计）优化入组标准与样本量；患者匹配与招募环节以 NLP 解析电子病历（EHR）自动筛 eligible 患者，解决招募慢/入组偏窄的行业头号瓶颈（招募延误可占试验周期三成以上）；运行期用模型预测脱落风险、监测不良信号；事后以 RWD 支撑扩展适应症证据。代表玩家：Deep 6 AI、Antidote、TrialSpark、Tempus（肿瘤伴随诊断+试验匹配）、Flatiron Health（肿瘤 RWD）及国内医渡科技、零氪科技；FDA 已有多份 AI/ML 药物开发讨论文件，临床端 AI 仍以辅助决策为主、不做自主判定。",
    "stage": "2018 EHR筛选 · 2025 医学LLM匹配",
    "player": "Dyania Health,Dana-Farber(MatchMiner),腾讯健康,IQVIA",
    "url": "https://newsroom.clevelandclinic.org/2025/08/27/cleveland-clinic-accelerates-clinical-trial-recruitment-with-roll-out-of-dyania-healths-artificial-intelligence-platform-across-health-system",
@@ -31212,7 +31212,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L25",
-   "desc": "在汽车座舱内用大模型做语音助手、情感陪伴、车控与导航的多模态交互。",
+   "desc": "大模型进入智能座舱的人机交互变革：蔚来自研 NOMI GPT（2024-03 发布，多模态情感引擎，覆盖语音/视觉/情绪互动）是国内第一批量产座舱大模型，理想 Mind GPT（2023-06 上线，任务型+生成式双链路，支持车内语音订票/儿童模式等场景化能力）、小鹏天玑 XOS 接入自研+外部双模型、华为鸿蒙 4 座舱接入盘古大模型、吉利银河 L7 搭载亿咖通×高通方案跑 Llama2 国内合资首例。相比传统命令式语音助手，大模型带来多意图理解、免唤醒闲聊、连续对话与主动服务（结合车身数据建议开空调/查电量），车企普遍用「云端大模型+车端小模型」混合架构规避断网与时延；商业化上多以订阅或高配车型差异化，语音交互已从「能不能听懂」转向「能不能办事」。",
    "stage": "2018 NOMI · 2025 端到端座舱大模型",
    "player": "蔚来NOMI,理想Mind GPT,小鹏天玑,奔驰MB.OS,华为盘古车载",
    "url": "https://us.nio.com/news/20250525001",
@@ -33964,7 +33964,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L26",
-   "desc": "农业农村部渔业局主导的智慧渔港、智能养殖与渔情预报体系。",
+   "desc": "AI 在水产养殖业的规模化深化应用：水质多参数传感（溶解氧/pH/氨氮/水温）+ 时序预测模型驱动增氧机与投饵机自动启停；机器视觉水下摄像头做鱼群计数、体长估算与摄食强度判读，声学探测辅助网箱资源量评估；病害预警方面以图像识别发现体表溃疡/烂鳃等症状、结合死亡率异常做早期告警；饲料占养殖成本约六成，投喂优化模型可显著降低饵料系数。中国沿海深水网箱与内陆池塘（如广东/福建/江苏）为落地主力区，通威、大北农及各类智慧渔业方案商参与；挪威三文鱼养殖（如配有声学计数与投喂系统的 Ocean Farm 类项目）为海外代表场景。",
    "stage": "2025起步 · 2026设施渔业AI升级",
    "player": "农业农村部渔业渔政局;中国水产科学研究院;上海海洋大学;中水集团;全国水产技术推广总站",
    "url": "https://cafs.ac.cn/info/1049/79162.htm",
@@ -38892,7 +38892,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "首位图灵奖华裔得主 计算理论与密码学大家 清华交叉信息研究院院长",
+   "desc": "姚期智，世界著名计算机科学家、图灵奖得主（2000，奖掖其在计算理论方面的开创贡献，包括伪随机数生成、通信复杂度与安全多方计算，Yao 原理与姚氏混淆电路至今是密码学基石）；先后任教 MIT/Stanford/Princeton，2004 年全职回国加入清华大学，创办清华计算机科学实验班（姚班）与人工智能班（智班）、量子信息中心与交叉信息研究院，为中国培养了一批顶级 AI 与理论计算机人才；研究方向横跨算法与复杂性、密码学、量子计算与 AI 安全，多次就 AI 治理与前沿风险发声（包括 2023 年与众多学者联署的 AI 风险声明类公开信），是国内 AI 学术体系建设的旗帜人物。",
    "stage": "2000 图灵奖 · 2004 归国办学",
    "player": "清华大学 IIIS",
    "url": "https://amturing.acm.org/award_winners/yao_1611524.cfm",
@@ -38908,7 +38908,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "中国机器学习领军者 LAMDA创建者 《机器学习》西瓜书作者",
+   "desc": "周志华，机器学习学者，南京大学教授、LAMDA（Machine Learning Lab）实验室负责人，欧洲科学院外籍院士（首位中国学者当选人工智能相关方向）与 ACM/AAAI/IEEE 等多个学会会士。以集成学习（ensemble learning）研究著称，提出选择性集成、多年期发展出基于逐段线性显著性理论的 gcForest（多粒度级联森林）作为免深度神经网络的深度学习替代路线；另在半监督学习、弱监督学习（含「学件 learnware」与小样本新范式研究）有系统性贡献。所著教材《机器学习》（俗称「西瓜书」）为中文世界最广泛使用的机器学习入门书之一；曾长期担任《Frontiers of Computer Science》等期刊编委，多次出任 AAAI/IJCAI 等顶会高级职务，培养的学生遍布学术界与产业界。",
    "stage": "2000s LAMDA · 2025 当选中科院院士",
    "player": "南京大学 LAMDA",
    "url": "https://cs.nju.edu.cn/zhouzh/zhouzh.files/resume_cn.htm",
@@ -38940,7 +38940,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "月之暗面Moonshot AI创始人兼CEO 长文本Kimi缔造者",
+   "desc": "杨植麟，月之暗面（Moonshot AI）创始人，清华本科、CMU 博士（Language Technologies Institute），博士期间参与 Transformer-XL 与 XLNet（2019 年 NLP 预训练两篇代表作）第一作者工作，是华人学者中少有的以一作身份奠定架构级贡献者；2016 年联合创办循环智能（Recurrent AI），2023 年 3 月创立月之暗面，2023-10 发布 Kimi 智能助手（以 20 万字上下文起步打「长文本」差异化，后多次扩至数百万字），2024-03 完成 10 亿美元级融资（阿里巴巴参投）成为当时国内大模型独角兽估值最高一档；2024 年 Kimi K2 起转向开源 MoE 路线，K3 系列进入开源第一梯队。另有 2024 年底与前投资人仲裁风波（金沙江创投等就循环智能股份转投问题提起仲裁）为公开报道过的争议事件。",
    "stage": "2023 创立 · 2026 冲IPO",
    "player": "月之暗面 Moonshot AI; Kimi",
    "url": "https://www.moonshot.cn/",
@@ -40764,7 +40764,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "2024 DeepSeek-V2细粒度专家分割加共享专家MoE",
+   "desc": "DeepSeek 提出的细粒度专家混合（fine-grained MoE）架构：将专家切得更多更小并配合共享专家隔离（shared expert isolation），让每个 token 走「共享专家+少量路由专家」，在固定算力下提升专家组合的专业化程度；后续在 V2/V3 引入设备受限路由、无辅助损失负载均衡（auxiliary-loss-free）与多 token 预测（MTP）等工程化改进，V3 以 671B 总参/37B 激活实现 GPT-4o 级效果且训练成本远低于同档稠密模型，成为开源 MoE 效率标杆；其超低成本训练（V3 官方口径约 557.6 万美元 GPU 租金）引发 2025 年初全球对算力经济性的重估。R1 以纯强化学习（GRPO）触发推理能力涌现，将 DeepSeekMoE 系推向推理模型时代。",
    "stage": "2024起源",
    "player": "DeepSeek",
    "url": "https://arxiv.org/abs/2401.06066",
@@ -41484,7 +41484,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L2",
-   "desc": "逐步拟合残差的加法树模型XGBoost/LightGBM前身",
+   "desc": "梯度提升决策树（Gradient Boosting Decision Tree）：以加法模型逐轮拟合损失函数负梯度的 boosting 框架，每轮训练一棵 CART 回归树修正残差，是结构化/表格数据上长期最强的通用算法族之一。工程代表实现包括 XGBoost（陈天奇 2014，二阶泰勒展开+正则化+列采样）、LightGBM（微软 2017，基于直方图与 GOSS/EFB 加速，支持大规模数据）与 CatBoost（Yandex 2017，有序提升缓解预测偏移+原生类别特征处理）；scikit-learn 内置 HistGradientBoosting。在 Kaggle 竞赛、风控评分、CTR 预估、销量预测等场景与深度学习分庭抗礼，亦是 SHAP 值可解释性分析最常用载体；对深度学习形成互补——表格型任务 GBDT 常仍占优，非结构化任务则让位于神经网络。",
    "stage": "2001成熟",
    "player": "Friedman",
    "url": "https://statweb.stanford.edu/~jhf/ftp/trebst.pdf",
@@ -76468,7 +76468,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2025.md",
-   "link": null,
+   "link": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai",
    "year": 2025,
    "density": null,
    "extension": 9
@@ -78820,7 +78820,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://x.ai/colossus",
    "year": 2024,
    "density": null,
    "extension": 11
@@ -163471,9 +163471,9 @@
    "id": "event:2026-11:Marvell收购Lumentum",
    "name": "Marvell 约 1150 亿美元全股票收购 Lumentum：AI 光互连整合，2026 年最大科技并购之一（2026-11-02 官宣）",
    "type": "event",
-   "desc": "2026-11-02 Marvell Technology 官宣与 Lumentum Holdings 达成最终协议：全股票收购、每股约 1,132 美元、隐含企业价值约 1150 亿美元（含债），打造「AI 连接性领导者」，扩张光器件与数据中心互联能力，押注 AI 数据中心光学需求爆发；交割时点两源口径不一（Bloomberg：2027 上半年；Reuters：2028 上半年），以正式代理声明为准；为 2026 年最大科技并购之一（Reuters/Bloomberg/Investing.com 多源核验，2026-11-06）。",
+   "desc": "2026-11-02 Marvell Technology 官宣与 Lumentum Holdings 达成最终协议：全股票收购、每股 Lumentum 换 4.500 股 Marvell（约 1,132 美元/股、较 10-28 未受扰收盘价溢价约 23.9%）、隐含企业价值约 1150 亿美元（含债），打造「AI 连接性领导者」，扩张光器件与数据中心互联能力，押注 AI 数据中心光学需求爆发；交割时点裁决：官方新闻稿与 SEC 8-K（2026-11-02 递交）明确「预计 2028 上半年交割」，8-K 同时披露初始外部截止日 2027-11-01（可自动延展至 2028-08-01），上夜 Bloomberg 2027 上半年口径系误报，已废弃；交割后 Marvell 股东持股约 67%、Lumentum 股东约 33%；为 2026 年最大科技并购之一（Marvell 官方一手源+SEC 8-K+Reuters 三源一致核验，2026-11-06）。",
    "dim": 1,
-   "link": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02",
+   "link": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
    "year": 2026
   },
   {
@@ -163519,6 +163519,42 @@
    "desc": "TechCrunch 2026-11-03 报道：Anthropic 正开发开源系统 FlashProve——要求 AI 实验室为每个发布模型公布「指纹」（fingerprint），事后可对任意输出做密码学证明验证其确实出自声称的模型，防模型替换（model substitution）与冒名输出，提升 AI 透明度；与 Anthropic 同期推进的 AI 文本水印（含对旧模型的支持）构成模型溯源双线；需与 2025 年 Claude 用户身份验证（Persona 政府 ID+自拍）区分：FlashProve 验证的是模型而非用户（TechCrunch/Reddit 转载多源核验，2026-11-06）。",
    "dim": 1,
    "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:OpenAI-ChatGPT-Cyber发布",
+   "name": "OpenAI 发布 ChatGPT Cyber：Daybreak Red 渠道开放，扫描 Linux 内核揪出 948 个潜在缺陷（2026-11-05）",
+   "type": "event",
+   "desc": "2026-11-05 OpenAI 发布网安专用模型 ChatGPT Cyber，向 Daybreak Red 漏洞研究计划头部授权用户开放（Daybreak Blue 为防御侧、Red 为攻击研究侧，需身份验证与硬件密钥）；该模型扫描 Linux 内核标记 948 个潜在权限缺陷（超出人工复核能力）、发现 81 个 Firefox 新漏洞，此前一家初创 CTO 用 GPT-5.6 Sol 约 2 小时找出 Ubuntu 严重漏洞（订阅+token 花费约 5,000 美元）；同日宣布 10 亿美元关键基础设施网安计划（电网/水务）。至此 OpenAI 2026 年已发布第四个网安向模型（4 月 GPT-5.4 Cyber、5 月 GPT-5.5、8 月 GPT-5.6 Cyber/Daybreak 扩展、11 月 ChatGPT Cyber）（TechCrunch 一手+AI Governance News 二源一致核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Airbnb-AI旅行代理官宣",
+   "name": "Airbnb 官宣 2027 上半年推出 AI 旅行代理：Chesky 称转型「AI-first app」，Q3 营收 48.7 亿美元创三年最快增速（2026-11-05）",
+   "type": "event",
+   "desc": "2026-11-05 Airbnb 随 Q3 股东信官宣将于 2027 上半年推出自有 AI 旅行代理，可代用户完成取消预订、行程规划、订单管理等任务，CEO Brian Chesky 称公司正转型为「AI-first app」；同期 Q3 2026 财报：营收 48.7 亿美元（同比 +19%，逾三年最快增速，超市场预期）、总预订额 +21%、净利润 19 亿美元（上年同期 14 亿）、调整后 EBITDA 25 亿美元（+22%），并上调 2026 全年营收增速展望至「高十几」区间（TechCrunch+PhocusWire/Yahoo Finance 多源一致核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Brockman-OpenAI-IPO信号",
+   "name": "OpenAI 总裁 Brockman 称公司 2027 年可具备 IPO 条件：Q3 2026 迎营收拐点、企业客户已成销售主体（2026-11-05）",
+   "type": "event",
+   "desc": "2026-11-05 OpenAI 总裁 Greg Brockman 公开表示公司可能在 2027 年具备 IPO 条件；他承认 2026 上半年处境艰难（Anthropic 在企业市场攻城略地），但 Q3 2026 出现「营收拐点」，企业业务已增长至占销售额多数；外部报道曾提示潜在 IPO 估值约 1 万亿美元。此为当事人明确公开表态（信号性），IPO 尚未启动程序（TechCrunch 一手+Reuters 转述二源一致核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Amazon-Alexa文本购物",
+   "name": "Amazon 推出短信文本购物：用户发短信给 Alexa 即可搜索与下单（2026-11-06）",
+   "type": "event",
+   "desc": "2026-11-06 Amazon 上线文本短信购物功能：用户可直接给 Alexa 发短信完成商品搜索与下单，体验近似与朋友短信沟通购物；此前 Amazon 于 2026-09 封禁 Meta 的 AI 购物代理 Muse 访问其商城（指其未经通知接入、违反 Conditions of Use，系主流零售平台首次封禁主流 AI 代理代购），创始人层面均有公开表态——先封第三方代理、随后推出自家第一方文本购物通道，被视为 agent 商务入口争夺的标志性回合（TechCrunch 一手+Yahoo Finance 转载二源一致核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
    "year": 2026
   }
  ],
@@ -359575,6 +359611,120 @@
    "target": "company_R143-4",
    "type": "related",
    "desc": "万物云为物业 AI 自建科技子公司代表（desc 点名）"
+  },
+  {
+   "source": "event:2026-11:OpenAI-ChatGPT-Cyber发布",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "OpenAI 发布 ChatGPT Cyber（2026-11-05，Daybreak Red 渠道）"
+  },
+  {
+   "source": "event:2026-11:OpenAI-ChatGPT-Cyber发布",
+   "target": "concept_L27-18",
+   "type": "related",
+   "desc": "GPT-6 家族网安分支：2026 年内第四个网安向模型"
+  },
+  {
+   "source": "event:2026-11:OpenAI-ChatGPT-Cyber发布",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-05 发布"
+  },
+  {
+   "source": "event:2026-11:Airbnb-AI旅行代理官宣",
+   "target": "company_L24-21",
+   "type": "player",
+   "desc": "Airbnb 2027 上半年推 AI 旅行代理，转型「AI-first app」"
+  },
+  {
+   "source": "event:2026-11:Airbnb-AI旅行代理官宣",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-05 随 Q3 股东信官宣"
+  },
+  {
+   "source": "event:2026-11:Brockman-OpenAI-IPO信号",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "Brockman 表态：2027 年可具备 IPO 条件"
+  },
+  {
+   "source": "event:2026-11:Brockman-OpenAI-IPO信号",
+   "target": "person_new_66",
+   "type": "player",
+   "desc": "Greg Brockman 为表态当事人（OpenAI 总裁）"
+  },
+  {
+   "source": "event:2026-11:Brockman-OpenAI-IPO信号",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-05 表态"
+  },
+  {
+   "source": "concept_1-52",
+   "target": "company_R133-6",
+   "type": "related",
+   "desc": "Oura 智能戒指为可穿戴端侧生理信号分析（睡眠/心率变异）代表产品"
+  },
+  {
+   "source": "concept_12-4",
+   "target": "company_L23-37",
+   "type": "competition",
+   "desc": "乾崑 ADS 与 Momenta 等构成国内高阶智驾第一梯队竞争"
+  },
+  {
+   "source": "event:2026-11:Amazon-Alexa文本购物",
+   "target": "company_14-7",
+   "type": "player",
+   "desc": "Amazon 推出 Alexa 短信文本购物（2026-11-06）"
+  },
+  {
+   "source": "event:2026-11:Amazon-Alexa文本购物",
+   "target": "concept_L25-126",
+   "type": "related",
+   "desc": "Alexa 场景向 agent 化购物延伸（文本短信通道）"
+  },
+  {
+   "source": "event:2026-11:Amazon-Alexa文本购物",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-06 上线"
+  },
+  {
+   "source": "concept_6-28",
+   "target": "company_30-34",
+   "type": "related",
+   "desc": "Letta 与 LangChain 等同处 LLM 有状态 agent/长期记忆赛道"
+  },
+  {
+   "source": "concept_13-30",
+   "target": "company_L28-139",
+   "type": "related",
+   "desc": "Midjourney 用于动画前期概念板与动态分镜生成"
+  },
+  {
+   "source": "concept_13-30",
+   "target": "company_L28-144",
+   "type": "related",
+   "desc": "Meshy 用于文生 3D 快速出白模进入资产管线"
+  },
+  {
+   "source": "concept_L18-156",
+   "target": "company_14-3",
+   "type": "related",
+   "desc": "Anthropic 为稀疏自编码器（SAE）可解释性研究主线代表之一"
+  },
+  {
+   "source": "concept_L29-28",
+   "target": "company_14-24",
+   "type": "related",
+   "desc": "杨植麟为月之暗面（Moonshot AI）创始人"
+  },
+  {
+   "source": "concept_1-28",
+   "target": "company_L23-21",
+   "type": "related",
+   "desc": "中国移动推出智算超节点，为国产超节点路线参与方"
   }
  ]
 }
