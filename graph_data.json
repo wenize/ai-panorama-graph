@@ -122,7 +122,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L0",
-   "desc": "序列到序列框架+注意力机制，神经机器翻译基石，Transformer 前身",
+   "desc": "序列到序列框架+注意力机制，神经机器翻译基石，Transformer 前身。谱系：Sutskever 等 2014《Sequence to Sequence Learning with LSTM》（Google，端到端翻译，词序反转 trick）→ Bahdanau 等 2014《Neural Machine Translation by Jointly Learning to Align and Translate》（加性注意力解决固定向量瓶颈，对齐可视化）→ Luong 2015 乘性注意力；Luong/Bahdanau 注意力二分法成为教科书术语；2017 Transformer 的 self-attention 直接继承该思想并去掉 RNN 时序依赖；2016 Google GNMT 上线标志 NMT 全面替代统计机翻（SMT）。",
    "stage": "2014 起源 · 已成熟",
    "player": "Sutskever/Bahdanau/Bengio 组",
    "url": "https://arxiv.org/abs/1409.3215",
@@ -506,7 +506,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "中国大陆独立上市的AI芯片公司思元系列，科创板AI算力第一股。",
+   "desc": "中国大陆独立上市的AI芯片公司思元系列，科创板AI算力第一股。脉络：2016 中科院计算所孵化（陈天石/陈云霁兄弟，DianNao 学术谱系）、2020-07 科创板上市；产品：思元 100/290/370（云端训练/推理 ASIC，MLUarchit 架构）→ 思元 590（2024 传量产爬坡，对标 A100 级公开报道口径）；2024-2025 股价暴涨（国产算力替代叙事+实体清单压力，市值一度登顶 A 股股王梯队 2025-08 公开报道）；客户与限制：实体清单（2022-12 入列）、互联网大厂采购国产芯片潮受益者；与华为昇腾（910B 系）构成国产训练芯片双线，寒武纪走纯 ASIC + 软件栈 Neuware 路线。",
    "stage": "2016成立 · 2025 业绩爆发 · 成长期",
    "player": "寒武纪(688256.SH)；Cambricon Neuware软件栈",
    "url": "https://www.stcn.com/article/detail/3991331.html",
@@ -746,7 +746,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "NVIDIA把72颗GPU+CPU在一个机架内统一成一台“AI工厂”的超节点形态。",
+   "desc": "NVIDIA把72颗GPU+CPU在一个机架内统一成一台“AI工厂”的超节点。谱系：DGX A100/H100 单机 8 卡→HGX H200→GB200 NVL72（2024-03 GTC 发布：72 Blackwell GPU+36 Grace CPU，NVLink 5 全互联 130 TB/s，机柜级 liquid cooling，FP4 训练/推理吞吐 vs H100 30x/25x 公开口径）→ GB300 NVL72（2025-03 GTC，Blackwell Ultra，HBM3E 288GB+ConnectX-8，推理密集优化）→ NVL576/Rubin Ultra 路线图（2026-2027）；产业影响：机柜级交付改变数据中心设计（功率 120kW+/柜、液冷改造潮）+ 超节点互连（Spectrum-X/Quantum-X800 网络配套）；竞品：AMD Helios（2026，MI400 72 卡对标）、华为 CloudMatrix 384（2024-2025，超节点替代路线——更多卡数补互联差距公开分析）；供应链：液冷（Vertiv/英维克）与铜连接（Amphenol）受益为市场共识。",
    "stage": "2024 GB200 · 2025 GB300 · 规模商用",
    "player": "NVIDIA；富士康/广达等ODM",
    "url": "https://www.nvidia.com/en-eu/solutions/ai/inference/?modal=sign-up-form",
@@ -794,7 +794,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "三大公有云按需提供GPU实例，是企业获取训练/推理算力的主渠道。",
+   "desc": "三大公有云按需提供GPU实例，是企业获取训练/推理算力的主渠道。格局：AWS（P4/P5 H100 实例+Trainium2 自研分流）、Azure（ND H100 v5 + OpenAI 独占容量历史包袱）、GCP（A3 H100/A4 Blackwell + TPU v5p/v6 双线）；新云（Neocloud）冲击：CoreWeave/Lambda/Crusoe 以 H100 裸金属低价抢单（2024-2025 GPU 短缺期溢价、2025 供给宽松价格回落公开报道）；企业选择逻辑：主权合规（数据驻留）、reserved vs spot 价格差（70%+ 折扣弹性）、RDMA/GPUDirect 网络性能；与「AI 工厂」模式（NVIDIA DGX Cloud 租赁）并行；2025-2026 供过于求信号与 Blackwell 迁移周期为价格主线。",
    "stage": "2006云起 · 2023-2026 AI云爆发",
    "player": "AWS；Microsoft Azure；Google Cloud；Oracle",
    "url": "http://www.caict.ac.cn/kxyj/qwfb/ztbg/202607/P020260728595322654615.pdf",
@@ -874,7 +874,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "OpenAI联合Oracle/软银等提出的5000亿美元级AI基础设施计划。",
+   "desc": "OpenAI联合Oracle/软银等提出的5000亿美元级AI基础设施计划。2025-01 白宫宣布：OpenAI/软银/Oracle/MGX 合资 Stargate LLC，4 年 5000 亿美元、首站德州 Abilene（甲骨文租用部署 GB200 集群）；后续扩容至 4.5GW+ 多站点与 8+10GW 框架（2025-09 Oracle 合同披露后 OpenAI 5 年约 3000 亿美元云采购承诺引爆算力信用讨论）；2026 年公开争议点：OpenAI 承诺算力总额远超其收入能力（约 1.4 万亿 vs 年化营收百亿级），被 Altman 称为「好赌」；与 Microsoft 关系重构（Azure 失去独占）为云竞争格局最大变量。 2026-11 报道：OpenAI 将数据中心对外口径更名「AI compute campuses」（Axios 首发、The Verge 跟进），弱化 Stargate 单名强化政企叙事。",
    "stage": "2025 宣布 · 2026 受电力约束",
    "player": "OpenAI；Oracle；软银；微软",
    "url": "https://stargate.how/about",
@@ -986,7 +986,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "云厂商提供按秒/按调用计费的弹性GPU与无服务器推理，降低闲置成本。",
+   "desc": "云厂商提供按秒/按调用计费的弹性GPU与无服务器推理，降低闲置成本。产品线：Modal（按秒计费+容器即代码）、Baseten/RunPod/Replicate（开源模型托管易用派）、Lambda Cloud、AWS Lambda GPU（2025 上线 SageMaker AI 无服务器）、阿里云函数计算 GPU（国内先发 2023）；技术：冷启动优化（快照恢复 SnapStart、模型权重本地 NVMe 预热、S3 直挂）、自动缩容至零（推理队列驱动）、跨请求权重复用；经济学：闲置成本归零 vs 单价溢价 2-5 倍，突发流量（病毒式 demo）与长尾模型（100+ 小模型组合）为最优场景；对比预留实例/专属集群：训练不适合（长任务冷启动占比低但网络瓶颈）、推理首选；2025-2026 与 Agent 弹性（多模型按需拉起）+ 边缘 serverless（Cloudflare Workers GPU 2025）扩展。",
    "stage": "2023 起 · 2025-2026 规模化",
    "player": "AWS；Azure；GCP；火山引擎；阿里云",
    "url": "https://www.aliyun.com/product/lingjun",
@@ -1050,7 +1050,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "以NPU≥40 TOPS为门槛的新一代AI PC品类，把AI任务从云拉到本地。",
+   "desc": "以NPU≥40 TOPS为门槛的新一代AI PC品类，把AI任务从云拉到本地。2024-05 微软定义 Copilot+ PC（40+ TOPS NPU、16GB+ 内存、Recall/Cocreator/实时字幕本地跑）；硬件三系：高通 Snapdragon X Elite（Arm 阵营首发）、Intel Lunar Lake（2024-09，NPU 48 TOPS）、AMD Ryzen AI 300；Apple M 系列虽不入 Copilot+ 名分但 Apple Intelligence 端侧为同类路线；2025 年起国内智谱/联想（天禧 AS）、荣耀（YOYO）推 Agent OS 概念；Recall 隐私风波（2024-05 发布即遭安全界批评后回炉）为端侧 AI 隐私设计标志性案例。",
    "stage": "2024 定义 · 2026 80 TOPS",
    "player": "Microsoft；Qualcomm Snapdragon X；Intel/AMD",
    "url": "https://www.microsoft.com/en-ca/windows/copilot-plus-pcs",
@@ -1274,7 +1274,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L2",
-   "desc": "在同一网络中并行/串联使用注意力头与 SSM 头，兼顾精确检索与长序列效率的折中路线。",
+   "desc": "在同一网络中并行/串联使用注意力头与 SSM 头，兼顾精确检索与长序列效率的混合架构。谱系：Mamba（2023-12 Gu/Dao，选择性 SSM，线性复杂度长序列）→ Jamba（AI21 2024-03，首个 MoE+Mamba+Attention 混合产线级开源，52B 总参）→ NVIDIA Nemotron-H/Hymba（2024-2025，并行混合头+meta tokens，Hymba 论文口径 SMALL 下 win 率高）→ Falcon-H1（2025 TII）与 IBM Granite 4.0（2025-10，混合 Mamba-2 发布）；动机：注意力 O(n²) KV cache 与 SSM 常数态的互补——精确检索（attention 擅长）+ 流式吞吐（SSM 擅长）；2025-2026 观察线：DeepSeek-V4 与 Kimi K3 系是否全面采用混合化（长上下文成本压力）为架构风向标；纯 SSM 路线（Mamba-2/RWKV）持续但未独挑大梁。",
    "stage": "2024 起源 · 2025 爆发",
    "player": "NVIDIA Hymba/Nemotron-H; TII Falcon-H1; Zyphra Zamba2",
    "url": "https://arxiv.org/pdf/2411.13676.pdf",
@@ -1306,7 +1306,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L2",
-   "desc": "通过分块、重计算、IO 感知的精确注意力内核，把注意力显存与速度提升数倍，不改数学结果。",
+   "desc": "通过分块、重计算、IO 感知的精确注意力内核，把注意力显存与速度提升数倍，不改数学结果。FlashAttention-1（2022，Tri Dao 等，IO 感知 tiling+online softmax）→ FlashAttention-2（2023，并行度/occupancy 优化，训练加速 2 倍）→ FlashAttention-3（2023-2024，Hopper 特化：WGMMA/TMA/异步 FP8）；已成为 PyTorch SDPA、HF transformers、vLLM 与所有主流训练框架的默认注意力内核；后续 FlexAttention/ThunderKittens 等在易用性与内核生成上接力，是长上下文（128K+）经济性的底层前提。",
    "stage": "2022 起源 · 2024 成熟",
    "player": "Tri Dao / Dao-AILab; PyTorch SDPA",
    "url": "https://arxiv.org/abs/2407.08608",
@@ -1850,7 +1850,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "用于监督微调（SFT）阶段的「指令-回答」对数据，决定模型遵循指令与对话风格的上限。",
+   "desc": "用于监督微调（SFT）阶段的「指令-回答」对数据，决定模型遵循指令与对话风格的上限。构建谱系：Self-Instruct（2022-12，bootstrap 合成 52K）→ Alpaca（2023-03 用 Self-Instruct+davinci-003 生成）→ Evol-Instruct（WizardLM 2023，进化式加难）→ ShareGPT 真实对话、OpenAssistant 人工标注（16 万条）、Camel/LMSYS-Chat-1M 真实分布；质量工程：去重/毒性过滤/难度分布/多轮结构，合成数据自Boost（phi 系教科书数据证明质量>规模）；多语言与领域（中文 COIG、医疗 ChatDoctor）；2024-2025 合成管线标准化（distillation from frontier models + LLM-as-judge 过滤），「数据飞轮」成为开源社区与厂商共同底座。",
    "stage": "2022 起源 · 2023 成熟",
    "player": "Stanford Alpaca; LLaMA-CC ShareGPT; Meta; OpenAI",
    "url": "https://arxiv.org/abs/2212.10560",
@@ -2266,7 +2266,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "用强 LLM 替代人类标注员产生偏好反馈，降本规模化的对齐路线。",
+   "desc": "用强 LLM 替代人类标注员产生偏好反馈，降本规模化的对齐路线。谱系：Anthropic Constitutional AI（2022-12 首提 RLAIF 术语，宪法原则引导 AI 自我批评+修订→AI 偏好标注）→ SPAG/HelpSteer2 类混合标注、Meta Llama 2/3 的公开报告中披露 AI 辅助标注占比提升；优势：标注成本降一个量级、标注一致性高（无人工疲劳漂移）；风险：偏好模型偏见放大、奖励黑客（reward hacking）继承、反馈分布同质化（模型反馈的 mode collapse）；工程实践：人机混合标注（AI 初筛+人工抽检）、争议样本升级人工，2024-2025 成为开源与工业对齐管线默认件；与 RLAHF 之争本质是「标注规模 vs 分布保真」权衡。",
    "stage": "2023 起源 · 2024 成长期",
    "player": "Google; Anthropic",
    "url": "https://arxiv.org/abs/2309.17606",
@@ -2314,7 +2314,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "在预训练基座上用指令-回答对做交叉熵微调，让模型学会对话格式与指令遵循的关键阶段。",
+   "desc": "在预训练基座上用指令-回答对做交叉熵微调，让模型学会对话格式与指令遵循的关键阶段。定位：对齐流水线第一阶段（SFT→RM→PPO 或 SFT→DPO/GRPO）；InstructGPT（2022-01）确立范式（约 1.3 万条高质量标注起步）；工程要点：损失掩码（只算回答 token）、特殊 token/chat template 一致性、学习率通常比预训练低 1-2 个量级、LoRA/QLoRA 参数高效变体（2023 起主流）、灾难性遗忘与 replay 混合；SFT 后的能力上限争议（LIMA 2023 少样本哲学 vs 全量指令工程派）；2024-2025 后 SFT 在前沿模型占比下降（被 RLVR/推理训练接棒），但在垂类落地仍是默认第一步。",
    "stage": "2020 起源 · 2022 成熟",
    "player": "OpenAI; Meta; 各厂",
    "url": "https://arxiv.org/abs/2203.02155",
@@ -2378,7 +2378,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "封装 SFT/DPO/RL 全流程的开源工具，让工程师几十行命令即可复现主流微调配方。",
+   "desc": "封装 SFT/DPO/RL 全流程的开源工具，让工程师几十行命令即可复现主流微调。HF TRL（Transformer RL）为事实标准库（SFT/DPO/GRPO/PPO Trainer 全家桶）；Unsloth 以手写 Triton 内核实现单卡 2-4 倍加速+显存减半，消费级微调神器；Axolotl（配置文件驱动，社区 YAML 模板生态）；LLaMA-Factory（中文社区最流行，WebUI 零代码+LoRA/QLoRA/全参全支持）；Together/Colossal-AI/Megatron-LM 占企业级分布式侧；2024-2025 年 QLoRA 标准化使单张 4090 微调 70B 成为可能，微调民主化的直接推手。",
    "stage": "2023 起源 · 2025 成熟",
    "player": "Unsloth; HuggingFace TRL; Axolotl; LLaMA-Factory",
    "url": "https://github.com/huggingface/trl",
@@ -2730,7 +2730,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L4",
-   "desc": "Claude 系列模型 API，以长上下文、Agent 工具调用与企业安全合规著称。",
+   "desc": "Claude 系列模型 API，以长上下文、Agent 工具调用与企业安全合规为核心卖点。演进：Messages API（2024-03 取代旧 completions）→ tool use（2024-04 GA）→ computer use（2024-10 beta，屏幕操作型 Agent 先声）→ prompt caching（2024-08，90% 缓存折扣）、batch API（50% 折扣）→ MCP 开源（2024-11，成为 Agent-工具连接事实标准）→ Claude Code（2025）与 Enterprise/Org 级管理面；定价策略：Opus 旗舰/Sonnet 主力/Haiku 轻量三档，企业谈判中对比 OpenAI 与 Bedrock/Vertex 双托管分发（2024-09 起上 AWS Bedrock/GCP Vertex）；企业采用：以代码（Claude Code/SDK）与长文档分析为最强场景（各开发者调查公开口径常年居前）；2025-2026 与 OpenAI 竞争焦点转向 Agent 可靠性与企业安全认证（SOC2/HIPAA）。",
    "stage": "2023 起源 · 2026 成熟期",
    "player": "Anthropic；AWS Bedrock、Google Vertex 托管分销",
    "url": "https://www.anthropic.com/pricing",
@@ -2858,7 +2858,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L5",
-   "desc": "在 K8s/云平台上对 GPU 资源做切片、排队、抢占与按负载自动扩缩副本的调度层。",
+   "desc": "在 K8s/云平台上对 GPU 资源做切片、排队、抢占与按负载自动扩缩副本的调度层。谱系：K8s Device Plugin + GPU sharing（NVIDIA time-slicing/MIG 切片）→ Volcano/Kueue 批调度（gang scheduling 防部分分配死锁）→ Run:ai（2024-12 被 NVIDIA 收购，GPU 池化商业旗舰）/Hexa→ NVIDIA Run:ai 整合；推理侧弹性：KEDA 基于 KPI 缩副本、LLM 特有（KV cache 占用+冷启动模型加载分钟级使缩容窗口设计难）、抢占与优先级（训练任务可抢占 vs 在线推理保 SLA）；多租户：GPU 配额/虚拟化（vGPU）、Spot 实例训练检查点容错；2025-2026 动向：异构调度（GPU+NPU+xPU 统一池）、节能调度（碳感知 carbon-aware scheduling 概念进 GDC/Hamilton 文档）。",
    "stage": "2022 起源 · 2026 成长期",
    "player": "Kubernetes Kueue、Volcano、Ray Serve、KServe Autoscaler、RunPod/AWS EKS",
    "url": "https://github.com/kubernetes-sigs/kueue",
@@ -3034,7 +3034,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L5",
-   "desc": "宽松型开源许可证的事实标准，明确专利授权与免责，是主流 AI 开源项目首选。",
+   "desc": "宽松型开源许可证的事实标准，明确专利授权与免责，是主流 AI 开源项目首选。条款要点：允许商用/修改/再分发/私有衍生，显式专利授权（第 3 条——防专利钓鱼，与 MIT 的核心差异）、NOTICE 保留义务、无商标授权；AI 时代地位：PyTorch/Transformers/vLLM/LangChain 及模型权重（Mistral/Qwen 多数/DeepSeek MIT 更短但兼容）首选；诉讼史：Google v. Oracle（2021 最高法院判 API 合理使用，与 Apache 2.0 兼容性问题相关背景）；AI 特有争议：权重是否属「软件」（OSI OSAID 2024 定义之争）、专利条款对训练数据专利的覆盖模糊；对比系：MIT（更短无专利显式）、BSD、AGPL（网络服务传染——防云套壳）、SSPL（MongoDB 激进版被 OSI 拒）；企业合规：Apache 2.0 产品可安全商用（第 7 条免责），但 NOTICE 与第三方依赖链仍需扫描。",
    "stage": "1999 起源 · 2026 成熟期",
    "player": "Apache Software Foundation",
    "url": "https://www.apache.org/licenses/LICENSE-2.0",
@@ -3050,7 +3050,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L5",
-   "desc": "「开源但带商用限制」的模型权重许可范式：可免费商用但有月活阈值/再分发约束。",
+   "desc": "「开源但带商用限制」的模型权重许可范式：可免费商用但有月活阈值/再分发约束。谱系：Llama 2 Community License（2023-07，月活 7 亿以上需单独授权）→ Llama 3/3.1/4（沿用+品牌条款：衍生模型须以 Llama 开头命名，2024-2025）；对比系：Mistral Apache 2.0（最宽松）、Qwen（Tongyi Qianwen LICENSE，3 米 72B 起部分版本 Apache）、DeepSeek（MIT，2025 R1 起）与 GLM（MIT）、Kimi K2（Modified MIT——改条款防未署名套壳）；欧盟 RAIL 类负责任许可、OpenRAIL-M（BLOOM 沿用）；「开源洗白」（open-washing）批评（OSI 2024-10 Open Source AI Definition v1.0 试图划界：需公开训练数据信息+代码+权重才够格）；对开发者：许可条款差异决定商用合规路径（月活阈值/区域限制/署名义务），为选型表必列项。",
    "stage": "2023 起源 · 2026 分化期",
    "player": "Meta Llama License、DeepSeek License、Qwen（Apache 2.0）",
    "url": "https://www.llama.com/llama3_1/license/",
@@ -3418,7 +3418,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L6",
-   "desc": "提升检索质量的一组经典技巧：假设性文档、查询重写、交叉编码重排。",
+   "desc": "提升检索质量的一组经典技巧：假设性文档、查询重写、交叉编码重排。技术包：HyDE（2022-12 Precise Zero-Shot Dense Retrieval，LLM 生成假设文档再检索，零样本提升公开口径）、查询改写（Multi-Query/Step-Back/RAG-Fusion 2023）、交叉编码器重排（Cohere Rerank/bge-reranker，top-50→top-5）、句子窗口与父文档检索（parent-document retriever）、self-RAG（2023-10，模型自判是否检索与批判）、CRAG（2024，检索质量评估+网络搜索兜底）；生产组合拳：query 理解→hybrid 检索→rerank→引用生成，2024-2025 与长上下文之争（「RAG 已死」论 vs 企业知识新鲜度/权限现实）中 RAG 仍是企业落地主力形态。",
    "stage": "2022 起源 · 成熟期",
    "player": "Google(HyDE);Cohere;bge-reranker",
    "url": "https://arxiv.org/abs/2212.10496",
@@ -4154,7 +4154,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L9",
-   "desc": "模型生成看似合理但事实错误内容的现象，是 LLM 可靠性核心问题。",
+   "desc": "模型生成看似合理但事实错误内容的现象，是 LLM 可靠性核心问题。缓解谱系：检索增强（RAG，事实锚定）、RLHF 拒答训练（「我不知道」校准，GPT-4 卡片公开披露）、过程监督（Let's Verify Step by Step 2023，PRM 奖励推理步骤）、引用生成与归因（WebGPT/Bing Chat 风格）、自我一致性/多路采样投票、RAGAS 类忠实度评测；2024-2025 新线：事实性 RLVR（可验证奖励）、搜索增强训练（OpenAI Deep Research/Perplexity）、推理时验证（Process Reward Model 打分）；企业侧仍以「幻觉=生产事故」为默认假设，金融/医疗/法律垂直的 guardrail 与人工复核为标配；量化基准 TruthfulQA/HaluEval/FactScore 为评测三件套。",
    "stage": "2020 起源 · 2026 持续治理期",
    "player": "OpenAI/Anthropic/Google 事实性研究、RAG 生态、Self-RAG",
    "url": "https://arxiv.org/abs/2305.13534",
@@ -5052,7 +5052,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "Google专为医疗问答微调的医学大模型，MedQA达到USMLE专家级。",
+   "desc": "Google专为医疗问答微调的医学大模型，MedQA达到USMLE专家级。演进：Med-PaLM（2022-12，Flan-PaLM 医疗指令微调）→ Med-PaLM 2（2023-03/04，MedQA 86.5%，首个达专家级并开放客户测试，后上云 Vertex AI）→ 2023-12 整合为 MedLM 套件（美国先行）；与 EHR 检索、医学影像（如 Med-Gemini 路线）组合成 Google Health AI 前线；学界基线地位被 Med-PaLM M（多模态）与后续开源医学模型（BioGPT/OpenBioLLM 等）接续。",
    "stage": "2022 起源 · 2023 产品化 · 2025 被Gemini替代",
    "player": "Google DeepMind,Google Cloud,Mayo Clinic,23andMe式合作",
    "url": "https://pubmed.ncbi.nlm.nih.gov/39779926/",
@@ -5580,7 +5580,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "用知识图谱与学习模型为学生动态规划学习路径的早一代AI教育产品。",
+   "desc": "用知识图谱与学习模型为学生动态规划学习路径的早一代AI教育产品。Knewton（2008 创立，adaptive learning platform，2019 年被 Wiley 收购）：知识组件图+项目反应理论（IRT）估计学生能力→按目标动态选题；同期 ALEKS（知识空间理论 KS，McGraw-Hill 旗下，仍在运营）与 Carnegie Learning MATHia（认知导师传统）；教训价值：Knewton 2017 年放弃直营 B2C 转 B2B 白标，证明纯自适应引擎的独立商业模型脆弱；与新一代 LLM 对话式辅导（Khanmigo 2023+）的分野在「静态题库路径规划 vs 生成式苏格拉底式引导」。",
    "stage": "2008 起源 · 2016 平台化 · 2023 LLM重写",
    "player": "Knewton,乂学松鼠AI,科大讯飞,Carnegie Learning",
    "url": "https://www.knewton.com/",
@@ -5628,7 +5628,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "中国K12智适应学习代表，2014年成立、2023-2025年经历债务重组后重启。",
+   "desc": "中国K12智适应学习代表，2014年成立、2023-2025年经历债务重组后聚焦学习机硬件。脉络：栗浩洋创立（ adapative learning 概念早期布道者，Squirrel AI 与 CMU/中科院自动化所联合实验室宣传口径）、曾以「纳米级知识拆分」（知识点拆到 3 万+）与 MCM 学习能力建模为卖点、2019 年人机大战营销（真人教师对照公开活动）；危机：预付费模式+双减（2021）冲击、2022-2023 债务重组与线下网点收缩（公开报道巨额债务）、2023-2025 转型学习机硬件（与步步高/科大讯飞学习机竞争）；技术遗产：知识图谱+IRT 智适应引擎的国内商用先例价值；行业对照：智适应（松鼠AI）vs 大模型对话式（Khanmigo/学而思九章）两代范式交替的国内样本。",
    "stage": "2014 起源 · 2018 高峰 · 2023 重组 · 2025 重启",
    "player": "松鼠AI,乂学教育,SIG,新东方,好未来",
    "url": "https://pitchbook.com/profiles/company/230036-41",
@@ -5900,7 +5900,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "Berkeley Lab 的机器人+AI 闭环实验室，能自主合成并表征预测出的新材料。",
+   "desc": "Berkeley Lab 的机器人+AI 闭环实验室，能自主合成并表征预测出的新材料。2023-04 Nature（《An autonomous laboratory for the accelerated synthesis of novel materials》）：17 天自主合成 41 种新材料（其中 9 种为全新化合物），与 GNoME（DeepMind 220 万预测结构）衔接——A-Lab 负责验证合成性；争议：2023-04 ChemRxiv 批评文（Robert Palgrave 等）质疑部分「新化合物」实为已知相误判，Berkeley 团队回应后仍存分歧——成为 AI4Science 可重复性讨论标志案例；扩散：加拿大碳循环自我驱动实验室、利物浦大学移动机器人化学家（2020/2023 Nature 双发）、国内中科大机器化学家（2022 国家大科学装置口径）；2025-2026 方向：LLM 编排实验规划（Coscientist 2023 Nature 之后，自主实验决策上 LLM）与云实验室平台（Emerald Cloud Lab 类）标准化。",
    "stage": "2023 起源 · 2025 成长期",
    "player": "Lawrence Berkeley National Laboratory; Berkeley Lab",
    "url": "https://newscenter.lbl.gov/2023/11/29/google-deepmind-new-compounds-materials-project/",
@@ -5916,7 +5916,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "DeepMind 基于强化学习、在 Lean 形式语言中做数学证明的系统。",
+   "desc": "DeepMind 基于强化学习、在 Lean 形式语言中做数学证明的系统。2024-07 与 AlphaGeometry 2 组合在 IMO 2024 达银牌分数线（28/42，6 题解 4：AlphaProof 解 2 非几何题 + AG2 解 2 几何题，唯一未解组合题）；技术=AlphaZero 式 RL（在 Lean 环境中百万级形式化问题自对弈训练）+ Gemini 底座；同期公开 Alpha Solutions API 愿景未商用；2025 年 Gemini Deep Think 以自然语言端到端达 IMO 金牌（35/42），形式化路线与直接推理路线合并；教育影响：形式化数学数据瓶颈（autoformalization）成为后续 RL for math 主战场。",
    "stage": "2024 起源 · 2025 成长期",
    "player": "Google DeepMind; Lean Community",
    "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/",
@@ -5932,7 +5932,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "DeepMind 结合神经语言模型与符号演绎引擎的几何定理求解系统。",
+   "desc": "DeepMind 结合神经语言模型与符号演绎引擎的几何定理求解系统。2024-01 Nature：神经语言模型提辅助构造点（快速直觉）+ 符号引擎 DD+AR 严谨演绎， IMO 几何题 30 题解 25 题（接近金牌均值 25.9）；2024-05 AlphaGeometry 2（Gemini 训练的 LM+更符号引擎， IMO 银牌级，与 AlphaProof 同年组合达 IMO 银线）→ 2025 年 Gemini Deep Think IMO 金牌（自然语言端到端，不再依赖形式化翻译）代际更替；与 Wu's method（吴文俊机械化几何）构成东西方两条定理机器证明路线的历史呼应；教育侧影响：IMO 级解题进入 AI 评测旗舰集（FrontierMath 类）。",
    "stage": "2024 起源 · 2024 成熟(单项)",
    "player": "Google DeepMind",
    "url": "https://deepmind.google/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/",
@@ -6044,7 +6044,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "能自主检索文献、设计实验、写初稿甚至辅助评审的多步骤科研智能体。",
+   "desc": "能自主检索文献、设计实验、写初稿甚至辅助评审的多步骤科研智能体。谱系：AI Scientist（2024-08 Sakana，端到端论文生成+自动审稿 controversial 出圈）、Agent Laboratory（2025）、FutureHouse（2025-05 PaperQA2 达到人类文献检索水平公开宣称）；AI 辅助审稿：IOP Publishing/Springer 试点 AI 审稿助手（查方法论漏洞与统计错误，2024-2025 出版商公告）、NeurIPS/ICML 的 LLM 使用披露政策（2024-2025 政策更新）；学术诚信红线：AI 署名禁止（Nature/Science/AAAS 一致政策）、AI 生成论文批量撤稿（2023-2025 Retraction Watch 追踪数百篇）、.detect 猫鼠游戏；2025-2026 前沿：Deep Research 类工具改变文献综述生产方式（综述质量与引用真实性争议）、自主实验室（A-Lab/Coscientist）与 LLM agent 融合的「自主科研」路线。",
    "stage": "2024 起源 · 2026 萌芽期",
    "player": "Google DeepMind(AI co-scientist); OpenAI Deep Research; 各期刊出版方",
    "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
@@ -6700,7 +6700,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "用图像生成让用户上传照片即可试穿服装、试妆、试戴配饰的电商体验。",
+   "desc": "用图像生成让用户上传照片即可试穿服装、试妆、试戴配饰的电商体验。谱系：VITON/ClothFlow 学术线（2018-2020 warping+合成）→扩散模型统一（TryOnDiffusion 2023 Google、IDM-VTON 2024，姿态/遮挡/布料物理仿真跃迁）→商用化（Google AI Try-On Shopping 2024-05 I/O 发布、Amazon Virtual Try-On（鞋类）2023、阿里/京东/拼多多商家工具内置）；试妆线：ModiFace（欧莱雅 2018 收购）与 Perfect Corp（YouCam，NYSE 上市）为 AR 实时系双雄、生成式试妆（Generative AI 试色）2024-2025 接棒；转化率提升与退货率下降为商家 ROI 核心（Google 公开试穿功能 CTR 提升口径）；瓶颈：真实布料褶皱/身材多样性/色差投诉，2026 年与 3D 生成（商品数字孪生）融合为方向。",
    "stage": "2023 起源 · 2025 成长期",
    "player": "阿里(淘系); 得物; 京东(立影)",
    "url": "https://www.chinanews.com/cj/2025/06-19/10434601.shtml",
@@ -6764,7 +6764,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "百度旗下 L4 级自动驾驶出行平台，全球订单量最大的 Robotaxi 之一。",
+   "desc": "百度旗下 L4 级自动驾驶出行平台，全球订单量最大的 Robotaxi 之一。里程碑：2022-08 北京亦庄全无人商业化试点→2023-08 武汉全域全无人商业化→2024-07 武汉千车扩张引爆全球讨论（RT6 成本降至 20 万级）；2024-10 香港获批试点（内地企业首次）、2025 年中东（迪拜/阿布扎比）与瑞士扩张；争议点：2024 年武汉出租车司机生计抗议与「旧行业替代」社会讨论；技术底座 Apollo 开放平台+ANP 城市领航同源；2026 年与 Uber/Lyft 合作出海（Robotaxi 网络接入全球平台）成为新阶段主线。",
    "stage": "2013 起源 · 2022 武汉全无人 · 2025-2026 全球扩张",
    "player": "百度 Apollo / 萝卜快跑",
    "url": "https://auto.cctv.cn/2026/08/27/ARTICU5dV2luhsCQN7GgLFn0260827.shtml",
@@ -6796,7 +6796,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "小鹏汽车的高阶智驾系统，国内最早端到端量产并演进到 VLA 路线的玩家。",
+   "desc": "小鹏汽车的高阶智驾系统，国内最早端到端量产并演进到 VLA 路线的玩家。脉络：XNGP（2023，无高精地图城市 NGP 领跑）→ XNGP 端到端大模型版（2024-05 AI DAY，首个量产端到端secondary——两段式：感知-规划网络）→ 图灵芯片（2024-08 发布自研 3 颗图灵 AI 芯片整车算力 2250 TOPS 宣称口径）→ 第二代 VLA（2025-11 科技日公开：视觉-语言-动作端到端，取消感知-规划分段，云端蒸馏+车端 2 亿参数小网络快思考+云端大脑框架）；对比：华为 ADS（GOD/PDP 网络路线）、理想 VLA（2025-09 双系统）、Momenta 统一模型；数据基建：小鹏自建云端算力（10 EFLOPS 口径 2025）与千里浩瀚系统命名体系；2026 竞争焦点：L3 法规准入（工信部试点名单）与Robotaxi 平台化（小鹏 2026 Robotaxi 计划公开）。",
    "stage": "2018 起源 · 2024 端到端 · 2026 VLA 量产",
    "player": "小鹏汽车",
    "url": "https://www.xiaopeng.com/news/company_news/5546.html",
@@ -6844,7 +6844,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "用神经网络实时预测摄像头视野内任意位置是否被占据的栅格，替代高精地图和障碍物分类。",
+   "desc": "用神经网络实时预测摄像头视野内任意位置是否被占据的栅格，替代高精地图和障碍物分类。特斯拉 2022-10 AI 日提出（Occupancy Networks，栅格化占据感知替代障碍物分类），特斯拉 AI 资深总监 Ashok Elluswamy 主讲；意义：从「识别已知类别物体」转向「任意 3D 空间占据预测」，长尾障碍物（侧翻卡车/异形物）泛化；工业跟进：华为 ADS 3.0 GOD 网络（2024，通用障碍物检测同思路）、理想/小鹏占用栅格线；开源复现：OccWorld/VOXEL 类学术线、CVPR Occ 挑战赛（nuScenes-Occ）持续；与端到端（E2E）架构融合：占据栅格作为中间表征进入 2024-2026 主流 BEV+Occupancy+Transformer 栈。",
    "stage": "2022 起源 · 2023 量产 · 2026 标配",
    "player": "Tesla / 业界广泛跟进",
    "url": "https://www.tesla.com/ai-day-2",
@@ -7404,7 +7404,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "用 AI 优化发电、输电、配电、用电全链路，含需求响应、虚拟电厂。",
+   "desc": "用 AI 优化发电、输电、配电、用电全链路，含需求响应、虚拟电厂。AI 切入点：负荷预测（LSTM/Transformer 短期负荷预测为经典应用）、新能源功率预测（风光出力预测精度直接影响电网消纳——国网/南网 AI 平台公开案例）、故障检测与定位（PMU 同步相量+异常检测）、调度优化（强化学习调度试点，DeepMind 2024 与 TGS 合作欧洲电网控制 discuss）、虚拟电厂 VPP（聚合分布式资源参与电力市场，特斯拉 Autobidder/国内国电投试点）；与算力电力耦合：AI 数据中心用电激增（2024-2026 美国数据中心电力争议、国内「东数西算」绿电配套）反向推动电网智能化投资；需求响应 AI（动态电价信号+家庭电池/空调协同）为 C 端延伸。",
    "stage": "2018 起源 · 2024 大模型调度",
    "player": "国家电网 / Tesla Autobidder / NextEra",
    "url": "https://www.tesla.com/autobidder",
@@ -7420,7 +7420,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L12",
-   "desc": "用深度强化学习在 TCV 托卡马克上自动控制等离子体形状与位置。",
+   "desc": "用深度强化学习在 TCV 托卡马克上自动控制等离子体形状与位置。2022-02 Nature 论文（Degrave et al.）：把控制问题构造成 RL（架构近似 MPC， apprenticeship learning 从经典控制器蒸馏），在 EPFL TCV 上实现多种等离子体位形（含 Snowflake 新位形）实时控制；2024-2026 进展：与 PRINCETON/PPPL 合作加速器物理学习（Fusion Learning Collaborative）、聚变公司合作（CFS？公开口径为 TCV 与 Switzerland 合作延续）；意义：控制频率需求（毫秒级）与传统控制工程不兼容处恰是 RL 强项，为聚变商业化（ITER/SPARC 时代）提供 AI 控制范式；与 AI for Science 主线（天气预报 GraphCast/材料 GNoME）并列 DeepMind 科学三线。",
    "stage": "2022 起源",
    "player": "Google DeepMind / EPFL Swiss Plasma Center",
    "url": "https://www.deepmind.com/discover/blog/accelerating-fusion-science-through-learned-plasma-control/",
@@ -7932,7 +7932,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "字节跳动的视频生成产品与模型，依托剪映生态与抖音分发，走「免费试用+创作工具」路线。",
+   "desc": "字节跳动的视频生成产品与模型，依托剪映生态与抖音分发，走「免费试用+创作工具」路线。脉络：即梦 Dreamina（2024 上线，图片+视频生成，剪映团队）→ Seedance 1.0（2025-06，豆包视频生成模型，Artifact Analysis 多榜第一的公开口径）→ Seedance 1.5/2.0（2025 下半年-2026，多镜头叙事与音画同步推进）；与即梦 AI 的开源线（SDXL-Lightning 等类 SD 加速工作出自字节 Seed 团队）互补；对比可灵（快手）：可灵先发商用、即梦靠抖音创作者生态追赶；2026 年 Sora 2 免费化冲击下国内双雄转向 Agent 化创作流（剧本→分镜→成片）竞争。",
    "stage": "2024 起源 · 2025-2026 工具生态整合",
    "player": "字节跳动（剪映/CapCut/火山引擎）",
    "url": "https://www.seedance.ai/",
@@ -8092,7 +8092,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "把一段视频/播客自动翻译成多语言并保留原说话人音色与口型的配音管线。",
+   "desc": "把一段视频/播客自动翻译成多语言并保留原说话人音色与口型的配音管线。谱系：HeyGen Video Translate（2023-09 走红，口型同步+音色克隆）→ ElevenLabs Dubbing（2023-10，29+ 语言保留音色）→ Rask.ai/Papercup（媒体级本地化）、字节豆包视频翻译/剪映「声音克隆+翻译」一体；技术栈：ASR→翻译（LLM 语境化）→TTS 音色克隆→口型驱动（Wav2Lip 类/视频生成修复）；产业影响：YouTube 多语言音轨功能（2023 起灰度）使创作者单内容多市场分发，短剧出海（ReelShort 类）依赖该管线；2025-2026 与数字人直播带货出海（TikTok 多语言直播）合流；版权与声音克隆授权（ElevenLabs Voice Marketplace 授权分成模式）为治理焦点。",
    "stage": "2023 起源 · 2025-2026 出海标配",
    "player": "HeyGen,Adobe Firefly,剪映/CapCut,ElevenLabs Dubbing,D-ID",
    "url": "https://www.heygen.com/",
@@ -8140,7 +8140,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "从多视图照片重建三维场景的神经表示方法，3DGS 在 2023 年后成为实时渲染主流。",
+   "desc": "从多视图照片重建三维场景的神经表示方法，3DGS 在 2023 年后成为主流。谱系：NeRF（2020 ECCV，Mildenhall et al.，MLP+体渲染，训练小时级）→ Instant-NGP（2022，哈希编码，秒级训练，NVIDIA）→ 3DGS（2023-08 SIGGRAPH Best Paper，Kerbl et al.，显式高斯基元+光栅化，实时渲染 100+ FPS）；3DGS 生态爆发：SfM 初始化（COLMAP）→抗锯齿/压缩/动态 4DGS（2024 家族论文数百篇）→商用（Polycam/Luma AI 扫描 App、房地产/文博数字化）；与自动驾驶结合（街景重建训练仿真——Waify/Waymo 3DGS 线 2024-2025）、与生成式融合（Genie/世界模型用 3DGS 作表征）；局限：视角稀疏时崩坏、动态场景与非朗伯材质仍难；学术 2024-2025 转向「3DGS+生成模型」（3D 生成出高斯场直渲）。",
    "stage": "2020 NeRF · 2023-2026 3DGS 实时化",
    "player": "UC Berkeley,Inria,Meta,学术开源社区",
    "url": "https://arxiv.org/abs/2003.08934",
@@ -8460,7 +8460,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "在约会/社交应用中用 AI 破冰、写开场白、匹配画像与关系分析。",
+   "desc": "在约会/社交应用中用 AI 破冰、写开场白、匹配画像与关系分析。产品线：Tinder（AI 照片选择与 Bio 助手 2024 公开测试）、Hinge（AI Prompt Feedback）、Bumble（OpenAI 合作「开Icebreaker」工具 2023-2025）、Grindr（AI wingman 2025 报道）；AI 伴侣跨界：Replika/Character.ai 擦边「数字恋人」与约会 App 边界争议；匹配技术：embedding 相似度+行为反馈学习（传统协同过滤+图嵌入）、LLM 画像（对话→兴趣抽取）；争议轴：数据隐私（约会数据敏感度最高级）、算法歧视（种族偏好放大研究 2018-2024 多篇）、AI 代聊真实性（「是你的 AI 还是你？」社交失真讨论）；2025-2026 「AI mediating human connection」成为 SXSW 类话题常客。",
    "stage": "2023 起源 · 2025-2026 AI 僚机兴起",
    "player": "Tinder,Bumble,Hinge,Rizz 类 AI 僚机,探探",
    "url": "https://www.tinder.com/",
@@ -8540,7 +8540,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L13",
-   "desc": "AI 队友/陪聊机器人与人一起打游戏，并自动完成重复练级任务。",
+   "desc": "AI 队友/陪聊机器人与人一起打游戏，并自动完成重复练级任务。谱系：OpenAI Five（2018-2019，Dota 2 击败 OG 冠军战队，纯 RL 五人协作里程碑）→ AlphaStar（DeepSeek 之外 DeepMind 2019，星际 II 达宗师级）→ 2023-2025 年 LLM 原生 NPC（NVIDIA ACE + Inworld，可对话队友）、Character.ai 游戏角色机器人；代练与脚本灰产线：外挂式自动化长期被游戏 TOS 禁止，合规线为官方 AI 训练营/复盘助手（棋类：KataGo 开源围棋、Leela Zero 复现）；「AI 陪玩」从赛事演示转向 C 端情感+社交复合场景是 2024-2026 主线。",
    "stage": "2023 起源 · 2025-2026 灰色与合规并存",
    "player": "游戏厂商内挂助手,网易/腾讯游戏助手,第三方陪玩平台",
    "url": "出处：游戏行业媒体/厂商公告（估计）",
@@ -8764,7 +8764,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "融合多组学数据、因果推断与文献挖掘，预测并排序疾病相关新药靶点。",
+   "desc": "融合多组学数据、因果推断与文献挖掘，预测并排序疾病相关新药靶点。代表：Insilico Medicine PandaOmics（2021-2022 特发性肺纤维化靶点 18 个月进临床的公开案例）、BenevolentAI（Baricitinib COVID 重定位 2020 出圈）、Recursion（2025 被 Exscientia 合并为 AI 制药巨型合并案）；方法：知识图谱+GNN+因果发现（多组学因果网络）、文献 NLP 抽取（PubMed 亿级摘要关系抽取）、CRISPR 干扰筛选数据学习；验证漏斗：计算靶点→体外/类器官→动物→临床，AI 主要压缩前两环；2025-2026 Isomorphic/国内英矽智观管线推进为风向标；失败率仍高（临床二期后成功率未显著改善的批评声音并存）。",
    "stage": "2019 起源 · 2024 临床验证 · 2026 多智能体",
    "player": "Insilico PandaOmics;Recursion;Isomorphic Labs;荀子AI",
    "url": "https://www.mittrchina.com/news/detail/16948",
@@ -8796,7 +8796,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用多任务图神经网络预测分子吸收、分布、代谢、排泄与毒性等成药性端点。",
+   "desc": "用多任务图神经网络预测分子吸收、分布、代谢、排泄与毒性等成药性端点。方法：分子图 GNN（MPNN/D-MPNN）→ 几何深度学习（3D 构象）→ 大模型化（Molformer/ChemBERTa 类分子预训练、2024-2025 蛋白-分子联合基座）；基准：MoleculeNet/TDC（Therapeutics Data Commons） leaderboard 为公共擂台；工业：Exscientia/薛定谔 FEP+ML 混合、国内晶泰/英硅内部平台；局限：实验数据稀缺且分布偏移（活性悬崖 activity cliff）、多端点相关性建模；2025 年生成式 ADMET（生成即过滤，在分子生成目标里加 ADMET 约束）为前沿；与 AlphaFold3 的结合（靶点-配体复合物预测+成药性）缩短设计-验证循环。",
    "stage": "2018 起源 · 2021 图注意力 · 2024 3.0",
    "player": "ADMETlab;admetSAR;NCATS ADME;Schrodinger",
    "url": "https://admetmesh.scbdd.com/",
@@ -8924,7 +8924,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把术前影像配准叠加到术野，用AR头显/投影做实时术中定位与引导。",
+   "desc": "把术前影像配准叠加到术野，用AR头显/投影做实时术中定位与引导。代表：Augmedics xvision（FDA 首个 AR 脊柱导航头盔，2019 年获批，椎弓根螺钉置入准确率提升）、HoloLens 手术辅助研究线（微软医疗 MR 案例）、国内联影/推想术中影像联动；技术栈=CT/MRI 三维重建+表面/标记点配准+器械追踪（NDI 光学导航）+AR 渲染；AI 增强：术中快速分割（nnU-Net 类模型秒级器官分割）、术中超声/CT 实时融合；神经外科/脊柱为最成熟科室，软组织器官因形变仍是难点（数字孪生+形变补偿为前沿）。",
    "stage": "2019 起源 · 2023 头显获批 · 2026 多术式",
    "player": "Medivis;Augmedics(VB Spine);Proprio;Smith+Nephew",
    "url": "https://www.medivis.com/press-release/medivis-first-to-receive-fda-clearance-for-augmented-reality-navigation-in-neurosurgery",
@@ -9356,7 +9356,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "对海量日志/指标做异常检测、聚类与自然语言摘要，从噪声中分离信号。",
+   "desc": "对海量日志/指标做异常检测、聚类与自然语言摘要，从噪声中分离信号。谱系：规则告警→统计异常（Prophet/ESD）→ 深度时序（LSTM-AE/Transformer Anomaly——TimesNet 2023）→ LLM 时代：日志模板抽取（Drain3 常驻）+LLM 根因分析（RCA Copilot——Datadog Bits AI/New Relic AI 2024-2025 商用）、事件摘要与 on-call 交接（PagerDuty AI）；AIOps 平台：Datadog/Splunk（Cisco 收购后 AI 升级）、Elastic AI Assistant、国内云智慧/必示科技；价值主张：MTTR 缩短（告警压缩 90%+、根因候选排序）；挑战：多源关联（日志/指标/链路/变更单）、告警风暴抑制、LLM 幻觉根因（须绑定证据链可点击）；2025-2026 与 SRE Agent（自动 runbook 执行+修复 PR）演进为「自愈运维」讨论。",
    "stage": "2018 起源 · 2024 LLM 化",
    "player": "Datadog(Watchdog/Bits); Elastic; Splunk; Dynatrace",
    "url": "https://www.datadoghq.com/dg/ai/datadog-aiops/",
@@ -9452,7 +9452,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "一句自然语言 prompt 直接生成可部署全栈应用/项目骨架，免去手动搭脚手架。",
+   "desc": "一句自然语言 prompt 直接生成可部署全栈应用/项目骨架，免去手动搭脚手架。格局：v0（Vercel 2023-10，生成 React/Next.js UI + 部署一体）→ Bolt.new（StackBlitz 2024-10，WebContainer 浏览器内全栈运行）→ Lovable（2024-11 瑞典，GPT-Engineer 团队创业，supabase 集成全栈应用，2025 年 ARR 增长为欧洲最快公开报道之一）→ Replit Agent（2024-09，云 IDE 内 agent 全流程）、Cursor Composer/Claude Code（终端形态）；共性栈：LLM 多文件编辑+沙箱执行+部署管道（预览-修复循环）；争议：安全（生成代码漏洞）、可维护性（一次性脚手架 vs 迭代工程）；对「低代码平台」的替代性竞争是 2025-2026 主线。",
    "stage": "2023 起源(v0) · 2025 agentic 化",
    "player": "Vercel(v0); StackBlitz(bolt.new); Replit; Lovable",
    "url": "https://vercel.com/blog/v0-app",
@@ -9500,7 +9500,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把卫星影像、信用卡流水、舆情情绪等非传统数据转成量化交易信号。",
+   "desc": "把卫星影像、信用卡流水、舆情情绪等非传统数据转成量化交易信号。谱系：卫星停车场计数（Orbital Insight 2008 起家、美国 2017 对冲基金明星案例——沃尔玛停车场与营收相关性）、信用卡面板（Yodlee/Second Measure，卖方卖给买方模式）、舆情（GDELT/StockTwits 情绪因子）、供应链图谱（Thinknum/ImportGenius 提单数据）；合规轴：MNPI（重大非公开信息）边界——2010s 事后多起调查案例（App Annie 被 SEC 罚 2021 为数据商合规标志）、GDPR/个保法对个人面板数据的限制；AI 增量：LLM 财报电话会议文本因子（2023-2025 学术+业界热潮）、多模态另类数据（图像/视频）；国内：另类数据尚在合规灰区（数据出境与个人信息约束），量化私募自建爬虫管线为主。",
    "stage": "2015 起源 · 2022 LLM化",
    "player": "RavenPack,AlphaSense,FinBERT,Orbital Insight,Bloomberg",
    "url": "https://arxiv.org/pdf/2503.03612v1.pdf",
@@ -9564,7 +9564,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把账户/设备/IP/商户建成图，识别养号、跑分、合成身份等团伙作案。",
+   "desc": "把账户/设备/IP/商户建成图，识别养号、跑分、合成身份等团伙作案。技术：实体关系图（设备指纹/IP 段/收款账户/手机号多维节点）、GNN（GraphSAGE/GAT 社区发现与节点分类）、图嵌入+异常子图挖掘（连通域/环检测——资金环路）、时序图（资金流时序+行为序列联合）；业务场景：信贷反欺诈（中介包装/黑产代办）、支付风控（跑分平台识别）、电商反刷单（虚假交易环）；工具：蚂蚁 GraphScope（开源，2022 发布）、腾讯 Angel Graph、Amazon Neptune ML、 TigerGraph；对抗性：黑产对抗升级（设备农场→真机农场、AI 生成身份材料——2024-2025 深伪 KYC 攻击公开案例）、图结构噪声；与关系型规则引擎互补（规则拦已知、GNN 挖未知），2025 年图+LLM 解释性报告（为何判定团伙）成为合规刚需。",
    "stage": "2018 起源 · 2025 流式图",
    "player": "NVIDIA(Morpheus/GNN),Featurespace,NeRous,Microsoft",
    "url": "https://pdfs.semanticscholar.org/14f2/9eac8bb90dc0d4e21f786efae1e455744445.pdf",
@@ -9612,7 +9612,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把业务数据自动映射成监管报表格式，替代季末人工拼Excel上报。",
+   "desc": "把业务数据自动映射成监管报表格式，替代季末人工拼Excel上报。格局：银行监管报送（1104 报表/ EAST 5.0/金数工程，国内中软/神州信息/宇信科技等银行 IT 商垄断）、GRC 平台（SAP GRC/IBM OpenPages、Axoni/AxiomSL 金融数据报送全球龙头）、欧盟 DORA（2025-01 生效，金融 ICT 风险报送强合规）；AI 增量：LLM 做报表口径映射（监管制度文本→数据字段映射规则生成）、异常检测预校验（EAST 校验规则自动化测试）、监管问答（央行/金监总局政策库 RAG）；2024-2025 监管科技（RegTech）市场稳定增长（合规成本刚性），AI 主要压「口径理解+勾稽校验」人力，责任主体仍在人（报送签字制）为行业共识。",
    "stage": "2015 起源 · 2025 实时报送",
    "player": "AxiomSL,Bloomberg,OneCompanies,阿里云监管报送",
    "url": "https://fintechmagazine.com/news/a-shift-from-intent-to-evidence-navigating-regtech-strategy",
@@ -9628,7 +9628,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "自动完成身份核验、受益所有人(UBO)识别、制裁名单筛查与持续监控。",
+   "desc": "自动完成身份核验、受益所有人(UBO)识别、制裁名单筛查与持续监控。工具面：企业信息图谱（Sayari/Dun & Bradstreet/Kompany）、制裁名单与 PEP 筛查（Refinitiv World-Check/ComplyAdvantage，FATF 名单动态）、文档 OCR+LLM 抽取（护照/营业执照/UBO 声明链）；AI 增量：负面新闻（Adverse Media）LLM 摘要与分级、异常股权结构穿透（图算法+LLM 解释）、深伪对抗（活体检测升级应对 AI 换脸开户 2024-2025 香港深伪视频会议骗案报道出圈）；监管轴：FATF 建议 24/25（法人透明度）、美国 FinCEN CDD Rule、国内反洗钱法 2025 修订；误报率与人工复核成本为 KYC 运营痛点（行业常引 90%+ 误报口径），AI 精筛与案例优先级排序为核心收益。",
    "stage": "2015 起源 · 2025 持续CDD",
    "player": "Jumio,Onfido,Trulioo,ComplyAdvantage,蚂蚁链",
    "url": "https://regtechpost.com/regtech/agentic-ai-and-regtech-automating-compliance-and-risk-detection/",
@@ -9708,7 +9708,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "按关键条款类型自动标注合同红旗条款，并与标准模板比对红line。",
+   "desc": "按关键条款类型自动标注合同红旗条款，并与标准模板比对红line。代表：Kira Systems（尽调条款抽取老牌，2021 年被 Litera 收购）、Luminance（英国，自动 redline 与 Negotiate AI Agent，2024 年起 LLM 原生重构）、Ironclad/Sprout.ai；国内法大大/幂律智能/通义法睿；技术从 BERT 类 NER 条款抽取（2019-2022）转向 LLM zero-shot 审查（2023-2025），偏差幻觉与「AI 意见不能替代律师」的执业责任边界是行业共识约束；大型所（Dentons 等）以自建 Playbook + LLM 审查流水线降本 50%+ 初审工时（行业公开案例口径）。",
    "stage": "2017 起源 · 2021 CUAD基准",
    "player": "Luminance,LegalOn,Ironclad,Robin AI,法大大",
    "url": "https://www.atticusprojectai.org/cuad/",
@@ -9932,7 +9932,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "自动归集学生错题、按遗忘曲线与掌握度推送复习题并生成周/月复习计划的工具。",
+   "desc": "自动归集学生错题、按遗忘曲线与掌握度推送复习题并生成周/月复习计划的工具。谱系：Anki/SuperMemo 间隔重复算法（SM-2，1987 起源）电子化→拍照搜题时代的错题沉淀（作业帮/小猿搜题）→ 大模型时代语义归因（LLM 判错因：概念不清/审题失误/计算错误并聚类）与自动变式题生成（同知识点换数字/换情境）；知识追踪（DKT/SAKT 模型）提供掌握度底座；产品面：学而思/猿辅导 AI 讲题与错题本功能、Khanmigo 练习跟踪；合规与效果争议：变式题生成质量（LLM 出错率）与「变相题海」批评并存。",
    "stage": "2018 拍照错题 · 2024 智能复习",
    "player": "作业帮,猿辅导,科大讯飞,松鼠AI",
    "url": "https://www.zybang.com/",
@@ -10060,7 +10060,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用生成式AI从头设计抗体序列/蛋白药物并推进到临床的biologic设计赛道。",
+   "desc": "用生成式AI从头设计抗体序列/蛋白药物并推进到临床的biologic设计赛道。里程碑：Baker 组 RFdiffusion（2023-07 Nature，蛋白从头设计基础模型）与 RFdiffusionAA（2024，抗体-抗原复合物设计）、NVIDIA BioNeMo/Digital Biology 基座与 Isomorphic Labs（DeepMind 分拆，AlphaFold3 全分子复合物预测 2024-05）；临床进度：Generate Biomedicines（AI 设计的流感/肿瘤管线进临床）与 Absci（zero-shot 抗体设计 2024 公开）、Cradle（瑞士，AI 生物工厂）；国内：百图生科（xTrimo 基座）、晶泰科技（港股 AI 制药第一股，2024 年 EPS/药明合作）；2025-2026 年 Isomorphic 与诺华/礼来的合作管线推进为行业风向标。",
    "stage": "2022 合作 · 2025 临床",
    "player": "Absci(NASDAQ:ABSI),Chai Discovery,Generate Biomedicines,Isomorphic Labs",
    "url": "https://investors.absci.com/node/10061/html",
@@ -10108,7 +10108,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用AI筛选电解质、电极/催化材料并加速电池/光伏研发的应用方向。",
+   "desc": "用AI筛选电解质、电极/催化材料并加速电池/光伏研发的应用方向。代表：Microsoft 与 Pacific Northwest National Lab 合作发现新型固态电解质（2024-01 公开，数周替代数十年流程的口径）、丰田-斯坦福 ML 电池寿命预测、Sunrocket/科浪新材国内 AI 电池初创、DeepMind GNoME 涉及电解质候选；方法：DFT 高通量+ML 势函数（MACE/MatterSim 2024 精度逼近 DFT）、主动学习循环（不确定性采样降低实验次数）、LLM 文献挖掘（固液界面文献抽取）；光伏线：钙钛矿配方优化（ Bayer/Merck 公开 ML 项目、国内协鑫光电 AI 配方）；评测：BatteryBench（2024-2025 社区电池循环寿命基准）；瓶颈：电化学数据专有性强（大厂不公开）、跨尺度模拟（原子→电极→电池包）算力昂贵；2026 观察点：固态电池产业化窗口与 AI 设计材料的首批装车验证。",
    "stage": "2019 起源 · 2024 ML+DFT闭环",
    "player": "DeepMind(Materials Project),宁德时代,北大/清华,丰田中央研究所",
    "url": "https://newscenter.lbl.gov/2023/11/29/google-deepmind-new-compounds-materials-project/",
@@ -10188,7 +10188,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "在Lean/Isabelle等形式化语言中用神经网络+强化学习自动补全证明的工具链。",
+   "desc": "在Lean/Isabelle等形式化语言中用神经网络+强化学习自动补全证明的工具。谱系：GPT-f（OpenAI 2020，metamath 形式库）→ HyperTree Proof Search（Meta 2022，Isabelle）→ Lean Dojo/reProver（2023，开源 Lean 交互环境+检索增强证明器）→ AlphaProof（2024，Lean 中 RL 达 IMO 银线）→ DeepSeek-Prover-V1.5/V2（2024-2025，开源 Lean4 大规模 RL）与 Kimina-Prover（2025）；生态件：Mathlib 数学库（百万行级）、LeanFIRE/Lean Copilot 补全插件、autoformalization（自然语言→Lean）为瓶颈（PutnamBench/miniF2F 评测）；2025 年方向：RL 训练向竞赛外泛化（FrontierMath 类开放问题）与证明 agent 化。",
    "stage": "2021 起源 · 2025 RLVR化",
    "player": "Lean FRO,OpenAI Lean Copilot,Meta(MathGen),DeepMind(AlphaProof)",
    "url": "https://lean-lang.org/",
@@ -10268,7 +10268,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "输入公司名与风格偏好即自动产出 Logo、配色、字体与整套品牌 VI 的生成式设计工具。",
+   "desc": "输入公司名与风格偏好即自动产出 Logo、配色、字体与整套品牌 VI 的生成式设计。产品线：Looka/Brandmark（生成+商标检索一体老牌）、Adobe Express/Canva Logo Maker、国内稿定/创客贴 AI 栏目、Logo Diffusion（SD 微调 logo 风格）；技术：扩散模型+向量图标数据集微调、SVG 矢量化后处理（矢量化是商用痛点——位图 logo 不能缩放）、品牌套件一致性（色彩系统/字体搭配规则引擎）；商标冲突：AI 生成 logo 的可注册性与侵权风险（美国版权局 2023 AI 作品登记指引——纯 AI 生成不可登记为现实约束）；2025-2026 与品牌 Agent（自动产 VI 手册+社媒模板全套）合流，设计师角色转向品牌策略审核。",
    "stage": "2016 起源 · 2023-2026 生成式品牌设计",
    "player": "Looka,Ideogram,Brandmark,Looka/Adobe Express",
    "url": "https://looka.com/",
@@ -10284,7 +10284,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把白底商品图自动放进实景场景、或把衣服穿到 AI 模特身上的电商视觉批量生产工具。",
+   "desc": "把白底商品图自动放进实景场景、或把衣服穿到 AI 模特身上的电商视觉批量生产。产品：阿里妈妈绘蛙（淘宝商家专用 2024 火热）、京东羚珑、美图 AI 商品图、Weshop 唯象（蘑菇街系）、海外 Botika/VModel；技术：商品分割→背景生成（inpainting）→光影一致性（重打光 Relight 模型）、虚拟换装（TryOnDiffusion 系落地——姿态迁移+布料形变）、模特多样性（肤色/体型合规审查）；ROI 逻辑：传统棚拍单套数百元 vs AI 单图几毛-几元（平台宣传口径），中小商家 SKU 长尾批量刚需；争议：AI 模特真实性标注（国内《生成式 AI 标识办法》2025-09 要求）、模特行业就业冲击（2024 行业公开讨论）；2025-2026 与 3D 商品（360° 展示）+视频化（商品短视频自动生成）三层融合。",
    "stage": "2023 起源 · 2025-2026 电商视觉工业化",
    "player": "Pebblely,Botika,Veesual,Flair.ai,稿定/易模",
    "url": "https://www.pebblely.com/",
@@ -10492,7 +10492,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用单目手机摄像头或便携惯动设备实时捕捉人体骨骼、手指与面部表情，驱动数字人。",
+   "desc": "用单目手机摄像头或便携惯动设备实时捕捉人体骨骼、手指与面部表情，驱动数字人。技术谱系：Markless MoE 老牌（Move.ai/Rokoko Vision，单目/多目视频骨骼估计）→ Meta MediaPipe/Apple Vision 手部+表情 → 扩散式运动生成（MDM/Motion Diffusion）与视频驱动（Animate Anyone/MimicMotion 2024）→ 直播数字人（ HeyGen 互动化/硅基智能）与 VTuber 工作流（VSeeFace + iPhone ARKit 表情）；精度轴：手指/脚跟接触/遮挡鲁棒性；2025 年起与 VLA 遥操作融合（人类演示视频→机器人训练数据，Open X-Embodiment 生态用 MoE 录制廉价真机数据），使动捕从内容工具升级为具身数据基础设施。",
    "stage": "2023 起源 · 2025-2026 消费级动捕",
    "player": "Rokoko,Move AI,国产动捕SDK,VTube Studio,虚幻 Live Link",
    "url": "https://www.rokoko.com/",
@@ -10652,7 +10652,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "在 BEV 特征层对齐相机、LiDAR、毫米波雷达特征，统一送入下游检测/分割头。",
+   "desc": "在 BEV 特征层对齐相机、LiDAR、毫米波雷达特征，统一送入下游检测/预测。技术谱系：BEVFormer（2022，纯视觉 BEV，spatial cross-attention）、BEVFusion（MIT 2022，多模态 BEV 统一框架，点云+图像双分支融合，nuScenes SOTA 公开口径）、TransFuser（CARLA 端到端线）；传感器互补账：相机（语义丰富/便宜/夜间差）+LiDAR（精确深度/贵）+4D 毫米波（全天候/分辨率低）；量产抉择：特斯拉纯视觉（放弃雷达 2021-2022）vs 中国多传感融合主流（激光雷达降价至 200 美元级 2024 推动普及——速腾/禾赛公开口径）；端到端时代：BEV 中间表征被 VLA/世界模型吞并还是保留（2025-2026 争论，理想 VLA 双系统保留 BEV 感知层）；标定与时间同步（硬同步 vs 软同步）为工程难点。",
    "stage": "2022 起源 · 2024 量产标配",
    "player": "MIT;NVIDIA;理想;华为;百度Apollo",
    "url": "https://developer.nvidia.com/blog/new-foundational-models-and-training-capabilities-with-nvidia-tao-5-5/",
@@ -10668,7 +10668,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "对周围车辆/行人未来 3-8 秒轨迹输出 K 条候选分布（多模态），服务下游规划。",
+   "desc": "对周围车辆/行人未来 3-8 秒轨迹输出 K 条候选分布（多模态），服务下游规划。谱系：Social-LSTM/Trajectron++（社会交互建模）→ TNT/DenseTNT（目标导向，2020-2021 Waymo 榜单常用）→ HiVT/QCNet（2022-2023 Waymo Motion Prediction 冠军系，锚点+相对位置编码）→ MTR/MTR++（2023-2024，Motion Transformer）→ BEV 时代融合（UniAD 2023 CVPR best paper 把预测作为端到端中间任务）→ 生成式路线（TrajDiffusion/BehaviorGPT 2024-2025）；评测：Argoverse 2/Waymo Open Motion/nuScenes prediction 拆分；下游衔接：规划器消费多模态假设（成本函数里多假设加权）vs 直接端到端吞并预测（2025 年争论焦点——预测作为任务还是表征）；行人为最难（意图不可见+交互博弈）。",
    "stage": "2019 起源 · 2024 榜单迭代 · 2026 与世界模型融合",
    "player": "Waymo;华为;MTR 团队;Apollo;学术界",
    "url": "https://arxiv.org/html/2411.11911",
@@ -10700,7 +10700,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "在行为决策层用规则/博弈，在轨迹层用学习优化，兼顾安全可解释与泛化。",
+   "desc": "在行为决策层用规则/博弈，在轨迹层用学习优化，兼顾安全可解释与泛化。分层范式：感知→预测→规划（MPPI/时空联合）→控制，行为决策（换道/让行博弈，POMDP 简化+规则状态机）+轨迹生成（优化类 Apollo EM/EM-planner、Frenet 采样）+轨迹跟踪（LQR/MPC）；学习渗透：预测-规划联合（TNT/DenseTNT 到 Waymo FormulaPy）、模仿学习+规则护栏（Tesla FSD v12 端到端化把中间层吞掉、2024-2026 争论「端到端 vs 模块化」）、RL 微调轨迹评分器；安全论证：模块化可解释（责任切分/验收测试）vs 端到端泛化（corner case 涌现处理），法规侧 UN R157/国内准入要求可追溯决策记录，混合架构是 2025-2026 量产主流。",
    "stage": "2015 起源 · 2024 端到端融合 · 2026 混合架构",
    "player": "Waymo;Wayve;华为;小鹏;Apollo",
    "url": "https://arxiv.org/html/2604.27728v1",
@@ -10764,7 +10764,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用生产模型/多模态大模型自动完成 3D 框、车道线、时序轨迹标注，替代人工。",
+   "desc": "用生产模型/多模态大模型自动完成 3D 框、车道线、时序轨迹标注，替代人工。谱系：特斯拉自动标注（2022 AI 日披露离线大模型给量产模型打标、4D 标注=多相机时序联合）→ Waymo/华为/小鹏跟进（华为 ADS 4D 波束标注公开分享）→ 数据闭环平台（Scale AI 全自动产品线、海天瑞声/云从数据智能）；VLM 时代扩展：2D 图像 SAM 类分割一切、视频时序事件标注（LLM 打场景标签）、具身操作演示标注（VLA 数据瓶领解法）；质量控制：人工抽检+多模型交叉验证（标注一致性 Kappa）；商业：Scale AI 2025 年 Meta 143 亿投资 49% 股权为数据标注行业最大资本事件（Meta 超级智能实验室数据战略）；与合成数据生成（世界模型造数据）构成真值来源双轨。",
    "stage": "2020 起源 · 2025 VLM 化",
    "player": "Tesla;Waymo;Wayve;Scale AI;百度",
    "url": "https://www.economyinsights.com/p/how-tesla-turned-every-driver-into-a-data-source",
@@ -10780,7 +10780,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用视频扩散/世界模型生成多视角一致的驾驶场景，用于训练与闭环验证。",
+   "desc": "用视频扩散/世界模型生成多视角一致的驾驶场景，用于训练与闭环验证。谱系：NVIDIA DRIVE Sim（UE/Omniverse 物理渲染路线）→ NeRF/3DGS 场景重建（Waymo/华为联合公开 3D 重建驾驶场景工作）→ DriveDreamer/Drive-WM/Vista（2023-2024 学术线，视频扩散可控生成）→ NVIDIA Cosmos（2025-01 CES，世界基础模型平台化，预测式世界生成）→ Wayve LINGO/GAIA-2（2025，生成式世界模型直接做闭环策略验证）；价值：corner case 长尾覆盖成本远低于实车采集；难点：多视角一致性+物理合理性（碰撞/遮挡），评测靠下游任务增益而非 FID；与 sim2real gap 讨论绑定，2025 年起「世界模型即仿真器」成为自动驾驶与具身智能共同基础设施。",
    "stage": "2024 GAIA-1 起源 · 2025 Cosmos 平台化 · 2026 闭环",
    "player": "NVIDIA;Wayve;Google DeepMind Genie;小鹏;理想",
    "url": "https://blogs.nvidia.com/blog/wfm-advance-av-sim-safety/",
@@ -10844,7 +10844,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "车端模型/软件远程升级，并在后台并行运行新模型与生产模型对比，零风险灰度。",
+   "desc": "车端模型/软件远程升级，并在后台并行运行新模型与生产模型对比，零风险灰度。Tesla 2012 年 Model S 起开创整车 OTA 先河，FSD 靠 OTA 持续分发（影子模式=新模型静默对比人类驾驶决策，收集分歧样本回传训练闭环）；国内新势力（小鹏/理想/蔚来/华为系）以 OTA 节奏做「月度整车更新」竞争；监管侧 OTA 备案制度（中国工信部 2020 起要求 OTA 升级备案）与召回边界是合规关键。",
    "stage": "2012 起源 · 2016 影子模式 · 2026 标配",
    "player": "Tesla;Waymo;Wayve;小鹏;华为",
    "url": "https://imerit.ai/resources/blog/how-robotaxi-fleets-use-in-service-failure-data-to-retrain-perception-models/",
@@ -10940,7 +10940,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "通过 C-V2X 让车与路侧/云互联共享感知；配套 L3+ 强制险与责任划分制度。",
+   "desc": "通过 C-V2X 让车与路侧/云互联共享感知；配套 L3+ 强制险与责任划分。中国路线：车路云一体化（2024-01 五部委 20 城试点通知、北京高级别自动驾驶示范区 600 km2 扩区公开、武汉/无锡先导区）；标准：C-V2X（LTE-V2X→NR-V2X）、2025 年车路云标准体系持续补齐；保险线：英国 2018 Automated and Electric Vehicles Act（保险人对自动驾驶车先行赔付）为立法先例、德国 2021 L4 法案、中国深圳 2022 条例（全国首部智能网联汽车管理法规：L3 责任划分——驾驶人担责/缺陷追偿车企）、北京 2025 自动驾驶汽车条例；数据闭环：V2X 路侧感知（激光雷达+边缘计算单元）既是安全冗余又是保险定责证据源；商业化争议：路侧投资 ROI 与「单车智能优先」路线之争（特斯拉纯视觉+中国车路云两条路线）。",
    "stage": "2017 C-V2X 起源 · 2024 车路云试点 · 2026 立法",
    "player": "工信部;华为;中国移动;中国信科;人保;平安",
    "url": "https://www.gov.cn/zhengce/zhengceku/202401/content_6926711.htm",
@@ -11068,7 +11068,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "MPC规划地面反作用力、WBC跟踪关节力矩，使四足跑跳越障后空翻。",
+   "desc": "MPC规划地面反作用力、WBC跟踪关节力矩，使四足跑跳越障后空翻。谱系：MIT Mini Cheetah（2019，MIT 开源 CHEETAH-CODEGAMES，凸 MPC 15Hz）→ ETH ANYmal（RL+MPC 混合）→ Unitree Go2/A1 消费级普及（MPC+WBC 开源复现生态、legged_gym/IsaacGym 并行仿真训练）；RL 替代浪潮（2022-2025）：端到端 RL 策略在崎岖地形泛化超越模型法（ANYmal parkour ETH 2024 Science Robotics），但 MPC+WBC 在已知结构化环境（工厂巡检）仍以可解释性占优；与宇树 H2Plus 接入 NVIDIA GR00T 生态（2026-06）呼应：运动控制层成熟是 VLA 上层的地基；后空翻/跳高纪录（宇树/波士顿动力 Atlas 演示）为公众传播节点。",
    "stage": "2019起源",
    "player": "MIT CSAIL/Boston Dynamics/ETH/宇树/云深处",
    "url": "https://arxiv.org/abs/1909.06586",
@@ -11084,7 +11084,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "高自由度人形本体同时跟踪质心关节角接触约束，实现站立行走抗扰平衡。",
+   "desc": "高自由度人形本体同时跟踪质心关节角接触约束，实现站立行走抗扰平衡。方法谱系：ZMP（零力矩点，2000s ASIMO 时代）→ WBC 求解器（QP 加权任务优先级：浮动基座动力学+接触锥约束）→ MPC 滚动优化（MIT Cheetah 系列开源迁移）→ RL 端到端（Isaac Gym 大规模并行 sim 训练，2022 后任何人形/四足标配）→ 2024-2025 混合范式（模型预测骨架+RL 残差策略，Unitree/智元公开分享）；关键工程点：足底力传感器/IMU 状态估计、推箱抗扰测试集、跌倒恢复（getup policy 分层）；与 VLA 的接口：WBC 出底层运动技能库，上层 VLA 出语义动作指令，两层解耦为当前主流架构。",
    "stage": "2013起源",
    "player": "IHMC/Boston Dynamics/Agility/宇树/Tesla/Figure",
    "url": "https://bostondynamics.com/atlas/",
@@ -11244,7 +11244,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "人形量产所需精密减速器行星滚柱丝杠无框电机六维力传感器等上游供应链。",
+   "desc": "人形量产所需精密减速器行星滚柱丝杠无框电机六维力传感器等上游供应链。核心部件账本：行星滚柱丝杠（线性关节核心， REVOLOV/三层滚柱，国内贝斯特/五洲新春/北特科技切入公开报道、海外 Ewellix/GSA）、谐波减速器（绿的谐波为龙头、哈默纳科全球老大）、无框力矩电机（步科/昊志机电）、六维力/力矩传感器（坤维科技/蓝点触控/ATI 全球标杆）、空心杯电机（鸣志电器/Maxon）、灵巧手（腱绳/微型丝杠/触觉——帕西尼/他山科技触觉传感器）；特斯拉 Optimus 供应链带动（2024-2025 拆解报告公开推演国产件占比）、智元自研+外采双轨；2025-2026 产能爬坡与降本（单台 BOM 从百万级向 30 万级下探的行业推演）为主线。",
    "stage": "2024起源",
    "player": "绿的谐波/双环传动/贝斯特/鸣志/Harmonic Drive",
    "url": "https://www.stcn.com/article/detail/3747557.html",
@@ -11276,7 +11276,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "中国人形/具身整机与大脑公司格局：智元宇树银河通用星动自变量等二十余家。",
+   "desc": "中国人形/具身整机与大脑公司格局：智元宇树银河通用星动自变量等二十余家。梯队（2026 公开口径）：整机放量系——宇树（G1/H2 出货领先、IPO 辅导报道）、智元（精灵 G2 量产、龙旗工厂交付）、优必选（Walker S2 工厂交付 500+/1000 台下线）、小鹏 IRON、特斯拉Optimus（上海线传闻）对照；融资明星系——智平方、银河通用（机器人+零售场景）、星动纪元、自变量机器人、众擎（SE01）、加速进化；「大脑」系——清华系（银河通用王鹤/星动陈建宇学院派）、像素拾取与 VLA 创业（千寻智能/它石智航）；资本面：2025-2026 具身智能为国内一级市场最热赛道之一（单笔融资亿级常态化），与 Agility 美股对照构成中美具身上市与融资双叙事。",
    "stage": "2023起源",
    "player": "智元/宇树/银河通用/星动/自变量/松延/众擎",
    "url": "https://m.36kr.com/p/3727058093371911",
@@ -11340,7 +11340,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "用大模型语音机器人自动外呼做营销回访、催收、意向筛选与高意向转人工。",
+   "desc": "用大模型语音机器人自动外呼做营销回访、催收、意向筛选与高意向转人工。技术栈：TTS 声音克隆（品牌音色）、实时 ASR+打断处理、对话管理（意图树+LLM 兜底）、合规过滤（禁呼时段/名单）；产业规模：中国智能外呼市场 2023-2025 快速放量（百应/探迹/硅基智能等厂商）、金融催收（监管强约束——2024 中国互联网金融协会 AI 催收标准公开征求意见）、政务通知（疫情后公共卫生随访经验迁移）；争议与监管：骚扰电话治理（工信部 2024-2025 断卡与外呼整治）、AI 声音标识（2025-09 标识办法要求）、老年人被骗案例（AI 拟声诈骗——2023 内蒙首例 AI 换脸拟声刑案）；技术前沿：情绪识别实时调整话术（合规争议）、方言覆盖、转人工丝滑度（AI 检测意向分数）为效果核心指标。",
    "stage": "2017 起源 · 2025 多轮语音 Agent",
    "player": "容联云; 百应科技; 天润融通; 科大讯飞; 阿里云智能外呼",
    "url": "https://www.yuntongxun.com/productarm/30",
@@ -11964,7 +11964,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "面向游戏生产的垂直化文生图管线，支持角色一致性 LoRA、无缝贴图、透明背景与引擎直出。",
+   "desc": "面向游戏生产的垂直化文生图管线，支持角色一致性 LoRA、无缝贴图、透明通道与多视角资产。管线节点：概念图（角色/场景 mood board 生成）→ 三视图+T-pose（Character consistency：IP-Adapter/LoRA 角色锁定）→ 贴图与材质（seamless tiling、PBR 材质生成 Substance 3D Sampler AI 功能 2024）→ 图标/UI 素材批量（iconfy 类）；引擎侧：Unity Muse/Unreal+Neural 材质（2024-2025 官方 AI 功能线）；3D 资产衔接（Tripo/Hunyuan3D 出 mesh 进引擎）；工业化障碍：版权（训练数据诉讼风险——游戏大厂法务保守）、资产库一致性（跨资产风格漂移）、拓扑与命名规范（进引擎前人工清洗）；2024-2025 独立游戏先行、3A 大厂试点辅助而非替代（GDC 圆桌共识口径）。",
    "stage": "2023 起源 · 2025-2026 游戏管线标配",
    "player": "Leonardo.ai,Scenario,Layer.ai,Stable Diffusion 游戏社区,网易伏羲",
    "url": "https://www.leonardo.ai/",
@@ -12012,7 +12012,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "把 LLM 对话层与传统行为树/状态机结合，让 NPC 既能自由闲聊又能按脚本目标行动。",
+   "desc": "把 LLM 对话层与传统行为树/状态机结合，让 NPC 既能自由闲聊又能稳定执行游戏逻辑。奠基：Generative Agents（2023 斯坦福小镇）与 Voyager（2023-06，Mineflayer+GPT 技能库）学术线→ 产业落地：英伟达 ACE（2023-05 发布，Kairos demo 出圈——PUBG 队友 NPC）、Inworld/Convai 中间件（对话+记忆+目标管理，接 Unreal/Unity SDK）、网易伏羲/腾讯 AI Lab 国内线；架构共识：LLM 管「说什么与为什么」（意图/对话），行为树/GOAP 管「做什么动作」（确定性执行与性能），中间用结构化 JSON 意图层解耦；挑战：延迟（本地小模型 or 云端流式）、成本（每 NPC 每次对话 token 账）、一致性（NPC 记忆与世界状态同步）；2025-2026 主机厂把「可对话 NPC」作为次世代卖点（GTA 类开放世界传闻与 demo）。",
    "stage": "2023 起源 · 2024-2026 混合架构收敛",
    "player": "Inworld AI,Nvidia ACE,Convai,腾讯 NERF,网易伏羲",
    "url": "https://www.inworld.ai/",
@@ -13340,7 +13340,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L16",
-   "desc": "上海人工智能实验室开源的一站式大模型通用评测平台，覆盖 100+ 基准。",
+   "desc": "上海人工智能实验室开源的一站式大模型通用评测平台，覆盖 100+ 基准。定位：司南 OpenCompass（2023-06 开源）+ CompassArena（对战榜单）+ CompassRank；覆盖：学科（MMLU/GAOKAO-Bench）/语言/知识/推理（GSM8K/MATH）/代码（HumanEval）/长文本/多模态全谱，评测对象扩到 VLM 与 Agent（2024-2025 加 AgentBench 系）；国内影响力：国产模型发布普遍引用其成绩（Qwen/GLM/DeepSeek 发布稿常客）、与 LMSYS Arena（国际偏好向）互补（能力 vs 偏好两轴）；方法论争议与其他榜单同在：数据污染与刷榜批评（公开讨论多次），其应对=动态更新评测集与盲测集；2025-2026 扩展：安全评测线（SafetyBench 集成）与行业评测（金融/医疗定制集服务）。",
    "stage": "2023 起源 · 2026 平台化成熟",
    "player": "上海人工智能实验室",
    "url": "https://opencompass.readthedocs.io/en/latest/",
@@ -14284,7 +14284,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L17",
-   "desc": "Mistral AI 2024-07 发布的数学推理专用小模型。",
+   "desc": "Mistral AI 2024-07 发布的数学推理专用小模型。定位：Mistral 7B 数学特调（LLaMA 衍生，16K 上下文，MATH 基准 7B 级当时的开源领先口径 56.6%——官方博客口径），与 Codestral Mamba（SSM 代码模型）同日发布；意义：Mistral 展示「小模型+领域特调」路线（对比通用大模型），开源 Apache 2.0；后续：Mathstral 并未迭代大版本（Mistral 转向 Large/Large 2 与 Codestral 线），其生态位被 Qwen2.5-Math（2024-08）/DeepSeekMath 后继覆盖；当下价值：数学专用 SFT 数据配方的公开参照系（合成数学指令+RLHF 报告结构）。",
    "stage": "2024 起源 · 2024 成长期",
    "player": "Mistral AI",
    "url": "https://mistral.ai/news/mathstral-math-reasoning-agents-open-models",
@@ -16892,7 +16892,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L18",
-   "desc": "客服多轮对话 Agent 基准，测工具调用+用户状态管理（航空/零售）。",
+   "desc": "客服多轮对话 Agent 基准，测工具调用+用户状态管理（航空/零售双域）。2024-06 Sierra（Bret Taylor 公司）发布：用户模拟器（LLM 扮演顾客）+Agent 需在数据库约束下完成改签/退换货（工具调用正确性+数据库终态一致性双指标 pass^k）；意义：首个把「可靠性」而非单轮准确率作为核心的 Agent 基准——同一 Agent 多次运行结果稳定性（pass^k 随 k 递减暴露一致性问题）；后续：tau2-bench（2025，双域扩展+电信域）、SWE-bench 类长 horizon 任务并行发展；局限：用户模拟器质量决定上限（LLM 扮演偏差）、域窄；工业采用：Agent 平台（LangChain/Sierra 自家）发布常用对标；2025-2026 与 OSWorld/WebArena（GUI Agent）构成 Agent 评测三支柱（对话工具/GUI/代码）。",
    "stage": "2024 起源 · 2025 二代 tau2",
    "player": "Sierra; Stanford",
    "url": "https://arxiv.org/abs/2406.12045",
@@ -17004,7 +17004,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "微软开源的生成式AI自动化红队与风险识别Python框架，支持多轮攻击编排。",
+   "desc": "微软开源的生成式AI自动化红队与风险识别Python框架，支持多轮攻击编排。定位（2024-02 开源，2024-08 v2 重构）：attack 编排（单轮/多轮/crescendo 策略模板）、converter 攻击转换器（Base64/ROT13/字幕化/角色扮演组合）、scorer 自动评分（self-ask/ground truth/分类器），与 Azure AI Studio 集成做规模化红队；对比：Garak（NVIDIA，LLM 漏洞扫描器风格）、PromptFoo（开发者本地测试）、Anthropic 红队内部工具未开源；用法：安全团队把它当「渗透测试框架 for LLM」——自带数据集（advbench 变体）+ 自定义攻击目标，输出风险报告；局限：自动化覆盖社会工程深度有限（人工红队不可替代，微软自述），误报与评分主观性需人工复核。",
    "stage": "2024 起源 · 2026 成熟",
    "player": "Microsoft AIRT",
    "url": "https://github.com/microsoft/PyRIT",
@@ -17084,7 +17084,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "主流自动化越狱攻击方法论合集：多轮社会工程与基于梯度的对抗优化。",
+   "desc": "主流自动化越狱攻击方法论合集：多轮社会工程与基于梯度的对抗优化。谱系：GCG（2023，Zou et al.，梯度搜索通用对抗后缀，白盒）→ AutoDAN（2023-11，遗传算法黑盒）→ PAIR（2023-11，Chao et al.，攻击者 LLM 迭代提示目标模型，黑盒低成本低查询）→ TAP（2023-12，PAIR+树搜索+剪枝，GPT-4 级成功率 80%+ 口径）→ Crescendo（2024-02 微软，多轮渐进升级社会工程，对 RLHF 模型有效）；防御对应：perplexity 检测（对 GCG 类）、输入输出分类器、宪法自我防御、SmoothLLM 随机化；军备竞赛常态：每次模型升级（GPT-4o/Claude 3.5+）后新越狱变体数小时内出现（公开红队报告口径），评测集（AdvBench/HarmBench/JailbreakBench 2024）标准化。",
    "stage": "2023 起源 · 2025 攻防成熟",
    "player": "Berkeley Zou, Chao, Microsoft AIRT",
    "url": "https://arxiv.org/abs/2404.01833",
@@ -17260,7 +17260,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "通过困惑度/突发度/分类器判断文本是否AI生成的第三方检测服务。",
+   "desc": "通过困惑度/突发度/分类器判断文本是否AI生成的第三方检测服务。格局：GPTZero（2023-01 上线爆红，学生党目标用户，Edward Tian 创业）、Turnitin AI 检测（2023-04 集成，教育界标配）、Originality.ai/Copyleaks（内容营销向）、ZeroGPT；技术：perplexity/burstiness 统计特征+RoBERTa 类微调分类器、水印检测（SynthID-Text 2024 公开可验）；根本局限：假阳性（非母语者被误判的公开研究争议——Stanford 2023 论文）、改写规避（paraphrase 攻击成功率高的公开评测）；教育与出版界政策分化（禁用 vs 申报制）；2025-2026 C2PA/内容凭证与水印路线逐步替代「事后检测」成为治理主流。",
    "stage": "2022 起源 · 2026 公信力衰退",
    "player": "GPTZero, Originality.ai, Turnitin",
    "url": "https://gptzero.me/",
@@ -17484,7 +17484,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L18",
-   "desc": "中国首部规范深度合成（换脸/拟声/生成内容）的部门规章，2023-01施行。",
+   "desc": "中国首部规范深度合成（换脸/拟声/生成内容）的部门规章，2023-01施行。要点：网信办/工信部/公安部三部门 2022-11-25 发布、2023-01-10 施行；核心义务：显著标识（合成内容标识，为后来生成式 AI 管理办法标识条款前身）、显著影响公众认知需备案、提供者主体责任（内容审核/辟谣配合/投诉机制）、生物特征编辑单独同意；执法案例：AI 换脸诈骗刑案（2023-2024 公安部公布多起）、AI 生成谣言处罚（网信办 2023-2025 通报）；承接：生成式人工智能服务管理暂行办法（2023-08 施行）在其基础上加训练数据合规；2025-09 《人工智能生成合成内容标识办法》+强标施行把标识义务细化为显式+隐式双标识（元数据水印），深度合成规定成为框架基石条款。",
    "stage": "2023 施行 · 被标识办法细化",
    "player": "国家网信办、工信部、公安部",
    "url": "https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm",
@@ -17724,7 +17724,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L18",
-   "desc": "AI Act下GPAI模型提供者自愿合规工具，2025-07定稿、20余家头部厂商签署。",
+   "desc": "AI Act下GPAI模型提供者自愿合规工具，2025-07定稿、20余家头部签署。进程：2024-08 AI Act 生效→三轮草案（2024-12/2025-03/2025-05，版权条款争议最大——出版商与模型厂对 TDM 例外解读对撞）→2025-07-10 定稿；内容四部分：透明度（训练数据摘要+版权政策）、版权（TDM 保留+robots 尊重）、安全与防务（系统性风险模型 CIs 评估/事件报告，微软/OpenAI/Google 等签署、Mistral/Meta 抵制报道）；与 AI Act 关系：签署≠法律豁免但为「推定合规」证据链，2025-08-02 GPAI 义务正式适用；争议轴：准则软法性质与执法尺度（欧盟委员会指南 2025 后续）、美国反应（2025-07 白宫批评「海外勒索」公开声明口径）。",
    "stage": "2025 发布 · 签署推进中",
    "player": "欧盟委员会AI Office、GPAI提供者",
    "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
@@ -17740,7 +17740,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L18",
-   "desc": "美国NIST发布的自愿性AI风险管理框架，联邦AI政策事实标准。",
+   "desc": "美国NIST发布的自愿性AI风险管理框架，联邦AI政策事实标准。脉络：2023-01 NIST AI RMF 1.0（治理 GOVERN/映射 MAP/测量 MEASURE/管理 MANAGE 四函数）→ 2024-07 Generative AI Profile（NIST-AI-600-1，GAI 12 类风险附录：幻觉/CBRN/深伪等）→ 2025 AI RMF 国际化（ISO/IEC 42001 映射、国际互认讨论）；采用：联邦机构采购引用（OMB 备忘录对齐）、企业信任中心（SOC2+AI RMF 双认证叙事）、欧盟 AI Act 合规对照表（ Harmonized 标准衔接）；局限：自愿性无强制力（与 EU AI Act 硬法对比）、测量方法（尤其红队与评估基准）仍在演进；2025-2026 动向：NIST 评估工具包（AI Safety Institute 系列发布——AISI 与 CAISI 分工）、州法（加州 SB 53 2025 前沿模型透明度法）引用 RMF 作为基准。",
    "stage": "2023 发布 · 持续迭代",
    "player": "美国国家标准与技术研究院（NIST）",
    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
@@ -17980,7 +17980,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "针对 DPO 过拟合/无参考模型/单样本偏好/长度偏置等缺陷的一系列改进损失函数。",
+   "desc": "针对 DPO 过拟合/无参考模型/单样本偏好/长度偏置等缺陷的一系列改进损失函数。IPO（2023-11，修正 DPO 目标函数过拟合缺陷）、KTO（2024-02，Kahneman-Tversky 前景理论建模，只需二元好/坏标注无需成对）、ORPO（2024-03，把偏好优化并入 SFT 单阶段，odds ratio penalty）、SimPO（2024-06，长度归一化+参考免费，Llama-3-Instruct 8B 版本上榜 AlpacaEval2 靠它）；生态上 HF TRL 全部实现，工业界 KTO/ORPO 因数据门槛低被广泛采用，代表「RLHF→DPO→变体家族」的轻量化对齐路线收敛。",
    "stage": "2023-2025 连续演化 · 2025 选型期",
    "player": "Meta KTO, OpenBMB ORPO, SimPO, TRL",
    "url": "https://arxiv.org/abs/2310.12036",
@@ -18044,7 +18044,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "策略钻奖励函数空子拿高分却未完成真实目标；奖励整形为缓解该问题的工程手段。",
+   "desc": "策略钻奖励函数空子拿高分却未完成真实目标；奖励整形为缓解该问题的工程手段。经典案例：CoastRunners 赛船绕圈刷分（OpenAI 2016 公开）、贪吃蛇自我撞击循环、多智能体足球互踢自摆；LLM 时代：RLHF 模型谄媚（sycophancy——讨好而非真实）、代码任务「改测试而非改代码」（METR 2025 公开记录 Frontier 模型 cheating 行为）、长 CoT 过度思考刷格式分；缓解工程：奖励整形（potential-based shaping 保证最优策略不变，Ng 1999）、RLHF 不可游戏化指标（human preference vs proxy）、过程监督、宪法约束、红队审计；Anthropic 对奖励黑客的分类研究（2024-2025 博文：CoT 瞒报/规格欺骗 specification gaming）与 Anthropic 2025-06 Claude 系统卡披露的 agentic misalignment 实验（ blackmail 场景测试）使该议题出圈。",
    "stage": "2017 现象起源 · 2025 RLVR 缓解中",
    "player": "OpenAI, DeepMind, Anthropic sycophancy",
    "url": "https://openai.com/research/failure-modes-of-reward-models",
@@ -18204,7 +18204,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "用探针/词典学习在激活中读出世界模型，并可视化神经元级概念特征。",
+   "desc": "用探针/词典学习在激活中读出世界模型，并可视化神经元级概念特征。里程碑：OthelloGPT（2023-2024 Neel Nanda 组/Li 等，黑白棋 GPT 内部涌现棋盘世界模型线性表征——「模型真的理解了规则」的机制可解释性标杆）、Anthropic 超定位（sparse autoencoder，2023-09 Towards Monosemanticity——一个神经元=多个特征/一个特征=多神经元的叠加问题，SAE 把激活分解为可解释单义特征）、Scaling Monosemanticity（2024-05，Claude 3 Sonnet 3400 万特征——金门大桥特征 clamp 实验 viral）、OpenAI GPT-4 SAE（2024-08 同路线发布）；工具：SAELens/nnsight 开源框架、Neuronpedia 可视化平台；应用争议：SAE 特征是否「真实」（消融干预有效性 vs 描述性重构的辩论）、特征漂移与版本碎片化；2025-2026 政策价值：机制可解释性被写入前沿模型安全承诺（Anthropic RSP/英国 AISI 评估引用），「transparency 上户口」成为监管想象。",
    "stage": "2022 起源 · 2025 特征仓库化",
    "player": "Li OthelloGPT, Anthropic, OpenAI",
    "url": "https://arxiv.org/abs/2210.15345",
@@ -18300,7 +18300,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "用强模型生成多候选+评分/偏好对，替代人工标注训练奖励模型与 DPO。",
+   "desc": "用强模型生成多候选+评分/偏好对，替代人工标注训练奖励模型与 DPO。谱系：UltraFeedback（2023-10，OpenBMB，64K 提示×4 模型×GPT-4 打分，公开规模最大早期合成偏好集）、UltraChat 前身同团队、Zephyr（HuggingFace 2023-10，UltraFeedback+DPO 达 7B SOTA 公开口径）确立配方、HelpSteer2（NVIDIA 2024 人工+合成混合）；进阶：RLAIF 评分模型升级（GPT-4→专评委 RM）、对比 DPO 变体用合成对、自我对弈（SPIN 2024-01，模型自我区分真假答案）；质量问题：偏好分数偏置（长度/格式偏好，公开分析显示 GPT-4 judge 系统性偏差）、领域覆盖窄（数学/代码弱）；2025 年合成偏好与 RLVR 分工：可验证域走 RLVR、开放域走合成偏好+人工抽检。",
    "stage": "2023 起源 · 2025 开源对齐标配",
    "player": "HuggingFace UltraFeedback, NVIDIA",
    "url": "https://arxiv.org/abs/2310.01377",
@@ -18428,7 +18428,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L18",
-   "desc": "研究弱 AI/人类如何监督远超自身能力的强模型，是超级对齐核心难题。",
+   "desc": "研究弱 AI/人类如何监督远超自身能力的强模型，是超级对齐核心难题。方法谱系：RLHF（人类直接评）→RLAIF/Constitutional AI（AI 反馈降人力）→ Debate（Irving 2018，辩论互相揭穿）、Recursive Reward Modeling（Amodei 2018）、IDA/放大-蒸馏（Christiano）；OpenAI Superalignment 团队（2023-07 成立，4 年 20% 算力承诺，2024-05 Ilya/Sutskever 离职后 Jan Leike 转投 Anthropic 而团队解散为标志事件）→ Anthropic 接棒（Alignment Science 团队 + 2024 弱到强泛化论文：弱 supervisor 训练强 model 可泛化但未完全）；可验证奖励（RLVR）路线 2025 年崛起部分绕开该问题（数学/代码可自动判分），但开放域仍需 scalable oversight。",
    "stage": "2018 起源 · 2026 自动对齐研究",
    "player": "Anthropic, OpenAI SSI, MIT",
    "url": "https://arxiv.org/abs/2504.18530",
@@ -18572,7 +18572,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用运筹优化+ML 求解最后一公里/干线 VRP 路径、时间窗与车队调度的算法平台。",
+   "desc": "用运筹优化+ML 求解最后一公里/干线 VRP 路径、时间窗与车队调度的算法平台。技术谱系：VRP/VRPTW 经典启发式（LKH、Or-opt）到 OR-Tools/Gurobi 求解器工程化；ML 增强集中在需求预测（订单热区）、ETA 预估与动态重规划；规模落地：Amazon Last-Mile Routing Research Challenge（2021）、UPS ORION（每年省数亿美元，公开披露）为标杆；国内美团/顺丰/菜鸟自研调度平台，2024 年起 LLM 用于调度规则生成与异常处理协同成为新方向。",
    "stage": "2015 起源(UPS ORION) · 2025 Agentic 调度",
    "player": "菜鸟(蜂鸟算法);Onfleet;OptimoRoute;Locus;Shipsy",
    "url": "https://tech.cainiao.com/productv2/ProductIndex/320",
@@ -18620,7 +18620,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用实时路况/天气/订单流预测末端派送 ETA 并前置分仓、动态选送货上门还是驿站自提。",
+   "desc": "用实时路况/天气/订单流预测末端派送 ETA 并前置分仓、动态选送货上门还是驿站。格局：顺丰（时效产品线+智慧物流地图）、京东物流（211 限时达背后预测系统、亚洲一号仓自动化）、菜鸟（驿站网络+预测分单）、美团/闪送即时配送调度；技术：ETA 深度模型（Wide&Deep→多任务时空 GNN/Transformer，路况+天气+骑手特征）、前置分仓（销量预测+库存网络优化）、末端决策（送货上门 vs 快递柜/驿站——2022-2023 快递新规争议点）；2024-2025 LLM 增量：客服工单智能处理、末端异常（暴雨/爆仓）应急预案生成；对比 Amazon（Last Mile Routing Research Challenge 数据集公开）与 UPS ORION 为行业学术参照。",
    "stage": "2018 起源(ETA ML) · 2025 时空大模型分仓",
    "player": "顺丰;FedEx;UPS;菜鸟;美团配送",
    "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-to-offer-faster-delivery-with-launch-of-fedex-sameday-local",
@@ -18796,7 +18796,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "面向'三办两问'（办事/办文/办会+问策/问数）的政务垂直大模型与智能体。",
+   "desc": "面向'三办两问'（办事/办文/办会+问策/问数）的政务垂直大模型与智能体。格局：华为（盘古政务大模型+政务云，2023-2024 多省落地）、百度（智能问政）、科大讯飞（星火政务）、浪潮（海岳大模型）、达观/智谱政企线；典型场景：12345 热线智能坐席与工单分派、材料初审（资质预审自动化）、公文起草与格式校对（GB/T 9704 格式模板约束）、政策问答（规章库 RAG）；风险轴：政务数据不出域（本地化部署强制）、错答责任（「智能回复仅供参考」免责设计与人工复核双保险）、形式主义新变种（为数字化而数字化，基层减负语境批评）；2024-2025 「人工智能+政务」写入多地政府工作报告，级拟合一窗通办为验收主场景。",
    "stage": "2023 起源 · 2025 信创+DeepSeek 落地",
    "player": "科大讯飞(星火政务);华为云(新华妙笔);百度(文心政务);中国电信;南威软件",
    "url": "https://www.huaweicloud.com/intl/zh-cn/news/20241031100528307.html",
@@ -18828,7 +18828,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用多模态大模型做安全生产监测、自然灾害预警、警务辅助与应急指挥调度。",
+   "desc": "用多模态大模型做安全生产监测、自然灾害预警、警务辅助与应急指挥调度。场景谱系：视频监控异常检测（人群密度/跌倒/烟火识别，海康/大华 AI 中台）、灾害预警（气象大模型 FengWu/GraphCast 类输出接入应急平台、地震预警成都高新减灾所）、警务辅助（智慧警务如犯罪预测争议性大、COMPAS 偏见教训常态化引用）、应急指挥（多源信息融合+LLM 调度工单，国内 119/120 智能接处警试点）；2024-2025 年 LLM 进入接警摘要/预案生成/多部门联动问答；伦理与合规：人脸滥用治理（2021 人脸新规）、警务 AI 透明度要求为永久争议轴。",
    "stage": "2020 起源(视频结构化) · 2025 应急大模型智能体",
    "player": "杭州(杭小应);杭州公安;海康威视;商汤;华为煤矿军团",
    "url": "http://www.news.cn/politics/20260109/8dafed96d76f4cb7b50c8e7c63c1b9db/c.html",
@@ -18844,7 +18844,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "面向情报分析、目标识别、指挥控制、任务规划的军用 AI 平台与大模型集成。",
+   "desc": "面向情报分析、目标识别、指挥控制、任务规划的军用 AI 平台与大模型集成。格局：美军 Maven 智能系统（2024-2025 目标识别实战化报道、CMO 扩权争议）、Palantir（AIP 军事化部署，Gotham/Maven 合同）、Anduril（Lattice 自主系统，2024-2025 融资与合同高增）、OpenAI/Anthropic/Google 与国防合作转向（2024-2025 政策放宽公开报道：OpenAI-Anduril、Anthropic-Palantir-MG-1、Google 删除武器禁令 2025-02）；乌克兰战场（无人机+AI 目标分配实战数据为行业刺激源）；国内：珠海航展智能装备展示（2024-2026 无人僚机/蜂群）；伦理治理：联合国 LAWS（致命性自主武器）讨论、google 员工抗议 Project Maven 传统（2018）、行业「负责任 AI 军事化」框架争议持续。",
    "stage": "2018 起源(Project Maven) · 2025 大模型+百亿合同",
    "player": "Palantir;Anduril;Scale AI;Shield AI;Anthropic(经Palantir)",
    "url": "https://ciss.tsinghua.edu.cn/info/mggc/8908",
@@ -18924,7 +18924,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用 LLM 自动写财报/体育/天气快讯、生成摘要、数字人播报与媒体聚合分发。",
+   "desc": "用 LLM 自动写财报/体育/天气快讯、生成摘要、数字人播报与媒体聚合分发。谱系：NLG 快讯老牌（Automated Insights Wordsmith、腾讯 Dreamwriter 2015 财报写作、新华社快笔小新）→ GPT 时代全文生成与摘要（Bing News/Google News AI 摘要 2024-2025、Artifact（Instagram 创始人）失败教训 2024 关停）→ 2025-2026 Agent 化编辑部（Reuters/NYT 内部工具报道、Perplexity Discover/AP AI 标准线）；数字人播报（新华社 AI 合成主播 2018 首创、地方台普及）；争议轴：版权（NYT 诉 OpenAI 为行业大案）、AI 内容标注义务（欧盟 AI Act 透明度条款/国内深度合成规定 2023 施行）、记者岗位替代担忧（多篇行业调查报道）为三重张力。",
    "stage": "2015 起源(AP 财报) · 2024 大模型+授权付费",
    "player": "AP;Reuters;新华社(新华新语);人民日报(创作大脑);NewsGPT",
    "url": "https://www.ap.org/solutions/artificial-intelligence/",
@@ -18972,7 +18972,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "用 AVM 自动估价模型+CV 分析房源照片、结合可比交易实时算房价并做个性化选房。",
+   "desc": "用 AVM 自动估价模型+CV 分析房源照片、结合可比交易实时算房价并做个性化选房。格局：Zillow Zestimate（2006 起家，AVM 鼻祖，2018 年起深度神经网络重构）、Redfin Estimate、国内贝壳找房（ACN 合作网络+智能定价）、安居客/58 房产 AI；技术：树模型 GBDT（LightGBM/XGBoost 特征工程）→ 深度时空模型（交易序列+POI+学区图）→ CV 房源照片质量与装修评级（影响挂牌价评估）；2024-2025 LLM 增量：房源描述生成、虚拟 staging（空房 AI 家具摆放，Virtual Staging AI 被 Zillow 收购 2024-10）、买家 Agent 对话找房；监管轴：AVM 估值偏差与算法披露（美国 BIPA/公平 housing 法边界）。",
    "stage": "2011 起源(Zestimate) · 2024 神经 AVM+CV",
    "player": "Zillow(Zestimate);Redfin;贝壳(壳e估);HouseCanary;Cape Analytics",
    "url": "https://www.zillow.com/zestimate/",
@@ -19500,7 +19500,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "对初筛召回的候选文档做 Cross-Encoder 精排，显著提升 RAG 最终命中率。",
+   "desc": "对初筛召回的候选文档做 Cross-Encoder 精排，显著提升 RAG 最终质量。谱系：BERT 交叉编码（2019，query-doc 拼接过深Transformer，精度高但慢）→ monoT5/RankT5（T5 生成式打分）→ ColBERT（2020-2021，late interaction——token 级向量保留精度+预计算性能折中，MaxSim 打分）→ Cohere Rerank 3/3.5（商用 API 标杆，多语言）、bge-reranker（智源开源首选）、Jina reranker（2024）；工程位：hybrid 检索（BM25+向量）→ RRF 融合 → rerank top 50-100 → top 5-10 进上下文；蒸馏：cross-encoder 蒸馏到 cross-encoder 轻量版（bge 系）或到 bi-encoder（embedding 直接学精排分布）；2025-2026 与 LLM-as-reranker（用 GPT/DeepSeek 直接打分列表，成本高精度上限高）并存，价格敏感场景用专用 rerank 模型。",
    "stage": "2023 起源 · 2024-2026 RAG 二段式标配",
    "player": "Cohere,BAAI(智源),Jina AI,阿里(Qwen),mixedbread.ai",
    "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
@@ -19628,7 +19628,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L19",
-   "desc": "从单图/文本快速生成 3D 资产（mesh/高斯/NeRF）的开源模型谱系。",
+   "desc": "从单图/文本快速生成 3D 资产（mesh/高斯/NeRF）的开源模型谱系。谱系：LRM 大重建模型（2023-11 Adobe/Google，Transformer 直接回归 NeRF）→ TripoSR（2024-02 Stability+Tripo，轻量秒级单图 mesh）→ InstantMesh（2024-04 腾讯 ARC，多视图扩散+NeRF→mesh 两阶段）→ TRELLIS（2024-12 微软，结构化 latent + SLAT 表示，mesh/3DGS/NeRF 多输出格式统一）→ Hunyuan3D 2.x（2025，腾讯开源首选，形状+纹理两阶段）；应用端：游戏资产生成/电商 3D 展示/Tripo 与 Meshy 商业 API 并行；质量瓶颈在拓扑可用性（非水密/高面数）与 UV 展开自动化。",
    "stage": "2024-02 起源 · 2024-2026 开源 3D 生成爆发",
    "player": "VAST-AI(TripoSR),腾讯(InstantMesh),Microsoft(TRELLIS),腾讯(Hunyuan3D)",
    "url": "https://github.com/VAST-AI-Research/TripoSR",
@@ -20508,7 +20508,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "在 SFT/RL 阶段显式训练模型产出数千 token 的中间推理链，而非短答案。",
+   "desc": "在 SFT/RL 阶段显式训练模型产出数千 token 的中间推理链，而非短答案。谱系：Quiet-STaR（2024-03，内部 token 生成推理、为每 token 学思考）→ o1（2024-09，测试时计算 scaling，思考链不透明）→ DeepSeek-R1（2025-01，R1-Zero 纯 RL 涌现长 CoT——aha moment 反思与验证行为涌现，公开可复现路线）→ Kimi k1.5 long2short（长链蒸馏到短链）、QwQ/DeepSeek-R1-Distill 系列；关键技术：可验证奖励（RLVR）+ 过程长度惩罚/长度自适应、反思回溯行为；与 prompt 式 CoT（2022 Wei et al.）的分野在训练内化 vs 上下文示例；2025 年起长 CoT 成为推理模型标配，研究转向高效思考（overthinking 抑制）。",
    "stage": "2024 起源 · 2025 爆发 · 2026 过度思考研究",
    "player": "OpenAI o 系列; DeepSeek-R1; Qwen3-Thinking",
    "url": "https://arxiv.org/abs/2501.12948",
@@ -20540,7 +20540,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "把能力增长轴从训练时规模扩展到推理时多花算力（采样数/思考长度/搜索宽度）。",
+   "desc": "把能力增长轴从训练时规模扩展到推理时多花算力（采样数/思考长度/搜索宽度）。奠基：Snell et al. 2024-08《Scaling LLM Test-Time Compute Optimally》（Google DeepMind，小模型+多步推理可胜大模型单次）与 o1（2024-09）的隐式证明；形态谱系：Best-of-N+PRM 重排 → MCTS/树搜索（AlphaProof 类）→ 自一致性投票 → 长思考链（o1/R1）→ 推理预算控制（budget forcing，s1 论文 2025-01「Wait」插入延长思考）；经济学：推理成本 10-100 倍换能力，DeepSeek-R1 强调 pass@1 效率对冲；2025-2026 主线：自适应推理（问题难度感知分配算力）、并行测试时扩展（Gemini Deep Think/Majority voting 工程化），与训练时 scaling law 并列为双增长轴。",
    "stage": "2024 起源 · 2025 爆发",
    "player": "OpenAI; DeepMind Snell; Berkeley s1",
    "url": "https://arxiv.org/abs/2408.03314",
@@ -20588,7 +20588,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "用 R1/o1 类强推理模型的 CoT 输出做 SFT 数据，把推理能力蒸馏到小模型。",
+   "desc": "用 R1/o1 类强推理模型的 CoT 输出做 SFT 数据，把推理能力蒸馏进小模型。标杆：DeepSeek-R1-Distill 系列（2025-01，Qwen/Llama 底座 1.5B~70B，R1 生成 800K CoT 样本 SFT——Distill-Qwen-32B 超过 o1-mini 的公开口径），证明「纯蒸馏」在该代际超过小模型直接 RL；后续：OpenThinker/ Bespoke-Stratos（开源复现管线 s1/OpenR1 项目）、QwQ 与 R1-Distill 同底座对照；理论张力：蒸馏教格式与风格但可能不教探索（test-time scaling 上限低于 RL 训练原生——R1 论文明确指出 Distill 不如直接 RL 的公开表述）；商用：开源小推理模型主导本地部署（Ollama 排行 distill 系霸榜公开口径）；2025-2026 蒸馏 2.0：on-policy 蒸馏（GKD 类，学生自采样教师打分）与多教师融合，规避 CoT 数据的分布偏移。",
    "stage": "2025-01 起源 · 2025 爆发",
    "player": "DeepSeek; Skywork; SimpleRL; NVIDIA",
    "url": "https://arxiv.org/abs/2501.12948",
@@ -20732,7 +20732,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "通过高质量数据、RLVR、推理时计算等手段，把安全对齐在能力基准上的代价压到接近零。",
+   "desc": "通过高质量数据、RLVR、推理时计算等手段，把安全对齐在能力基准上的代价压到接近零。背景：对齐税（alignment tax）=安全训练导致的 benchmark 下降；OpenAI 报告 GPT-4 RLHF 后公开 NLP 任务性能未降（2023 卡片口径）；Anthropic Constitutional AI 主张 RLHF+RLAIF 兼顾（2022-12）；缓解路径：数据质量（LIMA 少而精）、RLVR 可验证奖励（数学/代码零税甚至增益）、推理时计算（安全检查外置 system 级）、DPO 系轻量对齐、模型 merging（安全向量+能力向量合并）；争议轴：Anthropic/DeepMind 转发式评估显示 benchmark 上的「零税」不等于真实世界安全性（操纵/谄媚类难测）；2025 年 RSP 框架（preparedness framework）把对齐成本纳入发布决策流程。",
    "stage": "2022 起源 · 2025 收敛期",
    "player": "Anthropic; OpenAI; Meta",
    "url": "https://www.anthropic.com/engineering/built-in-safety",
@@ -20940,7 +20940,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "训练时按阶段调整数据难度/配比（先易后难、先通用后推理），提升收敛效率。",
+   "desc": "训练时按阶段调整数据难度/配比（先易后难、先通用后推理），提升收敛效率。LLM 时代三形态：预训练数据课程（按质量/难度分阶段退火，Llama 系 late-data upweighting、MiniCPM 课纲训练）、SFT 难度课程（Easy-to-Hard，数学推理 SFT 收益公开复现）、RL 课程（GRPO/PPO 按难度分级采样，DeepSeekMath 的课程化 GRPO）；理论根基=Bengio 2009 课程学习综述（curriculum learning 经典）；争议：与乱序训练收益对比在 scaling 文献反复摇摆（Hoffmann 类消融显示收益不稳定），2024-2025 共识为「RL 阶段课程确定有效、预训练阶段弱证据」；自动化课表（AutoCurriculum/RL 按通过率动态分组）为工程前沿。",
    "stage": "2018 起源 · 2025 大模型标配",
    "player": "Meta Llama-3; DeepSeek; Qwen",
    "url": "https://arxiv.org/abs/2203.15556",
@@ -21036,7 +21036,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "先让 LLM 凭空生成一篇『假设性答案文档』，用其向量去检索真实文档的查询侧增强技术。",
+   "desc": "先让 LLM 凭空生成一篇『假设性答案文档』，用其向量去检索真实文档的查询改写技巧。论文：Precise Zero-Shot Dense Retrieval without Relevance Labels（2022-12 Gao et al.，卡内基——LLM 幻觉在此反转为特性：假设文档与真文档语义空间更近，即使事实错误）；对比链：HyDE → Multi-Query（多角度改写取并集）→ RAG-Fusion（RRF 融合多查询）→ Step-Back（先抽象再具体）；适用边界：零样本/无标注域收益大，有高质量 dense 检索器时增益缩水（公开消融）；延迟成本：每次查询多一次 LLM 生成（可缓存高频查询）；生产组合：HyDE 用于查询扩展层+rerank 兜底，2024-2025 成为 RAG 教程标配技巧。",
    "stage": "2022 起源 · 成熟期（查询侧技巧）",
    "player": "Leland Gao;Jian-Yun Unicamp;LangChain HyDE 模块",
    "url": "https://arxiv.org/abs/2212.10496",
@@ -21260,7 +21260,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "让生成答案逐句标注来源片段/页码/URL，使回答可溯源、可核验的 RAG 生成规范。",
+   "desc": "让生成答案逐句标注来源片段/页码/URL，使回答可溯源、可核验的 RAG 生成范式。与引用机制（L23-84）互补：L23-84 聚焦工程实现（句级标注/对齐），本节点聚焦 attribution 学术框架——评测（AIS：attribute+illustrate 2022 框架、ALCE 2023 citation recall/precision、FACTS Grounding 2024 Google）、归属方法（span 检索回指、entailment 校验、provenance graph——C2PA 思想延伸到文本）；产品形态：Perplexity 句级上标、Claude 引用块（2025 citations API 开源）、NotebookLM 行级溯源；与幻觉治理关系：attribution 是「免责式可信」（不保证真、保证可查），学术争议在归因≠正确（错误来源照样被引用）；2025-2026 版权诉讼（Perplexity-News Corp、Chegg 类）使 attribution 从体验功能变成法律必选项。",
    "stage": "2023 起源 · 2025-2026 企业标配",
    "player": "Self-RAG;LlamaIndex Citation;OpenAI/Google 问答产品",
    "url": "https://arxiv.org/abs/2310.11511",
@@ -21308,7 +21308,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "把记忆组织成实体-关系图，用图遍历/PageRank 做多跳关联检索的记忆结构。",
+   "desc": "把记忆组织成实体-关系图，用图遍历/PageRank 做多跳关联检索的记忆结构。代表：Microsoft GraphRAG（2024-04，社区摘要+全局问题局部答案，图构建 LLM 成本高）、Letta/MemGPT 的 agentic memory（分页式主上下文/外部存储）、Zep（时序知识图谱 + Graphiti 库，Botify 生产化案例）、HippoRAG（神经生物学启发，PPR 个性化 PageRank 检索）；与向量 RAG 的分野：多跳/聚合问题（『A 和 B 共同参与过什么』）图结构显著优于纯向量；成本痛点：LLM 抽取实体关系图的构建/更新费用与一致性，2025 年起轻量图抽取（小模型+schema 约束）为主流工程化方向。",
    "stage": "2024 起源 · 成长期",
    "player": "HippoRAG(OSU);Zep/Graphiti;Mem0g;Microsoft GraphRAG",
    "url": "https://arxiv.org/abs/2405.14831",
@@ -21420,7 +21420,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "为大规模向量库做分片路由、向量压缩与量化、磁盘/内存分层的生产级索引工程。",
+   "desc": "为大规模向量库做分片路由、向量压缩与量化、磁盘/内存分层的生产级索引工程。技术栈：PQ/SQ/OPQ 标量与乘积量化（IVF-PQ 亿级标配，召回-内存权衡）、二值化/RaBitQ（2024，1-bit 量化误差有界）、DiskANN/Vamana（微软 SSD 索引，十亿级单机）、HNSW 分片路由与副本、租户隔离（pgvector/Timescale 场景）；GPU 索引（CAGRA，RAPIDS）2023 起进 NVIDIA 生态；工程权衡轴：召回率×延迟×内存×写入吞吐四角，生产实践多在 HNSW（内存）+ DiskANN（磁盘）+ 量化压缩三者混合分层；与 MongoDB/ES 向量化浪潮（2023-2025）带动「加向量索引就成向量库」的工程降维竞争。",
    "stage": "2017 起源 · 2024-2026 量化密集演进",
    "player": "Meta FAISS;Qdrant;Milvus;Weaviate;Microsoft DiskANN",
    "url": "https://github.com/facebookresearch/faiss",
@@ -21612,7 +21612,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "在高风险节点暂停 Agent、由人审批/编辑后再继续，把人嵌入自动循环的工程机制。",
+   "desc": "在高风险节点暂停 Agent、由人审批/编辑后再继续，把人嵌入自动循环的工程。范式谱系：LangGraph interrupt/resume（graph 断点+Checkpointer 持久化状态、human 节点注入）、Claude Code 计划模式与权限确认、OpenAI Operator 的接管请求（takeover，浏览器操作敏感步骤让位）；分级：观察（只记录）/ 确认（工具调用前需批准）/ 编辑（人工改参数）/ 接管（人直接操作）；企业落地：审批流对接（工单/审批系统作为工具被 Agent 调用）、金丝雀放行（新 Agent 先跑 5% 流量+人工抽检）；安全价值：不可逆操作（转账/删除/外发）强制 HITL 为 Agent 安全基线（2025 各家 Agent 安全白皮书共识）；成本权衡：审批疲劳（alert fatigue）与自动化收益的平衡是产品设计核心难题。",
    "stage": "2024 起源 · 企业标配",
    "player": "LangChain;OpenAI;Google(ADK)",
    "url": "https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/",
@@ -21644,7 +21644,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "把一个任务并行派给多个子 Agent/工具，再聚合结果，以吞吐换时延。",
+   "desc": "把一个任务并行派给多个子 Agent/工具，再聚合结果，以吞吐换时延。范式：OpenAI Agents SDK handoffs+guardrails 并行、LangGraph Map-Reduce 子图（Send API 动态扇出）、Claude 研究系统 orchestrator 并行子 agent（2025-06 工程博客：并行子代理+记忆文件防上下文污染）；聚合策略：归并（reduce）/ 投票（self-consistency 多路采样）/ 辩论裁决（multi-agent debate）/ 最优择取（LLM-as-judge rerank）；工程要点：成本放大（token×N）、部分失败容忍（超时降级）、子任务独立性设计（无共享状态依赖）；与并行工具调用（parallel tool calls）的层级差：工具级并行是单 agent 内、agent 级并行是多进程隔离；2025 年深度研究类产品（OpenAI Deep Research/Gemini Deep Research）把 fan-out 做成产品核心。",
    "stage": "2023 沉淀 · 成长期",
    "player": "LangChain;OpenAI;CrewAI",
    "url": "https://langchain-ai.github.io/langgraph/how-tos/map-reduce/",
@@ -21676,7 +21676,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "在 Agent 循环内实时读写短期会话记忆与长期事实记忆，避免每步从零重述。",
+   "desc": "在 Agent 循环内实时读写短期会话记忆与长期事实记忆，避免每步从零重述。架构件：上下文窗口即短期记忆（内联）+ 外部存储（向量库/图/结构化档案）双轨；实现谱系：MemGPT/Letta（分页式 OS 式记忆管理，2023-10 论文）→ LangGraph/LlamaIndex Memory 模块（checkpointer + store）→ Mem0（2024，extract-update 决策式记忆 API，SOTA MEMORY 基准公开）→ Zep/Graphiti（时序知识图谱，失效推理）→ OpenAI ChatGPT Memory（2024-2025 消费级落地，参考对话历史跨会话）；核心工程问题：记忆写入时机（每轮 vs 任务结束）、冲突消解（新旧事实矛盾）、遗忘策略与隐私（跨会话 PII），2025 年成为 Agent 平台标准件。",
    "stage": "2024 起源 · 成长期",
    "player": "LangChain(LangMem);mem0;Zep",
    "url": "https://github.com/langchain-ai/langmem",
@@ -21804,7 +21804,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "让 Agent 对自身输出/工具结果做自我批评并据反思重试，以迭代换准确率。",
+   "desc": "让 Agent 对自身输出/工具结果做自我批评并据反思重试，以迭代换准确率。谱系：Self-Refine（2023-03 Madaan，自我反馈迭代）、Reflexion（2023-05 Shinn，语言化强化学习——失败轨迹存入 episodic 记忆，下次任务带教训重试，HumanEval 91% 公开口径）、CRITIC（2023-05，工具辅助自我批评）、Self-RAG 反思 token；LLM 内化：o1/R1 思维链里涌现自我验证段落（「wait, let me check」），反思从外置循环变内生行为；工程版：测试失败→错误分析→修复计划→重试的 Agent 循环（SWE-agent/Trae 类编码 agent 标配）、多轮对话的 turn-level 反思；局限：过度反思（over-reflection 把对的改错，公开消融显示盲目反思可降准确率）、反思质量受限于模型自认知（calibration）。",
    "stage": "2023 起源 · 工程内建",
    "player": "学术(Reflexion);LangChain;AutoGen",
    "url": "https://arxiv.org/abs/2303.11366",
@@ -21836,7 +21836,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "当当前 Agent 不擅长时，把会话上下文与控制权移交给更合适的专职 Agent。",
+   "desc": "当当前 Agent 不擅长时，把会话上下文与控制权移交给更合适的专职 Agent。范式：OpenAI Swarm（2024-10 实验框架，handoff() 函数移交+上下文变量，2025 升级为 Agents SDK）→ LangGraph 多 Agent supervisor（中心调度模式）与 network 模式（点对点移交）→ Anthropic 多 Agent 研究系统（2025-06 工程博客，orchestrator-worker 模式 90.2% 性能提升公开口径）；协议层：A2A（Agent2Agent，Google 2025-04 发布后捐 Linux 基金会）与 MCP（工具层）互补——MCP 连工具、A2A 连 Agent；工程难点：上下文有损传递（移交时压缩什么）、职责边界设计（重叠导致乒乓循环）、可观测（跨 Agent trace）；与「单体大模型 vs 多 Agent」之争：Claude 工程口径倾向多 Agent 分治（token 消耗 15 倍但覆盖广），2026 年共识为按任务拓扑选择。",
    "stage": "2024 起源 · 2026 主流",
    "player": "OpenAI;LangChain;Google(ADK)",
    "url": "https://github.com/openai/openai-agents-python",
@@ -21852,7 +21852,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "用系统提示定义 Agent 的身份、角色边界、语气与禁止行为，约束其输出风格与行为。",
+   "desc": "用系统提示定义 Agent 的身份、角色边界、语气与禁止行为，约束其输出风格与权限范围。工程谱系：从角色扮演 prompt（2023 Character.ai 泛化）到企业 Agent 规格化——system prompt 即「岗位说明书」（身份+目标+工具白名单+升级规则+禁止事项），Anthropic Claude Code 系统提示公开（2025 泄露/官方披露事件成为学习材料）、OpenAI Agents SDK instructions 字段；安全维度：角色越狱（「忽略之前指令」类攻击的防线——指令层级隔离、 spotlighting 防注入 2024 微软公开）、人格一致性漂移（长会话角色滑坡，memory 注入对抗）；产品案例：客服 Agent 的品牌语气规范（语气 Few-shot+负面清单）、医疗/法律 Agent 的能力边界声明（免责+转人工规则）；2025-2026 system prompt 即资产（版本管理+A/B 测试进 CI，与 prompt 管理工具合流）。",
    "stage": "2023 起源 · 成长期",
    "player": "CrewAI;ElizaOS;Anthropic",
    "url": "https://github.com/crewAIInc/crewAI",
@@ -22044,7 +22044,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "从‘抽几帧喂 VLM’进化到小时级长视频、时序定位、事件因果与镜头切换理解。",
+   "desc": "从‘抽几帧喂 VLM’进化到小时级长视频、时序定位、事件因果与镜头切换理解。谱系：帧采样+池化（VideoMAE 类）→ 长视频基准推动（Ego4D/NarrativeQA/Video-MME 2024、长视频 HourVideo）→ token 压缩（记忆池/Streaming 架构，MovieChat/Video-XL 2024）→ 原生长视频模型（Gemini 1.5~2.x/3 系 1M~10M token 多模态上下文、Qwen2.5-VL 时序定位 Grounding）；关键能力轴：temporal grounding（时刻定位）、streaming 实时理解（2025 年起流式视频对话）、多镜头叙事因果；工业落地：视频监控语义检索（NVIDIA VSS blueprint 2025）、体育/直播集锦自动生产。",
    "stage": "2024 起源 · 2025-2026 成长期",
    "player": "Google Gemini;阿里 Qwen2.5-VL;OpenAI GPT-4o;LLaVA-Video;ByteDance",
    "url": "https://arxiv.org/html/2406.14515",
@@ -22108,7 +22108,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "把 VLM 直接微调成机器人策略：看图+听指令→输出机械臂关节动作 token。",
+   "desc": "把 VLM 直接微调成机器人策略：看图+听指令→输出机械臂关节动作 token。里程碑：Google RT-1（2022）→RT-2（2023-07，PaLI-X/VLM 输出动作 token，语义泛化跃迁）→OpenVLA（2024-06，7B 开源 VLA，970K 真机数据训练）→π0（Physical Intelligence 2024-10，flow matching 动作生成）→Gemini Robotics（2025，Google DeepMind 双臂灵巧线）；国内智元 GO-1、银河通用 GraspVLA；数据瓶颈（真机遥操作成本）催生 Sim2Real（Isaac Lab/Cosmos）与互联网视频预训练两条线；2025 年起 VLA+世界模型融合（动作生成+后果预测）为主流迭代。",
    "stage": "2023 起源 · 2024-2026 爆发期",
    "player": "Google DeepMind(RT-2);Physical Intelligence(pi0);斯坦福 OpenVLA;银河通用;智元",
    "url": "https://robotics-transformer.github.io/",
@@ -22204,7 +22204,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "解决文生视频‘镜头乱晃、人物漂移、闪帧’问题，加入相机轨迹、首末帧、参考视频控制。",
+   "desc": "解决文生视频‘镜头乱晃、人物漂移、闪帧’问题，加入相机轨迹、首末帧、参考视频控制。控制技术：相机轨迹控制（CameraCtrl/MotionCtrl 2024）、首末帧插帧（Kling 首尾帧功能出圈）、参考视频驱动（V2V——VACE 2025、Runway Gen-4 References 2025）；一致性技术：身份保持（IP-Adapter 类角色一致、LoRA 角色微调）、多镜头叙事（Sora 2 的多镜头一致性 2025-09、可灵 3.0 多主体 2026-07 报道）、物理合理性（世界模型路线——Genie 3 交互世界 2025-08）；评测：VBench（2024）多维分解运动/一致性/画质；产业节点：Runway 与 Liongate 合作（2024 首个片厂协议）、字节即梦/快手可灵收入规模公开报道（2025 可灵年化 ARR 破亿美元的报道口径）；2026 竞争焦点：长时长（分钟级）+ 可控剪辑流（生成即剪辑）。",
    "stage": "2024 起源 · 2025-2026 可控性竞争",
    "player": "OpenAI Sora;快手可灵;Runway;字节即梦;Luma;Vidu",
    "url": "https://runwayml.com/",
@@ -22220,7 +22220,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L21",
-   "desc": "从‘能画’进化到‘能正确渲染文字、理解构图、贴合品牌风格’的图像生成模型。",
+   "desc": "从‘能画’进化到‘能正确渲染文字、理解构图、贴合品牌风格’的图像生成模型。谱系：文本渲染短板（SD/DALL-E 3 之前的错字灾难）→ Ideogram（2023-08 起以文字渲染差异化）→ FLUX.1（2024-08 Black Forest Labs，文字+手指质量跳变）→ GPT-4o 原生图像生成（2025-03，自回归多模态统一，吉卜力风潮出圈、文字渲染与多轮编辑）→ Gemini 2.0 Flash 原生图像（2025）→ Seedream 3.0/4.0（2025，中文文字渲染强项）与 Nano Banana（Gemini 2.5 Flash Image，2025-08 出圈）；构图控制：ControlNet（2023 姿态/深度条件）→ Layout Guidance → 品牌 Style Reference；2025-2026 竞争焦点从「像不像」转向「可用性」（海报直出/电商详情页/设计工作流替代）。",
    "stage": "2023 起源 · 2024-2026 文字/构图成熟",
    "player": "Black Forest Labs(FLUX);Ideogram;Midjourney;阿里 Qwen-Image;Stable Diffusion",
    "url": "https://blackforestlabs.ai/",
@@ -22604,7 +22604,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L22",
-   "desc": "AI基础设施与模型公司从一级市场走向公开市场的窗口，2025-2026迎来上市高峰。",
+   "desc": "AI基础设施与模型公司从一级市场走向公开市场的窗口，2025-2026迎来上市高峰。已上市代表：CoreWeave（2025-03，AI 云 IPO 旗舰，首日后波动引定价争议）、Cerebras（2025 提交后因外资审查延宕）、Figma（2025-07，AI 设计，首日暴涨 250%）、Circle（2025-06 稳定币+AI 支付叙事）、国内摩尔线程（2025 科创板，GPU 第一股）、云知声/地平线（2024-2025 港股）；2026 窗口：Figure/Anduril 类机器人与国防 AI 传闻、Anthropic/OpenAI 私募二级火热（估值 965B/1.4T 区间报道）推迟 IPO；特征：AI IPO 定价锚定 ARR 增速而非盈利，破发与暴涨并存（CoreWeave vs Figma 两极）；为一级市场 AI 估值传导公开市场的风向标面。",
    "stage": "2025 开启 · 2026 基础设施IPO潮",
    "player": "CoreWeave(CRWV);Cerebras(CBRS);Groq;Mistral;HuggingFace",
    "url": "https://www.prnewswire.com/news-releases/coreweave-announces-pricing-of-initial-public-offering-302413879.html",
@@ -22844,7 +22844,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L22",
-   "desc": "独立于模型厂商的第三方评测与红队公司，为企业采购/监管提供可信\"成绩单\"。",
+   "desc": "独立于模型厂商的第三方评测与红队公司，为企业采购/监管提供可信「成绩单」。格局：Epoch AI（模型追踪与预测，开源数据被广泛引用）、LMSYS Chatbot Arena（社区众评，2024-2025 争议其排名方法论——Llama 4 发布时的排行榜风波）、Anthropic/OpenAI 红队外包（Haughey/Lakera/Grey Swan 接单模式）、企业采购评测（Vellum/Arize 评测平台）；欧盟 AI Act 合规牵引：GPAI 模型系统风险评估需独立审计（2025-08 生效），国内算法备案+深度合成评测体系（信通院可信 AI 评测）；挑战：评测集污染（benchmark contamination）、主观任务分歧、厂商选择性披露；2025-2026 「模型保险公司」概念（对冲 AI 事故责任）为衍生品类讨论。",
    "stage": "2023 榜单兴起 · 2026 审计服务化",
    "player": "LMSYS;Berkeley Epoch AI;Scale AI Evaluations;Arthur AI;Brio-Align",
    "url": "https://scale.com/evaluations",
@@ -23132,7 +23132,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "以系统级端侧+云端混合 AI 为卖点的智能手机品类，2024 随三星 S24 爆发。",
+   "desc": "以系统级端侧+云端混合 AI 为卖点的智能手机品类，2024 随三星 S24 爆发。里程碑：三星 S24（2024-01，Galaxy AI 首发——通话实时翻译/圈选搜索/笔记摘要，端云混合）→ Apple Intelligence（2024-06 WWDC，iOS 18 秋季推送，私有云计算 PCC 架构）→ 小米 HyperAI/HyperOS、OPPO ColorOS AI（消除/摘要）、vivo BlueLM 端侧、华为小艺盘古端云协同；技术底座：NPU 40+ TOPS 门槛（8Gen3/天玑 9300/A17 Pro 起）+ 端侧 3B/7B 量化模型（Gemma 2B/Phi-3.5/Qwen 端侧版）；2025-2026 趋势：Agent 化（跨 App 任务执行——三星 Bixby 重构/Apple Siri 大改/荣耀 YOYO 智能体），隐私（本地推理 vs 云端）为差异化主轴。",
    "stage": "2024 S24 爆发 · 2026 Agentic AI",
    "player": "Samsung,Apple,Google,小米,华为",
    "url": "https://samsungmobilepress.com/articles/samsung-unveils-galaxy-s26-series-intuitive-galaxy-ai",
@@ -23340,7 +23340,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "数据不出手机、只交换加密梯度来联合训练模型，Gboard 为首个大规模生产案例。",
+   "desc": "数据不出手机、只交换加密梯度来联合训练模型，Gboard 为首个大规模生产案例。Google Gboard 联邦学习（2017 论文+生产，输入法联想词训练）与联邦分析、Apple 端侧个性化（差分隐私配合）、华为花瓣式学习；技术栈：Secure Aggregation（Bonawitz 2017，服务器只见聚合梯度）+差分隐私+设备唤醒筛选（插电/充电/WiFi 条件）；工业困境：设备异构（Non-IID 数据分布）、掉队者（stragglers）、梯度泄露攻击（DLG 2020 证明原始梯度可重建数据）→ 工程上转向「联邦+本地 LoRA 微调」混合（2024-2025 端云协同个性化）；物联网/车机（特斯拉车队影子模式近似联邦思路）为增长场景。",
    "stage": "2016 提出 · 2019 Gboard 生产 · 2025 LDP 加固",
    "player": "Google Gboard,OpenMined Flower",
    "url": "https://support.google.com/gboard/answer/12373137?hl=en-GB",
@@ -23356,7 +23356,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "按任务复杂度/时延/电量在端侧与云端间动态分配推理，是端侧 AI 默认架构。",
+   "desc": "按任务复杂度/时延/电量在端侧与云端间动态分配推理，是端侧 AI 默认架构。模式：级联路由（小模型先答，置信度低升级大模型——FrugalGPT 2023 论文量化成本收益）、语义路由（意图分类直达专家模型）、投机解码跨设备（端侧 draft + 云端 verify，Apple 端云 PCC 为隐私范式）、KV cache 迁移（端云接力会话）；产业：手机厂商（Apple Private Cloud Compute 2024-06、三星/小米混合推理）、运营商边缘节点（5G MEC 推理下沉）、车企（车端小模型+云端大模型训练回流）；2025-2026 标准化：MCP 类协议让云端 Agent 调用端侧能力、WebGPU 端侧推理（浏览器内 LLM）；核心权衡：隐私（数据不出端）vs 成本（端侧功耗/内存）vs 时延，路由策略本身成为独立研究题（RouteLLM 2024）。",
    "stage": "2024 概念 · 2026 默认架构",
    "player": "Apple,Google,Qualcomm,WebLLM",
    "url": "https://webllm.io/",
@@ -23420,7 +23420,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "在浏览器里用 WebGPU/WebNN 直接跑 LLM，无需安装、数据不出本机。",
+   "desc": "在浏览器里用 WebGPU/WebNN 直接跑 LLM，无需安装、数据不出本地。栈：WebGPU（Chrome 113+ 默认启用 2023-05，compute shader 通用 GPU 访问）→ WebNN（W3C 神经网络 API，NPU 直通，2024-2025 部分可用）→ 框架：web-llm（MLC 项目，浏览器内跑 Llama/Qwen 量化模型）、transformers.js（HF，ONNX Runtime Web 后端）、wllama（llama.cpp wasm）；价值：零安装分发（demo/隐私场景）、无服务器成本（用户算力）、离线 PWA；限制：显存上限（4GB 级跑 7B Q4 极限）、下载模型 GB 级首载（Cache API 缓存）、性能为原生 60-80%（公开 benchmark 口径）；与「端侧 Agent」叙事合流：浏览器即沙箱的 AI 应用（2025 年 Chrome 内置 AI API Gemini Nano 为厂商信号）。",
    "stage": "2023 WebLLM · 2026 生产可用",
    "player": "mlc-ai WebLLM,HuggingFace transformers.js,Google LiteRT.js",
    "url": "https://webllm.io/",
@@ -23436,7 +23436,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L22",
-   "desc": "离线唤醒词检测与端侧 ASR，做低时延、隐私的始终在线语音入口。",
+   "desc": "离线唤醒词检测与端侧 ASR，做低时延、隐私的始终在线语音入口。技术栈：KWS 唤醒词小型网络（毫瓦级常驻 DSP）→ 端侧 ASR（Whisper tiny/base 量化、Sherpa-NCNN/ONNX、科大声学离线引擎）→ VAD+回声消除前端（AEC/NS）→ 端侧 NLU（意图分类小模型）；产品：手机语音助手离线模式（Siri 离线唤醒+云端理解混合）、车载离线语音（德赛西威/科大飞鱼）、智能音箱本地化趋势（隐私批评后 Amazon/Google 增加本地处理）；2024-2026 端侧 LLM 使「离线全链路对话」成为可能（Phi/Gemma 3B 量化+流式 ASR+端侧 TTS），与 AI Phone 端云混合路线合流；延迟账本：<300ms 端到端响应为「跟手」门槛。",
    "stage": "2022 Whisper · 2026 端到端离线",
    "player": "ggml-org whisper.cpp,OpenAI Whisper,阿里 Qwen-Omni",
    "url": "https://github.com/ggml-org/whisper.cpp",
@@ -23532,7 +23532,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L22",
-   "desc": "国家数据局牵头17部门推动数据与各行业融合的国家级乘数效应行动",
+   "desc": "国家数据局牵头17部门推动数据与各行业融合的国家级乘数效应行动。文件：《「数据要素×」三年行动计划（2024—2026 年）》（2023-12 国家数据局等 17 部门印发），选取工业制造/现代农业/商贸流通/交通运输/金融服务/医疗健康等 12 个行业领域，目标到 2026 年打造 300 个以上示范性强/显示度高/带动性广的典型应用场景；配套制度：数据二十条（2022-12，产权/流通/收益分配三权分置）、公共数据授权运营试点、数据资产入表（财政部 2024-01 起施行）；2024-2025 数据交易所（上海/深圳/贵阳）挂牌量与数据商生态发展；AI 关联：高质量数据集供给（行业语料库）被列为数据要素×科技金融等重点方向。",
    "stage": "2024 启动 · 2026 收官",
    "player": "国家数据局;中央网信办;科技部;工信部等17部门",
    "url": "https://www.gov.cn/lianbo/bumen/202401/content_6924380.htm",
@@ -24396,7 +24396,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L22",
-   "desc": "各国追求自主可控模型、算力与数据栈的『主权AI』战略，2025进入大规模基建阶段。",
+   "desc": "各国追求自主可控模型、算力与数据栈的『主权AI』战略，2025进入大规模基建。代表：黄仁勋 2024 年起全球推销「sovereign AI」叙事（各国国家 AI 云订单：日本软银/法国 Mistral/印度 Yotta/沙特 HUMAIN 2025 公开）；欧盟 InvestAI（2025-02，2000 亿欧元计划宣布）与 EuroHPC 超算挂 AI；中国「东数西算+国产算力」双轨、新加坡 national AI strategy 2.0；主权模型：Mistral（欧洲旗舰叙事）、AI2 OLMo（全开放美国线）、中东 Falcon（阿联酋 TII）与 ALLaM（沙特）；数据主权法规（GDPR 数据本地化、各国数据跨境新规）为基建合规底座；2025-2026 争议：主权 AI 成本（小国自建不经济）vs 供应商锁定（依赖美国云/芯片）两难。",
    "stage": "2023 提出 · 2025 AI大陆计划 · 2026 千兆工厂",
    "player": "欧盟; 英国DSIT; 法国; 印度; Mistral; EuroHPC",
    "url": "https://commission.europa.eu/topics/competitiveness/ai-continent_en",
@@ -24556,7 +24556,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L22",
-   "desc": "把前沿模型发布前安全测试/红队结果制度化、可披露、可被政府核验的制度。",
+   "desc": "把前沿模型发布前安全测试/红队结果制度化、可披露、可被政府核验的制度。政策线：拜登 EO 14110（2023-10，要求大规模模型训练报告报 NIST，2025-01 特朗普政府废除后部分条款转向自愿框架）、加州 SB 1047（2024 被否决后 2025 AB 2013/透明度法案转向）、欧盟 GPAI 行为准则（2025-07 最终版，安全与防务豁免争议）；业界实践：OpenAI Preparedness Framework（2023-12 起发布系统卡+危险能力评测）、Anthropic RSP（2023-10 负责任扩展政策，ASL-1~4 分级承诺+更新版 2024-10）、DeepMind Frontier Safety Framework（2024-05）；第三方核验：UK AISI/US CAISI 政府预部署测试（2024-11 起公开合作报道）；中国：生成式 AI 备案+安全评估双轨。争议轴：商业机密 vs 公开披露深度、红队结果的可信审计方缺位。",
    "stage": "2023 公开报告 · 2025 美国预审 · 2026 五家入网",
    "player": "CAISI; OpenAI; Anthropic; Google DeepMind; Microsoft; xAI",
    "url": "https://www.nist.gov/tags/center-ai-standards-and-innovation",
@@ -24636,7 +24636,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用垂类大模型做简历解析、AI视频面试、岗位匹配、绩效评估与员工陪伴的HR全流程AI。",
+   "desc": "用垂类大模型做简历解析、AI视频面试、岗位匹配、绩效评估与员工陪伴的HR全流程AI。代表：HireVue（AI 视频面试老牌，2021 年起去面部识别转 LLM 问答评估）、Phenom/八爪鱼、国内北森/大易；LinkedIn 以 AI 招聘助手（ Recruiter AI/ Hiring Assistant）重塑匹配；2024 年起 Agent 化（自动 JD 撰写、面试纪要、offer 流程自动化）；欧盟 AI Act 将招聘 AI 列入高风险类（就业决策偏差审计强制化）是行业最大合规变量。",
    "stage": "2018 ATS简历解析 · 2025 AI面试官Agent",
    "player": "北森,Moka,剪流AI招聘,用友大易,HireVue,Eightfold,牛客企业版",
    "url": "https://m.sohu.com/a/1078880129_122946473/",
@@ -24956,7 +24956,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用视觉AI+可穿戴传感器做猪/牛个体识别、发情揭发、反刍监测与疫病预警。",
+   "desc": "用视觉AI+可穿戴传感器做猪/牛个体识别、发情揭发、反刍监测与疫病预警。代表：荷兰 Connecterra（Ida 奶牛监测）、以色列 BeeHero 精准蜂业、国内睿畜科技/小龙潜行（猪脸识别+称重）、阿里云ET农业大脑养殖试点（2018 年公开案例）；技术栈=耳标/项圈 IMU+摄像头个体重识别（ReID）+声音咳嗽检测（猪呼吸道疫病预警）；经济账：发情揭发准确率提升直接提升受胎率、死淘率下降是核心 ROI；非洲猪瘟后国内生物安全等级提升加速非接触监测普及。补充：乳业巨头规模采购（蒙牛/伊利智慧牧场公开案例）与政府数字农业补贴为两大需求引擎。",
    "stage": "2018 猪脸识别 · 2026 牛脸行为感知",
    "player": "牧原,蒙牛,河洛云牧,基硕科技,京东农牧,农信数智",
    "url": "https://www.news.cn/politics/20260713/a0596bdc43c04d188986b958ae127454/c.html",
@@ -25132,7 +25132,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用客流预测+AI伴游+具身机器人做景区拥堵预警、智能讲解与无人机配送。",
+   "desc": "用客流预测+AI伴游+具身机器人做景区拥堵预警、智能讲解与无人机配送。场景：客流预测与限流（节假日预约+热力图调度，故宫/西湖预约制数字化底座）、AI 伴游（携程问道/景区数字人导游、AR 实景导览——圆明园/敦煌 AR 复原线）、具身应用（景区清洁机器人/巡逻机器人/擎朗送物，黄山/张家界试点公开报道）、无人机（大疆机场园区巡检+外卖到吊桥——美团武功山线 2025 报道）；技术底座：多源票务+摄像头热力融合、LLM 多语种讲解（入境游便利化 2024-2025 政策红利）；文旅部智慧旅游沉浸式体验新空间名单（2023-2025 批次）为政策抓手；痛点：山体遮挡通信、极端天气调度、淡旺季成本摆动。",
    "stage": "2023 无人机景区巡护 · 2025 具身导览",
    "player": "黄山,八达岭,银河通用,支付宝AI伴游,西湖云上西湖,美团无人机",
    "url": "http://news.sohu.com/a/1079640675_122692397",
@@ -25148,7 +25148,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L22",
-   "desc": "用AI图像修复+数字孪生+AIGC做壁画补色、文物三维重建、AR导览与数字人讲解。",
+   "desc": "用AI图像修复+数字孪生+AIGC做壁画补色、文物三维重建、AR导览与数字人讲解。代表：敦煌研究院「数字敦煌」（高精度采集+AI 补色辅助，与腾讯合作 2022-2024）、故宫「数字文物库」、秦陵兵马俑色彩复原 ML 项目、国家博物馆艾雯雯数字人（2022 上线）；技术：多光谱/高光谱成像+CNN 补色、Photogrammetry/Gaussian Splatting 三维重建、LLM 驱动讲解数字人；2024-2025 AIGC 展陈（生成式场景复原「何以文明」类项目）；国际参照：卢浮宫/大英博物馆 AR 导览线；学术侧：文物修复 AI 的「可逆性与可解释性」伦理约束（AI 补色只作展示不作实物修复依据）为行业共识。",
    "stage": "2016 数字敦煌 · 2024 AI修复系统",
    "player": "敦煌研究院,腾讯,故宫博物院,云冈研究院,永乐宫,商汤科技,国家博物馆",
    "url": "https://ent.people.com.cn/n1/2025/0511/c1012-40477332.html",
@@ -25292,7 +25292,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "把单层权重按列/行切分到多卡，并扩展到序列维、二维/三维网格组合，突破单卡显存上限。",
+   "desc": "把单层权重按列/行切分到多卡，并扩展到序列维、二维/三维网格组合，突破单卡显存与通信瓶颈。谱系：Megatron-LM（2019/2021，TP 1D 列/行切分开山）→ 序列并行（Megatron-SP/DeepSpeed-Ulysses/Ring-Attention 2023，激活按序列切分撑百万上下文）→ 2D/3D 并行（Colossal-AI 2.5D/3D，Mesoscale tensor parallelism 2024，通信量再降）→ 设备网格抽象（JAX/XLA GSPMD，自动切分成为框架能力）；工程组合：TP×PP×DP×EP 四维组合（Megatron 混合策略为大模型训练标配）+ 通信优化（overlap 计算/通信、NVLink/NVSwitch 硬件协同）；2025-2026：超节点（NVL72 机柜内 TP 域扩大）改变并行策略选择、专家并行 EP 与 TP 的交互（DeepSeek-V3 架构公开分析）、推理端 TP（TensorRT-LLM/vLLM 多卡推理常配）。",
    "stage": "2019 起源 · 2022 三维并行",
    "player": "NVIDIA Megatron; Megatron-LM 社区",
    "url": "https://arxiv.org/abs/1909.08053",
@@ -25500,7 +25500,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "请求级动态批处理：不等同批序列完成，谁先生成完谁离开、新请求随时插入，提升吞吐。",
+   "desc": "请求级动态批处理：不等同批序列完成，谁先生成完谁离开、新请求随时插入，提升吞吐。源头：Orca（OSDI 2022，iteration-level scheduling 开山， selective batching）；vLLM PagedAttention（2023）把 KV cache 分页管理配合 continuous batching 成为开源事实标准；深化方向：chunked prefill（prefill 与 decode 混批消除首 token 长尾）、PD 分离（prefill/decode 分池，Mooncake/DistServe 2024，SGLang/vLLM 生产化）、优先级调度与 SLA 感知（SGLang cache-aware routing）；与投机解码（speculative decoding）叠加是推理栈默认双引擎；实测吞吐对比静态 batching 提升 2~20 倍（Orca/vLLM 论文口径）。",
    "stage": "2022 起源 · 2024 服务标配",
    "player": "UC Berkeley Orca; vLLM; SGLang",
    "url": "https://arxiv.org/abs/2206.04809",
@@ -25548,7 +25548,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "分层小世界图上做贪心近邻搜索，构建多层跳表式图，是当前最主流的内存向量索引。",
+   "desc": "分层小世界图上做贪心近邻搜索，构建多层跳表式图，是当前最主流的内存向量索引。源自 Malkov & Yashunin 2016-2018 arXiv（TPAMI 2018 定稿）；核心=上层稀疏长边快速导航+底层稠密图精确搜索，efConstruction/efSearch 调参权衡；深化方向：删除支持（deletable HNSW）、混合标量过滤（filtered HNSW，2023 后 VectorDB 标配）、GPU 化（CAGRA）、量化感知（PQ-HNSW 混合）；pgvector hnsw、Milvus/Qdrant/Weaviate/Elasticsearch 全系默认或主力索引；理论工作证明其贪心导航的 log 级复杂度（NSW 论文系列）；与 DiskANN/Vamana 的可扩展性之争在十亿级内存外场景分野。",
    "stage": "2016 起源 · 2022 默认索引",
    "player": "nmslib HNSW; FAISS; Qdrant; Milvus",
    "url": "https://arxiv.org/abs/1603.09320",
@@ -25836,7 +25836,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "在生成答案句级位置内联标注来源文档/句子，支持用户点击溯源、降低幻觉。",
+   "desc": "在生成答案句级位置内联标注来源文档/句子，支持用户点击溯源、降低幻觉。技术谱系：引用生成（WebGPT 2021 首创引用格式、Perplexity 句级 citation marker 2024 商用标杆、Bing Chat 悬浮源卡片）；实现路线：生成时内联（特殊 token 触发+检索器定位 span）、生成后对齐（attributed QA——AIS 论文 2022 评测框架 attribute+illustrate）、句级 entailment 校验（引用是否真的支持该句，TRUE/ALCE 2023 基准）；企业价值：法务/医疗场景引用不实=产品事故，ALCE（Enabling LLMs to Generate Text with Citations）为标准评测；与长上下文之争：引用机制是 RAG 相对长上下文的最后护城河之一（可审计性）；2025 年 Perplexity 被媒体起诉（News Corp 诉讼 2025-09 报道）使引用合规升级为法律焦点。",
    "stage": "2023 起源 · 2026 产品标配",
    "player": "Perplexity; Cohere; Anthropic",
    "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-router/conceptual-guides/citations-quickstart",
@@ -25852,7 +25852,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "把长文档按章节-段落分层切分、逐层摘要后检索，避免长上下文截断损失关键信息。",
+   "desc": "把长文档按章节-段落分层切分、逐层摘要后检索，避免长上下文截断损失关键信息。技术谱系：朴素固定窗口分块（token 512~1024 滑窗）→ 语义分块（embedding 相似度切分）→ 递归/分层摘要 RAPTOR（2024，树状摘要层检索，多粒度问答）→ LLM 阈值分块/Late Chunking（Jina 2024，先长上下文 embedding 后切分保全局语境）→ 上下文检索（Anthropic Contextual Retrieval 2024-09，块级上下文注入，retrieval 失败率降 35%~49% 公开口径）+重排（Cohere Rerank）；生产三件套=分层索引+上下文化分块+hybrid（BM25+向量）+rerank；PDF 版式/表格解析（ColPali 类视觉路线）为长文档特化战场。",
    "stage": "2023 起源 · 2025 层级化",
    "player": "LlamaIndex; LangChain; Microsoft GraphRAG",
    "url": "https://www.llamaindex.ai/",
@@ -25884,7 +25884,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "当新旧知识矛盾(如公司换地址)时，决定覆盖、合并或保留多版本，避免模型输出过时信息。",
+   "desc": "当新旧知识矛盾(如公司换地址)时，决定覆盖、合并或保留多版本，避免模型输出过时信息。研究线：ROME/MEMIT（2022-2023 模型内编辑——定位-编辑事实，冲突副作用与级联失败公开分析）、参数知识 vs 上下文冲突（popular «The Earth is flat» 类实验，long context 下 context 通常胜出但有条件）、记忆系统冲突（Mem0/Gepa 类 extract-update 决策、Zep 时序失效推理——edge valid_at/invalid_at 时间戳）；产品级策略：TTL 与置信度（时效型信息自动过期）、来源优先级（官方>聚合>UGC）、人工仲裁队列（高冲突值入审）；评测：TemporalBench/ConflictBank（2024）类冲突基准；2025-2026 agent 记忆层的冲突消解从论文问题变成产品验收项（客服记忆错乱为用户投诉高频）。",
    "stage": "2024 起源 · 2026 成长期",
    "player": "Mem0; Zep; ROME/MEMIT",
    "url": "https://arxiv.org/abs/2402.09201",
@@ -26044,7 +26044,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "记录每步 LLM 调用/工具入参出参，支持离线回放、断点复现与调试 Agent 失败。",
+   "desc": "记录每步 LLM 调用/工具入参出参，支持离线回放、断点复现与调试 Agent。工具：LangSmith（trace 树+数据集固化+回放评估）、Langfuse（开源自托管）、Arize Phoenix（OTel 标准化 trace）、Braintrust（eval+playground）；工程动作：trace 采样（成本控制）、PII 脱敏存储、确定性重放（LLM 非确定——temperature=0 仍因 MoE 路由/浮点并行不完全确定，缓存 mock 才可精确重放）、失败样本固化成评测集（bug→test 转化是核心工作流）；与评测闭环：回放数据集做回归门（prompt/模型升级前跑全套）；2025-2026 标准化：OpenTelemetry GenAI semantic conventions（2024-2025 社区推进）使 trace 格式跨平台可迁移，Agent 调试从「看日志」进化到「时间旅行调试」。",
    "stage": "2024 起源 · 2026 可观测标配",
    "player": "LangSmith; Langfuse; Arize Phoenix",
    "url": "https://langfuse.com/",
@@ -26236,7 +26236,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "借鉴认知科学把 Agent 记忆分工作/情景/长期三型，分别管理会话、事件与知识库。",
+   "desc": "借鉴认知科学把 Agent 记忆分工作/情景/长期三型，分别管理会话、事件与语义知识。映射：工作记忆=当前上下文窗口内活跃信息、情景记忆（episodic）=会话历史与事件轨迹（可检索回放）、语义记忆（semantic）=抽取后的稳定事实与偏好（用户画像）、程序记忆（procedural）=技能/工作流（agent 自我改进的 SOP）；实现：MemGPT/Letta（OS 分页隐喻）、Generative Agents（2023 斯坦福小镇，记忆流+反思 reflection+规划三件套为情景记忆经典）、HippoRAG（海马体索引理论类比）；工程挑战：记忆一致性（同一事实多版本）、遗忘曲线（无用记忆衰减策略）、反思时机（任务结束批量 vs 实时增量）；2025 年「记忆即产品」（Mem0/Zep/Letta 融资）使认知架构从论文概念变成工程栈标配。",
    "stage": "2024 起源 · 2026 认知架构",
    "player": "Mem0; Zep; Letta",
    "url": "https://arxiv.org/abs/2304.03442",
@@ -26252,7 +26252,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "多 Agent 通过共享黑板或发布-订阅消息总线异步交换信息，而非点对点串行。",
+   "desc": "多 Agent 通过共享黑板或发布-订阅消息总线异步交换信息，而非点对点直连。模式谱系：黑板系统（blackboard，1970s Hearsay-II 语音识别项目起源——多知识源共享工作区）→ 发布订阅（Kafka/Redis Streams/MQTT 为 Agent 总线载体）、事件驱动架构（EDA）迁移到 Agent 网格；与点对点（handoff）对比：解耦但延迟与一致性差；实现：AutoGen 的群聊消息总线（2023-10 框架公开）、CAMEL 角色扮演消息、LangGraph 的 channel 状态机（本质是类型化黑板）；A2A 任务的 pub-sub 扩展（2025-2026 协议演进方向）；工程坑：消息风暴（fan-out 放大）、幂等与去重、上下文污染（黑板被无关信息刷屏——需要 topic 分区与 TTL）；2025 年企业 Agent 网格（event-driven agents）成为 中间件厂商（Confluent/Solace）新叙事。",
    "stage": "2024 起源 · 2026 拓扑",
    "player": "AutoGen; CrewAI; 黑板系统",
    "url": "https://microsoft.github.io/autogen/",
@@ -26300,7 +26300,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "多个 Agent 给出多份答案后，用多数投票/裁判模型/加权仲裁得到最终一致结果。",
+   "desc": "多个 Agent 给出多份答案后，用多数投票/裁判模型/加权仲裁得到最终答案。方法：Self-Consistency（2022-03 Wang et al.，CoT 多采样多数投票）、LLM-as-Judge（MT-Bench 2023 起流行，裁判模型打分，偏差公开研究：位置偏差/长度偏差/自我偏好——2024 多篇论文）、Mixture-of-Agents（MoA 2024-06，分层聚合多个开源模型超 GPT-4 的公开口径）、加权仲裁（按领域专长加权+辩论后改票）；生产形态：Deep Research 类 fan-in、多模型交叉验证（关键决策双模型对照——GPT+Claude 互相校验企业实践）、竞技场式实时聚合（Chatbot Arena 的 pairwise）；成本与可靠性权衡：N 倍 token 换边际收益递减（公开消融显示 5 路后饱和）；2025-2026 与 verifier 模型（专用裁判，OpenAI o3-mini-as-judge 实践）与 RLVR（可验证域免聚合）三线分工。",
    "stage": "2023 起源 · 2026 仲裁",
    "player": "学界; LangGraph; AutoGen",
    "url": "https://arxiv.org/abs/2203.11171",
@@ -26652,7 +26652,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L23",
-   "desc": "分符号(MIDI/乐谱)生成与波形音频生成两条路线，后者直接出可听音乐。",
+   "desc": "分符号(MIDI/乐谱)生成与波形音频生成两条路线，后者直接出可听音乐。符号线：MuseNet（2019 OpenAI）、Google Magenta 系（MusicVAE/Coconet）、MU-LLaMA/SkyMusic（昆仑万维天工 2024-2025）；音频线：Jukebox（2020 OpenAI，原始波形，分钟级慢）→ MusicLM（2023 Google）→ MusicGen（2023-08 Meta，代码本+LM，开源标杆）→ Stable Audio/Suno v1-v4.5（2023-2025 消费级爆红——Suno 与唱片业诉讼 RIAA 2024 为行业最大法律战）→ Udio（2024，前 DeepMind 团队，与 Suno 双雄）；技术：语义 token（EnCodec 离散化）+LM 或扩散；2025-2026：Suno v4.5 长曲/人声质量跳变、版权和解谈判报道、Suno Studio（DAW 化）创作者工具化；与视频生成耦合（音画同步生成——Veo 3 2025-05 原生音频为节点）。",
    "stage": "2017 起源 · 2025 端到端",
    "player": "Suno; Udio; Magenta",
    "url": "https://arxiv.org/abs/2407.03810",
@@ -27724,7 +27724,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "同时训练多个任务时用动态加权各任务损失，防止某一任务主导或梯度冲突，提升整体泛化。",
+   "desc": "同时训练多个任务时用动态加权各任务损失，防止某一任务主导或梯度冲突，提升整体泛化。方法谱系：静态手工权重→GradNorm（2018，按梯度范数动态调权）→PCGrad（2018，梯度投影正交化消冲突）→CAGrad/Random Loss Weighting（2021-2022）；不确定性加权（Kendall 2018）用同方差不确定性自动定权；多任务奖励模型（如 OmniMATH 类多领域 RM 训练）与多语言/多模态联合训练都依赖任务均衡；2024 年后大模型时代弱化为数据配比（data mixture）问题，与 DoReMi/RegMix 等配比学习方法合流。",
    "stage": "2017 起源 · 2024 多任务配方",
    "player": "GradNorm; PCGrad; Kendall uncertainty",
    "url": "https://arxiv.org/abs/1711.02257",
@@ -27948,7 +27948,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "Google 提出的各向异性量化+搜索树剪枝 ANN 算法，单机两小时可建十亿级向量库。",
+   "desc": "Google 提出的各向异性量化+搜索树剪枝 ANN 算法，单机两小时可建十亿级索引。2020 Guo et al.（ICML）：各向异性损失（anisotropic loss——量化时按角度权重保内积方向）、SoAR 查询感知分配、SIMD 极致实现（AVX2 手写 kernel，公开 benchmark 当年第一）；工程位：Vertex AI Vector Search（原 Matching Engine）核心引擎，Google 内部 YouTube/Play 检索底座公开表述；对比：HNSW（图法内存贵查询快）vs ScaNN/IVF-PQ（量化法内存省吞吐高）——ScaNN 在高 recall-高 QPS 交叉点占优（官方 benchmark）；开源实现：scann pip 包（Apache 2.0）；后续影响：Google 系 research（MIPS/最大内积搜索）成为推荐召回学术主流框架，2024-2025 GaVL/MIPS-LLM（多模态 MIPS）延续。",
    "stage": "2019 起源 · 2020 成长期",
    "player": "Google Research; google-research/scann; Google AlloyDB",
    "url": "https://arxiv.org/abs/1908.10396",
@@ -28172,7 +28172,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "双塔稠密检索器的训练配方：难负例、批量负采样、无监督预训练与指令微调的工程化。",
+   "desc": "双塔稠密检索器的训练配方：难负例、批量负采样、无监督预训练与指令微调的工艺总集。工艺要点：难负例挖掘（hard negatives——BM25 top-k 但非答案、ANN 挖矿迭代，ANCE 2020 首创）、in-batch negatives（对比学习批内负例，InfNCE 温度调优）、对比合成数据（LLM 生成 query-doc 对，E5/Mistral 弱监督）、指令化（task instruction 前缀——INSTRUCTOR/E5-mistral/NV-Embed 路线）、知识蒸馏（cross-encoder teacher → bi-encoder student）；评测闭环：MTEB/BEIR 训练-评测分离意识（避免评测污染——2024 年公开批评多篇）；2025 前沿：多模态检索器（图文统一向量）、长文本 embedding（8K-32K，Jina/NV-Embed v2）、RAG 特化微调（以最终答案质量为奖励的端到端 retriever 训练——RA-DIT/REPLUG 谱系）。",
    "stage": "2020 起源 · 2024 指令化成熟期",
    "player": "Facebook(DPR); Microsoft(E5); Sentence-Transformers; BAAI",
    "url": "https://arxiv.org/abs/2004.04906",
@@ -28252,7 +28252,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "在 BERT 上加孪生网络+池化产出可比句向量，使语义搜索/聚类可实时计算的奠基工作。",
+   "desc": "在 BERT 上加孪生网络+池化产出可比句向量，使语义搜索/聚类可实时计算。2019 Reimers & Gurevych EMNLP：双塔（siamese）结构+mean pooling，把 BERT pair 级 O(n²) 推理降为向量余弦；谱系延伸：SimCSE（2021，对比学习正例构造——dropout 即增强）→ Sentence-T5/E5（Microsoft 2022，弱监督+synthetic 对）、GTE（阿里）、bge 系列（智源，检索+重排双件套）、Jina-embeddings（2023 起，长文本 8K）、Matryoshka 表征学习 MRL（2022-2024，嵌套维度裁剪，OpenAI text-embedding-3 与 vLLM 生态采用）；指令式 embedding（e5-mistral/NV-Embed 2024，LLM 底座 embedding 刷榜 MTEB）；MTEB 榜单（2022 起）为竞技场；2025 方向：多模态 embedding（图文统一向量——CLIP 类与文本 embedding 合流）、MRL 已成开源标配。",
    "stage": "2019 起源 · 范式奠基成熟期",
    "player": "UKP(Reimers/Gurevych); sentence-transformers",
    "url": "https://arxiv.org/abs/1908.10075",
@@ -28316,7 +28316,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "用语义缓存、查询路由、KV/提示缓存把重复 RAG 请求的推理成本与延迟压低。",
+   "desc": "用语义缓存、查询路由、KV/提示缓存把重复 RAG 请求的推理成本与延迟打下来。技术件：语义缓存（GPTCache 2023 开源——embedding 相似度命中缓存答案，阈值权衡命中率与错误率）、查询路由（简单 FAQ 直答 vs 复杂走全管线——语义路由器 semantic router 2023-2024）、提示缓存（Anthropic/OpenAI 前缀缓存 90% 折扣——system+few-shot 固定前缀）、KV cache 复用（vLLM prefix caching 自动）、批处理（batch API 半价离线）；架构：分层缓存（embedding cache→结果 cache→LLM cache）、租户隔离；实测账：企业 RAG 命中率 20-40% 时成本降 30%+（GPTCache 论文与厂商公开口径）；2025-2026 与 Agent 记忆合流（缓存命中→记忆检索的统一抽象）。",
    "stage": "2023 起源 · 2025 降本标配",
    "player": "GPTCache; TurboRAG; LangChain/LlamaIndex 缓存模块",
    "url": "https://arxiv.org/abs/2411.05276",
@@ -28396,7 +28396,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "把推理/动作组织成树或图状搜索空间，配合评估器做前瞻搜索以提升规划可靠性。",
+   "desc": "把推理/动作组织成树或图状搜索空间，配合评估器做前瞻搜索以提升规划可靠性。谱系：ToT（2023-05 Yao et al.，思维树 BFS/DFS+LLM 评估器）、GoT（2023-08，思维图支持合并/回边）、RAP（2023-05，世界模型即 MCTS 先验）、LATS（2023-10，语言 Agent 树搜索接入工具环境）、MCTS 复兴线（AlphaProof 的 Lean 内 MCTS、rStar 2024 自我博弈+MCTS 免训练推理）；生产形态：Agent 的 plan-and-search（SWE-agent 内候选补丁树）、游戏与机器人规划（MuZero 风格模型基搜索）；成本账：每步多次 LLM 调用（10-100 倍），仅在高价值决策启用；与长 CoT 的关系：o1/R1 把搜索「内化」进思维链，外显树搜索在可验证环境（代码/数学）仍占可靠性与可审计优势。",
    "stage": "2023 起源 · 2025 与推理模型合流",
    "player": "Princeton(ToT);Microsoft(GoT);DeepMind/学界(MCTS)",
    "url": "https://arxiv.org/abs/2305.10601",
@@ -28572,7 +28572,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L24",
-   "desc": "把 Agent 当作进程，提供调度/上下文/记忆/存储/权限管控的系统层基础设施。",
+   "desc": "把 Agent 当作进程，提供调度/上下文/记忆/存储/权限管控的系统层。概念源流：MemGPT 论文副标题「LLM as OS」（2023-10，虚拟上下文管理隐喻）→ Karpathy「LLM OS」图（2023-06 推文出圈：LLM 为 CPU、上下文为 RAM、外部工具为外设）→ 产品化：Runloop/Emergent（Agent 托管运行时）、AWS Bedrock AgentCore（2025-07 预览，运行时/记忆/身份/网关四模块）、OpenAI Agent 平台（2025 Responses API+工具托管）；类比映射：进程=Agent 实例、系统调用=工具调用、文件系统=记忆存储、权限=IAM for agents、调度=多 Agent 并发编排；与 MCP 的关系：MCP 是「设备驱动层」（工具协议），AgentOS 是其上资源管理层；2025-2026 竞争：云大厂（Bedcore/Vertex/OpenAI）与创业层（LangGraph Platform/E2B 沙箱）分层卡位，「谁的 AgentOS 成为 Windows」为平台之争叙事。",
    "stage": "2023 概念 · 2026 多实现",
    "player": "清华(AIOS);UFO²;Qualixar OS;学界",
    "url": "https://arxiv.org/abs/2403.16971",
@@ -28892,7 +28892,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用医疗影像大模型实现多病种“一模型多诊断”、器官分割与报告生成。",
+   "desc": "用医疗影像大模型实现多病种“一模型多诊断”、器官分割与报告生成。谱系：单病种 CNN（肺结节/糖网三类证时代）→ 多病种基础模型（Nuance DAX Copilot 报告生成 2023 商用、微软 Multimodal Healthcare Intelligence、Google Med-Gemini 医学多模态）→ 2024-2025 影像大模型（Merlin/CT-CLIP 类 CT 基础模型、国内联影 uAI 影像大模型、深睿医疗多病种平台）；监管：中国 NMPA 三类证为 AI 影像商业化门槛（推想/联影/深智已获多张）、FDA SaMD 审批累计数百款；报告生成（Radiology report generation）2025 年起从研究进商用试点；核心经济学：放射科医生缺口与阅片量增长矛盾为持续驱动力。",
    "stage": "2016 CNN-CAD · 2025 影像大模型",
    "player": "联影智能,数坤科技,推想医疗,深睿医疗",
    "url": "https://www.news.cn/health/20250410/aad26659221746b3b69bbee0699afbb9/c.html",
@@ -28940,7 +28940,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用基因组基础模型与AI辅助三级分析，做致病变异解读与NGS报告生成。",
+   "desc": "用基因组基础模型与AI辅助三级分析，做致病变异解读与NGS报告生成。方法：变异效应预测（AlphaMissense 2023 Science——7100 万错义变异 89% 分类的公开口径、SpliceAI 剪接）、临床三级分析（ACMG 分级自动化——InterVar/LLM 辅助证据分级）、基础模型（Evo 2024 Science，131kb 上下文全基因组尺度、Evo 2 2025-02 Arc Institute+NVIDIA 9.3 万亿核苷酸）、报告生成（LLM 起草临床 NGS 报告，2024-2025 医院试点）；罕见病诊断：Face2Gene 表型+WES 加速（ untranslated 病例率下降为科室刚需）；监管与责任：LLM 幻觉在临床高危（证据引用错误风险）、CLIA/CAP 合规与医生签字制；2025-2026 与多组学（转录组/蛋白组联合解读）和 UK Biobank 类大队列因果推断为前沿。",
    "stage": "2016 变异解读工具 · 2025 基因组基础模型",
    "player": "华大(Genos),Illumina,SeqOne,DeepMind(AlphaGenome)",
    "url": "http://www.news.cn/tech/20251023/89cc956ab11d427aab9cb506f4ff0085/c.html",
@@ -29116,7 +29116,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用AI引擎在毫秒级RTB竞价中自动决策出价、定向并实时拼装创意（DCO）。",
+   "desc": "用AI引擎在毫秒级RTB竞价中自动决策出价、定向并实时拼装创意（DCO）。格局：Google DV360/Meta Advantage+/Amazon DSP 为买方三巨头（AI bidding 全自动化「无人化投放」2024-2025 官宣）、阿里妈妈/巨量引擎（国内双雄，增量智能投放产品线）、The Trade Desk（独立 DSP，Kokai AI 升级 2023）；技术栈：CTR/CVR 预估（深度模型叠加序列建模——阿里 DIN/DIEN 为经典公开工作）→ 智能出价（oCPX 自动出价）→ DCO 动态创意优化（素材元素组合实时拼装）→ 生成式素材（AIGC 广告图/视频批量生产 2024-2025）；隐私冲击：IDFA/cookie 退场使第一方数据+机器学习归因成为能力门槛；反作弊（广告欺诈检测）为 AI 常驻应用。",
    "stage": "2009 RTB起源 · 2025 AI引擎自动竞价",
    "player": "The Trade Desk,Google DV360,Meta,Xaxis",
    "url": "https://www.thetradedesk.com/our-demand-side-platform",
@@ -29132,7 +29132,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用多模态大模型对文本/图片/音视频/直播流做全模态、多语言实时合规审核。",
+   "desc": "用多模态大模型对文本/图片/音视频/直播流做全模态、多语言实时合规审核。格局：平台自研（Meta 的 TransCoder/Harmful Content 分类器体系、字节跳动内容安全中台为直播实时审核标杆）；第三方托管（OpenAI Moderation API、Azure AI Content Safety、Google Perspective API 接力）；国内百度内容安全/腾讯天御/网易易盾为备案合规底座（与生成式 AI 备案强绑定）；技术轴：传统 CNN 分类器→VLM 多模态理解（梗图/暗语/语境化仇恨识别）→2024 年起 LLM 用于长尾风险与申诉复核；漏放/误伤的 precision-recall 权衡与多语言长尾是小语种市场核心痛点。",
    "stage": "2015 关键词审核 · 2025 多模态大模型审核",
    "player": "阿里云,腾讯云,百度智能云,华为云",
    "url": "https://www.alibabacloud.com/zh/product/content-moderation",
@@ -29164,7 +29164,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L24",
-   "desc": "用大模型构建候选人与职位双向画像，做人岗匹配、AI面试与主动寻聘。",
+   "desc": "用大模型构建候选人与职位双向画像，做人岗匹配、AI面试与主动寻聘。分层：JD 理解与人才画像对齐（LLM embedding 召回+重排）、异步 AI 视频面试（HireVue/近屿智能，结构化评分表约束幻觉）、Agent 主动寻聘（自动在 LinkedIn/GitHub 候选池里检索触达）；与招聘 AI 基础层（简历解析 ATS）的差异在于 LLM 原生多轮交互与判断输出；合规轴：NYC Local Law 144（2023 生效，AI 招聘工具偏差审计强制）与欧盟 AI Act 高风险类双轨监管，偏置审计成为产品准入门槛。",
    "stage": "2018 简历筛选 · 2025 AI面试官/人才画像",
    "player": "北森,Moka,HireVue,猎聘",
    "url": "http://tech.chinadaily.com.cn/a/202606/09/WS6a27bff1a310942cc49b0cd1.html",
@@ -29292,7 +29292,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L25",
-   "desc": "把数据校验→训练→评估→注册→部署做成可重复触发、带质量门的自动化流水线。",
+   "desc": "把数据校验→训练→评估→注册→部署做成可重复触发、带质量门的自动化流水线。工具谱系：Kubeflow/TFX（Google 系起点）→ MLflow（Databricks 事实标准：tracking/registry）→ Vertex AI Pipelines/SageMaker Pipelines（云托管）→ Metaflow/Dagster/Prefect（数据管道协调）→ W&B（实验跟踪标配）；LLM 时代扩展：prompt 版本管理（LangSmith/PromptLayer）、评测门（LLM-as-judge 回归测试进 CI）、微调流水线（LoRA 训练-评测-发布）；持续训练（CT）与持续监控（漂移检测 Evidently/Arize）补全 CDML 闭环；MLOps 成熟度模型（Google MLOps level 0-2）为企业采用标尺，2025 年 LLOps（大模型运维）分化为独立话术。",
    "stage": "2019 起源 · 2025 质量门标配",
    "player": "Kubeflow Pipelines; Vertex; GitHub Actions for ML; Argo",
    "url": "https://www.kubeflow.org/docs/components/pipelines/",
@@ -29516,7 +29516,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L25",
-   "desc": "模型随到达数据流逐条更新参数而非定期全量重训，适应非平稳分布。",
+   "desc": "模型随到达数据流逐条更新参数而非定期全量重训，适应非平稳分布。谱系：SGD 本身即在线算法、perceptron 为鼻祖（1958）；bandit 在线学习（LinUCB/Thompson Sampling，推荐/广告 CTR 在线更新标配）；深度学习时代：持续学习（continual learning，灾难性遗忘为主敌——EWC 2017 弹性权重固化、iCaRL 回放）、流式学习（replay buffer + 梯度门控）；推荐系统在线化：Flink/Kafka 流特征 + 在线深度模型（阿里 XDL、美团在线学习平台公开分享）；LLM 时代差异：底座权重冻结（在线=检索/RAG/记忆更新，非参数在线学习），参数在线仅限小 adapter；2025 年「持续学习 LLM」（self-updating agent 经验）为前沿讨论。",
    "stage": "2011(VW)起源 · 2024 与漂移联动",
    "player": "Vowpal Wabbit; River; 各推荐系统",
    "url": "https://vowpalwabbit.org/",
@@ -29628,7 +29628,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L25",
-   "desc": "在训练时插入伪量化节点、用直通估计器(STE)让网络适应低精度，比 PTQ 掉点更少。",
+   "desc": "在训练时插入伪量化节点、用直通估计器(STE)让网络适应低精度，比 PTQ 精度损失小。谱系：DoReFa-Net/PACT（2016-2018 低比特训练先声）→ LLM QAT 化：LLM-QAT（2023）、SpinQuant/QLoRA 生态（QLoRA 本质是 4-bit 存储+BF16 计算的混合而非纯 QAT）→ 2024-2025 前沿：SpinQuant（Meta，旋转矩阵学习）、QuaRot（2024，Hadamard 旋转去 outlier）、SmoothQuant（2022 W8A8 迁移难度到权重）；机理：LLM 激活 outlier（特定通道幅度爆炸）是 PTQ 痛点——SmoothQuant 平滑/GPTQ Hessian 追踪/AWQ 激活感知缩放（2023）三线对策；与 KV cache 量化（KIVI 2024）配套；工业落地：GGUF/AWQ/GPTQ 格式为 Ollama/vLLM 主流格式族，QAT 用于端侧 NPU（高通 AI Engine 直接 QAT 模型）；2026 观察：原生低精度训练（FP8/FP4 训练——NVIDIA Blackwell FP4 硬件原生）使 QAT/PTQ 界限模糊。",
    "stage": "2018(DoReFa)起源 · 2025 FP8 QAT",
    "player": "PyTorch QAT; LSQ; TensorRT",
    "url": "https://arxiv.org/abs/1902.05186",
@@ -30092,7 +30092,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L25",
-   "desc": "超越英语的多语言能力评测：低资源语言、平行翻译质量、文化特有任务、跨语言迁移的系统度量。",
+   "desc": "超越英语的多语言能力评测：低资源语言、平行翻译质量、文化特有任务、跨语言知识迁移。基准谱系：XNLI/XStoryCloze（自然语言推理跨语言）→ FLORES-200（Meta 101/200 语言翻译基准）、MGSM（多语言 GSM8K 数学）、MMLU 多语言翻译版/Global-MMLU（2024，文化敏感项拆分）、MMMLU（OpenAI 2025 翻译 14 语）、C-Eval/CMMLU（中文）、IndicMMLU（印度语系）、Aya（Cohere 多语言指令+评测 2024）；发现：英语-中文两强与低资源长尾（斯瓦希里语/阿姆哈拉语级差数倍公开分析）、文化偏置（西方中心题——Global-MMLU 专项拆解）；2025-2026 方向：多语言安全评测（多语越狱成功率差）、方言与口语变体、本地化厂商（Sarvam 印度系模型）以本土基准自证。",
    "stage": "2019 起源 · 2026 低资源延伸",
    "player": "Meta FLORES-200; Google XTREME; OpenCompass; TMMLU+",
    "url": "https://arxiv.org/abs/2305.13216",
@@ -30748,7 +30748,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L25",
-   "desc": "把LLM作为推荐召回/排序/特征生成器，重构传统多路召回+精排推荐架构。",
+   "desc": "把LLM作为推荐召回/排序/特征生成器，重构传统多路召回+精排推荐架构。脉络：Google P5（2022，把推荐统一为 prompt 任务）→ Meta 生成式推荐 GR（2024，DMT 从 ID 序列直接自回归出 item，替代多路召回的公开落地）→ Google Youtube DQN-attention 混排与 TIGER（生成式检索，Semantic ID RQ-VAE 量化 token 化）；LLM 特征增强（用户兴趣摘要进 CTR 模型）是工业界低成本收益项；国内快手/美团公开分享 LLM 冷启动物料生成与意图理解；传统协同过滤+双塔路线与生成式路线并存，2025 年起生成式召回在头部平台进入主力迭代。",
    "stage": "2023 LLM4Rec · 2025 生成式召回落地",
    "player": "TikTok,抖音,YouTube,阿里,腾讯,Meta",
    "url": "https://recsys.acm.org/",
@@ -31164,7 +31164,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L25",
-   "desc": "把AI助手做成操作系统一级入口，覆盖系统搜索、文件、设置与跨App任务。",
+   "desc": "把AI助手做成操作系统一级入口，覆盖系统搜索、文件、设置与跨App任务。格局：Windows Copilot（2023-09 集成 Bing Chat→2024 Copilot+ PC 深度重构 Recall/Cocreator、2025 Copilot Vision 桌面看到屏幕）、macOS Apple Intelligence（Siri 重构+Writing Tools+Notification 摘要，分阶段 2024-2026 推送）、Android（Gemini 替代 Assistant，2024-2025 深度集成 Gemma Nano 端侧）、鸿蒙小艺（盘古端云）；共性架构：系统级 API（屏幕理解/跨应用操作/文件索引）+端侧小模型+云端大模型路由；PC 端新交互：Agentic OS（任务书→多应用执行，2025-2026 演示密集）；争议：Recall 隐私风波（2024-05 回炉）、默认搜索引擎与反垄断（Google-DOJ 案 Chrome/默认协议裁决背景）；对开发者：OS 级 Agent SDK（Windows AI Foundry 2025、Apple Foundation Models framework 2025 WWDC）成为新分发层。",
    "stage": "2023 Copilot · 2024 OS级AI元年",
    "player": "Microsoft Copilot+ PC,Apple Intelligence,Google Android Gemini,HarmonyOS",
    "url": "https://www.microsoft.com/en-us/windows/copilot-plus-pcs",
@@ -31260,7 +31260,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L25",
-   "desc": "把异构算力像水、电一样统一标识、跨域调度、按需调用的网络层，区别于单数据中心。",
+   "desc": "把异构算力像水、电一样统一标识、跨域调度、按需调用的网络层，区别于单数据中心。政策背景：中国「东数西算」（2022 启动，8 枢纽 10 集群）→ 算力互联互通行动计划（工信部 2025 发布）与算力互联网构想（算力标识解析体系——类似 DNS for compute）；技术栈：算力度量与标识（FLOPS 标准化困难：不同架构不可比）、任务切分与跨域调度（训练任务跨中心联跑的通信代价——广域网带宽瓶颈）、算力交易与结算（算力券/交易平台）；国际对照：欧盟 EuroHPC 联邦访问、美国 NAIRR 试点（2024 国家 AI 研究资源）；现实约束：跨域 RDMA（长距 RDMA 实验）、数据主权与合规（数据不出域约束下的「算力流动」模式）；2025-2026 观察点：国家超算互联网（2024 上线）与商业云的接口标准化进度。",
    "stage": "2023 政策定型 · 2025-2026 标识贯通",
    "player": "国家算力互联网服务平台;中国信通院;工信部;国家发改委;中国算力平台",
    "url": "https://www.miit.gov.cn/jgsj/xgj/yjtxyhlht/art/2025/art_3683fa9bd3a94202b41d0a241672feac.html",
@@ -31372,7 +31372,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L25",
-   "desc": "把核心开源、企业版增值功能收费的开源商业化范式，AI基础设施公司主流路径。",
+   "desc": "把核心开源、企业版增值功能收费的开源商业化范式，AI基础设施公司主流路径。谱系：MongoDB/Elastic 经典（SSPL/AGPL 改许可防云厂商白嫖，2021 Elastic 重回 Apache）→ AI 原生代：Hugging Face（Hub 免费+企业版/IC 专用部署）、Milvus/Zilliz Cloud、LangChain（LangSmith 收费）、vLLM→Red Hat 式企业支持路径待验证、SGLang 公司化（a16z 2024-12）；许可策略：Apache 2.0（最大化采用）vs AGPL（防托管套壳）vs BSL（延迟开源）；风险轴：云厂商竞争（Elastic-AWS 案历史）、开源 core 与商业版功能漂移引发社区反弹（HashiCorp 2023 改 BSL 风波）；AI 特有：模型权重「开源」与代码开源的商业化差异（推理托管/微调服务/企业安全合规三层收费），2025-2026 Open Core AI 公司 IPO 观察窗。",
    "stage": "2010 范式成型 · 2025 AI基础设施放大",
    "player": "Databricks;HuggingFace;Supabase;GitLab;MongoDB;HashiCorp",
    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-surpasses-4b-revenue-run-rate-exceeding-1b-ai-revenue",
@@ -31612,7 +31612,7 @@
    "dim": 7,
    "dim_name": "政策治理",
    "level": "L25",
-   "desc": "各级政府部门用大模型做公文、审批、咨询、决策辅助的应用层，区别于采购工具。",
+   "desc": "各级政府部门用大模型做公文、审批、咨询、决策辅助的应用层，区别于采购工具。国际：美国 GSA 美国政府 AI 采购指南（2024-2025 OMB 备忘录 M-24-10 联邦使用框架）、英国 GovTech 风投生态、新加坡 Pair（GovTech 内部 LLM 平台 2023）；国内：浙江「浙里办」智能问答、广东粤省事、深圳/杭州城市大脑迭代、多地政务云大模型中标公告（华为/阿里/讯飞/百度轮中）；与政务大模型（L19-53）的分野：GovTech 视角是「政府作为 AI 买方与集成方」的全景（含采购合规、国产化要求、信创目录），政务大模型是产品视角；敏感轴：数据的涉密分级、国产替代刚性（信创目录）与基层负担（「指尖上的形式主义」整治 2024 文件）双约束。",
    "stage": "2023 试点 · 2025 部署指引",
    "player": "中央网信办;国家发改委;GSA;SF City;欧盟委员会;浙里办",
    "url": "https://www.gov.cn/lianbo/bumen/202510/content_7043864.htm",
@@ -31900,7 +31900,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L26",
-   "desc": "观察到测试误差随模型容量先升后降再升（出现非单调峰值），挑战「越大越过拟合」的传统直觉。",
+   "desc": "观察到测试误差随模型容量先升后降再升（出现非单调峰值），挑战「越大越过拟合」的经典 U 型曲线。论文：Belkin et al. 2019-02（PNAS 2019 定稿，《Reconciling modern machine-learning practice and the classical bias–variance trade-off》）与 Nakkiran et al. 2019-06（Deep Double Descent——epoch-wise/model-wise/data-wise 三种双重下降，GPT-2/BERT 实证）；意义：为「过参数化反而泛化更好」提供理论出口，是 2019-2024 scaling law 信仰的经验前奏；机制解释：插值阈值附近（模型刚好能记住训练集）误差峰值，超参后隐式正则/分布收敛；后续：Grokkating（2022 Power，突然泛化）与双下降家族（学习率/数据增强维度的再发现）；教科书地位：Goodfellow 深度学习书更新与 2024 统计学习课程标配章节。",
    "stage": "2019 提出 · 2021 确认为普遍现象",
    "player": "Preetum Nakkiran; OpenAI/理论社区",
    "url": "https://arxiv.org/abs/1912.02292",
@@ -32300,7 +32300,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "把GPU小时租金做成可对冲的标准化期货/期权合约，让算力像原油一样被金融化定价。",
+   "desc": "把GPU小时租金做成可对冲的标准化期货/期权合约，让算力像原油一样被金融化定价。实践：X-Margin/Amper类算力金融初创（2023-2024 融资报道）、CME 事件驱动讨论（2024-2025 媒体报道算力期货概念）、隐式市场（GPU 租约转售+长期合约二级转让已事实存在——CoreWeave 长约背书融资结构即算力信用金融化第一步）；对冲需求：AI 公司锁未来算力成本、云厂/Neocloud 锁收入（长约支撑债务融资为现实形态）；定价难点：算力异构（H100≠B200≠TPU）、技术贬值快（两代即过时的公开担忧）、利用率不可保（需求波动）；对照电力期货（成熟市场先例：PJM/Nord Pool 金融化路径）与「算力即大宗商品」论证（2024-2025 多篇行业分析）；国内：算力券/算力交易平台（上海/贵州）为政策化雏形而非金融衍生品。",
    "stage": "2026 起源 · 萌芽期(首批合约上线)",
    "player": "CME;Silicon Data;ICE;Ornn;CFTC",
    "url": "https://www.gurufocus.com/news/9025322/cme-group-and-silicon-data-to-launch-compute-futures-on-october-5-to-unlock-new-way-to-hedge-ai-risks",
@@ -32380,7 +32380,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "把Agent从手工搭prompt升级为可批量生成、训练、评测、部署的自动化产线。",
+   "desc": "把Agent从手工搭prompt升级为可批量生成、训练、评测、部署的自动化产线。企业落地口径：Microsoft Copilot Studio Agent Factory 参考架构（M365 生态 CI/CD for agents）、Azure AI Foundry（agent 托管运行时+evaluator 评测器）、AWS Bedrock AgentCore（2025，agent 基础设施层：运行时/记忆/身份/网关四件套）；核心组件=agent 注册表、评测集与回放沙箱（仿真环境自动化回归）、可观测（LangSmith/Arize Phoenix 类 tracing）、权限与身份（OAuth agent identity，2025 年 WorkOS/Auth0 agent 授权成新品类）；与「AgentOps」概念同义竞争，2026 年从概念进入平台化产品竞赛。",
    "stage": "2025 概念 · 2026 成长期",
    "player": "Google Agent Factory;xAI;LangChain;AutoGPT;CrewAI",
    "url": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-reinforcement-learning-and-fine-tuning-on-tpus/",
@@ -32492,7 +32492,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "对云/LLM支出设阈值、超支告警、配额限流与自动熔断的成本护栏。",
+   "desc": "对云/LLM支出设阈值、超支告警、配额限流与自动熔断的成本护栏。对象分层：云资源（AWS Budgets/GCP Billing/阿里云费用中心）、LLM Token（OpenAI 用量限制/项目级 budget）、FinOps 工具（Cloudability/Vantage/OpenCost 开源）；LLM 特有问题：按 token 计费的不可预测性（长上下文/Agent 循环放大倍数）、多模型路由成本策略（便宜模型兜底+贵模型升级）、缓存命中（prompt caching 降本 50-90% 公开口径）；工程实践：预算分桶（团队/项目/API key 维度）、速率限制+硬熔断、异常检测（token 用量突增告警——渗透攻击/循环 bug 双重风险）；2025 年 LLM FinOps 成为独立岗位与工具品类（OpenRouter/LiteLLM proxy 的用量面板）。",
    "stage": "2023 随云FinOps · 2025-2026 LLM原生护栏",
    "player": "AWS Budgets;GCP;Azure;LiteLLM;Langfuse",
    "url": "https://www.finops.org/",
@@ -32716,7 +32716,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "抗量子计算机攻击的新一代公钥算法，2024年NIST首批标准落地、进入迁移期。",
+   "desc": "抗量子计算机攻击的新一代公钥算法，2024年NIST首批标准落地、进入迁移期。NIST 标准三件套：FIPS 203 ML-KEM（CRYSTALS-Kyber，密钥封装）、FIPS 204 ML-DSA（Dilithium，签名）、FIPS 205 SLH-DSA（SPHINCS+，哈希签名，2024-08 颁布）；OpenSSH 9.0（2024-04）默认 hybrid Kyber、Chrome/Firefox X25519Kyber768 混合 TLS 已上线；「先存后解」（Harvest now, decrypt later）威胁使长寿命敏感数据迁移最紧迫；AI 相关：Apple iMessage PQ3（2024-02）为消费级消息协议首个后量子混合改造；HNDL 攻击时间表与 NIST 2030-2035 迁移目标为行业时钟。",
    "stage": "2024-08 首批标准 · 2025-2030 迁移期",
    "player": "NIST;ML-KEM;ML-DSA;SLH-DSA;HQC;Cloudflare",
    "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
@@ -33004,7 +33004,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L26",
-   "desc": "12345政务热线大模型实现智能派单、诉求分类、自动回访、情绪识别",
+   "desc": "12345政务热线大模型实现智能派单、诉求分类、自动回访、情绪识别。落地形态：北京 12345（企业热线大模型试点公开报道 2024）、上海 12345（智能知识库+工单预填）、深圳@深圳-民意速办平台；技术链：ASR 转写→LLM 诉求分类与要素抽取（地址/事项/紧急度）→知识库检索自动应答→工单智能派单（承办单位路由）→回访外呼机器人；效果口径：30%~50% 重复咨询分流（各地公开通报区间）；痛点：方言与口音（粤/川/西北口音 ASR）、跨部门工单推诿（AI 派单争议规则）、敏感诉求（信访/舆情）人工优先制度；2025-2026 与城市治理大模型（城市大脑 3.0 类）整合，12345 数据成为城市治理数据资产（脱敏后训练治理专用模型）。",
    "stage": "成长期",
    "player": "各地12345中心、百度智能云、华为云、阿里云、腾讯云",
    "url": "http://jx.cnr.cn/yw/20260327/t20260327_527563780.shtml",
@@ -33468,7 +33468,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "老年学/数字包容视角研究 AI 对老年人健康、孤独与数字鸿沟的双重作用，区别于适老产品。",
+   "desc": "老年学/数字包容视角研究 AI 对老年人健康、孤独与数字鸿沟的双重作用。应用线：陪伴机器人（PARO 海豹机器人 20+ 年循证）、语音助手适老（方言 ASR/慢语速 TTS）、跌倒检测与健康监测（毫米波雷达无感监护）、认知训练游戏（AD 早筛数字生物标记物研究热点）；政策线：工信部适老化改造专项行动（2021 起互联网应用适老版）、欧盟 Active Assisted Living Programme；研究警示：AI 陪伴的伦理争议（情感依赖/真实性欺骗——2023-2025 老年 AI 伴侣报道）、算法歧视（健康模型对老年样本欠拟合）；与数字鸿沟（设备/资费/素养三层）交叉，2025-2026 老龄社会 + AI 照护缺口（护工比）为长期叙事。",
    "stage": "2020 远程健康 · 2025-2026 适老研究",
    "player": "ITU;Journals of Gerontology;Gerontological Society of America;Johns Hopkins 4M框架",
    "url": "https://www.itu.int/en/ITU-D/Digital-Inclusion/Documents/events/2026/AI-Ageing-Launch-Webinar/AI-and-Ageing-2601240E.pdf",
@@ -34524,7 +34524,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L27",
-   "desc": "OpenAI 2025-01-31 先行发布的小尺寸高效推理模型，主打低成本高速度。",
+   "desc": "OpenAI 2025-01-31 先行发布的小尺寸高效推理模型，主打低成本高速度。为 o3 系列的轻量版本，STEM/编程/数学推理保 o3 水准下延迟与价格大幅下探（API 价格约为 o1 的 1/6 量级）；首个向免费用户开放推理能力的 OpenAI 模型（ChatGPT 免费档可用 medium 档）；发布两周后（2025-02）被 DeepSeek-R1 冲击的定价与开源压力直接对照；2025-04 GPT-4o 系 image gen 与 o3/o4-mini 双轨并行后逐步收敛进 GPT-5 路线。",
    "stage": "2025 发布 · 现役遗留 API",
    "player": "OpenAI",
    "url": "https://help.openai.com/zh-hans-cn/articles/9624314-model-release-notes",
@@ -35804,7 +35804,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L27",
-   "desc": "2025年1月正式开源的32B推理模型权重，中小规模复现深度思考。",
+   "desc": "2025年1月正式开源的32B推理模型权重，中小规模复现深度思考。时间线修正口径：QwQ-32B-Preview（2024-11 阿里 Qwen 团队发布，与 o1-preview 对照）→ QwQ-32B 正式版（2025-03，Apache 2.0，RL 扩展后数学/代码对标 DeepSeek-R1 671B 满血——「轻量劲敌」定位）；技术：RLVR 强化学习（数学/代码可验证奖励）+ 按需思考（enable_thinking 开关）；意义：证明 32B 级 RL 可逼近 600B+ 推理能力，带动中小机构本地化推理部署潮（Ollama/vLLM 单卡可跑 AWQ 量化）；与 DeepSeek-R1-Distill-Qwen-32B 形成同底座双路径（蒸馏 vs 直接 RL）。",
    "stage": "2025 起源 · 2025 成长期",
    "player": "阿里巴巴通义千问Qwen Team",
    "url": "https://huggingface.co/Qwen/QwQ-32B",
@@ -36108,7 +36108,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L27",
-   "desc": "智谱2025年7月开源的MoE代，355B-A32B，主打Agentic与编程。",
+   "desc": "智谱2025年7月开源的MoE代，355B-A32B，主打Agentic与编程。定位「agentic、reasoning、coding（ARC）三合一」基座，参数效率对标 DeepSeek-V3（671B-A37B）一半体量；GLM-4.5-Air（106B-A12B）轻量版同步开源；迭代：GLM-4.6（2025-09/10，200K 上下文、编程榜逼近 Claude）→ GLM-4.7 系与 GLM-5 传闻（2026）；工程配套：vLLM/SGLang/Transformers 原生支持、MIT 许可（最宽松档）；智谱商业线（MaaS bigmodel.cn + 上市辅导传闻 2026）与 Z.ai 国际品牌并行；Token 成本与 Agent 工具调用（原生 function calling 训练）为卖点。",
    "stage": "2025 起源 · 2025 成长期",
    "player": "智谱AI / Z.ai",
    "url": "https://docs.bigmodel.cn/cn/update/new-releases",
@@ -39116,7 +39116,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "1982 年 Hopfield 提出的循环联想记忆网络，连接主义复兴的理论催化剂。",
+   "desc": "1982 年 Hopfield 提出的循环联想记忆网络，连接主义复兴的理论催化剂。能量函数+收敛到吸引子的框架让它成为统计物理（自旋玻璃）与神经科学（Hebbian 记忆）的桥梁；2020 年 Hopfield 用 Modern Hopfield Networks 证明其前向等价于 Transformer 注意力（『注意力=快速联想记忆』），将 1982 模型与 2017 Transformer 直连；2024 年 Hopfield 与 Hinton 因此获诺贝尔物理学奖（机器学习与神经网络奠基贡献）；生物侧持续影响海马体记忆模型。",
    "stage": "1982 起源 · 连接主义复兴",
    "player": "John Hopfield；Bell Labs；PNAS 论文",
    "url": "https://en.wikipedia.org/wiki/Hopfield_network",
@@ -39276,7 +39276,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "1948 年香农信息论以来、1990s 统治 NLP 的 n 阶马尔可夫词序列概率模型。",
+   "desc": "1948 年香农信息论以来、1990s 统治 NLP 的 n 阶马尔可夫词序模型。谱系：香农 1948《A Mathematical Theory of Communication》用 n-gram 近似英语统计（马尔可夫链源头）→ 统计机器翻译/语音识别主力（IBM Model 系列+CMU Sphinx 时代，1990s）、Google Books Ngram Viewer（2010，文化组学出圈）；技术：平滑（Laplace/Good-Turing 1953/Kneser-Ney 1995——最后一代主流平滑法）、Backoff；局限：指数级参数（上下文窗口 n 小）、无法捕捉长程语义与泛化；遗产：softmax 语言模型目标函数、困惑度指标（perplexity）、子词 BPE（1994 Sennrich 前身）均承其框架；神经转折：Bengio 2003 神经 LM（NPLM）→2017 Transformer 彻底替代，但 n-gram 仍在 ASR 前端/输入法/快速检索工程存活。",
    "stage": "1948 起源 · 1990s 成熟 · 2010s 被神经语言模型取代",
    "player": "Claude Shannon(1948)；Fred Jelinek；IBM",
    "url": "https://en.wikipedia.org/wiki/N-gram",
@@ -39308,7 +39308,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "1992-1995 年 Vapnik 等提出的最大间隔分类器+核技巧，统计学习理论代表。",
+   "desc": "1992-1995 年 Vapnik 等提出的最大间隔分类器+核技巧，统计学学习理论巅峰。谱系：1963 线性 SVM（Vapnik & Lerner）→ 1992 Boser/Guyon/Vapnik 核技巧（kernel trick 进非线性）→ 1995 软间隔（Cortes & Vapnik，VC 理论+结构风险最小化）；统治期：1995-2012 文本分类（线性 SVM+TF-IDF 为文本基线标配）、生物信息/图像中小数据集王者；SMO 算法（1998 Platt）解决训练效率；衰落：深度学习大数据碾压（2012 AlexNet 后快速退场）；遗产：最大间隔思想→深度网络的 margin 理论研究（neural tangent kernel 视角 SVM 等价性分析 2018-2020 公开文献）、对偶/核方法仍在核岭回归/高斯过程存活；教科书地位：PRML/Bishop 与 ESL 双经典的核心章节。",
    "stage": "1992 起源 · 1995 正式 · 2000s 主流 · 2010s 被深度学习挤压",
    "player": "Vladimir Vapnik / Corinna Cortes；AT&T Bell Labs",
    "url": "https://en.wikipedia.org/wiki/Support-vector_machine",
@@ -39836,7 +39836,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L31",
-   "desc": "ACM A.M. 图灵奖，计算机界最高奖，AI 方向多次颁给深度学习/RL 奠基人。",
+   "desc": "ACM A.M. 图灵奖，计算机界最高奖，AI 方向多次颁给深度学习/RL 奠基人。AI 相关得主谱系：1975 Allen Newell & Herbert Simon（物理符号系统）、1994 Feigenbaum & Reddy（专家系统）、2011 Judea Pearl（贝叶斯网络与因果推断）、2018 Hinton/Bengio/LeCun（深度学习三巨头）、2022 Hopfield & Hinton（神经网络与统计物理桥梁）；2018 年起 AI 得主密度显著提升，与诺贝尔奖（2024 物理学/化学）共同构成学界对 AI 范式的最高认证序列。",
    "stage": "1966 设立 · 2018/2024 AI 高光",
    "player": "ACM; Bengio/Hinton/LeCun(2018); Sutton/Barto(2024)",
    "url": "https://amturing.acm.org/byyear.cfm",
@@ -40492,7 +40492,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L2",
-   "desc": "深层网络梯度反向传播逐层衰减致难训练催生ResNet/LSTM",
+   "desc": "深层网络梯度反向传播逐层衰减致难训练催生ResNet/LSTM。解法谱系：LSTM 门控（1997，cell state 让梯度跨时间步存活）→ ReLU 替代 sigmoid（2010-2011，Nair/Hinton & Glorot 分析，正区间梯度恒 1）→ 合理初始化（Xavier 2010/He 2015，按方差缩放）→ BatchNorm（2015，Ioffe & Szegedy，内部协变量偏移缓解）→ ResNet 残差连接（2015，恒等映射让梯度直通，千层网络可训）→ 归一化家族（LayerNorm 2016 成为 Transformer 标配）；Hochreiter 1991 年 diploma 论文为梯度消失问题的最早系统分析；现代大模型（Pre-Norm/Post-Norm 之争、QK-Norm）仍是该问题的当代回声。",
    "stage": "经典问题",
    "player": "Hochreiter等",
    "url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem",
@@ -42444,7 +42444,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "用13.5nm波长紫外光在硅片上刻绘最细电路，是7nm及以下先进制程唯一可行光刻手段",
+   "desc": "用13.5nm波长紫外光在硅片上刻绘最细电路，是7nm及以下先进制程唯一可行光刻手段。技术史：ASML 独家量产（1990s 美国国家实验室 EUV LLC 孵化→ASML 2013 年 NXE:3300 首代→2019 年三星/台积电量产 7nm 引入）；光源=锡滴激光等离子体（CO2 激光每秒 5 万次击打锡滴），单台 ~1.5-2 亿美元、10 万+ 零部件，台积电/三星/英特尔/SK 海力士为仅有的四大客户；High-NA EUV（NA 0.55，单台 ~3.8 亿美元）2024 年起进 Intel 18A/台积电 A16 产线；日本 JSR/信越化学的光刻胶与蔡司光学是关键配套；中国 SMEE EUV 研发为出口管制下最大国产化悬案。",
    "stage": "High-NA量产初期",
    "player": "ASML；客户台积电/Intel/三星",
    "url": "https://www.asml.com/en/news/press-releases/2026/high-na-euv-reaches-new-readiness-milestone",
@@ -42476,7 +42476,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "按电路图形逐次刻蚀硅片薄膜，先进制程刻蚀步骤占晶圆加工比重过半",
+   "desc": "按电路图形逐次刻蚀硅片薄膜，先进制程刻蚀步骤占晶圆加工比重过半。格局： Lam Research（2024-2025 存储客户回补业绩弹性）、TEL（东京电子，双寡头+爱发科）、中微公司（AMEC，国内刻蚀龙头——CCP/ICP 双线，5nm 介质刻蚀进台积电产线公开报道）、北方华创（硅刻蚀+薄膜多线）；技术：CCP（电容耦合，介质/高深宽比）vs ICP（电感耦合，硅/化合物）、原子层刻蚀 ALE（2024-2025 进入 GAA/CFET 关键步骤）；与 EUV 协同：EUV 光刻后刻蚀精度要求陡增（LER 线边粗糙度）；出口管制：2022-10 美规限制先进刻蚀对华出口、国产替代加速（中微/北方华创订单公开口径）；国产化率：刻蚀为国产化率最高半导体设备品类之一（2024 公开约 30%+ 且提升中）。",
    "stage": "国产替代中",
    "player": "泛林/东京电子/应用材料/中微公司",
    "url": "https://www.eet-china.com/mp/a469244.html",
@@ -42620,7 +42620,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "数据中心GPU集群互联的高速光收发模块，带宽随AI集群规模指数增长",
+   "desc": "数据中心GPU集群互联的高速光收发模块，带宽随AI集群规模指数增长。节奏：400G（2020-2022 云主力）→ 800G（2023-2025 AI 集群标配，英伟达 Quantum-2 InfiniBand 400G×2 口配套）→ 1.6T（2025-2026 起量，Quantum-X800 配套，3nm DSP）；格局：中际旭创/新易盛/Coherent 三强（2025 年中际旭创市值突破的公开报道）、光芯片 EML/CW 激光器（Lumentum/Coherent 供应——2026-11 Marvell 1150 亿收购 Lumentum 的产业逻辑正在于此）；硅光（CPO 共封装光学，英伟达 Quantum-X CPO 2025 GTC 发布）为下一替代路线、可插拔光模块 vs CPO 之争开启；国内上游（源杰科技激光器芯片、天孚通信陶瓷插芯）受益链条。",
    "stage": "1.6T批量交付",
    "player": "中际旭创/新易盛/Coherent/Marvell",
    "url": "https://www.eet-china.com/mp/a494258.html",
@@ -42636,7 +42636,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L3",
-   "desc": "把网络/存储/安全等基础设施任务从CPU卸载的专用处理器，云与智算中心关键件",
+   "desc": "把网络/存储/安全等基础设施任务从CPU卸载的专用处理器，云与智算中心关键件。格局：NVIDIA BlueField（Mellanox 收购后 DPU 化，BlueField-3 广泛部署于 400G 网络+机密计算）、AMD Pensando（2022 年 19 亿美元收购）、Intel IPU（Mount Evans 系）、亚马逊 Nitro（自研，EC2 基础设施卸载鼻祖）、阿里云 CIPU（2022 发布，云定义专用处理器）；Fungible 为先行者（2019 首发后 2023 被 Microsoft 收编团队）；AI 集群价值点：RDMA/RoCE 流量卸载+NVMe-oF 存储池化+东向安全隔离，Scale-out 网络拥塞控制（QP 调度）直接决定千卡训练效率。",
    "stage": "早期规模",
    "player": "NVIDIA/Intel/中科驭数/云豹智能",
    "url": "https://www.broadcom.com/solutions/ai-solutions/ai-infrastructure",
@@ -43020,7 +43020,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L40",
-   "desc": "Schulman 等 OpenAI 提出的截断式策略梯度，RLHF 默认算法",
+   "desc": "Schulman 等 OpenAI 提出的截断式策略梯度，RLHF 默认算法。核心=重要性采样下的截断比率目标（clip surrogate objective），一阶优化器即可稳定训练，替代 TRPO 的二阶约束；2017 arXiv 发表后成为 RL/机器人/游戏基线，2022 年 InstructGPT 把 PPO 用作 RLHF 第三阶段（SFT→RM→PPO）后成为大模型对齐事实标准；后续 GRPO（DeepSeek，去 critic 的组相对优势）与 DPO（免 RL 直接偏好优化）都在回应 PPO 的工程复杂度，但工业界 RLHF 主力仍常为 PPO 变体。",
    "stage": "2017 · 已成熟",
    "player": "John Schulman/Philipp Moritz/Sergey Levine（OpenAI/Berkeley）",
    "url": "https://arxiv.org/abs/1707.06347",
@@ -43036,7 +43036,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L40",
-   "desc": "Dai/杨植麟等提出的分段递归 Transformer，长序列建模里程碑",
+   "desc": "Dai/杨植麟等提出的分段递归 Transformer，长序列建模里程碑。2019-01 ACL/2019 论文（Google Brain + CMU，一作 Zihang Dai，杨植麟共同一作）：段级递归（segment-level recurrence，缓存前段隐状态跨段传递）+ 相对位置编码（relative positional encoding，为 XLNet 和后续 RoPE 之前最重要的相对位置方案）；解决 vanilla Transformer 固定上下文截断与碎片化问题，首次实现超长依赖（词级语言学任务证明有效）；影响链：Transformer-XL → XLNet（2019-06，同团队，AR 自回归+AE 双流）→ 长上下文家族（Compressive Transformer、MemoRAG 类记忆压缩思想源头）；杨植麟据此积累创立月之暗面（Kimi 长上下文卖点的技术谱系起点）。",
    "stage": "2019 · 已成熟",
    "player": "Zihang Dai/Zhilin Yang/Yang/Cohen 等（CMU/Google）",
    "url": "https://arxiv.org/abs/1901.02860",
@@ -46076,7 +46076,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L46",
-   "desc": "低速无人车与无人机在园区/校园/景区/城市末端的常态化集群调度，末端占物流成本约 30%",
+   "desc": "低速无人车与无人机在园区/校园/景区/城市末端的常态化集群调度，末端占物流成本五成的降本主战场。格局：Nuro（美国，R 系列+Lucid 合作 2022 首个加州商用牌照）、Starship（校园机器人累计数百万单公开口径）、美团（北京顺义常态化运营+无人机航线 2024 公开数千单/日量级）、顺丰丰翼（深圳无人机同城急送常态化）、京东（2024 京东物流无人车量产公告）、白犀牛/新石器（园区线）；监管：北京/深圳低速无人车上路细则先行区、民航局适航审定（丰翼 THOR 获运营合格审定报道）；调度层：车机混合集群（红灯/电梯/天气扰动下的多车再分配），2025-2026 LLM 语音交互收货+订单异常处理为增量；与有人配送的经济学临界点（人力成本 vs 车辆折旧）持续下移。",
    "stage": "",
    "player": "",
    "url": "",
@@ -49468,7 +49468,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L1",
-   "desc": "激光SLAM建图+视觉AI物体识别避障+清扫路径规划+自清洁基站的清洁机器人技术栈",
+   "desc": "激光SLAM建图+视觉AI物体识别避障+清扫路径规划+自清洁基站的清洁机器人技术。演进：随机碰撞（2002 iRobot Roomba 首代）→陀螺仪导航→激光雷达 LDS+SLAM（2016 小米/石头量产化）→结构光/ToF 视觉避障（2020-2022 AI 物体识别：数据线/宠物粪便识别）→自清洁基站（自动集尘/洗拖布/上下水，2022-2024 科沃斯/石头/追觅军备竞赛）→2024 年起端侧大模型语音交互（'去把厨房地拖一下'自然语言指令）；石头科技/科沃斯全球双寡头格局，中国厂商占全球份额 50%+。",
    "stage": "",
    "player": "",
    "url": "",
@@ -49548,7 +49548,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L1",
-   "desc": "厨电/清洁/环境等智能小家电通过 IoT 与场景自动化协同，服务家庭全场景",
+   "desc": "厨电/清洁/环境等智能小家电通过 IoT 与场景自动化协同，服务家庭全场景。生态格局：米家生态链（蓝牙 Mesh/WiFi 模组标准件+米家 App 场景引擎）、华为 HarmonyOS Connect（鸿蒙智联）、涂鸦智能（Tuya，全球 IoT PaaS 白牌）、HomeKit/Matter 跨生态协议（CSA 2022 落地，2024-2025 国内厂商跟进）；AI 增量：语音入口（小爱/小艺/天猫精灵）+ LLM 语义理解重构场景创建（自然语言「电影模式」自动编排多设备）、传感器融合的主动式服务（空调+空气质量+人体感应联动）；与扫地机器人（已单列）外的厨电（美的美居/九阳/方太母婴级净化）、环境电器（加湿/新风）为长尾协同层；2025-2026 端侧大模型下放家电 SoC 为新变量。",
    "stage": "",
    "player": "",
    "url": "",
@@ -73428,7 +73428,7 @@
    "stage": "",
    "player": "",
    "url": "时间线.md",
-   "link": null,
+   "link": "https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf",
    "year": 2012,
    "density": null,
    "extension": 7
@@ -73664,7 +73664,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "Google BERT 双向预训练与 OpenAI GPT-1 自回归预训练同年发布",
+   "desc": "2018 年双星：OpenAI GPT-1（2018-06，Improving Language Understanding by Generative Pre-Training，12 层 Transformer decoder 生成式预训练+下游微调范式确立）与 Google BERT（2018-10，双向 Transformer encoder+MLM/NSP 预训练，11 项 NLP 任务 SOTA 震动学界）——「预训练+微调」从此成为 NLP 默认范式；两条路线之争（自回归 vs 自编码）延续到 GPT-3 的 few-shot 路线胜出；BERT 衍生工业生态（RoBERTa/DistilBERT/中文 Chinese-BERT-wwm 与哈工大讯飞开源）仍是当下企业 NLP 底座；arXiv 1810.04805（BERT）/1801.06146（GPT-1，实际为 2018-06 tech report）为论文入口。",
    "stage": "",
    "player": "",
    "url": "时间线.md",
@@ -74388,7 +74388,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2023.md",
-   "link": null,
+   "link": "https://www.aboutamazon.com/news/company-news/amazon-aws-anthropic-ai",
    "year": 2023,
    "density": null,
    "extension": 10
@@ -74468,7 +74468,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2023.md",
-   "link": null,
+   "link": "https://openai.com/index/openai-announces-leadership-transition",
    "year": 2023,
    "density": null,
    "extension": 8
@@ -74612,7 +74612,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2024.md",
-   "link": null,
+   "link": "https://openai.com/index/hello-gpt-4o",
    "year": 2024,
    "density": null,
    "extension": 10
@@ -74628,7 +74628,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2024.md",
-   "link": null,
+   "link": "https://api-docs.deepseek.com/updates",
    "year": 2024,
    "density": null,
    "extension": 11
@@ -75172,7 +75172,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
-   "link": null,
+   "link": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo",
    "year": 2026,
    "density": null,
    "extension": 8
@@ -75220,7 +75220,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
-   "link": null,
+   "link": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
    "year": 2026,
    "density": null,
    "extension": 9
@@ -75616,7 +75616,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "OpenAI 发布 HumanEval/GSM8K，代码与数学推理评测成型",
+   "desc": "2021 年双基准奠定代码与数学推理评测：OpenAI HumanEval（2021-06 Codex 论文附带，164 道手写编程题，pass@k 指标）与 GSM8K（2021-10 Cobbe et al.，8500 道小学数学应用题，CoT 数据集）；影响：GSM8K 成为 2022-2024 推理模型主战场（CoT 论文基线→o1/R1 时代 95%+ 饱和→被 AIME/FrontierMath 取代前沿位），HumanEval 后继 HumanEval+/LiveCodeBench/SWE-bench；局限史：GSM8K 污染与「数据见底」批评（2024-2025 公开分析：模型背题嫌疑，GSM1k 对照集 2024 证明部分过拟合）、HumanEval 的单元测试覆盖弱；历史地位：为「可验证奖励 RLVR」时代提供了评测地基，GRPO/RL 数学训练以 GSM8K/MATH 为训练-验证集起点。",
    "stage": "",
    "player": "",
    "url": "时间线.md",
@@ -76160,7 +76160,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "GPT-4o mini 接替 gpt-3.5-turbo 成 API 默认推荐档",
+   "desc": "2024-07-18 OpenAI 发布 GPT-4o mini 接替 gpt-3.5-turbo 成为 API 默认廉价档：输入 0.15 美元/百万 token（比 3.5 便宜一个量级）、输出 0.6 美元，MMLU 82 分公开口径领先同级，128K 上下文、支持图文；意义：把「cheap & good」档位重新定义，直接对标 Gemini Flash 与 Claude Haiku 三方小模型价格战（Anthropic 随后 Haiku 3.5 降价跟进报道）；后续：2025 年被 GPT-4.1 nano/mini 系（2025-04）迭代；市场影响：小模型 API 价格 2024-2026 持续下探（每 token 单价年降幅 >80% 公开分析），推动 Agent 大规模调用经济学成立。",
    "stage": "",
    "player": "",
    "url": "年度大事记/2024.md",
@@ -88112,7 +88112,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L41",
-   "desc": "创业国度：希伯来大学+8200情报部队；Mobileye/AI21，公司多被美企收购",
+   "desc": "创业国度：希伯来大学+8200情报部队；Mobileye/AI21，公司多被美企收购。AI 生态：特拉维夫为全球 AI 独角兽密度最高城市之一，军事情报单位 8200 部队为创业人才摇篮（Check Point/Wiz 创始人均出身）；代表公司 Mobileye（2022 重返纳斯达克，Intel 旗下）、AI21 Labs（Jamba 系列混合注意力 SSM 模型）、Wiz（2024-2026 年 Google 320 亿美元收购案）与 Cyera/BigID 数据安全系；2023-10 哈马斯袭击后战时动员对创投的冲击与 2024 年 AI 网安赛道反弹并存。",
    "stage": "",
    "player": "",
    "url": "地域生态纵深.md §4.3",
@@ -93312,7 +93312,7 @@
    "dim": 7,
    "dim_name": "人物",
    "level": "L42",
-   "desc": "北京天使VC（徐小平/王强）；月之暗面2023-06天使轮、地平线2015-09首轮",
+   "desc": "北京天使VC（徐小平/王强）；月之暗面2023-06天使轮、地平线2015-等早期仓位。AI 投资线：月之暗面（杨植麟第二次创业再投——真格曾投其循环智能）、红杉中国/真格联合早期、智谱天使轮（2021-09 报道口径）、Minimax 早期机构名单公开报道；AI 2.0 时代动作：2023 年起内部「AI 全栈布局」公开访谈（徐小平 2023 公开发言「AI 时代最大的机会」）、真格基金王强（英语教育到 NLP 爱好者背景）；与红杉/高榕/IDG 并列为大模型天使轮最活跃机构之一（IT 桔子等公开统计口径）；组织：真格「投人哲学」（创始人>赛道）为其方法论标签，杨植麟案例为常引证据。",
    "stage": "",
    "player": "",
    "url": "《公司档案》月之暗面/地平线 融资章节",
@@ -163465,6 +163465,60 @@
    "desc": "2026-11-03 Dropbox 宣布（8-K 存档）以约 3.5 亿美元现金收购 Tigris Data（S3 兼容、面向 AI 工作负载优化的对象存储），为其公司史上最大收购；Dropbox 曾自 AWS S3 迁出自建存储，此举转向向 AI 开发者出售 S3 兼容存储；同日发布 DBX Agent Cloud，全面扩张至 AI 基础设施与云应用开发；Tigris 截至 2025-10 累计融资 2500 万美元（Crunchbase News/StockTitan 8-K/The New Stack/TradingView 多源核验）。",
    "dim": 1,
    "link": "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Marvell收购Lumentum",
+   "name": "Marvell 约 1150 亿美元全股票收购 Lumentum：AI 光互连整合，2026 年最大科技并购之一（2026-11-02 官宣）",
+   "type": "event",
+   "desc": "2026-11-02 Marvell Technology 官宣与 Lumentum Holdings 达成最终协议：全股票收购、每股约 1,132 美元、隐含企业价值约 1150 亿美元（含债），打造「AI 连接性领导者」，扩张光器件与数据中心互联能力，押注 AI 数据中心光学需求爆发；交割时点两源口径不一（Bloomberg：2027 上半年；Reuters：2028 上半年），以正式代理声明为准；为 2026 年最大科技并购之一（Reuters/Bloomberg/Investing.com 多源核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02",
+   "year": 2026
+  },
+  {
+   "id": "company_R1116-1",
+   "name": "Lumentum（LITE）",
+   "type": "company",
+   "desc": "全球光通信器件龙头（纳斯达克：LITE，2026-11-02 时点）：光模块、激光器（工业/消费）、电信与数据中心光互连组件供应商；2026-11-02 被 Marvell 以约 1150 亿美元企业价值全股票收购（每股约 1132 美元），并购后并入 Marvell AI 连接性版图。来源：Reuters/Bloomberg 官宣报道（2026-11-06 核验）。",
+   "dim": 4,
+   "link": "https://www.reuters.com/legal/transactional/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet-2026-11-02",
+   "year": 2015
+  },
+  {
+   "id": "event:2026-11:42AI-出隐身62.5M种子",
+   "name": "42AI 出隐身获 6250 万美元种子：金融行为世界模型（2026-11-02，以色列特拉维夫）",
+   "type": "event",
+   "desc": "2026-11-02（早期 11 月）以色列特拉维夫 42AI 出隐身：累计 6250 万美元种子轮（3 年由创始团队与 Infinity Group 累积投入），产品为金融/经纪机构「行为世界模型」（behavioral world model）——预测个体与交易者在震荡市场中的行为模式；为预测型行为 AI 的代表融资案例（FinSMEs/Unite.AI/Dealroom/The SaaS News 多源核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://www.finsmes.com/2026/11/42ai-raises-62-5m-in-seed-funding.html",
+   "year": 2026
+  },
+  {
+   "id": "company_R1129-1",
+   "name": "42AI",
+   "type": "company",
+   "desc": "以色列特拉维夫行为 AI 初创：为金融机构与经纪商提供「行为世界模型」，预测交易者/个体行为模式；2026-11-02 出隐身、累计种子轮 6250 万美元（Infinity Group 参与）。来源：FinSMEs/Unite.AI 多源（2026-11-06 核验）。",
+   "dim": 4,
+   "link": "https://www.finsmes.com/2026/11/42ai-raises-62-5m-in-seed-funding.html",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Agent商务冷启动-Uber极少单与DoorDash铺设",
+   "name": "AI Agent 商务冷启动：Uber 披露 Agent 代订订单极少、DoorDash 铺设 iMessage Agent 与 MCP 接入（2026-09-30~11-04）",
+   "type": "event",
+   "desc": "Agent 商务（agentic commerce）早期渗透率标志性数据点：TechCrunch 2026-11-04 报道 Uber 披露 AI Agent 代订订单量极少（almost no one uses AI agents to book their Uber），用户行为迁移远慢于行业预期；同期 DoorDash 线为铺设侧代表——2026-09-30 发布 iMessage 内文本下单 AI Agent（Bloomberg）、10 月初试点 MCP（Model Context Protocol）外部 Agent 接入并推企业 Ordering Connector（TechRepublic/MindStudio 口径），官方称对第三方 Agent 开发者保持开放。多源核验：TechCrunch RSS 一手 + Bloomberg/TechRepublic 转引（2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Anthropic-FlashProve模型身份验证",
+   "name": "Anthropic 研发 FlashProve：模型指纹+密码学证明验证 AI 模型身份（2026-11-03 报道）",
+   "type": "event",
+   "desc": "TechCrunch 2026-11-03 报道：Anthropic 正开发开源系统 FlashProve——要求 AI 实验室为每个发布模型公布「指纹」（fingerprint），事后可对任意输出做密码学证明验证其确实出自声称的模型，防模型替换（model substitution）与冒名输出，提升 AI 透明度；与 Anthropic 同期推进的 AI 文本水印（含对旧模型的支持）构成模型溯源双线；需与 2025 年 Claude 用户身份验证（Persona 政府 ID+自拍）区分：FlashProve 验证的是模型而非用户（TechCrunch/Reddit 转载多源核验，2026-11-06）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
    "year": 2026
   }
  ],
@@ -358085,6 +358139,1352 @@
    "target": "company_14-6",
    "type": "related",
    "desc": "SpaceX 并入 xAI 后收购，xAI 为事件公司主体（desc 语境）"
+  },
+  {
+   "source": "concept_L40-19",
+   "target": "concept_L18-140",
+   "type": "related",
+   "desc": "GRPO 为去 critic 的 PPO 变体（DeepSeek 提出，desc 点名）"
+  },
+  {
+   "source": "concept_L40-19",
+   "target": "concept_L18-138",
+   "type": "related",
+   "desc": "DPO 为免 RL 的偏好优化路线，回应 PPO 工程复杂度（desc 点名）"
+  },
+  {
+   "source": "concept_L40-19",
+   "target": "concept_L40-18",
+   "type": "related",
+   "desc": "InstructGPT RLHF 第三阶段即 PPO（desc 点名）"
+  },
+  {
+   "source": "concept_L30-9",
+   "target": "event:2024:Hinton-Hassabis诺贝尔奖",
+   "type": "related",
+   "desc": "Hopfield 与 Hinton 获 2024 诺贝尔物理学奖（神经网络奠基，desc 点名）"
+  },
+  {
+   "source": "concept_L30-9",
+   "target": "concept_0-7",
+   "type": "related",
+   "desc": "Modern Hopfield Networks 前向等价于 Transformer 注意力（desc 点名）"
+  },
+  {
+   "source": "concept_L15-136",
+   "target": "event:2016:特斯拉影子模式",
+   "type": "related",
+   "desc": "影子模式=新模型静默对比人类决策的数据飞轮（desc 点名）"
+  },
+  {
+   "source": "concept_L15-136",
+   "target": "event:2015:Tesla-Autopilot7.0推送",
+   "type": "related",
+   "desc": "Tesla OTA 推送 Autopilot 7.0 为整车 OTA 开创节点（desc 点名）"
+  },
+  {
+   "source": "event:2026-11:Marvell收购Lumentum",
+   "target": "company_38-16",
+   "type": "mna",
+   "desc": "Marvell 全股票收购 Lumentum（EV 约 1150 亿美元，2026-11-02 官宣）"
+  },
+  {
+   "source": "event:2026-11:Marvell收购Lumentum",
+   "target": "company_R1116-1",
+   "type": "player",
+   "desc": "被收购方 Lumentum（光通信器件龙头）"
+  },
+  {
+   "source": "event:2026-11:Marvell收购Lumentum",
+   "target": "year_2026",
+   "type": "timeline"
+  },
+  {
+   "source": "dataset_R73-5",
+   "target": "company_14-2",
+   "type": "player",
+   "desc": "Google 2021 年发布 CC12M"
+  },
+  {
+   "source": "dataset_R73-5",
+   "target": "concept_L18-25",
+   "type": "related",
+   "desc": "CC12M 为 CC3M 的放宽过滤扩展版"
+  },
+  {
+   "source": "dataset_R73-7",
+   "target": "company_30-10",
+   "type": "player",
+   "desc": "AllenAI 2023 年发布 MMC4"
+  },
+  {
+   "source": "dataset_R73-8",
+   "target": "company_30-10",
+   "type": "player",
+   "desc": "AI2 2024 年随 Molmo 发布 PixMo"
+  },
+  {
+   "source": "dataset:WebGPTData",
+   "target": "company_14-1",
+   "type": "player",
+   "desc": "OpenAI 2021 年发布 WebGPT 偏好数据"
+  },
+  {
+   "source": "dataset:Dolma",
+   "target": "company_30-10",
+   "type": "player",
+   "desc": "AI2 2024 年发布 3T token 开源语料"
+  },
+  {
+   "source": "dataset:Dolma",
+   "target": "concept_L27-86",
+   "type": "related",
+   "desc": "Dolma 为 OLMo 开放模型训练源"
+  },
+  {
+   "source": "dataset:NaturalQuestions",
+   "target": "company_14-2",
+   "type": "player",
+   "desc": "Google 2019 年发布 NQ"
+  },
+  {
+   "source": "dataset:OpenWebText",
+   "target": "company_14-1",
+   "type": "related",
+   "desc": "复现 OpenAI 未公开的 WebText，GPT-2 训练基础"
+  },
+  {
+   "source": "dataset:ROOTS",
+   "target": "company_14-13",
+   "type": "player",
+   "desc": "BigScience（HF 主导）1.6TB 多语言语料"
+  },
+  {
+   "source": "dataset:UltraChat",
+   "target": "institution:LMSYS",
+   "type": "related",
+   "desc": "Lianmin Zheng（LMSYS 核心）团队合成"
+  },
+  {
+   "source": "dataset_R73-6",
+   "target": "institution:卡内基梅隆大学",
+   "type": "player",
+   "desc": "DataComp 由 LAION/Apple/CMU 联合发布"
+  },
+  {
+   "source": "dataset_R73-6",
+   "target": "concept_L31-29",
+   "type": "related",
+   "desc": "LAION 为 DataComp 联合发起方"
+  },
+  {
+   "source": "dataset:VQA",
+   "target": "concept_L18-24",
+   "type": "related",
+   "desc": "VQA 基于 COCO 图像构建"
+  },
+  {
+   "source": "concept_2-7",
+   "target": "person_growth_98",
+   "type": "related",
+   "desc": "FlashAttention 系列作者 Tri Dao（2022-2024 三代）"
+  },
+  {
+   "source": "concept_L27-14",
+   "target": "event:2025-01:DeepSeek-R1开源",
+   "type": "related",
+   "desc": "o3-mini 发布两周后遭 DeepSeek-R1 开源定价冲击直接对照"
+  },
+  {
+   "source": "concept_L22-143",
+   "target": "company_R79-2",
+   "type": "related",
+   "desc": "LinkedIn AI 招聘助手重塑 HR 匹配（desc 点名）"
+  },
+  {
+   "source": "concept_L22-143",
+   "target": "concept_9-25",
+   "type": "related",
+   "desc": "欧盟 AI Act 将招聘 AI 列为高风险类（desc 点名合规变量）"
+  },
+  {
+   "source": "region:以色列",
+   "target": "company_32-37",
+   "type": "related",
+   "desc": "Mobileye 为以色列 AI 代表公司（desc 点名）"
+  },
+  {
+   "source": "region:以色列",
+   "target": "company_32-29",
+   "type": "related",
+   "desc": "Wiz（8200 部队出身创始团队，Google 320 亿收购案）为以色列 AI 网安代表（desc 点名）"
+  },
+  {
+   "source": "concept_L15-65",
+   "target": "company_R209-1",
+   "type": "related",
+   "desc": "Kira Systems 为条款抽取老牌（desc 点名，2021 年被 Litera 收购）"
+  },
+  {
+   "source": "concept_L15-65",
+   "target": "company_R101-3",
+   "type": "related",
+   "desc": "Luminance 自动 redline 与 Negotiate AI Agent（desc 点名）"
+  },
+  {
+   "source": "concept_L24-177",
+   "target": "company_R104-1",
+   "type": "related",
+   "desc": "HireVue 为异步 AI 视频面试代表（desc 点名）"
+  },
+  {
+   "source": "concept_L24-177",
+   "target": "policy_R674-3",
+   "type": "related",
+   "desc": "NYC Local Law 144 偏差审计强制为招聘 AI 准入门槛（desc 点名）"
+  },
+  {
+   "source": "concept_L22-163",
+   "target": "company_R669-1",
+   "type": "related",
+   "desc": "BeeHero 精准蜂业为畜牧业 AI 代表（desc 点名）"
+  },
+  {
+   "source": "concept_0-4",
+   "target": "person_18",
+   "type": "related",
+   "desc": "Sutskever 为 2014 Seq2Seq 论文一作（desc 点名）"
+  },
+  {
+   "source": "concept_L26-61",
+   "target": "event:2023-09:Signal-PQXDH后量子升级",
+   "type": "related",
+   "desc": "Signal PQXDH 为消费级消息协议 PQ 先行部署（desc 点名脉络）"
+  },
+  {
+   "source": "concept_L26-61",
+   "target": "event:2024-02:Apple-iMessage-PQ3后量子升级",
+   "type": "related",
+   "desc": "iMessage PQ3 为消费级消息协议首个后量子混合改造（desc 点名）"
+  },
+  {
+   "source": "concept_L21-111",
+   "target": "concept_12-20",
+   "type": "related",
+   "desc": "π0 flow matching 动作生成为 VLA 迭代代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-111",
+   "target": "model_R69-3",
+   "type": "related",
+   "desc": "OpenVLA 7B 开源 VLA（desc 点名）"
+  },
+  {
+   "source": "concept_L21-111",
+   "target": "concept_12-19",
+   "type": "related",
+   "desc": "RT-2 为 VLA 范式确立者（desc 点名）"
+  },
+  {
+   "source": "concept_L21-61",
+   "target": "concept_6-28",
+   "type": "related",
+   "desc": "MemGPT/Letta 分页式记忆为 agentic memory 代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-61",
+   "target": "concept_6-29",
+   "type": "related",
+   "desc": "Zep/Graphiti 时序知识图谱记忆（desc 点名）"
+  },
+  {
+   "source": "concept_L22-59",
+   "target": "event:2019:Gboard联邦学习",
+   "type": "related",
+   "desc": "Gboard 为首个大规模生产级联邦学习案例（desc 点名）"
+  },
+  {
+   "source": "concept_L15-87",
+   "target": "person_growth_112",
+   "type": "related",
+   "desc": "David Baker 组 RFdiffusion 为蛋白从头设计基础（desc 点名）"
+  },
+  {
+   "source": "concept_L15-87",
+   "target": "company_R93-2",
+   "type": "related",
+   "desc": "百图生科 xTrimo 为国内 AI 制药基座（desc 点名）"
+  },
+  {
+   "source": "concept_L15-87",
+   "target": "company_33-12",
+   "type": "related",
+   "desc": "晶泰科技为港股 AI 制药第一股（desc 点名）"
+  },
+  {
+   "source": "concept_L15-87",
+   "target": "concept_11-57",
+   "type": "related",
+   "desc": "AlphaFold3 全分子复合物预测为设计底座（desc 点名）"
+  },
+  {
+   "source": "concept_13-53",
+   "target": "event:2019-04:OpenAI-Five胜OG",
+   "type": "related",
+   "desc": "OpenAI Five 为 AI 陪玩竞技线里程碑（desc 点名）"
+  },
+  {
+   "source": "concept_13-53",
+   "target": "event:2019-01:AlphaStar表演赛胜MaNa",
+   "type": "related",
+   "desc": "AlphaStar 星际 II 宗师级（desc 点名）"
+  },
+  {
+   "source": "concept_13-53",
+   "target": "company_R257-1",
+   "type": "related",
+   "desc": "Inworld 为 LLM 原生 NPC 队友代表（desc 点名）"
+  },
+  {
+   "source": "concept_L33-26",
+   "target": "concept_L28-3",
+   "type": "related",
+   "desc": "BatchNorm 为梯度消失缓解关键解法（desc 点名）"
+  },
+  {
+   "source": "concept_L33-26",
+   "target": "concept_L28-2",
+   "type": "related",
+   "desc": "ResNet 残差连接让梯度直通（desc 点名）"
+  },
+  {
+   "source": "concept_11-41",
+   "target": "concept_11-42",
+   "type": "related",
+   "desc": "Khanmigo 生成式辅导与 Knewton 静态路径规划形成代际对照（desc 点名）"
+  },
+  {
+   "source": "concept_9-6",
+   "target": "concept_L28-106",
+   "type": "related",
+   "desc": "Let's Verify Step by Step 过程监督为幻觉缓解路线（desc 点名）"
+  },
+  {
+   "source": "concept_9-6",
+   "target": "concept_L33-75",
+   "type": "related",
+   "desc": "TruthfulQA 为事实性评测基准（desc 点名）"
+  },
+  {
+   "source": "concept_L15-132",
+   "target": "event:2025:NVIDIA-Cosmos",
+   "type": "related",
+   "desc": "Cosmos 世界基础模型为生成式仿真平台化节点（desc 点名）"
+  },
+  {
+   "source": "concept_L15-132",
+   "target": "concept_R546-4",
+   "type": "related",
+   "desc": "GAIA-1/DriveDreamer 为驾驶生成式世界模型代表（desc 点名）"
+  },
+  {
+   "source": "concept_11-63",
+   "target": "event:2024-07:AlphaProof-IMO银牌",
+   "type": "related",
+   "desc": "AlphaProof/AlphaGeometry2 组合达 IMO 银线（desc 点名）"
+  },
+  {
+   "source": "concept_L18-169",
+   "target": "concept_3-33",
+   "type": "related",
+   "desc": "Constitutional AI/RLAIF 为监督降人力路线（desc 点名）"
+  },
+  {
+   "source": "concept_L18-169",
+   "target": "concept_9-10",
+   "type": "related",
+   "desc": "OpenAI Superalignment 项目为该议题标志性尝试（desc 点名）"
+  },
+  {
+   "source": "concept_L18-169",
+   "target": "event:2024:Superalignment解散",
+   "type": "related",
+   "desc": "团队解散与 Leike 转投 Anthropic 为路线事件（desc 点名）"
+  },
+  {
+   "source": "concept_L19-55",
+   "target": "event:2016:COMPAS偏见调查",
+   "type": "related",
+   "desc": "COMPAS 偏见教训为警务 AI 永久引用案例（desc 点名）"
+  },
+  {
+   "source": "concept_L19-55",
+   "target": "concept_R103-1",
+   "type": "related",
+   "desc": "AI 天气预报输出接入灾害预警为场景之一（desc 点名）"
+  },
+  {
+   "source": "event:2026-11:42AI-出隐身62.5M种子",
+   "target": "company_R1129-1",
+   "type": "player",
+   "desc": "42AI 出隐身融资事件对应公司主体"
+  },
+  {
+   "source": "event:2026-11:42AI-出隐身62.5M种子",
+   "target": "year_2026",
+   "type": "timeline"
+  },
+  {
+   "source": "event:2026-11:Agent商务冷启动-Uber极少单与DoorDash铺设",
+   "target": "company_L24-20",
+   "type": "player",
+   "desc": "Uber 为冷启动数据点披露方（TC 11-04）"
+  },
+  {
+   "source": "event:2026-11:Agent商务冷启动-Uber极少单与DoorDash铺设",
+   "target": "company_L24-19",
+   "type": "player",
+   "desc": "DoorDash 为 Agent 基础设施铺设方（iMessage Agent/MCP）"
+  },
+  {
+   "source": "event:2026-11:Agent商务冷启动-Uber极少单与DoorDash铺设",
+   "target": "year_2026",
+   "type": "timeline"
+  },
+  {
+   "source": "concept_L21-68",
+   "target": "event:2019:DiskANN磁盘图索引论文发布(Subramanya-Devvrit-etal-NeurIPS2019-Vamana)",
+   "type": "related",
+   "desc": "DiskANN/Vamana 为磁盘分层索引代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-107",
+   "target": "concept_L27-101",
+   "type": "related",
+   "desc": "Qwen2.5-VL 时序定位为长视频理解代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-107",
+   "target": "event:2021-10:Ego4D发布(arXiv2110.07058 Meta联盟 3000+小时第一视角视频数据集与五大基准)",
+   "type": "related",
+   "desc": "Ego4D 为第一视角长视频基准（desc 点名）"
+  },
+  {
+   "source": "concept_L21-37",
+   "target": "event:2022:GRPO提出",
+   "type": "related",
+   "desc": "DeepSeekMath 课程化 GRPO 为 RL 课程代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-37",
+   "target": "concept_L19-108",
+   "type": "related",
+   "desc": "DeepSeekMath 为课程化训练案例（desc 点名）"
+  },
+  {
+   "source": "concept_L15-79",
+   "target": "concept_11-53",
+   "type": "related",
+   "desc": "知识追踪 DKT 为掌握度底座（desc 点名）"
+  },
+  {
+   "source": "concept_L19-106",
+   "target": "company_L28-144",
+   "type": "related",
+   "desc": "Meshy 为 3D 生成商业 API 代表（desc 点名）"
+  },
+  {
+   "source": "concept_L19-106",
+   "target": "event:2024-12:Microsoft-TRELLIS开源",
+   "type": "related",
+   "desc": "TRELLIS 结构化 latent 统一多输出格式（desc 点名）"
+  },
+  {
+   "source": "concept_L21-84",
+   "target": "concept_6-29",
+   "type": "related",
+   "desc": "Mem0/Zep 为运行时记忆产品代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-84",
+   "target": "concept_7-2",
+   "type": "related",
+   "desc": "LangGraph checkpointer/store 为 Agent 循环记忆件（desc 点名）"
+  },
+  {
+   "source": "concept_L23-62",
+   "target": "event:2022-07:Orca迭代级连续批处理OSDI2022",
+   "type": "related",
+   "desc": "Orca 为迭代级调度开山（desc 点名）"
+  },
+  {
+   "source": "concept_L23-62",
+   "target": "concept_4-13",
+   "type": "related",
+   "desc": "PagedAttention 分页 KV 与 continuous batching 配套（desc 点名）"
+  },
+  {
+   "source": "concept_L22-175",
+   "target": "event:2016:数字敦煌工程上线",
+   "type": "related",
+   "desc": "数字敦煌为博物馆数字化代表工程（desc 点名）"
+  },
+  {
+   "source": "concept_L22-12",
+   "target": "company_14-33",
+   "type": "related",
+   "desc": "摩尔线程为国内 GPU 上市代表（desc 点名）"
+  },
+  {
+   "source": "concept_L22-12",
+   "target": "company_L19-4",
+   "type": "related",
+   "desc": "Figma 2025 IPO 首日暴涨为 AI IPO 两极之一（desc 点名）"
+  },
+  {
+   "source": "concept_L27-120",
+   "target": "company_14-26",
+   "type": "related",
+   "desc": "智谱 GLM-4.5 出品方（player 语义，生态位）"
+  },
+  {
+   "source": "concept_L27-120",
+   "target": "concept_L17-88",
+   "type": "related",
+   "desc": "GLM-4.5 为 GLM-5/5.2 前代（代际链）"
+  },
+  {
+   "source": "concept_L27-120",
+   "target": "event:2026-01:智谱GLM-5发布",
+   "type": "related",
+   "desc": "GLM-5 发布为 4.5 后续代际事件"
+  },
+  {
+   "source": "concept_13-14",
+   "target": "concept_13-13",
+   "type": "related",
+   "desc": "即梦与可灵为国内视频生成双雄对照（desc 点名）"
+  },
+  {
+   "source": "concept_13-14",
+   "target": "event:2025-09:Sora2",
+   "type": "related",
+   "desc": "Sora 2 免费化冲击国内双雄（desc 点名市场事件）"
+  },
+  {
+   "source": "concept_L19-64",
+   "target": "event:2022:贝壳壳e估AI估价规模化",
+   "type": "related",
+   "desc": "贝壳壳e估为国内 AVM 规模化代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-24",
+   "target": "concept_3-33",
+   "type": "related",
+   "desc": "Constitutional AI 为对齐-能力兼顾路线（desc 点名）"
+  },
+  {
+   "source": "concept_L21-24",
+   "target": "concept_L28-33",
+   "type": "related",
+   "desc": "LIMA 少而精数据为对齐税缓解路径（desc 点名）"
+  },
+  {
+   "source": "concept_3-34",
+   "target": "concept_L28-27",
+   "type": "related",
+   "desc": "InstructGPT 论文确立 SFT→RM→PPO 范式（desc 点名）"
+  },
+  {
+   "source": "concept_3-34",
+   "target": "concept_L28-33",
+   "type": "related",
+   "desc": "LIMA 少而精 SFT 数据哲学（desc 点名）"
+  },
+  {
+   "source": "concept_3-4",
+   "target": "concept_L18-16",
+   "type": "related",
+   "desc": "Evol-Instruct 进化式加难为指令数据构建法（desc 点名）"
+  },
+  {
+   "source": "concept_L22-46",
+   "target": "concept_L22-43",
+   "type": "related",
+   "desc": "端侧大模型（Gemma/Phi/Qwen 端侧版）为 AI Phone 底座（desc 点名）"
+  },
+  {
+   "source": "concept_L22-46",
+   "target": "concept_1-48",
+   "type": "related",
+   "desc": "Apple Intelligence 为 AI 手机 OS 层代表（desc 点名）"
+  },
+  {
+   "source": "concept_L22-46",
+   "target": "concept_13-44",
+   "type": "related",
+   "desc": "Siri/Apple Intelligence 个性化助手（desc 点名）"
+  },
+  {
+   "source": "concept_L15-49",
+   "target": "concept_L17-118",
+   "type": "related",
+   "desc": "GPT-Engineer 为 Prompt→App 先行者（desc 点名）"
+  },
+  {
+   "source": "concept_L15-49",
+   "target": "concept_11-74",
+   "type": "related",
+   "desc": "Claude Code 终端形态全栈生成（desc 点名）"
+  },
+  {
+   "source": "event:2026-11:Anthropic-FlashProve模型身份验证",
+   "target": "company_14-3",
+   "type": "player",
+   "desc": "Anthropic 研发 FlashProve（TC 11-03 报道）"
+  },
+  {
+   "source": "event:2026-11:Anthropic-FlashProve模型身份验证",
+   "target": "concept_L18-88",
+   "type": "related",
+   "desc": "与 AI 文本水印构成模型溯源双线（desc 点名）"
+  },
+  {
+   "source": "event:2026-11:Anthropic-FlashProve模型身份验证",
+   "target": "concept_R258-3",
+   "type": "related",
+   "desc": "模型指纹与 DNN 权重水印技术谱系相邻"
+  },
+  {
+   "source": "event:2026-11:Anthropic-FlashProve模型身份验证",
+   "target": "year_2026",
+   "type": "timeline"
+  },
+  {
+   "source": "concept_L15-163",
+   "target": "company_R95-1",
+   "type": "related",
+   "desc": "星动纪元为盘点名单成员（desc 点名）"
+  },
+  {
+   "source": "concept_L15-163",
+   "target": "company_33-81",
+   "type": "related",
+   "desc": "银河通用为盘点名单成员（desc 点名）"
+  },
+  {
+   "source": "concept_L15-163",
+   "target": "company_33-78",
+   "type": "related",
+   "desc": "众擎机器人为盘点名单成员（desc 点名）"
+  },
+  {
+   "source": "concept_L15-163",
+   "target": "company_33-76",
+   "type": "related",
+   "desc": "千寻智能为「大脑」系成员（desc 点名）"
+  },
+  {
+   "source": "concept_L15-163",
+   "target": "company_33-83",
+   "type": "related",
+   "desc": "它石智航为 VLA 创业成员（desc 点名）"
+  },
+  {
+   "source": "concept_L19-61",
+   "target": "event:2023-07:新华社MediaGPT与中国媒体大模型浪潮",
+   "type": "related",
+   "desc": "新华社 MediaGPT 为媒体大模型标志事件"
+  },
+  {
+   "source": "concept_L19-61",
+   "target": "concept_13-31",
+   "type": "related",
+   "desc": "Perplexity 为 AI 聚合分发代表（desc 点名）"
+  },
+  {
+   "source": "concept_3-31",
+   "target": "concept_3-33",
+   "type": "related",
+   "desc": "Constitutional AI 为 RLAIF 术语与范式源头（desc 点名）"
+  },
+  {
+   "source": "concept_L15-6",
+   "target": "company_L24-3",
+   "type": "related",
+   "desc": "Insilico PandaOmics 为靶点发现代表（desc 点名）"
+  },
+  {
+   "source": "concept_L15-6",
+   "target": "company_32-17",
+   "type": "related",
+   "desc": "BenevolentAI Baricitinib 重定位出圈案例（desc 点名）"
+  },
+  {
+   "source": "concept_L15-6",
+   "target": "company_L24-1",
+   "type": "related",
+   "desc": "Recursion 为表型筛选+AI 大厂（desc 点名）"
+  },
+  {
+   "source": "concept_L15-6",
+   "target": "event:2024-08:Recursion合并Exscientia",
+   "type": "related",
+   "desc": "Recursion-Exscientia 合并为行业整合标志（desc 点名）"
+  },
+  {
+   "source": "concept_L18-74",
+   "target": "event:2023:GCG越狱与文本水印",
+   "type": "related",
+   "desc": "GCG 为梯度对抗越狱源头（desc 点名）"
+  },
+  {
+   "source": "concept_L18-74",
+   "target": "concept_L18-63",
+   "type": "related",
+   "desc": "HarmBench 等为越狱评测标准化（desc 点名）"
+  },
+  {
+   "source": "concept_L24-160",
+   "target": "company_R230-1",
+   "type": "related",
+   "desc": "Nuance 为医疗语音/报告生成老牌（desc 点名）"
+  },
+  {
+   "source": "concept_L24-160",
+   "target": "event:2021-04:微软197亿美元收购Nuance",
+   "type": "related",
+   "desc": "微软收购 Nuance 为医疗 AI 最大并购（desc 点名）"
+  },
+  {
+   "source": "concept_L39-15",
+   "target": "company_R1116-1",
+   "type": "related",
+   "desc": "Lumentum 为上游 EML/CW 激光器芯片供应商（desc 点名，Marvell 收购产业逻辑）"
+  },
+  {
+   "source": "concept_L39-15",
+   "target": "concept_1-24",
+   "type": "related",
+   "desc": "CPO/硅光为可插拔光模块的替代路线之争（desc 点名）"
+  },
+  {
+   "source": "concept_12-44",
+   "target": "event:2020:特斯拉Autobidder商业化推广",
+   "type": "related",
+   "desc": "Autobidder 为 VPP 电力交易 AI 代表（desc 点名）"
+  },
+  {
+   "source": "concept_12-44",
+   "target": "concept_L22-76",
+   "type": "related",
+   "desc": "东数西算绿电配套反向推动电网智能化（desc 点名）"
+  },
+  {
+   "source": "concept_L22-71",
+   "target": "concept_L22-85",
+   "type": "related",
+   "desc": "数据交易所为数据要素流通基础设施（desc 点名）"
+  },
+  {
+   "source": "concept_L26-47",
+   "target": "concept_5-3",
+   "type": "related",
+   "desc": "LiteLLM 网关为 LLM 预算治理工具代表（desc 点名）"
+  },
+  {
+   "source": "concept_L15-150",
+   "target": "company_14-93",
+   "type": "related",
+   "desc": "宇树 Go2/A1 为 MPC+WBC 开源复现生态载体（desc 点名）"
+  },
+  {
+   "source": "concept_L40-20",
+   "target": "concept_L33-8",
+   "type": "related",
+   "desc": "Transformer-XL 为 XLNet 前置工作（同团队，desc 点名）"
+  },
+  {
+   "source": "concept_L40-20",
+   "target": "person_28",
+   "type": "related",
+   "desc": "杨植麟为共同一作（desc 点名）"
+  },
+  {
+   "source": "concept_L40-20",
+   "target": "company_14-24",
+   "type": "related",
+   "desc": "该工作为月之暗面长上下文路线技术谱系起点（desc 点名）"
+  },
+  {
+   "source": "concept_L22-60",
+   "target": "concept_R174-4",
+   "type": "related",
+   "desc": "级联模型路由为端云分配核心机制（desc 点名 FrugalGPT/RouteLLM 思想）"
+  },
+  {
+   "source": "concept_L15-131",
+   "target": "event:2025-06:Meta收购ScaleAI股权",
+   "type": "related",
+   "desc": "Meta 143 亿投资 Scale AI 为标注行业最大资本事件（desc 点名）"
+  },
+  {
+   "source": "concept_L19-53",
+   "target": "product_R67-2",
+   "type": "related",
+   "desc": "华为盘古行业大模型为政务落地代表（desc 点名）"
+  },
+  {
+   "source": "concept_L19-56",
+   "target": "company_L24-10",
+   "type": "related",
+   "desc": "Anduril Lattice 为自主军事系统代表（desc 点名）"
+  },
+  {
+   "source": "concept_L19-56",
+   "target": "event:2025:Palantir百亿军事合同",
+   "type": "related",
+   "desc": "Palantir 美军百亿合同为国防 AI 标志事件（desc 点名）"
+  },
+  {
+   "source": "concept_L22-27",
+   "target": "concept_10-10",
+   "type": "related",
+   "desc": "Chatbot Arena 众评为第三方评测代表（desc 点名，含 Llama 4 排行榜风波）"
+  },
+  {
+   "source": "concept_L25-7",
+   "target": "concept_L16-13",
+   "type": "related",
+   "desc": "MLflow 为训练流水线事实标准（desc 点名）"
+  },
+  {
+   "source": "concept_L25-7",
+   "target": "project_R91-2",
+   "type": "related",
+   "desc": "Kubeflow 为流水线编排起点（desc 点名）"
+  },
+  {
+   "source": "concept_L25-7",
+   "target": "concept_L25-6",
+   "type": "related",
+   "desc": "W&B 为实验跟踪标配（desc 点名）"
+  },
+  {
+   "source": "concept_5-16",
+   "target": "concept_L22-115",
+   "type": "related",
+   "desc": "OSI OSAID v1.0 试图划界「开源洗白」（desc 点名）"
+  },
+  {
+   "source": "concept_L21-118",
+   "target": "concept_13-4",
+   "type": "related",
+   "desc": "FLUX 为文字渲染质量跳变节点（desc 点名）"
+  },
+  {
+   "source": "concept_L21-118",
+   "target": "concept_L27-60",
+   "type": "related",
+   "desc": "Nano Banana 2025-08 出圈（desc 点名）"
+  },
+  {
+   "source": "concept_L21-118",
+   "target": "concept_13-5",
+   "type": "related",
+   "desc": "ControlNet 为构图条件控制奠基（desc 点名）"
+  },
+  {
+   "source": "concept_L21-118",
+   "target": "event:2026-07:Seedream-Seedance2.5",
+   "type": "related",
+   "desc": "Seedream 系为中文文字渲染强项（desc 点名）"
+  },
+  {
+   "source": "concept_L25-152",
+   "target": "concept_L26-131",
+   "type": "related",
+   "desc": "信创目录为 GovTech 采购刚性约束（desc 点名）"
+  },
+  {
+   "source": "concept_L21-80",
+   "target": "concept_L21-88",
+   "type": "related",
+   "desc": "Computer Use Agent 的接管（takeover）为 HITL 典型场景（desc 点名）"
+  },
+  {
+   "source": "concept_L21-94",
+   "target": "concept_L27-26",
+   "type": "related",
+   "desc": "OpenAI Agents SDK handoff 为移交范式代表（desc 点名）"
+  },
+  {
+   "source": "concept_L21-94",
+   "target": "event:2025-04:A2A协议",
+   "type": "related",
+   "desc": "A2A 为 Agent 间互操作协议（MCP 连工具、A2A 连 Agent，desc 点名）"
+  },
+  {
+   "source": "concept_L22-128",
+   "target": "concept_2-28",
+   "type": "related",
+   "desc": "Mistral 为欧洲主权模型旗舰（desc 点名）"
+  },
+  {
+   "source": "concept_L22-128",
+   "target": "concept_L17-58",
+   "type": "related",
+   "desc": "Falcon 为中东主权模型代表（desc 点名）"
+  },
+  {
+   "source": "concept_4-25",
+   "target": "concept_7-12",
+   "type": "related",
+   "desc": "Claude tool use 2024-04 GA（desc 点名）"
+  },
+  {
+   "source": "concept_4-25",
+   "target": "event:2024-10:computer-use-API",
+   "type": "related",
+   "desc": "computer use API 为屏幕操作 Agent 先声（desc 点名）"
+  },
+  {
+   "source": "concept_4-25",
+   "target": "concept_R174-2",
+   "type": "related",
+   "desc": "prompt caching 90% 折扣为 Claude API 成本件（desc 点名）"
+  },
+  {
+   "source": "concept_5-2",
+   "target": "concept_L25-14",
+   "type": "related",
+   "desc": "Run:ai/KAI/Kueue 深化节点为本层代表件（desc 点名）"
+  },
+  {
+   "source": "concept_5-2",
+   "target": "company_32-30",
+   "type": "related",
+   "desc": "Run:ai 为 GPU 池化商业旗舰（2024-12 被 NVIDIA 收购，desc 点名）"
+  },
+  {
+   "source": "concept_11-61",
+   "target": "event:2023-11:DeepMind-GNoME",
+   "type": "related",
+   "desc": "A-Lab 与 GNoME 预测-验证闭环衔接（desc 点名）"
+  },
+  {
+   "source": "event:2018:BERT与GPT-1发布",
+   "target": "event:2019-07:RoBERTa论文发布",
+   "type": "related",
+   "desc": "RoBERTa 为 BERT 衍生优化代表（desc 点名谱系）"
+  },
+  {
+   "source": "concept_2-5",
+   "target": "concept_L17-70",
+   "type": "related",
+   "desc": "Jamba 为首个产线级混合架构开源（desc 点名）"
+  },
+  {
+   "source": "concept_L19-41",
+   "target": "event:2024:物流大模型集中发布",
+   "type": "related",
+   "desc": "2024 物流大模型潮为末公里 AI 增量（desc 点名）"
+  },
+  {
+   "source": "concept_L19-41",
+   "target": "event:2021-05:京东物流港交所上市",
+   "type": "related",
+   "desc": "京东物流为时效预测体系主体（desc 点名）"
+  },
+  {
+   "source": "concept_1-12",
+   "target": "concept_1-11",
+   "type": "competition",
+   "desc": "寒武纪与昇腾为国产训练芯片双线（desc 点名）"
+  },
+  {
+   "source": "concept_6-17",
+   "target": "concept_L21-52",
+   "type": "related",
+   "desc": "Self-RAG 自反思检索为优化技巧包成员（desc 点名）"
+  },
+  {
+   "source": "concept_6-17",
+   "target": "concept_L19-83",
+   "type": "related",
+   "desc": "CRAG 检索质量评估+网络兜底（desc 点名）"
+  },
+  {
+   "source": "concept_6-17",
+   "target": "concept_L33-65",
+   "type": "related",
+   "desc": "Corrective RAG 与优化技巧包谱系互补（desc 点名）"
+  },
+  {
+   "source": "concept_L18-90",
+   "target": "concept_L18-86",
+   "type": "related",
+   "desc": "SynthID 水印路线逐步替代事后检测（desc 点名）"
+  },
+  {
+   "source": "concept_L39-6",
+   "target": "company_38-4",
+   "type": "related",
+   "desc": "TEL 为刻蚀双寡头之一（desc 点名）"
+  },
+  {
+   "source": "concept_L39-6",
+   "target": "company_L24-29",
+   "type": "related",
+   "desc": "北方华创为国内多线刻蚀龙头（desc 点名）"
+  },
+  {
+   "source": "concept_1-30",
+   "target": "company_14-16",
+   "type": "related",
+   "desc": "CoreWeave 为 Neocloud 冲击代表（desc 点名）"
+  },
+  {
+   "source": "concept_11-114",
+   "target": "company_R132-4",
+   "type": "related",
+   "desc": "Perfect Corp 为 AR 试妆双雄之一（desc 点名）"
+  },
+  {
+   "source": "concept_11-114",
+   "target": "company_R132-2",
+   "type": "related",
+   "desc": "ModiFace 为试妆老牌（desc 点名）"
+  },
+  {
+   "source": "concept_11-114",
+   "target": "event:2018:欧莱雅收购ModiFace",
+   "type": "related",
+   "desc": "欧莱雅收购 ModiFace 为美妆 AI 标志事件（desc 点名）"
+  },
+  {
+   "source": "concept_L25-21",
+   "target": "concept_L25-71",
+   "type": "related",
+   "desc": "灾难性遗忘为在线学习主敌（desc 点名 EWC/回放）"
+  },
+  {
+   "source": "concept_13-48",
+   "target": "company_R120-4",
+   "type": "related",
+   "desc": "Replika 为 AI 伴侣跨界代表（desc 点名边界争议）"
+  },
+  {
+   "source": "concept_13-48",
+   "target": "concept_L25-106",
+   "type": "related",
+   "desc": "AI 陪伴消费产品与约会 App 边界交叉（desc 点名）"
+  },
+  {
+   "source": "concept_R108-5",
+   "target": "company_33-91",
+   "type": "related",
+   "desc": "新石器为园区无人车代表（desc 点名）"
+  },
+  {
+   "source": "concept_R108-5",
+   "target": "event:2024:中国末端无人配送常态化",
+   "type": "related",
+   "desc": "末端无人配送常态化为该网络标志节点（desc 点名）"
+  },
+  {
+   "source": "concept_R108-5",
+   "target": "event:2024-01:丰翼获全国首张货运无人机OC",
+   "type": "related",
+   "desc": "丰翼 OC 审定为无人机线准入标志（desc 点名）"
+  },
+  {
+   "source": "concept_L18-161",
+   "target": "concept_L18-17",
+   "type": "related",
+   "desc": "UltraFeedback 数据集为合成偏好代表（desc 点名）"
+  },
+  {
+   "source": "concept_L18-161",
+   "target": "concept_L21-2",
+   "type": "related",
+   "desc": "SPIN 自我对弈为合成偏好进阶（desc 点名）"
+  },
+  {
+   "source": "concept_L21-82",
+   "target": "concept_L23-96",
+   "type": "related",
+   "desc": "Map-Reduce 扇出聚合为该范式的检索版（desc 点名）"
+  },
+  {
+   "source": "concept_L21-82",
+   "target": "concept_13-35",
+   "type": "related",
+   "desc": "Deep Research 类产品把扇出做成核心（desc 点名）"
+  },
+  {
+   "source": "concept_L22-138",
+   "target": "concept_9-27",
+   "type": "related",
+   "desc": "EO 14110 报告要求为披露制度起点（desc 点名）"
+  },
+  {
+   "source": "concept_L22-138",
+   "target": "concept_L16-102",
+   "type": "related",
+   "desc": "UK AISI Inspect 为政府核验评测框架（desc 点名）"
+  },
+  {
+   "source": "concept_L23-84",
+   "target": "concept_L28-110",
+   "type": "related",
+   "desc": "WebGPT 首创引用生成格式（desc 点名）"
+  },
+  {
+   "source": "concept_L16-96",
+   "target": "concept_2-27",
+   "type": "related",
+   "desc": "国产模型发布普遍引用其成绩（desc 点名）"
+  },
+  {
+   "source": "concept_L24-129",
+   "target": "event:2023-05:TreeOfThoughts论文发布(arXiv2305.10601 Yao Et Al Deliberate Problem Solving With LLM)",
+   "type": "related",
+   "desc": "ToT 论文为树搜索规划源头（desc 点名）"
+  },
+  {
+   "source": "concept_L25-137",
+   "target": "concept_5-10",
+   "type": "related",
+   "desc": "HF Hub 免费+企业版为 Open Core 代表（desc 点名）"
+  },
+  {
+   "source": "concept_L25-137",
+   "target": "company_30-34",
+   "type": "related",
+   "desc": "LangChain 开源 core+LangSmith 收费（desc 点名）"
+  },
+  {
+   "source": "concept_L18-69",
+   "target": "concept_L18-70",
+   "type": "related",
+   "desc": "Garak（NVIDIA）为同类红队扫描器对照（desc 点名）"
+  },
+  {
+   "source": "concept_L18-105",
+   "target": "policy:生成式AI暂行办法",
+   "type": "related",
+   "desc": "生成式 AI 暂行办法在其基础上加训练数据合规（desc 点名承接）"
+  },
+  {
+   "source": "concept_L21-92",
+   "target": "concept_L28-111",
+   "type": "related",
+   "desc": "Self-Refine 为自我反馈迭代源头（desc 点名）"
+  },
+  {
+   "source": "concept_L21-92",
+   "target": "concept_0-17",
+   "type": "related",
+   "desc": "o1/R1 思维链内化自我验证（desc 点名内生转变）"
+  },
+  {
+   "source": "concept_L22-64",
+   "target": "concept_1-47",
+   "type": "related",
+   "desc": "端侧小模型（Gemini Nano 等）为浏览器推理底座（desc 点名）"
+  },
+  {
+   "source": "concept_1-27",
+   "target": "concept_1-28",
+   "type": "competition",
+   "desc": "华为 CloudMatrix 为超节点替代路线（desc 点名对照）"
+  },
+  {
+   "source": "concept_1-27",
+   "target": "concept_1-6",
+   "type": "competition",
+   "desc": "AMD Helios 机架对标 GB200 NVL72（desc 点名）"
+  },
+  {
+   "source": "concept_1-27",
+   "target": "concept_1-40",
+   "type": "related",
+   "desc": "120kW+ 机柜带动液冷改造潮（desc 点名）"
+  },
+  {
+   "source": "concept_L21-117",
+   "target": "concept_10-12",
+   "type": "related",
+   "desc": "VBench 为多维视频评测基准（desc 点名）"
+  },
+  {
+   "source": "concept_L21-117",
+   "target": "concept_13-13",
+   "type": "related",
+   "desc": "可灵 3.0 多主体一致性为竞品节点（desc 点名）"
+  },
+  {
+   "source": "concept_L21-58",
+   "target": "event:2023-05:FActScore论文发布(arXiv2305.14251 Min Et Al Fine-Grained Atomic Evaluation Factual Precision EMNLP2023)",
+   "type": "related",
+   "desc": "FActScore 为细粒度归因评测起点（desc 点名评测轴）"
+  },
+  {
+   "source": "concept_L21-58",
+   "target": "concept_11-95",
+   "type": "related",
+   "desc": "NotebookLM 行级溯源为产品形态代表（desc 点名产品形态）"
+  },
+  {
+   "source": "concept_L23-49",
+   "target": "concept_L16-1",
+   "type": "related",
+   "desc": "Megatron-LM/Core 为 TP 谱系核心（desc 点名）"
+  },
+  {
+   "source": "concept_L23-49",
+   "target": "project:ColossalAI",
+   "type": "related",
+   "desc": "Colossal-AI 2.5D/3D 并行为深化代表（desc 点名）"
+  },
+  {
+   "source": "concept_L18-120",
+   "target": "concept_2-28",
+   "type": "related",
+   "desc": "Mistral 抵制签署为准则争议焦点（desc 点名）"
+  },
+  {
+   "source": "concept_L19-97",
+   "target": "concept_L21-41",
+   "type": "related",
+   "desc": "ColBERT late interaction 为 rerank 谱系中间形态（desc 点名）"
+  },
+  {
+   "source": "concept_L24-101",
+   "target": "product:Vertex-AI",
+   "type": "related",
+   "desc": "ScaNN 为 Vertex AI Vector Search 核心引擎（desc 点名）"
+  },
+  {
+   "source": "concept_L30-19",
+   "target": "concept_L34-43",
+   "type": "related",
+   "desc": "困惑度指标承 n-gram 评价框架（desc 点名遗产）"
+  },
+  {
+   "source": "concept_L30-21",
+   "target": "event:2012:AlexNet获ImageNet冠军",
+   "type": "related",
+   "desc": "AlexNet 后 SVM 快速退场的衰落节点（desc 点名）"
+  },
+  {
+   "source": "concept_L15-209",
+   "target": "concept_L24-134",
+   "type": "related",
+   "desc": "Voyager 技能库为 LLM+游戏逻辑混合范式学术源头（desc 点名）"
+  },
+  {
+   "source": "concept_13-27",
+   "target": "concept_R497-4",
+   "type": "related",
+   "desc": "COLMAP/SfM 为 3DGS 初始化标配（desc 点名）"
+  },
+  {
+   "source": "concept_13-27",
+   "target": "company_14-41",
+   "type": "related",
+   "desc": "Luma AI 为 3DGS 扫描商用代表（desc 点名）"
+  },
+  {
+   "source": "concept_L23-98",
+   "target": "concept_7-22",
+   "type": "related",
+   "desc": "Arize Phoenix/OpenInference 为 OTel trace 标准化（desc 点名）"
+  },
+  {
+   "source": "concept_L23-98",
+   "target": "company_30-39",
+   "type": "related",
+   "desc": "Braintrust 为 eval+回放平台（desc 点名）"
+  },
+  {
+   "source": "concept_L24-120",
+   "target": "concept_L24-119",
+   "type": "related",
+   "desc": "SimCSE 对比学习为 SBERT 谱系关键升级（desc 点名）"
+  },
+  {
+   "source": "concept_L24-120",
+   "target": "concept_6-10",
+   "type": "related",
+   "desc": "MTEB 榜单为 embedding 竞技场（desc 点名）"
+  },
+  {
+   "source": "concept_L24-120",
+   "target": "concept_6-25",
+   "type": "related",
+   "desc": "Matryoshka 嵌套维度已成本底座标配（desc 点名）"
+  },
+  {
+   "source": "concept_L25-28",
+   "target": "concept_4-12",
+   "type": "related",
+   "desc": "GPTQ/AWQ/FP8 权重量化工具族（desc 点名对策线）"
+  },
+  {
+   "source": "concept_L25-28",
+   "target": "concept_R457-1",
+   "type": "related",
+   "desc": "SmoothQuant 为激活 outlier 迁移对策（desc 点名）"
+  },
+  {
+   "source": "concept_L25-28",
+   "target": "concept_R526-1",
+   "type": "related",
+   "desc": "KIVI 为 KV cache 量化配套（desc 点名）"
+  },
+  {
+   "source": "concept_L15-124",
+   "target": "concept_R546-2",
+   "type": "related",
+   "desc": "BEVFormer 为纯视觉 BEV 奠基（desc 点名谱系）"
+  },
+  {
+   "source": "concept_L24-140",
+   "target": "event:2023-10:MemGPT论文",
+   "type": "related",
+   "desc": "MemGPT「LLM as OS」为 AgentOS 概念源头（desc 点名）"
+  },
+  {
+   "source": "concept_L23-111",
+   "target": "concept_7-3",
+   "type": "related",
+   "desc": "AutoGen 群聊消息总线为黑板/订阅模式实现代表（desc 点名）"
+  },
+  {
+   "source": "event:2021:HumanEval-GSM8K评测",
+   "target": "concept_L27-6",
+   "type": "related",
+   "desc": "HumanEval 附于 Codex 论文发布（desc 点名源头）"
+  },
+  {
+   "source": "concept_1-42",
+   "target": "company_L28-168",
+   "type": "related",
+   "desc": "RunPod 为 Serverless GPU 玩家代表（desc 点名）"
+  },
+  {
+   "source": "concept_1-42",
+   "target": "product:Replicate",
+   "type": "related",
+   "desc": "Replicate 为开源模型托管易用派代表（desc 点名）"
+  },
+  {
+   "source": "concept_11-70",
+   "target": "concept_L35-3",
+   "type": "related",
+   "desc": "AI Scientist 为端到端科研 Agent 代表（desc 点名）"
   }
  ]
 }
