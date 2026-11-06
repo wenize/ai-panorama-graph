@@ -970,7 +970,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L1",
-   "desc": "把国家级超算/智算资源连成互联网，提供科研与行业融合算力。",
+   "desc": "把国家级超算/智算资源连成互联网，提供科研与行业融合算力。脉络：2023-04 国家超算互联网启动会在天津召开（科技部主导，国家超算互联网联合体成立——集团 300 亿注册资本口径公开报道）；定位：链接 national 中心（国家超级计算无锡/广州/天津/深圳/济南/长沙等 14 个国家超算中心）+智算中心，做「算力+数据+应用+社区」一体化服务；2024-07 正式上线（https://www.scnet.cn 官网公开）；业务：超算/智算/边缘资源目录+算力商品化购买+行业应用商店（AI for Science 优先——科研用户免费额度政策）；与东数西算关系：前者面向科研行业的「服务网」，后者是物理枢纽布局（「一体两翼」表述见公开政策解读）；2025-2026 观察：商业云（阿里/华为）与国家队接口互认、智算占比提升（GPU 资源上架）。",
    "stage": "2022 启动 · 2026 全国产10万卡",
    "player": "国家超算互联网；郑州核心节点",
    "url": "https://www.gov.cn/yaowen/liebiao/202608/content_7077762.htm",
@@ -3402,7 +3402,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L6",
-   "desc": "“直接把上下文塞满”与“外部检索”两条路线的工程权衡讨论。",
+   "desc": "「直接把上下文塞满」与「外部检索」两条路线的工程权衡讨论。时间线：2023 Gemini 1.5 百万 token（2024-02）把「全塞」变成可行→2024 年「RAG is dead」论战（多篇工程博客与论文交锋）→2024-2025 共识收敛为「混合」：长上下文成本（价格×长度+attention O(n²) 与 lost-in-the-middle 定位衰减公开研究）vs RAG 权限/新鲜度/可审计（引用与合规硬需求）；实测：NoLiMa（2025，长上下文基准里模型在无关键词匹配时性能骤降）与 RAG vs LC 对比研究（多任务评测 RAG 常胜或持平公开口径）；工程裁决：文档 <50 页且无权限需求→长上下文直塞；企业知识库（动态+权限+审计）→RAG 不可替代；中间态：Contextual RAG（Anthropic 2024-09）与长上下文重排（LongRAG）。2025-2026 千万 token 上下文（Gemini 2.5 Pro 1M→Llama 4 Scout 10M 宣称）继续压低成本，但企业级 RAG 未被取代——「RAG 死了」论战以混合共存告一段落。",
    "stage": "2023 争论 · 2026 收敛为互补",
    "player": "Anthropic;Google;各 LLM 厂商",
    "url": "https://www.anthropic.com/news",
@@ -6140,7 +6140,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "Meta 基于 Llama 微调的开源代码大模型，可商用。",
+   "desc": "Meta 基于 Llama 微调的开源代码大模型，可商用。2023-08-24 发布（7B/13B/34B/70B 四档+Python 特化版，Llama 2 底座+500B token 代码续训，长上下文 16K+fill-in-the-middle）；成绩：HumanEval 34B 53.7%（发布时开源 SOTA 公开口径）；意义：首个「可商用许可+开源权重」的 Llama 系代码模型（Llama 2 社区许可），带火开源代码模型线；后继被取代：DeepSeek-Coder（2023-11）/StarCoder2（2024-02）/Qwen2.5-Coder（2024-11，33B 达 GPT-4o 级公开口径）迭代远超；Meta 自己转向 Code Llama→Llama 3.1 405B 代码能力内化→CodeCompass；现存价值：本地私有部署入门默认（Ollama 教程常客）与 FIM 任务基线；许可注意：Llama 2 社区许可（非 Apache）月活 7 亿条款限制商用头部。",
    "stage": "2023 起源 · 2024 分化期",
    "player": "Meta AI",
    "url": "https://ai.meta.com/blog/code-llama/",
@@ -6252,7 +6252,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L11",
-   "desc": "Karpathy 提出的编程方式：用自然语言描述意图、由模型生成代码、人靠感觉迭代。",
+   "desc": "Karpathy 提出的编程方式：用自然语言描述意图、由模型生成代码、人靠感觉验收（「give in to the vibes」）。出处：2025-02 Karpathy 推文造词（「fully give in to the vibes, embrace exponentials, and forget that the code even exists」），迅速成为 2025 年度科技热词（Merriam-Webster 2025 年度词候选公开报道）；产品爆发链：Cursor（2024-2025 ARR 破 5 亿美元报道口径）、Windsurf、Lovable/v0/Bolt.new、Claude Code/Codex CLI；边界争论：Karpathy 本人强调适用域（周末项目/原型 vs 生产工程——「serious code needs real engineering」后续推文）、Yishan/ 甲骨文级批评（安全债与技术债不可 vibe）；产业影响：编程民主化（非程序员做内部工具成为常态）、代码审查与测试成为新瓶颈（review 是新的 typing）；2025-2026 衍生词：agentic coding（vibe 的工程化收编版）。",
    "stage": "2025 起源 · 2025 爆发",
    "player": "Andrej Karpathy; 开发者社区",
    "url": "https://cloud.google.com/discover/what-is-vibe-coding",
@@ -11148,7 +11148,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L15",
-   "desc": "统一仿真厨房评测机器人终身学习知识迁移，4套task suite共130+语言条件任务。",
+   "desc": "统一仿真厨房评测机器人终身学习知识迁移，4套task suite共130任务。出处：2021（Liu et al.，UT Austin/Stanford/Intel，CoRL 2021）——LIBERO-SPATIAL/OBJECT/GOAL/100 四套（空间关系/物体泛化/目标变化/长程 100 步任务各 10/10/10/100 个，合计 130）；正面：统一了终身学习（lifelong LfM）评测碎片化局面，是 LIBERO-PRO（2025 泛化批评版）前的事实标准；批评：仿真 gap（MuJoCo 简化物理 vs 真机）、任务多样性窄（全为厨房抓放）、成功判定宽松；后继生态：CALVIN（欧系对照）、RLBench、ManiSkill2/3 与真机 DROID（2024）接力；与 VLA 训练的关系：OpenVLA/π0 类用真机大数据后，LIBERO 主要作为快速迭代消融场（论文中「先 LIBERO 验证再上真机」成为标配句式）。",
    "stage": "2023起源",
    "player": "UT Austin/Stanford/学术界",
    "url": "https://arxiv.org/abs/2306.03310",
@@ -13852,7 +13852,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L17",
-   "desc": "2025-02-24 发布，首个商用「混合推理」模型，可开关扩展思考并控制思考预算。",
+   "desc": "2025-02-24 发布，首个商用「混合推理」模型，可开关扩展思考并控制思考预算。特性：extended thinking mode（API 可设 token 预算——业界首个显式思考档位商业化）、可见思考链（summary 版，完整 CoT 不公开）、SWE-bench Verified 62.3%/62.70% SKU 版（发布时开源模型最高公开口径）+ Claude Code 同步 GA（命令行编码 Agent）；后续线：3.7 Sonnet 为 Claude 4/4.5 系（2025-05 起）与 4.5 Haiku/Opus 4.1 等铺路，2025-09 Sonnet 4.5 取代；历史定位：与 o1（2024-09）「隐藏思考」路线对照——Anthropic 选择可见+可控，开启「混合推理/思考预算」品类（后续 Gemini 2.5 Flash thinking budget、Qwen3 think 开关跟进）；Claude Code 同期发布是 Agent 编码产品线起点（后成 Anthropic 最大增长线之一公开报道）。",
    "stage": "2025 发布 · 已退役",
    "player": "Anthropic",
    "url": "https://www.anthropic.com/research/visible-extended-thinking",
@@ -32748,7 +32748,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "MPC从科研框架走向与FHE/ZK组合的生产级隐私计算栈。",
+   "desc": "MPC从科研框架走向与FHE/ZK组合的生产级隐私计算栈。技术谱系：姚期智百万富翁问题（1982，MPC 源头）→ GMW/BMR 协议（1987-1990）→ SPDZ（2012，恶意安全+预处理，工程分水岭）→ 现代栈：ABY3/CrypTFlow2（微众开源）、MP-SPDZ 框架；生产场景：金融联合风控（银行间黑名单查询不出域——国内多家银行公开案例）、隐私求交 PSI（广告转化归因——Meta/Google PAIR/苹果 Private Click Measurement 用 PSI 或 MPC 组合）、联邦学习安全层（FATE 内嵌 MPC 模块）；组合趋势：MPC+FHE（同态端+交互端混合）、MPC+ZK（可验证计算——zkML 推理证明 2024-2025 出现）；性能现状：两方计算毫秒-秒级可用、多方大模型推理仍昂贵（比明文慢 3-5 个量级的公开基准）；国内落地：隐语（蚂蚁 SecretFlow 2022 开源）生态最全；与 TEE（可信执行环境）路线竞争：MPC 密码学保证 vs TEE 硬件信任假设，混部部署为主流工程答案。",
    "stage": "2018 框架期 · 2025-2026 与FHE/ZK组合",
    "player": "Zama(MPC分片);Flower;OpenMined PySyft;FedML;Nillion",
    "url": "https://www.zama.org/post/zama-protocol-testnet-update-mpc-partners-better-performance-audits-and-new-features",
@@ -33468,7 +33468,7 @@
    "dim": 3,
    "dim_name": "技术架构",
    "level": "L26",
-   "desc": "老年学/数字包容视角研究 AI 对老年人健康、孤独与数字鸿沟的双重作用。应用线：陪伴机器人（PARO 海豹机器人 20+ 年循证）、语音助手适老（方言 ASR/慢语速 TTS）、跌倒检测与健康监测（毫米波雷达无感监护）、认知训练游戏（AD 早筛数字生物标记物研究热点）；政策线：工信部适老化改造专项行动（2021 起互联网应用适老版）、欧盟 Active Assisted Living Programme；研究警示：AI 陪伴的伦理争议（情感依赖/真实性欺骗——2023-2025 老年 AI 伴侣报道）、算法歧视（健康模型对老年样本欠拟合）；与数字鸿沟（设备/资费/素养三层）交叉，2025-2026 老龄社会 + AI 照护缺口（护工比）为长期叙事。",
+   "desc": "老年学/数字包容视角研究 AI 对老年人健康、孤独与数字鸿沟的双重作用。应用线：陪伴机器人（PARO 海豹机器人 20+ 年循证）、语音助手适老（方言 ASR/慢语速 TTS）、跌倒检测与健康监测（毫米波雷达无感监护）、认知训练游戏（AD 早筛数字生物标记物研究热点）；政策线：工信部适老化改造专项行动（2021 起互联网应用适老版）、欧盟 Active Assisted Living Programme；研究警示：AI 陪伴的伦理争议（情感依赖/真实性欺骗——2023-2025 老年 AI 伴侣报道）、算法歧视（健康模型对老年样本欠拟合）；与数字鸿沟（设备/资费/素养三层）交叉，2025-2026 老龄社会 + AI 照护缺口（护工比）为长期叙事。补充：日本介护机器人（厚生劳动省补贴目录）与中国智慧养老试点（工信部 2021-2025 三批名录）为政策最强两极；适老 AI 评估（ISO/IEEE 老年人相关标准）开始补位。",
    "stage": "2020 远程健康 · 2025-2026 适老研究",
    "player": "ITU;Journals of Gerontology;Gerontological Society of America;Johns Hopkins 4M框架",
    "url": "https://www.itu.int/en/ITU-D/Digital-Inclusion/Documents/events/2026/AI-Ageing-Launch-Webinar/AI-and-Ageing-2601240E.pdf",
@@ -39260,7 +39260,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "1998 年 LeCun 等提出的卷积神经网络，已在银行支票识别中商用，CNN 鼻祖。",
+   "desc": "1998 年 LeCun 等提出的卷积神经网络，已在银行支票识别中商用，CNN 范式定型之作。论文：Gradient-Based Learning Applied to Document Recognition（Proceedings of the IEEE 1998）；谱系：1989 Backpropagation 应用到手写数字（LeCun/Boser，贝尔实验室，NIST 数据集前身）→ LeNet-5 定型（卷积-池化-卷积-池化-全连接 7 层，32×32 输入，MNIST 99.05% 公开口径）；商用史：1990s 末美国银行支票读取系统部署（NCR 合同，读掉全美 10%~20% 支票的行业流传口径）；意义：局部感受野/权值共享/下采样三件套定型，但此后被 SVM 压制十余年（2012 AlexNet 复兴）；MNIST 数据集（1998 整理自 NIST）成为机器学习 MNIST 级『hello world』；LeCun 因此获 2018 图灵奖核心贡献之一。",
    "stage": "1998 起源 · CNN 商用开端",
    "player": "Yann LeCun / Léon Bottou / Yoshua Bengio；AT&T Bell Labs；NCR",
    "url": "https://ieeexplore.ieee.org/document/726791",
@@ -84224,7 +84224,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "2022 国家发改委/能源局推动虚拟电厂试点，深圳、冀北先行",
+   "desc": "2022 国家发改委/能源局推动虚拟电厂试点，深圳、冀北先行。政策线：2022-03《「十四五」现代能源体系规划》提出虚拟电厂建设→2022-06 深圳《虚拟电厂事实实施方案》（全国首个市级，2023-08 深圳虚拟电厂管理中心挂牌——国内首家）、冀北虚拟电厂（2019 国网冀北起步、2022 常态化参与调峰，聚合可调节负荷公开口径 100 万千瓦级）；商业模式：需求响应补贴→现货市场/辅助服务市场套利（削峰填谷+调频），聚合商（特来电/国电投/深圳能源）接入充电桩/储能/空调负荷；技术栈：负荷预测+聚合优化调度（混合整数规划+RL 试点）+秒级量测（鸿雁协议/104 规约）；2024-2025 政策加速：V2G 车网互动试点（2025 国家发改委 9 城名单）与电力现货市场扩围为两大驱动；对标 Tesla Autobidder（澳洲 SA VPP 商业闭环最成熟公开案例）。",
    "stage": "",
    "player": "",
    "url": "",
@@ -359485,6 +359485,66 @@
    "target": "concept_L35-3",
    "type": "related",
    "desc": "AI Scientist 为端到端科研 Agent 代表（desc 点名）"
+  },
+  {
+   "source": "concept_L15-155",
+   "target": "concept_R242-5",
+   "type": "related",
+   "desc": "DROID 真机数据集与 LIBERO 仿真场互补（desc 点名后继生态）"
+  },
+  {
+   "source": "concept_11-84",
+   "target": "concept_11-73",
+   "type": "related",
+   "desc": "Cursor 为 vibe coding 产品爆发链代表（desc 点名）"
+  },
+  {
+   "source": "concept_11-84",
+   "target": "company_L20-9",
+   "type": "related",
+   "desc": "Anysphere（Cursor）ARR 破 5 亿报道口径（desc 点名）"
+  },
+  {
+   "source": "concept_L17-19",
+   "target": "concept_10-5",
+   "type": "related",
+   "desc": "SWE-bench Verified 62.3% 为发布时开源最高（desc 点名）"
+  },
+  {
+   "source": "concept_L30-18",
+   "target": "event:2018:Hinton-Bengio-LeCun图灵奖",
+   "type": "related",
+   "desc": "LeNet 为 LeCun 图灵奖核心贡献之一（desc 点名）"
+  },
+  {
+   "source": "event:2022:虚拟电厂试点启动",
+   "target": "event:2020:特斯拉Autobidder商业化推广",
+   "type": "related",
+   "desc": "Autobidder 澳洲 VPP 商业闭环为全球对标案例（desc 点名）"
+  },
+  {
+   "source": "concept_6-16",
+   "target": "concept_L17-22",
+   "type": "related",
+   "desc": "Gemini 1.5 百万 token 使「全塞」路线可行（desc 点名时间线）"
+  },
+  {
+   "source": "concept_11-77",
+   "target": "concept_11-78",
+   "type": "related",
+   "desc": "StarCoder2 为 CodeLlama 后继竞争者（desc 点名取代谱系）"
+  },
+  {
+   "source": "concept_11-77",
+   "target": "concept_11-79",
+   "type": "related",
+   "desc": "Qwen2.5-Coder 33B 达 GPT-4o 级（desc 点名迭代取代）"
+  },
+  {
+   "source": "concept_L26-63",
+   "target": "company_R258-2",
+   "type": "related",
+   "desc": "隐语为国内 MPC/FHE 生态最全开源框架（desc 点名）"
   }
  ]
 }
