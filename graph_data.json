@@ -163556,6 +163556,59 @@
    "dim": 1,
    "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
    "year": 2026
+  },
+  {
+   "id": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "name": "NVIDIA CEO 过渡：黄仁勋辞任总裁/CEO/董事，CFO Colette Kress 出任临时 CEO（2026-11-12 官宣）",
+   "type": "event",
+   "desc": "2026-11-12 NVIDIA 董事会官宣（官方新闻稿唯一权威口径）：黄仁勋辞任总裁、CEO 与董事职务，立即生效——他共同创立并执掌 NVIDIA 33 年，将其带上约 4 万亿美元市值；CFO Colette Kress（2013-09 起任 CFO，此前 Cisco/Microsoft 约 25 年财务经历）出任临时 CEO，董事会同时考虑内外部候选人寻 permanent CEO；Harvey C. Jones（Synopsys 前 CEO/执行主席，30+ 年创投与技术履历）出任公司史上首位独立董事长；官方公告未说明辞职原因，媒体普遍报道与「与疑似中国间谍的婚外情指控 + GPU 走私调查」双重丑闻压力有关（指控未经证实，官方稿无涉）；Q3 FY2027 财报（11-17）照常发布。黄仁勋辞任被视为 AI 算力行业的历史性人事变动，其继任选择与 CUDA 生态路线的连续性为行业最大悬念（NVIDIA 官方新闻稿+CNBC/TechCrunch/Axios 多源+Tavily 交叉核验，2026-11-13）。",
+   "dim": 1,
+   "link": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "year": 2026
+  },
+  {
+   "id": "person_R1362-1",
+   "name": "Colette Kress",
+   "type": "person",
+   "desc": "NVIDIA 执行副总裁兼 CFO（2013-09 至今），2026-11-12 起兼任临时 CEO（黄仁勋辞任后，直至董事会寻得 permanent CEO）；此前在 Cisco 与 Microsoft 累计约 25 年财务与管理经历，被普遍归功于 NVIDIA 在 AI 爆发期的财务转型（数据中心营收放量与毛利率管理）；临时 CEO 任内首考为 2026-11-17 的 Q3 FY2027 财报电话会。",
+   "dim": 7,
+   "link": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "id": "company_R1364-1",
+   "name": "United Airlines（美联航）",
+   "type": "company",
+   "desc": "美国主要航空公司（United Airlines Holdings，芝加哥，Star Alliance 创始成员）；2026-11-11 宣布封禁第三方 AI agent 在其平台订票与管理预订（称网络安全与数据安全风险，允许 AI 展示航班信息但禁止完成交易），为主要美国航司中首个公开对抗 agentic AI 平台者（TechCrunch/WSJ/Reuters/Forbes 多源）。",
+   "dim": 6,
+   "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+   "year": 1926
+  },
+  {
+   "id": "event:2026-11:United封禁AIagent订票",
+   "name": "United Airlines 封禁 AI agent 订票：主要美国航司首例，称网络安全风险（2026-11-11）",
+   "type": "event",
+   "desc": "2026-11-11/12 United Airlines 宣布限制第三方 AI agent 代用户订票与管理预订：App/官网/旅行社渠道均屏蔽，理由为数据安全（bot 可能暴露客户数据或做出非预期购买）与监管顾虑；AI agent 仍可展示航班信息但无法完成交易——与 Amazon 封禁 Muse（2026-09）共同构成「平台方对抗 agentic 商务」的标志性连续剧；其为目前唯一公开采取此立场的主要美国航司（TechCrunch 一手+WSJ/Reuters/Forbes 多源核验，2026-11-13）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:Nebius-400亿算力扩张",
+   "name": "Nebius 测试 neocloud 剧本：2026 资本开支上调至约 270 亿美元、2027 计划 400~450 亿美元（2026-11-12 Q3 财报）",
+   "type": "event",
+   "desc": "2026-11-12 Nebius 发布 Q3 2026 财报：2027 资本开支计划 400~450 亿美元（客户预付款+贷款融资，Q3 客户预付款超合同 capex 的 100%）、2026 支出上调至约 270 亿美元；但 Microsoft 数据中心场地的延误削减 2026 收入预期，股价下滑并拖累 AI 数据中心板块（Applied Digital -8% 等）——「neocloud（AI 原生云）剧本」的规模化考验：客户预付驱动的重资产扩张模式首次遭遇执行延误（TechCrunch+Reuters 二源核验，2026-11-13）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "year": 2026
+  },
+  {
+   "id": "event:2026-11:FireworksAI数据泄露",
+   "name": "Fireworks AI 遭网络攻击：Notion 客户 AI 聊天记录泄露，暴露于零数据保留协议之外（2026-11-02 发现）",
+   "type": "event",
+   "desc": "AI 推理基础设施商 Fireworks AI 遭网络攻击：2026-11-02 通知 Notion 少量数据被恶意访问，后续分析发现第二组数据含用于 Insights 功能的 Notion AI 聊天记录（Notion 估计受影响 workspace 不足 1%）；关键批评点：聊天数据存于零数据保留（zero-data-retention）协议之外，故被暴露；Fireworks 后确认泄露范围大于初披露（含客户数据集与模型权重）——AI 供应链安全（第三方推理商的数据保留实践）的标志性事件（TechCrunch 一手+Notion 官方公告/BleepingComputer/VentureBeat 多源核验，2026-11-13）。",
+   "dim": 1,
+   "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+   "year": 2026
   }
  ],
  "links": [
@@ -361669,6 +361722,72 @@
    "target": "company_31-79",
    "type": "related",
    "desc": "Behavox（内容层）与 Zscaler（网络层）的 AI 合规互补"
+  },
+  {
+   "source": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "target": "company_14-9",
+   "type": "player",
+   "desc": "NVIDIA 董事会宣布 CEO 过渡（2026-11-12）"
+  },
+  {
+   "source": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "target": "person_16",
+   "type": "player",
+   "desc": "黄仁勋辞任总裁/CEO/董事，立即生效（33 年掌舵）"
+  },
+  {
+   "source": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "target": "person_R1362-1",
+   "type": "player",
+   "desc": "Colette Kress 出任临时 CEO（继续兼任 CFO）"
+  },
+  {
+   "source": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-12 官宣"
+  },
+  {
+   "source": "event:2026-11:United封禁AIagent订票",
+   "target": "company_R1364-1",
+   "type": "player",
+   "desc": "United Airlines 为封禁主体"
+  },
+  {
+   "source": "event:2026-11:United封禁AIagent订票",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-11 宣布"
+  },
+  {
+   "source": "event:2026-11:United封禁AIagent订票",
+   "target": "event:2026-11:Amazon-Alexa文本购物",
+   "type": "related",
+   "desc": "与 Amazon 封 Muse 同属平台对抗 agentic 商务线"
+  },
+  {
+   "source": "event:2026-11:Nebius-400亿算力扩张",
+   "target": "company_L28-170",
+   "type": "player",
+   "desc": "Nebius Q3 财报披露扩张计划"
+  },
+  {
+   "source": "event:2026-11:Nebius-400亿算力扩张",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-12 Q3 财报"
+  },
+  {
+   "source": "event:2026-11:FireworksAI数据泄露",
+   "target": "company_14-68",
+   "type": "player",
+   "desc": "Fireworks AI 为被攻击的推理基础设施商"
+  },
+  {
+   "source": "event:2026-11:FireworksAI数据泄露",
+   "target": "year_2026",
+   "type": "timeline",
+   "desc": "2026-11-02 通知 Notion"
   }
  ]
 }
