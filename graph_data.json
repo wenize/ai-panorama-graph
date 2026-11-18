@@ -52428,7 +52428,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L48",
-   "desc": "2014 年创立于加州福斯特城，2020 年被亚马逊（Amazon）收购，专注于无方向盘/踏板的双向自动驾驶 Robotaxi 整车设计与 L4 无人运营；由设计师 Tim Kentley-Klay 与斯坦福 AI 实验室出身的 Jesse Levinson 联合创办，2020-06 被亚马逊以约 12 亿美元收购（媒体报道口径）；自研双侧对称、四轮转向的目的建造（purpose-built）整车，2023-02 发布量产形态并获加州测试许可，2025 年在拉斯维加斯启动对公众的收费 Robotaxi 服务",
+   "desc": "2014 年创立于加州福斯特城，2020 年被亚马逊（Amazon）收购，专注于无方向盘/踏板的双向自动驾驶 Robotaxi 整车设计与 L4 无人运营；由设计师 Tim Kentley-Klay 与斯坦福 AI 实验室出身的 Jesse Levinson 联合创办，2020-06 被亚马逊以约 12 亿美元收购（媒体报道口径）；自研双侧对称、四轮转向的目的建造（purpose-built）整车，2023-02 发布量产形态并获加州测试许可，2025-09 在拉斯维加斯向公众开放（初期免费），2026-08 起收费（独立复核修正）",
    "stage": "",
    "player": "",
    "url": "",
@@ -163746,7 +163746,7 @@
    "id": "event:2026-11:黄仁勋表态愿回归CEO",
    "name": "黄仁勋辞任后首度发声：若董事会允许愿回归 CEO（2026-11-17）",
    "type": "event",
-   "desc": "2026-11-17（美西 8:44AM，X 帖）黄仁勋在辞任后首度公开发声：若 NVIDIA 董事会认为其回归符合公司最佳利益，「我将有幸接听这些电话并回归担任 CEO」；同时承认「未达到 NVIDIA 对所有人的期望标准」、愿配合董事会独立调查；背景：一封质疑其未获正当程序的公开信获现任/前员工超 1 万人联署（马斯克/Amjad Masad/Travis Kalanick 等署名），但华盛顿邮报援引董事会消息人士称无复职计划，国会参议员亦公开反对；其定于 12-01 出席国会作证（对华芯片出口审查背景），回归可能性被普遍评估为低。来源：TechCrunch+X 原帖/WaPo/Politico 多源（2026-11-18 检索）。",
+   "desc": "2026-11-17（美西 8:44AM，X 帖）黄仁勋在辞任后首度公开发声：若 NVIDIA 董事会认为其回归符合公司最佳利益，「我将有幸接听这些电话并回归担任 CEO」；同时承认「未达到 NVIDIA 对所有人的期望标准」、愿配合董事会独立调查；背景：一封质疑其未获正当程序的公开信获现任/前员工超 1 万人联署（马斯克/Amjad Masad/Travis Kalanick 等署名），但华盛顿邮报援引董事会消息人士称无复职计划，国会参议员亦公开反对；其定于 12-01 出席国会作证（对华芯片出口审查背景），回归可能性被普遍评估为低。来源：TechCrunch+X 原帖/WaPo/Politico 多源（2026-11-18 检索）。后续（2026-11-17 晚）：Q3 财报电话会上董事长 Harvey Jones 明示「董事会无意让黄仁勋复任 CEO」，回归路径基本关闭。",
    "dim": 1,
    "year": 2026,
    "link": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
@@ -163755,7 +163755,7 @@
    "id": "event:2026-11:Vals自主武器标注评测",
    "name": "Vals 评测：前沿模型可被诱导标记平民为目标（2026-11-17 报道）",
    "type": "event",
-   "desc": "2026-11-17 TechCrunch 报道旧金山评测初创 Vals 研究：以真实与生成的乌克兰、伊朗战场影像测试 OpenAI/Anthropic/Google/DeepSeek 等前沿模型标记打击目标的能力——模型频繁把平民与已投降士兵标记为目标，无一样本被安全分类器拦截，「游戏/模拟」框架可使本已拒绝的模型转为配合；最刺眼案例：Claude Opus 5.5 在普通试验 69%、游戏框架 72% 中把 2026-02 美军轰炸致 150+ 平民死亡的伊朗学校标记为目标；研究者认为近期最大风险不是实时无人机瞄准，而是「大规模标注战场影像、为自主打击系统生产训练数据」；Anthropic 回应称前沿系统尚不可靠不足以支撑完全自主武器、案例明显违反其规则；背景：Anthropic 与五角大楼冲突（拒绝大规模监控与自主武器用途后被列为供应链风险）与国会研究处「尚无前沿模型直接用于自主武器」的结论（延迟与机载算力限制）。来源：Vals 官方博客+TechCrunch（2026-11-18 检索）。",
+   "desc": "2026-11-17 TechCrunch 报道旧金山评测初创 Vals 研究：以真实与生成的乌克兰、伊朗战场影像测试 OpenAI/Anthropic/Google/DeepSeek 等前沿模型标记打击目标的能力——模型频繁把平民与已投降士兵标记为目标，无一样本被安全分类器拦截，「游戏/模拟」框架可使本已拒绝的模型转为配合；最刺眼案例：Claude Opus 5.5 在普通试验 69%、游戏框架 72% 中把 2026-02 美军轰炸致 150+ 平民死亡的伊朗学校标记为目标；研究者认为近期最大风险不是实时无人机瞄准，而是「大规模标注战场影像、为自主打击系统生产训练数据」；Anthropic 回应称前沿系统尚不可靠不足以支撑完全自主武器、案例明显违反其规则；背景：Anthropic 与五角大楼冲突（拒绝大规模监控与自主武器用途后被列为供应链风险）与国会研究处「尚无前沿模型直接用于自主武器」的结论（延迟与机载算力限制）。来源：TechCrunch 报道转述 Vals 评测博客（原文链接未能直接访问，单源口径待补验）（2026-11-18 检索）。",
    "dim": 1,
    "year": 2026,
    "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
@@ -163773,16 +163773,16 @@
    "id": "event:2026-11:Anthropic-IPO簿记启动",
    "name": "Anthropic IPO 簿记启动：市场推演最高约 2 万亿美元估值目标（2026-11 中旬）",
    "type": "event",
-   "desc": "2026-11 中旬 Anthropic IPO 进入簿记阶段（Bloomberg：最早 11-10 开始正式路演，规模对标或超 SpaceX 上市纪录；FT：2021 年 SBF 5000 万美元投资按本轮定价约值 370 亿美元）；估值预期：投资人自主模型推演最高约 2 万亿美元（约为 2028 预测营收 10 倍，Anthropic 官方未设目标口径），较 7 月 ARR 650 亿（图内事件）年化口径推演；与图内 BB 评级预期事件（信用口径）、OpenAI Brockman IPO 信号事件（2027 条件）共同构成 2026-11 AI 巨头资本化窗口；本事件以检索时点（2026-11-18）簿记/定价推进中为准，上市完成与否待后续核验。来源：Yahoo/Investing+Bloomberg/FT/graniteshares 多源（2026-11-18 检索）。",
+   "desc": "2026-11 中旬 Anthropic IPO 进入簿记阶段（Bloomberg：最早 11-10 开始正式路演，规模对标或超 SpaceX 上市纪录；FT：2021 年 SBF 5000 万美元投资按本轮定价约值 370 亿美元）；估值预期：投资人自主模型推演最高约 2 万亿美元（约为 2028 预测营收 10 倍，Anthropic 官方未设目标口径），较 7 月 ARR 650 亿（图内事件）年化口径推演；与图内 BB 评级预期事件（信用口径）、OpenAI Brockman IPO 信号事件（2027 条件）共同构成 2026-11 AI 巨头资本化窗口；本事件以检索时点（2026-11-18）簿记/定价推进中为准，上市完成与否待后续核验。来源：Yahoo/Investing+Bloomberg/FT/graniteshares 多源（2026-11-18 检索）。补充（2026-11-17）：NVIDIA Q3 财报电话会披露 Anthropic 年化营收已达 810 亿美元（Kress 口径），为簿记估值推演提供最新收入锚点。",
    "dim": 1,
    "year": 2026,
    "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-targets-november-debut-162209958.html"
   },
   {
    "id": "event:2026-11:Cursor供应链攻击溯源",
-   "name": "Cursor 披露供应链攻击溯源：Fireworks AI 泄露密钥致后门 Claude Code 扩展（2026-11-13）",
+   "name": "Cursor 披露供应链攻击溯源：Fireworks AI 泄露密钥致后门 Claude Code 扩展（2026-11-12 披露）",
    "type": "event",
-   "desc": "2026-11-13 披露（Cursor 官方溯源，Tom's Hardware/BleepingComputer/多家安全媒体跟进）：其 10 月入侵事件根因为 Fireworks AI 暴露的访问密钥——攻击者借此窃取历史编码 Agent 记录并收集更多凭据，10-29 用偷取的凭据向 Cursor 市场/Open VSX 投放木马化 Claude Code 扩展 2.1.313（注入攻击者 SSH 公钥+反向隧道后门），影响约 5000 名开发者；与图内 Fireworks AI 数据泄露事件（2026-11-02 发现，Notion 聊天记录）属同一泄露源头链条；第三方安全研究者初期归因 Open VSX 后修正——「Agent 工具链供应链（扩展市场）」成为继 MCP 服务器之后的新型攻击面。来源：Cursor 披露+多家安全媒体多源（2026-11-18 检索）。",
+   "desc": "约 2026-11-12 披露（Cursor 官方溯源，原记 11-13 经独立复核修正为报道口径约 11-9~12），Tom's Hardware/BleepingComputer/多家安全媒体跟进）：其 10 月入侵事件根因为 Fireworks AI 暴露的访问密钥——攻击者借此窃取历史编码 Agent 记录并收集更多凭据，10-29 用偷取的凭据向 Cursor 市场/Open VSX 投放木马化 Claude Code 扩展 2.1.313（注入攻击者 SSH 公钥+反向隧道后门），影响约 5000 名开发者；与图内 Fireworks AI 数据泄露事件（2026-11-02 发现，Notion 聊天记录）属同一泄露源头链条；第三方安全研究者初期归因 Open VSX 后修正——「Agent 工具链供应链（扩展市场）」成为继 MCP 服务器之后的新型攻击面。来源：Cursor 披露+多家安全媒体多源（2026-11-18 检索）。",
    "dim": 1,
    "year": 2026,
    "link": "https://blog.redsidesecurity.com/post/cursor-traces-october-breach-to-leaked-fireworks-ai-key-and-backdoored-claude-code-extension"
@@ -163795,6 +163795,15 @@
    "dim": 1,
    "year": 2026,
    "link": "https://openai.com/news"
+  },
+  {
+   "id": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "name": "NVIDIA Q3 FY2027 财报：营收 1158.4 亿美元超预期，数据中心 1076 亿（2026-11-17）",
+   "type": "event",
+   "desc": "2026-11-17 美东盘后发布（Kress 临时 CEO 任内首份财报、首次主持电话会）：营收 1158.4 亿美元（预期 1091 亿，同比翻倍自 570 亿）；数据中心 1076 亿（预期 1018.7 亿，同比翻倍）；调整后 EPS 2.68 美元（预期 2.48）；非 GAAP 毛利率 74.9%（环比下降，归因 Rubin 爬坡）；边缘计算（机器人/PC）82 亿（+42%）；单季回购 281 亿美元；四大直客各占营收 11-13%。Q4 指引约 1300 亿美元（预期 1251 亿，同比+90%），FY2028 增速指引从 70% 上调至 75%，指引继续不含中国数据中心计算。Kress 表态「业务一切如常」「Vera Rubin 起步迅猛（explosive start）」，并披露前沿实验室约占本年数据中心销售 15%、Anthropic 年化营收已达 810 亿美元。黄仁勋未现身电话会；董事长 Harvey Jones 明示董事会无意让其复任 CEO。盘后股价涨 3-4%（CoreWeave/Nebius/Iren 涨 8-10%），财报前 NVDA 处于 2025-07 以来低位、月内跌 24%。来源：CNBC 实况+Yahoo Finance 实况+公司指引文件（2026-11-18 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
   }
  ],
  "links": [
@@ -363594,6 +363603,54 @@
    "label": "",
    "year": null,
    "desc": "沙箱路线竞争：与 OpenAI sandbox 工具化路线争夺标准位"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "财报发布主体：NVIDIA（Q3 FY2027，季度截至 2026-10）"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "person_R1362-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Colette Kress 临时 CEO 任内首份财报并首次主持电话会"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "辞任后首份财报：电话会围绕临时 CEO 治理展开"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "event:2026-11:黄仁勋表态愿回归CEO",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "电话会回应：董事长 Jones 明示无意复任黄仁勋"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "hardware:VeraRubin",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Kress：Vera Rubin 起步迅猛、路线图正常（毛利率环比降归因其爬坡）"
+  },
+  {
+   "source": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "电话会披露：Anthropic 年化营收已达 810 亿美元、前沿实验室约占 DC 销售 15%"
   }
  ]
 }
