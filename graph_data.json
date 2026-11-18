@@ -55180,7 +55180,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L48",
-   "desc": "生成式生物学（Generative Biology）代表公司；Chroma 生成式蛋白设计平台，用扩散模型从头设计蛋白/酶，与Amgen等合作推进生物药",
+   "desc": "生成式生物学（Generative Biology）代表公司；Chroma 生成式蛋白设计平台，用扩散模型从头设计蛋白/酶，与Amgen等合作推进生物药Flagship Pioneering 孵化（美国 Somerville MA），生成生物学平台已累计生成/构建/测试 4.2 万个蛋白质，核心管线 GB-0895 进入 III 期临床（SOLAIRIA 研究）。来源：公司官网（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "",
@@ -58844,7 +58844,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "Claude 系列对话模型（Claude 1 2023→Claude 3 系列 2024-03→Claude 3.5 Sonnet 2024-06→Claude 4 系 2025→Claude Opus 5.5 2026-09-22 最新旗舰）；Claude.ai 助手；Claude Code 命令行编程 Agent（2025-05 全面开放）；Claude for Enterprise；Constitutional AI 与 RSP 负责扩展政策；MCP 协议生态（2024-11 开源）；IPO 推进中（2026，评级机构或予 BB 级）",
+   "desc": "Claude 系列对话模型（Claude 1 2023→Claude 3 系列 2024-03→Claude 3.5 Sonnet 2024-06→Claude 4 系 2025→Claude Opus 5.5 2026-09-22 最新旗舰）；Claude.ai 助手；Claude Code 命令行编程 Agent（2025-05 全面开放）；Claude for Enterprise；Constitutional AI 与 RSP 负责扩展政策；MCP 协议生态（2024-11 开源）；IPO 推进中（2026，评级机构或予 BB 级）2026-11 修订版 S-1 披露 IPO 后股权：Amazon 持约 14.7%、Google 持约 13.7%，两云合计 28.4%。来源：TechCrunch+Yahoo Finance 多源（2026-11-19 检索）。",
    "stage": "2021 Dario 与 Daniela Amodei 等前 OpenAI 研究员出走创立（旧金山）→2023 Claude 发布并获 Amazon 数十亿美元投资→2024-03 Claude 3 系与 GPT-4 同台竞争；Amazon 追加投资累计 80 亿美元→2025-05 Claude Code 开源式开放，迅速成为编码 Agent 标杆→2026-02-12 G 轮 300 亿美元、投后估值 3800 亿→2026-05-28 H 轮 650 亿美元、投后 9650 亿；ARR 从 2025 年底约 90 亿美元→2026-05 约 470 亿→2026-08 突破 650 亿→2026-06 秘密递交 S-1，传 2026-10 纳斯达克 IPO、目标估值约 2 万亿美元。",
    "player": "",
    "url": "https://www.anthropic.com/news/series-h",
@@ -58940,7 +58940,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "GPU：H100/H200（Hopper）、B200/GB200/GB300（Blackwell/Blackwell Ultra）、Vera Rubin（2026-01 CES 发布、2026-09 已送样）；软件栈 CUDA（2006 至今核心护城河）、cuDNN、TensorRT-LLM、NeMo、Dynamo；DGX 超算、HGX 模组、NVLink/NVSwitch；BlueField D；2026-08 为 SpaceXAI 天基算力提供 Vera CPU，10 月 RTX Spark PC 上市",
+   "desc": "GPU：H100/H200（Hopper）、B200/GB200/GB300（Blackwell/Blackwell Ultra）、Vera Rubin（2026-01 CES 发布、2026-09 已送样）；软件栈 CUDA（2006 至今核心护城河）、cuDNN、TensorRT-LLM、NeMo、Dynamo；DGX 超算、HGX 模组、NVLink/NVSwitch；BlueField D；2026-08 为 SpaceXAI 天基算力提供 Vera CPU，10 月 RTX Spark PC 上市2026-11 剧变期：黄仁勋辞任后 Kress 代掌，Q3 FY2027 营收 1158.4 亿美元（同比 +103%，数据中心 1076 亿）、SEC 就信息披露启动民事调查（WSJ 11-17 报道）、宣布停止向中国销售 H200，初创股权持仓 655 亿美元、对外担保承诺 1180 亿美元。来源：TechCrunch+财报披露 多源（2026-11-19 检索）。",
    "stage": "1993 Jensen Huang/Curtis Priem/Chris Malachowsky 创立（圣克拉拉）→2006 CUDA 发布→2012 AlexNet 用 GTX 580 训练，GPU 进入深度学习→2020 A100 与 DGX 成为大模型训练标配→2022 H100 Hopper→2024 Blackwell B200/GB200 发布→2025 GB300 NVL72 Q2 量产、史上最快产品爬坡→2026-01 CES 发布 Rubin 平台（Vera CPU+Rubin GPU+NVLink6+ConnectX-9+BlueField-4+Spectrum-6 六芯片），2026-09 Vera Rubin 样品出货→2026-05（Q1 FY2027）数据中心单季收入 750 亿美元、同比 +92%；官方披露 2025-2027 年 Blackwell+Rubin 累计收入可见度超 1 万亿美元。",
    "player": "",
    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf",
@@ -63438,7 +63438,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "轮式人形 EVE（商用安防/巡检）、双足家用机器人 NEO（2024 发布，面向家庭助理，售价约 2 万美元，2026 年开始交付美国用户）；NEO Gamma 开发版。",
+   "desc": "轮式人形 EVE（商用安防/巡检）、双足家用机器人 NEO（2024 发布，面向家庭助理，售价约 2 万美元，2026 年开始交付美国用户）；NEO Gamma 开发版。2024 年初获 OpenAI 领投 2350 万美元 A2 轮（Tiger Global 等跟投），资金用于 EVE 挪威量产与 NEO 研发。来源：1X 官方+Yahoo Finance 多源（2026-11-19 检索）。",
    "stage": "2014 年在挪威莫斯创立（原名 Halodi Robotics，创始人 Bernt Børnich）→ 2023-03 OpenAI Startup Fund 领投 2350 万美元 A2 轮（OpenAI 首笔机器人投资）→ 2024-01 EQT Ventures 领投 1 亿美元 B 轮（三星 NEXT 跟投），投后约 8.2 亿美元 → 2025-10 NEO 开启 2 万美元消费者预购 → 2026-08 据 The Information 报道软银洽谈以约 60 亿美元估值收购多数股权（截至 2026-10 未官宣交割）。独立运营中，累计确认融资约 1.36 亿美元。",
    "player": "",
    "url": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
@@ -65680,7 +65680,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "电商 AI 图片编辑 App；一键去背景、产品图生成；Instant Diffusion 自研图像模型；图像编辑 API（客户含 Netflix/Shopify/Audi）。",
+   "desc": "电商 AI 图片编辑 App；一键去背景、产品图生成；Instant Diffusion 自研图像模型；图像编辑 API（客户含 Netflix/Shopify/Audi）。2024-02 完成 4300 万美元 B 轮 @ 5 亿估值，Balderton 领投、Aglaé 新进、Y Combinator 续投。来源：TechCrunch+Yahoo Finance 多源（2026-11-19 检索）。",
    "stage": "2019 巴黎创立；YC S20；2024-02 $43M B 轮（Balderton 领投，Aglae/Y Combinator 参投），估值 5 亿美元；累计下载 1.5 亿+，年处理约 50 亿张图；Sacra 估计 2024 ARR 约 9400 万美元（+89% YoY，估计）；Yann LeCun 为天使。",
    "player": "",
    "url": "https://aiwiki.ai/wiki/photoroom",
@@ -66288,7 +66288,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "REBEL/REBEL-Quad 推理 NPU 芯片；chiplet UCIe-Advanced；RebelRack 整机柜推理系统；主打推理性价比对标 NVIDIA H200。",
+   "desc": "REBEL/REBEL-Quad 推理 NPU 芯片；chiplet UCIe-Advanced；RebelRack 整机柜推理系统；主打推理性价比对标 NVIDIA H200。2024-06-12 与 SKT 系 Sapeon 宣布合并、2024-08-18 签最终协议、2024-12-02 完成交割，合并后沿用 Rebellions 名称，成为韩国首家 AI 芯片独角兽。来源：Rebellions 官方新闻室（2026-11-19 检索）。",
    "stage": "2020 首尔创立（朴成贤）；2025-09-30 $250M C 轮（Arm/Samsung 参投）；2026-03-30 $400M Pre-IPO（未来资产金融/韩国国家成长基金领投），估值约 23.4 亿美元，累计融资 8.5 亿美元；收购 SqueezeBits 补模型压缩；计划 2026 下半年 KOSPI 上市（JPMorgan 任全球主承销）。",
    "player": "",
    "url": "https://rebellions.ai/newsroom/rebellions-closes-400-million-pre-ipo-and-launches-rebelrack-and-rebelpod-to-accelerate-global-expansion/",
@@ -66528,7 +66528,7 @@
    "dim": 4,
    "dim_name": "产业公司",
    "level": "L14",
-   "desc": "X220/X330 推理 AI 芯片；SK Telecom 旗下 fabless；面向数据中心推理与电信 AI；Sapeon（2017 创立，韩国 SKT 子公司，图内韩国 AI 概念的芯片面）：X220（2022，对标 T4 推理）/X330（2024，对标中端训练卡）；2024 与 Rebellions（图内概念）合并——「韩国 AI 芯片整合」（图内 Rebellions 公司概念），对标 NVIDIA 在韩国电信/数据中心市场的国产替代（图内 HBM 概念的国别竞争面）——「韩国版算力主权」路线",
+   "desc": "X220/X330 推理 AI 芯片；SK Telecom 旗下 fabless；面向数据中心推理与电信 AI；Sapeon（2017 创立，韩国 SKT 子公司，图内韩国 AI 概念的芯片面）：X220（2022，对标 T4 推理）/X330（2024，对标中端训练卡）；2024 与 Rebellions（图内概念）合并——「韩国 AI 芯片整合」（图内 Rebellions 公司概念），对标 NVIDIA 在韩国电信/数据中心市场的国产替代（图内 HBM 概念的国别竞争面）——「韩国版算力主权」路线2024-12-02 与 Rebellions 完成合并，合并后主体沿用 Rebellions 名称。来源：Rebellions 官方新闻室（2026-11-19 检索）。",
    "stage": "2017 由 SK Telecom 内部 AI 芯片团队成立；2023 从 SK 集团分拆独立；与 SK Telecom/SK Broadband 深度绑定；fabless 模式。",
    "player": "",
    "url": "https://www.sapeon.ai/",
@@ -69216,7 +69216,7 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "NVIDIA 创始人兼 CEO（1993 年与 Chris Malachowsky/Curtis Priem 共同创立）：CUDA 生态战略与 Hopper/Blackwell 时代掌舵人，AI 算力需求最具影响力的代言人；1963 年生于台南。",
+   "desc": "NVIDIA 创始人兼 CEO（1993 年与 Chris Malachowsky/Curtis Priem 共同创立）：CUDA 生态战略与 Hopper/Blackwell 时代掌舵人，AI 算力需求最具影响力的代言人；1963 年生于台南。2026-11-12 辞任 NVIDIA 总裁/CEO/董事（CFO Colette Kress 出任临时 CEO、Harvey C. Jones 任董事会主席），11-17 董事会财报电话会宣布不回聘，其本人同日表态若董事会允许愿回归。来源：TechCrunch+PBS 多源（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "",
@@ -76948,7 +76948,7 @@
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
-   "link": null,
+   "link": "https://www.anthropic.com/news/claude-opus-5-5",
    "year": 2026,
    "density": null,
    "extension": 6
@@ -89536,7 +89536,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "2012 年 ILSVRC 冠军深度卷积网络，Krizhevsky/Sutskever/Hinton，top-5 错误率 15.3%，深度学习复兴起点",
+   "desc": "2012 年 ILSVRC 冠军深度卷积网络，Krizhevsky/Sutskever/Hinton，top-5 错误率 15.3%，深度学习复兴起点NIPS 2012 发表：LSVRC-2010 top-5 错误 18.9、top-1 39.7 大幅优于此前最好结果，6000 万参数、约 50 万神经元，5 卷积加 2 全连接加 1000 路 softmax，高效 GPU 卷积实现是训练前提。来源：NeurIPS 官方论文页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1206.5538",
@@ -89552,7 +89552,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Vaswani 等提出 Transformer 架构，完全基于自注意力，摒弃循环与卷积；WMT2014 英德 28.4 BLEU",
+   "desc": "Vaswani 等提出 Transformer 架构，完全基于自注意力，摒弃循环与卷积；WMT2014 英德 28.4 BLEU2017-06-12 提交、NeurIPS 2017 发表（Vaswani/Shazeer/Parmar 等 8 人）：WMT14 英法 41.8 BLEU 单模型当时 SOTA，8 卡 GPU 仅训 3.5 天，训练成本远低于竞品架构，并成功迁移英语成分句法分析。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1706.03762",
@@ -89568,7 +89568,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Devlin 等提出 MLM+NSP 双向预训练，GLUE 80.5%，开启预训练-微调范式",
+   "desc": "Devlin 等提出 MLM+NSP 双向预训练，GLUE 80.5%，开启预训练-微调范式2018-10-11 提交、NAACL 2019 发表（Devlin/Chang/Lee/Toutanova）：11 项 NLP 任务新 SOTA，GLUE 80.5（+7.7）、MultiNLI 86.7（+4.6）、SQuAD v1.1 F1 93.2（+1.5）、SQuAD v2.0 83.1（+5.1）。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1810.04805",
@@ -89664,7 +89664,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Jonathan Ho 等把扩散模型训练稳定化并在图像质量上匹敌 GAN，现代扩散模型奠基",
+   "desc": "Jonathan Ho 等把扩散模型训练稳定化并在图像质量上匹敌 GAN，现代扩散模型奠基2020-06-19 提交、NeurIPS 2020（Ho/Jain/Abbeel）：加权变分界等价于去噪分数匹配加 Langevin 动力学，CIFAR-10 无条件生成 FID 3.17、IS 9.46 达当时最优，LSUN 256 画质比肩 ProgressiveGAN，并支持渐进式有损解压以泛化自回归解码。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2006.11239",
@@ -89696,7 +89696,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Ramesh 等 OpenAI 首个 120 亿参数自回归图文 Transformer，文本到图像零样本生成",
+   "desc": "Ramesh 等 OpenAI 首个 120 亿参数自回归图文 Transformer，文本到图像零样本生成2021-02-24 提交（Ramesh/Pavlov/Goh 等 8 人）：transformer 将文本与图像 token 自回归单流建模，约 2.5 亿图文对训练，零样本即与领域专用模型竞争力相当，dVAE 加 decoder-only 结构开文生图序列范式先河。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2102.12092",
@@ -89776,7 +89776,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Jumper 等 DeepMind Evoformer 等变图注意力，CASP14 GDT 92.4，蛋白质结构预测革命",
+   "desc": "Jumper 等 DeepMind Evoformer 等变图注意力，CASP14 GDT 92.4，蛋白质结构预测革命论文于 Nature 2021-07-15 发表：CASP14 中位 RMSD_95 低于 1 埃、较次优系统准约 3 倍媲美实验方法，代码开源并配套 AlphaFold DB（与 EMBL-EBI 共建，含 2 亿+预测结构，190+国家逾 300 万研究者使用）。来源：DeepMind 官方科学页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://www.nature.com/articles/s41586-021-03819-2",
@@ -89824,7 +89824,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "Dosovitskiy 等 Google 直接把图像 patch 序列喂 Transformer，大数据下无需卷积归纳偏置",
+   "desc": "Dosovitskiy 等 Google 直接把图像 patch 序列喂 Transformer，大数据下无需卷积归纳偏置论文 2020-10-22 提交、ICLR 2021 发表（Dosovitskiy/Beyer/Kolesnikov 等 12 人），在 JFT-300M 大规模预训练后迁移 ImageNet/CIFAR-100/VTAB 逼近或超越同期 SOTA CNN 且训练算力需求更低，patch 分块范式成为多模态统一骨干的起点。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2010.11929",
@@ -89904,7 +89904,7 @@
    "dim": 2,
    "dim_name": "理论学术",
    "level": "L42",
-   "desc": "DeepSeek-AI 技术报告，GRPO 大规模 RL 激发长链推理，o1 级开源模型，2025-01 发布",
+   "desc": "DeepSeek-AI 技术报告，GRPO 大规模 RL 激发长链推理，o1 级开源模型，2025-01 发布论文 arXiv 2501.12948（2025-01-22 提交）：R1-Zero 以大规模强化学习直接训练（不经监督微调）即展现推理能力，R1 经多阶段训练后数学/代码/推理表现对标 OpenAI o1。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2501.12948",
@@ -90064,11 +90064,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "OpenAI 2022-11 随 ChatGPT 发布的对齐代模型（GPT-3 经 InstructGPT/RLHF 对齐），参数未披露，引爆生成式 AI 大众化。；2026-04-22 宣布 gpt-3.5-turbo-0125 将于 2026-10-23 关停，GPT-3.5 API 快照退役（官方弃用页）",
+   "desc": "OpenAI 2022-11 随 ChatGPT 发布的对齐代模型（GPT-3 经 InstructGPT/RLHF 对齐），参数未披露，引爆生成式 AI 大众化。；2026-04-22 宣布 gpt-3.5-turbo-0125 将于 2026-10-23 关停，GPT-3.5 API 快照退役（官方弃用页）2022-11-30 官宣。来源：OpenAI 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/chatgpt/",
    "year": 2022,
    "density": null,
    "extension": 24
@@ -90116,7 +90116,7 @@
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/hello-gpt-4o/",
    "year": 2024,
    "density": null,
    "extension": 27
@@ -90148,7 +90148,7 @@
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/learning-to-reason-with-llms/",
    "year": 2024,
    "density": null,
    "extension": 25
@@ -90164,7 +90164,7 @@
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/introducing-o3-and-o4-mini/",
    "year": 2025,
    "density": null,
    "extension": 26
@@ -90208,11 +90208,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "OpenAI 2025-08 发布，将 o 系推理并入 GPT 主系，统一思考/非思考双模式，由模型自适应决定推理深度。",
+   "desc": "OpenAI 2025-08 发布，将 o 系推理并入 GPT 主系，统一思考/非思考双模式，由模型自适应决定推理深度。OpenAI 官方页实测口径：AIME 2025 无工具 94.6%、SWE-bench Verified 74.9%、Aider Polyglot 88%、MMMU 84.2%、GPQA 88.4%（GPT-5 pro 新 SOTA）；较 o3 省 50~80% 输出 token、长文幻觉约少 6 倍，谄媚率由 14.5% 降至 6% 以下，双用途话题改 safe completions 训练并经 5000 小时红队（CAISI/UK AISI）。来源：OpenAI 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/introducing-gpt-5/",
    "year": 2017,
    "density": null,
    "extension": 22
@@ -90256,11 +90256,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "OpenAI 2024-02 预览的文生视频模型，架构为扩散 Transformer（DiT），将视频视为时空补丁序列。；OpenAI 文本到视频生成产品（2024-02 预览 / 2025-09 Sora 2 上线）",
+   "desc": "OpenAI 2024-02 预览的文生视频模型，架构为扩散 Transformer（DiT），将视频视为时空补丁序列。；OpenAI 文本到视频生成产品（2024-02 预览 / 2025-09 Sora 2 上线）2026-04-26 起 Sora 产品已不再可用（OpenAI 官方页公告）。来源：OpenAI 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
-   "link": null,
+   "link": "https://openai.com/index/sora/",
    "year": 2024,
    "density": null,
    "extension": 15
@@ -90400,11 +90400,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Claude 3.5 Sonnet（2024-06-21 发布）：Anthropic 中档旗舰——在 MMLU/GPQA/HumanEval/SWE-bench 等多数基准上超越 GPT-4o 与 Claude 3 Opus，且速度 2 倍/成本 1/5；Artifacts 功能同步发布（可编辑实时代码/文档预览）；200K context；后续 3.5 Sonnet New（2024-10，computer use 能力）与 4/4.5/4.7/4.8 持续迭代。来源：Anthropic 官方（2026-11-01）。",
+   "desc": "Claude 3.5 Sonnet（2024-06-21 发布）：Anthropic 中档旗舰——在 MMLU/GPQA/HumanEval/SWE-bench 等多数基准上超越 GPT-4o 与 Claude 3 Opus，且速度 2 倍/成本 1/5；Artifacts 功能同步发布（可编辑实时代码/文档预览）；200K context；后续 3.5 Sonnet New（2024-10，computer use 能力）与 4/4.5/4.7/4.8 持续迭代。来源：Anthropic 官方（2026-11-01）。2024-06-21 发布（Anthropic Models 线官宣）。来源：Anthropic 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
-   "link": null,
+   "link": "https://www.anthropic.com/news/claude-3-5-sonnet",
    "year": 2024,
    "density": null,
    "extension": 21
@@ -90448,11 +90448,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Claude Sonnet 4.5（2025-09-29 发布）：Anthropic 中档旗舰编程模型——SWE-bench Verified 77.2%（标准）/82.0%（扩展算力）创当时 SOTA（前代 Sonnet 4 为 72.7%）；OSWorld 计算机使用 61.4%；支持多小时自主编码/调试/功能实现；同步发布 Agent SDK（构建 Agent 系统）；定价 $3/$15 per M tokens。来源：Anthropic 官方发布（2026-11-01 检索）。",
+   "desc": "Claude Sonnet 4.5（2025-09-29 发布）：Anthropic 中档旗舰编程模型——SWE-bench Verified 77.2%（标准）/82.0%（扩展算力）创当时 SOTA（前代 Sonnet 4 为 72.7%）；OSWorld 计算机使用 61.4%；支持多小时自主编码/调试/功能实现；同步发布 Agent SDK（构建 Agent 系统）；定价 $3/$15 per M tokens。来源：Anthropic 官方发布（2026-11-01 检索）。2025-09-29 发布（Anthropic Models 线官宣）。来源：Anthropic 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
-   "link": null,
+   "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
    "year": 2025,
    "density": null,
    "extension": 16
@@ -90464,11 +90464,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Claude Opus 5.5：Anthropic Opus 系列迭代版——SWE-bench Verified 持续领先（编程/Agent 任务），多模态+计算机使用能力强化；Opus 系为 Anthropic 旗舰档（最贵最强）。来源：Anthropic 官方（2026-11-01）。",
+   "desc": "Claude Opus 5.5：Anthropic Opus 系列迭代版——SWE-bench Verified 持续领先（编程/Agent 任务），多模态+计算机使用能力强化；Opus 系为 Anthropic 旗舰档（最贵最强）。来源：Anthropic 官方（2026-11-01）。2026-09-22 发布，为 Claude 5.5 家族首发模型，典型负载较 Opus 5 便宜 40%，AWS/Google Cloud/Azure 三云可用。来源：Anthropic 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
-   "link": null,
+   "link": "https://www.anthropic.com/news/claude-opus-5-5",
    "year": 2026,
    "density": null,
    "extension": 14
@@ -90576,11 +90576,11 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Google 2025-05 发布的 2.5 推理版，引入 Deep Think 推理模式。2025-03-25 以 Experimental 发布，为首个内置思考（thinking）的 Gemini，上线即登 LMArena 榜首；2025-08 追加 Deep Think 深思模式，后续由 Gemini 3 系列接棒（2025-12 Flash）。来源：Google 官方发布/评测媒体（2025-03~12）。",
+   "desc": "Google 2025-05 发布的 2.5 推理版，引入 Deep Think 推理模式。2025-03-25 以 Experimental 发布，为首个内置思考（thinking）的 Gemini，上线即登 LMArena 榜首；2025-08 追加 Deep Think 深思模式，后续由 Gemini 3 系列接棒（2025-12 Flash）。来源：Google 官方发布/评测媒体（2025-03~12）。2025-03-25 官宣（Google DeepMind CTO Koray Kavukcuoglu 署名）：思考模型首发即登 LMArena 榜首，SWE-Bench Verified 63.8%，1M token 上下文。来源：Google 官方博客（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
-   "link": null,
+   "link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
    "year": 2025,
    "density": null,
    "extension": 20
@@ -90624,7 +90624,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Google 的文生视频模型线（Veo 1/2/3），时空扩散架构。",
+   "desc": "Google 的文生视频模型线（Veo 1/2/3），时空扩散架构。Google DeepMind 视频生成模型族：Veo 3 起原生音频（对白/音效/环境声）与视频联合生成，现行为 Veo 3.1（基准更新至 2025-10），支持 4K、参考图一致性、首尾帧转场、角色与运动控制及 SynthID 水印，经 Gemini/Flow/Vids/AI Studio 与 API 提供。来源：DeepMind 官方页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
@@ -90752,7 +90752,7 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Meta 2023-04 发布的可提示图像分割基础模型（Segment Anything Model）。",
+   "desc": "Meta 2023-04 发布的可提示图像分割基础模型（Segment Anything Model）。论文 arXiv 2304.02643（2023-04-05 提交，Kirillov/Mintun/Ravi 等 12 人）：以提示分割范式训练，零样本迁移至新分布与任务常比肩或超越全监督结果；配套 SA-1B 含 1100 万张授权图像与逾 10 亿掩码，为迄今最大分割数据集，模型与数据均已开源。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_开源.md",
@@ -91952,7 +91952,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "从网络抓取的数十万千部英文书籍语料，早期 GPT/BERT 的长文本与叙事能力来源",
+   "desc": "从网络抓取的数十万千部英文书籍语料，早期 GPT/BERT 的长文本与叙事能力来源辨析：Books3 为 The Pile（arXiv 2101.00027，825 GiB、22 子集，2020-12-31 提交）收录的 Bibliotik 影子图书馆子集，与 BERT 预训练所用 BookCorpus 并非同一语料；后成为生成式 AI 版权诉讼与训练数据合规争论的标志性对象。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://huggingface.co/datasets/bookcorpus",
@@ -92000,7 +92000,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "WMT 会议历年发布的多语言平行句对（英德/英法/中英等），机器翻译预训练与评测标准",
+   "desc": "WMT 会议历年发布的多语言平行句对（英德/英法/中英等），机器翻译预训练与评测标准以 WMT14 为例（ACL 2014 第九届，巴尔的摩）：法/德/捷/俄/印地-英双向赛道，训练并行语料为 Europarl v7、News Commentary v9 与 Common Crawl（数千万词级），在未见新闻测试集上自动评分与人工排序双重评测。来源：statmt.org 官方任务页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://www.statmt.org/",
@@ -92048,7 +92048,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "中文书籍与科学引文合并语料，中文大模型长文本与知识注入的常用来源",
+   "desc": "中文书籍与科学引文合并语料，中文大模型长文本与知识注入的常用来源CLUECorpus2020 口径：由 Common Crawl 中文部分清洗得 100GB 高质量中文预训练语料，技术报告 arXiv 2003.01355。来源：GitHub 官方仓库 README（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://github.com/CLUEbenchmark/CLUECorpus2020",
@@ -92176,7 +92176,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "2015 年发布的基于 COCO 图像的自由形式问答数据集，多模态理解里程碑",
+   "desc": "2015 年发布的基于 COCO 图像的自由形式问答数据集，多模态理解里程碑论文 arXiv 1505.00468（2015-05-03 提交，Antol 等）：提出自由开放式视觉问答任务（图像+自然语言问题作自然语言答案），兼顾视障辅助等真实场景，评测含开放与多选两种口径。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1505.00468",
@@ -92240,7 +92240,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "2017 年发布的 9.5 万条带证据文档的远程问答数据集，机器阅读理解与开放域问答常用",
+   "desc": "2017 年发布的 9.5 万条带证据文档的远程问答数据集，机器阅读理解与开放域问答常用论文 arXiv 1705.03551（ACL 2017，Joshi 等 UW）：9.5 万条问答对、约 65 万问答-证据三元组（每题平均约 6 份证据文档），发布时神经模型 40% 远低于人类 80%。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1705.03551",
@@ -92288,7 +92288,7 @@
    "dim": 2,
    "dim_name": "技术架构",
    "level": "L42",
-   "desc": "OpenAI 2021 年发布的人类工程师辅助网页浏览+引用回答的偏好数据",
+   "desc": "OpenAI 2021 年发布的人类工程师辅助网页浏览+引用回答的偏好数据论文 arXiv 2112.09332（2021-12-17 提交）：先以模仿学习训练模型在文本网络浏览环境中作答，再以人类反馈优化长问题答案质量。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2112.09332",
@@ -92432,7 +92432,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "Hendrycks 等 2020 年提出，57 学科 15908 道四选一专家级多选题，5-shot 测跨领域知识广度；2020横跨57学科的多任务英文理解基准",
+   "desc": "Hendrycks 等 2020 年提出，57 学科 15908 道四选一专家级多选题，5-shot 测跨领域知识广度；2020横跨57学科的多任务英文理解基准论文 arXiv 2009.03300（2020-09-07 提交）。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2009.03300",
@@ -92480,7 +92480,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "MAA 主办年度真实数学竞赛题，每年换新，推理模型 live eval 的高考式秀场",
+   "desc": "MAA 主办年度真实数学竞赛题，每年换新，推理模型 live eval 的高考式秀场o1 评测口径：o1-preview 解出 83%（12.5/15）而 GPT-4o 仅 13%（1.8/15），AIME 自 o1 起成为数学推理标配关卡。来源：OpenAI o1 博客与维基百科 o1 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://artofproblemsolving.com/wiki/AIME",
@@ -92512,7 +92512,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "Google 联合数百研究者 2022 年发布 204 个任务、132 家机构共建，探索模型边界",
+   "desc": "Google 联合数百研究者 2022 年发布 204 个任务、132 家机构共建，探索模型边界论文 preprint arXiv 2206.04615；官方另设 BIG-bench Lite 子集供排行使用。来源：GitHub 官方仓库 README（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2206.04615",
@@ -92576,7 +92576,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "Zellers 等 2019 年用对抗式人工构造的 1 万故事续写，专为击败 BERT",
+   "desc": "Zellers 等 2019 年用对抗式人工构造的 1 万故事续写，专为击败 BERT论文 arXiv 1905.07830（ACL 2019，Zellers/Holtzman/Bisk 等）：错误选项由判别器对抗迭代挑选，发布时 SOTA 模型低于 48% 而人类超 95%，其难度构造区间成为对抗基准设计范本。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1905.07830",
@@ -92624,7 +92624,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "François Chollet 2019 年提出的像素网格抽象归纳推理题，测通用智能",
+   "desc": "François Chollet 2019 年提出的像素网格抽象归纳推理题，测通用智能出处论文 arXiv 1911.01547 On the Measure of Intelligence（Chollet，2019-11-05）：主张以技能获取效率而非固定任务技能衡量智能，ARC 由匹配人类核心先验的显式先验构造，用于公平比较 AI 与人类的流体智能。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/1911.01547",
@@ -92672,7 +92672,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "Stanford CRFM 发布的开放式指令跟随自动评测榜（805 条指令 + LLM 裁判）",
+   "desc": "Stanford CRFM 发布的开放式指令跟随自动评测榜（805 条指令 + LLM 裁判）自动化指令遵循评测器（LLM-as-judge 口径），2.0 版引入长度控制胜率以对治长答案偏置。来源：GitHub 官方仓库（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://tatsu-lab.github.io/alpaca_eval/",
@@ -92832,7 +92832,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "2024 年发布的长文本理解多任务基准（21 任务 5 大类），戳破厂商窗口注水",
+   "desc": "2024 年发布的长文本理解多任务基准（21 任务 5 大类），戳破厂商窗口注水原始版论文 arXiv 2308.14508（2023-08-28 提交）：双语多任务长文本理解基准，直指多数 LLM 仅能处理数千 token 的痛点。来源：arXiv abs 页（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2308.14508",
@@ -92944,7 +92944,7 @@
    "dim": 8,
    "dim_name": "评估基准",
    "level": "L42",
-   "desc": "OpenAI 从 MATH 数据集精选去重的 500 道竞赛数学题（5 档难度），作为推理模型标准化数学 litmus，o1/o3 时代近乎被刷满",
+   "desc": "OpenAI 从 MATH 数据集精选去重的 500 道竞赛数学题（5 档难度），作为推理模型标准化数学 litmus，o1/o3 时代近乎被刷满该 500 题子集出自 OpenAI 过程监督论文 Let's Verify Step by Step（arXiv 2305.20050，2023-05）；o1 发布时在其上 pass@1 达 94.8%（GPT-4o 60.3%、o1-preview 85.5%），OpenAI 并指 MATH/GSM8K 已难区分前沿模型而转向 AIME。来源：OpenAI 官方博客（2026-11-19 检索）。",
    "stage": "",
    "player": "",
    "url": null,
@@ -163804,6 +163804,186 @@
    "dim": 1,
    "year": 2026,
    "link": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+  },
+  {
+   "id": "event:2026-11:SEC调查NVIDIA披露",
+   "name": "SEC 民事调查 NVIDIA 披露（2026-11-17 报道）",
+   "type": "event",
+   "desc": "据华尔街日报 2026-11-17 报道，美国证券交易委员会（SEC）对 NVIDIA 启动民事调查，焦点为其信息披露是否误导投资者；调查发生在黄仁勋辞任风波发酵、股价自辞任以来累计跌逾 10% 的背景下。来源：TechCrunch+WSJ+Bloomberg 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+  },
+  {
+   "id": "institution:SEC",
+   "name": "美国证券交易委员会（SEC）",
+   "type": "institution",
+   "desc": "美国联邦证券监管机构，1934 年依《证券交易法》设立，负责上市公司信息披露监管与执法，2026-11-17 据华尔街日报报道对 NVIDIA 披露启动民事调查。来源：SEC 官网+TechCrunch 多源（2026-11-19 检索）。",
+   "dim": 9,
+   "year": 1934,
+   "link": null
+  },
+  {
+   "id": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "name": "NVIDIA 董事会明确不回聘黄仁勋（2026-11-17）",
+   "type": "event",
+   "desc": "NVIDIA 董事会主席 Harvey C. Jones 在 2026-11-17 Q3 FY2027 财报电话会上宣布，董事会全体一致接受黄仁勋辞任（其辞任缘于违反公司行为准则的个人行为）且无意恢复其 CEO 职务，临时 CEO Colette Kress 继续执掌并物色正式继任者；此前黄仁勋曾在 X 表态若董事会允许愿回归。来源：TechCrunch+PBS 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/"
+  },
+  {
+   "id": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "name": "NVIDIA 宣布停止向中国销售 H200（2026-11-17）",
+   "type": "event",
+   "desc": "NVIDIA 临时 CEO Colette Kress 于 2026-11-17 宣布不再向中国销售 H200，终结此前由美方 25% 关税安排承接的输华通道；Jefferies 估测新出口规则或使 2027 年数据中心营收减少 440~620 亿美元，批评者估算 NVIDIA 约 20% 营收与中国市场相关。来源：TechCrunch+Superpower Daily 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+  },
+  {
+   "id": "person_R1520-1",
+   "name": "Harvey C. Jones",
+   "type": "person",
+   "desc": "NVIDIA 董事会主席（黄仁勋辞任后出任首任董事长），2026-11-17 在 Q3 FY2027 财报电话会上代表董事会宣布全体一致接受黄仁勋辞任且不计划恢复其 CEO 职务。来源：TechCrunch+PBS 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 7,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "name": "Anthropic IPO 股权结构披露：Amazon+Google 合计 28.4%（2026-11-17）",
+   "type": "event",
+   "desc": "修订版 S-1 披露 IPO 及同步私募后 Amazon 将持 Anthropic 约 14.7%、Google 约 13.7%（两云合计 28.4%），均为本票转化的无投票权股份、出售时可转为 A 类有投票权股，Amazon 若行使剩余可转换本票持股可达 23.8%；另有 Google 与 NVIDIA 各 100 亿美元领衔、总额 260 亿美元的无投票权股份认购团（成员含微软/Broadcom/Micron/TSMC Partners），Anthropic 并承诺十年向 AWS 支出逾 1000 亿美元。来源：TechCrunch+Yahoo Finance 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+  },
+  {
+   "id": "event:2026-11:ModelML-B轮2.5亿15亿估值",
+   "name": "Model ML 完成 2.5 亿美元 B 轮、估值 15 亿（2026-11-17）",
+   "type": "event",
+   "desc": "伦敦金融工作流 AI 公司 Model ML 完成 2.5 亿美元 B 轮融资、估值 15 亿美元，General Atlantic 与既有股东 QED Investors 联合领投，累计融资达 3.5 亿美元；公司自 2025 年出隐身约 18 个月，其智能体自动完成财务建模/路演材料/尽调报告等投行初级工作并随交易细节变化自动更新，以开源模型运行、成本约为前沿模型的 2%，竞品包括 Hebbia。来源：TechCrunch+General Atlantic 官方 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+  },
+  {
+   "id": "company_R1521-1",
+   "name": "Model ML",
+   "type": "company",
+   "desc": "伦敦金融工作流 AI 初创（2023 年创立，创始人 Chaz 与 Arnie Englander 兄弟，曾创立 Fat Llama），2025 年出隐身，智能体自动完成投行/咨询初级工作（财务建模/路演材料/尽调报告）并随交易细节变化自动更新，以开源模型运行、成本约为前沿模型 2%；累计融资 3.5 亿美元（2025-11 A 轮 7500 万、2026-11 B 轮 2.5 亿 @ 15 亿估值）。来源：TechCrunch+General Atlantic 官方 多源（2026-11-19 检索）。",
+   "dim": 4,
+   "year": 2023,
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+  },
+  {
+   "id": "investor:GeneralAtlantic",
+   "name": "General Atlantic",
+   "type": "investor",
+   "desc": "全球成长型股权投资机构，2026-11 与 QED Investors 联合领投金融工作流 AI 公司 Model ML 2.5 亿美元 B 轮（15 亿估值）。来源：General Atlantic 官方（2026-11-19 检索）。",
+   "dim": 7,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "investor:QEDInvestors",
+   "name": "QED Investors",
+   "type": "investor",
+   "desc": "全球金融科技专业投资机构，为 Model ML 既有股东并于 2026-11 联合领投其 2.5 亿美元 B 轮（15 亿估值）。来源：General Atlantic 官方（2026-11-19 检索）。",
+   "dim": 7,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "event:2026-11:NVIDIA初创持仓655亿",
+   "name": "NVIDIA 初创持仓达 655 亿美元、投资转向收紧（2026-11-17）",
+   "type": "event",
+   "desc": "NVIDIA Q3 FY2027 财报披露其非上市公司股权持仓达 655 亿美元（1 月约 220 亿，九个月增近三倍），本季度股权投资 160 亿美元、财年前九个月累计 580 亿美元（上年同期仅 50 亿），组合覆盖近 350 家初创（PitchBook 口径，含 Anthropic/OpenAI/neocloud 与 neolabs 等），并已作出 1180 亿美元担保承诺（其中 1050 亿美元支持 OpenAI 俄亥俄 5000 亿美元数据中心项目）；临时 CEO Kress 表示将严格评估未来投资/承诺/担保并把超额自由现金流返还股东，风投圈预期 NVIDIA 投资节奏显著放缓。来源：TechCrunch+Yahoo Finance 多源（2026-11-17 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+  },
+  {
+   "id": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "name": "NVIDIA 澄清 neocloud 融资与担保触发条件（2026-11-18）",
+   "type": "event",
+   "desc": "NVIDIA 临时 CEO Colette Kress 经财报电话会与 CFO 评论澄清对 neocloud 的融资与担保口径：继续资助数据中心但更挑剔，优先客户掌握土地/电力/厂房等关键资产的交易；其贷款担保并非直接融资，仅在客户独立完成股权或债务融资并实际建成装载 NVIDIA 设备的设施后才生效，建设停滞则担保自动失效；公司称此举为澄清既有条款而非政策转向。来源：TechCrunch+NVIDIA CFO 评论 多源（2026-11-18 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/"
+  },
+  {
+   "id": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "name": "Altman 于 DealBook 峰会评黄仁勋不可替代（2026-11-18）",
+   "type": "event",
+   "desc": "OpenAI CEO Sam Altman 在纽约时报 DealBook 峰会（2026-11-18）表示黄仁勋曾对 OpenAI 下出最早的重注之一、没有黄仁勋的 AI 产业难以想象，并拒绝对其能否回归 CEO 作臆测、祝双方安好；同场总裁 Greg Brockman 披露已在黄仁勋辞任后私下联系他。来源：TechCrunch+Reuters 多源（2026-11-18 报道 11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/"
+  },
+  {
+   "id": "investor:Balderton",
+   "name": "Balderton Capital",
+   "type": "investor",
+   "desc": "伦敦起家的欧洲早期风险投资机构，2024-02 领投 PhotoRoom 4300 万美元 B 轮（5 亿估值）。来源：TechCrunch+Yahoo Finance 多源（2026-11-19 检索）。",
+   "dim": 7,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "event:2026-11:Gemini临时聊天保留期延至两月",
+   "name": "Gemini 临时聊天保留期由 72 小时延至约两个月（2026-11-17）",
+   "type": "event",
+   "desc": "Google 宣布 Gemini 应用中临时聊天与关闭活动记录状态下的对话保留期由 72 小时延长至约两个月，未来数周全球生效；聊天历史与 AI 训练拆分为独立设置且对既有关闭者默认双关，临时对话不用于模型训练；Google 称为应对更强 AI 系统的安全与反馈处理需要，未解释触发原因，对照 OpenAI 与 Anthropic 均为 30 天。来源：TechCrunch（2026-11-17 报道 11-19 检索，单源待补验）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+  },
+  {
+   "id": "event:2026-11:Gemini-Tasks全民开放",
+   "name": "Gemini Tasks 向数亿用户免费开放（2026-11-17）",
+   "type": "event",
+   "desc": "Google 将 Gemini 应用中的 Tasks 开关从面向美国 AI Ultra 订阅者的 Task Mode 扩展为对新 Gemini 4 Hydrogen 模型的数亿用户免费开放，使聊天机器人转为主动个人助理：致电商家预约、经 Google Pay 购买、按提示安全登录网站；该功能 5 月以 Gemini Spark 名义测试，Gemini 产品副总裁以其预约保养与分析电费账单为例。来源：TechCrunch（2026-11-17 报道 11-19 检索，单源待补验）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+  },
+  {
+   "id": "event:2026-04:Sora产品下线",
+   "name": "OpenAI 下线 Sora 产品（2026-04-26）",
+   "type": "event",
+   "desc": "OpenAI 官方页公告：截至 2026-04-26 Sora 产品不再可用；该页保留了 2024-02 首发预览（Creating video from text）时期的介绍与红队/艺术家准入说明。来源：OpenAI 官方页（2026-11-19 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://openai.com/index/sora/"
+  },
+  {
+   "id": "event:2026-11:Altman警告AI渐进接管论",
+   "name": "Altman 于 DealBook 峰会抨击渐进交权 AI 论（2026-11-18）",
+   "type": "event",
+   "desc": "OpenAI CEO Sam Altman 在纽约时报 DealBook 峰会（2026-11-18，与总裁 Greg Brockman 同场）抨击硅谷渐进入 AI 交权的想法，称其为 terrible idea、人类必须掌握未来主动权；Brockman 披露模型在 forward path 直接行动导致思维链监控退化、需研发新型监控技术，并称 Hugging Face 安全事件后 OpenAI 已要求 25% 生产工程师转向安全工作。来源：TechCrunch（2026-11-18 报道 11-19 检索，单源待补验）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+  },
+  {
+   "id": "benchmark:GSM8K",
+   "name": "GSM8K",
+   "type": "benchmark",
+   "desc": "OpenAI Cobbe 等 2021 年发布的小学数学应用题数据集：8.5K 道语言多样、多步推理题目（论文 Training Verifiers to Solve Math Word Problems，arXiv 2110.14168，2021-10-27 提交），用于诊断语言模型多步数学推理的脆弱性并训练结果验证器，o1 时代与 MATH 并为数学推理标配评测。来源：arXiv abs 页（2026-11-19 检索）。",
+   "dim": 8,
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2110.14168"
+  },
+  {
+   "id": "benchmark:HumanEval",
+   "name": "HumanEval",
+   "type": "benchmark",
+   "desc": "OpenAI Codex 论文（Evaluating Large Language Models Trained on Code，arXiv 2107.03374，2021-07-07 提交）发布的手写 164 题 Python 函数评测集，以 pass@k 测功能正确性；Codex 为 GitHub Copilot 生产版底座，HumanEval 成为代码生成评测事实标准。来源：arXiv abs 页（2026-11-19 检索）。",
+   "dim": 8,
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2107.03374"
   }
  ],
  "links": [
@@ -363651,6 +363831,542 @@
    "label": "",
    "year": null,
    "desc": "电话会披露：Anthropic 年化营收已达 810 亿美元、前沿实验室约占 DC 销售 15%"
+  },
+  {
+   "source": "event:2026-11:SEC调查NVIDIA披露",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "SEC 民事调查 NVIDIA 的信息披露是否误导投资者。"
+  },
+  {
+   "source": "event:2026-11:SEC调查NVIDIA披露",
+   "target": "institution:SEC",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "SEC 为本次民事调查的发起监管机构。"
+  },
+  {
+   "source": "event:2026-11:SEC调查NVIDIA披露",
+   "target": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "调查在黄仁勋辞任风波持续发酵的背景下启动。"
+  },
+  {
+   "source": "event:2026-11:SEC调查NVIDIA披露",
+   "target": "person_16",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "调查时点紧随黄仁勋辞任，市场聚焦其任内披露口径。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 董事会在财报电话会上正式宣布不回聘黄仁勋。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "target": "person_R1520-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "董事会主席 Harvey C. Jones 代表董事会作出不回聘表态。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "target": "event:2026-11:黄仁勋表态愿回归CEO",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "董事会对黄仁勋此前愿回归表态的正式回应。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "target": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "承接黄仁勋辞任与 Kress 临时 CEO 的过渡安排。"
+  },
+  {
+   "source": "person_R1520-1",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Harvey C. Jones 出任 NVIDIA 董事会首任主席。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Kress 宣布 NVIDIA 停止向中国销售 H200。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "person_R1362-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "临时 CEO Colette Kress 为停售决定的宣布者。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "hardware:H200",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "停售决定所涉产品为 H200。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "event:2026-11:美商务部远程算力出口管制",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "停售与远程算力出口新规同日公布，互为政策背景。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "event:2026-11:NVIDIA设国安合规委员会",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "同日设立的董事会级合规委员会构成中国业务收缩组合动作的一部分。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA退出中国市场H200停售",
+   "target": "event:2024-04:NVIDIA-H20中国特供发布",
+   "type": "timeline",
+   "label": "",
+   "year": null,
+   "desc": "从 H20 特供到 H200 停售，NVIDIA 对华业务路径逆转。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "修订版 S-1 披露 Anthropic IPO 后股权结构。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-7",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Amazon IPO 后持约 14.7%，行使剩余本票可达 23.8%。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google IPO 后持约 13.7%，并领衔 100 亿美元认购。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 以 100 亿美元参与无投票权股份认购团。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "微软参与 260 亿美元无投票权股份认购团。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_38-15",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Broadcom 参与 260 亿美元无投票权股份认购团。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_38-14",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Micron 参与 260 亿美元无投票权股份认购团。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "company_14-12",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "TSMC Partners 参与 260 亿美元无投票权股份认购团。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "event:2026-11:Anthropic-IPO簿记启动",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "股权结构披露是 IPO 簿记推进的关键信息。"
+  },
+  {
+   "source": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "target": "event:2026-10:Anthropic-S1-IPO-filing-Nasdaq-ANT",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "修订版 S-1 为本次披露的直接载体。"
+  },
+  {
+   "source": "event:2026-11:ModelML-B轮2.5亿15亿估值",
+   "target": "company_R1521-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Model ML 完成 2.5 亿美元 B 轮融资。"
+  },
+  {
+   "source": "investor:GeneralAtlantic",
+   "target": "company_R1521-1",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "General Atlantic 联合领投 Model ML B 轮。"
+  },
+  {
+   "source": "investor:QEDInvestors",
+   "target": "company_R1521-1",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "QED Investors 作为既有股东联合领投 B 轮。"
+  },
+  {
+   "source": "company_R1521-1",
+   "target": "company_L19-12",
+   "type": "competition",
+   "label": "",
+   "year": null,
+   "desc": "Model ML 与 Hebbia 在金融文档智能领域直接竞争。"
+  },
+  {
+   "source": "event:2026-11:ModelML-B轮2.5亿15亿估值",
+   "target": "investor:GeneralAtlantic",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "General Atlantic 联合领投 Model ML 2.5 亿美元 B 轮。"
+  },
+  {
+   "source": "event:2026-11:ModelML-B轮2.5亿15亿估值",
+   "target": "investor:QEDInvestors",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "QED Investors 作为既有股东联合领投 B 轮。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA初创持仓655亿",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 财报披露 655 亿美元初创股权持仓与收紧取向。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA初创持仓655亿",
+   "target": "person_R1362-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "临时 CEO Kress 宣布严格评估未来投资承诺与担保。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA初创持仓655亿",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 为 NVIDIA 近 350 家初创持仓组合的组成成员。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA初创持仓655亿",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 获 NVIDIA 1050 亿美元担保支持其俄亥俄数据中心。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA初创持仓655亿",
+   "target": "event:2026-11:NVIDIA-Q3-FY2027财报",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "持仓与担保数据源自 Q3 FY2027 财报披露。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 澄清对 neocloud 的融资与担保触发条件。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "target": "person_R1362-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Kress 在财报电话会与 CFO 评论中作出澄清。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "target": "event:2026-11:Nebius-400亿算力扩张",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "澄清口径直接影响 Nebius 等 neocloud 的扩张融资路径。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "target": "event:2026-10:CoreWeave股债双杀",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "债市对 AI 债务模式重定价构成担保口径收紧的背景。"
+  },
+  {
+   "source": "event:2026-11:NVIDIA澄清neocloud融资与担保条件",
+   "target": "event:2026-11:NVIDIA初创持仓655亿",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "同一财报周期内投资纪律收紧的两项配套表态。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Altman 代表 OpenAI 在 DealBook 峰会作出表态。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "person_13",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Sam Altman 称没有黄仁勋的 AI 产业难以想象。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "person_new_66",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "总裁 Greg Brockman 披露辞任后已私下联系黄仁勋。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "person_16",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "表态对象为辞任后的黄仁勋。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "event:2026-11:NVIDIA不回聘黄仁勋",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": " Altman 表态发生在董事会宣布不回聘次日。"
+  },
+  {
+   "source": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "target": "event:2026-11:Nvidia-CEO过渡-Huang辞任",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "承接黄仁勋辞任后的产业界反应。"
+  },
+  {
+   "source": "company_32-42",
+   "target": "company_32-57",
+   "type": "mna",
+   "label": "",
+   "year": null,
+   "desc": "Rebellions 吸收合并 SKT 系 Sapeon，2024-12-02 完成交割。"
+  },
+  {
+   "source": "company_14-1",
+   "target": "company_L28-176",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 2024 年初领投 1X 2350 万美元 A2 轮。"
+  },
+  {
+   "source": "investor:Balderton",
+   "target": "company_32-4",
+   "type": "invested",
+   "label": "",
+   "year": null,
+   "desc": "Balderton 领投 PhotoRoom 4300 万美元 B 轮。"
+  },
+  {
+   "source": "event:2026-11:Gemini临时聊天保留期延至两月",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 宣布延长 Gemini 聊天数据保留期。"
+  },
+  {
+   "source": "event:2026-11:Gemini临时聊天保留期延至两月",
+   "target": "product:Gemini-App",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "保留期变更适用于 Gemini 应用全局。"
+  },
+  {
+   "source": "event:2026-11:Gemini临时聊天保留期延至两月",
+   "target": "event:2026-11:Gemini-Tasks全民开放",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "同日公布的 Gemini 产品与数据政策组合动作。"
+  },
+  {
+   "source": "event:2026-11:Gemini-Tasks全民开放",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 扩大 Gemini Tasks 用户覆盖。"
+  },
+  {
+   "source": "event:2026-11:Gemini-Tasks全民开放",
+   "target": "product:Gemini-App",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Tasks 开关内嵌于 Gemini 应用。"
+  },
+  {
+   "source": "event:2026-11:Gemini-Tasks全民开放",
+   "target": "event:2026-11:Google发布Gemini-4-Hydrogen",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Tasks 免费放量依托新旗舰 Gemini 4 Hydrogen。"
+  },
+  {
+   "source": "event:2026-04:Sora产品下线",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 于 2026-04-26 下线 Sora 产品。"
+  },
+  {
+   "source": "event:2026-04:Sora产品下线",
+   "target": "model:Sora",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "下线对象为 Sora 视频生成模型产品线。"
+  },
+  {
+   "source": "event:2026-11:Altman警告AI渐进接管论",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Altman 代表 OpenAI 就 AI 决策权问题公开表态。"
+  },
+  {
+   "source": "event:2026-11:Altman警告AI渐进接管论",
+   "target": "person_13",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Sam Altman 称渐进交权为 terrible idea。"
+  },
+  {
+   "source": "event:2026-11:Altman警告AI渐进接管论",
+   "target": "person_new_66",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Brockman 披露思维链监控退化与安全转岗安排。"
+  },
+  {
+   "source": "event:2026-11:Altman警告AI渐进接管论",
+   "target": "event:2026-11:Altman-DealBook-评黄仁勋不可替代",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "同一 DealBook 联袂出席中的另一主题发言。"
+  },
+  {
+   "source": "event:2026-11:Altman警告AI渐进接管论",
+   "target": "event:2026-07:OpenAI-Agent攻击HuggingFace",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "安全转岗的背景为 Hugging Face 安全事件。"
+  },
+  {
+   "source": "benchmark:GSM8K",
+   "target": "benchmark_R85-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "GSM8K 与 MATH-500 同为 OpenAI 系数学推理评测。"
+  },
+  {
+   "source": "company_14-1",
+   "target": "benchmark:GSM8K",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 发布 GSM8K 数据集。"
+  },
+  {
+   "source": "benchmark_R85-4",
+   "target": "benchmark:HumanEval",
+   "type": "derived_from",
+   "label": "",
+   "year": null,
+   "desc": "HumanEval+ 在 HumanEval 164 题基础上自动增补测试用例。"
+  },
+  {
+   "source": "company_14-1",
+   "target": "benchmark:HumanEval",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 随 Codex 论文发布 HumanEval。"
   }
  ]
 }
