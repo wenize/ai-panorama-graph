@@ -164772,6 +164772,258 @@
     "openalex": "W3015883388",
     "doi": "10.18653/v1/2020.emnlp-main.550"
    }
+  },
+  {
+   "id": "paper:GPT-2",
+   "name": "Language Models are Unsupervised Multitask Learners（GPT-2 论文）",
+   "type": "paper",
+   "desc": "OpenAI 于 2019 年 2 月发布的 GPT-2 论文，Alec Radford、Jeffrey Wu、Rewon Child、David Luan、Dario Amodei、Ilya Sutskever 署名。以约 40GB 高质量网页文本 WebText 训练 15 亿参数语言模型，证明足够大的语言模型可在无监督设定下学会执行问答、翻译、摘要等多种任务（zero-shot 设定），并提出因滥用顾虑分阶段放行权重的负责任发布策略，是生成式大模型时代的关键节点。来源：OpenAI（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+  },
+  {
+   "id": "paper:VGG",
+   "name": "Very Deep Convolutional Networks for Large-Scale Image Recognition（VGG）",
+   "type": "paper",
+   "desc": "牛津大学 VGG 组的 Karen Simonyan 与 Andrew Zisserman 于 2014 年 9 月发布（arXiv:1409.1556）。系统研究深度对卷积网络的作用：仅用 3×3 小卷积与池化交替堆叠至 16~19 层，结构极其规整，VGG16 与 VGG19 在 ILSVRC 2014 获定位冠军与分类亚军，此后多年成为视觉任务通用骨干与特征提取标准件。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2014,
+   "link": "https://arxiv.org/abs/1409.1556",
+   "xid": {
+    "arxiv": "1409.1556",
+    "doi": "10.48550/arxiv.1409.1556"
+   }
+  },
+  {
+   "id": "paper:R-CNN",
+   "name": "Rich feature hierarchies for accurate object detection and semantic segmentation（R-CNN）",
+   "type": "paper",
+   "desc": "Ross Girshick、Jeff Donahue、Trevor Darrell、Jitendra Malik（UC Berkeley）2013 年 11 月提交、CVPR 2014 发表（arXiv:1311.2524）。将 Selective Search 区域建议与 CNN 特征结合：对约 2000 个候选区域逐一提取卷积特征再用线性 SVM 分类，把 PASCAL VOC 2012 检测 mAP 从 33.2% 提升到 53.3%，开启 CNN 目标检测时代并直接催生 Fast 与 Faster R-CNN 演化。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2013,
+   "link": "https://arxiv.org/abs/1311.2524",
+   "xid": {
+    "arxiv": "1311.2524",
+    "doi": "10.48550/arxiv.1311.2524"
+   }
+  },
+  {
+   "id": "paper:YOLO",
+   "name": "You Only Look Once: Unified, Real-Time Object Detection（YOLO）",
+   "type": "paper",
+   "desc": "Joseph Redmon、Santosh Divvala、Ross Girshick、Ali Farhadi（华盛顿大学与艾伦人工智能研究所）2015 年 6 月提交、CVPR 2016 发表（arXiv:1506.02640）。把目标检测重构为单网络全图回归问题：一次前向同时输出全部边界框与类别概率，标准版 45 FPS、快出版 155 FPS 实时运行，背景误检显著低于两阶段方法，确立端到端实时检测范式。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2015,
+   "link": "https://arxiv.org/abs/1506.02640",
+   "xid": {
+    "arxiv": "1506.02640",
+    "doi": "10.48550/arxiv.1506.02640"
+   }
+  },
+  {
+   "id": "paper:U-Net",
+   "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation（U-Net）",
+   "type": "paper",
+   "desc": "Olaf Ronneberger、Philipp Fischer、Thomas Brox（弗莱堡大学）发表于 MICCAI 2015（doi:10.1007/978-3-319-24574-4_28）。提出对称编码器-解码器加跨层跳跃连接的 U 形分割网络，仅 30 张训练图像即赢得 ISBI 细胞分割挑战赛，成为医学图像分割事实标准；其编码解码与跳跃连接思想后续被 Stable Diffusion 等扩散模型继承为主干结构。来源：Crossref（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2015,
+   "link": "https://doi.org/10.1007/978-3-319-24574-4_28",
+   "xid": {
+    "doi": "10.1007/978-3-319-24574-4_28"
+   }
+  },
+  {
+   "id": "paper:CycleGAN",
+   "name": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks（CycleGAN）",
+   "type": "paper",
+   "desc": "Jun-Yan Zhu、Taesung Park、Phillip Isola、Alexei A. Efros（UC Berkeley）2017 年 3 月提交、ICCV 2017 发表（arXiv:1703.10593）。以循环一致性损失实现无需成对数据的图像到图像翻译：引入逆映射把翻译结果译回原域并约束还原，使马变斑马、油画变照片等映射仅需两组不对齐图像即可学习，是无监督风格迁移与图像翻译代表作。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2017,
+   "link": "https://arxiv.org/abs/1703.10593",
+   "xid": {
+    "arxiv": "1703.10593",
+    "doi": "10.48550/arxiv.1703.10593"
+   }
+  },
+  {
+   "id": "person_new_79",
+   "name": "Joseph Redmon（约瑟夫·雷德蒙）",
+   "type": "person",
+   "desc": "YOLO 系列论文第一作者（arXiv:1506.02640），与 Girshick、Farhadi 合作提出单阶段实时目标检测范式，后续推出 YOLOv2 与 YOLOv3。来源：arXiv（2026-11-20 检索）。",
+   "dim": 6,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "person_new_80",
+   "name": "Olaf Ronneberger（奥拉夫·龙内贝格）",
+   "type": "person",
+   "desc": "U-Net 论文第一作者（MICCAI 2015，doi:10.1007/978-3-319-24574-4_28），弗莱堡大学研究者，U 形分割网络确立医学图像分割标准。来源：Crossref（2026-11-20 检索）。",
+   "dim": 6,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "person_new_81",
+   "name": "Jun-Yan Zhu（朱俊彦）",
+   "type": "person",
+   "desc": "CycleGAN 论文第一作者（arXiv:1703.10593），UC Berkeley 博士，无监督图像翻译与风格迁移代表研究者。来源：arXiv（2026-11-20 检索）。",
+   "dim": 6,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "paper:Transformer-XL",
+   "name": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+   "type": "paper",
+   "desc": "Zihang Dai、杨植麟、Yiming Yang、Jaime Carbonell、Quoc Le、Ruslan Salakhutdinov（CMU 与谷歌）2019 年提出（arXiv:1901.02860）。引入段级循环机制复用前段隐状态、以相对位置编码取代绝对位置，使 Transformer 语言模型突破定长上下文并建模超过训练段长的依赖，在 18 个词级与字符级基准上平均困惑度显著改善，其思想直接进入后续 XLNet。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1901.02860",
+   "xid": {
+    "arxiv": "1901.02860",
+    "doi": "10.48550/arxiv.1901.02860"
+   }
+  },
+  {
+   "id": "paper:BART",
+   "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+   "type": "paper",
+   "desc": "Mike Lewis、Yinhan Liu、Naman Goyal 等（Meta/Facebook AI）2019 年 10 月提出（arXiv:1910.13461）。以任意噪声函数破坏文本再用标准 Transformer 编码解码器重建的去噪 Seq2Seq 预训练：兼得 BERT 式双向编码与 GPT 式自回归生成能力，在摘要、翻译、对话等生成任务上刷新当时纪录，是生成式预训练双塔路线的代表。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1910.13461",
+   "xid": {
+    "arxiv": "1910.13461",
+    "doi": "10.48550/arxiv.1910.13461"
+   }
+  },
+  {
+   "id": "paper:PaLM",
+   "name": "PaLM: Scaling Language Modeling with Pathways",
+   "type": "paper",
+   "desc": "Aakanksha Chowdhery、Sharan Narang、Jacob Devlin 等（Google）2022 年 4 月发布（arXiv:2204.02311）。5400 亿参数稠密 Decoder 模型，借 Pathways 系统在 6144 块 TPU v4 上高效扩缩训练：以多项基准验证多步推理、代码生成与语言理解随规模突现的增益，是稠密大模型缩放路线的代表作之一。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2204.02311",
+   "xid": {
+    "arxiv": "2204.02311",
+    "doi": "10.48550/arxiv.2204.02311"
+   }
+  },
+  {
+   "id": "paper:DPO",
+   "name": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+   "type": "paper",
+   "desc": "Rafael Rafailov、Archit Sharma、Eric Mitchell、Christopher Manning、Stefano Ermon、Chelsea Finn（斯坦福）2023 年 5 月提出（arXiv:2305.18290）。把 RLHF 的奖励建模与强化学习两步蒸馏为一个闭式分类损失：直接用人类偏好对优化策略，绕开显式奖励模型与 PPO 训练环节，因实现简单、稳定且效果好而成为开源模型对齐的事实标准。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2305.18290",
+   "xid": {
+    "arxiv": "2305.18290",
+    "doi": "10.48550/arxiv.2305.18290"
+   }
+  },
+  {
+   "id": "paper:RAG-Lewis",
+   "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks（RAG）",
+   "type": "paper",
+   "desc": "Patrick Lewis、Ethan Perez、Piktus 等（Meta/Facebook AI 与 UCL）2020 年提出（arXiv:2005.11401）。将参数化 Seq2Seq 模型与非参数化维基百科向量检索（DPR）结合：生成时实时检索相关文档并以之引导生成，在开放域问答与知识密集任务上大幅超越纯参数基线，是检索增强生成范式的奠基文献。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://arxiv.org/abs/2005.11401",
+   "xid": {
+    "arxiv": "2005.11401",
+    "doi": "10.48550/arxiv.2005.11401"
+   }
+  },
+  {
+   "id": "paper:Megatron-LM",
+   "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+   "type": "paper",
+   "desc": "Deepak Narayanan、Mohammad Shoeybi、Jared Casper 等（NVIDIA）2019 年提出（arXiv:1909.08053）。提出简单高效的层内模型并行：注意力按头切分、MLP 按列行切分，配合算子融合，在 512 GPU 上以 15.1 petaFLOP/s（约 76% 扩缩效率）训练 83 亿参数语言模型，成为大模型分布式训练并行化基石，后演进为 Megatron 训练框架。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1909.08053",
+   "xid": {
+    "arxiv": "1909.08053",
+    "doi": "10.48550/arxiv.1909.08053"
+   }
+  },
+  {
+   "id": "person_new_82",
+   "name": "Rafael Rafailov（拉斐尔·拉法伊洛夫）",
+   "type": "person",
+   "desc": "DPO（直接偏好优化）论文第一作者（arXiv:2305.18290），斯坦福大学研究者，以闭式损失替代 RLHF 强化学习环节的开源对齐路线提出者。来源：arXiv（2026-11-20 检索）。",
+   "dim": 6,
+   "year": null,
+   "link": null
+  },
+  {
+   "id": "paper:ZeRO",
+   "name": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+   "type": "paper",
+   "desc": "Samyam Rajbhandari、Jeff Rasley、Olatunji Ruwase、Yuxiong He（Microsoft）2019 年提出（arXiv:1910.02054）。以零冗余优化器三阶段切分优化器状态、梯度与参数到数据并行进程：消除数据并行的显存冗余并把通信量降至十分之一，使 1700 亿参数模型可在 400 块 V100 上训练，思想落地为 DeepSpeed 框架并支撑大模型训练普及。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1910.02054",
+   "xid": {
+    "arxiv": "1910.02054",
+    "doi": "10.48550/arxiv.1910.02054"
+   }
+  },
+  {
+   "id": "paper:LLaMA",
+   "name": "LLaMA: Open and Efficient Foundation Language Models",
+   "type": "paper",
+   "desc": "Hugo Touvron、Thibaut Lavril、Gautier Izacard 等（Meta AI）2023 年 2 月发布（arXiv:2302.13971）。以公开数据训练 7B~65B 参数基础模型并开源权重：65B 版在多数基准上追平 Chinchilla-70B 与 PaLM-540B，训练与推理算力需求低一个数量级，其权重扩散直接催生 LLaMA 衍生开源生态，是开源大模型浪潮的引爆点。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2302.13971",
+   "xid": {
+    "arxiv": "2302.13971",
+    "doi": "10.48550/arxiv.2302.13971"
+   }
+  },
+  {
+   "id": "paper:Llama-2",
+   "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+   "type": "paper",
+   "desc": "Hugo Touvron、Louis Martin、Kevin Stone 等（Meta）2023 年 7 月发布（arXiv:2307.09288）。发布 7B~70B 预训练与对话微调双系列：以超百万条人类标注与 RLHF 训练安全对齐，在有用性与安全性基准上显著优于开源前身并接近闭源水平，且以商用许可开放权重，成为开源商用大模型的分水岭。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2307.09288",
+   "xid": {
+    "arxiv": "2307.09288",
+    "doi": "10.48550/arxiv.2307.09288"
+   }
+  },
+  {
+   "id": "paper:Mistral-7B",
+   "name": "Mistral 7B",
+   "type": "paper",
+   "desc": "Albert Q. Jiang、Alexandre Sablayrolles、Arthur Mensch 等（Mistral AI）2023 年 10 月发布（arXiv:2310.06825）。以滑动窗口注意力与分组查询注意力改造 7B 开源模型：全部基准超越 Llama 2 13B，推理吞吐翻倍，以 Apache 2.0 许可发布，引发小型高性能开源模型浪潮并确立 Mistral 的效率品牌。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2310.06825",
+   "xid": {
+    "arxiv": "2310.06825",
+    "doi": "10.48550/arxiv.2310.06825"
+   }
+  },
+  {
+   "id": "paper:DeepSeek-V3",
+   "name": "DeepSeek-V3 Technical Report",
+   "type": "paper",
+   "desc": "DeepSeek（深度求索）团队 2024 年 12 月发布的技术报告（arXiv:2412.19437）。6710 亿参数 MoE 架构（每 token 激活约 370 亿），以 FP8 混合精度训练 14.8 万亿 token：多头潜在注意力 MLA 与无辅助损失的负载均衡策略显著提升训练效率，在数学、代码与多语言基准进入第一梯队，定义开源大模型效率标杆。来源：arXiv（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2024,
+   "link": "https://arxiv.org/abs/2412.19437",
+   "xid": {
+    "arxiv": "2412.19437",
+    "doi": "10.48550/arxiv.2412.19437"
+   }
   }
  ],
  "links": [
@@ -365555,6 +365807,142 @@
    "label": "",
    "year": null,
    "desc": "Meta（原 Facebook AI）出品 DPR"
+  },
+  {
+   "source": "paper:GPT-2",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 出品 GPT-2 论文"
+  },
+  {
+   "source": "paper:VGG",
+   "target": "institution:牛津大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "牛津大学 VGG 组出品 VGG 网络"
+  },
+  {
+   "source": "paper:R-CNN",
+   "target": "person_R75-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Ross Girshick，R-CNN 提出者"
+  },
+  {
+   "source": "paper:YOLO",
+   "target": "person_new_79",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Joseph Redmon，YOLO 提出者"
+  },
+  {
+   "source": "paper:U-Net",
+   "target": "person_new_80",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Olaf Ronneberger，U-Net 提出者"
+  },
+  {
+   "source": "paper:CycleGAN",
+   "target": "person_new_81",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Jun-Yan Zhu，CycleGAN 提出者"
+  },
+  {
+   "source": "paper:Transformer-XL",
+   "target": "person_28",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "合著者杨植麟，段循环与相对位置编码共同提出者"
+  },
+  {
+   "source": "paper:BART",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta/Facebook AI 出品 BART"
+  },
+  {
+   "source": "paper:PaLM",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 出品 PaLM"
+  },
+  {
+   "source": "paper:DPO",
+   "target": "person_new_82",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Rafael Rafailov，DPO 提出者"
+  },
+  {
+   "source": "paper:RAG-Lewis",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta/Facebook AI 出品 RAG 论文"
+  },
+  {
+   "source": "paper:Megatron-LM",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 出品 Megatron-LM"
+  },
+  {
+   "source": "paper:ZeRO",
+   "target": "company_14-5",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Microsoft 出品 ZeRO"
+  },
+  {
+   "source": "paper:LLaMA",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta AI 出品 LLaMA"
+  },
+  {
+   "source": "paper:Llama-2",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta 出品 Llama 2"
+  },
+  {
+   "source": "paper:Mistral-7B",
+   "target": "company_14-14",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Mistral AI 出品 Mistral 7B"
+  },
+  {
+   "source": "paper:DeepSeek-V3",
+   "target": "company_14-23",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "DeepSeek（深度求索）出品 V3 技术报告"
   }
  ]
 }
