@@ -1,0 +1,2115 @@
+{
+ "meta": {
+  "generated": "2026-11-20T11:12:03",
+  "source": "graph_data.json (10322 nodes / 38305 links)",
+  "schema": "kg-xid v1 — 出口通道：外部系统按外部 ID 反查图谱节点",
+  "records": 174,
+  "keys_total": 258,
+  "keys": {
+   "openalex": 101,
+   "ror": 24,
+   "doi": 66,
+   "arxiv": 18,
+   "epoch": 49
+  },
+  "usage": "indexes[*] 为 外部ID→节点id 的直查表；records 为含 name/link/year 的完整条目"
+ },
+ "records": [
+  {
+   "id": "concept_L29-6",
+   "name": "杰弗里·辛顿（Geoffrey Hinton）",
+   "type": "person",
+   "year": 1986,
+   "link": "../详情/深化_人物线.md",
+   "xid": {
+    "openalex": "A5108093963"
+   }
+  },
+  {
+   "id": "company_14-1",
+   "name": "OpenAI",
+   "type": "company",
+   "year": 2015,
+   "link": "https://openai.com/index/accelerating-the-next-phase-ai/",
+   "xid": {
+    "ror": "https://ror.org/05wx9n238"
+   }
+  },
+  {
+   "id": "company_14-3",
+   "name": "Anthropic",
+   "type": "company",
+   "year": 2021,
+   "link": "https://www.anthropic.com/news/series-h",
+   "xid": {
+    "ror": "https://ror.org/056y0v115"
+   }
+  },
+  {
+   "id": "company_14-4",
+   "name": "Meta（FAIR/GenAI）",
+   "type": "company",
+   "year": 2004,
+   "link": "https://about.fb.com/br/news/2025/04/modelos-llama-4/",
+   "xid": {
+    "ror": "https://ror.org/01zbnvs85"
+   }
+  },
+  {
+   "id": "company_14-5",
+   "name": "Microsoft（含 OpenAI 合作与 Copilot）",
+   "type": "company",
+   "year": 1975,
+   "link": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+   "xid": {
+    "ror": "https://ror.org/00d0nc645"
+   }
+  },
+  {
+   "id": "company_14-6",
+   "name": "xAI",
+   "type": "company",
+   "year": 2023,
+   "link": "https://stcn.com/article/detail/3576239.html",
+   "xid": {
+    "ror": "https://ror.org/05febkk55"
+   }
+  },
+  {
+   "id": "company_14-7",
+   "name": "Amazon（AWS Bedrock/Q/Titan）",
+   "type": "company",
+   "year": 1994,
+   "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
+   "xid": {
+    "ror": "https://ror.org/04mv4n011"
+   }
+  },
+  {
+   "id": "company_14-8",
+   "name": "Apple（Apple Intelligence）",
+   "type": "company",
+   "year": 1976,
+   "link": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+   "xid": {
+    "ror": "https://ror.org/059hsda18"
+   }
+  },
+  {
+   "id": "company_14-9",
+   "name": "NVIDIA",
+   "type": "company",
+   "year": 1993,
+   "link": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf",
+   "xid": {
+    "ror": "https://ror.org/03jdj4y14"
+   }
+  },
+  {
+   "id": "company_14-10",
+   "name": "AMD",
+   "type": "company",
+   "year": 1969,
+   "link": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+   "xid": {
+    "ror": "https://ror.org/00z0kkz74"
+   }
+  },
+  {
+   "id": "company_14-12",
+   "name": "TSMC（台积电）",
+   "type": "company",
+   "year": 1987,
+   "link": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf",
+   "xid": {
+    "ror": "https://ror.org/02rvfjx92"
+   }
+  },
+  {
+   "id": "company_14-13",
+   "name": "HuggingFace",
+   "type": "company",
+   "year": 2016,
+   "link": "https://aiwiki.ai/wiki/hugging_face",
+   "xid": {
+    "ror": "https://ror.org/02grspc61"
+   }
+  },
+  {
+   "id": "company_14-14",
+   "name": "Mistral AI",
+   "type": "company",
+   "year": 2023,
+   "link": "https://notebooklm-to-pdf.com/ar/blog/mistral-vibe-funding",
+   "xid": {
+    "ror": "https://ror.org/05w9p7918"
+   }
+  },
+  {
+   "id": "company_14-18",
+   "name": "Databricks",
+   "type": "company",
+   "year": 2013,
+   "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales",
+   "xid": {
+    "ror": "https://ror.org/01ynzx943"
+   }
+  },
+  {
+   "id": "company_14-19",
+   "name": "字节跳动",
+   "type": "company",
+   "year": 2012,
+   "link": "https://research.doubao.com/zh/",
+   "xid": {
+    "ror": "https://ror.org/04m8av638"
+   }
+  },
+  {
+   "id": "company_14-20",
+   "name": "阿里巴巴",
+   "type": "company",
+   "year": 1999,
+   "link": "https://qwen.ai/blog?id=qwen3.5",
+   "xid": {
+    "ror": "https://ror.org/00k642b80"
+   }
+  },
+  {
+   "id": "company_14-21",
+   "name": "腾讯",
+   "type": "company",
+   "year": 1998,
+   "link": "http://www.news.cn/tech/20260828/b12d8417291b4193ba9e5d435a1a40db/c.html",
+   "xid": {
+    "ror": "https://ror.org/00hhjss72"
+   }
+  },
+  {
+   "id": "company_14-22",
+   "name": "百度",
+   "type": "company",
+   "year": 2000,
+   "link": "http://www.cnr.cn/shanghai/kcxtd/20260123/t20260123_527503441.shtml",
+   "xid": {
+    "ror": "https://ror.org/03vs3wt56"
+   }
+  },
+  {
+   "id": "company_14-23",
+   "name": "DeepSeek（深度求索）",
+   "type": "company",
+   "year": 2023,
+   "link": "https://api-docs.deepseek.com/zh-cn/news/news250120/",
+   "xid": {
+    "ror": "https://ror.org/05wa54d95"
+   }
+  },
+  {
+   "id": "company_14-25",
+   "name": "MiniMax",
+   "type": "company",
+   "year": 2021,
+   "link": "https://www.caixin.com/2026-01-09/102401896.html",
+   "xid": {
+    "ror": "https://ror.org/01ee25k38"
+   }
+  },
+  {
+   "id": "company_14-26",
+   "name": "智谱 AI（Z.ai）",
+   "type": "company",
+   "year": 2019,
+   "link": "https://www.caixin.com/2026-06-18/102455438.html",
+   "xid": {
+    "ror": "https://ror.org/005dzvw93"
+   }
+  },
+  {
+   "id": "company_14-30",
+   "name": "科大讯飞（iFLYTEK）",
+   "type": "company",
+   "year": 1999,
+   "link": "http://www.stdaily.com/web/gdxw/2025-11/08/content_428928.html",
+   "xid": {
+    "ror": "https://ror.org/009pwww24"
+   }
+  },
+  {
+   "id": "company_14-31",
+   "name": "华为",
+   "type": "company",
+   "year": 1987,
+   "link": "https://www.huaweicloud.com/news/2026/20260731095113610.html",
+   "xid": {
+    "ror": "https://ror.org/00cmhce21"
+   }
+  },
+  {
+   "id": "company_14-56",
+   "name": "IBM（watsonx/企业 AI）",
+   "type": "company",
+   "year": 1911,
+   "link": "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+   "xid": {
+    "ror": "https://ror.org/05hh8d621"
+   }
+  },
+  {
+   "id": "company_L20-18",
+   "name": "寒武纪",
+   "type": "company",
+   "year": 2016,
+   "link": "https://www.stcn.com/article/detail/3895763.html",
+   "xid": {
+    "ror": "https://ror.org/00r2rga43"
+   }
+  },
+  {
+   "id": "person_18",
+   "name": "伊利亚·苏茨克维（Ilya Sutskever）",
+   "type": "person",
+   "year": 1986,
+   "link": null,
+   "xid": {
+    "openalex": "A5006446297"
+   }
+  },
+  {
+   "id": "person_19",
+   "name": "李飞飞（Fei-Fei Li）",
+   "type": "person",
+   "year": 1976,
+   "link": null,
+   "xid": {
+    "openalex": "A5100450462"
+   }
+  },
+  {
+   "id": "person_21",
+   "name": "安德烈·卡帕西（Andrej Karpathy）",
+   "type": "person",
+   "year": 1986,
+   "link": "https://karpathy.ai",
+   "xid": {
+    "openalex": "A5009290031"
+   }
+  },
+  {
+   "id": "person_22",
+   "name": "何恺明（Kaiming He）",
+   "type": "person",
+   "year": 1984,
+   "link": "https://people.csail.mit.edu/kaiming/",
+   "xid": {
+    "openalex": "A5100700361"
+   }
+  },
+  {
+   "id": "person_27",
+   "name": "梁文锋（Liang Wenfeng）",
+   "type": "person",
+   "year": 1985,
+   "link": null,
+   "xid": {
+    "openalex": "A5110193145"
+   }
+  },
+  {
+   "id": "person_28",
+   "name": "杨植麟（Yang Zhilin）",
+   "type": "person",
+   "year": 1992,
+   "link": null,
+   "xid": {
+    "openalex": "A5050303775"
+   }
+  },
+  {
+   "id": "person_new_04",
+   "name": "Jared Kaplan",
+   "type": "person",
+   "year": 1984,
+   "link": null,
+   "xid": {
+    "openalex": "A5053213601"
+   }
+  },
+  {
+   "id": "person_new_72",
+   "name": "David Silver",
+   "type": "person",
+   "year": 1976,
+   "link": null,
+   "xid": {
+    "openalex": "A5091771290"
+   }
+  },
+  {
+   "id": "person_growth_01",
+   "name": "Noam Shazeer",
+   "type": "person",
+   "year": 1976,
+   "link": "https://aiwiki.ai/wiki/noam_shazeer",
+   "xid": {
+    "openalex": "A5021878400"
+   }
+  },
+  {
+   "id": "person_growth_05",
+   "name": "Alec Radford",
+   "type": "person",
+   "year": 1993,
+   "link": "https://m.baike.com/wiki/思维机器实验室/7615869363039731752",
+   "xid": {
+    "openalex": "A5051250767"
+   }
+  },
+  {
+   "id": "person_growth_08",
+   "name": "Ashish Vaswani",
+   "type": "person",
+   "year": 1986,
+   "link": "https://www.aiwiki.ai/wiki/ashish_vaswani",
+   "xid": {
+    "openalex": "A5103024730"
+   }
+  },
+  {
+   "id": "person_growth_09",
+   "name": "Niki Parmar",
+   "type": "person",
+   "year": null,
+   "link": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
+   "xid": {
+    "openalex": "A5005777963"
+   }
+  },
+  {
+   "id": "person_growth_10",
+   "name": "Jakob Uszkoreit",
+   "type": "person",
+   "year": null,
+   "link": "https://dev.to/bluelobster_agent/the-transformer-paper-had-8-authors-all-8-left-google-4jhd",
+   "xid": {
+    "openalex": "A5022416424"
+   }
+  },
+  {
+   "id": "person_growth_11",
+   "name": "Llion Jones",
+   "type": "person",
+   "year": null,
+   "link": "https://www.aiwiki.ai/wiki/llion_jones",
+   "xid": {
+    "openalex": "A5023448834"
+   }
+  },
+  {
+   "id": "person_growth_14",
+   "name": "Pieter Abbeel",
+   "type": "person",
+   "year": 1977,
+   "link": "https://aiwiki.ai/wiki/covariant",
+   "xid": {
+    "openalex": "A5049349154"
+   }
+  },
+  {
+   "id": "person_growth_36",
+   "name": "Wojciech Zaremba",
+   "type": "person",
+   "year": 1988,
+   "link": "https://openai.com/",
+   "xid": {
+    "openalex": "A5076651586"
+   }
+  },
+  {
+   "id": "person_growth_37",
+   "name": "John Schulman",
+   "type": "person",
+   "year": 1987,
+   "link": "https://arxiv.org/pdf/1707.06347",
+   "xid": {
+    "openalex": "A5009037058"
+   }
+  },
+  {
+   "id": "person_growth_38",
+   "name": "Koray Kavukcuoglu",
+   "type": "person",
+   "year": 1980,
+   "link": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
+   "xid": {
+    "openalex": "A5090341705"
+   }
+  },
+  {
+   "id": "person_growth_40",
+   "name": "Sergey Levine",
+   "type": "person",
+   "year": 1987,
+   "link": "https://www.314159.com/",
+   "xid": {
+    "openalex": "A5026322200"
+   }
+  },
+  {
+   "id": "person_growth_87",
+   "name": "Ian Goodfellow",
+   "type": "person",
+   "year": 1987,
+   "link": "https://www.aiwiki.ai/wiki/ian_goodfellow",
+   "xid": {
+    "openalex": "A5004271128"
+   }
+  },
+  {
+   "id": "person_growth_91",
+   "name": "Alex Krizhevsky",
+   "type": "person",
+   "year": 1986,
+   "link": "https://media.utoronto.ca/media-releases/u-of-t-neural-networks-start-up-acquired-by-google/",
+   "xid": {
+    "openalex": "A5031152245"
+   }
+  },
+  {
+   "id": "person_growth_97",
+   "name": "Albert Gu",
+   "type": "person",
+   "year": null,
+   "link": "https://arxiv.org/abs/2111.00396",
+   "xid": {
+    "openalex": "A5025386668"
+   }
+  },
+  {
+   "id": "person_growth_98",
+   "name": "Tri Dao",
+   "type": "person",
+   "year": null,
+   "link": "https://aiwiki.ai/wiki/tri_dao",
+   "xid": {
+    "openalex": "A5091734792"
+   }
+  },
+  {
+   "id": "person_growth_99",
+   "name": "Chris Ré",
+   "type": "person",
+   "year": null,
+   "link": "https://cs.stanford.edu/people/chrismre",
+   "xid": {
+    "openalex": "A5103148807"
+   }
+  },
+  {
+   "id": "person_growth_101",
+   "name": "John Jumper",
+   "type": "person",
+   "year": 1985,
+   "link": "https://www.nobelprize.org/prizes/chemistry/2024/jumper/facts/",
+   "xid": {
+    "openalex": "A5059179935"
+   }
+  },
+  {
+   "id": "person_growth_104",
+   "name": "Shaoqing Ren（任少卿）",
+   "type": "person",
+   "year": 1988,
+   "link": "https://arxiv.org/abs/1506.01497",
+   "xid": {
+    "openalex": "A5100824251"
+   }
+  },
+  {
+   "id": "person_growth_105",
+   "name": "Jian Sun（孙剑）",
+   "type": "person",
+   "year": 1976,
+   "link": "https://arxiv.org/abs/1512.03385",
+   "xid": {
+    "openalex": "A5100785015"
+   }
+  },
+  {
+   "id": "person_growth_106",
+   "name": "Ze Liu（刘泽）",
+   "type": "person",
+   "year": null,
+   "link": "https://arxiv.org/abs/2103.14030",
+   "xid": {
+    "openalex": "A5100349451"
+   }
+  },
+  {
+   "id": "person_growth_107",
+   "name": "Tim Salimans",
+   "type": "person",
+   "year": null,
+   "link": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+   "xid": {
+    "openalex": "A5082512329"
+   }
+  },
+  {
+   "id": "person_growth_108",
+   "name": "Alex Graves",
+   "type": "person",
+   "year": null,
+   "link": "https://arxiv.org/abs/1410.5401",
+   "xid": {
+    "openalex": "A5043473089"
+   }
+  },
+  {
+   "id": "person_growth_126",
+   "name": "Mustafa Suleyman",
+   "type": "person",
+   "year": 1984,
+   "link": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+   "xid": {
+    "openalex": "A5001712647"
+   }
+  },
+  {
+   "id": "person_growth_135",
+   "name": "Soumith Chintala",
+   "type": "person",
+   "year": null,
+   "link": "https://soumith.ch/",
+   "xid": {
+    "openalex": "A5002078510"
+   }
+  },
+  {
+   "id": "person_R75-1",
+   "name": "Ross Girshick",
+   "type": "person",
+   "year": null,
+   "link": null,
+   "xid": {
+    "openalex": "A5049246408"
+   }
+  },
+  {
+   "id": "person_R75-4",
+   "name": "Oriol Vinyals",
+   "type": "person",
+   "year": 1983,
+   "link": null,
+   "xid": {
+    "openalex": "A5003562101"
+   }
+  },
+  {
+   "id": "paper:AlexNet",
+   "name": "ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+   "type": "paper",
+   "year": 2012,
+   "link": "https://arxiv.org/abs/1206.5538",
+   "xid": {
+    "openalex": "W2163605009",
+    "doi": "10.1145/3065386"
+   }
+  },
+  {
+   "id": "paper:Attention-Is-All-You-Need",
+   "name": "Attention Is All You Need (Transformer)",
+   "type": "paper",
+   "year": 2017,
+   "link": "https://arxiv.org/abs/1706.03762",
+   "xid": {
+    "openalex": "W2626778328",
+    "doi": "10.48550/arxiv.1706.03762"
+   }
+  },
+  {
+   "id": "paper:BERT",
+   "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+   "type": "paper",
+   "year": 2018,
+   "link": "https://arxiv.org/abs/1810.04805",
+   "xid": {
+    "openalex": "W2963341956",
+    "doi": "10.18653/v1/n19-1423"
+   }
+  },
+  {
+   "id": "paper:ResNet",
+   "name": "Deep Residual Learning for Image Recognition (ResNet)",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://arxiv.org/abs/1512.03385",
+   "xid": {
+    "openalex": "W2949650786",
+    "doi": "10.48550/arxiv.1512.03385"
+   }
+  },
+  {
+   "id": "paper:DQN",
+   "name": "Human-level Control through Deep Reinforcement Learning (DQN)",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://www.nature.com/articles/nature14236",
+   "xid": {
+    "openalex": "W2145339207",
+    "doi": "10.1038/nature14236"
+   }
+  },
+  {
+   "id": "paper:AlphaGo-Nature",
+   "name": "Mastering the Game of Go with Deep Neural Networks and Tree Search (AlphaGo)",
+   "type": "paper",
+   "year": 2016,
+   "link": "https://www.nature.com/articles/nature16961",
+   "xid": {
+    "openalex": "W2257979135",
+    "doi": "10.1038/nature16961"
+   }
+  },
+  {
+   "id": "paper:GAN",
+   "name": "Generative Adversarial Nets (GAN)",
+   "type": "paper",
+   "year": 2014,
+   "link": "https://arxiv.org/abs/1406.2661",
+   "xid": {
+    "arxiv": "1406.2661",
+    "doi": "10.48550/arxiv.1406.2661",
+    "openalex": "W4298289240"
+   }
+  },
+  {
+   "id": "paper:DDPM",
+   "name": "Denoising Diffusion Probabilistic Models (DDPM)",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://arxiv.org/abs/2006.11239",
+   "xid": {
+    "openalex": "W3036167779",
+    "doi": "10.48550/arxiv.2006.11239"
+   }
+  },
+  {
+   "id": "paper:CLIP",
+   "name": "Learning Transferable Visual Models From Natural Language Supervision (CLIP)",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2103.00020",
+   "xid": {
+    "openalex": "W3135367836",
+    "doi": "10.48550/arxiv.2103.00020"
+   }
+  },
+  {
+   "id": "paper:DALL-E-1",
+   "name": "Zero-Shot Text-to-Image Generation (DALL·E 1)",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2102.12092",
+   "xid": {
+    "openalex": "W3129576130",
+    "doi": "10.48550/arxiv.2102.12092"
+   }
+  },
+  {
+   "id": "paper:Stable-Diffusion-LDM",
+   "name": "High-Resolution Image Synthesis with Latent Diffusion Models (LDM/Stable Diffusion)",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2112.10752",
+   "xid": {
+    "openalex": "W4312933868",
+    "doi": "10.1109/cvpr52688.2022.01042"
+   }
+  },
+  {
+   "id": "paper:LoRA",
+   "name": "Low-Rank Adaptation of Large Language Models (LoRA)",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2106.09685",
+   "xid": {
+    "openalex": "W3168867926",
+    "doi": "10.48550/arxiv.2106.09685"
+   }
+  },
+  {
+   "id": "paper:InstructGPT",
+   "name": "Training language models to follow instructions with human feedback (InstructGPT)",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2203.02155",
+   "xid": {
+    "openalex": "W7133211372",
+    "doi": "10.52202/068431-2011"
+   }
+  },
+  {
+   "id": "paper:RLHF-Preference-2017",
+   "name": "Deep Reinforcement Learning from Human Preferences",
+   "type": "paper",
+   "year": 2017,
+   "link": "https://arxiv.org/abs/1706.03741",
+   "xid": {
+    "openalex": "W2626804490",
+    "doi": "10.48550/arxiv.1706.03741"
+   }
+  },
+  {
+   "id": "paper:AlphaFold2",
+   "name": "Highly Accurate Protein Structure Prediction with AlphaFold (AlphaFold2)",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://www.nature.com/articles/s41586-021-03819-2",
+   "xid": {
+    "openalex": "W3177828909",
+    "doi": "10.1038/s41586-021-03819-2"
+   }
+  },
+  {
+   "id": "paper:MAE",
+   "name": "Masked Autoencoders Are Scalable Vision Learners (MAE)",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2111.06377",
+   "xid": {
+    "openalex": "W4226002507",
+    "doi": "10.1109/cvpr52688.2022.01553"
+   }
+  },
+  {
+   "id": "paper:Swin-Transformer",
+   "name": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2103.14030",
+   "xid": {
+    "openalex": "W3138516171",
+    "doi": "10.1109/iccv48922.2021.00986"
+   }
+  },
+  {
+   "id": "paper:ViT",
+   "name": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (ViT)",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://arxiv.org/abs/2010.11929",
+   "xid": {
+    "openalex": "W3094502228",
+    "doi": "10.48550/arxiv.2010.11929"
+   }
+  },
+  {
+   "id": "paper:Chain-of-Thought",
+   "name": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (CoT)",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2201.11903",
+   "xid": {
+    "openalex": "W7133224126",
+    "doi": "10.52202/068431-1800"
+   }
+  },
+  {
+   "id": "paper:ReAct",
+   "name": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2210.03629",
+   "xid": {
+    "openalex": "W4304195432",
+    "doi": "10.48550/arxiv.2210.03629"
+   }
+  },
+  {
+   "id": "paper:FlashAttention",
+   "name": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2205.14135",
+   "xid": {
+    "openalex": "W7133227460",
+    "doi": "10.52202/068431-1189"
+   }
+  },
+  {
+   "id": "paper:QLoRA",
+   "name": "QLoRA: Efficient Finetuning of Quantized LLMs",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2305.14314",
+   "xid": {
+    "openalex": "W7133233472",
+    "doi": "10.52202/075280-0441"
+   }
+  },
+  {
+   "id": "paper:DeepSeek-R1",
+   "name": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+   "type": "paper",
+   "year": 2025,
+   "link": "https://arxiv.org/abs/2501.12948",
+   "xid": {
+    "arxiv": "2501.12948",
+    "doi": "10.48550/arxiv.2501.12948",
+    "openalex": "W4414281281"
+   }
+  },
+  {
+   "id": "paper:GPT-4-Tech-Report",
+   "name": "GPT-4 Technical Report",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2303.08774",
+   "xid": {
+    "openalex": "W4327810158",
+    "doi": "10.48550/arxiv.2303.08774"
+   }
+  },
+  {
+   "id": "paper_R75-1",
+   "name": "Sequence to Sequence Learning with Neural Networks (Seq2Seq)",
+   "type": "paper",
+   "year": 2014,
+   "link": null,
+   "xid": {
+    "openalex": "W2130942839",
+    "doi": "10.48550/arxiv.1409.3215"
+   }
+  },
+  {
+   "id": "paper_R75-2",
+   "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+   "type": "paper",
+   "year": 2015,
+   "link": null,
+   "xid": {
+    "openalex": "W639708223",
+    "doi": "10.1109/tpami.2016.2577031"
+   }
+  },
+  {
+   "id": "paper_R75-3",
+   "name": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://arxiv.org/abs/1502.03167",
+   "xid": {
+    "arxiv": "1502.03167",
+    "doi": "10.48550/arxiv.1502.03167",
+    "openalex": "W1836465849"
+   }
+  },
+  {
+   "id": "paper_R75-4",
+   "name": "Training Compute-Optimal Large Language Models (Chinchilla)",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2203.15556",
+   "xid": {
+    "openalex": "W7133225605",
+    "doi": "10.52202/068431-2176"
+   }
+  },
+  {
+   "id": "paper_R75-5",
+   "name": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1803.03635",
+   "xid": {
+    "openalex": "W2805003733",
+    "doi": "10.48550/arxiv.1803.03635"
+   }
+  },
+  {
+   "id": "paper_R93-1",
+   "name": "Protein structure prediction using multiple deep neural networks in CASP13 (AlphaFold1)",
+   "type": "paper",
+   "year": 2018,
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/prot.25615",
+   "xid": {
+    "openalex": "W2980272550",
+    "doi": "10.1002/prot.25834"
+   }
+  },
+  {
+   "id": "paper_R93-2",
+   "name": "Scaling deep learning for materials discovery (GNoME)",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://www.nature.com/articles/s41586-023-06735-w",
+   "xid": {
+    "openalex": "W4389132751",
+    "doi": "10.1038/s41586-023-06735-9"
+   }
+  },
+  {
+   "id": "model:GPT-4o",
+   "name": "GPT-4o",
+   "type": "model",
+   "year": 2024,
+   "link": "https://openai.com/index/hello-gpt-4o/",
+   "xid": {
+    "epoch": "GPT-4o"
+   }
+  },
+  {
+   "id": "model:GPT-4o-mini",
+   "name": "GPT-4o mini",
+   "type": "model",
+   "year": 2024,
+   "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+   "xid": {
+    "epoch": "GPT-4o mini"
+   }
+  },
+  {
+   "id": "model:o1",
+   "name": "o1",
+   "type": "model",
+   "year": 2024,
+   "link": "https://openai.com/index/learning-to-reason-with-llms/",
+   "xid": {
+    "epoch": "o1"
+   }
+  },
+  {
+   "id": "model:o3",
+   "name": "o3",
+   "type": "model",
+   "year": 2025,
+   "link": "https://openai.com/index/introducing-o3-and-o4-mini/",
+   "xid": {
+    "epoch": "o3"
+   }
+  },
+  {
+   "id": "model:o3-mini",
+   "name": "o3-mini",
+   "type": "model",
+   "year": 2025,
+   "link": "https://openai.com/index/openai-o3-mini/",
+   "xid": {
+    "epoch": "o3-mini"
+   }
+  },
+  {
+   "id": "model:GPT-5",
+   "name": "GPT-5",
+   "type": "model",
+   "year": 2017,
+   "link": "https://openai.com/index/introducing-gpt-5/",
+   "xid": {
+    "epoch": "GPT-5"
+   }
+  },
+  {
+   "id": "model:DALL-E-2",
+   "name": "DALL·E 2",
+   "type": "model",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2204.06125",
+   "xid": {
+    "epoch": "DALL·E 2"
+   }
+  },
+  {
+   "id": "model:DALL-E-3",
+   "name": "DALL·E 3",
+   "type": "model",
+   "year": 2022,
+   "link": "https://openai.com/index/dall-e-3/",
+   "xid": {
+    "epoch": "DALL·E 3"
+   }
+  },
+  {
+   "id": "model:Sora",
+   "name": "Sora",
+   "type": "model",
+   "year": 2024,
+   "link": "https://openai.com/index/sora/",
+   "xid": {
+    "epoch": "Sora"
+   }
+  },
+  {
+   "id": "model:Claude-2",
+   "name": "Claude 2",
+   "type": "model",
+   "year": 2023,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 2"
+   }
+  },
+  {
+   "id": "model:Claude-2.1",
+   "name": "Claude 2.1",
+   "type": "model",
+   "year": 2023,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 2.1"
+   }
+  },
+  {
+   "id": "model:Claude-3-Haiku",
+   "name": "Claude 3 Haiku",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 3 Haiku"
+   }
+  },
+  {
+   "id": "model:Claude-3-Sonnet",
+   "name": "Claude 3 Sonnet",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 3 Sonnet"
+   }
+  },
+  {
+   "id": "model:Claude-3-Opus",
+   "name": "Claude 3 Opus",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 3 Opus"
+   }
+  },
+  {
+   "id": "model:Claude-3.5-Sonnet",
+   "name": "Claude 3.5 Sonnet",
+   "type": "model",
+   "year": 2024,
+   "link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+   "xid": {
+    "epoch": "Claude 3.5 Sonnet"
+   }
+  },
+  {
+   "id": "model:Claude-3.5-Haiku",
+   "name": "Claude 3.5 Haiku",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Claude 3.5 Haiku"
+   }
+  },
+  {
+   "id": "model:Claude-Sonnet-4.5",
+   "name": "Claude Sonnet 4.5",
+   "type": "model",
+   "year": 2025,
+   "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
+   "xid": {
+    "epoch": "Claude Sonnet 4.5"
+   }
+  },
+  {
+   "id": "model:Claude-Opus-5.5",
+   "name": "Claude Opus 5.5",
+   "type": "model",
+   "year": 2026,
+   "link": "https://www.anthropic.com/news/claude-opus-5-5",
+   "xid": {
+    "epoch": "Claude Opus 5.5"
+   }
+  },
+  {
+   "id": "model:PaLM",
+   "name": "PaLM (540B)",
+   "type": "model",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2204.02311",
+   "xid": {
+    "epoch": "PaLM (540B)"
+   }
+  },
+  {
+   "id": "model:PaLM-2",
+   "name": "PaLM 2",
+   "type": "model",
+   "year": 2023,
+   "link": null,
+   "xid": {
+    "epoch": "PaLM 2"
+   }
+  },
+  {
+   "id": "model:Gemini-1.5-Pro",
+   "name": "Gemini 1.5 Pro",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Gemini 1.5 Pro"
+   }
+  },
+  {
+   "id": "model:Gemini-1.0-Ultra",
+   "name": "Gemini 1.0 Ultra",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Gemini 1.0 Ultra"
+   }
+  },
+  {
+   "id": "model:Imagen",
+   "name": "Imagen",
+   "type": "model",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2205.11487",
+   "xid": {
+    "epoch": "Imagen"
+   }
+  },
+  {
+   "id": "model:Veo",
+   "name": "Veo",
+   "type": "model",
+   "year": 2025,
+   "link": null,
+   "xid": {
+    "epoch": "Veo"
+   }
+  },
+  {
+   "id": "model:Med-PaLM",
+   "name": "Med-PaLM",
+   "type": "model",
+   "year": 2022,
+   "link": null,
+   "xid": {
+    "epoch": "Med-PaLM"
+   }
+  },
+  {
+   "id": "model:Llama-3.1-405B",
+   "name": "Llama 3.1 405B",
+   "type": "model",
+   "year": 2024,
+   "link": "https://huggingface.co/blog/llama31",
+   "xid": {
+    "epoch": "Llama 3.1-405B"
+   }
+  },
+  {
+   "id": "model:DeepSeek-V3",
+   "name": "DeepSeek-V3",
+   "type": "model",
+   "year": 2013,
+   "link": "https://arxiv.org/abs/2412.19437",
+   "xid": {
+    "epoch": "DeepSeek-V3"
+   }
+  },
+  {
+   "id": "model:DeepSeek-R1",
+   "name": "DeepSeek-R1",
+   "type": "model",
+   "year": 2024,
+   "link": "https://arxiv.org/abs/2501.12948",
+   "xid": {
+    "epoch": "DeepSeek-R1"
+   }
+  },
+  {
+   "id": "model:GLM-130B",
+   "name": "GLM-130B",
+   "type": "model",
+   "year": 2022,
+   "link": null,
+   "xid": {
+    "epoch": "GLM-130B"
+   }
+  },
+  {
+   "id": "model:GLM-4",
+   "name": "GLM-4",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "GLM-4"
+   }
+  },
+  {
+   "id": "model:GLM-4.5",
+   "name": "GLM-4.5",
+   "type": "model",
+   "year": 2025,
+   "link": null,
+   "xid": {
+    "epoch": "GLM-4.5"
+   }
+  },
+  {
+   "id": "model:GLM-5",
+   "name": "GLM-5",
+   "type": "model",
+   "year": 2020,
+   "link": "https://arxiv.org/abs/2602.15763",
+   "xid": {
+    "epoch": "GLM-5"
+   }
+  },
+  {
+   "id": "model:GLM-5.2",
+   "name": "GLM-5.2",
+   "type": "model",
+   "year": 2020,
+   "link": null,
+   "xid": {
+    "epoch": "GLM-5.2"
+   }
+  },
+  {
+   "id": "model:Kimi-K1.5",
+   "name": "Kimi K1.5",
+   "type": "model",
+   "year": 2024,
+   "link": null,
+   "xid": {
+    "epoch": "Kimi k1.5"
+   }
+  },
+  {
+   "id": "model:Kimi-K2",
+   "name": "Kimi K2",
+   "type": "model",
+   "year": 2018,
+   "link": null,
+   "xid": {
+    "epoch": "Kimi K2"
+   }
+  },
+  {
+   "id": "model:Kimi-K2.5",
+   "name": "Kimi K2.5",
+   "type": "model",
+   "year": 2026,
+   "link": null,
+   "xid": {
+    "epoch": "Kimi K2.5"
+   }
+  },
+  {
+   "id": "model:Kimi-K3",
+   "name": "Kimi K3",
+   "type": "model",
+   "year": 2019,
+   "link": null,
+   "xid": {
+    "epoch": "Kimi K3"
+   }
+  },
+  {
+   "id": "model:MiniMax-M2.5",
+   "name": "MiniMax-M2.5",
+   "type": "model",
+   "year": 2026,
+   "link": null,
+   "xid": {
+    "epoch": "MiniMax-M2.5"
+   }
+  },
+  {
+   "id": "model:MiniMax-M3",
+   "name": "MiniMax-M3",
+   "type": "model",
+   "year": 2026,
+   "link": null,
+   "xid": {
+    "epoch": "MiniMax-M3"
+   }
+  },
+  {
+   "id": "model:SD-1.5",
+   "name": "Stable Diffusion 1.5",
+   "type": "model",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2112.10752",
+   "xid": {
+    "epoch": "Stable Diffusion 1.5"
+   }
+  },
+  {
+   "id": "model:Mistral-7B",
+   "name": "Mistral 7B",
+   "type": "model",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2310.06825",
+   "xid": {
+    "epoch": "Mistral 7B"
+   }
+  },
+  {
+   "id": "model:Mixtral-8x7B",
+   "name": "Mixtral 8x7B",
+   "type": "model",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2401.04088",
+   "xid": {
+    "epoch": "Mixtral 8x7B"
+   }
+  },
+  {
+   "id": "model:Grok-1",
+   "name": "Grok 1",
+   "type": "model",
+   "year": 2023,
+   "link": null,
+   "xid": {
+    "epoch": "Grok-1"
+   }
+  },
+  {
+   "id": "model:Grok-3",
+   "name": "Grok 3",
+   "type": "model",
+   "year": 2025,
+   "link": null,
+   "xid": {
+    "epoch": "Grok 3"
+   }
+  },
+  {
+   "id": "model:Qwen2.5-1.5B",
+   "name": "Qwen2.5-1.5B",
+   "type": "model",
+   "year": 2024,
+   "link": "https://qwenlm.github.io/blog/qwen2.5/",
+   "xid": {
+    "epoch": "Qwen2.5-1.5B"
+   }
+  },
+  {
+   "id": "model_R71-1",
+   "name": "GPT-2（1.5B）",
+   "type": "model",
+   "year": 2019,
+   "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+   "xid": {
+    "epoch": "GPT-2 (1.5B)"
+   }
+  },
+  {
+   "id": "model_R71-2",
+   "name": "Megatron-Turing NLG 530B",
+   "type": "model",
+   "year": 2021,
+   "link": "https://arxiv.org/abs/2201.11990",
+   "xid": {
+    "epoch": "Megatron-Turing NLG 530B"
+   }
+  },
+  {
+   "id": "model_R71-7",
+   "name": "Qwen2.5-Max",
+   "type": "model",
+   "year": 2025,
+   "link": "https://qwen.ai/blog",
+   "xid": {
+    "epoch": "Qwen2.5-Max"
+   }
+  },
+  {
+   "id": "model:Kimi-K3.1-Pro",
+   "name": "Kimi K3.1 Pro",
+   "type": "model",
+   "year": 2026,
+   "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "xid": {
+    "epoch": "Kimi K3.1 Pro"
+   }
+  },
+  {
+   "id": "paper:GPT-3-Paper",
+   "name": "Language Models are Few-Shot Learners（GPT-3 论文）",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2005.14165",
+   "xid": {
+    "openalex": "W3030163527",
+    "doi": "10.48550/arxiv.2005.14165"
+   }
+  },
+  {
+   "id": "paper:GoogLeNet",
+   "name": "Going Deeper with Convolutions（GoogLeNet）",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://doi.org/10.1109/cvpr.2015.7298594",
+   "xid": {
+    "openalex": "W2097117768",
+    "doi": "10.1109/cvpr.2015.7298594"
+   }
+  },
+  {
+   "id": "paper:Scaling-Laws-Kaplan",
+   "name": "Scaling Laws for Neural Language Models",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2001.08361",
+   "xid": {
+    "openalex": "W3001279689",
+    "doi": "10.48550/arxiv.2001.08361"
+   }
+  },
+  {
+   "id": "paper:Word2Vec-Efficient",
+   "name": "Efficient Estimation of Word Representations in Vector Space（Word2Vec）",
+   "type": "paper",
+   "year": 2013,
+   "link": "https://doi.org/10.48550/arxiv.1301.3781",
+   "xid": {
+    "openalex": "W1614298861",
+    "doi": "10.48550/arxiv.1301.3781"
+   }
+  },
+  {
+   "id": "paper:XLNet",
+   "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1906.08237",
+   "xid": {
+    "openalex": "W2950813464",
+    "doi": "10.48550/arxiv.1906.08237"
+   }
+  },
+  {
+   "id": "paper:Mamba",
+   "name": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://doi.org/10.48550/arxiv.2312.00752",
+   "xid": {
+    "openalex": "W4389326242",
+    "doi": "10.48550/arxiv.2312.00752"
+   }
+  },
+  {
+   "id": "paper:AlphaZero-Science",
+   "name": "A general reinforcement learning algorithm that masters chess, shogi and Go through self-play（AlphaZero）",
+   "type": "paper",
+   "year": 2018,
+   "link": "https://doi.org/10.1126/science.aar6404",
+   "xid": {
+    "openalex": "W2902907165",
+    "doi": "10.1126/science.aar6404"
+   }
+  },
+  {
+   "id": "paper:MuZero",
+   "name": "Mastering Atari, Go, chess and shogi by planning with a learned model（MuZero）",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://doi.org/10.1038/s41586-020-03051-4",
+   "xid": {
+    "openalex": "W2989847975",
+    "doi": "10.1038/s41586-020-03051-4"
+   }
+  },
+  {
+   "id": "paper:T5",
+   "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer（T5）",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1910.10683",
+   "xid": {
+    "openalex": "W2981852735",
+    "doi": "10.48550/arxiv.1910.10683"
+   }
+  },
+  {
+   "id": "paper:Switch-Transformer",
+   "name": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+   "type": "paper",
+   "year": 2021,
+   "link": "https://doi.org/10.48550/arxiv.2101.03961",
+   "xid": {
+    "openalex": "W3119866685",
+    "doi": "10.48550/arxiv.2101.03961"
+   }
+  },
+  {
+   "id": "paper:Mask-R-CNN",
+   "name": "Mask R-CNN",
+   "type": "paper",
+   "year": 2017,
+   "link": "https://doi.org/10.1109/iccv.2017.322",
+   "xid": {
+    "openalex": "W2963150697",
+    "doi": "10.1109/iccv.2017.322"
+   }
+  },
+  {
+   "id": "paper:Mixtral-of-Experts",
+   "name": "Mixtral of Experts（Mixtral）",
+   "type": "paper",
+   "year": 2024,
+   "link": "https://doi.org/10.48550/arxiv.2401.04088",
+   "xid": {
+    "openalex": "W4390723197",
+    "doi": "10.48550/arxiv.2401.04088"
+   }
+  },
+  {
+   "id": "paper:VAE-Kingma",
+   "name": "Auto-Encoding Variational Bayes（VAE）",
+   "type": "paper",
+   "year": 2013,
+   "link": "https://doi.org/10.48550/arxiv.1312.6114",
+   "xid": {
+    "openalex": "W1959608418",
+    "doi": "10.48550/arxiv.1312.6114"
+   }
+  },
+  {
+   "id": "paper:StyleGAN",
+   "name": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://doi.org/10.1109/tpami.2020.2970919",
+   "xid": {
+    "openalex": "W2904367110",
+    "doi": "10.1109/tpami.2020.2970919"
+   }
+  },
+  {
+   "id": "paper:Constitutional-AI",
+   "name": "Constitutional AI: Harmlessness from AI Feedback",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://doi.org/10.48550/arxiv.2212.08073",
+   "xid": {
+    "openalex": "W4311991106",
+    "doi": "10.48550/arxiv.2212.08073"
+   }
+  },
+  {
+   "id": "paper:Segment-Anything",
+   "name": "Segment Anything",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://doi.org/10.1109/iccv51070.2023.00371",
+   "xid": {
+    "openalex": "W4390874575",
+    "doi": "10.1109/iccv51070.2023.00371"
+   }
+  },
+  {
+   "id": "paper:ELECTRA",
+   "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2003.10555",
+   "xid": {
+    "openalex": "W2996035354",
+    "doi": "10.48550/arxiv.2003.10555"
+   }
+  },
+  {
+   "id": "paper:RoBERTa",
+   "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1907.11692",
+   "xid": {
+    "openalex": "W2965373594",
+    "doi": "10.48550/arxiv.1907.11692"
+   }
+  },
+  {
+   "id": "paper:DPR",
+   "name": "Dense Passage Retrieval for Open-Domain Question Answering",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+   "xid": {
+    "openalex": "W3015883388",
+    "doi": "10.18653/v1/2020.emnlp-main.550"
+   }
+  },
+  {
+   "id": "paper:VGG",
+   "name": "Very Deep Convolutional Networks for Large-Scale Image Recognition（VGG）",
+   "type": "paper",
+   "year": 2014,
+   "link": "https://arxiv.org/abs/1409.1556",
+   "xid": {
+    "arxiv": "1409.1556",
+    "doi": "10.48550/arxiv.1409.1556",
+    "openalex": "W1686810756"
+   }
+  },
+  {
+   "id": "paper:R-CNN",
+   "name": "Rich feature hierarchies for accurate object detection and semantic segmentation（R-CNN）",
+   "type": "paper",
+   "year": 2013,
+   "link": "https://arxiv.org/abs/1311.2524",
+   "xid": {
+    "arxiv": "1311.2524",
+    "doi": "10.48550/arxiv.1311.2524",
+    "openalex": "W2102605133"
+   }
+  },
+  {
+   "id": "paper:YOLO",
+   "name": "You Only Look Once: Unified, Real-Time Object Detection（YOLO）",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://arxiv.org/abs/1506.02640",
+   "xid": {
+    "arxiv": "1506.02640",
+    "doi": "10.48550/arxiv.1506.02640",
+    "openalex": "W1483870316"
+   }
+  },
+  {
+   "id": "paper:U-Net",
+   "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation（U-Net）",
+   "type": "paper",
+   "year": 2015,
+   "link": "https://doi.org/10.1007/978-3-319-24574-4_28",
+   "xid": {
+    "doi": "10.1007/978-3-319-24574-4_28",
+    "openalex": "W1901129140"
+   }
+  },
+  {
+   "id": "paper:CycleGAN",
+   "name": "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks（CycleGAN）",
+   "type": "paper",
+   "year": 2017,
+   "link": "https://arxiv.org/abs/1703.10593",
+   "xid": {
+    "arxiv": "1703.10593",
+    "doi": "10.48550/arxiv.1703.10593",
+    "openalex": "W2962793481"
+   }
+  },
+  {
+   "id": "paper:Transformer-XL",
+   "name": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1901.02860",
+   "xid": {
+    "arxiv": "1901.02860",
+    "doi": "10.48550/arxiv.1901.02860",
+    "openalex": "W2911109671"
+   }
+  },
+  {
+   "id": "paper:BART",
+   "name": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1910.13461",
+   "xid": {
+    "arxiv": "1910.13461",
+    "doi": "10.48550/arxiv.1910.13461",
+    "openalex": "W2982399380"
+   }
+  },
+  {
+   "id": "paper:PaLM",
+   "name": "PaLM: Scaling Language Modeling with Pathways",
+   "type": "paper",
+   "year": 2022,
+   "link": "https://arxiv.org/abs/2204.02311",
+   "xid": {
+    "arxiv": "2204.02311",
+    "doi": "10.48550/arxiv.2204.02311",
+    "openalex": "W4224308101"
+   }
+  },
+  {
+   "id": "paper:DPO",
+   "name": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2305.18290",
+   "xid": {
+    "arxiv": "2305.18290",
+    "doi": "10.48550/arxiv.2305.18290",
+    "openalex": "W7133208539"
+   }
+  },
+  {
+   "id": "paper:RAG-Lewis",
+   "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks（RAG）",
+   "type": "paper",
+   "year": 2020,
+   "link": "https://arxiv.org/abs/2005.11401",
+   "xid": {
+    "arxiv": "2005.11401",
+    "doi": "10.48550/arxiv.2005.11401",
+    "openalex": "W3027879771"
+   }
+  },
+  {
+   "id": "paper:Megatron-LM",
+   "name": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1909.08053",
+   "xid": {
+    "arxiv": "1909.08053",
+    "doi": "10.48550/arxiv.1909.08053",
+    "openalex": "W2973727699"
+   }
+  },
+  {
+   "id": "paper:ZeRO",
+   "name": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+   "type": "paper",
+   "year": 2019,
+   "link": "https://arxiv.org/abs/1910.02054",
+   "xid": {
+    "arxiv": "1910.02054",
+    "doi": "10.48550/arxiv.1910.02054",
+    "openalex": "W3129831491"
+   }
+  },
+  {
+   "id": "paper:LLaMA",
+   "name": "LLaMA: Open and Efficient Foundation Language Models",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2302.13971",
+   "xid": {
+    "arxiv": "2302.13971",
+    "doi": "10.48550/arxiv.2302.13971",
+    "openalex": "W4322718191"
+   }
+  },
+  {
+   "id": "paper:Llama-2",
+   "name": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2307.09288",
+   "xid": {
+    "arxiv": "2307.09288",
+    "doi": "10.48550/arxiv.2307.09288",
+    "openalex": "W4384918448"
+   }
+  },
+  {
+   "id": "paper:Mistral-7B",
+   "name": "Mistral 7B",
+   "type": "paper",
+   "year": 2023,
+   "link": "https://arxiv.org/abs/2310.06825",
+   "xid": {
+    "arxiv": "2310.06825",
+    "doi": "10.48550/arxiv.2310.06825",
+    "openalex": "W4387561528"
+   }
+  },
+  {
+   "id": "paper:DeepSeek-V3",
+   "name": "DeepSeek-V3 Technical Report",
+   "type": "paper",
+   "year": 2024,
+   "link": "https://arxiv.org/abs/2412.19437",
+   "xid": {
+    "arxiv": "2412.19437",
+    "doi": "10.48550/arxiv.2412.19437",
+    "openalex": "W4405903187"
+   }
+  }
+ ],
+ "indexes": {
+  "doi": {
+   "10.1145/3065386": "paper:AlexNet",
+   "10.48550/arxiv.1706.03762": "paper:Attention-Is-All-You-Need",
+   "10.18653/v1/n19-1423": "paper:BERT",
+   "10.48550/arxiv.1512.03385": "paper:ResNet",
+   "10.1038/nature14236": "paper:DQN",
+   "10.1038/nature16961": "paper:AlphaGo-Nature",
+   "10.48550/arxiv.1406.2661": "paper:GAN",
+   "10.48550/arxiv.2006.11239": "paper:DDPM",
+   "10.48550/arxiv.2103.00020": "paper:CLIP",
+   "10.48550/arxiv.2102.12092": "paper:DALL-E-1",
+   "10.1109/cvpr52688.2022.01042": "paper:Stable-Diffusion-LDM",
+   "10.48550/arxiv.2106.09685": "paper:LoRA",
+   "10.52202/068431-2011": "paper:InstructGPT",
+   "10.48550/arxiv.1706.03741": "paper:RLHF-Preference-2017",
+   "10.1038/s41586-021-03819-2": "paper:AlphaFold2",
+   "10.1109/cvpr52688.2022.01553": "paper:MAE",
+   "10.1109/iccv48922.2021.00986": "paper:Swin-Transformer",
+   "10.48550/arxiv.2010.11929": "paper:ViT",
+   "10.52202/068431-1800": "paper:Chain-of-Thought",
+   "10.48550/arxiv.2210.03629": "paper:ReAct",
+   "10.52202/068431-1189": "paper:FlashAttention",
+   "10.52202/075280-0441": "paper:QLoRA",
+   "10.48550/arxiv.2501.12948": "paper:DeepSeek-R1",
+   "10.48550/arxiv.2303.08774": "paper:GPT-4-Tech-Report",
+   "10.48550/arxiv.1409.3215": "paper_R75-1",
+   "10.1109/tpami.2016.2577031": "paper_R75-2",
+   "10.48550/arxiv.1502.03167": "paper_R75-3",
+   "10.52202/068431-2176": "paper_R75-4",
+   "10.48550/arxiv.1803.03635": "paper_R75-5",
+   "10.1002/prot.25834": "paper_R93-1",
+   "10.1038/s41586-023-06735-9": "paper_R93-2",
+   "10.48550/arxiv.2005.14165": "paper:GPT-3-Paper",
+   "10.1109/cvpr.2015.7298594": "paper:GoogLeNet",
+   "10.48550/arxiv.2001.08361": "paper:Scaling-Laws-Kaplan",
+   "10.48550/arxiv.1301.3781": "paper:Word2Vec-Efficient",
+   "10.48550/arxiv.1906.08237": "paper:XLNet",
+   "10.48550/arxiv.2312.00752": "paper:Mamba",
+   "10.1126/science.aar6404": "paper:AlphaZero-Science",
+   "10.1038/s41586-020-03051-4": "paper:MuZero",
+   "10.48550/arxiv.1910.10683": "paper:T5",
+   "10.48550/arxiv.2101.03961": "paper:Switch-Transformer",
+   "10.1109/iccv.2017.322": "paper:Mask-R-CNN",
+   "10.48550/arxiv.2401.04088": "paper:Mixtral-of-Experts",
+   "10.48550/arxiv.1312.6114": "paper:VAE-Kingma",
+   "10.1109/tpami.2020.2970919": "paper:StyleGAN",
+   "10.48550/arxiv.2212.08073": "paper:Constitutional-AI",
+   "10.1109/iccv51070.2023.00371": "paper:Segment-Anything",
+   "10.48550/arxiv.2003.10555": "paper:ELECTRA",
+   "10.48550/arxiv.1907.11692": "paper:RoBERTa",
+   "10.18653/v1/2020.emnlp-main.550": "paper:DPR",
+   "10.48550/arxiv.1409.1556": "paper:VGG",
+   "10.48550/arxiv.1311.2524": "paper:R-CNN",
+   "10.48550/arxiv.1506.02640": "paper:YOLO",
+   "10.1007/978-3-319-24574-4_28": "paper:U-Net",
+   "10.48550/arxiv.1703.10593": "paper:CycleGAN",
+   "10.48550/arxiv.1901.02860": "paper:Transformer-XL",
+   "10.48550/arxiv.1910.13461": "paper:BART",
+   "10.48550/arxiv.2204.02311": "paper:PaLM",
+   "10.48550/arxiv.2305.18290": "paper:DPO",
+   "10.48550/arxiv.2005.11401": "paper:RAG-Lewis",
+   "10.48550/arxiv.1909.08053": "paper:Megatron-LM",
+   "10.48550/arxiv.1910.02054": "paper:ZeRO",
+   "10.48550/arxiv.2302.13971": "paper:LLaMA",
+   "10.48550/arxiv.2307.09288": "paper:Llama-2",
+   "10.48550/arxiv.2310.06825": "paper:Mistral-7B",
+   "10.48550/arxiv.2412.19437": "paper:DeepSeek-V3"
+  },
+  "openalex": {
+   "A5108093963": "concept_L29-6",
+   "A5006446297": "person_18",
+   "A5100450462": "person_19",
+   "A5009290031": "person_21",
+   "A5100700361": "person_22",
+   "A5110193145": "person_27",
+   "A5050303775": "person_28",
+   "A5053213601": "person_new_04",
+   "A5091771290": "person_new_72",
+   "A5021878400": "person_growth_01",
+   "A5051250767": "person_growth_05",
+   "A5103024730": "person_growth_08",
+   "A5005777963": "person_growth_09",
+   "A5022416424": "person_growth_10",
+   "A5023448834": "person_growth_11",
+   "A5049349154": "person_growth_14",
+   "A5076651586": "person_growth_36",
+   "A5009037058": "person_growth_37",
+   "A5090341705": "person_growth_38",
+   "A5026322200": "person_growth_40",
+   "A5004271128": "person_growth_87",
+   "A5031152245": "person_growth_91",
+   "A5025386668": "person_growth_97",
+   "A5091734792": "person_growth_98",
+   "A5103148807": "person_growth_99",
+   "A5059179935": "person_growth_101",
+   "A5100824251": "person_growth_104",
+   "A5100785015": "person_growth_105",
+   "A5100349451": "person_growth_106",
+   "A5082512329": "person_growth_107",
+   "A5043473089": "person_growth_108",
+   "A5001712647": "person_growth_126",
+   "A5002078510": "person_growth_135",
+   "A5049246408": "person_R75-1",
+   "A5003562101": "person_R75-4",
+   "W2163605009": "paper:AlexNet",
+   "W2626778328": "paper:Attention-Is-All-You-Need",
+   "W2963341956": "paper:BERT",
+   "W2949650786": "paper:ResNet",
+   "W2145339207": "paper:DQN",
+   "W2257979135": "paper:AlphaGo-Nature",
+   "W4298289240": "paper:GAN",
+   "W3036167779": "paper:DDPM",
+   "W3135367836": "paper:CLIP",
+   "W3129576130": "paper:DALL-E-1",
+   "W4312933868": "paper:Stable-Diffusion-LDM",
+   "W3168867926": "paper:LoRA",
+   "W7133211372": "paper:InstructGPT",
+   "W2626804490": "paper:RLHF-Preference-2017",
+   "W3177828909": "paper:AlphaFold2",
+   "W4226002507": "paper:MAE",
+   "W3138516171": "paper:Swin-Transformer",
+   "W3094502228": "paper:ViT",
+   "W7133224126": "paper:Chain-of-Thought",
+   "W4304195432": "paper:ReAct",
+   "W7133227460": "paper:FlashAttention",
+   "W7133233472": "paper:QLoRA",
+   "W4414281281": "paper:DeepSeek-R1",
+   "W4327810158": "paper:GPT-4-Tech-Report",
+   "W2130942839": "paper_R75-1",
+   "W639708223": "paper_R75-2",
+   "W1836465849": "paper_R75-3",
+   "W7133225605": "paper_R75-4",
+   "W2805003733": "paper_R75-5",
+   "W2980272550": "paper_R93-1",
+   "W4389132751": "paper_R93-2",
+   "W3030163527": "paper:GPT-3-Paper",
+   "W2097117768": "paper:GoogLeNet",
+   "W3001279689": "paper:Scaling-Laws-Kaplan",
+   "W1614298861": "paper:Word2Vec-Efficient",
+   "W2950813464": "paper:XLNet",
+   "W4389326242": "paper:Mamba",
+   "W2902907165": "paper:AlphaZero-Science",
+   "W2989847975": "paper:MuZero",
+   "W2981852735": "paper:T5",
+   "W3119866685": "paper:Switch-Transformer",
+   "W2963150697": "paper:Mask-R-CNN",
+   "W4390723197": "paper:Mixtral-of-Experts",
+   "W1959608418": "paper:VAE-Kingma",
+   "W2904367110": "paper:StyleGAN",
+   "W4311991106": "paper:Constitutional-AI",
+   "W4390874575": "paper:Segment-Anything",
+   "W2996035354": "paper:ELECTRA",
+   "W2965373594": "paper:RoBERTa",
+   "W3015883388": "paper:DPR",
+   "W1686810756": "paper:VGG",
+   "W2102605133": "paper:R-CNN",
+   "W1483870316": "paper:YOLO",
+   "W1901129140": "paper:U-Net",
+   "W2962793481": "paper:CycleGAN",
+   "W2911109671": "paper:Transformer-XL",
+   "W2982399380": "paper:BART",
+   "W4224308101": "paper:PaLM",
+   "W7133208539": "paper:DPO",
+   "W3027879771": "paper:RAG-Lewis",
+   "W2973727699": "paper:Megatron-LM",
+   "W3129831491": "paper:ZeRO",
+   "W4322718191": "paper:LLaMA",
+   "W4384918448": "paper:Llama-2",
+   "W4387561528": "paper:Mistral-7B",
+   "W4405903187": "paper:DeepSeek-V3"
+  },
+  "arxiv": {
+   "1406.2661": "paper:GAN",
+   "2501.12948": "paper:DeepSeek-R1",
+   "1502.03167": "paper_R75-3",
+   "1409.1556": "paper:VGG",
+   "1311.2524": "paper:R-CNN",
+   "1506.02640": "paper:YOLO",
+   "1703.10593": "paper:CycleGAN",
+   "1901.02860": "paper:Transformer-XL",
+   "1910.13461": "paper:BART",
+   "2204.02311": "paper:PaLM",
+   "2305.18290": "paper:DPO",
+   "2005.11401": "paper:RAG-Lewis",
+   "1909.08053": "paper:Megatron-LM",
+   "1910.02054": "paper:ZeRO",
+   "2302.13971": "paper:LLaMA",
+   "2307.09288": "paper:Llama-2",
+   "2310.06825": "paper:Mistral-7B",
+   "2412.19437": "paper:DeepSeek-V3"
+  },
+  "ror": {
+   "https://ror.org/05wx9n238": "company_14-1",
+   "https://ror.org/056y0v115": "company_14-3",
+   "https://ror.org/01zbnvs85": "company_14-4",
+   "https://ror.org/00d0nc645": "company_14-5",
+   "https://ror.org/05febkk55": "company_14-6",
+   "https://ror.org/04mv4n011": "company_14-7",
+   "https://ror.org/059hsda18": "company_14-8",
+   "https://ror.org/03jdj4y14": "company_14-9",
+   "https://ror.org/00z0kkz74": "company_14-10",
+   "https://ror.org/02rvfjx92": "company_14-12",
+   "https://ror.org/02grspc61": "company_14-13",
+   "https://ror.org/05w9p7918": "company_14-14",
+   "https://ror.org/01ynzx943": "company_14-18",
+   "https://ror.org/04m8av638": "company_14-19",
+   "https://ror.org/00k642b80": "company_14-20",
+   "https://ror.org/00hhjss72": "company_14-21",
+   "https://ror.org/03vs3wt56": "company_14-22",
+   "https://ror.org/05wa54d95": "company_14-23",
+   "https://ror.org/01ee25k38": "company_14-25",
+   "https://ror.org/005dzvw93": "company_14-26",
+   "https://ror.org/009pwww24": "company_14-30",
+   "https://ror.org/00cmhce21": "company_14-31",
+   "https://ror.org/05hh8d621": "company_14-56",
+   "https://ror.org/00r2rga43": "company_L20-18"
+  },
+  "epoch": {
+   "GPT-4o": "model:GPT-4o",
+   "GPT-4o mini": "model:GPT-4o-mini",
+   "o1": "model:o1",
+   "o3": "model:o3",
+   "o3-mini": "model:o3-mini",
+   "GPT-5": "model:GPT-5",
+   "DALL·E 2": "model:DALL-E-2",
+   "DALL·E 3": "model:DALL-E-3",
+   "Sora": "model:Sora",
+   "Claude 2": "model:Claude-2",
+   "Claude 2.1": "model:Claude-2.1",
+   "Claude 3 Haiku": "model:Claude-3-Haiku",
+   "Claude 3 Sonnet": "model:Claude-3-Sonnet",
+   "Claude 3 Opus": "model:Claude-3-Opus",
+   "Claude 3.5 Sonnet": "model:Claude-3.5-Sonnet",
+   "Claude 3.5 Haiku": "model:Claude-3.5-Haiku",
+   "Claude Sonnet 4.5": "model:Claude-Sonnet-4.5",
+   "Claude Opus 5.5": "model:Claude-Opus-5.5",
+   "PaLM (540B)": "model:PaLM",
+   "PaLM 2": "model:PaLM-2",
+   "Gemini 1.5 Pro": "model:Gemini-1.5-Pro",
+   "Gemini 1.0 Ultra": "model:Gemini-1.0-Ultra",
+   "Imagen": "model:Imagen",
+   "Veo": "model:Veo",
+   "Med-PaLM": "model:Med-PaLM",
+   "Llama 3.1-405B": "model:Llama-3.1-405B",
+   "DeepSeek-V3": "model:DeepSeek-V3",
+   "DeepSeek-R1": "model:DeepSeek-R1",
+   "GLM-130B": "model:GLM-130B",
+   "GLM-4": "model:GLM-4",
+   "GLM-4.5": "model:GLM-4.5",
+   "GLM-5": "model:GLM-5",
+   "GLM-5.2": "model:GLM-5.2",
+   "Kimi k1.5": "model:Kimi-K1.5",
+   "Kimi K2": "model:Kimi-K2",
+   "Kimi K2.5": "model:Kimi-K2.5",
+   "Kimi K3": "model:Kimi-K3",
+   "MiniMax-M2.5": "model:MiniMax-M2.5",
+   "MiniMax-M3": "model:MiniMax-M3",
+   "Stable Diffusion 1.5": "model:SD-1.5",
+   "Mistral 7B": "model:Mistral-7B",
+   "Mixtral 8x7B": "model:Mixtral-8x7B",
+   "Grok-1": "model:Grok-1",
+   "Grok 3": "model:Grok-3",
+   "Qwen2.5-1.5B": "model:Qwen2.5-1.5B",
+   "GPT-2 (1.5B)": "model_R71-1",
+   "Megatron-Turing NLG 530B": "model_R71-2",
+   "Qwen2.5-Max": "model_R71-7",
+   "Kimi K3.1 Pro": "model:Kimi-K3.1-Pro"
+  },
+  "wikidata": {},
+  "orcid": {}
+ }
+}
