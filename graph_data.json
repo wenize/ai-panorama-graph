@@ -165043,6 +165043,54 @@
     "doi": "10.48550/arxiv.2412.19437",
     "openalex": "W4405903187"
    }
+  },
+  {
+   "id": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "name": "Anthropic 数学家 Levent Alpöge 宣布找到 Lean 可编译的黎曼猜想证明（2026-11）",
+   "type": "event",
+   "desc": "2026 年 11 月中旬 Anthropic 在职数学家 Levent Alpöge 宣布获得 Lean 形式化验证系统可编译通过的黎曼猜想证明（1859 年提出、千禧年奖七大数学问题之一）。他在 11 月 15 日（周日）晚间致信 CEO Dario Amodei 商议宣布时机，自嘲时机糟糕——公司刚于 11 月 19 日完成史上最大 IPO。未公开人类可读版论文（称公开发布 25 万页不可读文本是明显不合适的），未发表版本超过 25 万页；证明经 Zulip 数学社区核读，东英吉利大学数论学者 Chris Birkbeck 等逐段解读上同数界与自守提升论证，社区多数相信形式化结果成立，完整验证仍需时日。此前 2026 年 10 月 19 日 Quanta 报道的准黎曼猜想（零点固定带 7/8 至 1）为另一团队不同成果。来源：TechCrunch+New Scientist+Quanta Magazine 多源（2026-11-21 检索）。",
+   "dim": 1,
+   "dim_name": "历史时间线",
+   "level": "L30",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "year": 2026,
+   "density": null,
+   "extension": 6
+  },
+  {
+   "id": "person_R1560-1",
+   "name": "Levent Alpöge",
+   "type": "person",
+   "desc": "Anthropic 在职数学家、数论研究者。2026 年 11 月宣布获得 Lean 可编译的黎曼猜想证明：向 CEO Dario Amodei 通报后经 Zulip 数学社区核读，未公开人类可读版（未发表版超 25 万页）。雇主 Anthropic 于同月 19 日上市，其成果与公司 AI for Math 叙事相互叠加。来源：TechCrunch+New Scientist 多源（2026-11-21 检索）。",
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis",
+   "year": null,
+   "density": null,
+   "extension": 2
+  },
+  {
+   "id": "concept_R1560-1",
+   "name": "黎曼猜想",
+   "type": "concept",
+   "desc": "1859 年黎曼提出的素数分布核心猜想：黎曼 zeta 函数非平凡零点全部位于实部 1/2 的临界线上，为克雷研究所七大千禧年奖难题之一（悬赏 100 万美元）。2026 年 11 月 Anthropic 数学家 Levent Alpöge 宣布获得 Lean 可编译证明，Zulip 数学社区核读中；此前 2026 年 10 月另有团队证明准黎曼猜想（零点固定带 7/8 至 1）。若成立将深远影响数论与密码学对素数分布的理解。来源：TechCrunch+Quanta Magazine 多源（2026-11-21 检索）。",
+   "dim": 2,
+   "dim_name": "理论学术",
+   "level": "L15",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
+   "year": 1859,
+   "density": null,
+   "extension": 2
   }
  ],
  "links": [
@@ -365962,6 +366010,62 @@
    "label": "",
    "year": null,
    "desc": "DeepSeek（深度求索）出品 V3 技术报告"
+  },
+  {
+   "source": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "target": "person_R1560-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Levent Alpöge 为黎曼猜想 Lean 证明的主张者"
+  },
+  {
+   "source": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 为证明者雇主并参与宣布"
+  },
+  {
+   "source": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "target": "concept_L29-14",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "证明者致信 CEO 达里奥·阿莫迪商议宣布时机"
+  },
+  {
+   "source": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "target": "concept_11-64",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "证明以 Lean 形式化验证系统可编译形式交付"
+  },
+  {
+   "source": "event:2026-11:Alpoge-Lean黎曼猜想证明声称",
+   "target": "concept_R1560-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "事件本体为黎曼猜想证明主张"
+  },
+  {
+   "source": "person_R1560-1",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Levent Alpöge 任 Anthropic 在职数学家"
+  },
+  {
+   "source": "concept_L29-14",
+   "target": "company_14-3",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "达里奥·阿莫迪为 Anthropic CEO 并接收证明通报"
   }
  ]
 }
