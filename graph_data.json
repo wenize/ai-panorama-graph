@@ -38707,7 +38707,10 @@
    "link": "../详情/深化_人物线.md",
    "year": 1986,
    "density": 9.4,
-   "extension": 40
+   "extension": 40,
+   "xid": {
+    "openalex": "A5108093963"
+   }
   },
   {
    "id": "concept_L29-7",
@@ -58819,7 +58822,10 @@
    "link": "https://openai.com/index/accelerating-the-next-phase-ai/",
    "year": 2015,
    "density": 9.4,
-   "extension": 723
+   "extension": 723,
+   "xid": {
+    "ror": "https://ror.org/05wx9n238"
+   }
   },
   {
    "id": "company_14-2",
@@ -58851,7 +58857,10 @@
    "link": "https://www.anthropic.com/news/series-h",
    "year": 2021,
    "density": 9.4,
-   "extension": 263
+   "extension": 263,
+   "xid": {
+    "ror": "https://ror.org/056y0v115"
+   }
   },
   {
    "id": "company_14-4",
@@ -58867,7 +58876,10 @@
    "link": "https://about.fb.com/br/news/2025/04/modelos-llama-4/",
    "year": 2004,
    "density": 9.4,
-   "extension": 290
+   "extension": 290,
+   "xid": {
+    "ror": "https://ror.org/01zbnvs85"
+   }
   },
   {
    "id": "company_14-5",
@@ -58883,7 +58895,10 @@
    "link": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
    "year": 1975,
    "density": 9.4,
-   "extension": 239
+   "extension": 239,
+   "xid": {
+    "ror": "https://ror.org/00d0nc645"
+   }
   },
   {
    "id": "company_14-6",
@@ -58899,7 +58914,10 @@
    "link": "https://stcn.com/article/detail/3576239.html",
    "year": 2023,
    "density": 9.4,
-   "extension": 51
+   "extension": 51,
+   "xid": {
+    "ror": "https://ror.org/05febkk55"
+   }
   },
   {
    "id": "company_14-7",
@@ -58915,7 +58933,10 @@
    "link": "https://aws.amazon.com/about-aws/whats-new/2026/07/openai-gpt-sol-terra/",
    "year": 1994,
    "density": 9.4,
-   "extension": 98
+   "extension": 98,
+   "xid": {
+    "ror": "https://ror.org/04mv4n011"
+   }
   },
   {
    "id": "company_14-8",
@@ -58931,7 +58952,10 @@
    "link": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
    "year": 1976,
    "density": 9.4,
-   "extension": 60
+   "extension": 60,
+   "xid": {
+    "ror": "https://ror.org/059hsda18"
+   }
   },
   {
    "id": "company_14-9",
@@ -58947,7 +58971,10 @@
    "link": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf",
    "year": 1993,
    "density": 9.4,
-   "extension": 315
+   "extension": 315,
+   "xid": {
+    "ror": "https://ror.org/03jdj4y14"
+   }
   },
   {
    "id": "company_14-10",
@@ -58963,7 +58990,10 @@
    "link": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
    "year": 1969,
    "density": 9.4,
-   "extension": 58
+   "extension": 58,
+   "xid": {
+    "ror": "https://ror.org/00z0kkz74"
+   }
   },
   {
    "id": "company_14-11",
@@ -58995,7 +59025,10 @@
    "link": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/6f49632674bd2d0fd48cb65aaf89ec6ab510b559/2Q26%20ManagementReport.pdf",
    "year": 1987,
    "density": 9.4,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "ror": "https://ror.org/02rvfjx92"
+   }
   },
   {
    "id": "company_14-13",
@@ -59011,7 +59044,10 @@
    "link": "https://aiwiki.ai/wiki/hugging_face",
    "year": 2016,
    "density": 9.4,
-   "extension": 148
+   "extension": 148,
+   "xid": {
+    "ror": "https://ror.org/02grspc61"
+   }
   },
   {
    "id": "company_14-14",
@@ -59027,7 +59063,10 @@
    "link": "https://notebooklm-to-pdf.com/ar/blog/mistral-vibe-funding",
    "year": 2023,
    "density": 9.4,
-   "extension": 68
+   "extension": 68,
+   "xid": {
+    "ror": "https://ror.org/05w9p7918"
+   }
   },
   {
    "id": "company_14-15",
@@ -59091,7 +59130,10 @@
    "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales",
    "year": 2013,
    "density": 9.4,
-   "extension": 40
+   "extension": 40,
+   "xid": {
+    "ror": "https://ror.org/01ynzx943"
+   }
   },
   {
    "id": "company_14-19",
@@ -59107,7 +59149,10 @@
    "link": "https://research.doubao.com/zh/",
    "year": 2012,
    "density": 10.0,
-   "extension": 55
+   "extension": 55,
+   "xid": {
+    "ror": "https://ror.org/04m8av638"
+   }
   },
   {
    "id": "company_14-20",
@@ -59123,7 +59168,10 @@
    "link": "https://qwen.ai/blog?id=qwen3.5",
    "year": 1999,
    "density": 10.0,
-   "extension": 122
+   "extension": 122,
+   "xid": {
+    "ror": "https://ror.org/00k642b80"
+   }
   },
   {
    "id": "company_14-21",
@@ -59139,7 +59187,10 @@
    "link": "http://www.news.cn/tech/20260828/b12d8417291b4193ba9e5d435a1a40db/c.html",
    "year": 1998,
    "density": 10.0,
-   "extension": 32
+   "extension": 32,
+   "xid": {
+    "ror": "https://ror.org/00hhjss72"
+   }
   },
   {
    "id": "company_14-22",
@@ -59155,7 +59206,10 @@
    "link": "http://www.cnr.cn/shanghai/kcxtd/20260123/t20260123_527503441.shtml",
    "year": 2000,
    "density": 10.0,
-   "extension": 37
+   "extension": 37,
+   "xid": {
+    "ror": "https://ror.org/03vs3wt56"
+   }
   },
   {
    "id": "company_14-23",
@@ -59171,7 +59225,10 @@
    "link": "https://api-docs.deepseek.com/zh-cn/news/news250120/",
    "year": 2023,
    "density": 10.0,
-   "extension": 41
+   "extension": 41,
+   "xid": {
+    "ror": "https://ror.org/05wa54d95"
+   }
   },
   {
    "id": "company_14-24",
@@ -59203,7 +59260,10 @@
    "link": "https://www.caixin.com/2026-01-09/102401896.html",
    "year": 2021,
    "density": 10.0,
-   "extension": 33
+   "extension": 33,
+   "xid": {
+    "ror": "https://ror.org/01ee25k38"
+   }
   },
   {
    "id": "company_14-26",
@@ -59219,7 +59279,10 @@
    "link": "https://www.caixin.com/2026-06-18/102455438.html",
    "year": 2019,
    "density": 10.0,
-   "extension": 21
+   "extension": 21,
+   "xid": {
+    "ror": "https://ror.org/005dzvw93"
+   }
   },
   {
    "id": "company_14-27",
@@ -59285,7 +59348,10 @@
    "year": 1999,
    "density": 10.0,
    "extension": 9,
-   "note": " | [r484a merge] 讯飞星火大模型（2023-05 发布，全国产算力训练，含文本/语音/多模态/同传/深度推理 X1）；教育（星火批阅机/AI 黑板/星光教师）、医疗（星火医疗大模型/影像云）、开放平台 MaaS。"
+   "note": " | [r484a merge] 讯飞星火大模型（2023-05 发布，全国产算力训练，含文本/语音/多模态/同传/深度推理 X1）；教育（星火批阅机/AI 黑板/星光教师）、医疗（星火医疗大模型/影像云）、开放平台 MaaS。",
+   "xid": {
+    "ror": "https://ror.org/009pwww24"
+   }
   },
   {
    "id": "company_14-31",
@@ -59301,7 +59367,10 @@
    "link": "https://www.huaweicloud.com/news/2026/20260731095113610.html",
    "year": 1987,
    "density": 10.0,
-   "extension": 47
+   "extension": 47,
+   "xid": {
+    "ror": "https://ror.org/00cmhce21"
+   }
   },
   {
    "id": "company_14-33",
@@ -59685,7 +59754,10 @@
    "link": "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
    "year": 1911,
    "density": 9.4,
-   "extension": 38
+   "extension": 38,
+   "xid": {
+    "ror": "https://ror.org/05hh8d621"
+   }
   },
   {
    "id": "company_14-57",
@@ -61125,7 +61197,10 @@
    "link": "https://www.stcn.com/article/detail/3895763.html",
    "year": 2016,
    "density": 10.0,
-   "extension": 42
+   "extension": 42,
+   "xid": {
+    "ror": "https://ror.org/00r2rga43"
+   }
   },
   {
    "id": "company_L20-19",
@@ -69239,7 +69314,10 @@
    "link": null,
    "year": 1986,
    "density": null,
-   "extension": 60
+   "extension": 60,
+   "xid": {
+    "openalex": "A5006446297"
+   }
   },
   {
    "id": "person_19",
@@ -69255,7 +69333,10 @@
    "link": null,
    "year": 1976,
    "density": null,
-   "extension": 22
+   "extension": 22,
+   "xid": {
+    "openalex": "A5100450462"
+   }
   },
   {
    "id": "person_21",
@@ -69271,7 +69352,10 @@
    "link": "https://karpathy.ai",
    "year": 1986,
    "density": null,
-   "extension": 23
+   "extension": 23,
+   "xid": {
+    "openalex": "A5009290031"
+   }
   },
   {
    "id": "person_22",
@@ -69287,7 +69371,10 @@
    "link": "https://people.csail.mit.edu/kaiming/",
    "year": 1984,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "openalex": "A5100700361"
+   }
   },
   {
    "id": "person_24",
@@ -69335,7 +69422,10 @@
    "link": null,
    "year": 1985,
    "density": null,
-   "extension": 21
+   "extension": 21,
+   "xid": {
+    "openalex": "A5110193145"
+   }
   },
   {
    "id": "person_28",
@@ -69351,7 +69441,10 @@
    "link": null,
    "year": 1992,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5050303775"
+   }
   },
   {
    "id": "person_new_01",
@@ -69415,7 +69508,10 @@
    "link": null,
    "year": 1984,
    "density": null,
-   "extension": 20
+   "extension": 20,
+   "xid": {
+    "openalex": "A5053213601"
+   }
   },
   {
    "id": "person_new_05",
@@ -70391,7 +70487,10 @@
    "link": null,
    "year": 1976,
    "density": null,
-   "extension": 20
+   "extension": 20,
+   "xid": {
+    "openalex": "A5091771290"
+   }
   },
   {
    "id": "person_new_73",
@@ -70503,7 +70602,10 @@
    "link": "https://aiwiki.ai/wiki/noam_shazeer",
    "year": 1976,
    "density": null,
-   "extension": 21
+   "extension": 21,
+   "xid": {
+    "openalex": "A5021878400"
+   }
   },
   {
    "id": "person_growth_02",
@@ -70567,7 +70669,10 @@
    "link": "https://m.baike.com/wiki/思维机器实验室/7615869363039731752",
    "year": 1993,
    "density": null,
-   "extension": 29
+   "extension": 29,
+   "xid": {
+    "openalex": "A5051250767"
+   }
   },
   {
    "id": "person_growth_06",
@@ -70615,7 +70720,10 @@
    "link": "https://www.aiwiki.ai/wiki/ashish_vaswani",
    "year": 1986,
    "density": null,
-   "extension": 23
+   "extension": 23,
+   "xid": {
+    "openalex": "A5103024730"
+   }
   },
   {
    "id": "person_growth_09",
@@ -70631,7 +70739,10 @@
    "link": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
    "year": null,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "openalex": "A5005777963"
+   }
   },
   {
    "id": "person_growth_10",
@@ -70647,7 +70758,10 @@
    "link": "https://dev.to/bluelobster_agent/the-transformer-paper-had-8-authors-all-8-left-google-4jhd",
    "year": null,
    "density": null,
-   "extension": 18
+   "extension": 18,
+   "xid": {
+    "openalex": "A5022416424"
+   }
   },
   {
    "id": "person_growth_11",
@@ -70663,7 +70777,10 @@
    "link": "https://www.aiwiki.ai/wiki/llion_jones",
    "year": null,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5023448834"
+   }
   },
   {
    "id": "person_growth_12",
@@ -70711,7 +70828,10 @@
    "link": "https://aiwiki.ai/wiki/covariant",
    "year": 1977,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5049349154"
+   }
   },
   {
    "id": "person_growth_15",
@@ -71047,7 +71167,10 @@
    "link": "https://openai.com/",
    "year": 1988,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "openalex": "A5076651586"
+   }
   },
   {
    "id": "person_growth_37",
@@ -71063,7 +71186,10 @@
    "link": "https://arxiv.org/pdf/1707.06347",
    "year": 1987,
    "density": null,
-   "extension": 22
+   "extension": 22,
+   "xid": {
+    "openalex": "A5009037058"
+   }
   },
   {
    "id": "person_growth_38",
@@ -71079,7 +71205,10 @@
    "link": "https://www.nec.com/en/press/202410/images/1501-01-02.pdf",
    "year": 1980,
    "density": null,
-   "extension": 21
+   "extension": 21,
+   "xid": {
+    "openalex": "A5090341705"
+   }
   },
   {
    "id": "person_growth_39",
@@ -71111,7 +71240,10 @@
    "link": "https://www.314159.com/",
    "year": 1987,
    "density": null,
-   "extension": 15
+   "extension": 15,
+   "xid": {
+    "openalex": "A5026322200"
+   }
   },
   {
    "id": "person_growth_41",
@@ -71847,7 +71979,10 @@
    "link": "https://www.aiwiki.ai/wiki/ian_goodfellow",
    "year": 1987,
    "density": null,
-   "extension": 22
+   "extension": 22,
+   "xid": {
+    "openalex": "A5004271128"
+   }
   },
   {
    "id": "person_growth_88",
@@ -71911,7 +72046,10 @@
    "link": "https://media.utoronto.ca/media-releases/u-of-t-neural-networks-start-up-acquired-by-google/",
    "year": 1986,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "openalex": "A5031152245"
+   }
   },
   {
    "id": "person_growth_92",
@@ -72007,7 +72145,10 @@
    "link": "https://arxiv.org/abs/2111.00396",
    "year": null,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5025386668"
+   }
   },
   {
    "id": "person_growth_98",
@@ -72023,7 +72164,10 @@
    "link": "https://aiwiki.ai/wiki/tri_dao",
    "year": null,
    "density": null,
-   "extension": 20
+   "extension": 20,
+   "xid": {
+    "openalex": "A5091734792"
+   }
   },
   {
    "id": "person_growth_99",
@@ -72039,7 +72183,10 @@
    "link": "https://cs.stanford.edu/people/chrismre",
    "year": null,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5103148807"
+   }
   },
   {
    "id": "person_growth_100",
@@ -72071,7 +72218,10 @@
    "link": "https://www.nobelprize.org/prizes/chemistry/2024/jumper/facts/",
    "year": 1985,
    "density": null,
-   "extension": 24
+   "extension": 24,
+   "xid": {
+    "openalex": "A5059179935"
+   }
   },
   {
    "id": "person_growth_102",
@@ -72119,7 +72269,10 @@
    "link": "https://arxiv.org/abs/1506.01497",
    "year": 1988,
    "density": null,
-   "extension": 18
+   "extension": 18,
+   "xid": {
+    "openalex": "A5100824251"
+   }
   },
   {
    "id": "person_growth_105",
@@ -72135,7 +72288,10 @@
    "link": "https://arxiv.org/abs/1512.03385",
    "year": 1976,
    "density": null,
-   "extension": 26
+   "extension": 26,
+   "xid": {
+    "openalex": "A5100785015"
+   }
   },
   {
    "id": "person_growth_106",
@@ -72151,7 +72307,10 @@
    "link": "https://arxiv.org/abs/2103.14030",
    "year": null,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "openalex": "A5100349451"
+   }
   },
   {
    "id": "person_growth_107",
@@ -72167,7 +72326,10 @@
    "link": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
    "year": null,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "openalex": "A5082512329"
+   }
   },
   {
    "id": "person_growth_108",
@@ -72183,7 +72345,10 @@
    "link": "https://arxiv.org/abs/1410.5401",
    "year": null,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "openalex": "A5043473089"
+   }
   },
   {
    "id": "person_growth_110",
@@ -72439,7 +72604,10 @@
    "link": "https://en.wikipedia.org/wiki/Mustafa_Suleyman",
    "year": 1984,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "openalex": "A5001712647"
+   }
   },
   {
    "id": "person_growth_127",
@@ -72583,7 +72751,10 @@
    "link": "https://soumith.ch/",
    "year": null,
    "density": null,
-   "extension": 24
+   "extension": 24,
+   "xid": {
+    "openalex": "A5002078510"
+   }
   },
   {
    "id": "person_growth_136",
@@ -73287,7 +73458,10 @@
    "link": null,
    "year": null,
    "density": null,
-   "extension": 23
+   "extension": 23,
+   "xid": {
+    "openalex": "A5049246408"
+   }
   },
   {
    "id": "person_R75-2",
@@ -73335,7 +73509,10 @@
    "link": null,
    "year": 1983,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "openalex": "A5003562101"
+   }
   },
   {
    "id": "person_R75-5",
@@ -89543,7 +89720,11 @@
    "link": "https://arxiv.org/abs/1206.5538",
    "year": 2012,
    "density": null,
-   "extension": 12
+   "extension": 12,
+   "xid": {
+    "openalex": "W2163605009",
+    "doi": "10.1145/3065386"
+   }
   },
   {
    "id": "paper:Attention-Is-All-You-Need",
@@ -89559,7 +89740,11 @@
    "link": "https://arxiv.org/abs/1706.03762",
    "year": 2017,
    "density": null,
-   "extension": 12
+   "extension": 12,
+   "xid": {
+    "openalex": "W2626778328",
+    "doi": "10.48550/arxiv.1706.03762"
+   }
   },
   {
    "id": "paper:BERT",
@@ -89575,7 +89760,11 @@
    "link": "https://arxiv.org/abs/1810.04805",
    "year": 2018,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "openalex": "W2963341956",
+    "doi": "10.18653/v1/n19-1423"
+   }
   },
   {
    "id": "paper:GPT-1",
@@ -89607,7 +89796,11 @@
    "link": "https://arxiv.org/abs/1512.03385",
    "year": 2015,
    "density": null,
-   "extension": 10
+   "extension": 10,
+   "xid": {
+    "openalex": "W2949650786",
+    "doi": "10.48550/arxiv.1512.03385"
+   }
   },
   {
    "id": "paper:DQN",
@@ -89623,7 +89816,11 @@
    "link": "https://www.nature.com/articles/nature14236",
    "year": 2015,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W2145339207",
+    "doi": "10.1038/nature14236"
+   }
   },
   {
    "id": "paper:AlphaGo-Nature",
@@ -89639,7 +89836,11 @@
    "link": "https://www.nature.com/articles/nature16961",
    "year": 2016,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "openalex": "W2257979135",
+    "doi": "10.1038/nature16961"
+   }
   },
   {
    "id": "paper:GAN",
@@ -89655,7 +89856,11 @@
    "link": "https://arxiv.org/abs/1406.2661",
    "year": 2014,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "arxiv": "1406.2661",
+    "doi": "10.48550/arxiv.1406.2661"
+   }
   },
   {
    "id": "paper:DDPM",
@@ -89671,7 +89876,11 @@
    "link": "https://arxiv.org/abs/2006.11239",
    "year": 2020,
    "density": null,
-   "extension": 7
+   "extension": 7,
+   "xid": {
+    "openalex": "W3036167779",
+    "doi": "10.48550/arxiv.2006.11239"
+   }
   },
   {
    "id": "paper:CLIP",
@@ -89687,7 +89896,11 @@
    "link": "https://arxiv.org/abs/2103.00020",
    "year": 2021,
    "density": null,
-   "extension": 10
+   "extension": 10,
+   "xid": {
+    "openalex": "W3135367836",
+    "doi": "10.48550/arxiv.2103.00020"
+   }
   },
   {
    "id": "paper:DALL-E-1",
@@ -89703,7 +89916,11 @@
    "link": "https://arxiv.org/abs/2102.12092",
    "year": 2021,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W3129576130",
+    "doi": "10.48550/arxiv.2102.12092"
+   }
   },
   {
    "id": "paper:Stable-Diffusion-LDM",
@@ -89719,7 +89936,11 @@
    "link": "https://arxiv.org/abs/2112.10752",
    "year": 2022,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "openalex": "W4312933868",
+    "doi": "10.1109/cvpr52688.2022.01042"
+   }
   },
   {
    "id": "paper:LoRA",
@@ -89735,7 +89956,11 @@
    "link": "https://arxiv.org/abs/2106.09685",
    "year": 2022,
    "density": null,
-   "extension": 5
+   "extension": 5,
+   "xid": {
+    "openalex": "W3168867926",
+    "doi": "10.48550/arxiv.2106.09685"
+   }
   },
   {
    "id": "paper:InstructGPT",
@@ -89751,7 +89976,11 @@
    "link": "https://arxiv.org/abs/2203.02155",
    "year": 2022,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "openalex": "W7133211372",
+    "doi": "10.52202/068431-2011"
+   }
   },
   {
    "id": "paper:RLHF-Preference-2017",
@@ -89767,7 +89996,11 @@
    "link": "https://arxiv.org/abs/1706.03741",
    "year": 2017,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "openalex": "W2626804490",
+    "doi": "10.48550/arxiv.1706.03741"
+   }
   },
   {
    "id": "paper:AlphaFold2",
@@ -89783,7 +90016,11 @@
    "link": "https://www.nature.com/articles/s41586-021-03819-2",
    "year": 2021,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "openalex": "W3177828909",
+    "doi": "10.1038/s41586-021-03819-2"
+   }
   },
   {
    "id": "paper:MAE",
@@ -89799,7 +90036,11 @@
    "link": "https://arxiv.org/abs/2111.06377",
    "year": 2021,
    "density": null,
-   "extension": 7
+   "extension": 7,
+   "xid": {
+    "openalex": "W4226002507",
+    "doi": "10.1109/cvpr52688.2022.01553"
+   }
   },
   {
    "id": "paper:Swin-Transformer",
@@ -89815,7 +90056,11 @@
    "link": "https://arxiv.org/abs/2103.14030",
    "year": 2021,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "openalex": "W3138516171",
+    "doi": "10.1109/iccv48922.2021.00986"
+   }
   },
   {
    "id": "paper:ViT",
@@ -89831,7 +90076,11 @@
    "link": "https://arxiv.org/abs/2010.11929",
    "year": 2020,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "openalex": "W3094502228",
+    "doi": "10.48550/arxiv.2010.11929"
+   }
   },
   {
    "id": "paper:Chain-of-Thought",
@@ -89847,7 +90096,11 @@
    "link": "https://arxiv.org/abs/2201.11903",
    "year": 2022,
    "density": null,
-   "extension": 7
+   "extension": 7,
+   "xid": {
+    "openalex": "W7133224126",
+    "doi": "10.52202/068431-1800"
+   }
   },
   {
    "id": "paper:ReAct",
@@ -89863,7 +90116,11 @@
    "link": "https://arxiv.org/abs/2210.03629",
    "year": 2022,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W4304195432",
+    "doi": "10.48550/arxiv.2210.03629"
+   }
   },
   {
    "id": "paper:FlashAttention",
@@ -89879,7 +90136,11 @@
    "link": "https://arxiv.org/abs/2205.14135",
    "year": 2022,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "openalex": "W7133227460",
+    "doi": "10.52202/068431-1189"
+   }
   },
   {
    "id": "paper:QLoRA",
@@ -89895,7 +90156,11 @@
    "link": "https://arxiv.org/abs/2305.14314",
    "year": 2023,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W7133233472",
+    "doi": "10.52202/075280-0441"
+   }
   },
   {
    "id": "paper:DeepSeek-R1",
@@ -89911,7 +90176,11 @@
    "link": "https://arxiv.org/abs/2501.12948",
    "year": 2025,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "arxiv": "2501.12948",
+    "doi": "10.48550/arxiv.2501.12948"
+   }
   },
   {
    "id": "paper:GPT-4-Tech-Report",
@@ -89927,7 +90196,11 @@
    "link": "https://arxiv.org/abs/2303.08774",
    "year": 2023,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "openalex": "W4327810158",
+    "doi": "10.48550/arxiv.2303.08774"
+   }
   },
   {
    "id": "paper_R75-1",
@@ -89943,7 +90216,11 @@
    "link": null,
    "year": 2014,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W2130942839",
+    "doi": "10.48550/arxiv.1409.3215"
+   }
   },
   {
    "id": "paper_R75-2",
@@ -89959,7 +90236,11 @@
    "link": null,
    "year": 2015,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W639708223",
+    "doi": "10.1109/tpami.2016.2577031"
+   }
   },
   {
    "id": "paper_R75-3",
@@ -89975,7 +90256,11 @@
    "link": "https://arxiv.org/abs/1502.03167",
    "year": 2015,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "arxiv": "1502.03167",
+    "doi": "10.48550/arxiv.1502.03167"
+   }
   },
   {
    "id": "paper_R75-4",
@@ -89991,7 +90276,11 @@
    "link": "https://arxiv.org/abs/2203.15556",
    "year": 2022,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W7133225605",
+    "doi": "10.52202/068431-2176"
+   }
   },
   {
    "id": "paper_R75-5",
@@ -90007,7 +90296,11 @@
    "link": "https://arxiv.org/abs/1803.03635",
    "year": 2019,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W2805003733",
+    "doi": "10.48550/arxiv.1803.03635"
+   }
   },
   {
    "id": "paper_R93-1",
@@ -90023,7 +90316,11 @@
    "link": "https://onlinelibrary.wiley.com/doi/10.1002/prot.25615",
    "year": 2018,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W2980272550",
+    "doi": "10.1002/prot.25834"
+   }
   },
   {
    "id": "paper_R93-2",
@@ -90039,7 +90336,11 @@
    "link": "https://www.nature.com/articles/s41586-023-06735-w",
    "year": 2023,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "openalex": "W4389132751",
+    "doi": "10.1038/s41586-023-06735-9"
+   }
   },
   {
    "id": "model:GPT-3",
@@ -90119,7 +90420,10 @@
    "link": "https://openai.com/index/hello-gpt-4o/",
    "year": 2024,
    "density": null,
-   "extension": 27
+   "extension": 27,
+   "xid": {
+    "epoch": "GPT-4o"
+   }
   },
   {
    "id": "model:GPT-4o-mini",
@@ -90135,7 +90439,10 @@
    "link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
    "year": 2024,
    "density": null,
-   "extension": 17
+   "extension": 17,
+   "xid": {
+    "epoch": "GPT-4o mini"
+   }
   },
   {
    "id": "model:o1",
@@ -90151,7 +90458,10 @@
    "link": "https://openai.com/index/learning-to-reason-with-llms/",
    "year": 2024,
    "density": null,
-   "extension": 25
+   "extension": 25,
+   "xid": {
+    "epoch": "o1"
+   }
   },
   {
    "id": "model:o3",
@@ -90167,7 +90477,10 @@
    "link": "https://openai.com/index/introducing-o3-and-o4-mini/",
    "year": 2025,
    "density": null,
-   "extension": 26
+   "extension": 26,
+   "xid": {
+    "epoch": "o3"
+   }
   },
   {
    "id": "model:o3-mini",
@@ -90183,7 +90496,10 @@
    "link": "https://openai.com/index/openai-o3-mini/",
    "year": 2025,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "epoch": "o3-mini"
+   }
   },
   {
    "id": "model:GPT-4.5",
@@ -90208,14 +90524,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "OpenAI 2025-08 发布，将 o 系推理并入 GPT 主系，统一思考/非思考双模式，由模型自适应决定推理深度。OpenAI 官方页实测口径：AIME 2025 无工具 94.6%、SWE-bench Verified 74.9%、Aider Polyglot 88%、MMMU 84.2%、GPQA 88.4%（GPT-5 pro 新 SOTA）；较 o3 省 50~80% 输出 token、长文幻觉约少 6 倍，谄媚率由 14.5% 降至 6% 以下，双用途话题改 safe completions 训练并经 5000 小时红队（CAISI/UK AISI）。来源：OpenAI 官方页（2026-11-19 检索）。",
+   "desc": "OpenAI 2025-08 发布，将 o 系推理并入 GPT 主系，统一思考/非思考双模式，由模型自适应决定推理深度。OpenAI 官方页实测口径：AIME 2025 无工具 94.6%、SWE-bench Verified 74.9%、Aider Polyglot 88%、MMMU 84.2%、GPQA 88.4%（GPT-5 pro 新 SOTA）；较 o3 省 50~80% 输出 token、长文幻觉约少 6 倍，谄媚率由 14.5% 降至 6% 以下，双用途话题改 safe completions 训练并经 5000 小时红队（CAISI/UK AISI）。来源：OpenAI 官方页（2026-11-19 检索）。Epoch AI 数据：训练算力约 6.6×10^25 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
    "link": "https://openai.com/index/introducing-gpt-5/",
    "year": 2017,
    "density": null,
-   "extension": 22
+   "extension": 22,
+   "xid": {
+    "epoch": "GPT-5"
+   }
   },
   {
    "id": "model:DALL-E-2",
@@ -90224,14 +90543,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "DALL·E 2（2022-04 OpenAI 发布）：文生图模型第二代——unCLIP 架构（CLIP embedding→扩散解码器），支持 inpainting/outpainting/variations；图像分辨率 1024×1024；API 商业化（后集成至 DALL·E 3 并最终由 GPT-4o 原生图像生成接替）。来源：OpenAI 官方（2026-11-01）。",
+   "desc": "DALL·E 2（2022-04 OpenAI 发布）：文生图模型第二代——unCLIP 架构（CLIP embedding→扩散解码器），支持 inpainting/outpainting/variations；图像分辨率 1024×1024；API 商业化（后集成至 DALL·E 3 并最终由 GPT-4o 原生图像生成接替）。来源：OpenAI 官方（2026-11-01）。Epoch AI 数据：参数约 35 亿，训练算力约 3.37×10^23 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2204.06125",
    "link": "https://arxiv.org/abs/2204.06125",
    "year": 2022,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "epoch": "DALL·E 2"
+   }
   },
   {
    "id": "model:DALL-E-3",
@@ -90247,7 +90569,10 @@
    "link": "https://openai.com/index/dall-e-3/",
    "year": 2022,
    "density": null,
-   "extension": 7
+   "extension": 7,
+   "xid": {
+    "epoch": "DALL·E 3"
+   }
   },
   {
    "id": "model:Sora",
@@ -90263,7 +90588,10 @@
    "link": "https://openai.com/index/sora/",
    "year": 2024,
    "density": null,
-   "extension": 15
+   "extension": 15,
+   "xid": {
+    "epoch": "Sora"
+   }
   },
   {
    "id": "model:Sora-2",
@@ -90320,14 +90648,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Claude 2：Anthropic Claude 2 系列对话模型（2023-07 发布），100K token 上下文（当时业界领先），在编程/数学/推理上较 Claude 1 大幅提升；是 Claude 3 系列的直接前身，首个被广泛商用的 Anthropic 模型版本（Slack/Notion 等第三方集成）。来源：Anthropic 发布报道（2026-11-01 检索）。",
+   "desc": "Claude 2：Anthropic Claude 2 系列对话模型（2023-07 发布），100K token 上下文（当时业界领先），在编程/数学/推理上较 Claude 1 大幅提升；是 Claude 3 系列的直接前身，首个被广泛商用的 Anthropic 模型版本（Slack/Notion 等第三方集成）。来源：Anthropic 发布报道（2026-11-01 检索）。Epoch AI 数据：训练算力约 3.87×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
    "year": 2023,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "epoch": "Claude 2"
+   }
   },
   {
    "id": "model:Claude-2.1",
@@ -90343,7 +90674,10 @@
    "link": null,
    "year": 2023,
    "density": null,
-   "extension": 10
+   "extension": 10,
+   "xid": {
+    "epoch": "Claude 2.1"
+   }
   },
   {
    "id": "model:Claude-3-Haiku",
@@ -90359,7 +90693,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 12
+   "extension": 12,
+   "xid": {
+    "epoch": "Claude 3 Haiku"
+   }
   },
   {
    "id": "model:Claude-3-Sonnet",
@@ -90375,7 +90712,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 13
+   "extension": 13,
+   "xid": {
+    "epoch": "Claude 3 Sonnet"
+   }
   },
   {
    "id": "model:Claude-3-Opus",
@@ -90391,7 +90731,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "epoch": "Claude 3 Opus"
+   }
   },
   {
    "id": "model:Claude-3.5-Sonnet",
@@ -90407,7 +90750,10 @@
    "link": "https://www.anthropic.com/news/claude-3-5-sonnet",
    "year": 2024,
    "density": null,
-   "extension": 21
+   "extension": 21,
+   "xid": {
+    "epoch": "Claude 3.5 Sonnet"
+   }
   },
   {
    "id": "model:Claude-3.5-Haiku",
@@ -90423,7 +90769,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "epoch": "Claude 3.5 Haiku"
+   }
   },
   {
    "id": "model:Claude-4",
@@ -90455,7 +90804,10 @@
    "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
    "year": 2025,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "epoch": "Claude Sonnet 4.5"
+   }
   },
   {
    "id": "model:Claude-Opus-5.5",
@@ -90471,7 +90823,10 @@
    "link": "https://www.anthropic.com/news/claude-opus-5-5",
    "year": 2026,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "Claude Opus 5.5"
+   }
   },
   {
    "id": "model:PaLM",
@@ -90480,14 +90835,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Google Brain 2022-04 发布的 540B 稠密 Transformer，当时世界最大稠密 LLM，Pathways 系统首次大规模实战。",
+   "desc": "Google Brain 2022-04 发布的 540B 稠密 Transformer，当时世界最大稠密 LLM，Pathways 系统首次大规模实战。Epoch AI 数据：参数约 5404 亿，训练算力约 2.53×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2204.02311",
    "link": "https://arxiv.org/abs/2204.02311",
    "year": 2022,
    "density": null,
-   "extension": 20
+   "extension": 20,
+   "xid": {
+    "epoch": "PaLM (540B)"
+   }
   },
   {
    "id": "model:PaLM-2",
@@ -90496,14 +90854,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Google 2023-05 I/O 发布，五档（Ultra/Large/Medium/Small/Gecko），支撑 Bard 与 Vertex AI。",
+   "desc": "Google 2023-05 I/O 发布，五档（Ultra/Large/Medium/Small/Gecko），支撑 Bard 与 Vertex AI。Epoch AI 数据：参数约 3400 亿，训练算力约 7.34×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
    "year": 2023,
    "density": null,
-   "extension": 12
+   "extension": 12,
+   "xid": {
+    "epoch": "PaLM 2"
+   }
   },
   {
    "id": "model:Gemini-1.0",
@@ -90535,7 +90896,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 20
+   "extension": 20,
+   "xid": {
+    "epoch": "Gemini 1.5 Pro"
+   }
   },
   {
    "id": "model:Gemini-1.0-Ultra",
@@ -90544,14 +90908,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Gemini 1.0 Ultra：Google DeepMind 2023-12 发布的首代旗舰——MMLU 90.0%（首个超越人类专家 89.8% 的模型）；原生多模态（文本+图像+音频+视频）；Gemini Nano 端侧/Pro 云端/Ultra 前沿三档中的旗舰。后迭代为 1.5 Pro→2.0→3→3.5→4 系。来源：Google 官方（2026-11-01）。",
+   "desc": "Gemini 1.0 Ultra：Google DeepMind 2023-12 发布的首代旗舰——MMLU 90.0%（首个超越人类专家 89.8% 的模型）；原生多模态（文本+图像+音频+视频）；Gemini Nano 端侧/Pro 云端/Ultra 前沿三档中的旗舰。后迭代为 1.5 Pro→2.0→3→3.5→4 系。来源：Google 官方（2026-11-01）。Epoch AI 数据：训练算力约 5×10^25 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "epoch": "Gemini 1.0 Ultra"
+   }
   },
   {
    "id": "model:Gemini-2.0",
@@ -90608,14 +90975,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Google 2022-05 发布的文生图扩散模型。Google 2022-05 文生图模型（T5-XXL+级联扩散；论文要点：语言编码器质量比规模更关键）；Imagen 3（2024-08）并入 Gemini，视频线演进为 Veo。",
+   "desc": "Google 2022-05 发布的文生图扩散模型。Google 2022-05 文生图模型（T5-XXL+级联扩散；论文要点：语言编码器质量比规模更关键）；Imagen 3（2024-08）并入 Gemini，视频线演进为 Veo。Epoch AI 数据：参数约 77.62 亿，训练算力约 1.46×10^22 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2205.11487",
    "link": "https://arxiv.org/abs/2205.11487",
    "year": 2022,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "epoch": "Imagen"
+   }
   },
   {
    "id": "model:Veo",
@@ -90631,7 +91001,10 @@
    "link": null,
    "year": 2025,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "epoch": "Veo"
+   }
   },
   {
    "id": "model:Med-PaLM",
@@ -90640,14 +91013,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Med-PaLM：Google/DeepMind 医疗专用 LLM（2022-12 发布），MedQA 基准 67.6% 首次通过美国医师执照考试线；Med-PaLM 2（2023-05）提升至 86.5%（专家评级 92.6%）；后被 Med-Gemini 接替。来源：Nature/Google（2026-11-01）。",
+   "desc": "Med-PaLM：Google/DeepMind 医疗专用 LLM（2022-12 发布），MedQA 基准 67.6% 首次通过美国医师执照考试线；Med-PaLM 2（2023-05）提升至 86.5%（专家评级 92.6%）；后被 Med-Gemini 接替。来源：Nature/Google（2026-11-01）。Epoch AI 数据：参数约 5400 亿（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
    "year": 2022,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "epoch": "Med-PaLM"
+   }
   },
   {
    "id": "model:Llama-2",
@@ -90688,14 +91064,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Meta 2024-07 发布，405B 为当时最大 dense 开源权重，128K 上下文，首次开源接近 GPT-4o。官方仓库口径：Llama 3.1 系（8B/70B/405B）2024-07-23 发布，统一 128K 上下文与 TikToken 分词，405B 为当时最大开源权重 dense 模型。来源：Meta 官方 GitHub 仓库 README（2026-11-19 检索）。",
+   "desc": "Meta 2024-07 发布，405B 为当时最大 dense 开源权重，128K 上下文，首次开源接近 GPT-4o。官方仓库口径：Llama 3.1 系（8B/70B/405B）2024-07-23 发布，统一 128K 上下文与 TikToken 分词，405B 为当时最大开源权重 dense 模型。来源：Meta 官方 GitHub 仓库 README（2026-11-19 检索）。Epoch AI 数据：参数约 4050 亿，训练算力约 3.8×10^25 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://huggingface.co/blog/llama31",
    "link": "https://huggingface.co/blog/llama31",
    "year": 2024,
    "density": null,
-   "extension": 24
+   "extension": 24,
+   "xid": {
+    "epoch": "Llama 3.1-405B"
+   }
   },
   {
    "id": "model:Llama-3.2",
@@ -90791,7 +91170,10 @@
    "link": "https://arxiv.org/abs/2412.19437",
    "year": 2013,
    "density": null,
-   "extension": 31
+   "extension": 31,
+   "xid": {
+    "epoch": "DeepSeek-V3"
+   }
   },
   {
    "id": "model:DeepSeek-R1",
@@ -90807,7 +91189,10 @@
    "link": "https://arxiv.org/abs/2501.12948",
    "year": 2024,
    "density": null,
-   "extension": 29
+   "extension": 29,
+   "xid": {
+    "epoch": "DeepSeek-R1"
+   }
   },
   {
    "id": "model:DeepSeek-V4",
@@ -90992,14 +91377,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "智谱 2022-08 开源的 130B 双语基座（ChatGLM 系列前身）。补注：GLM-130B（2022-08 开源，双语 130B）以 INT4 量化实现单卡 A100 推理，为智谱开源路线的起点（ICLR 2023 论文）。",
+   "desc": "智谱 2022-08 开源的 130B 双语基座（ChatGLM 系列前身）。补注：GLM-130B（2022-08 开源，双语 130B）以 INT4 量化实现单卡 A100 推理，为智谱开源路线的起点（ICLR 2023 论文）。Epoch AI 数据：参数约 1300 亿，训练算力约 3.55×10^23 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2022,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "GLM-130B"
+   }
   },
   {
    "id": "model:GLM-4",
@@ -91015,7 +91403,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "epoch": "GLM-4"
+   }
   },
   {
    "id": "model:GLM-4.5",
@@ -91024,14 +91415,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "GLM-4.5：智谱 AI 2025-07 发布的旗舰大模型（355B 总参/32B 激活 MoE），预训练 23T tokens；开源权重（MIT 协议）；在推理/编程/Agent 任务上对标 GPT-4.5/Claude Sonnet 4 级；GLM-5 的直接前身。来源：智谱开放文档/HuggingFace（2026-11-01）。",
+   "desc": "GLM-4.5：智谱 AI 2025-07 发布的旗舰大模型（355B 总参/32B 激活 MoE），预训练 23T tokens；开源权重（MIT 协议）；在推理/编程/Agent 任务上对标 GPT-4.5/Claude Sonnet 4 级；GLM-5 的直接前身。来源：智谱开放文档/HuggingFace（2026-11-01）。Epoch AI 数据：参数约 3550 亿，训练算力约 4.42×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2025,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "GLM-4.5"
+   }
   },
   {
    "id": "model:GLM-5",
@@ -91047,7 +91441,10 @@
    "link": "https://arxiv.org/abs/2602.15763",
    "year": 2020,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "GLM-5"
+   }
   },
   {
    "id": "model:GLM-5.2",
@@ -91056,14 +91453,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "智谱 2026-06 开源的 GLM-5.2。智谱 2026-06 开源的 GLM-5.2（另立事件）：GLM-5 家族的开源代际，经 Z.ai 品牌全球分发。",
+   "desc": "智谱 2026-06 开源的 GLM-5.2。智谱 2026-06 开源的 GLM-5.2（另立事件）：GLM-5 家族的开源代际，经 Z.ai 品牌全球分发。Epoch AI 数据：参数约 7440 亿（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2020,
    "density": null,
-   "extension": 13
+   "extension": 13,
+   "xid": {
+    "epoch": "GLM-5.2"
+   }
   },
   {
    "id": "model:Kimi-K1.5",
@@ -91079,7 +91479,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 10
+   "extension": 10,
+   "xid": {
+    "epoch": "Kimi k1.5"
+   }
   },
   {
    "id": "model:Kimi-K2",
@@ -91088,14 +91491,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Kimi K2：月之暗面开源万亿参数 MoE 模型（2025-07 发布），1T 总参/32B 激活，Modified MIT 协议；在推理/编程/Agent 任务上对标前沿闭源模型；K3 系（2026）的直接前身。来源：HuggingFace/公司公告（2026-11-01）。",
+   "desc": "Kimi K2：月之暗面开源万亿参数 MoE 模型（2025-07 发布），1T 总参/32B 激活，Modified MIT 协议；在推理/编程/Agent 任务上对标前沿闭源模型；K3 系（2026）的直接前身。来源：HuggingFace/公司公告（2026-11-01）。Epoch AI 数据：参数约 1 万亿，训练算力约 2.98×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2018,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "epoch": "Kimi K2"
+   }
   },
   {
    "id": "model:Kimi-K2.5",
@@ -91104,14 +91510,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "月之暗面 2026-01 开源的原生多模态 K2.5。月之暗面 K2 系后续代际（K2 2025-07 开源 → K2.5 → K3 2026-07）；细节以官方发布为准（本图谱未独立核验其参数口径）。",
+   "desc": "月之暗面 2026-01 开源的原生多模态 K2.5。月之暗面 K2 系后续代际（K2 2025-07 开源 → K2.5 → K3 2026-07）；细节以官方发布为准（本图谱未独立核验其参数口径）。Epoch AI 数据：参数约 1.04 万亿，训练算力约 5.8×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2026,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "Kimi K2.5"
+   }
   },
   {
    "id": "model:Kimi-K3",
@@ -91120,14 +91529,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "月之暗面 2026-07 发布，约 2.8T 参数，当时全球最大开源模型。月之暗面 3T 级多模态推理模型：2026-07-16 发布、07-27 开放权重（约 2.8T 参数 MoE、MXFP4 量化、Modified MIT 许可），为当时最大开源权重模型（另立事件）。",
+   "desc": "月之暗面 2026-07 发布，约 2.8T 参数，当时全球最大开源模型。月之暗面 3T 级多模态推理模型：2026-07-16 发布、07-27 开放权重（约 2.8T 参数 MoE、MXFP4 量化、Modified MIT 许可），为当时最大开源权重模型（另立事件）。Epoch AI 数据：参数约 2.8 万亿，训练算力约 2×10^25 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2019,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "Kimi K3"
+   }
   },
   {
    "id": "model:MiniMax-M1",
@@ -91152,14 +91564,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "MiniMax 2026-02 发布的 M2.5（自进化）。MiniMax 2026-02 发布（另立事件）：M3（2026-06 开放权重）之前的中间代际，延续混合注意力与 Agent 能力路线。",
+   "desc": "MiniMax 2026-02 发布的 M2.5（自进化）。MiniMax 2026-02 发布（另立事件）：M3（2026-06 开放权重）之前的中间代际，延续混合注意力与 Agent 能力路线。Epoch AI 数据：参数约 2290 亿（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2026,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "epoch": "MiniMax-M2.5"
+   }
   },
   {
    "id": "model:MiniMax-M3",
@@ -91168,14 +91583,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "MiniMax 2026-06 开放权重的 M3。MiniMax M3：2026-06 开放权重（另立事件）的 MoE 旗舰，经 OpenRouter 等渠道全球分发；M2.5（2026-02）为其前代。",
+   "desc": "MiniMax 2026-06 开放权重的 M3。MiniMax M3：2026-06 开放权重（另立事件）的 MoE 旗舰，经 OpenRouter 等渠道全球分发；M2.5（2026-02）为其前代。Epoch AI 数据：参数约 4280 亿（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
    "year": 2026,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "epoch": "MiniMax-M3"
+   }
   },
   {
    "id": "model:SD-1.5",
@@ -91191,7 +91609,10 @@
    "link": "https://arxiv.org/abs/2112.10752",
    "year": 2022,
    "density": null,
-   "extension": 19
+   "extension": 19,
+   "xid": {
+    "epoch": "Stable Diffusion 1.5"
+   }
   },
   {
    "id": "model:SD-2.0",
@@ -91296,14 +91717,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Mistral AI 2023-09 无预告放出的 7B dense，GQA+滑动窗口注意力，Apache 2.0，欧洲开源旗舰起点。论文 arXiv 2310.06825（2023-10 提交）：v0.1 在全部评测基准超越 Llama 2 13B，推理/数学/代码超 Llama 1 34B，GQA 与滑动窗口注意力显著降低推理成本，Apache 2.0 开源。来源：arXiv abs 页（2026-11-19 检索）。",
+   "desc": "Mistral AI 2023-09 无预告放出的 7B dense，GQA+滑动窗口注意力，Apache 2.0，欧洲开源旗舰起点。论文 arXiv 2310.06825（2023-10 提交）：v0.1 在全部评测基准超越 Llama 2 13B，推理/数学/代码超 Llama 1 34B，GQA 与滑动窗口注意力显著降低推理成本，Apache 2.0 开源。来源：arXiv abs 页（2026-11-19 检索）。Epoch AI 数据：参数约 70 亿（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2310.06825",
    "link": "https://arxiv.org/abs/2310.06825",
    "year": 2023,
    "density": null,
-   "extension": 18
+   "extension": 18,
+   "xid": {
+    "epoch": "Mistral 7B"
+   }
   },
   {
    "id": "model:Mixtral-8x7B",
@@ -91312,14 +91736,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "Mixtral 8x7B（2023-12 Mistral AI 发布，arXiv 2401.04088）：首个开源 MoE 前沿模型——8 个 7B 专家/每次激活 2 个（13B 激活/47B 总参），Apache 2.0；性能对标 GPT-3.5 且推理速度 6 倍；引发开源 MoE 竞赛（后续 Qwen MoE/DeepSeek MoE 均受其启发）。来源：Mistral AI/arXiv（2026-11-01）。",
+   "desc": "Mixtral 8x7B（2023-12 Mistral AI 发布，arXiv 2401.04088）：首个开源 MoE 前沿模型——8 个 7B 专家/每次激活 2 个（13B 激活/47B 总参），Apache 2.0；性能对标 GPT-3.5 且推理速度 6 倍；引发开源 MoE 竞赛（后续 Qwen MoE/DeepSeek MoE 均受其启发）。来源：Mistral AI/arXiv（2026-11-01）。Epoch AI 数据：参数约 467 亿，训练算力约 7.74×10^23 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2401.04088",
    "link": "https://arxiv.org/abs/2401.04088",
    "year": 2023,
    "density": null,
-   "extension": 23
+   "extension": 23,
+   "xid": {
+    "epoch": "Mixtral 8x7B"
+   }
   },
   {
    "id": "model:Grok-1",
@@ -91328,14 +91755,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "xAI 2023-11 发布的首个模型 Grok 1。xAI 2024-03-17 开源的 314B MoE（8 选 2）基座模型（Apache 2.0）——发布时为最大开源 LLM，xAI 透明度路线的标志动作。",
+   "desc": "xAI 2023-11 发布的首个模型 Grok 1。xAI 2024-03-17 开源的 314B MoE（8 选 2）基座模型（Apache 2.0）——发布时为最大开源 LLM，xAI 透明度路线的标志动作。Epoch AI 数据：参数约 3140 亿，训练算力约 2.9×10^24 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_开源.md",
    "link": null,
    "year": 2023,
    "density": null,
-   "extension": 14
+   "extension": 14,
+   "xid": {
+    "epoch": "Grok-1"
+   }
   },
   {
    "id": "model:Grok-3",
@@ -91344,14 +91774,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "xAI 2025-02 发布的 Grok 3。xAI 2025-02-17/18 发布（Colossus 超算约 20 万卡 H100 训练）：基准首秀登顶，引入 Think 推理模式与 DeepSearch，为 Grok 4（2025-07）/4.1（2025-11）的前代。",
+   "desc": "xAI 2025-02 发布的 Grok 3。xAI 2025-02-17/18 发布（Colossus 超算约 20 万卡 H100 训练）：基准首秀登顶，引入 Think 推理模式与 DeepSearch，为 Grok 4（2025-07）/4.1（2025-11）的前代。Epoch AI 数据：参数约 3 万亿，训练算力约 3.5×10^26 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "../详情/深化_模型家族_开源.md",
    "link": null,
    "year": 2025,
    "density": null,
-   "extension": 15
+   "extension": 15,
+   "xid": {
+    "epoch": "Grok 3"
+   }
   },
   {
    "id": "model:FLUX.1",
@@ -91456,14 +91889,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "阿里通义 Qwen2.5 小尺寸端侧版（0.5B/1.5B/3B），INT4 量化后约2GB内存可在手机运行，是国产端侧小模型代表。",
+   "desc": "阿里通义 Qwen2.5 小尺寸端侧版（0.5B/1.5B/3B），INT4 量化后约2GB内存可在手机运行，是国产端侧小模型代表。Epoch AI 数据：参数约 15.4 亿，训练算力约 1.66×10^23 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://qwenlm.github.io/blog/qwen2.5/",
    "link": "https://qwenlm.github.io/blog/qwen2.5/",
    "year": 2024,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "epoch": "Qwen2.5-1.5B"
+   }
   },
   {
    "id": "model:Apple-Foundation-Models",
@@ -91648,14 +92084,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "OpenAI 2019-02 发布的 GPT-2 1.5B（15亿参数）decoder-only 稠密模型，首次展示 zero-shot 迁移与 Scaling 初效，GPT 谱系稠密 Scaling 第二级锚点",
+   "desc": "OpenAI 2019-02 发布的 GPT-2 1.5B（15亿参数）decoder-only 稠密模型，首次展示 zero-shot 迁移与 Scaling 初效，GPT 谱系稠密 Scaling 第二级锚点。Epoch AI 数据：参数约 15 亿，训练算力约 1.92×10^21 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
    "link": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
    "year": 2019,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "epoch": "GPT-2 (1.5B)"
+   }
   },
   {
    "id": "model_R71-2",
@@ -91664,14 +92103,17 @@
    "dim": 5,
    "dim_name": "产品应用",
    "level": "L42",
-   "desc": "NVIDIA 与 Microsoft 2021-10 联合发布的 530B（5300亿参数）稠密 decoder-only 模型，当时全球最大稠密 LLM，在 GPT-3 175B 基础上把稠密 Scaling 上限推到 530B",
+   "desc": "NVIDIA 与 Microsoft 2021-10 联合发布的 530B（5300亿参数）稠密 decoder-only 模型，当时全球最大稠密 LLM，在 GPT-3 175B 基础上把稠密 Scaling 上限推到 530B。Epoch AI 数据：参数约 5300 亿，训练算力约 8.59×10^23 FLOP（2026-11-20 检索）。",
    "stage": "",
    "player": "",
    "url": "https://arxiv.org/abs/2201.11990",
    "link": "https://arxiv.org/abs/2201.11990",
    "year": 2021,
    "density": null,
-   "extension": 7
+   "extension": 7,
+   "xid": {
+    "epoch": "Megatron-Turing NLG 530B"
+   }
   },
   {
    "id": "model_R71-3",
@@ -91751,7 +92193,10 @@
    "link": "https://qwen.ai/blog",
    "year": 2025,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "epoch": "Qwen2.5-Max"
+   }
   },
   {
    "id": "model_R71-8",
@@ -163418,10 +163863,13 @@
    "id": "model:Kimi-K3.1-Pro",
    "name": "Kimi K3.1 Pro",
    "type": "model",
-   "desc": "月之暗面 K3.1 系首模型：2026-10-23 发布（API 先行）、2026-11-02 开源权重。2.8T 总参/104B 激活 MoE（93 层、1 dense 层），原生多模态（image-text-to-text），1M token 上下文；自 Kimi K3 经数百领域大规模联合 RL 后训练，编程/3D 创作/金融研究等 Agent 能力显著提升；权重以 MXFP4 量化释出，专用许可 kimi-k3.1-pro。来源：HF moonshotai/Kimi-K3.1-Pro 模型卡（2026-11-05 核验）。",
+   "desc": "月之暗面 K3.1 系首模型：2026-10-23 发布（API 先行）、2026-11-02 开源权重。2.8T 总参/104B 激活 MoE（93 层、1 dense 层），原生多模态（image-text-to-text），1M token 上下文；自 Kimi K3 经数百领域大规模联合 RL 后训练，编程/3D 创作/金融研究等 Agent 能力显著提升；权重以 MXFP4 量化释出，专用许可 kimi-k3.1-pro。来源：HF moonshotai/Kimi-K3.1-Pro 模型卡（2026-11-05 核验）。Epoch AI 数据：参数约 2.8 万亿，训练算力约 2×10^25 FLOP（2026-11-20 检索）。",
    "dim": 5,
    "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-   "year": 2026
+   "year": 2026,
+   "xid": {
+    "epoch": "Kimi K3.1 Pro"
+   }
   },
   {
    "id": "event:2026-11:Apple-Q4-FY2026财报",
@@ -164020,6 +164468,310 @@
    "dim": 1,
    "year": 2026,
    "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"
+  },
+  {
+   "id": "paper:GPT-3-Paper",
+   "name": "Language Models are Few-Shot Learners（GPT-3 论文）",
+   "type": "paper",
+   "desc": "OpenAI 于 2020 年 5 月发布的 GPT-3 论文（arXiv:2005.14165），Tom Brown、Benjamin Mann、Nick Ryder、Melanie Subbiah 等 31 人署名。提出 1750 亿参数的 GPT-3 并系统研究少样本学习：以零样本、单样本、少样本三种免梯度更新方式适配任务，在翻译、问答、常识推理、算术等数十项基准上验证能力随参数规模的幂律提升，是大规模语言模型时代的标志性文献。OpenAlex 记录被引 62242 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2005.14165",
+   "xid": {
+    "openalex": "W3030163527",
+    "doi": "10.48550/arxiv.2005.14165"
+   }
+  },
+  {
+   "id": "paper:GoogLeNet",
+   "name": "Going Deeper with Convolutions（GoogLeNet）",
+   "type": "paper",
+   "desc": "Google 团队 2014 年 9 月提交、CVPR 2015 发表的 GoogLeNet 论文（doi:10.1109/cvpr.2015.7298594），Christian Szegedy、Wei Liu、Yangqing Jia、Pierre Sermanet 等署名。提出 22 层 Inception 架构，以并行的多尺度卷积模块与全局平均池化在 ILSVRC 2014 分类赛道以 top-5 错误率 6.67% 夺冠，参数量仅为 AlexNet 的约二十分之一，是卷积架构设计从单纯堆叠深度走向模块化的转折点。OpenAlex 记录被引 56458 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2015,
+   "link": "https://doi.org/10.1109/cvpr.2015.7298594",
+   "xid": {
+    "openalex": "W2097117768",
+    "doi": "10.1109/cvpr.2015.7298594"
+   }
+  },
+  {
+   "id": "paper:Scaling-Laws-Kaplan",
+   "name": "Scaling Laws for Neural Language Models",
+   "type": "paper",
+   "desc": "OpenAI 于 2020 年 1 月发布的缩放定律论文（arXiv:2001.08361），Jared Kaplan、Sam McCandlish、Tom Henighan、Tom Brown 等署名。系统测量语言模型测试损失随参数量、数据集规模与训练算力幂律下降的规律，指出在给定算力预算下应同步放大模型与数据并优先扩大参数量、训练到收敛而不过早停止，为 GPT-3 及后续大模型的规模决策提供定量依据。OpenAlex 记录被引 12454 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2001.08361",
+   "xid": {
+    "openalex": "W3001279689",
+    "doi": "10.48550/arxiv.2001.08361"
+   }
+  },
+  {
+   "id": "paper:Word2Vec-Efficient",
+   "name": "Efficient Estimation of Word Representations in Vector Space（Word2Vec）",
+   "type": "paper",
+   "desc": "Tomas Mikolov、Kai Chen、Greg Corrado、Jeff Dean（Google）2013 年 1 月发布的词向量论文（arXiv:1301.3781），提出连续词袋 CBOW 与 skip-gram 两种结构，把词表示学习从神经概率语言模型的繁重计算中解放出来，在十亿词级语料上以低算力学得带语义方向性的词向量，word2vec 工具随之成为表示学习的基础设施并开启词嵌入时代。OpenAlex 记录被引 44114 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2013,
+   "link": "https://doi.org/10.48550/arxiv.1301.3781",
+   "xid": {
+    "openalex": "W1614298861",
+    "doi": "10.48550/arxiv.1301.3781"
+   }
+  },
+  {
+   "id": "paper:XLNet",
+   "name": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+   "type": "paper",
+   "desc": "杨植麟（Zhilin Yang）、Zihang Dai、Yiming Yang、Jaime Carbonell 等（CMU 与谷歌）2019 年 6 月发布的 XLNet 论文（arXiv:1906.08237），提出广义自回归预训练框架：排列语言建模在保持自回归生成能力的同时引入双向上下文，并结合 Transformer-XL 的段循环与相对位置编码，在 20 项自然语言理解基准上超越 BERT，登上当时 GLUE 与 RACE 等榜首。OpenAlex 记录被引 8638 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1906.08237",
+   "xid": {
+    "openalex": "W2950813464",
+    "doi": "10.48550/arxiv.1906.08237"
+   }
+  },
+  {
+   "id": "paper:Mamba",
+   "name": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+   "type": "paper",
+   "desc": "Albert Gu 等人 2023 年发布的Mamba: Linear-Time Sequence Modeling with Selective State Spaces，署名 Albert Gu、Tri Dao。提出选择性状态空间模型 Mamba：以输入依赖的参数化让 SSM 获得类似注意力的大容量上下文感知，实现线性复杂度下的长序列建模，在语言、音频与基因组基准上以数十亿参数规模对标 Transformer 同量级模型，是状态空间路线的代表作。OpenAlex 记录被引 11870 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://doi.org/10.48550/arxiv.2312.00752",
+   "xid": {
+    "openalex": "W4389326242",
+    "doi": "10.48550/arxiv.2312.00752"
+   }
+  },
+  {
+   "id": "paper:AlphaZero-Science",
+   "name": "A general reinforcement learning algorithm that masters chess, shogi and Go through self-play（AlphaZero）",
+   "type": "paper",
+   "desc": "David Silver 等人 2018 年发布的A general reinforcement learning algorithm that masters chess, shogi and Go through self-play，署名 David Silver、Thomas Hubert、Julian Schrittwieser、Ioannis Antonoglou 等。提出 AlphaZero 通用强化学习算法：单一系统从零自弈同时掌握国际象棋、将棋与围棋，不依赖人类棋谱，围棋版本 ELO 远超前代 AlphaGo Zero，登 Science 后被视为通用博弈智能的里程碑。OpenAlex 记录被引 7503 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2018,
+   "link": "https://doi.org/10.1126/science.aar6404",
+   "xid": {
+    "openalex": "W2902907165",
+    "doi": "10.1126/science.aar6404"
+   }
+  },
+  {
+   "id": "paper:MuZero",
+   "name": "Mastering Atari, Go, chess and shogi by planning with a learned model（MuZero）",
+   "type": "paper",
+   "desc": "Julian Schrittwieser 等人 2020 年发布的Mastering Atari, Go, chess and shogi by planning with a learned model，署名 Julian Schrittwieser、Ioannis Antonoglou、Thomas Hubert、Karen Simonyan 等。提出 MuZero：将模型基强化学习推进到学习隐式价值模型而无需已知规则，在世界围棋与国际象棋、将棋及 57 个 Atari 游戏上同时达到或超越前代专用算法，登 Nature 2020。OpenAlex 记录被引 3332 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://doi.org/10.1038/s41586-020-03051-4",
+   "xid": {
+    "openalex": "W2989847975",
+    "doi": "10.1038/s41586-020-03051-4"
+   }
+  },
+  {
+   "id": "paper:T5",
+   "name": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer（T5）",
+   "type": "paper",
+   "desc": "Colin Raffel 等人 2019 年发布的Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer，署名 Colin Raffel、Noam Shazeer、Roberts, Adam、Katherine Lee 等。提出 T5 统一文本到文本迁移学习框架：把翻译、摘要、问答、分类等一切 NLU 任务统一重写为文本输入到文本输出，系统消融迁移学习各要素并以 C4 语料与编码器解码器结构给出规模配方，是早期大模型统一范式的代表作。OpenAlex 记录被引 31402 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1910.10683",
+   "xid": {
+    "openalex": "W2981852735",
+    "doi": "10.48550/arxiv.1910.10683"
+   }
+  },
+  {
+   "id": "paper:Switch-Transformer",
+   "name": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+   "type": "paper",
+   "desc": "William Fedus 等人 2021 年发布的Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity，署名 William Fedus、Barret Zoph、Noam Shazeer。提出 Switch Transformer：将混合专家路由简化为每 token 仅选一名专家，以万亿参数级稀疏激活在固定算力预算下大幅加速预训练，是多语言与大规模 MoE 路线的奠基工作。OpenAlex 记录被引 2800 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2021,
+   "link": "https://doi.org/10.48550/arxiv.2101.03961",
+   "xid": {
+    "openalex": "W3119866685",
+    "doi": "10.48550/arxiv.2101.03961"
+   }
+  },
+  {
+   "id": "paper:Mask-R-CNN",
+   "name": "Mask R-CNN",
+   "type": "paper",
+   "desc": "Kaiming He 2017 年发布或发表的Mask R-CNN（doi:10.1109/iccv.2017.322），署名 Kaiming He、Georgia Gkioxari、Piotr Dollár、Ross Girshick。何恺明提出通用实例分割框架：在 Faster R-CNN 上并行加入 RoIAlign 与掩码分支，双线性插值消除量化误差，与边框回归联合训练，在 COCO 实例分割与人体关键点任务同时刷新纪录，成为分割任务的标准基座。OpenAlex 记录被引 34474 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2017,
+   "link": "https://doi.org/10.1109/iccv.2017.322",
+   "xid": {
+    "openalex": "W2963150697",
+    "doi": "10.1109/iccv.2017.322"
+   }
+  },
+  {
+   "id": "paper:Mixtral-of-Experts",
+   "name": "Mixtral of Experts（Mixtral）",
+   "type": "paper",
+   "desc": "Albert Qiaochu Jiang 2024 年发布或发表的Mixtral of Experts（arXiv:2401.04088），署名 Albert Qiaochu Jiang、Alexandre Sablayrolles、Antoine Roux、Arthur Mensch 等。Mistral AI 发布的稀疏混合专家模型：8 个 70 亿参数专家每 token 路由 2 个，总参 467 亿激活 130 亿，在多数基准上以更低推理成本对标或超越 Llama 2 70B，权重开源掀起 MoE 开源浪潮。OpenAlex 记录被引 4828 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2024,
+   "link": "https://doi.org/10.48550/arxiv.2401.04088",
+   "xid": {
+    "openalex": "W4390723197",
+    "doi": "10.48550/arxiv.2401.04088"
+   }
+  },
+  {
+   "id": "paper:VAE-Kingma",
+   "name": "Auto-Encoding Variational Bayes（VAE）",
+   "type": "paper",
+   "desc": "Diederik P. Kingma 2013 年发布或发表的Auto-Encoding Variational Bayes（arXiv:1312.6114），署名 Diederik P. Kingma、Max Welling。Diederik Kingma 与 Max Welling 提出变分自编码器：以重参数化技巧让隐变量后验可用随机梯度优化，为生成建模提供可扩展的概率框架，是深度生成模型三大源头之一。OpenAlex 记录被引 44515 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2013,
+   "link": "https://doi.org/10.48550/arxiv.1312.6114",
+   "xid": {
+    "openalex": "W1959608418",
+    "doi": "10.48550/arxiv.1312.6114"
+   }
+  },
+  {
+   "id": "paper:StyleGAN",
+   "name": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+   "type": "paper",
+   "desc": "Tero Karras 2019 年发布或发表的A Style-Based Generator Architecture for Generative Adversarial Networks（doi:10.1109/tpami.2020.2970919），署名 Tero Karras、Samuli Laine、Timo Aila。Tero Karras 等 NVIDIA 研究员提出 StyleGAN：以风格向量分层调制生成器，解耦控制生成图像不同层级属性，配合渐进训练实现高分辨率高保真人脸合成，stylegan2/3 后续迭代成为图像生成基座。OpenAlex 记录被引 13326 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://doi.org/10.1109/tpami.2020.2970919",
+   "xid": {
+    "openalex": "W2904367110",
+    "doi": "10.1109/tpami.2020.2970919"
+   }
+  },
+  {
+   "id": "person_R1555-1",
+   "name": "Jim Fan",
+   "type": "person",
+   "desc": "NVIDIA Director of AI and Distinguished Scientist，通用具身智能研究团队 GEAR 的共同负责人（与 Yuke Zhu 合作领导），主导 NVIDIA Isaac GR00T 人形机器人基础模型计划。斯坦福大学博士，曾被 OpenAI 录用为首位实习生，先后主导 Voyager、Eureka、MineDojo 等智能体与多模态基础模型工作，研究方向覆盖物理机器人与虚拟环境中的通用智能体。来源：NVIDIA Research GEAR 官网+LinkedIn+Sequoia 播客页 多源（2026-11-20 检索）。",
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://research.nvidia.com/labs/gear",
+   "year": null,
+   "density": null,
+   "extension": 2
+  },
+  {
+   "id": "person_R1555-2",
+   "name": "Lilian Weng",
+   "type": "person",
+   "desc": "2017 年加入 OpenAI，早期主导教机械手解魔方的机器人项目，后任研究安全副总裁（VP of Research, Safety），长期撰写 Lilian AI 技术博客；2024 年 11 月离职加入 Thinking Machines Lab 任联合创始人；2026 年 7 月 27 日因健康原因辞去 TMI 职务，次日重返 OpenAI 领导自进化方向研究团队（回归一段为单源报道待补验）。来源：Fellows Fund+Yahoo Finance+Business Insider 多源（2026-11-20 检索）。",
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://lilianweng.github.io/",
+   "year": null,
+   "density": null,
+   "extension": 2
+  },
+  {
+   "id": "person_R1555-3",
+   "name": "孙茂松",
+   "type": "person",
+   "desc": "清华大学计算机科学与技术系长聘教授、清华大学人工智能研究院常务副院长，THUNLP 实验室负责人；欧洲科学院外籍院士（2020）、ACL Fellow（2022，当年唯一华人入选）、中国人工智能学会与中国中文信息学会会士；长期深耕汉语自动分词与中文信息处理，研制 CSegTag 分词标注系统，2013 年牵头建成国内首个中文慕课平台学堂在线，2015 年发布人工智能诗歌写作系统九歌，智谱 AI 创始团队源自其实验室。来源：THUNLP 官网+智源社区 多源（2026-11-20 检索）。",
+   "dim": 6,
+   "dim_name": "人物",
+   "level": "L29",
+   "stage": "",
+   "player": "",
+   "url": "",
+   "link": "https://nlp.csai.tsinghua.edu.cn/staff/sms",
+   "year": null,
+   "density": null,
+   "extension": 2
+  },
+  {
+   "id": "event:2026-11:Anthropic-Nasdaq-ANT上市",
+   "name": "Anthropic 登陆纳斯达克：IPO 定价 83 美元开盘 111.5 美元（2026-11-19）",
+   "type": "event",
+   "desc": "2026 年 11 月 19 日 Anthropic 以代码 ANT 登陆纳斯达克全球精选市场：IPO 定价每股 83 美元（高于 70 至 78 美元区间），发行 9.8 亿股募资约 813 亿美元，超越 SpaceX 六月纪录成为史上最大 IPO，发行价口径估值约 1.5 万亿美元；开盘价 111.5 美元较定价涨约 34%，按开盘价市值超 2 万亿美元，仅次于苹果、亚马逊、Alphabet、NVIDIA 与微软。CEO Dario Amodei 在敲钟前重申按步推进 AI 开发的安全承诺；叠加既有融资与同步私募，分析师预计公司现金储备将达约 2200 亿美元。来源：TechCrunch+Forbes+CNBC+Anthropic 官方 多源（2026-11-20 检索）。",
+   "dim": 1,
+   "year": 2026,
+   "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+  },
+  {
+   "id": "paper:Constitutional-AI",
+   "name": "Constitutional AI: Harmlessness from AI Feedback",
+   "type": "paper",
+   "desc": "2022 年发表或发布的Constitutional AI: Harmlessness from AI Feedback（arXiv:2212.08073），署名 Bai, Yuntao、Saurav Kadavath、Sandipan Kundu、Amanda Askell 等。2022 年 12 月发布：以一组约束原则构成的宪法引导模型自我批评与修订，再用 AI 反馈训练偏好模型替代人类标注，让无害化对齐摆脱对大规模人工标注的依赖，是 Anthropic 对齐技术栈的公开基石。OpenAlex 记录被引 6044 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2022,
+   "link": "https://doi.org/10.48550/arxiv.2212.08073",
+   "xid": {
+    "openalex": "W4311991106",
+    "doi": "10.48550/arxiv.2212.08073"
+   }
+  },
+  {
+   "id": "paper:Segment-Anything",
+   "name": "Segment Anything",
+   "type": "paper",
+   "desc": "2023 年发表或发布的Segment Anything（doi:10.1109/iccv51070.2023.00371），署名 Alexander Kirillov、Eric Mintun、Nikhila Ravi、Hanzi Mao 等。2023 年 4 月发布：基于超十亿掩码与自动数据引擎构建 SA-1B 数据集与 SAM 分割基础模型，以可提示的零样本分割能力适配任意物体与图像风格，被视为计算机视觉领域的 GPT-3 时刻。OpenAlex 记录被引 19456 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2023,
+   "link": "https://doi.org/10.1109/iccv51070.2023.00371",
+   "xid": {
+    "openalex": "W4390874575",
+    "doi": "10.1109/iccv51070.2023.00371"
+   }
+  },
+  {
+   "id": "paper:ELECTRA",
+   "name": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+   "type": "paper",
+   "desc": "2020 年发表或发布的ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators（arXiv:2003.10555），署名 Kevin Clark、Minh-Thang Luong、Quoc Viet Le、Christopher D. Manning。2020 年提出替换 token 检测预训练：判别器学被替换 token 的辨认而非被遮盖 token 的预测，同算力下在 GLUE 等基准显著超越 BERT，小模型效率收益尤其突出。OpenAlex 记录被引 5109 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://doi.org/10.48550/arxiv.2003.10555",
+   "xid": {
+    "openalex": "W2996035354",
+    "doi": "10.48550/arxiv.2003.10555"
+   }
+  },
+  {
+   "id": "paper:RoBERTa",
+   "name": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+   "type": "paper",
+   "desc": "2019 年发表或发布的RoBERTa: A Robustly Optimized BERT Pretraining Approach（arXiv:1907.11692），署名 Liu, Yinhan、Ott, Myle、Goyal, Naman、Du, Jingfei 等。2019 年 7 月发布：在不改架构的前提下系统调优掩码策略、批次规模、语料量与训练时长，多项基准全面超越 BERT，证明预训练超参优化与数据规模的价值常被低估。OpenAlex 记录被引 41213 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2019,
+   "link": "https://doi.org/10.48550/arxiv.1907.11692",
+   "xid": {
+    "openalex": "W2965373594",
+    "doi": "10.48550/arxiv.1907.11692"
+   }
+  },
+  {
+   "id": "paper:DPR",
+   "name": "Dense Passage Retrieval for Open-Domain Question Answering",
+   "type": "paper",
+   "desc": "2020 年发表或发布的Dense Passage Retrieval for Open-Domain Question Answering（doi:10.18653/v1/2020.emnlp-main.550），署名 Vladimir Karpukhin、Barlas Oğuz、Sewon Min、Patrick Lewis 等。2020 年 4 月发布：以双编码器稠密表示替代 BM25 稀疏检索，用问答对弱监督训练即可大幅超越传统检索，为开放域问答与 RAG 检索路线奠定基础。OpenAlex 记录被引 8684 次（2026-11-20 检索）。来源：OpenAlex（2026-11-20 检索）。",
+   "dim": 8,
+   "year": 2020,
+   "link": "https://doi.org/10.18653/v1/2020.emnlp-main.550",
+   "xid": {
+    "openalex": "W3015883388",
+    "doi": "10.18653/v1/2020.emnlp-main.550"
+   }
   }
  ],
  "links": [
@@ -364499,6 +365251,310 @@
    "label": "",
    "year": null,
    "desc": "Codex 为官方点名的可用编码助手之一。"
+  },
+  {
+   "source": "paper:GPT-3-Paper",
+   "target": "person_growth_123",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Tom Brown，GPT-3 论文第一作者"
+  },
+  {
+   "source": "paper:GPT-3-Paper",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 出品 GPT-3 论文"
+  },
+  {
+   "source": "paper:GoogLeNet",
+   "target": "person_growth_103",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Christian Szegedy，Inception 架构第一作者"
+  },
+  {
+   "source": "paper:GoogLeNet",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 团队出品 GoogLeNet"
+  },
+  {
+   "source": "paper:Scaling-Laws-Kaplan",
+   "target": "person_new_04",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Jared Kaplan，缩放定律第一作者"
+  },
+  {
+   "source": "paper:Scaling-Laws-Kaplan",
+   "target": "company_14-1",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "OpenAI 出品缩放定律论文"
+  },
+  {
+   "source": "paper:Word2Vec-Efficient",
+   "target": "person_growth_94",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Tomas Mikolov，CBOW 与 skip-gram 提出者"
+  },
+  {
+   "source": "paper:Word2Vec-Efficient",
+   "target": "person_new_11",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "合作者 Jeff Dean，Google 高级研究员"
+  },
+  {
+   "source": "paper:Word2Vec-Efficient",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 出品 Word2Vec"
+  },
+  {
+   "source": "paper:XLNet",
+   "target": "person_28",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作杨植麟，排列语言建模提出者"
+  },
+  {
+   "source": "paper:XLNet",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google Brain 为 XLNet 合作方"
+  },
+  {
+   "source": "paper:Mamba",
+   "target": "person_growth_97",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 Albert Gu，选择性 SSM 提出者"
+  },
+  {
+   "source": "paper:Mamba",
+   "target": "person_growth_98",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "二作 Tri Dao，Mamba 核心作者"
+  },
+  {
+   "source": "paper:AlphaZero-Science",
+   "target": "person_new_72",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作 David Silver，AlphaZero 第一作者"
+  },
+  {
+   "source": "paper:AlphaZero-Science",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google DeepMind 出品 AlphaZero"
+  },
+  {
+   "source": "paper:MuZero",
+   "target": "person_new_72",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "作者 David Silver，MuZero 核心作者"
+  },
+  {
+   "source": "paper:MuZero",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google DeepMind 出品 MuZero"
+  },
+  {
+   "source": "paper:T5",
+   "target": "person_growth_01",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "二作 Noam Shazeer，T5 核心作者"
+  },
+  {
+   "source": "paper:T5",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 出品 T5"
+  },
+  {
+   "source": "paper:Switch-Transformer",
+   "target": "person_growth_01",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "三作 Noam Shazeer，Switch Transformer 核心作者"
+  },
+  {
+   "source": "paper:Switch-Transformer",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 出品 Switch Transformer"
+  },
+  {
+   "source": "paper:Mask-R-CNN",
+   "target": "person_22",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "一作何恺明，RoIAlign 与掩码分支提出者"
+  },
+  {
+   "source": "paper:Mixtral-of-Experts",
+   "target": "company_14-14",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Mistral AI 出品 Mixtral 8x7B"
+  },
+  {
+   "source": "paper:VAE-Kingma",
+   "target": "paper:DDPM",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "DDPM 训练目标与 VAE 变分下界一脉相承"
+  },
+  {
+   "source": "paper:StyleGAN",
+   "target": "company_14-9",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "NVIDIA 研究院出品 StyleGAN"
+  },
+  {
+   "source": "person_R1555-1",
+   "target": "company_14-9",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Jim Fan 任 NVIDIA Director of AI 并共同领导 GEAR 团队"
+  },
+  {
+   "source": "person_R1555-1",
+   "target": "concept_12-24",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Jim Fan 主导 NVIDIA Isaac GR00T 人形机器人基础模型计划"
+  },
+  {
+   "source": "person_R1555-2",
+   "target": "company_14-1",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "Lilian Weng 2017 年加入 OpenAI 并官至研究安全副总裁，2026 年回归"
+  },
+  {
+   "source": "person_R1555-3",
+   "target": "institution:清华大学",
+   "type": "related",
+   "label": "",
+   "year": null,
+   "desc": "孙茂松任清华大学计算机系长聘教授并主持 THUNLP"
+  },
+  {
+   "source": "event:2026-11:Anthropic-Nasdaq-ANT上市",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 本体完成纳斯达克上市"
+  },
+  {
+   "source": "event:2026-11:Anthropic-Nasdaq-ANT上市",
+   "target": "event:2026-10:Anthropic-S1-IPO-filing-Nasdaq-ANT",
+   "type": "timeline",
+   "label": "",
+   "year": null,
+   "desc": "S-1 招股文件披露后一个月即完成上市"
+  },
+  {
+   "source": "event:2026-11:Anthropic-Nasdaq-ANT上市",
+   "target": "event:2026-11:Anthropic-IPO簿记启动",
+   "type": "timeline",
+   "label": "",
+   "year": null,
+   "desc": "簿记路演定价后正式挂牌"
+  },
+  {
+   "source": "event:2026-11:Anthropic-Nasdaq-ANT上市",
+   "target": "event:2026-11:Anthropic-IPO股权双云近三成",
+   "type": "timeline",
+   "label": "",
+   "year": null,
+   "desc": "股权结构披露是上市文件的前置环节"
+  },
+  {
+   "source": "paper:Constitutional-AI",
+   "target": "company_14-3",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Anthropic 出品 Constitutional AI 方法"
+  },
+  {
+   "source": "paper:Segment-Anything",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta FAIR 出品 Segment Anything"
+  },
+  {
+   "source": "paper:ELECTRA",
+   "target": "company_14-2",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Google 出品 ELECTRA 预训练方法"
+  },
+  {
+   "source": "paper:RoBERTa",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta（原 Facebook AI）出品 RoBERTa"
+  },
+  {
+   "source": "paper:DPR",
+   "target": "company_14-4",
+   "type": "player",
+   "label": "",
+   "year": null,
+   "desc": "Meta（原 Facebook AI）出品 DPR"
   }
  ]
 }
