@@ -451,10 +451,24 @@ function fitCamera() {
   const t0 = performance.now();
   const msg = $('#loadmsg'), bar = $('#barfill');
   try {
-    msg.textContent = '加载 graph_data.json …';
-    const res = await fetch('../graph_data.json');
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    DATA = await res.json();
+    // ---- 骨架分片优先（nodes/links 精简 + 预计算坐标），任一失败回退全量 ----
+    let posPre = null;
+    try {
+      msg.textContent = '加载骨架分片 …';
+      const [ns, ls, ps] = await Promise.all([fetch('../nodes_skeleton.json'), fetch('../links_skeleton.json'), fetch('../positions.json')]);
+      if (ns.ok && ls.ok && ps.ok) {
+        const sk = await ns.json(), lk = await ls.json();
+        posPre = (await ps.json()).positions;
+        DATA = { nodes: sk.nodes, links: lk.links.map(l => ({ source: l.source, target: l.target, type: l.type, label: '', year: null, desc: '' })) };
+      }
+    } catch (e) { DATA = null; }
+    if (!DATA) {
+      msg.textContent = '加载 graph_data.json …';
+      const res = await fetch('../graph_data.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      DATA = await res.json();
+    }
+    window.__KG_SKELETON = !DATA.nodes.length || DATA.nodes[0].desc === undefined;
     const t1 = performance.now();
 
     nodesById = new Map();
@@ -491,10 +505,16 @@ function fitCamera() {
     state.dims = new Set(dimCnt.keys());
     state.yearMin = yMin; state.yearMax = yMax;
 
-    // ---- 布局 ----
-    msg.textContent = '计算力导布局（1 万节点，约几秒）…';
-    const ePairs = [...edgeMeta.values()].map(m => [m.s, m.t]);
-    await computeLayout(idset, ePairs, (p) => { bar.style.width = (10 + p * 55) + '%'; msg.textContent = `计算力导布局 … ${Math.round(p*100)}%`; });
+    // ---- 布局（预计算坐标命中则跳过，未命中/覆盖不全回退现算） ----
+    if (posPre && idset.every(id => posPre[id])) {
+      msg.textContent = '预计算坐标命中，跳过布局 …';
+      for (const id of idset) posOf[id] = { x: posPre[id].x, y: posPre[id].y };
+    } else {
+      posPre = null;
+      msg.textContent = '计算力导布局（1 万节点，约几秒）…';
+      const ePairs = [...edgeMeta.values()].map(m => [m.s, m.t]);
+      await computeLayout(idset, ePairs, (p) => { bar.style.width = (10 + p * 55) + '%'; msg.textContent = `计算力导布局 … ${Math.round(p*100)}%`; });
+    }
     const t2 = performance.now();
 
     // ---- 建 graphology 图并渲染 ----
@@ -532,6 +552,19 @@ function fitCamera() {
     CAMERA = SIGMA.getCamera();
     fitCamera();
     const t3 = performance.now();
+
+    // ---- 骨架模式：后台补全全量字段（desc/url/link/xid 等），详情与搜索自动完整 ----
+    if (window.__KG_SKELETON) {
+      fetch('../graph_data.json').then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(full => {
+        const byId = new Map(full.nodes.map(n => [n.id, n]));
+        for (const n of DATA.nodes) {
+          const f = byId.get(n.id);
+          if (f) Object.assign(n, { desc: f.desc || '', url: f.url || '', link: f.link || '', xid: f.xid, stage: f.stage || '', player: f.player || '' });
+        }
+        window.__KG_FULL = true;
+        console.log('[前端] 骨架模式：全量 desc 后台补全完成');
+      }).catch(e => console.warn('[前端] 后台补全失败（详情将缺描述）:', e));
+    }
 
     // ---- 事件 ----
     SIGMA.on('clickNode', ({ node }) => selectNode(node, false));
