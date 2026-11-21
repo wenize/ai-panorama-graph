@@ -44,6 +44,8 @@
   #detail .lk { display: inline-block; margin-top: 10px; padding: 5px 12px; border-radius: 6px;
     background: #1d3a6e; color: #93c5fd; text-decoration: none; font-size: 12.5px; }
   #detail .lk:hover { background: #24498c; }
+  #detail .lk.off { background: #232a36; color: #8b95a7; word-break: break-all; }
+  #detail .lk.off:hover { background: #232a36; }
   #hint { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 10;
     font-size: 11.5px; color: #5b6577; pointer-events: none; }
   #loading { position: absolute; inset: 0; z-index: 50; background: #0b0e14;
@@ -138,6 +140,18 @@ const index = [];   // [nodeObj, name, type]
   }
 })();
 
+// 本地环境判定：localhost / 127.* / [::1] / *.localhost / file://（hostname 为空）
+const IS_LOCAL_HOST = !location.hostname || location.hostname === 'localhost' ||
+  location.hostname.startsWith('127.') || location.hostname === '[::1]' ||
+  location.hostname.endsWith('.localhost');
+// 来源分流：http(s) 外链任何环境都可点；其余为本地详情册相对路径（数据里仅 ../详情/*.md 这一种），
+// 云端（github.io 等）未发布 详情/ 目录，点了必 404 → 渲染不可点徽标
+function srcLink(src) {
+  if (/^https?:\/\//i.test(src) || IS_LOCAL_HOST)
+    return `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`;
+  const file = String(src).split(/[\\/]/).pop();
+  return `<span class="lk off" title="本地详情册收录：${esc(src)}（本地服务器可打开，云端离线包不含）">📒 本地详情册：${esc(file)}（云端离线包不含）</span>`;
+}
 function showDetail(n) {
   $('#d-name').textContent = n.name;
   $('#d-tags').innerHTML =
@@ -146,9 +160,7 @@ function showDetail(n) {
     (typeof n.year === 'number' ? `<span class="tag">${n.year}</span>` : '');
   $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
   const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段
-  $('#d-link').innerHTML = src
-    ? `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`
-    : '';
+  $('#d-link').innerHTML = src ? srcLink(src) : '';
   $('#detail').classList.add('show');
 }
 function bindSearch() {

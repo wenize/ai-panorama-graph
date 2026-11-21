@@ -88,6 +88,8 @@
   #detail .lk { display: inline-block; margin-top: 8px; padding: 5px 12px; border-radius: 6px;
     background: #1d3a6e; color: #93c5fd; text-decoration: none; font-size: 12.5px; }
   #detail .lk:hover { background: #24498c; }
+  #detail .lk.off { background: #232a36; color: #8b95a7; word-break: break-all; }
+  #detail .lk.off:hover { background: #232a36; }
   #detail h4 { font-size: 12px; color: #8b95a7; margin: 14px 0 6px; }
   #detail .nb { display: flex; flex-wrap: wrap; gap: 5px; }
   #detail .nb span { font-size: 11.5px; padding: 3px 8px; border-radius: 5px; background: #1d2431;
@@ -396,6 +398,18 @@ function attachSearch(inputEl, dropEl, onPick) {
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 
 /* ================= 选中/详情 ================= */
+// 本地环境判定：localhost / 127.* / [::1] / *.localhost / file://（hostname 为空）
+const IS_LOCAL_HOST = !location.hostname || location.hostname === 'localhost' ||
+  location.hostname.startsWith('127.') || location.hostname === '[::1]' ||
+  location.hostname.endsWith('.localhost');
+// 来源分流：http(s) 外链任何环境都可点；其余为本地详情册相对路径（数据里仅 ../详情/*.md 这一种），
+// 云端（github.io 等）未发布 详情/ 目录，点了必 404 → 渲染不可点徽标
+function srcLink(src) {
+  if (/^https?:\/\//i.test(src) || IS_LOCAL_HOST)
+    return `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`;
+  const file = String(src).split(/[\\/]/).pop();
+  return `<span class="lk off" title="本地详情册收录：${esc(src)}（本地服务器可打开，云端离线包不含）">📒 本地详情册：${esc(file)}（云端离线包不含）</span>`;
+}
 function selectNode(id, fly) {
   state.selected = id; state.pathIds = null; state.pathEdges = null;
   $('#pathresult').style.display = 'none';
@@ -420,7 +434,7 @@ function showDetail(id) {
   $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
   const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段（管线未并入 link，只读消费）
   $('#d-link').innerHTML = src
-    ? `<a class="lk" href="${esc(src)}" target="_blank" rel="noopener">🔗 查看权威来源</a>`
+    ? srcLink(src)
     : `<div class="nolink">无一手来源链接</div>`;
   const nbs = (adj.get(id) || []).slice().sort((a, b) => (deg.get(b.t) || 0) - (deg.get(a.t) || 0)).slice(0, 24);
   $('#d-nb').innerHTML = nbs.map(e =>

@@ -38825,22 +38825,6 @@
    "extension": 26
   },
   {
-   "id": "concept_L29-16",
-   "name": "黄仁勋（Jensen Huang）（人物）",
-   "type": "concept",
-   "dim": 6,
-   "dim_name": "人物",
-   "level": "L29",
-   "desc": "NVIDIA 联合创始人兼 CEO（1993 创办，Denny's 餐厅写下最初构想）：图形→CUDA 通用计算（2006 孤注）→AI 算力帝国三级跳，GeForce/数据中心/AI 工厂节奏踩点精准；「The more you buy, the more you save」式发布风格，黄氏定律（GPU 性能年增超摩尔）提出者",
-   "stage": "1993 创立 · 2023-2026 AI算力核心",
-   "player": "NVIDIA",
-   "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
-   "link": "../详情/infra_算力与芯片.md",
-   "year": 1993,
-   "density": 8.5,
-   "extension": 15
-  },
-  {
    "id": "concept_L29-17",
    "name": "埃隆·马斯克（Elon Musk）（人物）",
    "type": "concept",
@@ -59405,22 +59389,6 @@
    "extension": 8
   },
   {
-   "id": "company_14-35",
-   "name": "上海人工智能实验室",
-   "type": "company",
-   "dim": 4,
-   "dim_name": "产业公司",
-   "level": "L14",
-   "desc": "上海人工智能实验室：书生 InternLM 系列（Intern-S1/书生·万象多模态）；InternVideo/InternVL 开源家族；浦科化学/浦医等科学智能模型；书生·万象 3.0 与 Intern-397B（2026-07 WAIC，397B 追平此前万亿模型）；书生-S2（2026-09-13，「最懂科学的开源基础大模型」）；书生·格物具身智能平台与 OpenDataLab 数据生态",
-   "stage": "2020 上海人工智能实验室成立（上海，王坚任首席科学家、周伯文等）→2023 起 InternLM/书生系列开源→2025-07 发布并开源 Intern-S1 科学多模态大模型→2026-07 WAIC 发布 Intern-S2-Preview-397B 与书安系统→2026-09 发布书生-S2，定位 AI for Science 科研底座。",
-   "player": "",
-   "url": "https://www.shlab.org.cn/news/5444185",
-   "link": "https://www.shlab.org.cn/news/5444185",
-   "year": 2020,
-   "density": 10.0,
-   "extension": 16
-  },
-  {
    "id": "company_14-36",
    "name": "海光信息/中科曙光（海光·曙光系）",
    "type": "company",
@@ -69291,10 +69259,10 @@
    "dim": 6,
    "dim_name": "人物",
    "level": "L29",
-   "desc": "NVIDIA 创始人兼 CEO（1993 年与 Chris Malachowsky/Curtis Priem 共同创立）：CUDA 生态战略与 Hopper/Blackwell 时代掌舵人，AI 算力需求最具影响力的代言人；1963 年生于台南。2026-11-12 辞任 NVIDIA 总裁/CEO/董事（CFO Colette Kress 出任临时 CEO、Harvey C. Jones 任董事会主席），11-17 董事会财报电话会宣布不回聘，其本人同日表态若董事会允许愿回归。来源：TechCrunch+PBS 多源（2026-11-19 检索）。",
+   "desc": "NVIDIA 创始人兼 CEO（1993 年与 Chris Malachowsky/Curtis Priem 共同创立）：CUDA 生态战略与 Hopper/Blackwell 时代掌舵人，AI 算力需求最具影响力的代言人；1963 年生于台南。2026-11-12 辞任 NVIDIA 总裁/CEO/董事（CFO Colette Kress 出任临时 CEO、Harvey C. Jones 任董事会主席），11-17 董事会财报电话会宣布不回聘，其本人同日表态若董事会允许愿回归。来源：TechCrunch+PBS 多源（2026-11-19 检索）。「The more you buy, the more you save」式发布风格；1993 年在 Denny's 餐厅写下最初构想；黄氏定律（GPU 性能年增超摩尔定律）提出者；图形→CUDA 通用计算（2006 孤注）→AI 工厂三级跳。",
    "stage": "",
    "player": "",
-   "url": "",
+   "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
    "link": null,
    "year": 1963,
    "density": null,
@@ -79291,7 +79259,7 @@
    "extension": 5
   },
   {
-   "id": "event:2026:直播电商监管办法",
+   "id": "event:2026-02:直播电商监管办法",
    "name": "《直播电商监督管理办法》2 月施行",
    "type": "event",
    "dim": 1,
@@ -79425,7 +79393,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "2025-12 传闻 20 亿美元",
+   "desc": "Meta 2025-12 公布约 20 亿美元收购通用 Agent Manus（母公司蝴蝶效应，总部已迁新加坡，创始人肖弘随交易加入 Meta 任 VP；Manus 时披露年收入约 1.25 亿美元），2026-01 起遭中国监管初审（聚焦国家安全与出口管制），商务部回应「对外投资须符合中国法律法规」；2026-04-27 外商投资安全审查工作机制办公室（设在国家发改委）发文「依法依规对外资收购 Manus 项目作出禁止投资决定，要求当事人撤销交易」，Meta 随即准备撤回交易（WSJ/Reuters），决策并上升至中央国家安全委员会（CNBC）。首例被中国国安审查否决的 AI Agent 跨境收购，与商务部拟增列 23 项 AI 技术出口管制（图内 2026-10 事件）共同划定 AI 技术跨境监管红线。来源：tradingkey.com+cnbc.com（2026-11-21 检索）",
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
@@ -79451,7 +79419,7 @@
    "extension": 10
   },
   {
-   "id": "event:2026:加州SB942生效",
+   "id": "event:2026-01:加州SB942生效",
    "name": "加州 SB 942 1 月 1 日生效",
    "type": "event",
    "dim": 1,
@@ -79489,7 +79457,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "拟人化互动办法出台",
+   "desc": "中央网信办 2026-04-30 印发通知，全国部署为期 4 个月的「清朗·整治AI应用乱象」专项行动：第一阶段（2026-07 通报）聚焦大模型备案登记义务缺位、平台安全审核能力不足、AI 数据投毒、生成合成内容标识落实不到位；第二阶段（2026-09）转向 AI 虚假信息、暴力低俗、假冒仿冒与侵害未成年人，督促平台清理 AI 生成内容。配套规则《人工智能拟人化互动服务管理暂行办法》（国家网信办等五部门令第 21 号，2026-04-10 公布、2026-07-15 施行，首部专门规范 AI 拟人化互动服务的国家级规则）对 AI 陪伴/角色扮演类服务实行包容审慎、分类分级监管，明令禁止诱导情感依赖、情感操纵等行为；标志 AI 治理从通用备案走向场景化专项执法（图内 CAC、拟人化互动办法节点）。来源：cac.gov.cn+news.cn（2026-11-21 检索）",
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
@@ -79505,7 +79473,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "营收 71.35 亿元",
+   "desc": "第四范式（6682.HK，已更名范式集团）2026-03-30 发布 2025 年报：总营收 71.35 亿元（同比 +35.6%），经调整归母净利润 1784 万元，首次实现全年盈利；其中 AI Platform（PaaS）营收 65.52 亿元（+32.0%）占集团收入 91.8%，Token 驱动的 API 业务营收 0.80 亿元（+129.2%）为增长最快板块，Agentic AI 以「按结果付费」模式起步，在手订单超 89 亿元、已超 2025 全年营收；IDC 口径以 34% 份额连续七年居中国机器学习平台市场首位。从卖平台许可转向「平台+Token 计费+按结果付费」三层收费，是国产 AI 平台厂商商业模型成色的标志性验证（对照图内 MiniMax 港股上市等 AI 公司盈利窗口）。来源：4paradigm.com+hkexnews.hk（2026-11-21 检索）",
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
@@ -80161,7 +80129,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "AI 音乐与语音独角兽",
+   "desc": "AI 音乐与语音双独角兽 2026-09 相继立标：Suno 2026-09-09 发布 v6 代际三变体（v6 旗舰/v6-wild/v6-mini），自称首个与音乐行业共同开发的音乐模型，继 WMG（2025-11-25）、BMG（2026-08-12）、Believe/TuneCore（2026-09-08）授权合作后，从 2024 年被三大唱片起诉（图内事件）转向授权化轨道；ElevenLabs 2026-09-30 官宣 3 亿美元员工持股要约（tender offer），估值 220 亿美元、较 2026-02 D 轮 110 亿美元（图内事件）翻倍，企业客户贡献 55% 收入，语音 Agent 周对话超 1500 万次（较 2 月 3 倍）。赛道从侵权灰区转入「授权+企业级」商业正轨。来源：suno.com+elevenlabs.io（2026-11-21 检索）",
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
@@ -80193,7 +80161,7 @@
    "dim": 1,
    "dim_name": "历史时间线",
    "level": "L30",
-   "desc": "单位 token 成本持续指数级下降",
+   "desc": "Gartner（2026-08-10 新闻稿）预测：2026 年全球云上 AI 推理支出（233 亿美元）将首超训练（190 亿美元），推理占 AI 优化 IaaS 支出 55%（2027 年升至 59%）——算力叙事从「造模型」切换到「用模型」的标志性交叉点；Deloitte（2025-11，约 2/3）与 McKinsey（2026-10，约 60%）口径交叉印证。对偶事实：单位 token 价格仍在指数级下降——Epoch AI 测算达到同等基准分数的推理价格每年降 9~900 倍（因任务而异），Gartner 预计 2030 年万亿参数模型推理成本较此前降 90%+；「支出超训练而单价仍通缩」表明驱动是用量爆发（Agentic 负载）而非涨价（图内「推理算力需求与Token工厂」「推理成本通缩趋势」节点）。来源：gartner.com+epoch.ai（2026-11-21 检索）",
    "stage": "",
    "player": "",
    "url": "年度大事记/2026.md",
@@ -88897,7 +88865,7 @@
    "dim": 9,
    "dim_name": "地域生态",
    "level": "L42",
-   "desc": "上海人工智能实验室（上海 AI Lab，2020-07 成立）：新型科研机构（上海市政府+上交大/复旦/浙大等共建的「国家实验室预备队」定位）；战略方向与成果：OpenMMLab（开放视觉算法体系：MMDetection/MMPretrain 的开源生态——CV 开源工具箱的事实标准）、OpenDriveLab（自动驾驶的学术开源：UniAD（CVPR 2023 best paper：中国机构首次）、BEVFormer）、Intern 系列（书生大模型：InternLM（开源 LLM：书生·浦语）+InternVL（多模态视觉语言模型：开源 VLM 的第一梯队）+InternVideo（视频理解）、书生·万象的 omni 线）、AIGC（书生·万象的生成、与商汤/上交的渊源）；治理型科学：AI for Science（AI4S 的科学智能中心：气象/化学/材料的科学大模型）、AI 治理（InternGPT？非也——AI 治理的政策研究：与上海市人大的立法咨询、OpenXLab（应用开放平台））；组织与文化：「新型研发机构」的体制创新（不定编制/市场化薪酬/项目经理制的科研组织：区别于传统院所的事业单位体制）、主任周伯文（前京东 AI/IBM Watson 负责人：2021 出任）、青年科学家的集聚（全球招聘的 PI 制）；开源与影响：OpenCompass（评测体系：大模型评测的开源框架：CompassRank 榜单）、与 HF/GitHub 的开源生态（InternLM 系的下载与衍生）、与上海产业（临港/徐汇的 AI 产业联动、与商汤（同源团队的历史渊源）的错位）；定位观察：「国家队预备队」的资源与自主性（政府投入的强度 vs 学术自由的平衡）、与北京系（智源 BAAI）的南北双院对比（智源的早期先发 vs 上海 Lab 的工程与开源执行力——「新型研发机构」的中国 AI 基础设施实验）。",
+   "desc": "上海人工智能实验室（上海 AI Lab，2020-07 成立）：新型科研机构（上海市政府+上交大/复旦/浙大等共建的「国家实验室预备队」定位）；战略方向与成果：OpenMMLab（开放视觉算法体系：MMDetection/MMPretrain 的开源生态——CV 开源工具箱的事实标准）、OpenDriveLab（自动驾驶的学术开源：UniAD（CVPR 2023 best paper：中国机构首次）、BEVFormer）、Intern 系列（书生大模型：InternLM（开源 LLM：书生·浦语）+InternVL（多模态视觉语言模型：开源 VLM 的第一梯队）+InternVideo（视频理解）、书生·万象的 omni 线）、AIGC（书生·万象的生成、与商汤/上交的渊源）；治理型科学：AI for Science（AI4S 的科学智能中心：气象/化学/材料的科学大模型）、AI 治理（InternGPT？非也——AI 治理的政策研究：与上海市人大的立法咨询、OpenXLab（应用开放平台））；组织与文化：「新型研发机构」的体制创新（不定编制/市场化薪酬/项目经理制的科研组织：区别于传统院所的事业单位体制）、主任周伯文（前京东 AI/IBM Watson 负责人：2021 出任）、青年科学家的集聚（全球招聘的 PI 制）；开源与影响：OpenCompass（评测体系：大模型评测的开源框架：CompassRank 榜单）、与 HF/GitHub 的开源生态（InternLM 系的下载与衍生）、与上海产业（临港/徐汇的 AI 产业联动、与商汤（同源团队的历史渊源）的错位）；定位观察：「国家队预备队」的资源与自主性（政府投入的强度 vs 学术自由的平衡）、与北京系（智源 BAAI）的南北双院对比（智源的早期先发 vs 上海 Lab 的工程与开源执行力——「新型研发机构」的中国 AI 基础设施实验）。书生-S2（2026-09-13 发布，定位「最懂科学的开源基础大模型」）；Intern-S2-Preview-397B 与书安系统（2026-07 WAIC，397B 追平此前万亿模型）；浦科化学/浦医等科学智能模型；书生·格物具身智能平台与 OpenDataLab 数据生态。",
    "stage": "",
    "player": "",
    "url": "https://www.shlab.org.cn/",
@@ -89780,7 +89748,10 @@
    "link": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
    "year": 2018,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "semantic_scholar": "CorpusId:49313245"
+   }
   },
   {
    "id": "paper:ResNet",
@@ -90478,7 +90449,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
    "link": "https://openai.com/index/introducing-o3-and-o4-mini/",
-   "year": 2025,
+   "year": 2024,
    "density": null,
    "extension": 26,
    "xid": {
@@ -90518,7 +90489,10 @@
    "link": null,
    "year": 2025,
    "density": null,
-   "extension": 11
+   "extension": 11,
+   "xid": {
+    "epoch": "GPT-4.5"
+   }
   },
   {
    "id": "model:GPT-5",
@@ -90532,7 +90506,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
    "link": "https://openai.com/index/introducing-gpt-5/",
-   "year": 2017,
+   "year": 2025,
    "density": null,
    "extension": 22,
    "xid": {
@@ -90570,7 +90544,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_GPT.md",
    "link": "https://openai.com/index/dall-e-3/",
-   "year": 2022,
+   "year": 2023,
    "density": null,
    "extension": 7,
    "xid": {
@@ -90640,9 +90614,12 @@
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
-   "year": 2019,
+   "year": 2023,
    "density": null,
-   "extension": 15
+   "extension": 15,
+   "xid": {
+    "epoch": "Claude"
+   }
   },
   {
    "id": "model:Claude-2",
@@ -90916,7 +90893,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
-   "year": 2024,
+   "year": 2023,
    "density": null,
    "extension": 11,
    "xid": {
@@ -91002,7 +90979,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_ClaudeGemini.md",
    "link": null,
-   "year": 2025,
+   "year": 2024,
    "density": null,
    "extension": 6,
    "xid": {
@@ -91107,7 +91084,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_开源.md",
    "link": null,
-   "year": 2021,
+   "year": 2025,
    "density": null,
    "extension": 18
   },
@@ -91171,7 +91148,7 @@
    "player": "",
    "url": "https://arxiv.org/abs/2412.19437",
    "link": "https://arxiv.org/abs/2412.19437",
-   "year": 2013,
+   "year": 2024,
    "density": null,
    "extension": 31,
    "xid": {
@@ -91190,7 +91167,7 @@
    "player": "",
    "url": "https://arxiv.org/abs/2501.12948",
    "link": "https://arxiv.org/abs/2501.12948",
-   "year": 2024,
+   "year": 2025,
    "density": null,
    "extension": 29,
    "xid": {
@@ -91209,7 +91186,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
-   "year": 2022,
+   "year": 2026,
    "density": null,
    "extension": 16
   },
@@ -91241,9 +91218,12 @@
    "player": "",
    "url": "https://qwenlm.github.io/zh/blog/qwen/",
    "link": "https://qwenlm.github.io/zh/blog/qwen/",
-   "year": 2018,
+   "year": 2023,
    "density": null,
-   "extension": 16
+   "extension": 16,
+   "xid": {
+    "epoch": "Qwen-7B"
+   }
   },
   {
    "id": "model:Qwen2",
@@ -91273,7 +91253,7 @@
    "player": "",
    "url": "https://arxiv.org/abs/2505.09388",
    "link": "https://arxiv.org/abs/2505.09388",
-   "year": 2018,
+   "year": 2025,
    "density": null,
    "extension": 22
   },
@@ -91307,7 +91287,10 @@
    "link": null,
    "year": 2023,
    "density": null,
-   "extension": 12
+   "extension": 12,
+   "xid": {
+    "epoch": "ERNIE 4.0"
+   }
   },
   {
    "id": "model:ERNIE-4.5",
@@ -91339,7 +91322,10 @@
    "link": null,
    "year": 2025,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "epoch": "Seed 1.6"
+   }
   },
   {
    "id": "model:Doubao-Seed-2.0",
@@ -91442,7 +91428,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": "https://arxiv.org/abs/2602.15763",
-   "year": 2020,
+   "year": 2026,
    "density": null,
    "extension": 14,
    "xid": {
@@ -91461,7 +91447,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
-   "year": 2020,
+   "year": 2026,
    "density": null,
    "extension": 13,
    "xid": {
@@ -91480,7 +91466,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
-   "year": 2024,
+   "year": 2025,
    "density": null,
    "extension": 10,
    "xid": {
@@ -91499,7 +91485,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
-   "year": 2018,
+   "year": 2025,
    "density": null,
    "extension": 16,
    "xid": {
@@ -91537,7 +91523,7 @@
    "player": "",
    "url": "../详情/深化_模型家族_中国A.md",
    "link": null,
-   "year": 2019,
+   "year": 2026,
    "density": null,
    "extension": 14,
    "xid": {
@@ -91819,7 +91805,10 @@
    "link": null,
    "year": 2024,
    "density": null,
-   "extension": 8
+   "extension": 8,
+   "xid": {
+    "epoch": "Kling"
+   }
   },
   {
    "id": "model:Hunyuan",
@@ -91966,7 +91955,10 @@
    "link": null,
    "year": 2026,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "epoch": "GPT-5.4"
+   }
   },
   {
    "id": "model:Codex",
@@ -91982,7 +91974,10 @@
    "link": "https://arxiv.org/abs/2107.03374",
    "year": 2021,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "epoch": "Codex"
+   }
   },
   {
    "id": "model_R69-1",
@@ -91998,7 +91993,10 @@
    "link": "https://arxiv.org/abs/2207.03628",
    "year": 2022,
    "density": null,
-   "extension": 4
+   "extension": 4,
+   "xid": {
+    "epoch": "RT-1"
+   }
   },
   {
    "id": "model_R69-2",
@@ -92014,7 +92012,10 @@
    "link": "https://arxiv.org/abs/2307.15818",
    "year": 2023,
    "density": null,
-   "extension": 10
+   "extension": 10,
+   "xid": {
+    "epoch": "RT-2"
+   }
   },
   {
    "id": "model_R69-3",
@@ -92030,7 +92031,10 @@
    "link": "https://arxiv.org/abs/2406.09246",
    "year": 2024,
    "density": null,
-   "extension": 5
+   "extension": 5,
+   "xid": {
+    "epoch": "OpenVLA"
+   }
   },
   {
    "id": "model_R69-4",
@@ -92132,7 +92136,10 @@
    "link": "https://arxiv.org/abs/2302.13971",
    "year": 2023,
    "density": null,
-   "extension": 9
+   "extension": 9,
+   "xid": {
+    "epoch": "LLaMA-65B"
+   }
   },
   {
    "id": "model_R71-4",
@@ -92215,7 +92222,10 @@
    "link": "https://arxiv.org/abs/2401.06066",
    "year": 2024,
    "density": null,
-   "extension": 6
+   "extension": 6,
+   "xid": {
+    "epoch": "DeepSeekMoE-16B"
+   }
   },
   {
    "id": "model_R71-9",
@@ -104458,7 +104468,7 @@
    "level": "L30"
   },
   {
-   "id": "event:2026:手语数字人国标GBT47517发布",
+   "id": "event:2026-04:手语数字人国标GBT47517发布",
    "name": "GB/T 47517-2026《信息技术 手语数字人技术规范》发布（2026-04-30）",
    "type": "event",
    "desc": "2026-04-30 国家市场监督管理总局、国家标准化管理委员会发布推荐性国家标准 GB/T 47517-2026《信息技术 手语数字人技术规范》，2026-11-01 实施；由 TC28 全国信息技术标准化技术委员会归口，规定从语音/文本/带文图像到手语翻译的手语数字人技术框架、具体技术指标与测试方法，适用于手语数字人开发与第三方测评验收，是中国信息无障碍在听障侧的首个专门国标。",
@@ -163229,7 +163239,7 @@
    "id": "event:2026-02:ElevenLabs-5亿美元D轮",
    "name": "ElevenLabs 完成 5 亿美元融资：估值约 110 亿美元（红杉领投，2026-02-04）",
    "type": "event",
-   "desc": "2026-02-04 AI 语音龙头 ElevenLabs 完成 5 亿美元融资，红杉领投（NVIDIA 亦为既有股东），估值约 110 亿美元——较 2025-01 的约 33 亿美元估值增长两倍多；融资时公司表示考虑潜在 IPO；2026-07 再传约 220 亿美元估值员工股转让（tender offer）洽谈（单源报道）。公司上年 ARR 约 3.3 亿美元。来源：Bloomberg/TechCrunch（2026-02-04）。",
+   "desc": "2026-02-04 AI 语音龙头 ElevenLabs 完成 5 亿美元融资，红杉领投（NVIDIA 亦为既有股东），估值约 110 亿美元——较 2025-01 的约 33 亿美元估值增长两倍多；融资时公司表示考虑潜在 IPO；2026-07 再传约 220 亿美元估值员工股转让（tender offer）洽谈（单源报道）。公司上年 ARR 约 3.3 亿美元。来源：Bloomberg/TechCrunch（2026-02-04）。（2026-09 官方博客提及 Series D 由 Wellington/T. Rowe Price 领投，与 TechCrunch 2026-02-04「红杉领投」报道冲突，双源并存待核。）",
    "stage": "",
    "player": "",
    "url": "",
@@ -164783,7 +164793,10 @@
    "desc": "OpenAI 于 2019 年 2 月发布的 GPT-2 论文，Alec Radford、Jeffrey Wu、Rewon Child、David Luan、Dario Amodei、Ilya Sutskever 署名。以约 40GB 高质量网页文本 WebText 训练 15 亿参数语言模型，证明足够大的语言模型可在无监督设定下学会执行问答、翻译、摘要等多种任务（zero-shot 设定），并提出因滥用顾虑分阶段放行权重的负责任发布策略，是生成式大模型时代的关键节点。来源：OpenAI（2026-11-20 检索）。",
    "dim": 8,
    "year": 2019,
-   "link": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf"
+   "link": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+   "xid": {
+    "semantic_scholar": "CorpusId:160025533"
+   }
   },
   {
    "id": "paper:VGG",
@@ -165202,7 +165215,10 @@
    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
    "year": 2026,
    "density": null,
-   "extension": 2
+   "extension": 2,
+   "xid": {
+    "epoch": "Gemini 4 Neon"
+   }
   }
  ],
  "links": [
@@ -167498,7 +167514,7 @@
   },
   {
    "source": "concept_11-68",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -169743,7 +169759,7 @@
   },
   {
    "source": "concept_L16-96",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -170223,7 +170239,7 @@
   },
   {
    "source": "concept_L17-109",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -170568,7 +170584,7 @@
   },
   {
    "source": "concept_10-14",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -176563,12 +176579,12 @@
   },
   {
    "source": "concept_L27-149",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
    "source": "concept_L27-150",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -177082,7 +177098,7 @@
    "type": "player"
   },
   {
-   "source": "concept_L29-16",
+   "source": "person_16",
    "target": "company_14-9",
    "type": "player"
   },
@@ -177153,7 +177169,7 @@
   },
   {
    "source": "concept_L29-26",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player"
   },
   {
@@ -188827,7 +188843,7 @@
    "type": "person"
   },
   {
-   "source": "concept_L29-16",
+   "source": "person_16",
    "target": "person_new_23",
    "type": "person"
   },
@@ -188857,12 +188873,12 @@
    "type": "person"
   },
   {
-   "source": "concept_L29-16",
+   "source": "person_16",
    "target": "person_new_01",
    "type": "person"
   },
   {
-   "source": "concept_L29-16",
+   "source": "person_16",
    "target": "person_new_15",
    "type": "person"
   },
@@ -190248,7 +190264,7 @@
   },
   {
    "source": "event:2023-05:NVIDIA市值破万亿",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "person"
   },
   {
@@ -190653,7 +190669,7 @@
   },
   {
    "source": "event:2026-09:NVIDIA收购HuggingFace",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "person"
   },
   {
@@ -190963,7 +190979,7 @@
   },
   {
    "source": "event:2025-07:NVIDIA市值4万亿",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "person"
   },
   {
@@ -192218,7 +192234,7 @@
   },
   {
    "source": "region:上海",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "related"
   },
   {
@@ -192663,7 +192679,7 @@
   },
   {
    "source": "region:张江",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "related"
   },
   {
@@ -192994,11 +193010,6 @@
   {
    "source": "institution:微软研究院",
    "target": "region:西雅图",
-   "type": "related"
-  },
-  {
-   "source": "institution:上海AILab",
-   "target": "region:张江",
    "type": "related"
   },
   {
@@ -198213,7 +198224,7 @@
   },
   {
    "source": "standard:California-SB942",
-   "target": "event:2026:加州SB942生效",
+   "target": "event:2026-01:加州SB942生效",
    "type": "timeline"
   },
   {
@@ -203048,7 +203059,7 @@
   },
   {
    "source": "event:2023:上海AI-Lab风乌",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "participant"
   },
   {
@@ -211190,7 +211201,7 @@
   },
   {
    "source": "event:2023-10:拜登AI行政令EO14110",
-   "target": "event:2026:加州SB942生效",
+   "target": "event:2026-01:加州SB942生效",
    "type": "timeline"
   },
   {
@@ -217475,12 +217486,12 @@
   },
   {
    "source": "company_14-19",
-   "target": "event:2026:直播电商监管办法",
+   "target": "event:2026-02:直播电商监管办法",
    "type": "timeline"
   },
   {
    "source": "company_R72-2",
-   "target": "event:2026:直播电商监管办法",
+   "target": "event:2026-02:直播电商监管办法",
    "type": "timeline"
   },
   {
@@ -229825,7 +229836,7 @@
   },
   {
    "source": "concept_1-24",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related"
   },
   {
@@ -244620,7 +244631,7 @@
   },
   {
    "source": "concept_L26-35",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related"
   },
   {
@@ -244720,7 +244731,7 @@
   },
   {
    "source": "concept_L26-54",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related"
   },
   {
@@ -262304,7 +262315,7 @@
    "type": "timeline"
   },
   {
-   "source": "concept_L29-16",
+   "source": "person_16",
    "target": "year_1993",
    "type": "timeline"
   },
@@ -263454,7 +263465,7 @@
    "type": "timeline"
   },
   {
-   "source": "company_14-35",
+   "source": "institution:上海AILab",
    "target": "year_2020",
    "type": "timeline"
   },
@@ -268169,7 +268180,7 @@
    "type": "timeline"
   },
   {
-   "source": "event:2026:直播电商监管办法",
+   "source": "event:2026-02:直播电商监管办法",
    "target": "year_2026",
    "type": "timeline"
   },
@@ -268219,7 +268230,7 @@
    "type": "timeline"
   },
   {
-   "source": "event:2026:加州SB942生效",
+   "source": "event:2026-01:加州SB942生效",
    "target": "year_2026",
    "type": "timeline"
   },
@@ -275249,22 +275260,22 @@
    "type": "timeline"
   },
   {
-   "source": "event:2026:手语数字人国标GBT47517发布",
+   "source": "event:2026-04:手语数字人国标GBT47517发布",
    "target": "concept_R191-2",
    "type": "timeline"
   },
   {
-   "source": "event:2026:手语数字人国标GBT47517发布",
+   "source": "event:2026-04:手语数字人国标GBT47517发布",
    "target": "region:中国",
    "type": "related"
   },
   {
-   "source": "event:2026:手语数字人国标GBT47517发布",
+   "source": "event:2026-04:手语数字人国标GBT47517发布",
    "target": "concept_R173-7",
    "type": "related"
   },
   {
-   "source": "event:2026:手语数字人国标GBT47517发布",
+   "source": "event:2026-04:手语数字人国标GBT47517发布",
    "target": "event:2023:无障碍环境建设法施行",
    "type": "related"
   },
@@ -280411,7 +280422,7 @@
   },
   {
    "source": "concept_R224-4",
-   "target": "event:2026:直播电商监管办法",
+   "target": "event:2026-02:直播电商监管办法",
    "type": "related"
   },
   {
@@ -293759,7 +293770,7 @@
   },
   {
    "source": "concept_R303-2",
-   "target": "event:2026:直播电商监管办法",
+   "target": "event:2026-02:直播电商监管办法",
    "type": "timeline"
   },
   {
@@ -336616,7 +336627,7 @@
   },
   {
    "source": "event:2023-06:UniAD获CVPR2023最佳论文(Planning-oriented Autonomous Driving Best Paper)",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player",
    "desc": "UniAD成果所属实验室"
   },
@@ -340202,7 +340213,7 @@
   },
   {
    "source": "event:2022-12:UniAD论文发布(arXiv2212.07756 Planning-oriented Autonomous Driving 上海AI实验室全栈统一)",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player",
    "desc": "双钥核验（共现/主体覆盖）：OpenDriveLab（上海AI实验室）"
   },
@@ -340298,7 +340309,7 @@
   },
   {
    "source": "event:2022-03:BEVFormer论文发布(arXiv2203.17270 OpenDriveLab 时空BEV Transformer ECCV2022)",
-   "target": "company_14-35",
+   "target": "institution:上海AILab",
    "type": "player",
    "desc": "双钥核验（共现/主体覆盖）：OpenDriveLab（上海AI实验室）"
   },
@@ -349279,7 +349290,7 @@
   },
   {
    "source": "event:2026-10:NVIDIA-GTC-柏林大会开幕",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related",
    "label": "",
    "year": null,
@@ -349287,7 +349298,7 @@
   },
   {
    "source": "event:2026-10:NVIDIA-GTC-Berlin-keynote-Vera-Rubin-DSX",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related",
    "label": "",
    "year": null,
@@ -349759,7 +349770,7 @@
   },
   {
    "source": "hardware:Feynman",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related",
    "label": "",
    "year": null,
@@ -349959,7 +349970,7 @@
   },
   {
    "source": "event:2016-04:NVIDIA-DGX1深度学习超算发布",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related",
    "label": "",
    "year": null,
@@ -351591,7 +351602,7 @@
   },
   {
    "source": "event:2024-03:NVIDIA-GTC发布NIM微服务",
-   "target": "concept_L29-16",
+   "target": "person_16",
    "type": "related",
    "label": "",
    "year": null,
@@ -366282,6 +366293,46 @@
    "label": "",
    "year": null,
    "desc": "同月内 Gemini 产品线连续动作"
+  },
+  {
+   "source": "event:2026:清朗AI乱象专项",
+   "target": "institution:CAC",
+   "type": "player"
+  },
+  {
+   "source": "event:2026:清朗AI乱象专项",
+   "target": "policy:拟人化互动服务暂行办法",
+   "type": "related"
+  },
+  {
+   "source": "event:2026:第四范式扭亏",
+   "target": "company_14-90",
+   "type": "player"
+  },
+  {
+   "source": "event:2026:Suno-v6-ElevenLabs",
+   "target": "company_14-42",
+   "type": "player"
+  },
+  {
+   "source": "event:2026:Suno-v6-ElevenLabs",
+   "target": "company_14-43",
+   "type": "player"
+  },
+  {
+   "source": "event:2026:Meta收购Manus被否",
+   "target": "product:Manus",
+   "type": "player"
+  },
+  {
+   "source": "event:2026:Meta收购Manus被否",
+   "target": "event:2025-03:Manus发布",
+   "type": "related"
+  },
+  {
+   "source": "event:2026:Meta收购Manus被否",
+   "target": "event:2026-10:商务部拟增列23项AI技术出口管制",
+   "type": "related"
   }
  ]
 }
