@@ -432,7 +432,7 @@ function showDetail(id) {
     (yr ? `<span class="tag">${yr.slice(3)}</span>` : '') +
     `<span class="tag">度 ${deg.get(id) || 0}</span>`;
   $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
-  const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段（管线未并入 link，只读消费）
+  const src = n.detail || n.link || n.url;   // 兜底序：detail（本地详情册）→link（一手 http）→url（清单 CSV）
   $('#d-link').innerHTML = src
     ? srcLink(src)
     : `<div class="nolink">无一手来源链接</div>`;
@@ -573,7 +573,7 @@ function fitCamera() {
         const byId = new Map(full.nodes.map(n => [n.id, n]));
         for (const n of DATA.nodes) {
           const f = byId.get(n.id);
-          if (f) Object.assign(n, { desc: f.desc || '', url: f.url || '', link: f.link || '', xid: f.xid, stage: f.stage || '', player: f.player || '' });
+          if (f) Object.assign(n, { desc: f.desc || '', url: f.url || '', link: f.link || '', detail: f.detail || '', xid: f.xid, stage: f.stage || '', player: f.player || '' });
         }
         window.__KG_FULL = true;
         console.log('[前端] 骨架模式：全量 desc 后台补全完成');

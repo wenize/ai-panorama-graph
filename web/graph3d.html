@@ -107,7 +107,7 @@ const index = [];   // [nodeObj, name, type]
       deg.set(l.target, (deg.get(l.target) || 0) + 1);
     }
     const nodes = DATA.nodes.map(n => ({
-      id: n.id, name: n.name, type: n.type, dim: n.dim, year: n.year, desc: n.desc, link: n.link, url: n.url,
+      id: n.id, name: n.name, type: n.type, dim: n.dim, year: n.year, desc: n.desc, link: n.link, url: n.url, detail: n.detail,
       color: typeColor(n.type),
       val: 0.6 + Math.log2(1 + (deg.get(n.id) || 0)) * 0.8,
     }));
@@ -159,7 +159,7 @@ function showDetail(n) {
     `<span class="tag">维度 ${n.dim}</span>` +
     (typeof n.year === 'number' ? `<span class="tag">${n.year}</span>` : '');
   $('#d-desc').textContent = n.desc || '（该实体暂无描述）';
-  const src = n.link || n.url;   // 兜底：清单 CSV 节点带 url 字段
+  const src = n.detail || n.link || n.url;   // 兜底序：detail（本地详情册）→link（一手 http）→url（清单 CSV）
   $('#d-link').innerHTML = src ? srcLink(src) : '';
   $('#detail').classList.add('show');
 }
